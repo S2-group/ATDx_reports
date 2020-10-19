@@ -1,0 +1,425 @@
+[
+    {
+        "key": "AW8WGBUsVI--xHvmoCl4",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-ems:ems/boco/src/main/java/org/onap/vfc/nfvo/emsdriver/collector/alarm/MsgType.java",
+        "project": "onap_vfc-nfvo-driver-ems",
+        "line": 33,
+        "hash": "3a01ec13bbf2dac2057f9cd1c49e37f8",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 15,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make value a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-07-12T04:05:10+0200",
+        "updateDate": "2019-12-18T00:00:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGBVpVI--xHvmoCn1",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-driver-ems:ems/boco/src/main/java/org/onap/vfc/nfvo/emsdriver/northbound/client/HttpClientFactory.java",
+        "project": "onap_vfc-nfvo-driver-ems",
+        "line": 32,
+        "hash": "11d1c19c276393732946eed29e04055a",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-12T04:05:10+0200",
+        "updateDate": "2019-12-18T00:00:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGBUYVI--xHvmoClS",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-driver-ems:ems/boco/src/main/java/org/onap/vfc/nfvo/emsdriver/taskscheduler/QuartzManager.java",
+        "project": "onap_vfc-nfvo-driver-ems",
+        "line": 27,
+        "hash": "de9355bb53d28aa350a72f7d372de416",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 13,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-12T04:05:10+0200",
+        "updateDate": "2019-12-18T00:00:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGBUyVI--xHvmoCmT",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-driver-ems:ems/boco/src/main/java/org/onap/vfc/nfvo/emsdriver/collector/TaskThread.java",
+        "project": "onap_vfc-nfvo-driver-ems",
+        "line": 559,
+        "hash": "023f1560ea4f8bbd4921196a87ea6114",
+        "textRange": {
+            "startLine": 559,
+            "endLine": 559,
+            "startOffset": 14,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-28T07:28:33+0200",
+        "updateDate": "2019-12-18T00:00:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGBWFVI--xHvmoCpB",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-driver-ems:ems/boco/src/main/java/org/onap/vfc/nfvo/emsdriver/serviceregister/MsbConfiguration.java",
+        "project": "onap_vfc-nfvo-driver-ems",
+        "line": 18,
+        "hash": "57dd352673d4e3f26c170931c67eef7f",
+        "textRange": {
+            "startLine": 18,
+            "endLine": 18,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-12T04:05:10+0200",
+        "updateDate": "2019-12-18T00:00:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGBWDVI--xHvmoCpA",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-driver-ems:ems/boco/src/main/java/org/onap/vfc/nfvo/emsdriver/serviceregister/MsbRestServiceProxy.java",
+        "project": "onap_vfc-nfvo-driver-ems",
+        "line": 28,
+        "hash": "2de6378ada3f89076c72255be4e87993",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 13,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-12T04:05:10+0200",
+        "updateDate": "2019-12-18T00:00:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGBUsVI--xHvmoCl6",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-ems:ems/boco/src/main/java/org/onap/vfc/nfvo/emsdriver/collector/alarm/MsgType.java",
+        "project": "onap_vfc-nfvo-driver-ems",
+        "line": 35,
+        "hash": "7ba709b14e744ad5c81755e81eb9d05d",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 18,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make type a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-03-20T07:20:27+0100",
+        "updateDate": "2019-12-18T00:00:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGBUsVI--xHvmoCl5",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-ems:ems/boco/src/main/java/org/onap/vfc/nfvo/emsdriver/collector/alarm/MsgType.java",
+        "project": "onap_vfc-nfvo-driver-ems",
+        "line": 34,
+        "hash": "d29eb809cd7e712070b86a449a5f2e82",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 18,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make name a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-03-20T07:20:27+0100",
+        "updateDate": "2019-12-18T00:00:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGBVYVI--xHvmoCnm",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-driver-ems:ems/boco/src/main/java/org/onap/vfc/nfvo/emsdriver/commons/utils/XmlUtil.java",
+        "project": "onap_vfc-nfvo-driver-ems",
+        "line": 26,
+        "hash": "83dc4d1d309610fd069b232fce135842",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-12T04:05:10+0200",
+        "updateDate": "2019-12-18T00:00:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGBVKVI--xHvmoCnX",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-driver-ems:ems/boco/src/main/java/org/onap/vfc/nfvo/emsdriver/commons/utils/VarExprParser.java",
+        "project": "onap_vfc-nfvo-driver-ems",
+        "line": 28,
+        "hash": "f31fb1d1d17f6928916081aa910347d1",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 24,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-03-20T11:19:12+0100",
+        "updateDate": "2019-12-18T00:00:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGBV1VI--xHvmoCog",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-driver-ems:ems/boco/src/main/java/org/onap/vfc/nfvo/emsdriver/northbound/client/HttpClientUtil.java",
+        "project": "onap_vfc-nfvo-driver-ems",
+        "line": 35,
+        "hash": "a503385b03fa1ac59cac2d8b27cf557c",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-12T04:05:10+0200",
+        "updateDate": "2019-12-18T00:00:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGBWOVI--xHvmoCpL",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-ems:ems/boco/src/main/java/org/onap/vfc/nfvo/emsdriver/messagemgr/MessageChannel.java",
+        "project": "onap_vfc-nfvo-driver-ems",
+        "line": 40,
+        "hash": "dd00d2bb3d364744d70574904ea7529f",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 39,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-23T05:36:53+0100",
+        "updateDate": "2019-12-18T00:00:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGBWMVI--xHvmoCpK",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-driver-ems:ems/boco/src/main/java/org/onap/vfc/nfvo/emsdriver/messagemgr/MessageChannelFactory.java",
+        "project": "onap_vfc-nfvo-driver-ems",
+        "line": 21,
+        "hash": "3aacd16c83bb6215f1d72faf65b7945c",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 13,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-12T04:05:10+0200",
+        "updateDate": "2019-12-18T00:00:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGBVRVI--xHvmoCnh",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-driver-ems:ems/boco/src/main/java/org/onap/vfc/nfvo/emsdriver/commons/utils/DateUtil.java",
+        "project": "onap_vfc-nfvo-driver-ems",
+        "line": 23,
+        "hash": "2f32fbe171421933b8f7e06fc80451e2",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-09-27T06:20:08+0200",
+        "updateDate": "2019-12-18T00:00:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGBVOVI--xHvmoCng",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-driver-ems:ems/boco/src/main/java/org/onap/vfc/nfvo/emsdriver/commons/utils/StringUtil.java",
+        "project": "onap_vfc-nfvo-driver-ems",
+        "line": 24,
+        "hash": "e380d4e585b1fa254bf24c346786baeb",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 13,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-12T04:05:10+0200",
+        "updateDate": "2019-12-18T00:00:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

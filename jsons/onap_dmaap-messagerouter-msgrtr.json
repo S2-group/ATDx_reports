@@ -1,0 +1,1716 @@
+[
+    {
+        "key": "AW8V7WB8KAJj2R5K2q8w",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/impl/UIServiceImpl.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 170,
+        "hash": "f9c585aa34181a70945e3185fd49b697",
+        "textRange": {
+            "startLine": 170,
+            "endLine": 170,
+            "startOffset": 42,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.kafka.common.errors.TopicExistsException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WBzKAJj2R5K2q8o",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/impl/AdminServiceImpl.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 92,
+        "hash": "7e8a05b59f6ace6638a94e06feea5d31",
+        "textRange": {
+            "startLine": 92,
+            "endLine": 92,
+            "startOffset": 65,
+            "endOffset": 78
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WBqKAJj2R5K2q8n",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/TopicService.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 51,
+        "hash": "130b9ba2341339277cc385b9da556395",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 53,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WBqKAJj2R5K2q8m",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/TopicService.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 50,
+        "hash": "d8dc282bea91598e2ba4862f766e89da",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 50,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7V9EKAJj2R5K2q6Q",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/backends/kafka/KafkaConsumerCache.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 225,
+        "hash": "ce0f06922cde1ed0be5f7aae8222aa95",
+        "textRange": {
+            "startLine": 225,
+            "endLine": 225,
+            "startOffset": 25,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7V9EKAJj2R5K2q6P",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/backends/kafka/KafkaConsumerCache.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 214,
+        "hash": "0db5c92bf7c70297f5b6bff79e5643e4",
+        "textRange": {
+            "startLine": 214,
+            "endLine": 214,
+            "startOffset": 23,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WDWKAJj2R5K2q-d",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/impl/TopicServiceImpl.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 313,
+        "hash": "239803d38ca5511e8143e3498d430e78",
+        "textRange": {
+            "startLine": 313,
+            "endLine": 313,
+            "startOffset": 46,
+            "endOffset": 72
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.dmaap.dmf.mr.exception.DMaaPAccessDeniedException' which is a subclass of 'org.onap.dmaap.dmf.mr.CambriaApiException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-14T15:39:23+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WDWKAJj2R5K2q-c",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/impl/TopicServiceImpl.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 142,
+        "hash": "23e266757cb66b23f93e02c2fee60296",
+        "textRange": {
+            "startLine": 142,
+            "endLine": 142,
+            "startOffset": 60,
+            "endOffset": 73
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-14T15:39:23+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WDWKAJj2R5K2q-b",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/impl/TopicServiceImpl.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 118,
+        "hash": "02bd760d1ca224047b6be08af7a45ff3",
+        "textRange": {
+            "startLine": 118,
+            "endLine": 118,
+            "startOffset": 57,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-14T15:39:23+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WHmKAJj2R5K2rAP",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/CambriaApiException.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 36,
+        "hash": "153e02986147e3781b1f512915cb96b0",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 33,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"errRes\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-09-06T12:01:38+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WAnKAJj2R5K2q8S",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/resources/streamReaders/CambriaRawStreamReader.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 49,
+        "hash": "ae57a7f4f1570ce9e3b84924060e7c64",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 73,
+            "endOffset": 92
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.dmaap.dmf.mr.CambriaApiException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7V_rKAJj2R5K2q7p",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/metrics/publisher/DMaaPCambriaClientFactory.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 48,
+        "hash": "0d84a4eea290979c1237c619c6db63c0",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 13,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7V_rKAJj2R5K2q7o",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/metrics/publisher/DMaaPCambriaClientFactory.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 236,
+        "hash": "b441c531be8e115d183a0d5a608242a9",
+        "textRange": {
+            "startLine": 236,
+            "endLine": 236,
+            "startOffset": 31,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7V_iKAJj2R5K2q7i",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/metrics/publisher/CambriaPublisherUtility.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 36,
+        "hash": "696a5de8b61f2ea1f60cb19de439c093",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 13,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7V_iKAJj2R5K2q7h",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/metrics/publisher/CambriaPublisherUtility.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 56,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-14T15:39:23+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7V_rKAJj2R5K2q7n",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/metrics/publisher/DMaaPCambriaClientFactory.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 196,
+        "hash": "2d51663ac8693ddfefbf01b1a5d87023",
+        "textRange": {
+            "startLine": 196,
+            "endLine": 196,
+            "startOffset": 31,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7V-0KAJj2R5K2q7L",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/metrics/publisher/impl/DMaaPCambriaConsumerImpl.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 68,
+        "hash": "ff6ceea32c5303250117cb41718729f2",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 8,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WAwKAJj2R5K2q8V",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/resources/streamReaders/CambriaTextStreamReader.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 51,
+        "hash": "655e585ad95532b3feec29a00e1056d8",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 74,
+            "endOffset": 93
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.dmaap.dmf.mr.CambriaApiException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7V84KAJj2R5K2q6G",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/backends/kafka/Kafka011Consumer.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 73,
+        "hash": "a466aeb7cc46abf70cf15db66bd0cfd3",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 38,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-14T15:39:23+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7V9fKAJj2R5K2q60",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/backends/kafka/KafkaPublisher.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 60,
+        "hash": "d28b5bca4d449a84820f5c76f2328bb9",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 82,
+            "endOffset": 113
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.att.nsa.drumlin.till.nv.rrNvReadable$missingReqdSetting', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WEcKAJj2R5K2q_U",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/utils/ConfigurationReader.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 163,
+        "hash": "78c6af7b1df9abb7b426f5503d88d90c",
+        "textRange": {
+            "startLine": 163,
+            "endLine": 163,
+            "startOffset": 10,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.att.nsa.drumlin.till.nv.rrNvReadable$missingReqdSetting', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-10-11T00:37:20+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WEcKAJj2R5K2q_V",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/utils/ConfigurationReader.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 163,
+        "hash": "78c6af7b1df9abb7b426f5503d88d90c",
+        "textRange": {
+            "startLine": 163,
+            "endLine": 163,
+            "startOffset": 43,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.att.nsa.drumlin.till.nv.rrNvReadable$invalidSettingValue', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-10-11T00:37:20+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7V_QKAJj2R5K2q7d",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/metrics/publisher/impl/CambriaBaseClient.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 70,
+        "hash": "7cbca30de60877b6ee73494ff8708b93",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 58,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-14T15:39:23+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WARKAJj2R5K2q75",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/resources/CambriaOutboundEventStream.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 191,
+        "hash": "9436334d57caa6a9b05f44e9b099cbcd",
+        "textRange": {
+            "startLine": 191,
+            "endLine": 191,
+            "startOffset": 60,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.dmaap.dmf.mr.CambriaApiException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-14T15:39:23+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WARKAJj2R5K2q8B",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/resources/CambriaOutboundEventStream.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 382,
+        "hash": "6e3332796a7072a73458418f8410cc51",
+        "textRange": {
+            "startLine": 382,
+            "endLine": 382,
+            "startOffset": 61,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-14T15:39:23+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WARKAJj2R5K2q76",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/resources/CambriaOutboundEventStream.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 243,
+        "hash": "687eda5fa14284b02db591381af01a66",
+        "textRange": {
+            "startLine": 243,
+            "endLine": 243,
+            "startOffset": 89,
+            "endOffset": 102
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-14T15:39:23+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7V-MKAJj2R5K2q7B",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/backends/memory/MemoryQueuePublisher.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 64,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 14,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7V9xKAJj2R5K2q66",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/backends/memory/MemoryQueue.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 134,
+        "hash": "29401e0923088c769b2cf76ab91921ce",
+        "textRange": {
+            "startLine": 134,
+            "endLine": 134,
+            "startOffset": 13,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make offset a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WCtKAJj2R5K2q9P",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/impl/EventsServiceImpl.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 381,
+        "hash": "44040bc7afe7f6d2ec06d73ef971284b",
+        "textRange": {
+            "startLine": 381,
+            "endLine": 381,
+            "startOffset": 10,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.att.nsa.configs.ConfigDbException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-07-16T13:41:21+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WCtKAJj2R5K2q9U",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/impl/EventsServiceImpl.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 490,
+        "hash": "8ef6dc63815f2c2565edbda6eef195d7",
+        "textRange": {
+            "startLine": 490,
+            "endLine": 490,
+            "startOffset": 29,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.att.nsa.security.ReadWriteSecuredResource$AccessDeniedException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-07-16T13:41:21+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WCtKAJj2R5K2q9T",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/impl/EventsServiceImpl.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 490,
+        "hash": "8ef6dc63815f2c2565edbda6eef195d7",
+        "textRange": {
+            "startLine": 490,
+            "endLine": 490,
+            "startOffset": 10,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.att.nsa.configs.ConfigDbException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-07-16T13:41:21+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WCtKAJj2R5K2q9Q",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/impl/EventsServiceImpl.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 381,
+        "hash": "44040bc7afe7f6d2ec06d73ef971284b",
+        "textRange": {
+            "startLine": 381,
+            "endLine": 381,
+            "startOffset": 29,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.att.nsa.security.ReadWriteSecuredResource$AccessDeniedException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-07-16T13:41:21+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7V9xKAJj2R5K2q65",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/backends/memory/MemoryQueue.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 130,
+        "hash": "807154ae3b3fa085b778c7f4c847734b",
+        "textRange": {
+            "startLine": 130,
+            "endLine": 130,
+            "startOffset": 16,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make msg a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WEIKAJj2R5K2q-3",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/utils/DMaaPResponseBuilder.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 69,
+        "hash": "a3be88507119263b030477ddebfb14d0",
+        "textRange": {
+            "startLine": 69,
+            "endLine": 69,
+            "startOffset": 74,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7V84KAJj2R5K2q6H",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/backends/kafka/Kafka011Consumer.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 292,
+        "hash": "fc154ba760683fdba482ee36569f0c8c",
+        "textRange": {
+            "startLine": 292,
+            "endLine": 292,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-14T15:39:23+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7V8uKAJj2R5K2q5-",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/backends/kafka/Kafka011ConsumerUtil.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 39,
+        "hash": "d32d77e15828f9be34233410ae409d5f",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-14T15:39:23+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WEcKAJj2R5K2q_S",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/utils/ConfigurationReader.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 131,
+        "hash": "7ad0ad2e47d194ed602261e652aaccc5",
+        "textRange": {
+            "startLine": 131,
+            "endLine": 131,
+            "startOffset": 71,
+            "endOffset": 98
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.dmaap.dmf.mr.backends.kafka.KafkaConsumerCache$KafkaConsumerCacheException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-10-11T00:37:20+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WEcKAJj2R5K2q_Q",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/utils/ConfigurationReader.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 117,
+        "hash": "69a1b3e4169bd1344a5cc5d8649ae7c9",
+        "textRange": {
+            "startLine": 117,
+            "endLine": 117,
+            "startOffset": 8,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 12 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WBhKAJj2R5K2q8l",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/AdminService.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 52,
+        "hash": "ba4bec3d6547d4345b3cd1b378e420dc",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 58,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WBYKAJj2R5K2q8k",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/UIService.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 90,
+        "hash": "f1293dc95aed4961bcf57820f063871b",
+        "textRange": {
+            "startLine": 90,
+            "endLine": 90,
+            "startOffset": 42,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.kafka.common.errors.TopicExistsException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WBYKAJj2R5K2q8j",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/UIService.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 67,
+        "hash": "4f388c72fab05a047818d85b7e8d549a",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 50,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-10-11T00:37:20+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WDDKAJj2R5K2q98",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/impl/MMServiceImpl.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 427,
+        "hash": "d9417dfabf1fd760e4753d91ba01bd9d",
+        "textRange": {
+            "startLine": 427,
+            "endLine": 427,
+            "startOffset": 54,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.dmaap.dmf.mr.metabroker.Broker$TopicExistsException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WDDKAJj2R5K2q97",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/impl/MMServiceImpl.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 427,
+        "hash": "d9417dfabf1fd760e4753d91ba01bd9d",
+        "textRange": {
+            "startLine": 427,
+            "endLine": 427,
+            "startOffset": 31,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.att.nsa.security.ReadWriteSecuredResource$AccessDeniedException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WDDKAJj2R5K2q96",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/impl/MMServiceImpl.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 427,
+        "hash": "d9417dfabf1fd760e4753d91ba01bd9d",
+        "textRange": {
+            "startLine": 427,
+            "endLine": 427,
+            "startOffset": 12,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.att.nsa.configs.ConfigDbException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WIJKAJj2R5K2rA6",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/mr/apiServer/metrics/cambria/DMaaPMetricsSender.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 148,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 148,
+            "endLine": 148,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-14T15:39:23+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WHIKAJj2R5K2rAM",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/exception/ErrorResponse.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 46,
+        "hash": "504cf35cde2a071c67759dd9664b5171",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 8,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WARKAJj2R5K2q78",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/resources/CambriaOutboundEventStream.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 269,
+        "hash": "eba87027cf52bd79127a435cb13e75a1",
+        "textRange": {
+            "startLine": 269,
+            "endLine": 269,
+            "startOffset": 25,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-14T15:39:23+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WEIKAJj2R5K2q-1",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/utils/DMaaPResponseBuilder.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 47,
+        "hash": "16aa5f2740ec7cc04aa70ca55e20c681",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WD0KAJj2R5K2q-u",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/utils/DMaaPCuratorFactory.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 38,
+        "hash": "61605f6cb316f6e76a2dbac10c01df05",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 13,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WF7KAJj2R5K2q_z",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/beans/DMaaPKafkaConsumerFactory.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 78,
+        "hash": "2a10613c6317f6e395e987e2eec2bf87",
+        "textRange": {
+            "startLine": 78,
+            "endLine": 78,
+            "startOffset": 10,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.att.nsa.drumlin.till.nv.rrNvReadable$missingReqdSetting', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-14T15:39:23+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WDDKAJj2R5K2q90",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/impl/MMServiceImpl.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 341,
+        "hash": "a464e127b40e12bfc1f08d861da0bc4f",
+        "textRange": {
+            "startLine": 341,
+            "endLine": 341,
+            "startOffset": 70,
+            "endOffset": 90
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.dmaap.dmf.mr.metabroker.Broker$TopicExistsException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WDDKAJj2R5K2q9z",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/impl/MMServiceImpl.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 341,
+        "hash": "a464e127b40e12bfc1f08d861da0bc4f",
+        "textRange": {
+            "startLine": 341,
+            "endLine": 341,
+            "startOffset": 47,
+            "endOffset": 68
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.att.nsa.security.ReadWriteSecuredResource$AccessDeniedException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WDDKAJj2R5K2q9y",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/impl/MMServiceImpl.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 341,
+        "hash": "a464e127b40e12bfc1f08d861da0bc4f",
+        "textRange": {
+            "startLine": 341,
+            "endLine": 341,
+            "startOffset": 28,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.att.nsa.configs.ConfigDbException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WB8KAJj2R5K2q8t",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/service/impl/UIServiceImpl.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 111,
+        "hash": "8f0bcec4d47434c15b32bebab6e6ace4",
+        "textRange": {
+            "startLine": 111,
+            "endLine": 111,
+            "startOffset": 112,
+            "endOffset": 125
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-10-11T00:37:20+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WESKAJj2R5K2q_K",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/utils/Emailer.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 64,
+        "hash": "3634ec876af8a8ba6e15b37f236a3a10",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 65,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7WA5KAJj2R5K2q8Z",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/resources/streamReaders/CambriaStreamReader.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 54,
+        "hash": "7d9c47cea89d8fa35e49c7d034e00eed",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 61,
+            "endOffset": 80
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.dmaap.dmf.mr.CambriaApiException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V7V9EKAJj2R5K2q6R",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-msgrtr:src/main/java/org/onap/dmaap/dmf/mr/backends/kafka/KafkaConsumerCache.java",
+        "project": "onap_dmaap-messagerouter-msgrtr",
+        "line": 240,
+        "hash": "6c320b354485522e6892910faa05b410",
+        "textRange": {
+            "startLine": 240,
+            "endLine": 240,
+            "startOffset": 25,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-08-30T23:00:18+0200",
+        "updateDate": "2019-12-17T23:13:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

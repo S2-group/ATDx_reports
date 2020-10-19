@@ -1,0 +1,269 @@
+[
+    {
+        "key": "AWom3xWIgJaYv1rOHk4R",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-serversetup:src/main/java/org/apache/sling/testing/serversetup/instance/SlingInstanceManager.java",
+        "project": "apache_sling-org-apache-sling-testing-serversetup",
+        "line": 39,
+        "hash": "66206131a0ead633c2ece62fe3bb7fc7",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 93,
+            "endOffset": 108
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.testing.clients.ClientException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-06-15T17:00:53+0200",
+        "updateDate": "2019-04-16T17:58:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWom3xWigJaYv1rOHk41",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-serversetup:src/main/java/org/apache/sling/testing/serversetup/ServerSetup.java",
+        "project": "apache_sling-org-apache-sling-testing-serversetup",
+        "line": 193,
+        "hash": "31ab158d243abcd53f478a908f4e9f39",
+        "textRange": {
+            "startLine": 193,
+            "endLine": 193,
+            "startOffset": 30,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-04-29T16:01:27+0200",
+        "updateDate": "2019-04-16T17:58:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWom3xWigJaYv1rOHk40",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-serversetup:src/main/java/org/apache/sling/testing/serversetup/ServerSetup.java",
+        "project": "apache_sling-org-apache-sling-testing-serversetup",
+        "line": 127,
+        "hash": "22d608926f4753432e92c9736b050c21",
+        "textRange": {
+            "startLine": 127,
+            "endLine": 127,
+            "startOffset": 54,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-04-29T16:01:27+0200",
+        "updateDate": "2019-04-16T17:58:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWom3xVpgJaYv1rOHk34",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-serversetup:src/main/java/org/apache/sling/testing/serversetup/instance/SlingTestBase.java",
+        "project": "apache_sling-org-apache-sling-testing-serversetup",
+        "line": 262,
+        "hash": "8d122b01e332b3020a710d440dfee8c3",
+        "textRange": {
+            "startLine": 262,
+            "endLine": 262,
+            "startOffset": 47,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-04-29T16:01:27+0200",
+        "updateDate": "2019-04-16T17:58:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWom3xWNgJaYv1rOHk4Z",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-serversetup:src/main/java/org/apache/sling/testing/serversetup/jarexec/JarExecutor.java",
+        "project": "apache_sling-org-apache-sling-testing-serversetup",
+        "line": 134,
+        "hash": "92c28d0543fada9ba5433cec0a118670",
+        "textRange": {
+            "startLine": 134,
+            "endLine": 134,
+            "startOffset": 31,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-04-29T16:01:27+0200",
+        "updateDate": "2019-04-16T17:58:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWom3xWigJaYv1rOHk4-",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-serversetup:src/main/java/org/apache/sling/testing/serversetup/ServerSetup.java",
+        "project": "apache_sling-org-apache-sling-testing-serversetup",
+        "line": 145,
+        "hash": "c0a4636e14eb4f6b03cb2dde77b07d70",
+        "textRange": {
+            "startLine": 145,
+            "endLine": 145,
+            "startOffset": 28,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-04-29T16:01:27+0200",
+        "updateDate": "2019-04-16T17:58:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWom3xVpgJaYv1rOHk33",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-serversetup:src/main/java/org/apache/sling/testing/serversetup/instance/SlingTestBase.java",
+        "project": "apache_sling-org-apache-sling-testing-serversetup",
+        "line": 124,
+        "hash": "aa1ebda55437c99305e9fbb1b471d3fe",
+        "textRange": {
+            "startLine": 124,
+            "endLine": 124,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-06-15T17:00:53+0200",
+        "updateDate": "2019-04-16T17:58:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWom3xWdgJaYv1rOHk4x",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-serversetup:src/main/java/org/apache/sling/testing/serversetup/SetupPhase.java",
+        "project": "apache_sling-org-apache-sling-testing-serversetup",
+        "line": 22,
+        "hash": "478a1bd84c5003d1a7164d352199746b",
+        "textRange": {
+            "startLine": 22,
+            "endLine": 22,
+            "startOffset": 46,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-04-29T16:01:27+0200",
+        "updateDate": "2019-04-16T17:58:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWom3xWagJaYv1rOHk4u",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-serversetup:src/main/java/org/apache/sling/testing/serversetup/ServerSetupSingleton.java",
+        "project": "apache_sling-org-apache-sling-testing-serversetup",
+        "line": 25,
+        "hash": "8fc0a3a319bed46d25f436cae10e4457",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-04-29T16:01:27+0200",
+        "updateDate": "2019-04-16T17:58:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,292 @@
+[
+    {
+        "key": "AWo-tUDonu96bB9fd6xd",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-feature-io:src/main/java/org/apache/sling/feature/io/json/ConfigurationJSONWriter.java",
+        "project": "apache_sling-org-apache-sling-feature-io",
+        "hash": "4a3b955d7b5a770d6660663510eb831e",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 19,
+            "endOffset": 30
+        },
+        "flows": [],
+        "resolution": "FIXED",
+        "status": "CLOSED",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-04-25T11:58:43+0200",
+        "updateDate": "2020-04-24T11:08:06+0200",
+        "closeDate": "2020-04-24T11:08:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-tUDunu96bB9fd6xg",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-io:src/main/java/org/apache/sling/feature/io/artifacts/ArtifactManagerConfig.java",
+        "project": "apache_sling-org-apache-sling-feature-io",
+        "line": 67,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-25T11:58:43+0200",
+        "updateDate": "2019-06-11T14:19:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBcH4qbSa6uCmLeSSS4",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-io:src/main/java/org/apache/sling/feature/io/archive/ArchiveWriter.java",
+        "project": "apache_sling-org-apache-sling-feature-io",
+        "line": 52,
+        "hash": "3c47e7535113d7f9eea4c20aae446891",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 13,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-19T07:22:45+0100",
+        "updateDate": "2020-02-19T07:24:46+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGrcj7qp-JkKMtRTRUS",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-feature-io:src/main/java/org/apache/sling/feature/io/ConfiguratorUtil.java",
+        "project": "apache_sling-org-apache-sling-feature-io",
+        "line": 37,
+        "hash": "74a6fc6c4bb80296a3b41ccea9a995c4",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-12-23T09:30:00+0100",
+        "updateDate": "2020-04-24T11:08:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGrcj7qp-JkKMtRTRUR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-io:src/main/java/org/apache/sling/feature/io/ConfiguratorUtil.java",
+        "project": "apache_sling-org-apache-sling-feature-io",
+        "line": 73,
+        "hash": "318b582150f7480b3e1d9c507e8e0468",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-20T08:36:52+0200",
+        "updateDate": "2020-04-24T11:08:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGrcj7qp-JkKMtRTRUQ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-io:src/main/java/org/apache/sling/feature/io/ConfiguratorUtil.java",
+        "project": "apache_sling-org-apache-sling-feature-io",
+        "line": 60,
+        "hash": "318b582150f7480b3e1d9c507e8e0468",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-20T08:36:52+0200",
+        "updateDate": "2020-04-24T11:08:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-tUD-nu96bB9fd6x-",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-io:src/main/java/org/apache/sling/feature/io/IOUtils.java",
+        "project": "apache_sling-org-apache-sling-feature-io",
+        "line": 35,
+        "hash": "d870a9f9d3289b6a7805cd2b78894508",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 13,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-04-25T14:40:18+0200",
+        "updateDate": "2019-04-21T09:03:24+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-tUDMnu96bB9fd6w1",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-io:src/main/java/org/apache/sling/feature/io/json/JSONConstants.java",
+        "project": "apache_sling-org-apache-sling-feature-io",
+        "line": 24,
+        "hash": "6431c1e436f95af1b46bf3c7e32d667a",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 22,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-04-25T11:58:43+0200",
+        "updateDate": "2019-04-21T09:03:24+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGrcj68p-JkKMtRTRUP",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-feature-io:src/main/java/org/apache/sling/feature/io/CloseShieldWriter.java",
+        "project": "apache_sling-org-apache-sling-feature-io",
+        "line": 32,
+        "hash": "cc1f7c755f937b58be1bdc0bcb5df3c7",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-12-19T14:51:07+0100",
+        "updateDate": "2020-04-24T11:08:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-tUDSnu96bB9fd6w-",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-io:src/main/java/org/apache/sling/feature/io/json/ManifestUtils.java",
+        "project": "apache_sling-org-apache-sling-feature-io",
+        "line": 39,
+        "hash": "f8213c51888eb38e60b1193cd5b2791c",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 6,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-04-25T11:58:43+0200",
+        "updateDate": "2019-04-21T09:03:24+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

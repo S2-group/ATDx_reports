@@ -1,0 +1,228 @@
+[
+    {
+        "key": "AW8WK8WJ77yBFjGO77LC",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-sdnc-context-builder:src/main/java/org/onap/pomba/contextbuilder/sdnc/model/VnfTopologyIdentifier.java",
+        "project": "onap_logging-analytics-pomba-pomba-sdnc-context-builder",
+        "line": 73,
+        "hash": "f03bcaa8ddec681352cb2fc8c07658ce",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 11,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-11-04T22:30:44+0100",
+        "updateDate": "2019-12-18T00:22:24+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WK8XK77yBFjGO77LM",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-sdnc-context-builder:src/main/java/org/onap/pomba/contextbuilder/sdnc/model/VnfRequestInformation.java",
+        "project": "onap_logging-analytics-pomba-pomba-sdnc-context-builder",
+        "line": 75,
+        "hash": "41bd9b0b326788186f0037fb65d3832c",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 11,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-10-26T21:28:46+0200",
+        "updateDate": "2019-12-18T00:22:24+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WK8XC77yBFjGO77LL",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-sdnc-context-builder:src/main/java/org/onap/pomba/contextbuilder/sdnc/model/ServiceInstance.java",
+        "project": "onap_logging-analytics-pomba-pomba-sdnc-context-builder",
+        "line": 87,
+        "hash": "43aef5d70a81f1bed8bc7057df3ba3f9",
+        "textRange": {
+            "startLine": 87,
+            "endLine": 87,
+            "startOffset": 11,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-10-26T21:28:46+0200",
+        "updateDate": "2019-12-18T00:22:24+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WK8WZ77yBFjGO77LG",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-sdnc-context-builder:src/main/java/org/onap/pomba/contextbuilder/sdnc/model/VnfInstance.java",
+        "project": "onap_logging-analytics-pomba-pomba-sdnc-context-builder",
+        "line": 159,
+        "hash": "40023f8c44a7f42f03b8ce165ba13354",
+        "textRange": {
+            "startLine": 159,
+            "endLine": 159,
+            "startOffset": 11,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 27 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-10-26T21:28:46+0200",
+        "updateDate": "2019-12-18T00:22:24+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WK8Zv77yBFjGO77Lp",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-sdnc-context-builder:src/main/java/org/onap/pomba/contextbuilder/sdnc/handlers/VnfApiHandler.java",
+        "project": "onap_logging-analytics-pomba-pomba-sdnc-context-builder",
+        "line": 72,
+        "hash": "1cbef0b816d869186b7bf8e805db3550",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 58,
+            "endOffset": 67
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-12T23:06:49+0200",
+        "updateDate": "2019-12-18T00:22:24+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WK8Z677yBFjGO77Lr",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_logging-analytics-pomba-pomba-sdnc-context-builder:src/main/java/org/onap/pomba/contextbuilder/sdnc/exception/AuditException.java",
+        "project": "onap_logging-analytics-pomba-pomba-sdnc-context-builder",
+        "line": 27,
+        "hash": "d72cd3d05561d31296dab4031f8cd19d",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 17,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"httpStatus\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-10-09T21:36:22+0200",
+        "updateDate": "2019-12-18T00:22:24+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WK8aC77yBFjGO77Ls",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-sdnc-context-builder:src/main/java/org/onap/pomba/contextbuilder/sdnc/exception/AuditError.java",
+        "project": "onap_logging-analytics-pomba-pomba-sdnc-context-builder",
+        "line": 21,
+        "hash": "eb9a2ef4e71116a09c5e6d237a4cbcb9",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 13,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-10-26T21:28:46+0200",
+        "updateDate": "2019-12-18T00:22:24+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WK8X077yBFjGO77LV",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-sdnc-context-builder:src/main/java/org/onap/pomba/contextbuilder/sdnc/model/VfModule.java",
+        "project": "onap_logging-analytics-pomba-pomba-sdnc-context-builder",
+        "line": 86,
+        "hash": "5a8d8b10ae8dc94cdeef035088300966",
+        "textRange": {
+            "startLine": 86,
+            "endLine": 86,
+            "startOffset": 11,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-10-26T21:28:46+0200",
+        "updateDate": "2019-12-18T00:22:24+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

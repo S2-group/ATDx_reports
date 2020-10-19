@@ -1,0 +1,188 @@
+[
+    {
+        "key": "AW6lL-H_q7sQNeyHXTKK",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-esr-server:esr-mgr/src/main/java/org/onap/aai/esr/externalservice/aai/RelationshipProvider.java",
+        "project": "onap_aai-esr-server",
+        "line": 49,
+        "hash": "149fc14052fa5d897f2bc1d07581a401",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 32,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.ws.rs.WebApplicationException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-01T13:12:40+0100",
+        "updateDate": "2019-11-26T01:49:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-Hzq7sQNeyHXTJ7",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-esr-server:esr-mgr/src/main/java/org/onap/aai/esr/externalservice/aai/EmsRegisterProvider.java",
+        "project": "onap_aai-esr-server",
+        "line": 49,
+        "hash": "149fc14052fa5d897f2bc1d07581a401",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 32,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.ws.rs.WebApplicationException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-01-11T04:29:24+0100",
+        "updateDate": "2019-11-26T01:49:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-Hrq7sQNeyHXTJu",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-esr-server:esr-mgr/src/main/java/org/onap/aai/esr/externalservice/aai/VnfmRegisterProvider.java",
+        "project": "onap_aai-esr-server",
+        "line": 49,
+        "hash": "149fc14052fa5d897f2bc1d07581a401",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 32,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.ws.rs.WebApplicationException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-01-11T04:29:24+0100",
+        "updateDate": "2019-11-26T01:49:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-H4q7sQNeyHXTKD",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-esr-server:esr-mgr/src/main/java/org/onap/aai/esr/externalservice/aai/PnfRegisterProvider.java",
+        "project": "onap_aai-esr-server",
+        "line": 48,
+        "hash": "149fc14052fa5d897f2bc1d07581a401",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 32,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.ws.rs.WebApplicationException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-22T08:31:22+0200",
+        "updateDate": "2019-11-26T01:49:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-H1q7sQNeyHXTJ_",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-esr-server:esr-mgr/src/main/java/org/onap/aai/esr/externalservice/aai/VimRegisterProvider.java",
+        "project": "onap_aai-esr-server",
+        "line": 48,
+        "hash": "149fc14052fa5d897f2bc1d07581a401",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 32,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.ws.rs.WebApplicationException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-01-11T04:29:24+0100",
+        "updateDate": "2019-11-26T01:49:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-Hiq7sQNeyHXTJl",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-esr-server:esr-mgr/src/main/java/org/onap/aai/esr/externalservice/aai/NfvoRegisterProvider.java",
+        "project": "onap_aai-esr-server",
+        "line": 49,
+        "hash": "149fc14052fa5d897f2bc1d07581a401",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 32,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.ws.rs.WebApplicationException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-21T16:03:56+0100",
+        "updateDate": "2019-11-26T01:49:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "key": "AWosAoKX7getyiJUCKSS",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-thymeleaf:src/main/java/org/apache/sling/scripting/thymeleaf/internal/processor/SlingIncludeAttributeTagProcessor.java",
+        "project": "apache_sling-org-apache-sling-scripting-thymeleaf",
+        "line": 100,
+        "hash": "d86afbfe0fcd766bac5ac703c335b326",
+        "textRange": {
+            "startLine": 100,
+            "endLine": 100,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-01-09T12:39:11+0100",
+        "updateDate": "2019-04-17T17:55:12+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

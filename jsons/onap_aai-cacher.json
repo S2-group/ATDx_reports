@@ -1,0 +1,788 @@
+[
+    {
+        "key": "AW6lMtIN1IS1KOVSeyuS",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/model/CacheKey.java",
+        "project": "onap_aai-cacher",
+        "line": 30,
+        "hash": "6ac7a9f1e9745e527a5531ec8148b8fc",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make cacheKey a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtH41IS1KOVSeyuQ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/dmaap/consumer/AAIDmaapEventProcessor.java",
+        "project": "onap_aai-cacher",
+        "line": 155,
+        "hash": "5edd6ce9c8e36691845385ec8f3e5bdd",
+        "textRange": {
+            "startLine": 155,
+            "endLine": 155,
+            "startOffset": 63,
+            "endOffset": 82
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.google.gson.JsonSyntaxException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-22T21:03:05+0100",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtHv1IS1KOVSeyuL",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/dmaap/consumer/DmaapProcessor.java",
+        "project": "onap_aai-cacher",
+        "line": 31,
+        "hash": "1b1114f1efa9f9812661e8308cc4f5e7",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 45,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtIN1IS1KOVSeyud",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/model/CacheKey.java",
+        "project": "onap_aai-cacher",
+        "line": 43,
+        "hash": "44e21af526b9329fea7f0a6bbb0c4dec",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 18,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make parserStrategy a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtIN1IS1KOVSeyuc",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/model/CacheKey.java",
+        "project": "onap_aai-cacher",
+        "line": 41,
+        "hash": "5073e873024d370e3f6301f38d24011d",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make httpMethod a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtIN1IS1KOVSeyub",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/model/CacheKey.java",
+        "project": "onap_aai-cacher",
+        "line": 40,
+        "hash": "e3dcb42a8e636573a7b40ae3d46d0731",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make httpBody a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtIN1IS1KOVSeyua",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/model/CacheKey.java",
+        "project": "onap_aai-cacher",
+        "line": 39,
+        "hash": "2aae4c18338c20cda22fffdb31fd52d6",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 18,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make lastSyncEndTime a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtIN1IS1KOVSeyuZ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/model/CacheKey.java",
+        "project": "onap_aai-cacher",
+        "line": 38,
+        "hash": "e4a85370f370f19fee546745055d1342",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 18,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make lastSyncSuccessTime a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtIN1IS1KOVSeyuY",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/model/CacheKey.java",
+        "project": "onap_aai-cacher",
+        "line": 37,
+        "hash": "ecf7e788e946d4b38f4e8b322de02302",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 18,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make lastSyncStartTime a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtIN1IS1KOVSeyuX",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/model/CacheKey.java",
+        "project": "onap_aai-cacher",
+        "line": 36,
+        "hash": "a75f7bf2386be64fe59043abb34d1e8a",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 18,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make syncInterval a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtIN1IS1KOVSeyuW",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/model/CacheKey.java",
+        "project": "onap_aai-cacher",
+        "line": 34,
+        "hash": "95a0115cfdcf9e506cdc0d2f59c6fedb",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 18,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make timingIndicator a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtGs1IS1KOVSeytw",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/service/AuthorizationService.java",
+        "project": "onap_aai-cacher",
+        "line": 75,
+        "hash": "099cfe3ffe3de6cd90e40ab50b395088",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtGs1IS1KOVSeytv",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/service/AuthorizationService.java",
+        "project": "onap_aai-cacher",
+        "line": 66,
+        "hash": "df8c08d065aee5925d44c099a64d2d8e",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtIN1IS1KOVSeyuV",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/model/CacheKey.java",
+        "project": "onap_aai-cacher",
+        "line": 33,
+        "hash": "92010ae79679dcacf34ac293160eb6f4",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 18,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make URI a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtIN1IS1KOVSeyuU",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/model/CacheKey.java",
+        "project": "onap_aai-cacher",
+        "line": 32,
+        "hash": "860baa861b06b5b8af5781ba286ebd2a",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 18,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make module a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtIN1IS1KOVSeyuT",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/model/CacheKey.java",
+        "project": "onap_aai-cacher",
+        "line": 31,
+        "hash": "e228b29b73f41193ecd699567d255c73",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make baseUrl a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtJH1IS1KOVSeyu6",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/Application.java",
+        "project": "onap_aai-cacher",
+        "line": 55,
+        "hash": "bc1821a6ff81cc22a20823dd9b8408eb",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 50,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtFu1IS1KOVSeytD",
+        "rule": "java:S2885",
+        "severity": "MAJOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/service/tasks/ScheduledTaskConfig.java",
+        "project": "onap_aai-cacher",
+        "line": 41,
+        "hash": "74ecf63eb3d0fe631d5c9aa2934afb93",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 42,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make \"dateFormat\" an instance variable.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "BUG",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtFu1IS1KOVSeytB",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/service/tasks/ScheduledTaskConfig.java",
+        "project": "onap_aai-cacher",
+        "line": 38,
+        "hash": "9c3992a62462359522542e7b056d6f43",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 13,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtJa1IS1KOVSeyvO",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/util/RestClient.java",
+        "project": "onap_aai-cacher",
+        "line": 127,
+        "hash": "2b09b0b93be0e589187f528ecb4a5c7a",
+        "textRange": {
+            "startLine": 127,
+            "endLine": 127,
+            "startOffset": 66,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtI-1IS1KOVSeyuy",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/web/JerseyConfiguration.java",
+        "project": "onap_aai-cacher",
+        "line": 111,
+        "hash": "0285e6eea6d36962c14bbd7979f5d86a",
+        "textRange": {
+            "startLine": 111,
+            "endLine": 111,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtJa1IS1KOVSeyvA",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/util/RestClient.java",
+        "project": "onap_aai-cacher",
+        "line": 146,
+        "hash": "d1c42c95f8d86a6d1604a95b34309285",
+        "textRange": {
+            "startLine": 146,
+            "endLine": 146,
+            "startOffset": 66,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtJa1IS1KOVSeyu_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/util/RestClient.java",
+        "project": "onap_aai-cacher",
+        "line": 127,
+        "hash": "2b09b0b93be0e589187f528ecb4a5c7a",
+        "textRange": {
+            "startLine": 127,
+            "endLine": 127,
+            "startOffset": 66,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtHb1IS1KOVSeyuA",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/dmaap/consumer/AAIParentEventConsumer.java",
+        "project": "onap_aai-cacher",
+        "line": 130,
+        "hash": "bacf52a5feb27866f3cb59ef2bd5b186",
+        "textRange": {
+            "startLine": 130,
+            "endLine": 130,
+            "startOffset": 43,
+            "endOffset": 65
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.commons.configuration.ConfigurationException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtHb1IS1KOVSeyt5",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/dmaap/consumer/AAIParentEventConsumer.java",
+        "project": "onap_aai-cacher",
+        "line": 65,
+        "hash": "bce3ac33550c2921f7d921ce3240780d",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 90,
+            "endOffset": 99
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtHS1IS1KOVSeyt2",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/dmaap/consumer/ClientConsumer.java",
+        "project": "onap_aai-cacher",
+        "line": 29,
+        "hash": "492449f2b992d7b621b39daed0e10ed6",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 38,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMtI-1IS1KOVSeyux",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-cacher:src/main/java/org/onap/aai/cacher/web/JerseyConfiguration.java",
+        "project": "onap_aai-cacher",
+        "line": 78,
+        "hash": "0285e6eea6d36962c14bbd7979f5d86a",
+        "textRange": {
+            "startLine": 78,
+            "endLine": 78,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-31T17:10:32+0200",
+        "updateDate": "2019-11-26T01:53:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

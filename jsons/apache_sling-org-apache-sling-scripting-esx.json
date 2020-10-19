@@ -1,0 +1,290 @@
+[
+    {
+        "key": "AWoocNgEMflNeiYSIfXU",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-esx:src/main/java/org/apache/sling/scripting/esx/ModuleScript.java",
+        "project": "apache_sling-org-apache-sling-scripting-esx",
+        "line": 41,
+        "hash": "34ee47786614540b756793ff08b3ac1b",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make TEXT_FILE a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-24T16:09:46+0100",
+        "updateDate": "2019-04-17T01:17:11+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoocNgEMflNeiYSIfXT",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-esx:src/main/java/org/apache/sling/scripting/esx/ModuleScript.java",
+        "project": "apache_sling-org-apache-sling-scripting-esx",
+        "line": 36,
+        "hash": "c7fe6c2319ade53ceabb704851467458",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 22,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make RESOURCE_FILE a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-24T16:09:46+0100",
+        "updateDate": "2019-04-17T01:17:11+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoocNgEMflNeiYSIfXS",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-esx:src/main/java/org/apache/sling/scripting/esx/ModuleScript.java",
+        "project": "apache_sling-org-apache-sling-scripting-esx",
+        "line": 31,
+        "hash": "c41738cd5bf38c3be53a7d0a993edb0d",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make JSON_FILE a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-24T16:09:46+0100",
+        "updateDate": "2019-04-17T01:17:11+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoocNgEMflNeiYSIfXN",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-esx:src/main/java/org/apache/sling/scripting/esx/ModuleScript.java",
+        "project": "apache_sling-org-apache-sling-scripting-esx",
+        "line": 26,
+        "hash": "969937f499b65e9baadd7ddcd3856a68",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 22,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static JS_FILE\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-03-24T16:09:46+0100",
+        "updateDate": "2019-04-17T01:17:11+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoocNgEMflNeiYSIfXR",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-esx:src/main/java/org/apache/sling/scripting/esx/ModuleScript.java",
+        "project": "apache_sling-org-apache-sling-scripting-esx",
+        "line": 26,
+        "hash": "969937f499b65e9baadd7ddcd3856a68",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 22,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make JS_FILE a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-24T16:09:46+0100",
+        "updateDate": "2019-04-17T01:17:11+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoocNgEMflNeiYSIfXO",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-esx:src/main/java/org/apache/sling/scripting/esx/ModuleScript.java",
+        "project": "apache_sling-org-apache-sling-scripting-esx",
+        "line": 31,
+        "hash": "c41738cd5bf38c3be53a7d0a993edb0d",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static JSON_FILE\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-03-24T16:09:46+0100",
+        "updateDate": "2019-04-17T01:17:11+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoocNgEMflNeiYSIfXP",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-esx:src/main/java/org/apache/sling/scripting/esx/ModuleScript.java",
+        "project": "apache_sling-org-apache-sling-scripting-esx",
+        "line": 36,
+        "hash": "c7fe6c2319ade53ceabb704851467458",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 22,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static RESOURCE_FILE\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-03-24T16:09:46+0100",
+        "updateDate": "2019-04-17T01:17:11+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoocNgEMflNeiYSIfXQ",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-esx:src/main/java/org/apache/sling/scripting/esx/ModuleScript.java",
+        "project": "apache_sling-org-apache-sling-scripting-esx",
+        "line": 41,
+        "hash": "34ee47786614540b756793ff08b3ac1b",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static TEXT_FILE\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-03-24T16:09:46+0100",
+        "updateDate": "2019-04-17T01:17:11+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoocNfkMflNeiYSIfV6",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-esx:src/main/java/org/apache/sling/scripting/esx/plugins/SimpleResourceAdapterFactory.java",
+        "project": "apache_sling-org-apache-sling-scripting-esx",
+        "line": 30,
+        "hash": "7f9992c424c69b691370a4af81cff1df",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 33,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2017-03-24T16:09:46+0100",
+        "updateDate": "2019-04-17T01:17:11+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoocNfkMflNeiYSIfV7",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-esx:src/main/java/org/apache/sling/scripting/esx/plugins/SimpleResourceAdapterFactory.java",
+        "project": "apache_sling-org-apache-sling-scripting-esx",
+        "line": 34,
+        "hash": "4d1d37b7669f0371f55cfd6dbab0985f",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 33,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2017-03-24T16:09:46+0100",
+        "updateDate": "2019-04-17T01:17:11+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

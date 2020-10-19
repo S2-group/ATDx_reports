@@ -1,0 +1,1771 @@
+[
+    {
+        "key": "AW6ljdeCr36yrbKLPii5",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 38,
+        "hash": "fcb804d1e514e50e455add36cfe2390f",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 25,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_ELAPSED_TIME a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPii4",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 37,
+        "hash": "8f96dd49c19c7e37921acf753701dba6",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 25,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_RESPONSE_DESC a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPii3",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 36,
+        "hash": "d7fca4fff72d9ed2adfa4268fe295c4a",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 25,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_RESPONSE_CODE a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPii2",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 35,
+        "hash": "74e25f7f460780d2c1c84726215896df",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 25,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_STATUS_CODE a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPii1",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 34,
+        "hash": "f6ebfe3f40b32ddfaf7299a42f1e0555",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 25,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_PARTNER_NAME a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPii0",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 33,
+        "hash": "b9e23526af28745d28079a683cac4815",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 25,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_END_TIMESTAMP a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiiz",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 32,
+        "hash": "5ae5208c96394fd60acccd622f4b6131",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 25,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_BEGIN_TIMESTAMP a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiiy",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 31,
+        "hash": "865d5d56d2889fb473ff2770cacaabe0",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 25,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_ALERT_SEVERITY a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiix",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 30,
+        "hash": "8cca17f1afbcb3399c33836ea56212a3",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 25,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_REMOTE_HOST a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiiw",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 29,
+        "hash": "4cb88a5de0b0cf1cf76191da14194095",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 25,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_SERVER_FQDN a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljddCr36yrbKLPih5",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/dcae/composition/util/DcaeBeConstants.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 34,
+        "hash": "8fafc89111cc6f1bddee8cb2c162a3bf",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-04-12T14:16:30+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljddCr36yrbKLPih-",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/dcae/composition/util/DcaeBeConstants.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 41,
+        "hash": "aa7e1f1643060cf7fcff7241ad026fa9",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 14,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-04-12T14:16:30+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljddCr36yrbKLPihy",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/dcae/composition/util/DcaeBeConstants.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 24,
+        "hash": "7110907aa7aacf9245cdc5e3042a32d6",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 14,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-04-12T14:16:30+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPijF",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 50,
+        "hash": "8957b746919dd7973e3f3c539f3656ff",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_OPT_FIELD4 a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPijE",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 49,
+        "hash": "c44f8a84b836b7e0b30ad9b1806a65cb",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_OPT_FIELD3 a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPijD",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 48,
+        "hash": "09de464f80b24a8b6bfc66b4f3b5cddb",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_OPT_FIELD2 a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPijC",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 47,
+        "hash": "75df4a9d168f27ef1c8806c64a36ea65",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_OPT_FIELD1 a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPijB",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 46,
+        "hash": "7794e52a8744c07a8c1ce716d9cd173a",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_CLASS_NAME a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPijA",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 45,
+        "hash": "3356da7baedb3f460a833c8e7daa3039",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_ERROR_DESC a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPii_",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 44,
+        "hash": "3100ac5dd75e0ae2d502c75cb7272805",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_ERROR_CODE a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPii-",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 43,
+        "hash": "b379876f125c16f9ee18918d5f8ae48e",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 25,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_ERROR_CATEGORY a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPii9",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 42,
+        "hash": "4185452c04906905828b37d0e277d076",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 25,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_TARGET_VIRTUAL_ENTITY a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPii8",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 41,
+        "hash": "56acebdcb5b98811c8e62bdbd46ff166",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 25,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_TARGET_SERVICE_NAME a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljddgr36yrbKLPiiJ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/dcae/composition/model/deserializer/RequirementDeserializer.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 42,
+        "hash": "234bb65be63627390040ce8dce6dbccb",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 97,
+            "endOffset": 115
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.google.gson.JsonParseException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-04-12T14:16:30+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdddr36yrbKLPiiH",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/dcae/composition/model/deserializer/ValueDeserializer.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 38,
+        "hash": "877d4ce24b7f7d19d2e432df31ab01e0",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 91,
+            "endOffset": 109
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.google.gson.JsonParseException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-04-12T14:16:30+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiiT",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 27,
+        "hash": "3d4e48085a69bec17fcc398e40e2e26e",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 25,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_INSTANCE_UUID\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiiu",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 27,
+        "hash": "3d4e48085a69bec17fcc398e40e2e26e",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 25,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_INSTANCE_UUID a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiiU",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 28,
+        "hash": "36287e7244ef1593b7366603c58f4836",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 25,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_SERVER_IP_ADDRESS\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiiv",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 28,
+        "hash": "36287e7244ef1593b7366603c58f4836",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 25,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_SERVER_IP_ADDRESS a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiiV",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 29,
+        "hash": "4cb88a5de0b0cf1cf76191da14194095",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 25,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_SERVER_FQDN\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiiW",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 30,
+        "hash": "8cca17f1afbcb3399c33836ea56212a3",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 25,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_REMOTE_HOST\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPii7",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 40,
+        "hash": "c89023983b9f82f258530993577330da",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 25,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_TARGET_ENTITY a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPii6",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 39,
+        "hash": "4229b2f9f5f4b024b46434c7be54a046",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 25,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_PROCESS_KEY a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiia",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 34,
+        "hash": "f6ebfe3f40b32ddfaf7299a42f1e0555",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 25,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_PARTNER_NAME\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiiZ",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 33,
+        "hash": "b9e23526af28745d28079a683cac4815",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 25,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_END_TIMESTAMP\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiiY",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 32,
+        "hash": "5ae5208c96394fd60acccd622f4b6131",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 25,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_BEGIN_TIMESTAMP\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdb4r36yrbKLPihg",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/dcae/composition/restmodels/ruleeditor/ApplyFilterRequest.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 54,
+        "hash": "e631b1a5e4d78d09fab4fa6fb1ff4b80",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 8,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-09-20T13:17:22+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiil",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 45,
+        "hash": "3356da7baedb3f460a833c8e7daa3039",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_ERROR_DESC\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiik",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 44,
+        "hash": "3100ac5dd75e0ae2d502c75cb7272805",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_ERROR_CODE\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiij",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 43,
+        "hash": "b379876f125c16f9ee18918d5f8ae48e",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 25,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_ERROR_CATEGORY\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiii",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 42,
+        "hash": "4185452c04906905828b37d0e277d076",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 25,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_TARGET_VIRTUAL_ENTITY\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiih",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 41,
+        "hash": "56acebdcb5b98811c8e62bdbd46ff166",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 25,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_TARGET_SERVICE_NAME\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiig",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 40,
+        "hash": "c89023983b9f82f258530993577330da",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 25,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_TARGET_ENTITY\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiif",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 39,
+        "hash": "4229b2f9f5f4b024b46434c7be54a046",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 25,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_PROCESS_KEY\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiie",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 38,
+        "hash": "fcb804d1e514e50e455add36cfe2390f",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 25,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_ELAPSED_TIME\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiid",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 37,
+        "hash": "8f96dd49c19c7e37921acf753701dba6",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 25,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_RESPONSE_DESC\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiic",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 36,
+        "hash": "d7fca4fff72d9ed2adfa4268fe295c4a",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 25,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_RESPONSE_CODE\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiib",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 35,
+        "hash": "74e25f7f460780d2c1c84726215896df",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 25,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_STATUS_CODE\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiiX",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 31,
+        "hash": "865d5d56d2889fb473ff2770cacaabe0",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 25,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_ALERT_SEVERITY\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiiS",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 26,
+        "hash": "dfa2539c750ec97a5f1a97aaeacbf4b1",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 25,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_SERVICE_NAME\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPijh",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 23,
+        "hash": "9526e5c8bcaf0b5dda7f9737d948e121",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdc_r36yrbKLPihr",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/dcae/composition/util/DcaeFeConstants.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 24,
+        "hash": "7110907aa7aacf9245cdc5e3042a32d6",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 14,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-04-12T14:16:30+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiit",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 26,
+        "hash": "dfa2539c750ec97a5f1a97aaeacbf4b1",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 25,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_SERVICE_NAME a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiis",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 25,
+        "hash": "53d30bb55db4680a622ff7b38451eb9b",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 25,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_SERVICE_INSTANCE_ID a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiir",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 24,
+        "hash": "f44d69735880ed87182127e8987aa73a",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 25,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make MDC_KEY_REQUEST_ID a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiiq",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 50,
+        "hash": "8957b746919dd7973e3f3c539f3656ff",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_OPT_FIELD4\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiip",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 49,
+        "hash": "c44f8a84b836b7e0b30ad9b1806a65cb",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_OPT_FIELD3\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiio",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 48,
+        "hash": "09de464f80b24a8b6bfc66b4f3b5cddb",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_OPT_FIELD2\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiin",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 47,
+        "hash": "75df4a9d168f27ef1c8806c64a36ea65",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_OPT_FIELD1\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiim",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 46,
+        "hash": "7794e52a8744c07a8c1ce716d9cd173a",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_CLASS_NAME\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiiR",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 25,
+        "hash": "53d30bb55db4680a622ff7b38451eb9b",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 25,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_SERVICE_INSTANCE_ID\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljdeCr36yrbKLPiiQ",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-property:src/main/java/org/onap/sdc/common/onaplog/OnapLogConfiguration.java",
+        "project": "onap_sdc-dcae-d-dt-be-property",
+        "line": 24,
+        "hash": "f44d69735880ed87182127e8987aa73a",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 25,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static MDC_KEY_REQUEST_ID\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-06-17T09:14:36+0200",
+        "updateDate": "2019-11-26T03:32:31+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

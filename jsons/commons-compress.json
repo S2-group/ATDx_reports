@@ -1,0 +1,2601 @@
+[
+    {
+        "key": "AWy-fmoIGiD8zJdnfNf7",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/zip/GeneralPurposeBit.java",
+        "project": "commons-compress",
+        "line": 237,
+        "hash": "85f26ebdf4ea5bef8adaf862b2348076",
+        "textRange": {
+            "startLine": 237,
+            "endLine": 237,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2015-01-02T15:42:27+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmn6GiD8zJdnfNf2",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java",
+        "project": "commons-compress",
+        "line": 32,
+        "hash": "d7f23b003e48aba975a53be04d02aa15",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2009-01-12T12:15:34+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmn_GiD8zJdnfNf5",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java",
+        "project": "commons-compress",
+        "line": 330,
+        "hash": "85f26ebdf4ea5bef8adaf862b2348076",
+        "textRange": {
+            "startLine": 330,
+            "endLine": 330,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2009-02-05T13:45:23+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmqHGiD8zJdnfNi-",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+        "project": "commons-compress",
+        "line": 190,
+        "hash": "506dadb3673d49dc2f2a1d90a65e3cd4",
+        "textRange": {
+            "startLine": 190,
+            "endLine": 190,
+            "startOffset": 11,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2017-06-24T16:50:39+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmqHGiD8zJdnfNi_",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+        "project": "commons-compress",
+        "line": 265,
+        "hash": "4cac7b1ea42f871cfd8b10df15459de6",
+        "textRange": {
+            "startLine": 265,
+            "endLine": 265,
+            "startOffset": 15,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2011-10-23T14:15:13+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmqHGiD8zJdnfNi9",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+        "project": "commons-compress",
+        "line": 173,
+        "hash": "506dadb3673d49dc2f2a1d90a65e3cd4",
+        "textRange": {
+            "startLine": 173,
+            "endLine": 173,
+            "startOffset": 11,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2016-04-09T19:06:38+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmqHGiD8zJdnfNjB",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+        "project": "commons-compress",
+        "line": 325,
+        "hash": "75a1893890577dd2625055eb10218367",
+        "textRange": {
+            "startLine": 325,
+            "endLine": 325,
+            "startOffset": 15,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2009-01-08T12:09:25+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmloGiD8zJdnfNdu",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java",
+        "project": "commons-compress",
+        "line": 387,
+        "hash": "2cedd4f5337678e0d84a7fbe62c971ca",
+        "textRange": {
+            "startLine": 387,
+            "endLine": 387,
+            "startOffset": 9,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-04-09T19:06:38+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmloGiD8zJdnfNdt",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java",
+        "project": "commons-compress",
+        "line": 377,
+        "hash": "adea705a76cfd925a72f84f619d098d0",
+        "textRange": {
+            "startLine": 377,
+            "endLine": 377,
+            "startOffset": 8,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2013-10-11T10:54:09+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmufGiD8zJdnfNpK",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/compressors/CompressorInputStream.java",
+        "project": "commons-compress",
+        "line": 67,
+        "hash": "4cac7b1ea42f871cfd8b10df15459de6",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 15,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-04-22T07:02:30+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmq4GiD8zJdnfNj7",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/ArchiveInputStream.java",
+        "project": "commons-compress",
+        "line": 125,
+        "hash": "4cac7b1ea42f871cfd8b10df15459de6",
+        "textRange": {
+            "startLine": 125,
+            "endLine": 125,
+            "startOffset": 15,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2010-02-18T17:10:20+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmqlGiD8zJdnfNjv",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/jar/JarArchiveEntry.java",
+        "project": "commons-compress",
+        "line": 76,
+        "hash": "b75d117191e86617c9ecb9d86c36de84",
+        "textRange": {
+            "startLine": 76,
+            "endLine": 76,
+            "startOffset": 25,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2008-07-10T12:17:44+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmtlGiD8zJdnfNoX",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/compressors/lz77support/Parameters.java",
+        "project": "commons-compress",
+        "line": 263,
+        "hash": "f81ea5f3840d22f8687e88a3093f3332",
+        "textRange": {
+            "startLine": 263,
+            "endLine": 263,
+            "startOffset": 12,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-03-04T19:03:27+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmloGiD8zJdnfNdr",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java",
+        "project": "commons-compress",
+        "line": 339,
+        "hash": "d675a60db9c6d23161fbbf2c8b00cab8",
+        "textRange": {
+            "startLine": 339,
+            "endLine": 339,
+            "startOffset": 15,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2013-05-07T22:06:37+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmowGiD8zJdnfNg_",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java",
+        "project": "commons-compress",
+        "line": 145,
+        "hash": "fcb5c50369d7edb8de07c580d2660cff",
+        "textRange": {
+            "startLine": 145,
+            "endLine": 145,
+            "startOffset": 28,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2010-02-19T10:56:37+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmoYGiD8zJdnfNgQ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java",
+        "project": "commons-compress",
+        "line": 673,
+        "hash": "7d1478167938acdf89afa52ac7bd56b9",
+        "textRange": {
+            "startLine": 673,
+            "endLine": 673,
+            "startOffset": 52,
+            "endOffset": 68
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.RuntimeException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-04-09T19:06:38+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlzGiD8zJdnfNd5",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+        "project": "commons-compress",
+        "line": 1022,
+        "hash": "6a3a1034a22f9d4bd6e8e414f8757186",
+        "textRange": {
+            "startLine": 1022,
+            "endLine": 1022,
+            "startOffset": 33,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-05-07T22:06:37+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlzGiD8zJdnfNd4",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+        "project": "commons-compress",
+        "line": 1008,
+        "hash": "3fe1ba532622a67971c9fd2e67ea0556",
+        "textRange": {
+            "startLine": 1008,
+            "endLine": 1008,
+            "startOffset": 33,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-05-07T22:06:37+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlzGiD8zJdnfNd1",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+        "project": "commons-compress",
+        "line": 963,
+        "hash": "eb368b7a429aad3e511372f604906c49",
+        "textRange": {
+            "startLine": 963,
+            "endLine": 963,
+            "startOffset": 32,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-05-07T22:06:37+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlzGiD8zJdnfNeB",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+        "project": "commons-compress",
+        "line": 144,
+        "hash": "7ce7c1c8ab1891597695abe20de8603a",
+        "textRange": {
+            "startLine": 144,
+            "endLine": 144,
+            "startOffset": 11,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-05-30T20:48:21+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlzGiD8zJdnfNd3",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+        "project": "commons-compress",
+        "line": 994,
+        "hash": "f88fee1cd0dda47851691001db9882b3",
+        "textRange": {
+            "startLine": 994,
+            "endLine": 994,
+            "startOffset": 33,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-05-07T22:06:37+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlzGiD8zJdnfNd7",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+        "project": "commons-compress",
+        "line": 1050,
+        "hash": "499bf1e0910de2c75202b5d6c3eab321",
+        "textRange": {
+            "startLine": 1050,
+            "endLine": 1050,
+            "startOffset": 36,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-05-07T22:06:37+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmpiGiD8zJdnfNh2",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java",
+        "project": "commons-compress",
+        "line": 476,
+        "hash": "806ac9cc6118e5655fdee4772c731416",
+        "textRange": {
+            "startLine": 476,
+            "endLine": 476,
+            "startOffset": 15,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-03-27T18:44:16+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmrZGiD8zJdnfNlA",
+        "rule": "java:S1113",
+        "severity": "CRITICAL",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java",
+        "project": "commons-compress",
+        "line": 475,
+        "hash": "c66a0096c70b168f81751a90b865a077",
+        "textRange": {
+            "startLine": 475,
+            "endLine": 475,
+            "startOffset": 19,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not override the Object.finalize() method.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "unpredictable"
+        ],
+        "creationDate": "2008-07-10T12:17:44+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmrZGiD8zJdnfNkr",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java",
+        "project": "commons-compress",
+        "line": 450,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 450,
+            "endLine": 450,
+            "startOffset": 21,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-03-27T15:14:07+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmrZGiD8zJdnfNkq",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java",
+        "project": "commons-compress",
+        "line": 441,
+        "hash": "32b8acde5d6ec82d16eb50178f5e8c1b",
+        "textRange": {
+            "startLine": 441,
+            "endLine": 441,
+            "startOffset": 20,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-03-27T15:14:07+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmliGiD8zJdnfNdM",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/NID.java",
+        "project": "commons-compress",
+        "line": 20,
+        "hash": "d7e52446aa3d00de9647fa73bb26d6ea",
+        "textRange": {
+            "startLine": 20,
+            "endLine": 20,
+            "startOffset": 12,
+            "endOffset": 15
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-05-07T22:06:37+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlNGiD8zJdnfNcm",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "project": "commons-compress",
+        "line": 46,
+        "hash": "cba97f5a30fa5dc41ad69921d8b4e99b",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 6,
+            "endOffset": 12
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-05-12T12:12:16+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmkhGiD8zJdnfNcV",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/arj/ArjArchiveEntry.java",
+        "project": "commons-compress",
+        "line": 167,
+        "hash": "b06d915323573a04f50522d02bda7553",
+        "textRange": {
+            "startLine": 167,
+            "endLine": 167,
+            "startOffset": 24,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-08-17T22:10:39+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmkfGiD8zJdnfNcS",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/arj/MainHeader.java",
+        "project": "commons-compress",
+        "line": 55,
+        "hash": "6f7ec3436aa9b87376d7ffa8225ebfd1",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 17,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-04-18T18:19:44+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlzGiD8zJdnfNeT",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+        "project": "commons-compress",
+        "line": 1504,
+        "hash": "025ada9950219f18227777728d4104ce",
+        "textRange": {
+            "startLine": 1504,
+            "endLine": 1504,
+            "startOffset": 63,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-10-13T12:12:43+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlzGiD8zJdnfNeU",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+        "project": "commons-compress",
+        "line": 1547,
+        "hash": "faca6acf57577bb1ff3ed15961acd1ff",
+        "textRange": {
+            "startLine": 1547,
+            "endLine": 1547,
+            "startOffset": 88,
+            "endOffset": 99
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-10-13T12:12:43+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlzGiD8zJdnfNeO",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+        "project": "commons-compress",
+        "line": 920,
+        "hash": "0935b9f5b6f4d0c4b88562820c504fed",
+        "textRange": {
+            "startLine": 920,
+            "endLine": 920,
+            "startOffset": 76,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-10-13T12:12:43+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlzGiD8zJdnfNeD",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+        "project": "commons-compress",
+        "line": 303,
+        "hash": "284c486aad0a1f8413cbb439f48cc3ff",
+        "textRange": {
+            "startLine": 303,
+            "endLine": 303,
+            "startOffset": 11,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-10-29T18:10:38+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmviGiD8zJdnfNpo",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/utils/Charsets.java",
+        "project": "commons-compress",
+        "line": 58,
+        "hash": "726a6018a2b280e343df788c8c75d004",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2012-04-01T00:36:04+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW9ieNxopSZ5360cpkyx",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java",
+        "project": "commons-compress",
+        "line": 598,
+        "hash": "a1b7b5117c813bca8e4ca62a29ca0b44",
+        "textRange": {
+            "startLine": 598,
+            "endLine": 598,
+            "startOffset": 90,
+            "endOffset": 101
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [],
+        "creationDate": "2020-01-01T19:56:30+0100",
+        "updateDate": "2020-01-01T19:56:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW7luzL22meZa53Dzqmw",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/utils/FileNameUtils.java",
+        "project": "commons-compress",
+        "line": 27,
+        "hash": "927024cac8026761de84a5466fd0361d",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 13,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-12-08T14:30:40+0100",
+        "updateDate": "2019-12-08T14:36:57+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmpaGiD8zJdnfNhw",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/dump/InvalidFormatException.java",
+        "project": "commons-compress",
+        "line": 28,
+        "hash": "41b9f5232e8144e489c428024c50ff36",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 19,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"offset\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2011-08-15T12:47:04+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmpRGiD8zJdnfNhq",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.java",
+        "project": "commons-compress",
+        "line": 154,
+        "hash": "4cac7b1ea42f871cfd8b10df15459de6",
+        "textRange": {
+            "startLine": 154,
+            "endLine": 154,
+            "startOffset": 15,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2011-10-23T13:48:59+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmu0GiD8zJdnfNpU",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/utils/CharsetNames.java",
+        "project": "commons-compress",
+        "line": 54,
+        "hash": "da11707b56738637d8fc2334993b6ee5",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 13,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2012-04-01T00:36:04+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmunGiD8zJdnfNpP",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java",
+        "project": "commons-compress",
+        "line": 790,
+        "hash": "96adfb7a6a1a57711b63731bde84e620",
+        "textRange": {
+            "startLine": 790,
+            "endLine": 790,
+            "startOffset": 16,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-11-16T06:00:53+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmmRGiD8zJdnfNec",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/LZMADecoder.java",
+        "project": "commons-compress",
+        "line": 97,
+        "hash": "95f3e9a02ab06f0cfcaf137b76cf0535",
+        "textRange": {
+            "startLine": 97,
+            "endLine": 97,
+            "startOffset": 60,
+            "endOffset": 84
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-11-29T22:27:58+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlgGiD8zJdnfNdJ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/CoderBase.java",
+        "project": "commons-compress",
+        "line": 53,
+        "hash": "e7bea1e2915f5dee2ba72fe88299aa62",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 63,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-12-19T18:50:38+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmrzGiD8zJdnfNmj",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/compressors/bzip2/Rand.java",
+        "project": "commons-compress",
+        "line": 25,
+        "hash": "d89eae952ba2ec98e92acf61e55586b7",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 12,
+            "endOffset": 16
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2009-04-15T13:54:48+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmkfGiD8zJdnfNcR",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/arj/MainHeader.java",
+        "project": "commons-compress",
+        "line": 44,
+        "hash": "d789ae210c5d6eb3266ad4d59d1e81bf",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 17,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-05-19T11:36:17+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmkRGiD8zJdnfNcN",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/arj/LocalFileHeader.java",
+        "project": "commons-compress",
+        "line": 50,
+        "hash": "d789ae210c5d6eb3266ad4d59d1e81bf",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 17,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-05-19T11:36:17+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmkRGiD8zJdnfNcO",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/arj/LocalFileHeader.java",
+        "project": "commons-compress",
+        "line": 58,
+        "hash": "4e5b45a9611486e0e3fa0090572bab81",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 17,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-05-19T11:36:17+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmkRGiD8zJdnfNcP",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/arj/LocalFileHeader.java",
+        "project": "commons-compress",
+        "line": 67,
+        "hash": "2b8f6bb0d43f6fa31f07ff7ca2249cf2",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 17,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-05-19T11:36:17+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmqhGiD8zJdnfNjm",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "project": "commons-compress",
+        "line": 547,
+        "hash": "26a7daf5e1631b46795ddb48d434c7e7",
+        "textRange": {
+            "startLine": 547,
+            "endLine": 547,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-01-08T12:09:25+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlzGiD8zJdnfNdz",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+        "project": "commons-compress",
+        "line": 952,
+        "hash": "f9e050ae20bb552f3b438a1e619cab24",
+        "textRange": {
+            "startLine": 952,
+            "endLine": 952,
+            "startOffset": 39,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-05-07T22:06:37+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlzGiD8zJdnfNd0",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+        "project": "commons-compress",
+        "line": 956,
+        "hash": "119079db8beadc05621bcdddc2e41a5e",
+        "textRange": {
+            "startLine": 956,
+            "endLine": 956,
+            "startOffset": 37,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-05-07T22:06:37+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlzGiD8zJdnfNd2",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+        "project": "commons-compress",
+        "line": 970,
+        "hash": "d259a06e9f226259fd2c4baa1b88f3ae",
+        "textRange": {
+            "startLine": 970,
+            "endLine": 970,
+            "startOffset": 32,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-05-07T22:06:37+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXIR3B_skJkjWOCfrq7Y",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java",
+        "project": "commons-compress",
+        "line": 138,
+        "hash": "e61b4ed1d4e46357ca6e06197d215fbd",
+        "textRange": {
+            "startLine": 138,
+            "endLine": 138,
+            "startOffset": 72,
+            "endOffset": 96
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-03-16T12:41:20+0100",
+        "updateDate": "2020-05-14T08:23:48+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmqCGiD8zJdnfNiw",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/examples/Archiver.java",
+        "project": "commons-compress",
+        "line": 102,
+        "hash": "fd805319da62804e56eb8c2f646ebe21",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 16,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-04-23T16:10:50+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmqCGiD8zJdnfNix",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/examples/Archiver.java",
+        "project": "commons-compress",
+        "line": 154,
+        "hash": "f119780217b60066ce05aedd0ee0949e",
+        "textRange": {
+            "startLine": 154,
+            "endLine": 154,
+            "startOffset": 16,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-04-23T16:10:50+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmp9GiD8zJdnfNip",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/examples/Expander.java",
+        "project": "commons-compress",
+        "line": 210,
+        "hash": "ef449848e17e17f31822d9ee77548680",
+        "textRange": {
+            "startLine": 210,
+            "endLine": 210,
+            "startOffset": 16,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-04-23T20:33:18+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmviGiD8zJdnfNpz",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/utils/Charsets.java",
+        "project": "commons-compress",
+        "line": 172,
+        "hash": "85af4c824f1843072959b4138c9415f5",
+        "textRange": {
+            "startLine": 172,
+            "endLine": 172,
+            "startOffset": 32,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-04-21T20:50:42+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmviGiD8zJdnfNpp",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/utils/Charsets.java",
+        "project": "commons-compress",
+        "line": 101,
+        "hash": "2a46ea3f579c05cadbc07568bcfedc76",
+        "textRange": {
+            "startLine": 101,
+            "endLine": 101,
+            "startOffset": 32,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-04-21T20:50:42+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmviGiD8zJdnfNpv",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/utils/Charsets.java",
+        "project": "commons-compress",
+        "line": 144,
+        "hash": "18651db4ed21a42ac43f3de95e65441f",
+        "textRange": {
+            "startLine": 144,
+            "endLine": 144,
+            "startOffset": 32,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-04-21T20:50:42+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmviGiD8zJdnfNpr",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/utils/Charsets.java",
+        "project": "commons-compress",
+        "line": 115,
+        "hash": "5a7c9bdcf077041b6d204052c2d7d8bb",
+        "textRange": {
+            "startLine": 115,
+            "endLine": 115,
+            "startOffset": 32,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-04-21T20:50:42+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmviGiD8zJdnfNpt",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/utils/Charsets.java",
+        "project": "commons-compress",
+        "line": 130,
+        "hash": "559246c609d944afa0f99be6caaeb87d",
+        "textRange": {
+            "startLine": 130,
+            "endLine": 130,
+            "startOffset": 32,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-04-21T20:50:42+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmoYGiD8zJdnfNgP",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java",
+        "project": "commons-compress",
+        "line": 236,
+        "hash": "85f26ebdf4ea5bef8adaf862b2348076",
+        "textRange": {
+            "startLine": 236,
+            "endLine": 236,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2009-01-12T12:15:34+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmnBGiD8zJdnfNfV",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/zip/ZipUtil.java",
+        "project": "commons-compress",
+        "line": 32,
+        "hash": "1c89945a2e7c10c2eea2127f1923318e",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 22,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2009-03-20T16:42:37+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8_u5ccQ5lzbozoKLhu",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/zip/ZipSplitOutputStream.java",
+        "project": "commons-compress",
+        "line": 84,
+        "hash": "ec2e180acc92f4ae3ed784e8241f9384",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 87,
+            "endOffset": 111
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-11-12T04:36:00+0100",
+        "updateDate": "2019-12-26T02:02:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8_u5ccQ5lzbozoKLht",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/zip/ZipSplitOutputStream.java",
+        "project": "commons-compress",
+        "line": 60,
+        "hash": "68bc3701c2b2fd35a6b073cf34199a0d",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 81,
+            "endOffset": 105
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-11-12T04:36:00+0100",
+        "updateDate": "2019-12-26T02:02:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmniGiD8zJdnfNfv",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.java",
+        "project": "commons-compress",
+        "line": 555,
+        "hash": "0638059409510b68e415badd59f0746d",
+        "textRange": {
+            "startLine": 555,
+            "endLine": 555,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2013-01-08T22:54:15+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmnbGiD8zJdnfNfl",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java",
+        "project": "commons-compress",
+        "line": 29,
+        "hash": "c5ce3d444a4686a1d4ef9738d47fd81a",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 22,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2012-03-18T18:16:51+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmnOGiD8zJdnfNfe",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/zip/ZipLong.java",
+        "project": "commons-compress",
+        "line": 203,
+        "hash": "85f26ebdf4ea5bef8adaf862b2348076",
+        "textRange": {
+            "startLine": 203,
+            "endLine": 203,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2009-02-05T13:45:23+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmp9GiD8zJdnfNin",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/examples/Expander.java",
+        "project": "commons-compress",
+        "line": 113,
+        "hash": "a9615258361581d7747fcbaeac0700c1",
+        "textRange": {
+            "startLine": 113,
+            "endLine": 113,
+            "startOffset": 16,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-04-23T20:33:18+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmpqGiD8zJdnfNiH",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java",
+        "project": "commons-compress",
+        "line": 26,
+        "hash": "b8f8f140027dfb3fe6dac651173f4806",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 6,
+            "endOffset": 14
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2009-03-20T16:42:37+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJ5TZJzW3lGhTLdJHbG",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+        "project": "commons-compress",
+        "line": 489,
+        "hash": "65e0409834360845dd3c82cce98863de",
+        "textRange": {
+            "startLine": 489,
+            "endLine": 489,
+            "startOffset": 15,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [],
+        "creationDate": "2020-06-03T10:29:15+0200",
+        "updateDate": "2020-06-03T10:29:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmqlGiD8zJdnfNju",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/jar/JarArchiveEntry.java",
+        "project": "commons-compress",
+        "line": 64,
+        "hash": "18f9f90128e37b6194aa12c4ffc46419",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 22,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2008-07-10T12:17:44+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmp9GiD8zJdnfNio",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/examples/Expander.java",
+        "project": "commons-compress",
+        "line": 161,
+        "hash": "4b5c4401b6f4e0023a3198da69a35fd7",
+        "textRange": {
+            "startLine": 161,
+            "endLine": 161,
+            "startOffset": 16,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-04-23T20:33:18+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmkkGiD8zJdnfNcY",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java",
+        "project": "commons-compress",
+        "line": 134,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 134,
+            "endLine": 134,
+            "startOffset": 8,
+            "endOffset": 9
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2008-07-10T12:17:44+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmqhGiD8zJdnfNjn",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "project": "commons-compress",
+        "line": 588,
+        "hash": "3d93653df9c403700a762a2c2924a259",
+        "textRange": {
+            "startLine": 588,
+            "endLine": 588,
+            "startOffset": 15,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-01-08T12:09:25+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmqhGiD8zJdnfNjh",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "project": "commons-compress",
+        "line": 1382,
+        "hash": "0ddd62b4bf9b208b27614077f91c0c3b",
+        "textRange": {
+            "startLine": 1382,
+            "endLine": 1382,
+            "startOffset": 28,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-07-23T07:03:52+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmviGiD8zJdnfNpx",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/utils/Charsets.java",
+        "project": "commons-compress",
+        "line": 158,
+        "hash": "a497e3704226aa946c0fce333bae6493",
+        "textRange": {
+            "startLine": 158,
+            "endLine": 158,
+            "startOffset": 32,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-04-21T20:50:42+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlzGiD8zJdnfNd9",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+        "project": "commons-compress",
+        "line": 1063,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 1063,
+            "endLine": 1063,
+            "startOffset": 25,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-05-07T22:06:37+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmqhGiD8zJdnfNjj",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "project": "commons-compress",
+        "line": 1415,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 1415,
+            "endLine": 1415,
+            "startOffset": 17,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-07-23T07:03:52+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmqhGiD8zJdnfNji",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "project": "commons-compress",
+        "line": 1405,
+        "hash": "98b7847a8e50455a7fe3514b5a0e41ac",
+        "textRange": {
+            "startLine": 1405,
+            "endLine": 1405,
+            "startOffset": 27,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-02-14T12:03:15+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmnwGiD8zJdnfNfy",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/zip/ZipShort.java",
+        "project": "commons-compress",
+        "line": 148,
+        "hash": "85f26ebdf4ea5bef8adaf862b2348076",
+        "textRange": {
+            "startLine": 148,
+            "endLine": 148,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2009-02-05T13:45:23+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmoeGiD8zJdnfNgd",
+        "rule": "java:S1113",
+        "severity": "CRITICAL",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java",
+        "project": "commons-compress",
+        "line": 655,
+        "hash": "c66a0096c70b168f81751a90b865a077",
+        "textRange": {
+            "startLine": 655,
+            "endLine": 655,
+            "startOffset": 19,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not override the Object.finalize() method.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "unpredictable"
+        ],
+        "creationDate": "2011-04-18T06:28:14+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlzGiD8zJdnfNeF",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+        "project": "commons-compress",
+        "line": 325,
+        "hash": "967bf532c89586d9756d2542b3db1a0e",
+        "textRange": {
+            "startLine": 325,
+            "endLine": 325,
+            "startOffset": 11,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-05-30T20:48:21+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmkkGiD8zJdnfNcX",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java",
+        "project": "commons-compress",
+        "line": 123,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 123,
+            "endLine": 123,
+            "startOffset": 8,
+            "endOffset": 9
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-08-10T06:49:40+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmo-GiD8zJdnfNhH",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/zip/X7875_NewUnix.java",
+        "project": "commons-compress",
+        "line": 284,
+        "hash": "0638059409510b68e415badd59f0746d",
+        "textRange": {
+            "startLine": 284,
+            "endLine": 284,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2013-01-08T01:13:18+0100",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmq-GiD8zJdnfNj-",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/ArchiveStreamFactory.java",
+        "project": "commons-compress",
+        "line": 306,
+        "hash": "e9e46d63efddd8ea26bd112c6ffc4e3d",
+        "textRange": {
+            "startLine": 306,
+            "endLine": 306,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-04-09T19:06:38+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlzGiD8zJdnfNd6",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+        "project": "commons-compress",
+        "line": 1036,
+        "hash": "3a80c3b29ee0d8dd57d3692a5e75cc67",
+        "textRange": {
+            "startLine": 1036,
+            "endLine": 1036,
+            "startOffset": 41,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-05-07T22:06:37+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmlzGiD8zJdnfNd8",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+        "project": "commons-compress",
+        "line": 1053,
+        "hash": "7098d2a77aabd3e29091b6f86dcdff8c",
+        "textRange": {
+            "startLine": 1053,
+            "endLine": 1053,
+            "startOffset": 33,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-05-07T22:06:37+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmrEGiD8zJdnfNkR",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/Lister.java",
+        "project": "commons-compress",
+        "line": 87,
+        "hash": "fcc51464f4bd39c01f84b9afcb0dd7eb",
+        "textRange": {
+            "startLine": 87,
+            "endLine": 87,
+            "startOffset": 46,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.commons.compress.archivers.ArchiveException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-05-07T06:38:41+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmrKGiD8zJdnfNka",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/ArchiveOutputStream.java",
+        "project": "commons-compress",
+        "line": 142,
+        "hash": "4cac7b1ea42f871cfd8b10df15459de6",
+        "textRange": {
+            "startLine": 142,
+            "endLine": 142,
+            "startOffset": 15,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-04-24T08:30:17+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmloGiD8zJdnfNds",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java",
+        "project": "commons-compress",
+        "line": 349,
+        "hash": "90b9848bb475ea358b5a9bfeee207562",
+        "textRange": {
+            "startLine": 349,
+            "endLine": 349,
+            "startOffset": 16,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-04-09T19:06:38+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmrEGiD8zJdnfNkU",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "commons-compress:src/main/java/org/apache/commons/compress/archivers/Lister.java",
+        "project": "commons-compress",
+        "line": 99,
+        "hash": "42f9f0af9559e2cb2ee61ce43b118a5b",
+        "textRange": {
+            "startLine": 99,
+            "endLine": 99,
+            "startOffset": 59,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.commons.compress.archivers.ArchiveException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-09-21T17:50:33+0200",
+        "updateDate": "2019-09-10T09:58:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

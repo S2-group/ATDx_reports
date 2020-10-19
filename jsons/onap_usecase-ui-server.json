@@ -1,0 +1,1234 @@
+[
+    {
+        "key": "AW8V5JedRoUqXuyh3BD6",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/UuiServerApplication.java",
+        "project": "onap_usecase-ui-server",
+        "line": 36,
+        "hash": "220ce594a3884f7a7318cc76b655e6cf",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 29,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-08-16T06:16:55+0200",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKf_-wUKkiL_8DWm7",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/service/nsmf/impl/ResourceMonitorServiceConvert.java",
+        "project": "onap_usecase-ui-server",
+        "line": 70,
+        "hash": "d81f7b2e8aad6557f445f5ccdb92d118",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 15,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.reflect.InvocationTargetException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-19T12:57:55+0100",
+        "updateDate": "2020-03-02T22:30:36+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKf_-wUKkiL_8DWm-",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/service/nsmf/impl/ResourceMonitorServiceConvert.java",
+        "project": "onap_usecase-ui-server",
+        "line": 91,
+        "hash": "d81f7b2e8aad6557f445f5ccdb92d118",
+        "textRange": {
+            "startLine": 91,
+            "endLine": 91,
+            "startOffset": 42,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-19T12:57:55+0100",
+        "updateDate": "2020-03-02T22:30:36+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKf_-wUKkiL_8DWm8",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/service/nsmf/impl/ResourceMonitorServiceConvert.java",
+        "project": "onap_usecase-ui-server",
+        "line": 70,
+        "hash": "d81f7b2e8aad6557f445f5ccdb92d118",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 42,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-19T12:57:55+0100",
+        "updateDate": "2020-03-02T22:30:36+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKf_-wUKkiL_8DWm9",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/service/nsmf/impl/ResourceMonitorServiceConvert.java",
+        "project": "onap_usecase-ui-server",
+        "line": 91,
+        "hash": "d81f7b2e8aad6557f445f5ccdb92d118",
+        "textRange": {
+            "startLine": 91,
+            "endLine": 91,
+            "startOffset": 15,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.reflect.InvocationTargetException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-19T12:57:55+0100",
+        "updateDate": "2020-03-02T22:30:36+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JbpRoUqXuyh3BBB",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/bean/AlarmsHeader.java",
+        "project": "onap_usecase-ui-server",
+        "line": 124,
+        "hash": "bb56795b1b47825c93ace24be51cd4dd",
+        "textRange": {
+            "startLine": 124,
+            "endLine": 124,
+            "startOffset": 8,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 28 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-05-22T07:51:00+0200",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JbORoUqXuyh3BA8",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/bean/lcm/ServiceTemplateInput.java",
+        "project": "onap_usecase-ui-server",
+        "line": 48,
+        "hash": "a0d820cb55157ce441bffbd547716030",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 11,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-09-25T13:57:40+0200",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JVHRoUqXuyh3A8R",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/util/UuiCommonUtil.java",
+        "project": "onap_usecase-ui-server",
+        "line": 35,
+        "hash": "f339e82820c4112c325f7a684341b58a",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 13,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-05-11T04:38:56+0200",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKf-qwUKkiL_8DWja",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/service/lcm/SotnServiceTemplateService.java",
+        "project": "onap_usecase-ui-server",
+        "line": 28,
+        "hash": "b090bcf79d80b990bbd7a37ade84baff",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 104,
+            "endOffset": 113
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-02T16:15:47+0100",
+        "updateDate": "2020-03-02T22:30:36+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXEToChi6-FauEkPM56l",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/service/lcm/SotnServiceTemplateService.java",
+        "project": "onap_usecase-ui-server",
+        "line": 30,
+        "hash": "4d40796dee33efae247ea13a80f3e7eb",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 99,
+            "endOffset": 108
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-25T22:34:02+0100",
+        "updateDate": "2020-03-25T22:34:02+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXEToChi6-FauEkPM56k",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/service/lcm/SotnServiceTemplateService.java",
+        "project": "onap_usecase-ui-server",
+        "line": 27,
+        "hash": "a3ff50390584f50a6beac1be1ec11857",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 94,
+            "endOffset": 103
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-25T22:34:02+0100",
+        "updateDate": "2020-03-25T22:34:02+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXEToChi6-FauEkPM56m",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/service/lcm/SotnServiceTemplateService.java",
+        "project": "onap_usecase-ui-server",
+        "line": 31,
+        "hash": "07fc6f0ae577f72117429c3258ad8a82",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 116,
+            "endOffset": 125
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-25T22:34:02+0100",
+        "updateDate": "2020-03-25T22:34:02+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JYDRoUqXuyh3A8p",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/service/lcm/impl/DefaultServiceInstanceService.java",
+        "project": "onap_usecase-ui-server",
+        "line": 104,
+        "hash": "749896f7c4ae4d73d1d9e1381c51e46d",
+        "textRange": {
+            "startLine": 104,
+            "endLine": 104,
+            "startOffset": 107,
+            "endOffset": 130
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonProcessingException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-11-10T12:02:11+0100",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKf_mwUKkiL_8DWmN",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/service/nsmf/impl/ResourceMgtServiceConvert.java",
+        "project": "onap_usecase-ui-server",
+        "line": 274,
+        "hash": "87afae9a2a326824632f963bd433e34a",
+        "textRange": {
+            "startLine": 274,
+            "endLine": 274,
+            "startOffset": 42,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-19T10:13:55+0100",
+        "updateDate": "2020-03-02T22:30:36+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKf_lwUKkiL_8DWl5",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/service/nsmf/impl/ResourceMgtServiceConvert.java",
+        "project": "onap_usecase-ui-server",
+        "line": 91,
+        "hash": "bee20684a605894aea25b9d285b1779d",
+        "textRange": {
+            "startLine": 91,
+            "endLine": 91,
+            "startOffset": 66,
+            "endOffset": 77
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-19T10:13:55+0100",
+        "updateDate": "2020-03-02T22:30:36+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKft5wUKkiL_8DWdW",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/util/nsmf/NsmfCommonUtil.java",
+        "project": "onap_usecase-ui-server",
+        "line": 28,
+        "hash": "8be03c9da6243ca3b74430db5b79a398",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-19T08:11:55+0100",
+        "updateDate": "2020-03-02T22:30:36+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JU6RoUqXuyh3A8H",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/util/RestfulServices.java",
+        "project": "onap_usecase-ui-server",
+        "line": 38,
+        "hash": "21aea6c347edf475ab516cc0917ff4ea",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-09-22T11:25:58+0200",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JeLRoUqXuyh3BDt",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/constant/CommonConstant.java",
+        "project": "onap_usecase-ui-server",
+        "line": 29,
+        "hash": "1e0541e8a427947e0480eea6bd602758",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 51,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static netWorkMap\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-08-22T10:51:51+0200",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JeURoUqXuyh3BD2",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/constant/HttpConstant.java",
+        "project": "onap_usecase-ui-server",
+        "line": 19,
+        "hash": "16262f3e16703ac232db5cf8a726f864",
+        "textRange": {
+            "startLine": 19,
+            "endLine": 19,
+            "startOffset": 19,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-08-22T10:51:51+0200",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JeLRoUqXuyh3BDw",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/constant/CommonConstant.java",
+        "project": "onap_usecase-ui-server",
+        "line": 29,
+        "hash": "1e0541e8a427947e0480eea6bd602758",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 51,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2019-08-22T10:51:51+0200",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JeLRoUqXuyh3BDv",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/constant/CommonConstant.java",
+        "project": "onap_usecase-ui-server",
+        "line": 23,
+        "hash": "1af6068d2b12bad9361e2fbe2200715b",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 19,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-08-22T10:51:51+0200",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JeLRoUqXuyh3BDu",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/constant/CommonConstant.java",
+        "project": "onap_usecase-ui-server",
+        "line": 29,
+        "hash": "1e0541e8a427947e0480eea6bd602758",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 51,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make netWorkMap a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-08-22T10:51:51+0200",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKgJEwUKkiL_8DWph",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/constant/Constant.java",
+        "project": "onap_usecase-ui-server",
+        "line": 23,
+        "hash": "60b835905d440bfea7889359311d8591",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 19,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-03-02T16:15:47+0100",
+        "updateDate": "2020-03-02T22:30:36+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKgJEwUKkiL_8DWpg",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/constant/Constant.java",
+        "project": "onap_usecase-ui-server",
+        "line": 30,
+        "hash": "1e0541e8a427947e0480eea6bd602758",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 51,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2020-03-02T16:15:47+0100",
+        "updateDate": "2020-03-02T22:30:36+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXFWkOA4RbYYq-W0zyYY",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/controller/lcm/SotnServiceLcmController.java",
+        "project": "onap_usecase-ui-server",
+        "line": 80,
+        "hash": "5a8cba991b758e04af63b85ad1c2357e",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 80,
+            "endOffset": 89
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-04-07T23:32:05+0200",
+        "updateDate": "2020-04-07T23:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JedRoUqXuyh3BD4",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/UuiServerApplication.java",
+        "project": "onap_usecase-ui-server",
+        "line": 32,
+        "hash": "abbe4c7596f7e48874fe4ffdac42b88f",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 34,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make dmaapSubscriber a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-05-22T07:51:00+0200",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JedRoUqXuyh3BD3",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/UuiServerApplication.java",
+        "project": "onap_usecase-ui-server",
+        "line": 32,
+        "hash": "abbe4c7596f7e48874fe4ffdac42b88f",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 34,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static dmaapSubscriber\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2018-05-22T07:51:00+0200",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JXoRoUqXuyh3A8f",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/service/lcm/domain/sdc/consts/SDCConsts.java",
+        "project": "onap_usecase-ui-server",
+        "line": 18,
+        "hash": "b96e2514b09423c4a5a79c6d4063ede7",
+        "textRange": {
+            "startLine": 18,
+            "endLine": 18,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-09-22T11:25:58+0200",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JWnRoUqXuyh3A8c",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/service/lcm/domain/so/bean/OperationProgress.java",
+        "project": "onap_usecase-ui-server",
+        "line": 47,
+        "hash": "a4b6b2025da3f11a808b5f4d18faa951",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 11,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-11-10T09:14:49+0100",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JVsRoUqXuyh3A8Y",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/service/lcm/domain/aai/bean/nsServiceRsp.java",
+        "project": "onap_usecase-ui-server",
+        "line": 22,
+        "hash": "68235e5edfacd4bcb273ae495b3345dc",
+        "textRange": {
+            "startLine": 22,
+            "endLine": 22,
+            "startOffset": 21,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make nsServices a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-10-30T10:37:45+0100",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKgI8wUKkiL_8DWpc",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/constant/nsmf/NsmfParamConstant.java",
+        "project": "onap_usecase-ui-server",
+        "line": 18,
+        "hash": "1270aaf6130f55c09b8c43de64da2fee",
+        "textRange": {
+            "startLine": 18,
+            "endLine": 18,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-19T03:26:06+0100",
+        "updateDate": "2020-03-02T22:30:36+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKgI0wUKkiL_8DWpb",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/constant/nsmf/NsmfCodeConstant.java",
+        "project": "onap_usecase-ui-server",
+        "line": 18,
+        "hash": "1cd1793a6c4f06aaa7410a4b7b7491bf",
+        "textRange": {
+            "startLine": 18,
+            "endLine": 18,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-19T03:26:06+0100",
+        "updateDate": "2020-03-02T22:30:36+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKgIbwUKkiL_8DWpa",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/constant/csmf/CsmfParamConstant.java",
+        "project": "onap_usecase-ui-server",
+        "line": 18,
+        "hash": "923e2b23936f29ad885f9a6f90e86311",
+        "textRange": {
+            "startLine": 18,
+            "endLine": 18,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-19T03:26:06+0100",
+        "updateDate": "2020-03-02T22:30:36+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKgJEwUKkiL_8DWpe",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/constant/Constant.java",
+        "project": "onap_usecase-ui-server",
+        "line": 30,
+        "hash": "1e0541e8a427947e0480eea6bd602758",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 51,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make netWorkMap a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-03-02T16:15:47+0100",
+        "updateDate": "2020-03-02T22:30:36+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKgJEwUKkiL_8DWpd",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/constant/Constant.java",
+        "project": "onap_usecase-ui-server",
+        "line": 30,
+        "hash": "1e0541e8a427947e0480eea6bd602758",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 51,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static netWorkMap\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-03-02T16:15:47+0100",
+        "updateDate": "2020-03-02T22:30:36+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXFWkOA4RbYYq-W0zyYW",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/controller/lcm/SotnServiceLcmController.java",
+        "project": "onap_usecase-ui-server",
+        "line": 80,
+        "hash": "5a8cba991b758e04af63b85ad1c2357e",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 80,
+            "endOffset": 89
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-07T23:32:05+0200",
+        "updateDate": "2020-04-07T23:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JUFRoUqXuyh3A7l",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/util/DateUtils.java",
+        "project": "onap_usecase-ui-server",
+        "line": 132,
+        "hash": "9fa4b989ca13a3d07895ab2c19ba7ded",
+        "textRange": {
+            "startLine": 132,
+            "endLine": 132,
+            "startOffset": 71,
+            "endOffset": 85
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-09-27T18:37:47+0200",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JUERoUqXuyh3A7i",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/util/DateUtils.java",
+        "project": "onap_usecase-ui-server",
+        "line": 35,
+        "hash": "ce232ad75e5b4514633d14815731debc",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 107,
+            "endOffset": 121
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-04-14T06:02:18+0200",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKf_mwUKkiL_8DWmW",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/service/nsmf/impl/ResourceMgtServiceConvert.java",
+        "project": "onap_usecase-ui-server",
+        "line": 462,
+        "hash": "bee20684a605894aea25b9d285b1779d",
+        "textRange": {
+            "startLine": 462,
+            "endLine": 462,
+            "startOffset": 15,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.reflect.InvocationTargetException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-19T10:13:55+0100",
+        "updateDate": "2020-04-28T23:32:25+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V5JUERoUqXuyh3A7h",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/util/DateUtils.java",
+        "project": "onap_usecase-ui-server",
+        "line": 30,
+        "hash": "272807763e4dbfe79ae47d42f4ea23fb",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-09-27T18:37:47+0200",
+        "updateDate": "2019-12-17T23:04:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKf_mwUKkiL_8DWmV",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/service/nsmf/impl/ResourceMgtServiceConvert.java",
+        "project": "onap_usecase-ui-server",
+        "line": 462,
+        "hash": "bee20684a605894aea25b9d285b1779d",
+        "textRange": {
+            "startLine": 462,
+            "endLine": 462,
+            "startOffset": 42,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-19T10:13:55+0100",
+        "updateDate": "2020-04-28T23:32:25+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCdKf_mwUKkiL_8DWmM",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_usecase-ui-server:server/src/main/java/org/onap/usecaseui/server/service/nsmf/impl/ResourceMgtServiceConvert.java",
+        "project": "onap_usecase-ui-server",
+        "line": 274,
+        "hash": "87afae9a2a326824632f963bd433e34a",
+        "textRange": {
+            "startLine": 274,
+            "endLine": 274,
+            "startOffset": 15,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.reflect.InvocationTargetException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-19T10:13:55+0100",
+        "updateDate": "2020-03-02T22:30:36+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

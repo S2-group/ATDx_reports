@@ -1,0 +1,1614 @@
+[
+    {
+        "key": "AWpqvFHhK1LJlmpkb3Ye",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/resources/src/main/java/org/apache/tamaya/resource/ResourceResolver.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 90,
+        "hash": "17b98a29993cfb6df35679877ccd10f0",
+        "textRange": {
+            "startLine": 90,
+            "endLine": 90,
+            "startOffset": 49,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.tamaya.ConfigException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-11-05T00:16:13+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFHhK1LJlmpkb3Yf",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/resources/src/main/java/org/apache/tamaya/resource/ResourceResolver.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 102,
+        "hash": "1ee9e48cd5f62d15fac90866c01ed11c",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 72,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.tamaya.ConfigException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-11-05T00:16:13+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFHmK1LJlmpkb3Yg",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya-extensions:modules/resources/src/main/java/org/apache/tamaya/resource/ConfigResources.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 30,
+        "hash": "e6105f25b3994922e99aa32520fde114",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 19,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-03-20T17:43:19+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFHmK1LJlmpkb3Yh",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/resources/src/main/java/org/apache/tamaya/resource/ConfigResources.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 45,
+        "hash": "8cb33c8454899adb19ac68ef18767a8e",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 64,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.tamaya.ConfigException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-01-01T23:58:57+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFHmK1LJlmpkb3Yi",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/resources/src/main/java/org/apache/tamaya/resource/ConfigResources.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 57,
+        "hash": "75ed9d2a4a825908ebc4d912aba6a323",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 87,
+            "endOffset": 102
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.tamaya.ConfigException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-10-23T18:39:23+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFCcK1LJlmpkb3Vt",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-extensions:modules/formats/json/src/main/java/org/apache/tamaya/json/JSONPropertySource.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 105,
+        "hash": "c7e4e11bae274e5f65ff1ea5e8e187b1",
+        "textRange": {
+            "startLine": 105,
+            "endLine": 105,
+            "startOffset": 15,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-06T07:32:01+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFJdK1LJlmpkb3ZR",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-extensions:modules/injection/cdi/src/main/java/org/apache/tamaya/cdi/DefaultDynamicValue.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 72,
+        "hash": "1c90dbf949d59c609b1e8e84027fed27",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 12,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-11-19T23:23:42+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFS3K1LJlmpkb3gf",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:examples/05-spring-example/src/main/java/org/apache/tamaya/springexample/SampleWebFreeMarkerApplication.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 27,
+        "hash": "bc1821a6ff81cc22a20823dd9b8408eb",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 47,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-11-19T23:23:42+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWq258YLOoGQfCcqq3sL",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-extensions:modules/formats/hocon/src/main/java/org/apache/tamaya/hocon/HOCONPropertySource.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 78,
+        "hash": "c7e4e11bae274e5f65ff1ea5e8e187b1",
+        "textRange": {
+            "startLine": 78,
+            "endLine": 78,
+            "startOffset": 15,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-05-14T17:12:26+0200",
+        "updateDate": "2019-05-14T17:12:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWq258WfOoGQfCcqq3sH",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-extensions:modules/formats/hjson/src/main/java/org/apache/tamaya/hjson/HJSONPropertySource.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 77,
+        "hash": "c7e4e11bae274e5f65ff1ea5e8e187b1",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 15,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-05-14T17:12:26+0200",
+        "updateDate": "2019-05-14T17:12:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFOhK1LJlmpkb3dW",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-extensions:modules/functions/src/main/java/org/apache/tamaya/functions/ConfigWrappingPropertySource.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 52,
+        "hash": "c7e4e11bae274e5f65ff1ea5e8e187b1",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 15,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-09-05T01:45:24+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFERK1LJlmpkb3WJ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/spring/src/main/java/org/apache/tamaya/integration/spring/SpringConfigInjectionPostProcessor.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 45,
+        "hash": "c5431a29495c68f4501f831e0692c48d",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 77,
+            "endOffset": 91
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-09-25T20:30:49+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFERK1LJlmpkb3WK",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/spring/src/main/java/org/apache/tamaya/integration/spring/SpringConfigInjectionPostProcessor.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 51,
+        "hash": "58f9becd1740ae752b77041986e4c94f",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 76,
+            "endOffset": 90
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-09-25T20:30:49+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFIDK1LJlmpkb3Y_",
+        "rule": "java:S1220",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/injection/injection-api/src/main/java/org/apache/tamaya/inject/api/KeyResolution.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "flows": [],
+        "status": "OPEN",
+        "message": "Move this file to a named package.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "convention"
+        ],
+        "creationDate": "2019-02-21T09:51:31+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFJ_K1LJlmpkb3Z8",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya-extensions:modules/injection/standalone/src/main/java/org/apache/tamaya/inject/ConfigurationInjection.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 28,
+        "hash": "ab79a5947d74e0d2e5773e1c0a730765",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 19,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-07-21T23:50:03+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFKDK1LJlmpkb3Z9",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/injection/standalone/src/main/java/org/apache/tamaya/inject/internal/ConfiguredSetterMethod.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 58,
+        "hash": "733eb624e658aa6a8faf0aab6deb84b3",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 70,
+            "endOffset": 85
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.tamaya.ConfigException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-11-30T08:32:56+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFKNK1LJlmpkb3al",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-extensions:modules/injection/standalone/src/main/java/org/apache/tamaya/inject/internal/DefaultDynamicValue.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 184,
+        "hash": "125fde4b66e7e773e26f6f858162eca1",
+        "textRange": {
+            "startLine": 184,
+            "endLine": 184,
+            "startOffset": 32,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-11-19T23:23:42+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFKNK1LJlmpkb3am",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-extensions:modules/injection/standalone/src/main/java/org/apache/tamaya/inject/internal/DefaultDynamicValue.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 196,
+        "hash": "1d4ca5b96528919136a945c8bdbad9b8",
+        "textRange": {
+            "startLine": 196,
+            "endLine": 196,
+            "startOffset": 13,
+            "endOffset": 16
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-02-17T00:21:58+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFKNK1LJlmpkb3ar",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-extensions:modules/injection/standalone/src/main/java/org/apache/tamaya/inject/internal/DefaultDynamicValue.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 236,
+        "hash": "06b41bcdb0cfa2d1e665fdb937c8d1a6",
+        "textRange": {
+            "startLine": 236,
+            "endLine": 236,
+            "startOffset": 19,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-02-17T00:21:58+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFKNK1LJlmpkb3au",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-extensions:modules/injection/standalone/src/main/java/org/apache/tamaya/inject/internal/DefaultDynamicValue.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 269,
+        "hash": "a6b1c592b52d14fa8e00e75c1dfaf071",
+        "textRange": {
+            "startLine": 269,
+            "endLine": 269,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-02-17T00:21:58+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFPYK1LJlmpkb3d_",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya-extensions:modules/resolver/src/main/java/org/apache/tamaya/resolver/Resolver.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 72,
+        "hash": "b8193f4b267b5ff55a5f138e34f3b9f8",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 18,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-11-03T01:46:15+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFPYK1LJlmpkb3eA",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya-extensions:modules/resolver/src/main/java/org/apache/tamaya/resolver/Resolver.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 89,
+        "hash": "0906b9191b7fcc5342b99cddf80d16df",
+        "textRange": {
+            "startLine": 89,
+            "endLine": 89,
+            "startOffset": 18,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-11-03T01:46:15+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFPYK1LJlmpkb3eB",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya-extensions:modules/resolver/src/main/java/org/apache/tamaya/resolver/Resolver.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 176,
+        "hash": "c2e36611e8d1c374ab4d6c03c2efa9b6",
+        "textRange": {
+            "startLine": 176,
+            "endLine": 176,
+            "startOffset": 42,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-11-03T01:46:15+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFHZK1LJlmpkb3YX",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya-extensions:modules/resources/src/main/java/org/apache/tamaya/resource/BaseResourceResolver.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 47,
+        "hash": "3f522d0a3ff7c8c11c197b07687234e5",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 22,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-07-21T23:50:03+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFHeK1LJlmpkb3Yb",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-extensions:modules/resources/src/main/java/org/apache/tamaya/resource/AbstractPathPropertySourceProvider.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 171,
+        "hash": "c7e4e11bae274e5f65ff1ea5e8e187b1",
+        "textRange": {
+            "startLine": 171,
+            "endLine": 171,
+            "startOffset": 19,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-07-21T23:50:03+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFEgK1LJlmpkb3WX",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/osgi/gogo-shell/src/main/java/org/apache/tamaya/gogo/shell/SettingsCommands.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 77,
+        "hash": "d667742efb9bd5544e1ba183ba58e96a",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 46,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-10-16T17:17:51+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFEgK1LJlmpkb3Wa",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/osgi/gogo-shell/src/main/java/org/apache/tamaya/gogo/shell/SettingsCommands.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 83,
+        "hash": "42f424d2e19d6c2c7bd472c2e9d74c93",
+        "textRange": {
+            "startLine": 83,
+            "endLine": 83,
+            "startOffset": 65,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-10-16T17:17:51+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFEoK1LJlmpkb3Wf",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/osgi/gogo-shell/src/main/java/org/apache/tamaya/gogo/shell/ConfigCommands.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 51,
+        "hash": "563d6c3e8d3d4873fb620f1fcf1ca0eb",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 87,
+            "endOffset": 98
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-10-16T17:17:51+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFF-K1LJlmpkb3XX",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/osgi/common/src/main/java/org/apache/tamaya/osgi/commands/ConfigCommands.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 205,
+        "hash": "cf8f6611161d0c44f1370978e86bc5ae",
+        "textRange": {
+            "startLine": 205,
+            "endLine": 205,
+            "startOffset": 60,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-10-17T01:02:54+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFF-K1LJlmpkb3XY",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/osgi/common/src/main/java/org/apache/tamaya/osgi/commands/ConfigCommands.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 227,
+        "hash": "10f32582498d799e63b43f35db8d2f34",
+        "textRange": {
+            "startLine": 227,
+            "endLine": 227,
+            "startOffset": 101,
+            "endOffset": 112
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-10-17T01:02:54+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFINK1LJlmpkb3ZE",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya-extensions:modules/injection/injection-api/src/main/java/org/apache/tamaya/inject/api/LoadPolicy.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 29,
+        "hash": "8058f92d6f3d9661d8486665f3bb3d94",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 12,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2014-11-26T18:58:13+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFKfK1LJlmpkb3a8",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/injection/standalone/src/main/java/org/apache/tamaya/inject/internal/ConfiguredFieldImpl.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 103,
+        "hash": "c236f1013e0df52e502c2079f79bb98d",
+        "textRange": {
+            "startLine": 103,
+            "endLine": 103,
+            "startOffset": 89,
+            "endOffset": 104
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.tamaya.ConfigException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-11-28T02:01:39+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFEtK1LJlmpkb3W1",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/osgi/gogo-shell/src/main/java/org/apache/tamaya/gogo/shell/HistoryCommands.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 86,
+        "hash": "8c723d5444d66b42b71915a0c3469f2c",
+        "textRange": {
+            "startLine": 86,
+            "endLine": 86,
+            "startOffset": 124,
+            "endOffset": 135
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-10-23T18:39:23+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFDwK1LJlmpkb3WB",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-extensions:modules/formats/yaml/src/main/java/org/apache/tamaya/yaml/YAMLPropertySource.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 78,
+        "hash": "c7e4e11bae274e5f65ff1ea5e8e187b1",
+        "textRange": {
+            "startLine": 78,
+            "endLine": 78,
+            "startOffset": 15,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-02-27T21:46:23+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFEJK1LJlmpkb3WC",
+        "rule": "java:S1220",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/spring/src/main/java/org/apache/tamaya/integration/spring/TamayaDefaultConfigSupplier.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "flows": [],
+        "status": "OPEN",
+        "message": "Move this file to a named package.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "convention"
+        ],
+        "creationDate": "2019-03-14T23:52:36+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFKNK1LJlmpkb3aM",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-extensions:modules/injection/standalone/src/main/java/org/apache/tamaya/inject/internal/DefaultDynamicValue.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 80,
+        "hash": "1c90dbf949d59c609b1e8e84027fed27",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 12,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-11-19T23:23:42+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFRRK1LJlmpkb3e5",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya-extensions:modules/mutable-config/src/main/java/org/apache/tamaya/mutableconfig/MutableConfigurationProvider.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 36,
+        "hash": "e6a4a6d82678215e55fbd98c0f564149",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 19,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-10-30T22:59:21+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFKfK1LJlmpkb3a5",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/injection/standalone/src/main/java/org/apache/tamaya/inject/internal/ConfiguredFieldImpl.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 77,
+        "hash": "2ff3c17e2eac51965db72dec77e4df64",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 57,
+            "endOffset": 72
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.tamaya.ConfigException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-02-17T00:44:42+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFLSK1LJlmpkb3bV",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya-extensions:modules/events/src/main/java/org/apache/tamaya/events/FrozenPropertySource.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 34,
+        "hash": "dab6fd78c323776bca8392e84b328825",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 19,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-02-27T03:40:36+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFLSK1LJlmpkb3bW",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-extensions:modules/events/src/main/java/org/apache/tamaya/events/FrozenPropertySource.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 80,
+        "hash": "c7e4e11bae274e5f65ff1ea5e8e187b1",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 15,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-02-27T03:40:36+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFLVK1LJlmpkb3bX",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya-extensions:modules/events/src/main/java/org/apache/tamaya/events/FrozenConfiguration.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 36,
+        "hash": "a1efb00aee0ce3f206fd40a8dcf3ffe4",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 19,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-02-27T03:40:36+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFEtK1LJlmpkb3Wy",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/osgi/gogo-shell/src/main/java/org/apache/tamaya/gogo/shell/HistoryCommands.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 79,
+        "hash": "4ac5732841fcd55981eac50cd9bfda4a",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 44,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-10-16T17:17:51+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFS_K1LJlmpkb3gi",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-extensions:examples/04-events-example/src/main/java/org/apache/tamaya/ext/examples/events/Main.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 94,
+        "hash": "c3048f1e17bb3ae41dc58d9a0feaaa37",
+        "textRange": {
+            "startLine": 94,
+            "endLine": 94,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-02-25T00:02:59+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFS_K1LJlmpkb3gj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-extensions:examples/04-events-example/src/main/java/org/apache/tamaya/ext/examples/events/Main.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 169,
+        "hash": "50244175f7b2837928f1f3392c0763c6",
+        "textRange": {
+            "startLine": 169,
+            "endLine": 169,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-02-25T00:02:59+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFKfK1LJlmpkb3a4",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/injection/standalone/src/main/java/org/apache/tamaya/inject/internal/ConfiguredFieldImpl.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 62,
+        "hash": "733eb624e658aa6a8faf0aab6deb84b3",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 70,
+            "endOffset": 85
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.tamaya.ConfigException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-11-30T08:32:56+0100",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFFyK1LJlmpkb3XH",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/osgi/common/src/main/java/org/apache/tamaya/osgi/commands/BackupCommands.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 57,
+        "hash": "356ba125d662328104e4f9e862683ead",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 86,
+            "endOffset": 97
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-10-17T01:02:54+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFF-K1LJlmpkb3XT",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/osgi/common/src/main/java/org/apache/tamaya/osgi/commands/ConfigCommands.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 118,
+        "hash": "a44786aced10ac73fd06d68bdde99b78",
+        "textRange": {
+            "startLine": 118,
+            "endLine": 118,
+            "startOffset": 100,
+            "endOffset": 111
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-10-17T01:02:54+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFF-K1LJlmpkb3XS",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/osgi/common/src/main/java/org/apache/tamaya/osgi/commands/ConfigCommands.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 114,
+        "hash": "c48c3911a9eddceb794eb37d33fad36a",
+        "textRange": {
+            "startLine": 114,
+            "endLine": 114,
+            "startOffset": 85,
+            "endOffset": 96
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-10-17T01:02:54+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFF-K1LJlmpkb3XR",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/osgi/common/src/main/java/org/apache/tamaya/osgi/commands/ConfigCommands.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 40,
+        "hash": "5d5015b7eb4ccf1c2286dafc9fa04d1a",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 74,
+            "endOffset": 85
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-10-17T01:02:54+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFFyK1LJlmpkb3XK",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/osgi/common/src/main/java/org/apache/tamaya/osgi/commands/BackupCommands.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 98,
+        "hash": "8122d73a93b10af20237a6f78b0cc74f",
+        "textRange": {
+            "startLine": 98,
+            "endLine": 98,
+            "startOffset": 83,
+            "endOffset": 94
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-10-17T01:02:54+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFFyK1LJlmpkb3XI",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/osgi/common/src/main/java/org/apache/tamaya/osgi/commands/BackupCommands.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 69,
+        "hash": "244c8a8e054e4ab10986ae2f1b554dba",
+        "textRange": {
+            "startLine": 69,
+            "endLine": 69,
+            "startOffset": 86,
+            "endOffset": 97
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-10-17T01:02:54+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFF-K1LJlmpkb3XU",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/osgi/common/src/main/java/org/apache/tamaya/osgi/commands/ConfigCommands.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 124,
+        "hash": "6b83141d179fa2aca31e70b2b3584531",
+        "textRange": {
+            "startLine": 124,
+            "endLine": 124,
+            "startOffset": 97,
+            "endOffset": 108
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-10-17T01:02:54+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFF-K1LJlmpkb3XW",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/osgi/common/src/main/java/org/apache/tamaya/osgi/commands/ConfigCommands.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 163,
+        "hash": "22e73fe6789af17c0f036168891c140f",
+        "textRange": {
+            "startLine": 163,
+            "endLine": 163,
+            "startOffset": 73,
+            "endOffset": 84
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-10-17T01:02:54+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFF3K1LJlmpkb3XL",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/osgi/common/src/main/java/org/apache/tamaya/osgi/commands/HistoryCommands.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 40,
+        "hash": "c8de3ac3e63976f25f700ba7d451b37f",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 86,
+            "endOffset": 97
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-10-17T01:02:54+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqvFF3K1LJlmpkb3XM",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-extensions:modules/osgi/common/src/main/java/org/apache/tamaya/osgi/commands/HistoryCommands.java",
+        "project": "apache_incubator-tamaya-extensions",
+        "line": 50,
+        "hash": "8c14100807cd7cf0bb36cdc5293115fb",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 102,
+            "endOffset": 113
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-10-17T01:02:54+0200",
+        "updateDate": "2019-04-29T22:13:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

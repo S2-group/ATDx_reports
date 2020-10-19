@@ -1,0 +1,312 @@
+[
+    {
+        "key": "AW8V50CBjqq-MgMKeDTJ",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-mirroragent:src/main/java/org/onap/dmaap/mr/dmaapMMAgent/utils/MirrorMakerProcessHandler.java",
+        "project": "onap_dmaap-messagerouter-mirroragent",
+        "line": 30,
+        "hash": "269d544f0a629cc19ce754ffedd29867",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 13,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-12-27T22:15:40+0100",
+        "updateDate": "2019-12-17T23:07:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V50CBjqq-MgMKeDTH",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-mirroragent:src/main/java/org/onap/dmaap/mr/dmaapMMAgent/utils/MirrorMakerProcessHandler.java",
+        "project": "onap_dmaap-messagerouter-mirroragent",
+        "line": 34,
+        "hash": "841f8a4bd4770bc5aee3ec9a9a29f153",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 112,
+            "endOffset": 121
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-20T23:12:36+0200",
+        "updateDate": "2019-12-17T23:07:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V50BRjqq-MgMKeDSF",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-mirroragent:src/main/java/org/onap/dmaap/mr/dmaapMMAgent/dao/MirrorMaker.java",
+        "project": "onap_dmaap-messagerouter-mirroragent",
+        "line": 31,
+        "hash": "4cabe026ed0efcdab570987f6dee1bb0",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 16,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make enablelogCheck a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-06-20T23:12:36+0200",
+        "updateDate": "2019-12-17T23:07:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V50BRjqq-MgMKeDSE",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-mirroragent:src/main/java/org/onap/dmaap/mr/dmaapMMAgent/dao/MirrorMaker.java",
+        "project": "onap_dmaap-messagerouter-mirroragent",
+        "line": 30,
+        "hash": "5712d9056b744f57040d3162bbe120b7",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 12,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make numStreams a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-06-20T23:12:36+0200",
+        "updateDate": "2019-12-17T23:07:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V50BRjqq-MgMKeDSD",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-mirroragent:src/main/java/org/onap/dmaap/mr/dmaapMMAgent/dao/MirrorMaker.java",
+        "project": "onap_dmaap-messagerouter-mirroragent",
+        "line": 29,
+        "hash": "a00265cea49c7df1e6340bc0422038cf",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 15,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make status a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-30T18:35:00+0200",
+        "updateDate": "2019-12-17T23:07:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V50BRjqq-MgMKeDSC",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-mirroragent:src/main/java/org/onap/dmaap/mr/dmaapMMAgent/dao/MirrorMaker.java",
+        "project": "onap_dmaap-messagerouter-mirroragent",
+        "line": 28,
+        "hash": "4653839ac1aec1ea6877a4f6533439a7",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make whitelist a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-30T18:35:00+0200",
+        "updateDate": "2019-12-17T23:07:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V50CCjqq-MgMKeDTT",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-mirroragent:src/main/java/org/onap/dmaap/mr/dmaapMMAgent/utils/MirrorMakerProcessHandler.java",
+        "project": "onap_dmaap-messagerouter-mirroragent",
+        "line": 178,
+        "hash": "c0a4636e14eb4f6b03cb2dde77b07d70",
+        "textRange": {
+            "startLine": 178,
+            "endLine": 178,
+            "startOffset": 17,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-08-30T18:35:00+0200",
+        "updateDate": "2019-12-17T23:07:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V50Bujqq-MgMKeDSa",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-mirroragent:src/main/java/org/onap/dmaap/mr/dmaapMMAgent/MirrorMakerAgent.java",
+        "project": "onap_dmaap-messagerouter-mirroragent",
+        "line": 58,
+        "hash": "f8ddd609c25dd477114ed69703bc719a",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 16,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make exitLoop a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-12-27T22:15:40+0100",
+        "updateDate": "2019-12-17T23:07:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V50BRjqq-MgMKeDR_",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-mirroragent:src/main/java/org/onap/dmaap/mr/dmaapMMAgent/dao/MirrorMaker.java",
+        "project": "onap_dmaap-messagerouter-mirroragent",
+        "line": 25,
+        "hash": "d29eb809cd7e712070b86a449a5f2e82",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 15,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make name a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-30T18:35:00+0200",
+        "updateDate": "2019-12-17T23:07:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V50BRjqq-MgMKeDSA",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-mirroragent:src/main/java/org/onap/dmaap/mr/dmaapMMAgent/dao/MirrorMaker.java",
+        "project": "onap_dmaap-messagerouter-mirroragent",
+        "line": 26,
+        "hash": "8b23e7b8d8e93514d47f7b5986fbe9f3",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 15,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make consumer a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-30T18:35:00+0200",
+        "updateDate": "2019-12-17T23:07:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V50BRjqq-MgMKeDSB",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-mirroragent:src/main/java/org/onap/dmaap/mr/dmaapMMAgent/dao/MirrorMaker.java",
+        "project": "onap_dmaap-messagerouter-mirroragent",
+        "line": 27,
+        "hash": "e2e4d0485dc4bfa5f13c2ead34227370",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 15,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make producer a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-30T18:35:00+0200",
+        "updateDate": "2019-12-17T23:07:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

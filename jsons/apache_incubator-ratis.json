@@ -1,0 +1,4259 @@
+[
+    {
+        "key": "AXJWdiOcwsm5D8rduwSJ",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/server/MetaStateMachine.java",
+        "project": "apache_incubator-ratis",
+        "line": 199,
+        "hash": "df9f1405144dd3ae0f6ed1dc706c2a45",
+        "textRange": {
+            "startLine": 199,
+            "endLine": 199,
+            "startOffset": 38,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiOcwsm5D8rduwSI",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/server/MetaStateMachine.java",
+        "project": "apache_incubator-ratis",
+        "line": 194,
+        "hash": "771fca75d68473c81d410fbd6a9cc129",
+        "textRange": {
+            "startLine": 194,
+            "endLine": 194,
+            "startOffset": 38,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiOcwsm5D8rduwSH",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/server/MetaStateMachine.java",
+        "project": "apache_incubator-ratis",
+        "line": 189,
+        "hash": "d223a3254af35df5a927e4fbdcbcda22",
+        "textRange": {
+            "startLine": 189,
+            "endLine": 189,
+            "startOffset": 30,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiOcwsm5D8rduwSG",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/server/MetaStateMachine.java",
+        "project": "apache_incubator-ratis",
+        "line": 184,
+        "hash": "5131e060d595a3d0ea62b0199a2bcb1b",
+        "textRange": {
+            "startLine": 184,
+            "endLine": 184,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiuvwsm5D8rduwdo",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-server/src/main/java/org/apache/ratis/server/raftlog/segmented/SegmentedRaftLogFormat.java",
+        "project": "apache_incubator-ratis",
+        "line": 28,
+        "hash": "fc7df521e8354d6cee8f624b8343b10e",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 8,
+            "endOffset": 16
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiRzwsm5D8rduwTP",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/tool/VerificationTool.java",
+        "project": "apache_incubator-ratis",
+        "line": 58,
+        "hash": "6f017de7fe59601ce2157c69235132e2",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 61,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.beust.jcommander.ParameterException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiYhwsm5D8rduwVK",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/util/NetUtils.java",
+        "project": "apache_incubator-ratis",
+        "line": 32,
+        "hash": "6b6b1512207411b9aa10827b999f7b61",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 17,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiYhwsm5D8rduwVI",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/util/NetUtils.java",
+        "project": "apache_incubator-ratis",
+        "line": 121,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdi8fwsm5D8rduwia",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-metrics/src/main/java/org/apache/ratis/metrics/MetricRegistriesLoader.java",
+        "project": "apache_incubator-ratis",
+        "line": 70,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdi8Vwsm5D8rduwiY",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-metrics/src/main/java/org/apache/ratis/metrics/MetricRegistries.java",
+        "project": "apache_incubator-ratis",
+        "line": 32,
+        "hash": "f6e2a28a237db6117b362e97afac5d2a",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"MetricRegistries\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiLSwsm5D8rduwQT",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-grpc/src/main/java/org/apache/ratis/grpc/server/GrpcService.java",
+        "project": "apache_incubator-ratis",
+        "line": 100,
+        "hash": "1bb1f1899bacf1151fabdf1dc6911347",
+        "textRange": {
+            "startLine": 100,
+            "endLine": 100,
+            "startOffset": 10,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiVQwsm5D8rduwUO",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-examples/src/main/java/org/apache/ratis/examples/counter/server/CounterServer.java",
+        "project": "apache_incubator-ratis",
+        "line": 48,
+        "hash": "c183faae338b86b7d85f0fb087980e21",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 61,
+            "endOffset": 81
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdizwwsm5D8rduwgH",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-server/src/main/java/org/apache/ratis/server/storage/SnapshotManager.java",
+        "project": "apache_incubator-ratis",
+        "line": 50,
+        "hash": "4a3b955d7b5a770d6660663510eb831e",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiyQwsm5D8rduwfH",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-server/src/main/java/org/apache/ratis/server/impl/RaftServerImpl.java",
+        "project": "apache_incubator-ratis",
+        "line": 968,
+        "hash": "c5d2af6e80fa2a15ee8a6c7c245032e9",
+        "textRange": {
+            "startLine": 968,
+            "endLine": 968,
+            "startOffset": 53,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZQ",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 81,
+        "hash": "df7b4bac0f0532988eb12a75a55bdd22",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 22,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static SYNC_FILE_RANGE_WAIT_AFTER\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZP",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 77,
+        "hash": "6dd4a49556e47f2c947738f8d911e632",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 22,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static SYNC_FILE_RANGE_WRITE\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZO",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 73,
+        "hash": "3bbf5c2646a6214a5c4bdef6b4412d59",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 22,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static SYNC_FILE_RANGE_WAIT_BEFORE\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZN",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 65,
+        "hash": "41272d61755c404ce6a762058cd03ed3",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 22,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static POSIX_FADV_NOREUSE\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZM",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 63,
+        "hash": "7315bcac1fc6f763c2dafd8ab1770df0",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 22,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static POSIX_FADV_DONTNEED\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZL",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 61,
+        "hash": "6d44f045e5be9454bf38933e55421be5",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 22,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static POSIX_FADV_WILLNEED\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZK",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 59,
+        "hash": "1fd8d2a328d74297f03e4120fd5a454e",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 22,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static POSIX_FADV_SEQUENTIAL\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZJ",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 57,
+        "hash": "0a8b92c94debb5576028ab1e1c25d74b",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 22,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static POSIX_FADV_RANDOM\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZI",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 55,
+        "hash": "628bf4b4e5678ca0db263bf0c49d7eee",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 22,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static POSIX_FADV_NORMAL\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZH",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 51,
+        "hash": "d7938e83c85b451ab576795ad8c690a5",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 22,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static O_SYNC\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdimgwsm5D8rduwbs",
+        "rule": "java:S1598",
+        "severity": "CRITICAL",
+        "component": "apache_incubator-ratis:ratis-client/src/main/java/org/apache/ratis/client/retry/ClientRetryEvent.java",
+        "project": "apache_incubator-ratis",
+        "hash": "781fad3bdfe46fbf057e94693cd2ba20",
+        "textRange": {
+            "startLine": 18,
+            "endLine": 18,
+            "startOffset": 8,
+            "endOffset": 37
+        },
+        "flows": [],
+        "resolution": "FIXED",
+        "status": "CLOSED",
+        "message": "This file \"ClientRetryEvent.java\" should be located in \"org/apache/ratis/client/retry\" directory, not in \"/home/runner/work/incubator-ratis/incubator-ratis/ratis-client/src/main/java/org/apache/ratis/client\".",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "pitfall"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-28T12:30:20+0200",
+        "closeDate": "2020-05-28T12:30:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwaC",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 284,
+        "hash": "78061bc9765ebfe8a7d433e52074427b",
+        "textRange": {
+            "startLine": 284,
+            "endLine": 284,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make S_IWUSR a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwaB",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 283,
+        "hash": "79395458230e15ab15696664fbcf4478",
+        "textRange": {
+            "startLine": 283,
+            "endLine": 283,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make S_IRUSR a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwaA",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 282,
+        "hash": "29ae215ebbd622b2345d2386115fa65d",
+        "textRange": {
+            "startLine": 282,
+            "endLine": 282,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make S_ISVTX a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZ_",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 281,
+        "hash": "2df595ec8d08f4fe02eae97174d7145d",
+        "textRange": {
+            "startLine": 281,
+            "endLine": 281,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make S_ISGID a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiYMwsm5D8rduwU3",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/util/ReflectionUtils.java",
+        "project": "apache_incubator-ratis",
+        "line": 214,
+        "hash": "9fec9bfac46b1548dca1ed33b0544a2c",
+        "textRange": {
+            "startLine": 214,
+            "endLine": 214,
+            "startOffset": 45,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiYMwsm5D8rduwU9",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/util/ReflectionUtils.java",
+        "project": "apache_incubator-ratis",
+        "line": 63,
+        "hash": "5e2c571b22d500b02b04803d83cb546d",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 14,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZk",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 44,
+        "hash": "b54f22d9bd3abd8a2b9458b7745dbc3e",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 22,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make O_RDWR a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZj",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 43,
+        "hash": "c2ea158e291374e709ad427551b22fa8",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make O_WRONLY a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZi",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 42,
+        "hash": "b7d0b7abf5348ba396772e2f90fb0a12",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make O_RDONLY a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZf",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 285,
+        "hash": "983fc8aa745b72dd3b07bae4a599c5c6",
+        "textRange": {
+            "startLine": 285,
+            "endLine": 285,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static S_IXUSR\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZe",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 284,
+        "hash": "78061bc9765ebfe8a7d433e52074427b",
+        "textRange": {
+            "startLine": 284,
+            "endLine": 284,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static S_IWUSR\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZd",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 283,
+        "hash": "79395458230e15ab15696664fbcf4478",
+        "textRange": {
+            "startLine": 283,
+            "endLine": 283,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static S_IRUSR\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZc",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 282,
+        "hash": "29ae215ebbd622b2345d2386115fa65d",
+        "textRange": {
+            "startLine": 282,
+            "endLine": 282,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static S_ISVTX\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZb",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 281,
+        "hash": "2df595ec8d08f4fe02eae97174d7145d",
+        "textRange": {
+            "startLine": 281,
+            "endLine": 281,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static S_ISGID\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiwXwsm5D8rduweN",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-ratis:ratis-server/src/main/java/org/apache/ratis/server/impl/RaftServerConstants.java",
+        "project": "apache_incubator-ratis",
+        "line": 25,
+        "hash": "8de57d2760bf5ae72d252b5f82ad74e8",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 27,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdikJwsm5D8rduwbL",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/retry/RetryPolicies.java",
+        "project": "apache_incubator-ratis",
+        "line": 50,
+        "hash": "2dd8c6bdb405e6b3fbdc6726dadba2b2",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 8,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiiKwsm5D8rduwYO",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/protocol/RaftClientReply.java",
+        "project": "apache_incubator-ratis",
+        "line": 63,
+        "hash": "95a6fb54cc3ea498b9806dc0bea45aa4",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 9,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiiKwsm5D8rduwYN",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/protocol/RaftClientReply.java",
+        "project": "apache_incubator-ratis",
+        "line": 55,
+        "hash": "381ceecdc1c2e3dc28f87ebc61e9d5c8",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 9,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdidowsm5D8rduwXA",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/util/NativeCrc32.java",
+        "project": "apache_incubator-ratis",
+        "line": 69,
+        "hash": "0cb499fd03e64741cc478cca584c0c9c",
+        "textRange": {
+            "startLine": 69,
+            "endLine": 69,
+            "startOffset": 21,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdidowsm5D8rduwXD",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/util/NativeCrc32.java",
+        "project": "apache_incubator-ratis",
+        "line": 61,
+        "hash": "b0cb7905b1b9f37e3e7180454a44d2f9",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.ratis.protocol.ChecksumException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwaD",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 285,
+        "hash": "983fc8aa745b72dd3b07bae4a599c5c6",
+        "textRange": {
+            "startLine": 285,
+            "endLine": 285,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make S_IXUSR a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZ8",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 278,
+        "hash": "b3873007de562d28f8ce9deb477c177c",
+        "textRange": {
+            "startLine": 278,
+            "endLine": 278,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make S_IFLNK a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZ7",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 277,
+        "hash": "4bab58a05fe83d6df0084bc1bea42062",
+        "textRange": {
+            "startLine": 277,
+            "endLine": 277,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make S_IFREG a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZ6",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 276,
+        "hash": "b161439d0ab05a6e1f21eeff3475c896",
+        "textRange": {
+            "startLine": 276,
+            "endLine": 276,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make S_IFBLK a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZ5",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 275,
+        "hash": "0eec7133aadd92d52dc5490e4f2beb0e",
+        "textRange": {
+            "startLine": 275,
+            "endLine": 275,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make S_IFDIR a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZ4",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 274,
+        "hash": "d4d4e139513d590a61fca674e36a9438",
+        "textRange": {
+            "startLine": 274,
+            "endLine": 274,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make S_IFCHR a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZ3",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 273,
+        "hash": "449a2a1cde3956ff36f0112324c649a1",
+        "textRange": {
+            "startLine": 273,
+            "endLine": 273,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make S_IFIFO a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZ2",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 272,
+        "hash": "fbd9c9990a9e56858ae3f86e9b979326",
+        "textRange": {
+            "startLine": 272,
+            "endLine": 272,
+            "startOffset": 24,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make S_IFMT a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZ1",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 84,
+        "hash": "f47a8e930abbd4d1a6e3ae51c24b77d1",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 26,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make fadvisePossible a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZ0",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 81,
+        "hash": "df7b4bac0f0532988eb12a75a55bdd22",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 22,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make SYNC_FILE_RANGE_WAIT_AFTER a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZz",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 77,
+        "hash": "6dd4a49556e47f2c947738f8d911e632",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 22,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make SYNC_FILE_RANGE_WRITE a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiwMwsm5D8rduweG",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-server/src/main/java/org/apache/ratis/server/impl/ServerProtoUtils.java",
+        "project": "apache_incubator-ratis",
+        "line": 428,
+        "hash": "1a9b01ba5262dd310b84a2483c4ce10b",
+        "textRange": {
+            "startLine": 428,
+            "endLine": 428,
+            "startOffset": 35,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiwMwsm5D8rduweF",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-server/src/main/java/org/apache/ratis/server/impl/ServerProtoUtils.java",
+        "project": "apache_incubator-ratis",
+        "line": 409,
+        "hash": "3a3d1de5e8d5672053848c58ee996124",
+        "textRange": {
+            "startLine": 409,
+            "endLine": 409,
+            "startOffset": 33,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiwMwsm5D8rduweE",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-server/src/main/java/org/apache/ratis/server/impl/ServerProtoUtils.java",
+        "project": "apache_incubator-ratis",
+        "line": 375,
+        "hash": "dd2f088b9775eb35febbeeb42c08cead",
+        "textRange": {
+            "startLine": 375,
+            "endLine": 375,
+            "startOffset": 37,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJ0V_la0SRSA36vO5RQ",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-grpc/src/main/java/org/apache/ratis/grpc/metrics/GrpcServerMetrics.java",
+        "project": "apache_incubator-ratis",
+        "line": 106,
+        "hash": "9981b16176eb38fa8c13e7e8b66eb521",
+        "textRange": {
+            "startLine": 106,
+            "endLine": 106,
+            "startOffset": 29,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2020-06-02T11:22:47+0200",
+        "updateDate": "2020-06-02T11:22:47+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdidowsm5D8rduwXC",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/util/NativeCrc32.java",
+        "project": "apache_incubator-ratis",
+        "line": 104,
+        "hash": "399df23f50f1e74951be0153288eadee",
+        "textRange": {
+            "startLine": 104,
+            "endLine": 104,
+            "startOffset": 29,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdidowsm5D8rduwXB",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/util/NativeCrc32.java",
+        "project": "apache_incubator-ratis",
+        "line": 97,
+        "hash": "8a54b17efa335779f0652e0634279683",
+        "textRange": {
+            "startLine": 97,
+            "endLine": 97,
+            "startOffset": 29,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdidHwsm5D8rduwW4",
+        "rule": "java:S2222",
+        "severity": "CRITICAL",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/util/AutoCloseableLock.java",
+        "project": "apache_incubator-ratis",
+        "line": 43,
+        "hash": "09803a8c03f62e6524bb6520a1940c56",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 4,
+            "endOffset": 8
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Unlock this lock along all executions paths of this method.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cwe",
+            "multi-threading"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "BUG",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiMwwsm5D8rduwQv",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/api/LogServiceClient.java",
+        "project": "apache_incubator-ratis",
+        "line": 135,
+        "hash": "4e7695544e4d32062063426f58d9caba",
+        "textRange": {
+            "startLine": 135,
+            "endLine": 135,
+            "startOffset": 75,
+            "endOffset": 86
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiMwwsm5D8rduwQu",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/api/LogServiceClient.java",
+        "project": "apache_incubator-ratis",
+        "line": 123,
+        "hash": "35f273a9ff92f15f20dea0ec3c1fab72",
+        "textRange": {
+            "startLine": 123,
+            "endLine": 123,
+            "startOffset": 60,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiOMwsm5D8rduwRQ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/server/LogStateMachine.java",
+        "project": "apache_incubator-ratis",
+        "line": 528,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 528,
+            "endLine": 528,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdii3wsm5D8rduwYl",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/conf/RaftProperties.java",
+        "project": "apache_incubator-ratis",
+        "line": 1261,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 1261,
+            "endLine": 1261,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdicPwsm5D8rduwWU",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/util/MD5FileUtil.java",
+        "project": "apache_incubator-ratis",
+        "line": 37,
+        "hash": "e1d36cf84547793a41ac8114274505f5",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 22,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdibjwsm5D8rduwWO",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/util/ExitUtils.java",
+        "project": "apache_incubator-ratis",
+        "line": 127,
+        "hash": "68e9f49ba54bb7c00540d5ceee52aa52",
+        "textRange": {
+            "startLine": 127,
+            "endLine": 127,
+            "startOffset": 13,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.ratis.util.ExitUtils$ExitException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijowsm5D8rduwbC",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/MD5Hash.java",
+        "project": "apache_incubator-ratis",
+        "line": 37,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiKkwsm5D8rduwP1",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-grpc/src/main/java/org/apache/ratis/grpc/client/GrpcClientProtocolClient.java",
+        "project": "apache_incubator-ratis",
+        "line": 121,
+        "hash": "994ac230fb0dc17586983c847ce9a1b0",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZS",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 272,
+        "hash": "fbd9c9990a9e56858ae3f86e9b979326",
+        "textRange": {
+            "startLine": 272,
+            "endLine": 272,
+            "startOffset": 24,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static S_IFMT\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZR",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 84,
+        "hash": "f47a8e930abbd4d1a6e3ae51c24b77d1",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 26,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static fadvisePossible\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiRzwsm5D8rduwTH",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/tool/VerificationTool.java",
+        "project": "apache_incubator-ratis",
+        "line": 355,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 355,
+            "endLine": 355,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiRzwsm5D8rduwTG",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/tool/VerificationTool.java",
+        "project": "apache_incubator-ratis",
+        "line": 325,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 325,
+            "endLine": 325,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdii3wsm5D8rduwYi",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/conf/RaftProperties.java",
+        "project": "apache_incubator-ratis",
+        "line": 1021,
+        "hash": "0c5d7e422eca4a5cfec8edf49992a23c",
+        "textRange": {
+            "startLine": 1021,
+            "endLine": 1021,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdii3wsm5D8rduwYh",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/conf/RaftProperties.java",
+        "project": "apache_incubator-ratis",
+        "line": 996,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 996,
+            "endLine": 996,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdii3wsm5D8rduwYg",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/conf/RaftProperties.java",
+        "project": "apache_incubator-ratis",
+        "line": 974,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 974,
+            "endLine": 974,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiU7wsm5D8rduwUH",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-examples/src/main/java/org/apache/ratis/examples/common/SubCommandBase.java",
+        "project": "apache_incubator-ratis",
+        "line": 53,
+        "hash": "f4cfb4a521a9b9833f0e2678d8883147",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 36,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZF",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 49,
+        "hash": "ecd5bdbdeaa4579970f5477ebdd64612",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static O_APPEND\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZp",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 49,
+        "hash": "ecd5bdbdeaa4579970f5477ebdd64612",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make O_APPEND a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZG",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 50,
+        "hash": "96bf43ab0589e942f95d313c34866b4e",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 22,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static O_NONBLOCK\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZq",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 50,
+        "hash": "96bf43ab0589e942f95d313c34866b4e",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 22,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make O_NONBLOCK a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZr",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 51,
+        "hash": "d7938e83c85b451ab576795ad8c690a5",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 22,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make O_SYNC a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiRKwsm5D8rduwSz",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/util/MetaServiceProtoUtil.java",
+        "project": "apache_incubator-ratis",
+        "line": 177,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 177,
+            "endLine": 177,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwa4",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 465,
+        "hash": "4a3b955d7b5a770d6660663510eb831e",
+        "textRange": {
+            "startLine": 465,
+            "endLine": 465,
+            "startOffset": 15,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiVvwsm5D8rduwUb",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-examples/src/main/java/org/apache/ratis/examples/counter/CounterCommon.java",
+        "project": "apache_incubator-ratis",
+        "line": 34,
+        "hash": "eb68e771a524671972b1d19e669f930f",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 37,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdi6bwsm5D8rduwiI",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-hadoop/src/main/java/org/apache/ratis/hadooprpc/server/HadoopRpcService.java",
+        "project": "apache_incubator-ratis",
+        "line": 103,
+        "hash": "2a7f49355349a73037eeb01da5f5b721",
+        "textRange": {
+            "startLine": 103,
+            "endLine": 103,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZa",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 280,
+        "hash": "b7d88c6b4ee02d5c7f2e9534b9147f58",
+        "textRange": {
+            "startLine": 280,
+            "endLine": 280,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static S_ISUID\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZZ",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 279,
+        "hash": "ba013d9e7cf9dd0e9541025e714bc412",
+        "textRange": {
+            "startLine": 279,
+            "endLine": 279,
+            "startOffset": 24,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static S_IFSOCK\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZY",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 278,
+        "hash": "b3873007de562d28f8ce9deb477c177c",
+        "textRange": {
+            "startLine": 278,
+            "endLine": 278,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static S_IFLNK\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZX",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 277,
+        "hash": "4bab58a05fe83d6df0084bc1bea42062",
+        "textRange": {
+            "startLine": 277,
+            "endLine": 277,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static S_IFREG\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZW",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 276,
+        "hash": "b161439d0ab05a6e1f21eeff3475c896",
+        "textRange": {
+            "startLine": 276,
+            "endLine": 276,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static S_IFBLK\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZV",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 275,
+        "hash": "0eec7133aadd92d52dc5490e4f2beb0e",
+        "textRange": {
+            "startLine": 275,
+            "endLine": 275,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static S_IFDIR\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZU",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 274,
+        "hash": "d4d4e139513d590a61fca674e36a9438",
+        "textRange": {
+            "startLine": 274,
+            "endLine": 274,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static S_IFCHR\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZT",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 273,
+        "hash": "449a2a1cde3956ff36f0112324c649a1",
+        "textRange": {
+            "startLine": 273,
+            "endLine": 273,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static S_IFIFO\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdixlwsm5D8rduwe1",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-server/src/main/java/org/apache/ratis/server/impl/LogAppender.java",
+        "project": "apache_incubator-ratis",
+        "line": 264,
+        "hash": "56ba1598b2e954f968bfa6938c30449e",
+        "textRange": {
+            "startLine": 264,
+            "endLine": 264,
+            "startOffset": 35,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.InterruptedIOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdixkwsm5D8rduweq",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-server/src/main/java/org/apache/ratis/server/impl/LogAppender.java",
+        "project": "apache_incubator-ratis",
+        "line": 395,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 395,
+            "endLine": 395,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdifcwsm5D8rduwYD",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/protocol/GroupInfoReply.java",
+        "project": "apache_incubator-ratis",
+        "line": 44,
+        "hash": "f6d9b4d0594495a81641a2dc924ae3b9",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 9,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiyywsm5D8rduwf0",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-server/src/main/java/org/apache/ratis/server/impl/RaftServerRpcWithProxy.java",
+        "project": "apache_incubator-ratis",
+        "line": 79,
+        "hash": "ccc81c8e4e70cc72f5a6d73cf6a4f8ea",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 33,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdixlwsm5D8rduwe9",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-server/src/main/java/org/apache/ratis/server/impl/LogAppender.java",
+        "project": "apache_incubator-ratis",
+        "line": 500,
+        "hash": "004d5fec7be717c41b7b458da4b9cd47",
+        "textRange": {
+            "startLine": 500,
+            "endLine": 500,
+            "startOffset": 65,
+            "endOffset": 89
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdix0wsm5D8rduwfA",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-server/src/main/java/org/apache/ratis/server/impl/PendingRequest.java",
+        "project": "apache_incubator-ratis",
+        "line": 80,
+        "hash": "9f5fc136ae8a9cd27a254bd580c76f04",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwaF",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 37,
+        "hash": "47f3d1dcdc865fc3ff0d7e8b2170f941",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiuNwsm5D8rduwc8",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-server/src/main/java/org/apache/ratis/server/raftlog/segmented/LogSegment.java",
+        "project": "apache_incubator-ratis",
+        "line": 377,
+        "hash": "d2ffcec97f260ef12b36ed8d937bac3a",
+        "textRange": {
+            "startLine": 377,
+            "endLine": 377,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiuNwsm5D8rduwc6",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-server/src/main/java/org/apache/ratis/server/raftlog/segmented/LogSegment.java",
+        "project": "apache_incubator-ratis",
+        "line": 133,
+        "hash": "042c4b25176ec1032768caf1f2ddcbd9",
+        "textRange": {
+            "startLine": 133,
+            "endLine": 133,
+            "startOffset": 20,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiWxwsm5D8rduwUw",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-examples/src/main/java/org/apache/ratis/examples/filestore/FileInfo.java",
+        "project": "apache_incubator-ratis",
+        "line": 255,
+        "hash": "e888a97e9ad3bde937df076815120d85",
+        "textRange": {
+            "startLine": 255,
+            "endLine": 255,
+            "startOffset": 9,
+            "endOffset": 14
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiWmwsm5D8rduwUn",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-examples/src/main/java/org/apache/ratis/examples/filestore/FileStoreClient.java",
+        "project": "apache_incubator-ratis",
+        "line": 56,
+        "hash": "4a3b955d7b5a770d6660663510eb831e",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZv",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 61,
+        "hash": "6d44f045e5be9454bf38933e55421be5",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 22,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make POSIX_FADV_WILLNEED a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZu",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 59,
+        "hash": "1fd8d2a328d74297f03e4120fd5a454e",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 22,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make POSIX_FADV_SEQUENTIAL a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZt",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 57,
+        "hash": "0a8b92c94debb5576028ab1e1c25d74b",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 22,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make POSIX_FADV_RANDOM a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZs",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 55,
+        "hash": "628bf4b4e5678ca0db263bf0c49d7eee",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 22,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make POSIX_FADV_NORMAL a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZo",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 48,
+        "hash": "6e17298bc0269b7c2ecd0f1b02a70a42",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 22,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make O_TRUNC a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZn",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 47,
+        "hash": "caac2d11bf0ecc8bbd50691fa1c7c9e8",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make O_NOCTTY a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZm",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 46,
+        "hash": "b7f55164a50b42c5bd4bcde2ca057330",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 22,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make O_EXCL a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdizMwsm5D8rduwgB",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-server/src/main/java/org/apache/ratis/server/impl/RaftServerMetrics.java",
+        "project": "apache_incubator-ratis",
+        "line": 233,
+        "hash": "9981b16176eb38fa8c13e7e8b66eb521",
+        "textRange": {
+            "startLine": 233,
+            "endLine": 233,
+            "startOffset": 29,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZ-",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 280,
+        "hash": "b7d88c6b4ee02d5c7f2e9534b9147f58",
+        "textRange": {
+            "startLine": 280,
+            "endLine": 280,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make S_ISUID a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZ9",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 279,
+        "hash": "ba013d9e7cf9dd0e9541025e714bc412",
+        "textRange": {
+            "startLine": 279,
+            "endLine": 279,
+            "startOffset": 24,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make S_IFSOCK a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiRzwsm5D8rduwTK",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/tool/VerificationTool.java",
+        "project": "apache_incubator-ratis",
+        "line": 411,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 411,
+            "endLine": 411,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiRzwsm5D8rduwTJ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/tool/VerificationTool.java",
+        "project": "apache_incubator-ratis",
+        "line": 376,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 376,
+            "endLine": 376,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiRzwsm5D8rduwTI",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/tool/VerificationTool.java",
+        "project": "apache_incubator-ratis",
+        "line": 370,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 370,
+            "endLine": 370,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiMwwsm5D8rduwQx",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/api/LogServiceClient.java",
+        "project": "apache_incubator-ratis",
+        "line": 192,
+        "hash": "c86da589db1859fe4a7a16e37cee0fe8",
+        "textRange": {
+            "startLine": 192,
+            "endLine": 192,
+            "startOffset": 61,
+            "endOffset": 72
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwY_",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 43,
+        "hash": "c2ea158e291374e709ad427551b22fa8",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static O_WRONLY\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwY-",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 42,
+        "hash": "b7d0b7abf5348ba396772e2f90fb0a12",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static O_RDONLY\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwaZ",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 40,
+        "hash": "a145c6e4b6e369da7cc588c5eaea3e09",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 22,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijowsm5D8rduwbD",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/MD5Hash.java",
+        "project": "apache_incubator-ratis",
+        "line": 208,
+        "hash": "cfcad7f1bf0cbf17a91059e5ae105a77",
+        "textRange": {
+            "startLine": 208,
+            "endLine": 208,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdii3wsm5D8rduwYk",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/conf/RaftProperties.java",
+        "project": "apache_incubator-ratis",
+        "line": 1046,
+        "hash": "0c5d7e422eca4a5cfec8edf49992a23c",
+        "textRange": {
+            "startLine": 1046,
+            "endLine": 1046,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdii3wsm5D8rduwYj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/conf/RaftProperties.java",
+        "project": "apache_incubator-ratis",
+        "line": 1029,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 1029,
+            "endLine": 1029,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZy",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 73,
+        "hash": "3bbf5c2646a6214a5c4bdef6b4412d59",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 22,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make SYNC_FILE_RANGE_WAIT_BEFORE a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZx",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 65,
+        "hash": "41272d61755c404ce6a762058cd03ed3",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 22,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make POSIX_FADV_NOREUSE a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZw",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 63,
+        "hash": "7315bcac1fc6f763c2dafd8ab1770df0",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 22,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make POSIX_FADV_DONTNEED a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdidowsm5D8rduwXE",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/util/NativeCrc32.java",
+        "project": "apache_incubator-ratis",
+        "line": 72,
+        "hash": "b0cb7905b1b9f37e3e7180454a44d2f9",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.ratis.protocol.ChecksumException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiOMwsm5D8rduwRP",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/server/LogStateMachine.java",
+        "project": "apache_incubator-ratis",
+        "line": 321,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 321,
+            "endLine": 321,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiOMwsm5D8rduwRO",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/server/LogStateMachine.java",
+        "project": "apache_incubator-ratis",
+        "line": 315,
+        "hash": "0285e6eea6d36962c14bbd7979f5d86a",
+        "textRange": {
+            "startLine": 315,
+            "endLine": 315,
+            "startOffset": 20,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdig3wsm5D8rduwYG",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/protocol/ChecksumException.java",
+        "project": "apache_incubator-ratis",
+        "line": 26,
+        "hash": "27364fad1c3169ea9e5723655a2d3dd5",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 15,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"pos\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdifpwsm5D8rduwYE",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/protocol/GroupManagementRequest.java",
+        "project": "apache_incubator-ratis",
+        "line": 21,
+        "hash": "13c643684191c4f27ba9574889291bb2",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 31,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"Op\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZE",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 48,
+        "hash": "6e17298bc0269b7c2ecd0f1b02a70a42",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 22,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static O_TRUNC\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZD",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 47,
+        "hash": "caac2d11bf0ecc8bbd50691fa1c7c9e8",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static O_NOCTTY\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZC",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 46,
+        "hash": "b7f55164a50b42c5bd4bcde2ca057330",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 22,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static O_EXCL\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZB",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 45,
+        "hash": "a2cea0df3002ac0e1009030769ce2f9d",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 22,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static O_CREAT\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZA",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 44,
+        "hash": "b54f22d9bd3abd8a2b9458b7745dbc3e",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 22,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static O_RDWR\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdi8Hwsm5D8rduwiX",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-metrics/src/main/java/org/apache/ratis/metrics/RatisMetricRegistry.java",
+        "project": "apache_incubator-ratis",
+        "line": 58,
+        "hash": "40359280e3a3ee28f81e1447fcf2a847",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 62,
+            "endOffset": 86
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdi7twsm5D8rduwiS",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-metrics/src/main/java/org/apache/ratis/metrics/impl/RatisMetricRegistryImpl.java",
+        "project": "apache_incubator-ratis",
+        "line": 107,
+        "hash": "d1d7f54240e7f2bf5e1a46345665c722",
+        "textRange": {
+            "startLine": 107,
+            "endLine": 107,
+            "startOffset": 79,
+            "endOffset": 103
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwaf",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 145,
+        "hash": "e9ffdb45ade1a6dc545298dcfece591a",
+        "textRange": {
+            "startLine": 145,
+            "endLine": 145,
+            "startOffset": 21,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwad",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 137,
+        "hash": "059d4039116908b7e951b9d3456a9914",
+        "textRange": {
+            "startLine": 137,
+            "endLine": 137,
+            "startOffset": 18,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwab",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 132,
+        "hash": "64df10761e5cd755e5fcb6ea9f536db3",
+        "textRange": {
+            "startLine": 132,
+            "endLine": 132,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdiOcwsm5D8rduwSP",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-logservice/src/main/java/org/apache/ratis/logservice/server/MetaStateMachine.java",
+        "project": "apache_incubator-ratis",
+        "line": 423,
+        "hash": "d0e311c88e2e6dfb0cb9c5e522fd28db",
+        "textRange": {
+            "startLine": 423,
+            "endLine": 423,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijHwsm5D8rduwY8",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIOException.java",
+        "project": "apache_incubator-ratis",
+        "line": 38,
+        "hash": "57e5309a572f99412d608b80cd006a92",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 14,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"errorCode\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijHwsm5D8rduwY7",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIOException.java",
+        "project": "apache_incubator-ratis",
+        "line": 34,
+        "hash": "7d4867f45aaf0663c76dcf9fce9e3338",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"errno\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXJWdijSwsm5D8rduwZl",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_incubator-ratis:ratis-common/src/main/java/org/apache/ratis/io/nativeio/NativeIO.java",
+        "project": "apache_incubator-ratis",
+        "line": 45,
+        "hash": "a2cea0df3002ac0e1009030769ce2f9d",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 22,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make O_CREAT a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-05-27T15:56:42+0200",
+        "updateDate": "2020-05-27T15:56:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

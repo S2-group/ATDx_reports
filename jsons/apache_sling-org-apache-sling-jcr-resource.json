@@ -1,0 +1,145 @@
+[
+    {
+        "key": "AWo-VD1wK1LJlmpkjcxW",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-resource:src/main/java/org/apache/sling/jcr/resource/internal/helper/jcr/JcrResourceProvider.java",
+        "project": "apache_sling-org-apache-sling-jcr-resource",
+        "line": 122,
+        "hash": "10874e1286032f4beea2b0c9ed50d9ef",
+        "textRange": {
+            "startLine": 122,
+            "endLine": 122,
+            "startOffset": 67,
+            "endOffset": 86
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.RepositoryException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-10-22T15:06:27+0200",
+        "updateDate": "2019-04-21T07:17:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-VD2JK1LJlmpkjcxi",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-resource:src/main/java/org/apache/sling/jcr/resource/internal/helper/JcrResourceUtil.java",
+        "project": "apache_sling-org-apache-sling-jcr-resource",
+        "line": 42,
+        "hash": "0af9c7d73d00833f4d125a39c8ea2566",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-02-15T11:49:29+0100",
+        "updateDate": "2019-04-21T07:17:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-VD2rK1LJlmpkjcyO",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-jcr-resource:src/main/java/org/apache/sling/jcr/resource/internal/JcrValueMap.java",
+        "project": "apache_sling-org-apache-sling-jcr-resource",
+        "line": 225,
+        "hash": "e32b1bb1ce97c0e312233da44acf5865",
+        "textRange": {
+            "startLine": 225,
+            "endLine": 225,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-02-15T11:49:29+0100",
+        "updateDate": "2019-04-21T07:17:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-VD2wK1LJlmpkjcyR",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-resource:src/main/java/org/apache/sling/jcr/resource/api/JcrResourceConstants.java",
+        "project": "apache_sling-org-apache-sling-jcr-resource",
+        "line": 26,
+        "hash": "3c3b444ea04c968084eb4553f085d4c1",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-06-19T15:19:09+0200",
+        "updateDate": "2019-04-21T07:17:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-VD2kK1LJlmpkjcyD",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-resource:src/main/java/org/apache/sling/jcr/resource/internal/NodeUtil.java",
+        "project": "apache_sling-org-apache-sling-jcr-resource",
+        "line": 28,
+        "hash": "6c8216e0e8200c1aa7cb349c645c28e5",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-03-01T10:57:52+0100",
+        "updateDate": "2019-04-21T07:17:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

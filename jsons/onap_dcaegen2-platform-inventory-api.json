@@ -1,0 +1,117 @@
+[
+    {
+        "key": "AXAmw0ZS9fRSOAj9jFcj",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-platform-inventory-api:src/main/java/io/swagger/api/impl/DcaeServiceTypesQueryStatement.java",
+        "project": "onap_dcaegen2-platform-inventory-api",
+        "line": 37,
+        "hash": "085013a84eb06ced524a60db4e624145",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 25,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-01-17T07:02:00+0100",
+        "updateDate": "2020-02-08T22:44:36+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV2bar36yrbKLMnT1",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-platform-inventory-api:src/main/java/org/onap/dcae/inventory/daos/DCAEServiceTransactionDAO.java",
+        "project": "onap_dcaegen2-platform-inventory-api",
+        "line": 39,
+        "hash": "4a3a08d2a3f4c86ab30fba03a3acec54",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 22,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"DCAEServiceTransactionDAO\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2017-08-23T19:18:27+0200",
+        "updateDate": "2019-11-26T02:33:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV2b4r36yrbKLMnUM",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-platform-inventory-api:src/main/java/org/onap/dcae/inventory/clients/DatabusControllerClient.java",
+        "project": "onap_dcaegen2-platform-inventory-api",
+        "line": 62,
+        "hash": "accc004384cb1e87d5bf6bb6d4bc1cf0",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 55,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.dcae.inventory.exceptions.DatabusControllerClientException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-23T19:18:27+0200",
+        "updateDate": "2019-11-26T02:33:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBaQhIsaaP0Q6XYtCd_",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-platform-inventory-api:src/main/java/io/swagger/api/impl/DcaeServiceTypeObjectRepository.java",
+        "project": "onap_dcaegen2-platform-inventory-api",
+        "line": 43,
+        "hash": "62888f0a938e257d4fa98e297292adaf",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 32,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-02-12T14:26:30+0100",
+        "updateDate": "2020-02-18T22:43:42+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

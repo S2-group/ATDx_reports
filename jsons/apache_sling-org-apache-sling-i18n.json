@@ -1,0 +1,146 @@
+[
+    {
+        "key": "AWoiWRVpiRm9JOJv3Th9",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-i18n:src/main/java/org/apache/sling/i18n/impl/JcrResourceBundle.java",
+        "project": "apache_sling-org-apache-sling-i18n",
+        "line": 102,
+        "hash": "abbc67239f756b61f15b6710711dfb16",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2015-05-12T17:47:29+0200",
+        "updateDate": "2019-04-15T20:53:25+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiWRVaiRm9JOJv3Tha",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-i18n:src/main/java/org/apache/sling/i18n/impl/JcrResourceBundleProvider.java",
+        "project": "apache_sling-org-apache-sling-i18n",
+        "line": 206,
+        "hash": "f420830f23731701456ec64a2f514b35",
+        "textRange": {
+            "startLine": 206,
+            "endLine": 206,
+            "startOffset": 23,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make reloadAll a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-03-16T10:20:30+0100",
+        "updateDate": "2019-04-15T20:53:25+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiWRVaiRm9JOJv3ThZ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-i18n:src/main/java/org/apache/sling/i18n/impl/JcrResourceBundleProvider.java",
+        "project": "apache_sling-org-apache-sling-i18n",
+        "line": 205,
+        "hash": "d748bff964beebb425f24bc47631f1a1",
+        "textRange": {
+            "startLine": 205,
+            "endLine": 205,
+            "startOffset": 32,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make resourceResolver a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-03-16T10:20:30+0100",
+        "updateDate": "2019-04-15T20:53:25+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiWRV3iRm9JOJv3TiK",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-i18n:src/main/java/org/apache/sling/i18n/LocaleResolver.java",
+        "project": "apache_sling-org-apache-sling-i18n",
+        "line": 38,
+        "hash": "52d433e40ff6220822c238f87293a18d",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 17,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-05-12T17:47:29+0200",
+        "updateDate": "2019-04-15T20:53:25+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiWRVaiRm9JOJv3Thl",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-i18n:src/main/java/org/apache/sling/i18n/impl/JcrResourceBundleProvider.java",
+        "project": "apache_sling-org-apache-sling-i18n",
+        "line": 401,
+        "hash": "229a1fdfb134f56e15505e5f92b28d98",
+        "textRange": {
+            "startLine": 401,
+            "endLine": 401,
+            "startOffset": 85,
+            "endOffset": 99
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.api.resource.LoginException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-03-29T08:40:08+0200",
+        "updateDate": "2019-04-15T20:53:25+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

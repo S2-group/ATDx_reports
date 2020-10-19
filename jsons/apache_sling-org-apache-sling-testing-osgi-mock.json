@@ -1,0 +1,1322 @@
+[
+    {
+        "key": "AWwfDcgAiMygXB1PpiOo",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/MockBundleContext.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 346,
+        "hash": "994ac230fb0dc17586983c847ce9a1b0",
+        "textRange": {
+            "startLine": 346,
+            "endLine": 346,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-14T10:09:57+0200",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcdEiMygXB1PpiN_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/MockBundle.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 162,
+        "hash": "0f9661d8cd6fab412f47329c71027a1c",
+        "textRange": {
+            "startLine": 162,
+            "endLine": 162,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-06-09T17:30:24+0200",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcdEiMygXB1PpiN-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/MockBundle.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 160,
+        "hash": "0f9661d8cd6fab412f47329c71027a1c",
+        "textRange": {
+            "startLine": 160,
+            "endLine": 160,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-06-09T17:30:24+0200",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgliMygXB1PpiPg",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiServiceUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 324,
+        "hash": "391f7a220682d3f9b19ce5c769fc9baf",
+        "textRange": {
+            "startLine": 324,
+            "endLine": 324,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-02-19T18:15:13+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgliMygXB1PpiPe",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiServiceUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 318,
+        "hash": "391f7a220682d3f9b19ce5c769fc9baf",
+        "textRange": {
+            "startLine": 318,
+            "endLine": 318,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-02-19T18:15:13+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgliMygXB1PpiPf",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiServiceUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 321,
+        "hash": "391f7a220682d3f9b19ce5c769fc9baf",
+        "textRange": {
+            "startLine": 321,
+            "endLine": 321,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-02-19T18:15:13+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgliMygXB1PpiPc",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiServiceUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 98,
+        "hash": "e9b680a865e40025406709b9bfc0774a",
+        "textRange": {
+            "startLine": 98,
+            "endLine": 98,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-11-24T12:00:48+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcf1iMygXB1PpiOW",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/context/ContextPlugins.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 252,
+        "hash": "fc703ca746013d19ee761bc6f4329a27",
+        "textRange": {
+            "startLine": 252,
+            "endLine": 252,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-12-03T14:14:34+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcf1iMygXB1PpiOV",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/context/ContextPlugins.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 235,
+        "hash": "f1150d715fb380f11af928491fc52336",
+        "textRange": {
+            "startLine": 235,
+            "endLine": 235,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-12-03T14:14:34+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcf1iMygXB1PpiOU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/context/ContextPlugins.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 218,
+        "hash": "66b6944dc1f18b5cad65d15de3a70f11",
+        "textRange": {
+            "startLine": 218,
+            "endLine": 218,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-12-03T14:14:34+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcf1iMygXB1PpiOT",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/context/ContextPlugins.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 201,
+        "hash": "ae7fa487d4af537bfe3ff6722db8d1a3",
+        "textRange": {
+            "startLine": 201,
+            "endLine": 201,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-12-03T14:14:34+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcfxiMygXB1PpiOS",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/context/ContextPlugin.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 58,
+        "hash": "c459b993fbf970b9d99059493321a979",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 50,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-03T15:07:59+0200",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcfxiMygXB1PpiOR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/context/ContextPlugin.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 51,
+        "hash": "5ef2b8e975fe0fba1500945553a89073",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 51,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-03T15:07:59+0200",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcfxiMygXB1PpiOQ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/context/ContextPlugin.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 44,
+        "hash": "c1abaf66506516aa1308cad55b79a783",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 47,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-03T15:07:59+0200",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgliMygXB1PpiPd",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiServiceUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 126,
+        "hash": "3500005d277a82fb1e4a016544401c64",
+        "textRange": {
+            "startLine": 126,
+            "endLine": 126,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-11-24T12:00:48+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgliMygXB1PpiPh",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiServiceUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 379,
+        "hash": "814f4006063adc31f4777f9bc9b011fb",
+        "textRange": {
+            "startLine": 379,
+            "endLine": 379,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-11-24T00:45:50+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgliMygXB1PpiPj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiServiceUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 462,
+        "hash": "356cb63c7e654946a680e7489a64de8f",
+        "textRange": {
+            "startLine": 462,
+            "endLine": 462,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-11-24T00:45:50+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgliMygXB1PpiPk",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiServiceUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 497,
+        "hash": "374a332addf7717858e1d658d4fa6819",
+        "textRange": {
+            "startLine": 497,
+            "endLine": 497,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-02-19T17:18:00+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgliMygXB1PpiPp",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiServiceUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 587,
+        "hash": "814f4006063adc31f4777f9bc9b011fb",
+        "textRange": {
+            "startLine": 587,
+            "endLine": 587,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-11-24T00:45:50+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgXiMygXB1PpiO7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/MockOsgi.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 321,
+        "hash": "94beec7063919d3d52526f5fe0ad9b9f",
+        "textRange": {
+            "startLine": 321,
+            "endLine": 321,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-03-14T22:47:48+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgXiMygXB1PpiO6",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/MockOsgi.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 314,
+        "hash": "343fc094523ae79d0aa970dabd9180e7",
+        "textRange": {
+            "startLine": 314,
+            "endLine": 314,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-03-14T22:47:48+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXF57HCoSqHzq1AmKf6D",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/MockBundleContext.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 428,
+        "hash": "fa89430e0ceb3c32f322485ec56fc0d4",
+        "textRange": {
+            "startLine": 428,
+            "endLine": 428,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-14T20:20:33+0200",
+        "updateDate": "2020-04-14T20:20:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgliMygXB1PpiPn",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiServiceUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 568,
+        "hash": "814f4006063adc31f4777f9bc9b011fb",
+        "textRange": {
+            "startLine": 568,
+            "endLine": 568,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-11-24T00:45:50+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgbiMygXB1PpiPF",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiMetadataUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 536,
+        "hash": "81de4efd14d6a82d617e7537ee4f23e1",
+        "textRange": {
+            "startLine": 536,
+            "endLine": 536,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-11-24T00:45:50+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgAiMygXB1PpiOk",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/MockBundleContext.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 211,
+        "hash": "b048d98b7c2bce2d4919d3e089dd1315",
+        "textRange": {
+            "startLine": 211,
+            "endLine": 211,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-12-12T16:29:38+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgAiMygXB1PpiOn",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/MockBundleContext.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 262,
+        "hash": "08484f9e9f93ae7aa65e32ecec4ace35",
+        "textRange": {
+            "startLine": 262,
+            "endLine": 262,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-12-12T16:29:38+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgliMygXB1PpiPl",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiServiceUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 528,
+        "hash": "2e4083cec50c8af11052c5980ca525fa",
+        "textRange": {
+            "startLine": 528,
+            "endLine": 528,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-11-24T00:45:50+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcf8iMygXB1PpiOf",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/context/ContextCallback.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 37,
+        "hash": "c6ec7a3b5470a3027e4fdabbb22acfb6",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 44,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-03T15:07:59+0200",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcf5iMygXB1PpiOc",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/context/OsgiContextImpl.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 211,
+        "hash": "a9aa01c243de448df5c5bb01fff3151d",
+        "textRange": {
+            "startLine": 211,
+            "endLine": 211,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-11-14T10:55:05+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgbiMygXB1PpiPG",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiMetadataUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 635,
+        "hash": "ae6fc48fceb57223f562c25fe9a564ee",
+        "textRange": {
+            "startLine": 635,
+            "endLine": 635,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-30T02:09:54+0200",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgbiMygXB1PpiPB",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiMetadataUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 227,
+        "hash": "ff6b66f05aa31d975552e0de6829b48f",
+        "textRange": {
+            "startLine": 227,
+            "endLine": 227,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-02-19T23:54:45+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgbiMygXB1PpiPD",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiMetadataUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 371,
+        "hash": "3c797fa70749fdc56a65840303fafede",
+        "textRange": {
+            "startLine": 371,
+            "endLine": 371,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgAiMygXB1PpiOi",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/MockBundleContext.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 165,
+        "hash": "08484f9e9f93ae7aa65e32ecec4ace35",
+        "textRange": {
+            "startLine": 165,
+            "endLine": 165,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-02-19T17:18:00+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgAiMygXB1PpiOl",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/MockBundleContext.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 214,
+        "hash": "379b5f25875d9e6719ee14dfbe2f5254",
+        "textRange": {
+            "startLine": 214,
+            "endLine": 214,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-12-12T16:29:38+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgAiMygXB1PpiOj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/MockBundleContext.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 184,
+        "hash": "08484f9e9f93ae7aa65e32ecec4ace35",
+        "textRange": {
+            "startLine": 184,
+            "endLine": 184,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-12-12T16:29:38+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgbiMygXB1PpiPE",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiMetadataUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 497,
+        "hash": "ae6fc48fceb57223f562c25fe9a564ee",
+        "textRange": {
+            "startLine": 497,
+            "endLine": 497,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-07-28T13:16:00+0200",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgbiMygXB1PpiPC",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiMetadataUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 361,
+        "hash": "3c797fa70749fdc56a65840303fafede",
+        "textRange": {
+            "startLine": 361,
+            "endLine": 361,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgAiMygXB1PpiOm",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/MockBundleContext.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 245,
+        "hash": "08484f9e9f93ae7aa65e32ecec4ace35",
+        "textRange": {
+            "startLine": 245,
+            "endLine": 245,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-02-19T17:18:00+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcfxiMygXB1PpiOP",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/context/ContextPlugin.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 37,
+        "hash": "5389588a0713cfd255afe215b2565dbe",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 48,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-03T15:07:59+0200",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgliMygXB1PpiPi",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiServiceUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 382,
+        "hash": "814f4006063adc31f4777f9bc9b011fb",
+        "textRange": {
+            "startLine": 382,
+            "endLine": 382,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-11-24T00:45:50+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcc_iMygXB1PpiN7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/MapMergeUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 88,
+        "hash": "ee45ba62de2f9bde41b3293f5f3d0c39",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 42,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-09-13T11:30:53+0200",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgbiMygXB1PpiO-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiMetadataUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 155,
+        "hash": "214aef4e01d8e78bad104ac756be9a8f",
+        "textRange": {
+            "startLine": 155,
+            "endLine": 155,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-03-01T18:27:15+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgbiMygXB1PpiO_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiMetadataUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 223,
+        "hash": "ff6b66f05aa31d975552e0de6829b48f",
+        "textRange": {
+            "startLine": 223,
+            "endLine": 223,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-02-19T23:54:45+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWwfDcgbiMygXB1PpiPA",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-osgi-mock:core/src/main/java/org/apache/sling/testing/mock/osgi/OsgiMetadataUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-osgi-mock",
+        "line": 225,
+        "hash": "ff6b66f05aa31d975552e0de6829b48f",
+        "textRange": {
+            "startLine": 225,
+            "endLine": 225,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-02-19T23:54:45+0100",
+        "updateDate": "2019-07-23T15:37:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

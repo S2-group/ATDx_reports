@@ -1,0 +1,58 @@
+[
+    {
+        "key": "AXF6e32j3ukwzq8_2Pse",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_integration-pnf-simulator:pnfsimulator/src/main/java/org/onap/pnfsimulator/rest/SimulatorController.java",
+        "project": "onap_integration-pnf-simulator",
+        "line": 102,
+        "hash": "0d3555d449d64537a6fcaff2d6e2752a",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 46,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2020-04-08T11:43:31+0200",
+        "updateDate": "2020-04-14T22:56:56+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXF6e32j3ukwzq8_2Psg",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_integration-pnf-simulator:pnfsimulator/src/main/java/org/onap/pnfsimulator/rest/SimulatorController.java",
+        "project": "onap_integration-pnf-simulator",
+        "line": 150,
+        "hash": "71e47f883f07cdf342e315478fb4b8fa",
+        "textRange": {
+            "startLine": 150,
+            "endLine": 150,
+            "startOffset": 46,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2020-04-08T11:43:31+0200",
+        "updateDate": "2020-04-14T22:56:56+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

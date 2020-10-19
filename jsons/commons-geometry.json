@@ -1,0 +1,170 @@
+[
+    {
+        "key": "AW102nsf7pPUWOLuxb56",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "commons-geometry:commons-geometry-euclidean/src/main/java/org/apache/commons/geometry/euclidean/internal/Matrices.java",
+        "project": "commons-geometry",
+        "line": 54,
+        "hash": "55fe71f1cc8ec01b35bf75a9556b8b05",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 25,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-12-15T04:40:37+0100",
+        "updateDate": "2019-09-28T00:31:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW102ns17pPUWOLuxb57",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "commons-geometry:commons-geometry-euclidean/src/main/java/org/apache/commons/geometry/euclidean/threed/rotation/QuaternionRotation.java",
+        "project": "commons-geometry",
+        "line": 751,
+        "hash": "a72b39c0691db16cbca0f975d0bab352",
+        "textRange": {
+            "startLine": 751,
+            "endLine": 751,
+            "startOffset": 38,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-12-15T04:40:37+0100",
+        "updateDate": "2019-09-28T00:31:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW102nuP7pPUWOLuxb6i",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "commons-geometry:commons-geometry-euclidean/src/main/java/org/apache/commons/geometry/euclidean/threed/AffineTransformMatrix3D.java",
+        "project": "commons-geometry",
+        "line": 102,
+        "hash": "7ac073cb364f8ac9fbefb8d597b6f343",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 12,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 12 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-12-17T14:39:06+0100",
+        "updateDate": "2019-09-28T00:31:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6fuGZGKRFo5gXGPfgv",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "commons-geometry:commons-geometry-euclidean/src/main/java/org/apache/commons/geometry/euclidean/twod/Vector2D.java",
+        "project": "commons-geometry",
+        "line": 666,
+        "hash": "8d2bf716c706d912c0ceca8b4ada31f4",
+        "textRange": {
+            "startLine": 666,
+            "endLine": 666,
+            "startOffset": 27,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-11-25T00:20:53+0100",
+        "updateDate": "2019-11-25T00:20:53+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6fuGXfKRFo5gXGPfgW",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "commons-geometry:commons-geometry-euclidean/src/main/java/org/apache/commons/geometry/euclidean/threed/Vector3D.java",
+        "project": "commons-geometry",
+        "line": 733,
+        "hash": "5462a7437f45cef7d66e1f4d79bc1563",
+        "textRange": {
+            "startLine": 733,
+            "endLine": 733,
+            "startOffset": 27,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-11-25T00:20:53+0100",
+        "updateDate": "2019-11-25T00:20:53+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6fuGYKKRFo5gXGPfgd",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "commons-geometry:commons-geometry-euclidean/src/main/java/org/apache/commons/geometry/euclidean/oned/Vector1D.java",
+        "project": "commons-geometry",
+        "line": 391,
+        "hash": "45869c6f36b190a246359fb025ad6211",
+        "textRange": {
+            "startLine": 391,
+            "endLine": 391,
+            "startOffset": 27,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-11-25T00:20:53+0100",
+        "updateDate": "2019-11-25T00:20:53+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,749 @@
+[
+    {
+        "key": "AW6lPaTfoucddIov3Crp",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/rest/dsl/AAIDslErrorListener.java",
+        "project": "onap_aai-traversal",
+        "line": 31,
+        "hash": "3f8d748399d4415c6ecc27d2528d674d",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 19,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.antlr.v4.runtime.misc.ParseCancellationException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T16:49:45+0200",
+        "updateDate": "2019-11-26T02:04:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPaaKoucddIov3CwZ",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/dbgraphgen/ModelBasedProcessing.java",
+        "project": "onap_aai-traversal",
+        "line": 91,
+        "hash": "7f2039b89f56224ae4e13d5e46cbc1ed",
+        "textRange": {
+            "startLine": 91,
+            "endLine": 91,
+            "startOffset": 27,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-05-12T23:37:13+0200",
+        "updateDate": "2019-11-26T02:04:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGj5fiOcS0AuIh80BIT",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/rest/DslConsumer.java",
+        "project": "onap_aai-traversal",
+        "line": 121,
+        "hash": "437c2c0d2145f495c4542e1de273bb4d",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 17,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-04-22T23:57:06+0200",
+        "updateDate": "2020-04-22T23:57:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGj5fiOcS0AuIh80BIS",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/rest/DslConsumer.java",
+        "project": "onap_aai-traversal",
+        "line": 96,
+        "hash": "2be51b124eb482714f6c81fa27deb00b",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 17,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-04-22T23:57:06+0200",
+        "updateDate": "2020-04-22T23:57:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGj5fbJcS0AuIh80BHU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/rest/dsl/v2/DslListener.java",
+        "project": "onap_aai-traversal",
+        "line": 135,
+        "hash": "3c6c5b13252db7c4a40f90464c8bf955",
+        "textRange": {
+            "startLine": 135,
+            "endLine": 135,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-20T15:10:49+0200",
+        "updateDate": "2020-04-22T23:57:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPaaKoucddIov3Cwa",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/dbgraphgen/ModelBasedProcessing.java",
+        "project": "onap_aai-traversal",
+        "line": 325,
+        "hash": "11a2a48a0803c58388b898a2dbff64b7",
+        "textRange": {
+            "startLine": 325,
+            "endLine": 325,
+            "startOffset": 24,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-05-12T23:37:13+0200",
+        "updateDate": "2019-11-26T02:04:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPaURoucddIov3CsK",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/rest/search/SearchProvider.java",
+        "project": "onap_aai-traversal",
+        "line": 102,
+        "hash": "51fc5a61b74dedebbf53793a785512c1",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 20,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-02-26T07:15:47+0100",
+        "updateDate": "2019-11-26T02:04:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPaaKoucddIov3Cwb",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/dbgraphgen/ModelBasedProcessing.java",
+        "project": "onap_aai-traversal",
+        "line": 411,
+        "hash": "ec4c8653c05e7f2d4ba6223e5457ebba",
+        "textRange": {
+            "startLine": 411,
+            "endLine": 411,
+            "startOffset": 24,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-05-12T23:37:13+0200",
+        "updateDate": "2019-11-26T02:04:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGj5fa8cS0AuIh80BHS",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/rest/dsl/DslContext.java",
+        "project": "onap_aai-traversal",
+        "line": 54,
+        "hash": "2240f4dc63a485f13e5fe41984112264",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 22,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make limitQuery a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-04-22T23:57:06+0200",
+        "updateDate": "2020-04-22T23:57:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGj5fZscS0AuIh80BHG",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/rest/dsl/v1/DslListener.java",
+        "project": "onap_aai-traversal",
+        "line": 121,
+        "hash": "3c6c5b13252db7c4a40f90464c8bf955",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-20T15:10:49+0200",
+        "updateDate": "2020-04-22T23:57:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGj5foGcS0AuIh80BI9",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/service/AuthorizationService.java",
+        "project": "onap_aai-traversal",
+        "line": 74,
+        "hash": "b8db735b2359386575a87e316931c440",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-22T23:57:06+0200",
+        "updateDate": "2020-04-22T23:57:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPaWAoucddIov3CtU",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/rest/util/LogFormatTools.java",
+        "project": "onap_aai-traversal",
+        "line": 26,
+        "hash": "77886d20080b67df9c3946037d395e4a",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-05-12T23:37:13+0200",
+        "updateDate": "2019-11-26T02:04:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPaaKoucddIov3Cwd",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/dbgraphgen/ModelBasedProcessing.java",
+        "project": "onap_aai-traversal",
+        "line": 2125,
+        "hash": "b41bb6cc40272b38e064b2ce5dc3f0c9",
+        "textRange": {
+            "startLine": 2125,
+            "endLine": 2125,
+            "startOffset": 28,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-05-12T23:37:13+0200",
+        "updateDate": "2019-11-26T02:04:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPaZMoucddIov3Cuj",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/TraversalApp.java",
+        "project": "onap_aai-traversal",
+        "line": 98,
+        "hash": "d8c876e4e5cf49d41cbf579c8d3a26f9",
+        "textRange": {
+            "startLine": 98,
+            "endLine": 98,
+            "startOffset": 2,
+            "endOffset": 12
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-08-13T18:35:56+0200",
+        "updateDate": "2019-11-26T02:04:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPaZZoucddIov3Cum",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/service/AuthorizationService.java",
+        "project": "onap_aai-traversal",
+        "line": 65,
+        "hash": "df8c08d065aee5925d44c099a64d2d8e",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-11T06:17:43+0200",
+        "updateDate": "2019-11-26T02:04:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPaRxoucddIov3Cqg",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/config/aaf/ResponseFormatter.java",
+        "project": "onap_aai-traversal",
+        "line": 32,
+        "hash": "5f7e4ae4ebdd45d86431e517d4e7c64d",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 6,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-09-05T16:44:17+0200",
+        "updateDate": "2019-11-26T02:04:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGj5fnrcS0AuIh80BI6",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/TraversalApp.java",
+        "project": "onap_aai-traversal",
+        "line": 119,
+        "hash": "d8c876e4e5cf49d41cbf579c8d3a26f9",
+        "textRange": {
+            "startLine": 119,
+            "endLine": 119,
+            "startOffset": 2,
+            "endOffset": 12
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2020-04-22T23:57:06+0200",
+        "updateDate": "2020-04-22T23:57:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPaZkoucddIov3Cu3",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/dbgraphmap/SearchGraph.java",
+        "project": "onap_aai-traversal",
+        "line": 447,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 447,
+            "endLine": 447,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-05-25T16:22:04+0200",
+        "updateDate": "2019-11-26T02:04:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPaUpoucddIov3Csh",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/rest/search/NodeQueryProcessor.java",
+        "project": "onap_aai-traversal",
+        "line": 99,
+        "hash": "3e5e5d54992579580a105ea97803fc0f",
+        "textRange": {
+            "startLine": 99,
+            "endLine": 99,
+            "startOffset": 21,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-08-13T18:35:56+0200",
+        "updateDate": "2019-11-26T02:04:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPaUpoucddIov3Csg",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/rest/search/NodeQueryProcessor.java",
+        "project": "onap_aai-traversal",
+        "line": 65,
+        "hash": "e71e09673903922e5dda1eeed303c82b",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 42,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-08-13T18:35:56+0200",
+        "updateDate": "2019-11-26T02:04:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPaaKoucddIov3Cwe",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/dbgraphgen/ModelBasedProcessing.java",
+        "project": "onap_aai-traversal",
+        "line": 2394,
+        "hash": "b2e698c1e31ff73a6b4fcddce6a7b4cf",
+        "textRange": {
+            "startLine": 2394,
+            "endLine": 2394,
+            "startOffset": 33,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-05-12T23:37:13+0200",
+        "updateDate": "2019-11-26T02:04:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGj5fjIcS0AuIh80BIi",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/rest/CQ2GremlinTest.java",
+        "project": "onap_aai-traversal",
+        "line": 93,
+        "hash": "edec65b3e671950c2830c14f148d81df",
+        "textRange": {
+            "startLine": 93,
+            "endLine": 93,
+            "startOffset": 131,
+            "endOffset": 143
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.exceptions.AAIException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-04-22T23:57:06+0200",
+        "updateDate": "2020-04-22T23:57:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPaVKoucddIov3Cs_",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/rest/search/GenericQueryProcessor.java",
+        "project": "onap_aai-traversal",
+        "line": 132,
+        "hash": "3e5e5d54992579580a105ea97803fc0f",
+        "textRange": {
+            "startLine": 132,
+            "endLine": 132,
+            "startOffset": 57,
+            "endOffset": 78
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.FileNotFoundException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-13T18:35:56+0200",
+        "updateDate": "2019-11-26T02:04:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGj5fircS0AuIh80BIY",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/rest/QueryConsumer.java",
+        "project": "onap_aai-traversal",
+        "line": 95,
+        "hash": "2be51b124eb482714f6c81fa27deb00b",
+        "textRange": {
+            "startLine": 95,
+            "endLine": 95,
+            "startOffset": 17,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-04-22T23:57:06+0200",
+        "updateDate": "2020-04-22T23:57:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGj5fircS0AuIh80BIZ",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/rest/QueryConsumer.java",
+        "project": "onap_aai-traversal",
+        "line": 117,
+        "hash": "437c2c0d2145f495c4542e1de273bb4d",
+        "textRange": {
+            "startLine": 117,
+            "endLine": 117,
+            "startOffset": 17,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-04-22T23:57:06+0200",
+        "updateDate": "2020-04-22T23:57:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPaaKoucddIov3Cwc",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-traversal:aai-traversal/src/main/java/org/onap/aai/dbgraphgen/ModelBasedProcessing.java",
+        "project": "onap_aai-traversal",
+        "line": 1437,
+        "hash": "2a770a2097f23207dd8452f635aff735",
+        "textRange": {
+            "startLine": 1437,
+            "endLine": 1437,
+            "startOffset": 18,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-05-12T23:37:13+0200",
+        "updateDate": "2019-11-26T02:04:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

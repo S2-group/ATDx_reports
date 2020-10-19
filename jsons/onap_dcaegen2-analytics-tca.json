@@ -1,0 +1,254 @@
+[
+    {
+        "key": "AW6lW3t21IS1KOVSgQP8",
+        "rule": "java:S2638",
+        "severity": "CRITICAL",
+        "component": "onap_dcaegen2-analytics-tca:dcae-analytics-cdap-plugins/src/main/java/org/onap/dcae/apod/analytics/cdap/plugins/utils/DMaaPSinkConfigMapper.java",
+        "project": "onap_dcaegen2-analytics-tca",
+        "line": 60,
+        "hash": "bf67936d8136f59ca308b5ae1997f3a3",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 40,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"Nonnull\" annotation to honor the overridden method's contract.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-08-24T02:56:45+0200",
+        "updateDate": "2019-11-26T02:35:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lW3tt1IS1KOVSgQP7",
+        "rule": "java:S2638",
+        "severity": "CRITICAL",
+        "component": "onap_dcaegen2-analytics-tca:dcae-analytics-cdap-plugins/src/main/java/org/onap/dcae/apod/analytics/cdap/plugins/utils/DMaaPSourceConfigMapper.java",
+        "project": "onap_dcaegen2-analytics-tca",
+        "line": 59,
+        "hash": "40fa5f0d38ea90af147df989464934fc",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 41,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"Nonnull\" annotation to honor the overridden method's contract.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-08-24T02:56:45+0200",
+        "updateDate": "2019-11-26T02:35:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lW3vv1IS1KOVSgQQP",
+        "rule": "java:S2638",
+        "severity": "CRITICAL",
+        "component": "onap_dcaegen2-analytics-tca:dcae-analytics-cdap-tca/src/main/java/org/onap/dcae/apod/analytics/cdap/tca/utils/AppPreferencesToSubscriberConfigMapper.java",
+        "project": "onap_dcaegen2-analytics-tca",
+        "line": 58,
+        "hash": "604adb11bdede79282b7dd08101dd406",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 41,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"Nonnull\" annotation to honor the overridden method's contract.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-08-24T02:56:45+0200",
+        "updateDate": "2019-11-26T02:35:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lW3vl1IS1KOVSgQQO",
+        "rule": "java:S2638",
+        "severity": "CRITICAL",
+        "component": "onap_dcaegen2-analytics-tca:dcae-analytics-cdap-tca/src/main/java/org/onap/dcae/apod/analytics/cdap/tca/utils/AppPreferencesToPublisherConfigMapper.java",
+        "project": "onap_dcaegen2-analytics-tca",
+        "line": 59,
+        "hash": "7ed2433b4b32cf390d0dd0fcdb8c25d8",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 40,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"Nonnull\" annotation to honor the overridden method's contract.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-08-24T02:56:45+0200",
+        "updateDate": "2019-11-26T02:35:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lW31O1IS1KOVSgQQr",
+        "rule": "java:S2638",
+        "severity": "CRITICAL",
+        "component": "onap_dcaegen2-analytics-tca:dcae-analytics-tca/src/main/java/org/onap/dcae/apod/analytics/tca/utils/TCAUtils.java",
+        "project": "onap_dcaegen2-analytics-tca",
+        "line": 370,
+        "hash": "76f4e29ac2c08d92cb7e2669cecab3c9",
+        "textRange": {
+            "startLine": 370,
+            "endLine": 370,
+            "startOffset": 41,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"Nonnull\" annotation to honor the overridden method's contract.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-09-18T15:24:04+0200",
+        "updateDate": "2019-11-26T02:35:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lW31O1IS1KOVSgQQq",
+        "rule": "java:S2638",
+        "severity": "CRITICAL",
+        "component": "onap_dcaegen2-analytics-tca:dcae-analytics-tca/src/main/java/org/onap/dcae/apod/analytics/tca/utils/TCAUtils.java",
+        "project": "onap_dcaegen2-analytics-tca",
+        "line": 156,
+        "hash": "860c750d732738a544abc02b78b6b9b5",
+        "textRange": {
+            "startLine": 156,
+            "endLine": 156,
+            "startOffset": 32,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"Nonnull\" annotation to honor the overridden method's contract.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-09-18T15:24:04+0200",
+        "updateDate": "2019-11-26T02:35:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lW31O1IS1KOVSgQQp",
+        "rule": "java:S2638",
+        "severity": "CRITICAL",
+        "component": "onap_dcaegen2-analytics-tca:dcae-analytics-tca/src/main/java/org/onap/dcae/apod/analytics/tca/utils/TCAUtils.java",
+        "project": "onap_dcaegen2-analytics-tca",
+        "line": 141,
+        "hash": "2c22df8b6534eddd3bbec3e66feb974a",
+        "textRange": {
+            "startLine": 141,
+            "endLine": 141,
+            "startOffset": 51,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"Nonnull\" annotation to honor the overridden method's contract.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-09-18T15:24:04+0200",
+        "updateDate": "2019-11-26T02:35:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lW3zX1IS1KOVSgQQh",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-analytics-tca:dcae-analytics-dmaap/src/main/java/org/onap/dcae/apod/analytics/dmaap/service/BaseDMaaPMRComponent.java",
+        "project": "onap_dcaegen2-analytics-tca",
+        "line": 66,
+        "hash": "5676d20470b1cfbd925ea452e9111156",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 22,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-24T02:56:45+0200",
+        "updateDate": "2019-11-26T02:35:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lW3mn1IS1KOVSgQPl",
+        "rule": "java:S2638",
+        "severity": "CRITICAL",
+        "component": "onap_dcaegen2-analytics-tca:dcae-analytics-common/src/main/java/org/onap/dcae/apod/analytics/common/service/processor/AbstractMessageProcessor.java",
+        "project": "onap_dcaegen2-analytics-tca",
+        "line": 122,
+        "hash": "b36eb37cc41727d5e9caeb1eb3fab3ae",
+        "textRange": {
+            "startLine": 122,
+            "endLine": 122,
+            "startOffset": 25,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"Nonnull\" annotation to honor the overridden method's contract.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-08-24T02:56:45+0200",
+        "updateDate": "2019-11-26T02:35:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

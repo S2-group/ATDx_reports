@@ -1,0 +1,124 @@
+[
+    {
+        "key": "AW6lcvBaoucddIov4Rfk",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vnfsdk-refrepo:vnfmarket-be/vnf-sdk-marketplace/src/main/java/org/onap/vnfsdk/marketplace/db/wrapper/BaseHandler.java",
+        "project": "onap_vnfsdk-refrepo",
+        "line": 97,
+        "hash": "aa88bd10fdcf14218970300d6200587f",
+        "textRange": {
+            "startLine": 97,
+            "endLine": 97,
+            "startOffset": 36,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vnfsdk.marketplace.db.exception.MarketplaceResourceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-09-21T07:18:51+0200",
+        "updateDate": "2019-11-26T03:03:02+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lcu_SoucddIov4ReB",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_vnfsdk-refrepo:vnfmarket-be/vnf-sdk-marketplace/src/main/java/org/onap/vtp/execution/VTPExecutionResource.java",
+        "project": "onap_vnfsdk-refrepo",
+        "line": 236,
+        "hash": "4bdf69b47bf11cc1e8760dc8561ac2b9",
+        "textRange": {
+            "startLine": 236,
+            "endLine": 236,
+            "startOffset": 35,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-10-14T08:49:14+0200",
+        "updateDate": "2019-11-26T03:03:02+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXD1AHzKYLFyXCsBcPWJ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vnfsdk-refrepo:vnfmarket-be/vnf-sdk-marketplace/src/main/java/org/onap/vtp/VTPResource.java",
+        "project": "onap_vnfsdk-refrepo",
+        "line": 110,
+        "hash": "79e10aa8f04635f614a3d6546a5239cf",
+        "textRange": {
+            "startLine": 110,
+            "endLine": 110,
+            "startOffset": 97,
+            "endOffset": 108
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-03-19T23:53:06+0100",
+        "updateDate": "2020-03-19T23:53:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lcu_SoucddIov4ReC",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_vnfsdk-refrepo:vnfmarket-be/vnf-sdk-marketplace/src/main/java/org/onap/vtp/execution/VTPExecutionResource.java",
+        "project": "onap_vnfsdk-refrepo",
+        "line": 342,
+        "hash": "a133d00fece43972485cef95570dcc3b",
+        "textRange": {
+            "startLine": 342,
+            "endLine": 342,
+            "startOffset": 39,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-10-14T08:49:14+0200",
+        "updateDate": "2019-11-26T03:03:02+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

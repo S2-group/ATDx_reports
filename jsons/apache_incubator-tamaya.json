@@ -1,0 +1,738 @@
+[
+    {
+        "key": "AWpBiegzyRjJygCrgA2w",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya:code/spi-support/src/main/java/org/apache/tamaya/spisupport/DefaultConfigurationBuilder.java",
+        "project": "apache_incubator-tamaya",
+        "line": 111,
+        "hash": "2a6d767a761636ef0f3f9979c8eb3851",
+        "textRange": {
+            "startLine": 111,
+            "endLine": 111,
+            "startOffset": 32,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-11-26T17:14:21+0100",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiehdyRjJygCrgA3W",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya:code/spi-support/src/main/java/org/apache/tamaya/spisupport/DefaultConfiguration.java",
+        "project": "apache_incubator-tamaya",
+        "line": 133,
+        "hash": "17c92c01b39c5a2c2a9a663f738fa5b0",
+        "textRange": {
+            "startLine": 133,
+            "endLine": 133,
+            "startOffset": 28,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-11-13T16:40:45+0100",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiebZyRjJygCrgA0X",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya:code/api/src/main/java/org/apache/tamaya/TypeLiteral.java",
+        "project": "apache_incubator-tamaya",
+        "line": 161,
+        "hash": "ee7f06628bf6d2aaf0400e0731aaa221",
+        "textRange": {
+            "startLine": 161,
+            "endLine": 161,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-05-15T14:09:23+0200",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiebZyRjJygCrgA0Y",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya:code/api/src/main/java/org/apache/tamaya/TypeLiteral.java",
+        "project": "apache_incubator-tamaya",
+        "line": 165,
+        "hash": "d5008bf0207bd134d36e1d4019951881",
+        "textRange": {
+            "startLine": 165,
+            "endLine": 165,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-02-15T01:51:23+0100",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiebcyRjJygCrgA0b",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya:code/api/src/main/java/org/apache/tamaya/ConfigurationProvider.java",
+        "project": "apache_incubator-tamaya",
+        "line": 33,
+        "hash": "33345fc6bf282e9354a8c172595c5b28",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 19,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-01-07T23:17:58+0100",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiebfyRjJygCrgA0c",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya:code/api/src/main/java/org/apache/tamaya/ConfigOperator.java",
+        "project": "apache_incubator-tamaya",
+        "line": 29,
+        "hash": "3d3f7ad9aaea889b95efbd37f5426fec",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 17,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-01-13T08:58:43+0100",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiebjyRjJygCrgA0f",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya:code/api/src/main/java/org/apache/tamaya/Configuration.java",
+        "project": "apache_incubator-tamaya",
+        "line": 321,
+        "hash": "2fa9b55269230cb91a9a213aa0e441c7",
+        "textRange": {
+            "startLine": 321,
+            "endLine": 321,
+            "startOffset": 26,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-11-14T10:32:41+0100",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiebjyRjJygCrgA0g",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya:code/api/src/main/java/org/apache/tamaya/Configuration.java",
+        "project": "apache_incubator-tamaya",
+        "line": 347,
+        "hash": "2b88b01973e589ddac8982b8d04ea259",
+        "textRange": {
+            "startLine": 347,
+            "endLine": 347,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-10-23T18:37:53+0200",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiea-yRjJygCrgA0H",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya:code/api/src/main/java/org/apache/tamaya/spi/PropertyValue.java",
+        "project": "apache_incubator-tamaya",
+        "line": 346,
+        "hash": "077b9fa45e001de7ae1fe0efe7bdbc38",
+        "textRange": {
+            "startLine": 346,
+            "endLine": 346,
+            "startOffset": 18,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-11-06T18:47:53+0100",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiebZyRjJygCrgA0V",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya:code/api/src/main/java/org/apache/tamaya/TypeLiteral.java",
+        "project": "apache_incubator-tamaya",
+        "line": 137,
+        "hash": "8fee0a4b0c1b7a429152d2c4c98cab7f",
+        "textRange": {
+            "startLine": 137,
+            "endLine": 137,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-05-15T14:09:23+0200",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiebZyRjJygCrgA0W",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya:code/api/src/main/java/org/apache/tamaya/TypeLiteral.java",
+        "project": "apache_incubator-tamaya",
+        "line": 148,
+        "hash": "5bcc14209066dfc0c3a4a90fe8ab84ac",
+        "textRange": {
+            "startLine": 148,
+            "endLine": 148,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-05-15T14:09:23+0200",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiegfyRjJygCrgA2d",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya:code/spi-support/src/main/java/org/apache/tamaya/spisupport/propertysource/EnvironmentPropertySource.java",
+        "project": "apache_incubator-tamaya",
+        "line": 282,
+        "hash": "559d76f6e21bb9daf085c118f14c028d",
+        "textRange": {
+            "startLine": 282,
+            "endLine": 282,
+            "startOffset": 19,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-09-21T00:50:22+0200",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWq8sDBPMZxxFnEzlyra",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya:code/api/src/main/java/org/apache/tamaya/spi/ObjectValue.java",
+        "project": "apache_incubator-tamaya",
+        "line": 89,
+        "hash": "aabf1171db80e1d6aa85a187bde9a5a5",
+        "textRange": {
+            "startLine": 89,
+            "endLine": 89,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-05-15T20:09:52+0200",
+        "updateDate": "2019-05-15T20:09:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWq8sDCGMZxxFnEzlyrf",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya:code/api/src/main/java/org/apache/tamaya/spi/ListValue.java",
+        "project": "apache_incubator-tamaya",
+        "line": 261,
+        "hash": "aabf1171db80e1d6aa85a187bde9a5a5",
+        "textRange": {
+            "startLine": 261,
+            "endLine": 261,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-05-15T20:09:52+0200",
+        "updateDate": "2019-05-15T20:09:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWq8sDKtMZxxFnEzlyro",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya:code/spi-support/src/main/java/org/apache/tamaya/spisupport/propertysource/MapPropertySource.java",
+        "project": "apache_incubator-tamaya",
+        "line": 130,
+        "hash": "b9e73d2fa5194ae6879aee06edb3d5e4",
+        "textRange": {
+            "startLine": 130,
+            "endLine": 130,
+            "startOffset": 21,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-05-15T20:09:52+0200",
+        "updateDate": "2019-05-15T20:09:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBieaLyRjJygCrgAzy",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya:code/api/src/main/java/org/apache/tamaya/ConfigQuery.java",
+        "project": "apache_incubator-tamaya",
+        "line": 31,
+        "hash": "3b8560205b6e2ff63f64e42370abf91b",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 17,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-01-13T08:58:43+0100",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiebDyRjJygCrgA0L",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya:code/api/src/main/java/org/apache/tamaya/spi/ConfigurationProviderSpi.java",
+        "project": "apache_incubator-tamaya",
+        "line": 44,
+        "hash": "d6b1afb875c89de859c78087eca20a5c",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-10-23T18:37:53+0200",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiebGyRjJygCrgA0N",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya:code/api/src/main/java/org/apache/tamaya/spi/PropertySource.java",
+        "project": "apache_incubator-tamaya",
+        "line": 182,
+        "hash": "d85610c38854898cfaaa54fc83e6ae4d",
+        "textRange": {
+            "startLine": 182,
+            "endLine": 182,
+            "startOffset": 20,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-11-12T21:26:28+0100",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBieg-yRjJygCrgA24",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya:code/spi-support/src/main/java/org/apache/tamaya/spisupport/DefaultPropertySourceSnapshot.java",
+        "project": "apache_incubator-tamaya",
+        "line": 161,
+        "hash": "c7e4e11bae274e5f65ff1ea5e8e187b1",
+        "textRange": {
+            "startLine": 161,
+            "endLine": 161,
+            "startOffset": 15,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-18T22:15:47+0100",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiee-yRjJygCrgA10",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya:code/core/src/main/java/org/apache/tamaya/core/propertysource/BasePropertySource.java",
+        "project": "apache_incubator-tamaya",
+        "line": 35,
+        "hash": "03e96ff1c4b0770e6a87290413445fc4",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 22,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-11-06T18:47:53+0100",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiee-yRjJygCrgA11",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya:code/core/src/main/java/org/apache/tamaya/core/propertysource/BasePropertySource.java",
+        "project": "apache_incubator-tamaya",
+        "line": 110,
+        "hash": "c7e4e11bae274e5f65ff1ea5e8e187b1",
+        "textRange": {
+            "startLine": 110,
+            "endLine": 110,
+            "startOffset": 15,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-06T18:47:53+0100",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiegWyRjJygCrgA2O",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya:code/spi-support/src/main/java/org/apache/tamaya/spisupport/propertysource/WrappedPropertySource.java",
+        "project": "apache_incubator-tamaya",
+        "line": 64,
+        "hash": "c7e4e11bae274e5f65ff1ea5e8e187b1",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 15,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-10-29T14:41:15+0200",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiebTyRjJygCrgA0U",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya:code/api/src/main/java/org/apache/tamaya/spi/ConversionContext.java",
+        "project": "apache_incubator-tamaya",
+        "line": 175,
+        "hash": "bbe5cfcc2deaa5efba2d2840a03658fa",
+        "textRange": {
+            "startLine": 175,
+            "endLine": 175,
+            "startOffset": 32,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-02-17T00:33:30+0100",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiegpyRjJygCrgA2k",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya:code/spi-support/src/main/java/org/apache/tamaya/spisupport/propertysource/BasePropertySource.java",
+        "project": "apache_incubator-tamaya",
+        "line": 119,
+        "hash": "c7e4e11bae274e5f65ff1ea5e8e187b1",
+        "textRange": {
+            "startLine": 119,
+            "endLine": 119,
+            "startOffset": 15,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-24T21:06:16+0100",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiea-yRjJygCrgA0G",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_incubator-tamaya:code/api/src/main/java/org/apache/tamaya/spi/PropertyValue.java",
+        "project": "apache_incubator-tamaya",
+        "line": 242,
+        "hash": "e8e8195a2d37cdb963d69388588af753",
+        "textRange": {
+            "startLine": 242,
+            "endLine": 242,
+            "startOffset": 18,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-11-06T18:47:53+0100",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBiegsyRjJygCrgA2o",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya:code/spi-support/src/main/java/org/apache/tamaya/spisupport/propertysource/SystemPropertySource.java",
+        "project": "apache_incubator-tamaya",
+        "line": 129,
+        "hash": "c9c91dec54e86f304be48911b81ad345",
+        "textRange": {
+            "startLine": 129,
+            "endLine": 129,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-18T22:15:47+0100",
+        "updateDate": "2019-04-21T22:14:39+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

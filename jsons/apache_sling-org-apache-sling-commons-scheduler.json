@@ -1,0 +1,1121 @@
+[
+    {
+        "key": "AWoxE-XGyRjJygCrMpYT",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/QuartzJobExecutor.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 59,
+        "hash": "5b165c01b851a03dbcc012b7da1bc0a5",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 34,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make SLING_ID a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2015-04-20T14:35:04+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-XGyRjJygCrMpYS",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/QuartzJobExecutor.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 59,
+        "hash": "5b165c01b851a03dbcc012b7da1bc0a5",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 34,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static SLING_ID\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2015-04-20T14:35:04+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-XCyRjJygCrMpYO",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/InternalScheduleOptions.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 47,
+        "hash": "8785f8e12559fe28a75eacfbb8c2c2de",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 20,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make runOn a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-07-31T11:18:26+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-XCyRjJygCrMpYN",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/InternalScheduleOptions.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 45,
+        "hash": "53c207769417d37b27556182da84bc41",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 37,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make configuration a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-07-26T09:57:29+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-XCyRjJygCrMpYM",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/InternalScheduleOptions.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 43,
+        "hash": "c5b1cb85effc167ad441b3d88e07705f",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 19,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make canRunConcurrently a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-07-26T09:57:29+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-XCyRjJygCrMpYL",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/InternalScheduleOptions.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 41,
+        "hash": "28c0f372fa1018092df188be40677f9f",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 18,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make threadPoolName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2016-07-15T10:27:06+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-XCyRjJygCrMpYK",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/InternalScheduleOptions.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 39,
+        "hash": "d29eb809cd7e712070b86a449a5f2e82",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 18,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make name a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-07-26T09:57:29+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-YLyRjJygCrMpZx",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/Scheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 255,
+        "hash": "a3c12ab7de1ee98fd79ed36f1d528e31",
+        "textRange": {
+            "startLine": 255,
+            "endLine": 255,
+            "startOffset": 9,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-YLyRjJygCrMpZw",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/Scheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 236,
+        "hash": "7205e81372a05f1c1a69f094aed492a9",
+        "textRange": {
+            "startLine": 236,
+            "endLine": 236,
+            "startOffset": 9,
+            "endOffset": 15
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-YLyRjJygCrMpZp",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/Scheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 322,
+        "hash": "ade88b84548ec15c2f8b184babd0c149",
+        "textRange": {
+            "startLine": 322,
+            "endLine": 322,
+            "startOffset": 11,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-YLyRjJygCrMpZo",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/Scheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 290,
+        "hash": "ade88b84548ec15c2f8b184babd0c149",
+        "textRange": {
+            "startLine": 290,
+            "endLine": 290,
+            "startOffset": 11,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-YLyRjJygCrMpZl",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/Scheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 237,
+        "hash": "ade88b84548ec15c2f8b184babd0c149",
+        "textRange": {
+            "startLine": 237,
+            "endLine": 237,
+            "startOffset": 11,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-YLyRjJygCrMpZ2",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/Scheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 341,
+        "hash": "ad09532a5985a70222797ab5da5859d5",
+        "textRange": {
+            "startLine": 341,
+            "endLine": 341,
+            "startOffset": 12,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-09-23T11:35:04+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-YLyRjJygCrMpZ1",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/Scheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 321,
+        "hash": "cf007fea0e0eb4c6c5f4eb470ae8bc35",
+        "textRange": {
+            "startLine": 321,
+            "endLine": 321,
+            "startOffset": 9,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-YLyRjJygCrMpZ0",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/Scheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 305,
+        "hash": "6d457ac4c22b76a9d408d56652f46334",
+        "textRange": {
+            "startLine": 305,
+            "endLine": 305,
+            "startOffset": 12,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-09-23T11:35:04+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-YLyRjJygCrMpZz",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/Scheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 289,
+        "hash": "bb28d684447412053425c480519faaa2",
+        "textRange": {
+            "startLine": 289,
+            "endLine": 289,
+            "startOffset": 9,
+            "endOffset": 16
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-YLyRjJygCrMpZy",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/Scheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 275,
+        "hash": "bdf782504628da3349eeca02a8fe4009",
+        "textRange": {
+            "startLine": 275,
+            "endLine": 275,
+            "startOffset": 9,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2012-01-18T18:35:37+0100",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-YCyRjJygCrMpZg",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/SettingsSupport.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 93,
+        "hash": "bb147496b78404309bc3b5150c60773e",
+        "textRange": {
+            "startLine": 93,
+            "endLine": 93,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-04-20T14:35:04+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-X9yRjJygCrMpZd",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/WebConsolePrinter.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 68,
+        "hash": "03f16daf94c8ff4b8e7ce4c64bcee19f",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 20,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make serviceId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-05-05T10:00:47+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-X9yRjJygCrMpZc",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/WebConsolePrinter.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 67,
+        "hash": "160ac2f05695f4ed9b6b350aa09bd825",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 20,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make bundleId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-05-05T10:00:47+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-X9yRjJygCrMpZb",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/WebConsolePrinter.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 66,
+        "hash": "66b98d424bf1e6c2cdb2c88e46414e3a",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 24,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make triggers a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-05-05T10:00:47+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-X9yRjJygCrMpZa",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/WebConsolePrinter.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 65,
+        "hash": "df0c582add99b5873e5b3c9445d9afd9",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 22,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make runOn a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-05-05T10:00:47+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-X9yRjJygCrMpZZ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/WebConsolePrinter.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 64,
+        "hash": "1c665ab9cc579564c580a53f14d4537d",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 23,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make concurrent a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-05-05T10:00:47+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-XLyRjJygCrMpYc",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/SchedulerServiceFactory.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 185,
+        "hash": "e613d90f558c9d9e5f4c12027662ecdb",
+        "textRange": {
+            "startLine": 185,
+            "endLine": 185,
+            "startOffset": 52,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.util.NoSuchElementException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-08-12T18:55:36+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-YLyRjJygCrMpZ3",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/Scheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 352,
+        "hash": "d1d0ef5952ebfb7648e04d57fd9a159f",
+        "textRange": {
+            "startLine": 352,
+            "endLine": 352,
+            "startOffset": 11,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.util.NoSuchElementException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-XCyRjJygCrMpYJ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/InternalScheduleOptions.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 37,
+        "hash": "3a5af531c1b4f2d471679f5ec8e63f61",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 18,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make providedName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-05-02T11:31:13+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-YLyRjJygCrMpZ4",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/Scheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 351,
+        "hash": "7e71f57146f90957fa6dadc6d311c5bc",
+        "textRange": {
+            "startLine": 351,
+            "endLine": 351,
+            "startOffset": 9,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-YLyRjJygCrMpZm",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/Scheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 256,
+        "hash": "ade88b84548ec15c2f8b184babd0c149",
+        "textRange": {
+            "startLine": 256,
+            "endLine": 256,
+            "startOffset": 11,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-XPyRjJygCrMpYm",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/GaugesSupport.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 174,
+        "hash": "ddc31c32d66b464b1ecb89d5e41a837e",
+        "textRange": {
+            "startLine": 174,
+            "endLine": 174,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-24T11:42:32+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-X3yRjJygCrMpZL",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/QuartzScheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 417,
+        "hash": "06b53c5ddcd5e226a4c85092b421a647",
+        "textRange": {
+            "startLine": 417,
+            "endLine": 417,
+            "startOffset": 76,
+            "endOffset": 98
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.util.NoSuchElementException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-07-15T13:30:35+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-X3yRjJygCrMpZJ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/QuartzScheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 297,
+        "hash": "8991b107f1ba07c07d53a5f8457947e4",
+        "textRange": {
+            "startLine": 297,
+            "endLine": 297,
+            "startOffset": 11,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2009-07-10T17:27:18+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-X3yRjJygCrMpZE",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/QuartzScheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 402,
+        "hash": "5db0384261050f1d089971d0e50d8a02",
+        "textRange": {
+            "startLine": 402,
+            "endLine": 402,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2014-08-12T18:55:36+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-X3yRjJygCrMpZD",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/QuartzScheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 335,
+        "hash": "98ba92a2cb3871fc9e54a9ca0fdaa380",
+        "textRange": {
+            "startLine": 335,
+            "endLine": 335,
+            "startOffset": 16,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2014-08-12T18:55:36+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-X9yRjJygCrMpZV",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/WebConsolePrinter.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 60,
+        "hash": "d29eb809cd7e712070b86a449a5f2e82",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 22,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make name a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-05-05T10:00:47+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-X9yRjJygCrMpZW",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/WebConsolePrinter.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 61,
+        "hash": "868d31c10a710a0df272dc0ea267b5a9",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make className a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-05-05T10:00:47+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-X9yRjJygCrMpZX",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/WebConsolePrinter.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 62,
+        "hash": "ce2ea66b1d2db3520c7c27026c72f1a8",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 22,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make description a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-05-05T10:00:47+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-X9yRjJygCrMpZY",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/WebConsolePrinter.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 63,
+        "hash": "2e3a925df54272de75922655083a87fe",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 22,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make reason a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-05-05T10:00:47+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-XyyRjJygCrMpY7",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/impl/MetricsHelper.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 25,
+        "hash": "4fe826eb3326377da7d35d8c4599a7db",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 6,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-24T11:42:32+0200",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxE-YLyRjJygCrMpZn",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-scheduler:src/main/java/org/apache/sling/commons/scheduler/Scheduler.java",
+        "project": "apache_sling-org-apache-sling-commons-scheduler",
+        "line": 277,
+        "hash": "ade88b84548ec15c2f8b184babd0c149",
+        "textRange": {
+            "startLine": 277,
+            "endLine": 277,
+            "startOffset": 11,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2012-01-18T18:35:37+0100",
+        "updateDate": "2019-04-18T17:32:03+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

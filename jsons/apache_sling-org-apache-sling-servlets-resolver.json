@@ -1,0 +1,232 @@
+[
+    {
+        "key": "AWogfxUvXfpfrZMdPW0L",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-resolver:src/main/java/org/apache/sling/servlets/resolver/internal/helper/LocationIterator.java",
+        "project": "apache_sling-org-apache-sling-servlets-resolver",
+        "line": 147,
+        "hash": "1b9178d95b3f808cfdbcf82cab899405",
+        "textRange": {
+            "startLine": 147,
+            "endLine": 147,
+            "startOffset": 16,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-15T12:15:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfxVfXfpfrZMdPW1R",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-servlets-resolver:src/main/java/org/apache/sling/servlets/resolver/internal/SlingScriptResolverImpl.java",
+        "project": "apache_sling-org-apache-sling-servlets-resolver",
+        "line": 47,
+        "hash": "1e074c0ac6f97501354459ab0b61d690",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 13,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-03-07T11:26:03+0100",
+        "updateDate": "2019-04-15T12:15:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfxVbXfpfrZMdPW1O",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-resolver:src/main/java/org/apache/sling/servlets/resolver/internal/resolution/ResolutionCache.java",
+        "project": "apache_sling-org-apache-sling-servlets-resolver",
+        "line": 94,
+        "hash": "a603e2b8dee90a67a915c45b03936b6b",
+        "textRange": {
+            "startLine": 94,
+            "endLine": 94,
+            "startOffset": 48,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.api.resource.LoginException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-19T08:14:25+0100",
+        "updateDate": "2019-04-15T12:15:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXIIcumfYogL4DjXgbCQ",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-resolver:src/main/java/org/apache/sling/servlets/resolver/bundle/tracker/internal/BundledRenderUnitCapabilityImpl.java",
+        "project": "apache_sling-org-apache-sling-servlets-resolver",
+        "line": 49,
+        "hash": "a7aaed6cca279b740478f7a55728cbc8",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 12,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-05-12T12:30:33+0200",
+        "updateDate": "2020-05-12T12:33:44+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfxVfXfpfrZMdPW1S",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-resolver:src/main/java/org/apache/sling/servlets/resolver/internal/SlingScriptResolverImpl.java",
+        "project": "apache_sling-org-apache-sling-servlets-resolver",
+        "line": 65,
+        "hash": "f8b917cb4e8ccecf7037aebe23c7ed71",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 11,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.api.SlingException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-07T11:26:03+0100",
+        "updateDate": "2019-04-15T12:15:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHFIy0BUevQp7BKngFw",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-resolver:src/main/java/org/apache/sling/servlets/resolver/internal/ScriptResourceResolver.java",
+        "project": "apache_sling-org-apache-sling-servlets-resolver",
+        "line": 170,
+        "hash": "9755108fc2f189498fb537d18cdc386a",
+        "textRange": {
+            "startLine": 170,
+            "endLine": 170,
+            "startOffset": 34,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2020-04-29T10:49:39+0200",
+        "updateDate": "2020-04-29T10:52:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHFIy0BUevQp7BKngFt",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-resolver:src/main/java/org/apache/sling/servlets/resolver/internal/ScriptResourceResolver.java",
+        "project": "apache_sling-org-apache-sling-servlets-resolver",
+        "line": 56,
+        "hash": "6e92a18cf747a0842006cd516954d067",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 20,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2020-04-29T10:49:39+0200",
+        "updateDate": "2020-04-29T10:52:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfxU5XfpfrZMdPW0Y",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-resolver:src/main/java/org/apache/sling/servlets/resolver/internal/helper/ResourceCollector.java",
+        "project": "apache_sling-org-apache-sling-servlets-resolver",
+        "line": 284,
+        "hash": "7112163ac538bc6ef69df078efb0ae40",
+        "textRange": {
+            "startLine": 284,
+            "endLine": 284,
+            "startOffset": 20,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2010-09-26T14:42:17+0200",
+        "updateDate": "2019-04-15T12:15:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

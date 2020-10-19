@@ -1,0 +1,179 @@
+[
+    {
+        "key": "AWtG8oyGKKHWNZ-p55Hn",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-modelconverter:src/main/java/org/apache/sling/feature/modelconverter/ProvisioningToFeature.java",
+        "project": "apache_sling-org-apache-sling-feature-modelconverter",
+        "line": 305,
+        "hash": "a385d72a86f2e7026366f8f18d0bbd31",
+        "textRange": {
+            "startLine": 305,
+            "endLine": 305,
+            "startOffset": 24,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-15T08:41:40+0100",
+        "updateDate": "2019-06-07T00:48:16+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWox--FDyRjJygCrhGmy",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-modelconverter:src/main/java/org/apache/sling/feature/modelconverter/FeatureToProvisioning.java",
+        "project": "apache_sling-org-apache-sling-feature-modelconverter",
+        "line": 62,
+        "hash": "782df85a02030d0b9d8c1009adbb879e",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 13,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-03-15T08:41:40+0100",
+        "updateDate": "2019-04-18T21:45:28+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWox--FDyRjJygCrhGmz",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-feature-modelconverter:src/main/java/org/apache/sling/feature/modelconverter/FeatureToProvisioning.java",
+        "project": "apache_sling-org-apache-sling-feature-modelconverter",
+        "line": 67,
+        "hash": "40eb317d960794fc53488091d25520bb",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 122,
+            "endOffset": 142
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.UncheckedIOException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-10-02T00:58:53+0200",
+        "updateDate": "2019-04-18T21:45:28+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWox--FDyRjJygCrhGm2",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-feature-modelconverter:src/main/java/org/apache/sling/feature/modelconverter/FeatureToProvisioning.java",
+        "project": "apache_sling-org-apache-sling-feature-modelconverter",
+        "line": 106,
+        "hash": "1ea8ea392e57c0475a42ac0708b81087",
+        "textRange": {
+            "startLine": 106,
+            "endLine": 106,
+            "startOffset": 161,
+            "endOffset": 181
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.UncheckedIOException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-11-21T15:19:57+0100",
+        "updateDate": "2019-04-18T21:45:28+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWox--FDyRjJygCrhGm0",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-feature-modelconverter:src/main/java/org/apache/sling/feature/modelconverter/FeatureToProvisioning.java",
+        "project": "apache_sling-org-apache-sling-feature-modelconverter",
+        "line": 97,
+        "hash": "b3161e2cab18b9c020a47bb45ccfc828",
+        "textRange": {
+            "startLine": 97,
+            "endLine": 97,
+            "startOffset": 79,
+            "endOffset": 99
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.UncheckedIOException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-10-02T00:58:53+0200",
+        "updateDate": "2019-04-18T21:45:28+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWox--EkyRjJygCrhGmh",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-modelconverter:src/main/java/org/apache/sling/feature/modelconverter/ProvisioningToFeature.java",
+        "project": "apache_sling-org-apache-sling-feature-modelconverter",
+        "line": 66,
+        "hash": "9bed38a866e461359f9d4cdf6699d358",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 13,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-03-15T08:41:40+0100",
+        "updateDate": "2019-04-18T21:45:28+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

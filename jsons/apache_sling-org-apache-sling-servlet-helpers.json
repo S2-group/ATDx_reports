@@ -1,0 +1,236 @@
+[
+    {
+        "key": "AWoyYTnlo4hEA1R-9Lcl",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlet-helpers:src/main/java/org/apache/sling/servlethelpers/MockSlingHttpServletRequest.java",
+        "project": "apache_sling-org-apache-sling-servlet-helpers",
+        "line": 257,
+        "hash": "994ac230fb0dc17586983c847ce9a1b0",
+        "textRange": {
+            "startLine": 257,
+            "endLine": 257,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-01-14T00:07:09+0100",
+        "updateDate": "2019-04-18T23:36:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoyYTnlo4hEA1R-9Lcm",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlet-helpers:src/main/java/org/apache/sling/servlethelpers/MockSlingHttpServletRequest.java",
+        "project": "apache_sling-org-apache-sling-servlet-helpers",
+        "line": 316,
+        "hash": "994ac230fb0dc17586983c847ce9a1b0",
+        "textRange": {
+            "startLine": 316,
+            "endLine": 316,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-01-14T00:07:09+0100",
+        "updateDate": "2019-04-18T23:36:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoyYTnho4hEA1R-9Lci",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlet-helpers:src/main/java/org/apache/sling/servlethelpers/ResponseBodySupport.java",
+        "project": "apache_sling-org-apache-sling-servlet-helpers",
+        "line": 77,
+        "hash": "89a03a5f20981ba4bb8142a597da4d55",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-01-14T00:07:09+0100",
+        "updateDate": "2019-04-18T23:36:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoyYTnho4hEA1R-9Lcj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlet-helpers:src/main/java/org/apache/sling/servlethelpers/ResponseBodySupport.java",
+        "project": "apache_sling-org-apache-sling-servlet-helpers",
+        "line": 101,
+        "hash": "89a03a5f20981ba4bb8142a597da4d55",
+        "textRange": {
+            "startLine": 101,
+            "endLine": 101,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-01-14T00:07:09+0100",
+        "updateDate": "2019-04-18T23:36:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWraLEZxVDQP4UufTKo0",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-servlet-helpers:src/main/java/org/apache/sling/servlethelpers/MockSlingHttpServletResponse.java",
+        "project": "apache_sling-org-apache-sling-servlet-helpers",
+        "line": 278,
+        "hash": "844ee91493a99a98bc86ef12265c1442",
+        "textRange": {
+            "startLine": 278,
+            "endLine": 278,
+            "startOffset": 18,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-12-05T21:12:32+0100",
+        "updateDate": "2019-05-18T18:15:21+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4TPMpGzYyPknvmg_6H",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlet-helpers:src/main/java/org/apache/sling/servlethelpers/AdaptableUtil.java",
+        "project": "apache_sling-org-apache-sling-servlet-helpers",
+        "line": 26,
+        "hash": "02942606273e99a1a9d5590b8edf0089",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 12,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-10-28T17:37:59+0100",
+        "updateDate": "2019-10-28T17:39:27+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4TPMpGzYyPknvmg_6G",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlet-helpers:src/main/java/org/apache/sling/servlethelpers/AdaptableUtil.java",
+        "project": "apache_sling-org-apache-sling-servlet-helpers",
+        "line": 47,
+        "hash": "5975913ad1a5e39f1f16e95d96c8c45d",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-10-28T17:37:59+0100",
+        "updateDate": "2019-10-28T17:39:27+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoyYTnSo4hEA1R-9Lcb",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-servlet-helpers:src/main/java/org/apache/sling/servlethelpers/MockRequestPathInfo.java",
+        "project": "apache_sling-org-apache-sling-servlet-helpers",
+        "line": 44,
+        "hash": "2e476b0d03535e92e6ec82a4318c8c8d",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 11,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-07-31T13:08:44+0200",
+        "updateDate": "2019-04-18T23:36:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

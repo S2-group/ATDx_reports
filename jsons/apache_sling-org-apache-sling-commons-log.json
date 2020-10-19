@@ -1,0 +1,203 @@
+[
+    {
+        "key": "AWpER8iBYsUHy63n9bLD",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-log:src/main/java/org/apache/sling/commons/log/logback/internal/LogConfig.java",
+        "project": "apache_sling-org-apache-sling-commons-log",
+        "line": 62,
+        "hash": "b35c0644210bcf2e641e0fb3df8abf34",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 4,
+            "endOffset": 13
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2013-08-28T07:56:33+0200",
+        "updateDate": "2019-04-22T11:01:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpER8iIYsUHy63n9bLh",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-log:src/main/java/org/apache/sling/commons/log/logback/internal/SlingLogPanel.java",
+        "project": "apache_sling-org-apache-sling-commons-log",
+        "line": 730,
+        "hash": "f1f1f7923d80984ddf50dbf891dfdcdc",
+        "textRange": {
+            "startLine": 730,
+            "endLine": 730,
+            "startOffset": 75,
+            "endOffset": 103
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-07-27T08:01:13+0200",
+        "updateDate": "2019-04-22T11:01:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpER8h1YsUHy63n9bK3",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-log:src/main/java/org/apache/sling/commons/log/logback/internal/config/ConfigurationServiceFactory.java",
+        "project": "apache_sling-org-apache-sling-commons-log",
+        "line": 67,
+        "hash": "6b58397de7235ee2dbb1b809e4ad4f93",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-08-28T07:56:33+0200",
+        "updateDate": "2019-04-22T11:01:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpER8hnYsUHy63n9bKw",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-log:src/main/java/org/apache/sling/commons/log/logback/internal/util/XmlUtil.java",
+        "project": "apache_sling-org-apache-sling-commons-log",
+        "line": 35,
+        "hash": "83dc4d1d309610fd069b232fce135842",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 13,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-08-28T07:56:33+0200",
+        "updateDate": "2019-04-22T11:01:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpER8hkYsUHy63n9bKu",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-log:src/main/java/org/apache/sling/commons/log/logback/internal/util/Util.java",
+        "project": "apache_sling-org-apache-sling-commons-log",
+        "line": 31,
+        "hash": "a7ae4d6a19bbdfd2bcd1ef8d94580e51",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-08-28T07:56:33+0200",
+        "updateDate": "2019-04-22T11:01:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpER8hgYsUHy63n9bKr",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-log:src/main/java/org/apache/sling/commons/log/logback/internal/util/SlingStatusPrinter.java",
+        "project": "apache_sling-org-apache-sling-commons-log",
+        "line": 39,
+        "hash": "3a98991b5dffa3fea6f574faebe6730e",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 13,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2014-02-24T14:13:47+0100",
+        "updateDate": "2019-04-22T11:01:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-eJLNiPYt1scw-8C_t",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-log:src/main/java/org/apache/sling/commons/log/logback/internal/util/LoggerSpecificEncoder.java",
+        "project": "apache_sling-org-apache-sling-commons-log",
+        "line": 42,
+        "hash": "c55fe5f6e73d4194662914bfd8191992",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 18,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-10-28T07:28:26+0200",
+        "updateDate": "2020-01-13T10:02:34+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,238 @@
+[
+    {
+        "key": "AWojrDg2iRm9JOJvMENi",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-oak:src/main/java/org/apache/sling/discovery/oak/OakDiscoveryService.java",
+        "project": "apache_sling-org-apache-sling-discovery-oak",
+        "line": 166,
+        "hash": "1ef762d85fda50dcc96c9a72f8261adb",
+        "textRange": {
+            "startLine": 166,
+            "endLine": 166,
+            "startOffset": 38,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2015-10-21T17:50:37+0200",
+        "updateDate": "2019-04-16T03:03:51+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWojrDg2iRm9JOJvMENc",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-discovery-oak:src/main/java/org/apache/sling/discovery/oak/OakDiscoveryService.java",
+        "project": "apache_sling-org-apache-sling-discovery-oak",
+        "line": 246,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 246,
+            "endLine": 246,
+            "startOffset": 8,
+            "endOffset": 9
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-10-21T17:50:37+0200",
+        "updateDate": "2019-04-16T03:03:51+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWojrDg2iRm9JOJvMENk",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-oak:src/main/java/org/apache/sling/discovery/oak/OakDiscoveryService.java",
+        "project": "apache_sling-org-apache-sling-discovery-oak",
+        "line": 544,
+        "hash": "0285e6eea6d36962c14bbd7979f5d86a",
+        "textRange": {
+            "startLine": 544,
+            "endLine": 544,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-21T17:50:37+0200",
+        "updateDate": "2019-04-16T03:03:51+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWojrDg2iRm9JOJvMENj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-oak:src/main/java/org/apache/sling/discovery/oak/OakDiscoveryService.java",
+        "project": "apache_sling-org-apache-sling-discovery-oak",
+        "line": 540,
+        "hash": "926a84dac00fd2c00624378447f9571a",
+        "textRange": {
+            "startLine": 540,
+            "endLine": 540,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-21T17:50:37+0200",
+        "updateDate": "2019-04-16T03:03:51+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWojrDgYiRm9JOJvMEL9",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-oak:src/main/java/org/apache/sling/discovery/oak/cluster/OakClusterViewService.java",
+        "project": "apache_sling-org-apache-sling-discovery-oak",
+        "line": 355,
+        "hash": "ec54550b58444e5a1072c6333b77d398",
+        "textRange": {
+            "startLine": 355,
+            "endLine": 355,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-01-27T14:20:04+0100",
+        "updateDate": "2019-04-16T03:03:51+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWojrDgYiRm9JOJvMEL8",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-oak:src/main/java/org/apache/sling/discovery/oak/cluster/OakClusterViewService.java",
+        "project": "apache_sling-org-apache-sling-discovery-oak",
+        "line": 326,
+        "hash": "cd762e6241bc16e31c3868912bfcb7ac",
+        "textRange": {
+            "startLine": 326,
+            "endLine": 326,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-01-27T14:20:04+0100",
+        "updateDate": "2019-04-16T03:03:51+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWojrDgYiRm9JOJvMEL7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-oak:src/main/java/org/apache/sling/discovery/oak/cluster/OakClusterViewService.java",
+        "project": "apache_sling-org-apache-sling-discovery-oak",
+        "line": 321,
+        "hash": "fc4ebc79a17f9a9ccf868a22a5e927bf",
+        "textRange": {
+            "startLine": 321,
+            "endLine": 321,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-01-27T14:20:04+0100",
+        "updateDate": "2019-04-16T03:03:51+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWojrDgYiRm9JOJvMEL6",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-oak:src/main/java/org/apache/sling/discovery/oak/cluster/OakClusterViewService.java",
+        "project": "apache_sling-org-apache-sling-discovery-oak",
+        "line": 209,
+        "hash": "5955517909fff3952ea8bc8f2345baf9",
+        "textRange": {
+            "startLine": 209,
+            "endLine": 209,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-21T17:50:37+0200",
+        "updateDate": "2019-04-16T03:03:51+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,186 @@
+[
+    {
+        "key": "AWo-AmhpK1LJlmpkhFIt",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-auth-form:src/main/java/org/apache/sling/auth/form/impl/FormAuthenticationHandler.java",
+        "project": "apache_sling-org-apache-sling-auth-form",
+        "line": 564,
+        "hash": "5a1568f18faa2d6ede445e659818f23e",
+        "textRange": {
+            "startLine": 564,
+            "endLine": 564,
+            "startOffset": 57,
+            "endOffset": 78
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-05-16T06:30:18+0200",
+        "updateDate": "2019-04-21T05:48:14+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-AmhpK1LJlmpkhFIk",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-auth-form:src/main/java/org/apache/sling/auth/form/impl/FormAuthenticationHandler.java",
+        "project": "apache_sling-org-apache-sling-auth-form",
+        "line": 780,
+        "hash": "671684f117ec6fe1b27e08e916be281d",
+        "textRange": {
+            "startLine": 780,
+            "endLine": 780,
+            "startOffset": 14,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2010-08-15T14:28:54+0200",
+        "updateDate": "2019-04-21T05:48:14+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-AmhpK1LJlmpkhFIj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-auth-form:src/main/java/org/apache/sling/auth/form/impl/FormAuthenticationHandler.java",
+        "project": "apache_sling-org-apache-sling-auth-form",
+        "line": 762,
+        "hash": "671684f117ec6fe1b27e08e916be281d",
+        "textRange": {
+            "startLine": 762,
+            "endLine": 762,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2010-08-15T14:28:54+0200",
+        "updateDate": "2019-04-21T05:48:14+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-AmhJK1LJlmpkhFH_",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-auth-form:src/main/java/org/apache/sling/auth/form/impl/TokenStore.java",
+        "project": "apache_sling-org-apache-sling-auth-form",
+        "line": 167,
+        "hash": "094b6c75f8401ae9cc610c71b5538809",
+        "textRange": {
+            "startLine": 167,
+            "endLine": 167,
+            "startOffset": 57,
+            "endOffset": 78
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2010-08-15T14:28:54+0200",
+        "updateDate": "2019-04-21T05:48:14+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-AmhJK1LJlmpkhFH-",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-auth-form:src/main/java/org/apache/sling/auth/form/impl/TokenStore.java",
+        "project": "apache_sling-org-apache-sling-auth-form",
+        "line": 159,
+        "hash": "b09560dce44732c2277562a1b24e68b8",
+        "textRange": {
+            "startLine": 159,
+            "endLine": 159,
+            "startOffset": 19,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2010-08-15T14:28:54+0200",
+        "updateDate": "2019-04-21T05:48:14+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-AmhJK1LJlmpkhFH7",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-auth-form:src/main/java/org/apache/sling/auth/form/impl/TokenStore.java",
+        "project": "apache_sling-org-apache-sling-auth-form",
+        "line": 114,
+        "hash": "eca9ecbf6f8feba29ed9f1df5cc04dbd",
+        "textRange": {
+            "startLine": 114,
+            "endLine": 114,
+            "startOffset": 33,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2010-09-06T13:59:13+0200",
+        "updateDate": "2019-04-21T05:48:14+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,200 @@
+[
+    {
+        "key": "AWpqq5G8-aLJxVkBpkEK",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-sandbox:metamodel/src/main/java/org/apache/tamaya/metamodel/internal/factories/ResourcePropertySourceFactory.java",
+        "project": "apache_incubator-tamaya-sandbox",
+        "line": 41,
+        "hash": "0b8729c19c72bbdda9acd4797aa3b372",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 21,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-12-12T17:12:06+0100",
+        "updateDate": "2019-04-29T21:55:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqq5G8-aLJxVkBpkEL",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-sandbox:metamodel/src/main/java/org/apache/tamaya/metamodel/internal/factories/ResourcePropertySourceFactory.java",
+        "project": "apache_incubator-tamaya-sandbox",
+        "line": 46,
+        "hash": "8c2e6c5a18117e243cfd9a0baad7a0f5",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 18,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-12-12T17:12:06+0100",
+        "updateDate": "2019-04-29T21:55:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqq5JB-aLJxVkBpkFX",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-sandbox:hjson/src/main/java/org/apache/tamaya/hjson/HJSONPropertySource.java",
+        "project": "apache_incubator-tamaya-sandbox",
+        "line": 77,
+        "hash": "c7e4e11bae274e5f65ff1ea5e8e187b1",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 15,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-12-14T22:48:58+0100",
+        "updateDate": "2019-04-29T21:55:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqq5ML-aLJxVkBpkHD",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "apache_incubator-tamaya-sandbox:configured-sysprops/src/main/java/org/apache/tamaya/sysprops/ConfiguredSystemProperties.java",
+        "project": "apache_incubator-tamaya-sandbox",
+        "line": 132,
+        "hash": "ac1463c2ab98f52c085389b2003b9802",
+        "textRange": {
+            "startLine": 132,
+            "endLine": 132,
+            "startOffset": 31,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2015-05-05T13:11:03+0200",
+        "updateDate": "2019-04-29T21:55:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqq5ML-aLJxVkBpkHE",
+        "rule": "java:S1182",
+        "severity": "MINOR",
+        "component": "apache_incubator-tamaya-sandbox:configured-sysprops/src/main/java/org/apache/tamaya/sysprops/ConfiguredSystemProperties.java",
+        "project": "apache_incubator-tamaya-sandbox",
+        "line": 132,
+        "hash": "ac1463c2ab98f52c085389b2003b9802",
+        "textRange": {
+            "startLine": 132,
+            "endLine": 132,
+            "startOffset": 31,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Use super.clone() to create and seed the cloned instance to be returned.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "convention",
+            "cwe"
+        ],
+        "creationDate": "2015-05-05T13:11:03+0200",
+        "updateDate": "2019-04-29T21:55:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqq5Jm-aLJxVkBpkFy",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-sandbox:configjsr/src/main/java/org/apache/tamaya/jsr382/JavaConfigSource.java",
+        "project": "apache_incubator-tamaya-sandbox",
+        "line": 90,
+        "hash": "0a6a86d8e85c8b09dc0624f11545b9a3",
+        "textRange": {
+            "startLine": 90,
+            "endLine": 90,
+            "startOffset": 25,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-18T22:18:44+0100",
+        "updateDate": "2019-04-29T21:55:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpqq5MA-aLJxVkBpkG8",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_incubator-tamaya-sandbox:remote/src/main/java/org/apache/tamaya/remote/BaseRemotePropertySource.java",
+        "project": "apache_incubator-tamaya-sandbox",
+        "line": 121,
+        "hash": "c7e4e11bae274e5f65ff1ea5e8e187b1",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 15,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-03-08T17:07:53+0100",
+        "updateDate": "2019-04-29T21:55:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

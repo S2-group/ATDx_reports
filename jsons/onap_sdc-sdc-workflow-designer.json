@@ -1,0 +1,118 @@
+[
+    {
+        "key": "AW6lxXFrgYcRdnXY5ia7",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-workflow-designer:sdc-workflow-designer-be/src/main/java/org/onap/sdc/workflow/api/ArtifactAssociationService.java",
+        "project": "onap_sdc-sdc-workflow-designer",
+        "line": 100,
+        "hash": "f4e28a09644cd52bb6bbb1c57ac15ab9",
+        "textRange": {
+            "startLine": 100,
+            "endLine": 100,
+            "startOffset": 11,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-11-20T10:17:43+0100",
+        "updateDate": "2020-03-16T04:39:07+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lxXG_gYcRdnXY5ibE",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-workflow-designer:sdc-workflow-designer-be/src/main/java/org/onap/sdc/workflow/services/utilities/JsonUtil.java",
+        "project": "onap_sdc-sdc-workflow-designer",
+        "line": 91,
+        "hash": "33564fd91962b8abf3227fa413f57093",
+        "textRange": {
+            "startLine": 91,
+            "endLine": 91,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-12T10:53:00+0200",
+        "updateDate": "2020-03-16T04:39:07+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lxXHbgYcRdnXY5ibF",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-workflow-designer:sdc-workflow-designer-be/src/main/java/org/onap/sdc/workflow/services/types/WorkflowValidationConstants.java",
+        "project": "onap_sdc-sdc-workflow-designer",
+        "line": 19,
+        "hash": "124e575e18546dff2010e1a3af873f65",
+        "textRange": {
+            "startLine": 19,
+            "endLine": 19,
+            "startOffset": 13,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-20T10:53:48+0200",
+        "updateDate": "2020-03-16T04:39:07+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lxXG_gYcRdnXY5ibD",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-workflow-designer:sdc-workflow-designer-be/src/main/java/org/onap/sdc/workflow/services/utilities/JsonUtil.java",
+        "project": "onap_sdc-sdc-workflow-designer",
+        "line": 73,
+        "hash": "33564fd91962b8abf3227fa413f57093",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-12T10:53:00+0200",
+        "updateDate": "2020-03-16T04:39:07+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

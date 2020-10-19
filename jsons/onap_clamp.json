@@ -1,0 +1,436 @@
+[
+    {
+        "key": "AXBE6GelOy_LCBNeVTXt",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_clamp:src/main/java/org/onap/clamp/clds/tosca/ToscaYamlToJsonConvertor.java",
+        "project": "onap_clamp",
+        "line": 281,
+        "hash": "559a84772d193fde3c7ec2f3ef71f47a",
+        "textRange": {
+            "startLine": 281,
+            "endLine": 281,
+            "startOffset": 17,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-02-14T19:13:15+0100",
+        "updateDate": "2020-02-14T19:13:15+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW5mEqMWCOTljWvO4kx2",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_clamp:src/main/java/org/onap/clamp/clds/util/XmlTools.java",
+        "project": "onap_clamp",
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "resolution": "FIXED",
+        "status": "CLOSED",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-11T08:10:14+0100",
+        "updateDate": "2020-05-28T00:55:13+0200",
+        "closeDate": "2020-05-28T00:55:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-mQfwijAEvbJfxcIEs",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_clamp:src/main/java/org/onap/clamp/util/PassDecoder.java",
+        "project": "onap_clamp",
+        "line": 39,
+        "hash": "a1a52c75272e94ed0bfd164be64b5a15",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-11-29T16:23:22+0100",
+        "updateDate": "2020-01-14T23:51:38+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXB9GgY7uEWfAFnmqPl-",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_clamp:src/main/java/org/onap/clamp/clds/util/drawing/SvgLoopGenerator.java",
+        "project": "onap_clamp",
+        "hash": "1d656143f0ccf5f9091c9fb77b43b1af",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "resolution": "FIXED",
+        "status": "CLOSED",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-25T10:04:12+0100",
+        "updateDate": "2020-05-28T00:55:13+0200",
+        "closeDate": "2020-05-28T00:55:13+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-mQfrXjAEvbJfxcIEb",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "onap_clamp:src/main/java/org/onap/clamp/clds/model/dcae/DcaeInventoryResponse.java",
+        "project": "onap_clamp",
+        "line": 97,
+        "hash": "e37cc969aa746a8589ed7302c04dfaf2",
+        "textRange": {
+            "startLine": 97,
+            "endLine": 97,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2019-12-09T14:18:15+0100",
+        "updateDate": "2020-01-14T23:51:38+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW5mEqO9COTljWvO4kyM",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_clamp:src/main/java/org/onap/clamp/authorization/SecureServicePermissionDeserializer.java",
+        "project": "onap_clamp",
+        "line": 38,
+        "hash": "225223d65a82ec4f41d60d41bc601e96",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 15,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.google.gson.JsonParseException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-02-06T11:55:09+0100",
+        "updateDate": "2020-02-25T17:05:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-wj1swGCSVsagVZlpP",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_clamp:src/main/java/org/onap/clamp/util/SemanticVersioning.java",
+        "project": "onap_clamp",
+        "line": 30,
+        "hash": "6c4507df393308eb194e80be66d508c3",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 13,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-01-16T13:26:16+0100",
+        "updateDate": "2020-01-16T23:52:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-wj1qhGCSVsagVZlpJ",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_clamp:src/main/java/org/onap/clamp/loop/deploy/DcaeDeployParameters.java",
+        "project": "onap_clamp",
+        "line": 39,
+        "hash": "55845e5e1355cc2bbd68b78ebded91a4",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-01-07T13:16:08+0100",
+        "updateDate": "2020-01-16T23:52:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBAvvpENBtOAKHgPYtC",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_clamp:src/main/java/org/onap/clamp/loop/CsarInstaller.java",
+        "project": "onap_clamp",
+        "line": 188,
+        "hash": "44635f0791f14e92a8ff700e4d881a3d",
+        "textRange": {
+            "startLine": 188,
+            "endLine": 188,
+            "startOffset": 82,
+            "endOffset": 102
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-13T23:49:23+0100",
+        "updateDate": "2020-02-13T23:49:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXERypcIZUWEGPOgfJAJ",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_clamp:src/main/java/org/onap/clamp/clds/tosca/update/execution/ToscaMetadataProcess.java",
+        "project": "onap_clamp",
+        "line": 32,
+        "hash": "7d1e674d47d1f25945e76b1a48fa3704",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 22,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"ToscaMetadataProcess\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2020-03-23T23:34:41+0100",
+        "updateDate": "2020-03-25T14:01:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXDqtesOp0fqqVQ9TDZ3",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_clamp:src/main/java/org/onap/clamp/policy/operational/OperationalPolicy.java",
+        "project": "onap_clamp",
+        "line": 180,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 180,
+            "endLine": 180,
+            "startOffset": 8,
+            "endOffset": 9
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2020-03-17T23:54:10+0100",
+        "updateDate": "2020-03-17T23:54:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-mQfoPjAEvbJfxcIEU",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_clamp:src/main/java/org/onap/clamp/clds/config/CamelConfiguration.java",
+        "project": "onap_clamp",
+        "line": 65,
+        "hash": "40f417eb4e8a728a629cd7a51424ff5b",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 56,
+            "endOffset": 67
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-11-29T16:23:22+0100",
+        "updateDate": "2020-01-14T23:51:38+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW5mEqQGCOTljWvO4kyu",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_clamp:src/main/java/org/onap/clamp/clds/tosca/JsonEditorSchemaConstants.java",
+        "project": "onap_clamp",
+        "line": 26,
+        "hash": "5dd827130c4b159f5ec95e507557605b",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-12-05T13:18:19+0100",
+        "updateDate": "2019-11-13T19:41:45+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW5mEqP-COTljWvO4kyt",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_clamp:src/main/java/org/onap/clamp/clds/tosca/ToscaSchemaConstants.java",
+        "project": "onap_clamp",
+        "line": 26,
+        "hash": "574350936dc0b03c2a3a0482c3a6a8d1",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-12-05T13:18:19+0100",
+        "updateDate": "2019-11-13T19:41:45+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtTHb1Xl4bCBa2mdU",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_clamp:src/main/java/org/onap/clamp/policy/downloader/PolicyEngineController.java",
+        "project": "onap_clamp",
+        "line": 75,
+        "hash": "2145f703d310e1c306f7b38372321635",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 56,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.simple.parser.ParseException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T23:53:06+0100",
+        "updateDate": "2020-02-26T23:53:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,226 @@
+[
+    {
+        "key": "AWo5BWs1K1LJlmpkMB6a",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-commons-threads:src/main/java/org/apache/sling/commons/threads/ModifiableThreadPoolConfig.java",
+        "project": "apache_sling-org-apache-sling-commons-threads",
+        "line": 79,
+        "hash": "4c7bbdac6adcb972c8b81d156bdeef8a",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 17,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-04-12T10:43:20+0200",
+        "updateDate": "2019-04-20T06:33:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5BWsVK1LJlmpkMB50",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-threads:src/main/java/org/apache/sling/commons/threads/impl/ThreadPoolExecutorCleaningThreadLocals.java",
+        "project": "apache_sling-org-apache-sling-commons-threads",
+        "line": 55,
+        "hash": "04f8fd415b7f34fdd46bdbe17a660c86",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 19,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-04-12T10:43:20+0200",
+        "updateDate": "2019-04-20T06:33:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5BWsVK1LJlmpkMB5z",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-threads:src/main/java/org/apache/sling/commons/threads/impl/ThreadPoolExecutorCleaningThreadLocals.java",
+        "project": "apache_sling-org-apache-sling-commons-threads",
+        "line": 42,
+        "hash": "1a925043fb7010350c7bdbdd3e2c0ed1",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 11,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-04-12T10:43:20+0200",
+        "updateDate": "2019-04-20T06:33:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5BWr1K1LJlmpkMB5g",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-commons-threads:src/main/java/org/apache/sling/commons/threads/impl/ThreadPoolMBeanImpl.java",
+        "project": "apache_sling-org-apache-sling-commons-threads",
+        "line": 104,
+        "hash": "e8921dde2bca13abb5989a85c015bd67",
+        "textRange": {
+            "startLine": 104,
+            "endLine": 104,
+            "startOffset": 16,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-11-26T11:51:38+0100",
+        "updateDate": "2019-04-20T06:33:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5BWs1K1LJlmpkMB6e",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-commons-threads:src/main/java/org/apache/sling/commons/threads/ModifiableThreadPoolConfig.java",
+        "project": "apache_sling-org-apache-sling-commons-threads",
+        "line": 190,
+        "hash": "59feb6a6a1fc52e2ab6bd6c19f11ae14",
+        "textRange": {
+            "startLine": 190,
+            "endLine": 190,
+            "startOffset": 16,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-11-26T11:51:38+0100",
+        "updateDate": "2019-04-20T06:33:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5BWsxK1LJlmpkMB6Y",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-commons-threads:src/main/java/org/apache/sling/commons/threads/jmx/ThreadPoolMBean.java",
+        "project": "apache_sling-org-apache-sling-commons-threads",
+        "line": 93,
+        "hash": "836a4acd64e69192e19183ee7c06f441",
+        "textRange": {
+            "startLine": 93,
+            "endLine": 93,
+            "startOffset": 9,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-11-26T11:51:38+0100",
+        "updateDate": "2019-04-20T06:33:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5BWs5K1LJlmpkMB6l",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-commons-threads:src/main/java/org/apache/sling/commons/threads/ThreadPoolConfig.java",
+        "project": "apache_sling-org-apache-sling-commons-threads",
+        "line": 68,
+        "hash": "836a4acd64e69192e19183ee7c06f441",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 9,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-11-26T11:51:38+0100",
+        "updateDate": "2019-04-20T06:33:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5BWsVK1LJlmpkMB53",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-threads:src/main/java/org/apache/sling/commons/threads/impl/ThreadPoolExecutorCleaningThreadLocals.java",
+        "project": "apache_sling-org-apache-sling-commons-threads",
+        "line": 68,
+        "hash": "714efa19f9b8ed5d1039959b662b6779",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 19,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-04-12T10:43:20+0200",
+        "updateDate": "2019-04-20T06:33:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

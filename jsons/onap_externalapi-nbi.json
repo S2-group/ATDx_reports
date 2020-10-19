@@ -1,0 +1,179 @@
+[
+    {
+        "key": "AW-ZG6PhGwrzk64mOLoh",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_externalapi-nbi:src/main/java/org/onap/nbi/configuration/MongoConfig.java",
+        "project": "onap_externalapi-nbi",
+        "line": 28,
+        "hash": "b2350f5a209c97f9d9f94e0cc31d8f75",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 86,
+            "endOffset": 100
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-07-13T11:52:59+0200",
+        "updateDate": "2020-01-12T10:34:35+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-ZG6HQGwrzk64mOLmo",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_externalapi-nbi:src/main/java/org/onap/nbi/apis/serviceorder/workflow/ExecutionTaskProcessorScheduler.java",
+        "project": "onap_externalapi-nbi",
+        "line": 39,
+        "hash": "4c34f0f8b759c5a3fecec760c737741a",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 47,
+            "endOffset": 67
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-18T17:28:05+0100",
+        "updateDate": "2020-01-12T10:34:35+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-ZG6MKGwrzk64mOLnJ",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_externalapi-nbi:src/main/java/org/onap/nbi/apis/hub/service/EventFactory.java",
+        "project": "onap_externalapi-nbi",
+        "line": 35,
+        "hash": "6a4309dabaf8300e5dc97a35c2980ae0",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 13,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-07-20T10:27:48+0200",
+        "updateDate": "2020-01-12T10:34:35+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-ZG6KrGwrzk64mOLm6",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_externalapi-nbi:src/main/java/org/onap/nbi/apis/serviceorder/utils/E2EServiceUtils.java",
+        "project": "onap_externalapi-nbi",
+        "line": 20,
+        "hash": "9fd56a8bc80f33437ab80cd9b281ec2f",
+        "textRange": {
+            "startLine": 20,
+            "endLine": 20,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-21T13:36:52+0200",
+        "updateDate": "2020-01-12T10:34:35+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-ZG6KgGwrzk64mOLm5",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_externalapi-nbi:src/main/java/org/onap/nbi/apis/serviceorder/utils/MacroServiceUtils.java",
+        "project": "onap_externalapi-nbi",
+        "line": 20,
+        "hash": "90ad3006893cc8a2d4c0a59a299f5803",
+        "textRange": {
+            "startLine": 20,
+            "endLine": 20,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-01-10T11:38:39+0100",
+        "updateDate": "2020-01-12T10:34:35+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-ZG6PhGwrzk64mOLoi",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_externalapi-nbi:src/main/java/org/onap/nbi/configuration/MongoConfig.java",
+        "project": "onap_externalapi-nbi",
+        "line": 37,
+        "hash": "c5431a29495c68f4501f831e0692c48d",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 77,
+            "endOffset": 91
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-07-13T11:52:59+0200",
+        "updateDate": "2020-01-12T10:34:35+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "key": "AW8WK3aiVI--xHvmpolH",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-network-discovery-context-builder:src/main/java/org/onap/pomba/contextbuilder/networkdiscovery/service/rs/RestService.java",
+        "project": "onap_logging-analytics-pomba-pomba-network-discovery-context-builder",
+        "line": 50,
+        "hash": "021ed3c9f223bb75197351f83a390917",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 20,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-08-15T17:11:37+0200",
+        "updateDate": "2019-12-18T00:22:11+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

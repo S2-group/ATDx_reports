@@ -1,0 +1,262 @@
+[
+    {
+        "key": "AW6lcX-6wQN7qqDOuZdu",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_vnfsdk-validation:csarvalidation/src/main/java/org/onap/cvc/csar/cc/VTPValidateCSARBase.java",
+        "project": "onap_vnfsdk-validation",
+        "line": 37,
+        "hash": "a7c0e123d08c658154fd1887d8ef7493",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 66,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-15T09:23:12+0100",
+        "updateDate": "2019-11-26T03:01:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lcX7iwQN7qqDOuZdV",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vnfsdk-validation:csarvalidation/src/main/java/org/onap/validation/csar/ValidatorSchemaLoader.java",
+        "project": "onap_vnfsdk-validation",
+        "line": 71,
+        "hash": "269f75d43b48717e273b3343ab66bb5d",
+        "textRange": {
+            "startLine": 71,
+            "endLine": 71,
+            "startOffset": 66,
+            "endOffset": 84
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.net.URISyntaxException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-04-04T14:49:29+0200",
+        "updateDate": "2019-11-26T03:01:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lcX7iwQN7qqDOuZdU",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vnfsdk-validation:csarvalidation/src/main/java/org/onap/validation/csar/ValidatorSchemaLoader.java",
+        "project": "onap_vnfsdk-validation",
+        "line": 71,
+        "hash": "269f75d43b48717e273b3343ab66bb5d",
+        "textRange": {
+            "startLine": 71,
+            "endLine": 71,
+            "startOffset": 43,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.FileNotFoundException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-04-04T14:49:29+0200",
+        "updateDate": "2019-11-26T03:01:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lcX7awQN7qqDOuZdQ",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vnfsdk-validation:csarvalidation/src/main/java/org/onap/validation/csar/CsarUtil.java",
+        "project": "onap_vnfsdk-validation",
+        "line": 36,
+        "hash": "85ab62a52f409ea60e68185d6324d657",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-09-07T16:07:16+0200",
+        "updateDate": "2019-11-26T03:01:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8B30aUfCxbELt-IEjx",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_vnfsdk-validation:csarvalidation/src/main/java/org/onap/cvc/csar/parser/ManifestFileSplitter.java",
+        "project": "onap_vnfsdk-validation",
+        "line": 65,
+        "hash": "9afed7d3a7938a71865b42f9ed866944",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 25,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-12-14T01:46:28+0100",
+        "updateDate": "2019-12-14T01:46:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lcX67wQN7qqDOuZcv",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vnfsdk-validation:csarvalidation/src/main/java/org/onap/validation/csar/CsarValidator.java",
+        "project": "onap_vnfsdk-validation",
+        "line": 66,
+        "hash": "06235ce5fdabbeed4e0b74a23aca4dad",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 11,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Hide this public constructor.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-10-13T11:42:29+0200",
+        "updateDate": "2019-11-26T03:01:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lcX6HwQN7qqDOuZck",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_vnfsdk-validation:csarvalidation/src/main/java/org/onap/validation/csar/ValidationException.java",
+        "project": "onap_vnfsdk-validation",
+        "line": 62,
+        "hash": "5eb1048a65cef9f848fe69a1337d77e1",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-09-04T09:47:38+0200",
+        "updateDate": "2019-11-26T03:01:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lcX6HwQN7qqDOuZci",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_vnfsdk-validation:csarvalidation/src/main/java/org/onap/validation/csar/ValidationException.java",
+        "project": "onap_vnfsdk-validation",
+        "line": 28,
+        "hash": "a9716e6319d887433aa9d36d206cdc06",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 23,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"errorCode\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-09-04T09:47:38+0200",
+        "updateDate": "2019-11-26T03:01:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lcX6HwQN7qqDOuZch",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_vnfsdk-validation:csarvalidation/src/main/java/org/onap/validation/csar/ValidationException.java",
+        "project": "onap_vnfsdk-validation",
+        "line": 27,
+        "hash": "72da543693d9640dc82b6f80b8afc0a6",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 16,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"errorMessage\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-10-03T14:43:29+0200",
+        "updateDate": "2019-11-26T03:01:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

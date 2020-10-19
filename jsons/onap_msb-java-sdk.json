@@ -1,0 +1,841 @@
+[
+    {
+        "key": "AW8V_mryjqq-MgMKeeQ1",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/handler/RetrofitServiceHandlerFactory.java",
+        "project": "onap_msb-java-sdk",
+        "line": 72,
+        "hash": "0324009c30c33e56de7774e76125f690",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 13,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.msb.sdk.httpclient.exception.RetrofitServiceRuntimeException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mryjqq-MgMKeeQ0",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/handler/RetrofitServiceHandlerFactory.java",
+        "project": "onap_msb-java-sdk",
+        "line": 57,
+        "hash": "0324009c30c33e56de7774e76125f690",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 13,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.msb.sdk.httpclient.exception.RetrofitServiceRuntimeException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mrmjqq-MgMKeeQz",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/handler/HandlerContextBuilder.java",
+        "project": "onap_msb-java-sdk",
+        "line": 28,
+        "hash": "20cafdc947aa6819e93f8d560010e4d6",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 55,
+            "endOffset": 86
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.msb.sdk.httpclient.exception.RetrofitServiceRuntimeException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mrejqq-MgMKeeQy",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/handler/impl/ServiceHttpEndPointBeanObjectBuilder.java",
+        "project": "onap_msb-java-sdk",
+        "line": 39,
+        "hash": "7f0239486dd0a022841b881a3986bba8",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 62,
+            "endOffset": 93
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.msb.sdk.httpclient.exception.RetrofitServiceRuntimeException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mrVjqq-MgMKeeQw",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/handler/impl/LBBuilder.java",
+        "project": "onap_msb-java-sdk",
+        "line": 51,
+        "hash": "fe4e06f3abb44a7f63f584d16eb4dfde",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 64,
+            "endOffset": 95
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.msb.sdk.httpclient.exception.RetrofitServiceRuntimeException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mrVjqq-MgMKeeQv",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/handler/impl/LBBuilder.java",
+        "project": "onap_msb-java-sdk",
+        "line": 46,
+        "hash": "7f0239486dd0a022841b881a3986bba8",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 62,
+            "endOffset": 93
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.msb.sdk.httpclient.exception.RetrofitServiceRuntimeException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mrMjqq-MgMKeeQs",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/handler/impl/ConverterFactoryBuilder.java",
+        "project": "onap_msb-java-sdk",
+        "line": 51,
+        "hash": "0324009c30c33e56de7774e76125f690",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 13,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.msb.sdk.httpclient.exception.RetrofitServiceRuntimeException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mrMjqq-MgMKeeQr",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/handler/impl/ConverterFactoryBuilder.java",
+        "project": "onap_msb-java-sdk",
+        "line": 45,
+        "hash": "7f0239486dd0a022841b881a3986bba8",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 62,
+            "endOffset": 93
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.msb.sdk.httpclient.exception.RetrofitServiceRuntimeException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mswjqq-MgMKeeRn",
+        "rule": "java:S1182",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/ProxyRetrofitCall.java",
+        "project": "onap_msb-java-sdk",
+        "line": 108,
+        "hash": "707310cdfdcce792b9ebb2ec763a9ddc",
+        "textRange": {
+            "startLine": 108,
+            "endLine": 108,
+            "startOffset": 17,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Use super.clone() to create and seed the cloned instance to be returned.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "convention",
+            "cwe"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mtrjqq-MgMKeeR7",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/discovery/entity/CustomDateSerializer.java",
+        "project": "onap_msb-java-sdk",
+        "line": 29,
+        "hash": "39be3766e1fc5d734cbebaf952892ac5",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 26,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonProcessingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-17T13:31:35+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mqojqq-MgMKeeQd",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/builder/IRetrofitObjectBuilder.java",
+        "project": "onap_msb-java-sdk",
+        "line": 33,
+        "hash": "48fc7c2b6c8af0bb1f828e808cbb6285",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 53,
+            "endOffset": 84
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.msb.sdk.httpclient.exception.RetrofitServiceRuntimeException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mqxjqq-MgMKeeQg",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/builder/impl/ClientRetrofitObjectBuilder.java",
+        "project": "onap_msb-java-sdk",
+        "line": 63,
+        "hash": "50288dac35facbce0289aee617b1106c",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 67,
+            "endOffset": 98
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.msb.sdk.httpclient.exception.RetrofitServiceRuntimeException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_muHjqq-MgMKeeSD",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/discovery/util/RegExpTestUtil.java",
+        "project": "onap_msb-java-sdk",
+        "line": 18,
+        "hash": "2ee2ca1b5febde3b3664fa14236e37a3",
+        "textRange": {
+            "startLine": 18,
+            "endLine": 18,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-17T13:31:35+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mt8jqq-MgMKeeSA",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/discovery/util/MsbUtil.java",
+        "project": "onap_msb-java-sdk",
+        "line": 31,
+        "hash": "cf0f81ffe2c4907fd17159bcb495f638",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-17T13:31:35+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_muajqq-MgMKeeSX",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/discovery/util/JacksonJsonUtil.java",
+        "project": "onap_msb-java-sdk",
+        "line": 36,
+        "hash": "fb991d9f6be2ccbeac17123713f770f3",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-17T13:31:35+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_muQjqq-MgMKeeSP",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/discovery/util/HttpClientUtil.java",
+        "project": "onap_msb-java-sdk",
+        "line": 39,
+        "hash": "a503385b03fa1ac59cac2d8b27cf557c",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-17T13:31:35+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_msRjqq-MgMKeeRL",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/RetrofitServiceUtils.java",
+        "project": "onap_msb-java-sdk",
+        "line": 70,
+        "hash": "1cb92e37fb172ccb28fc4639820bc7ae",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 87,
+            "endOffset": 96
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_msRjqq-MgMKeeRN",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/RetrofitServiceUtils.java",
+        "project": "onap_msb-java-sdk",
+        "line": 38,
+        "hash": "ebf6542cc6f29096e154b5a9338b8d67",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mu1jqq-MgMKeeSg",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/discovery/common/RouteException.java",
+        "project": "onap_msb-java-sdk",
+        "line": 18,
+        "hash": "06d3131057ae88ba6c4e890b10b0bfa1",
+        "textRange": {
+            "startLine": 18,
+            "endLine": 18,
+            "startOffset": 17,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"errorCode\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-08-17T13:31:35+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mu1jqq-MgMKeeSf",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/discovery/common/RouteException.java",
+        "project": "onap_msb-java-sdk",
+        "line": 17,
+        "hash": "89e05e9769935dd10c67315d892d00b4",
+        "textRange": {
+            "startLine": 17,
+            "endLine": 17,
+            "startOffset": 17,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"errorMsg\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-08-17T13:31:35+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mr7jqq-MgMKeeQ8",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/handler/RetrofitServiceHandler.java",
+        "project": "onap_msb-java-sdk",
+        "line": 96,
+        "hash": "33885418e968d25c2b7d5d965c8ba1ec",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 27,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-08T10:49:16+0100",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_msbjqq-MgMKeeRY",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/msb/MSBServiceClient.java",
+        "project": "onap_msb-java-sdk",
+        "line": 56,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_msRjqq-MgMKeeRX",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/RetrofitServiceUtils.java",
+        "project": "onap_msb-java-sdk",
+        "line": 110,
+        "hash": "46ad43e0b55a457771a46325fa97edae",
+        "textRange": {
+            "startLine": 110,
+            "endLine": 110,
+            "startOffset": 86,
+            "endOffset": 95
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_msRjqq-MgMKeeRM",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/RetrofitServiceUtils.java",
+        "project": "onap_msb-java-sdk",
+        "line": 110,
+        "hash": "46ad43e0b55a457771a46325fa97edae",
+        "textRange": {
+            "startLine": 110,
+            "endLine": 110,
+            "startOffset": 86,
+            "endOffset": 95
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mq6jqq-MgMKeeQk",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/handler/impl/ConnectionParamsBuilder.java",
+        "project": "onap_msb-java-sdk",
+        "line": 45,
+        "hash": "7f0239486dd0a022841b881a3986bba8",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 62,
+            "endOffset": 93
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.msb.sdk.httpclient.exception.RetrofitServiceRuntimeException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mr7jqq-MgMKeeRC",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/handler/RetrofitServiceHandler.java",
+        "project": "onap_msb-java-sdk",
+        "line": 135,
+        "hash": "0324009c30c33e56de7774e76125f690",
+        "textRange": {
+            "startLine": 135,
+            "endLine": 135,
+            "startOffset": 27,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.msb.sdk.httpclient.exception.RetrofitServiceRuntimeException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mrDjqq-MgMKeeQm",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/handler/impl/RetrofitHandlerContextBuilder.java",
+        "project": "onap_msb-java-sdk",
+        "line": 38,
+        "hash": "7f0239486dd0a022841b881a3986bba8",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 62,
+            "endOffset": 93
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.msb.sdk.httpclient.exception.RetrofitServiceRuntimeException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V_mswjqq-MgMKeeRl",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "onap_msb-java-sdk:src/main/java/org/onap/msb/sdk/httpclient/ProxyRetrofitCall.java",
+        "project": "onap_msb-java-sdk",
+        "line": 108,
+        "hash": "707310cdfdcce792b9ebb2ec763a9ddc",
+        "textRange": {
+            "startLine": 108,
+            "endLine": 108,
+            "startOffset": 17,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-08-17T13:40:21+0200",
+        "updateDate": "2019-12-17T23:33:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,126 @@
+[
+    {
+        "key": "AW8WK2_6526xZ2nKogl-",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_logging-analytics-pomba-pomba-sdc-context-builder:src/main/java/org/onap/pomba/contextbuilder/sdc/model/handlers/ToscaModelConverter.java",
+        "project": "onap_logging-analytics-pomba-pomba-sdc-context-builder",
+        "line": 117,
+        "hash": "5152ab1fb49de87d07b276bd2f2f1a05",
+        "textRange": {
+            "startLine": 117,
+            "endLine": 117,
+            "startOffset": 93,
+            "endOffset": 111
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.pomba.contextbuilder.sdc.exception.ToscaCsarException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-07T20:12:43+0200",
+        "updateDate": "2019-12-18T00:22:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WK2_6526xZ2nKogl9",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_logging-analytics-pomba-pomba-sdc-context-builder:src/main/java/org/onap/pomba/contextbuilder/sdc/model/handlers/ToscaModelConverter.java",
+        "project": "onap_logging-analytics-pomba-pomba-sdc-context-builder",
+        "line": 100,
+        "hash": "39fbdb1043eb3cf997d728ac1401392e",
+        "textRange": {
+            "startLine": 100,
+            "endLine": 100,
+            "startOffset": 94,
+            "endOffset": 112
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.pomba.contextbuilder.sdc.exception.ToscaCsarException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-07T20:12:43+0200",
+        "updateDate": "2019-12-18T00:22:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WK2_6526xZ2nKogl5",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_logging-analytics-pomba-pomba-sdc-context-builder:src/main/java/org/onap/pomba/contextbuilder/sdc/model/handlers/ToscaModelConverter.java",
+        "project": "onap_logging-analytics-pomba-pomba-sdc-context-builder",
+        "line": 59,
+        "hash": "1f51e78aa53c5bd7974c86d068df293a",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 102,
+            "endOffset": 120
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.pomba.contextbuilder.sdc.exception.ToscaCsarException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-13T21:01:07+0100",
+        "updateDate": "2019-12-18T00:22:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WK3AZ526xZ2nKogmL",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_logging-analytics-pomba-pomba-sdc-context-builder:src/main/java/org/onap/pomba/contextbuilder/sdc/Application.java",
+        "project": "onap_logging-analytics-pomba-pomba-sdc-context-builder",
+        "line": 40,
+        "hash": "bc1821a6ff81cc22a20823dd9b8408eb",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 50,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-07T20:12:43+0200",
+        "updateDate": "2019-12-18T00:22:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

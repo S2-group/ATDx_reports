@@ -1,0 +1,394 @@
+[
+    {
+        "key": "AW8WIyh4VIYH2XcIvemK",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-aai-context-builder:src/main/java/org/onap/pomba/contextbuilder/aai/datatype/L3networkInstance.java",
+        "project": "onap_logging-analytics-pomba-pomba-aai-context-builder",
+        "line": 199,
+        "hash": "dd5b4d8a28240630b2bbc5be8b29ff28",
+        "textRange": {
+            "startLine": 199,
+            "endLine": 199,
+            "startOffset": 10,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-02-02T00:39:26+0100",
+        "updateDate": "2019-12-18T00:12:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIyhvVIYH2XcIvemI",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-aai-context-builder:src/main/java/org/onap/pomba/contextbuilder/aai/datatype/LInterfaceInstance.java",
+        "project": "onap_logging-analytics-pomba-pomba-aai-context-builder",
+        "line": 183,
+        "hash": "e820d9d8ee092820ddd03e0c67dbda44",
+        "textRange": {
+            "startLine": 183,
+            "endLine": 183,
+            "startOffset": 10,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-02-11T16:18:51+0100",
+        "updateDate": "2019-12-18T00:12:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIyirVIYH2XcIvemP",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-aai-context-builder:src/main/java/org/onap/pomba/contextbuilder/aai/datatype/LogicalLinkInstance.java",
+        "project": "onap_logging-analytics-pomba-pomba-aai-context-builder",
+        "line": 276,
+        "hash": "bf462564b5e4628ae0e3582ee4acbf18",
+        "textRange": {
+            "startLine": 276,
+            "endLine": 276,
+            "startOffset": 10,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 15 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-02-27T21:23:45+0100",
+        "updateDate": "2019-12-18T00:12:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIyj9VIYH2XcIvemn",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-aai-context-builder:src/main/java/org/onap/pomba/contextbuilder/aai/util/RestUtil.java",
+        "project": "onap_logging-analytics-pomba-pomba-aai-context-builder",
+        "line": 701,
+        "hash": "ea4b8e4c19b103b698956ed6b2064584",
+        "textRange": {
+            "startLine": 701,
+            "endLine": 701,
+            "startOffset": 32,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-08-17T03:50:48+0200",
+        "updateDate": "2019-12-18T00:12:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIyj9VIYH2XcIvemm",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-aai-context-builder:src/main/java/org/onap/pomba/contextbuilder/aai/util/RestUtil.java",
+        "project": "onap_logging-analytics-pomba-pomba-aai-context-builder",
+        "line": 236,
+        "hash": "7d7aa8694fb1b6bdf96cf9927dcd0589",
+        "textRange": {
+            "startLine": 236,
+            "endLine": 236,
+            "startOffset": 31,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-09-11T23:31:32+0200",
+        "updateDate": "2019-12-18T00:12:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIyIBVIYH2XcIvemH",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-aai-context-builder:src/main/java/org/onap/pomba/contextbuilder/aai/datatype/VnfcInstance.java",
+        "project": "onap_logging-analytics-pomba-pomba-aai-context-builder",
+        "line": 106,
+        "hash": "ffe006ad62ea8c5f3f90e667fcbe1b79",
+        "textRange": {
+            "startLine": 106,
+            "endLine": 106,
+            "startOffset": 11,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-08-17T03:50:48+0200",
+        "updateDate": "2019-12-18T00:12:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIyH5VIYH2XcIvemF",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-aai-context-builder:src/main/java/org/onap/pomba/contextbuilder/aai/datatype/VnfInstance.java",
+        "project": "onap_logging-analytics-pomba-pomba-aai-context-builder",
+        "line": 175,
+        "hash": "fdb99216a7fd7f052f4e05b613a764cb",
+        "textRange": {
+            "startLine": 175,
+            "endLine": 175,
+            "startOffset": 11,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 28 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-02-27T21:23:45+0100",
+        "updateDate": "2019-12-18T00:12:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIyHFVIYH2XcIvemC",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-aai-context-builder:src/main/java/org/onap/pomba/contextbuilder/aai/datatype/Vserver.java",
+        "project": "onap_logging-analytics-pomba-pomba-aai-context-builder",
+        "line": 112,
+        "hash": "3f810f8f57ef5308cbaf1aeff3da2101",
+        "textRange": {
+            "startLine": 112,
+            "endLine": 112,
+            "startOffset": 11,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-02-27T21:23:45+0100",
+        "updateDate": "2019-12-18T00:12:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIyi8VIYH2XcIvemR",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-aai-context-builder:src/main/java/org/onap/pomba/contextbuilder/aai/datatype/VfModule.java",
+        "project": "onap_logging-analytics-pomba-pomba-aai-context-builder",
+        "line": 90,
+        "hash": "d162b06fa26724f3e402329d4978a8bc",
+        "textRange": {
+            "startLine": 90,
+            "endLine": 90,
+            "startOffset": 11,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 12 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-02-02T00:39:26+0100",
+        "updateDate": "2019-12-18T00:12:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIyijVIYH2XcIvemO",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-aai-context-builder:src/main/java/org/onap/pomba/contextbuilder/aai/datatype/PInterfaceInstance.java",
+        "project": "onap_logging-analytics-pomba-pomba-aai-context-builder",
+        "line": 209,
+        "hash": "c7127f55edffd5db81a7f40c13ac4a7f",
+        "textRange": {
+            "startLine": 209,
+            "endLine": 209,
+            "startOffset": 11,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 13 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-01-22T01:16:04+0100",
+        "updateDate": "2019-12-18T00:12:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIyibVIYH2XcIvemN",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-aai-context-builder:src/main/java/org/onap/pomba/contextbuilder/aai/datatype/PnfInstance.java",
+        "project": "onap_logging-analytics-pomba-pomba-aai-context-builder",
+        "line": 268,
+        "hash": "5b25ff7a4d620d73a82e357d1cabd005",
+        "textRange": {
+            "startLine": 268,
+            "endLine": 268,
+            "startOffset": 10,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 15 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-01-22T01:16:04+0100",
+        "updateDate": "2019-12-18T00:12:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIyiMVIYH2XcIvemM",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-aai-context-builder:src/main/java/org/onap/pomba/contextbuilder/aai/datatype/PserverInstance.java",
+        "project": "onap_logging-analytics-pomba-pomba-aai-context-builder",
+        "line": 255,
+        "hash": "d4ee9e3acfd845c7479b38ea1e1cc221",
+        "textRange": {
+            "startLine": 255,
+            "endLine": 255,
+            "startOffset": 10,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 14 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-01-22T01:16:04+0100",
+        "updateDate": "2019-12-18T00:12:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIyiEVIYH2XcIvemL",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-aai-context-builder:src/main/java/org/onap/pomba/contextbuilder/aai/datatype/ServiceInstance.java",
+        "project": "onap_logging-analytics-pomba-pomba-aai-context-builder",
+        "line": 106,
+        "hash": "43aef5d70a81f1bed8bc7057df3ba3f9",
+        "textRange": {
+            "startLine": 106,
+            "endLine": 106,
+            "startOffset": 11,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-08-17T03:50:48+0200",
+        "updateDate": "2019-12-18T00:12:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIyjjVIYH2XcIvemV",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_logging-analytics-pomba-pomba-aai-context-builder:src/main/java/org/onap/pomba/contextbuilder/aai/exception/AuditException.java",
+        "project": "onap_logging-analytics-pomba-pomba-aai-context-builder",
+        "line": 26,
+        "hash": "d72cd3d05561d31296dab4031f8cd19d",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 19,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"httpStatus\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-08-17T03:50:48+0200",
+        "updateDate": "2019-12-18T00:12:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

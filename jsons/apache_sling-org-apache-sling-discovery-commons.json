@@ -1,0 +1,533 @@
+[
+    {
+        "key": "AWpCvuH6-aLJxVkBhbD3",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/providers/EventHelper.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 27,
+        "hash": "5a37d5b5a7cc73e60d1769cfea13f5fe",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-10-21T13:03:11+0200",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpCvuGn-aLJxVkBhbBp",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/providers/spi/base/DiscoveryLiteDescriptor.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 58,
+        "hash": "46f7b0da159b8362785f363cfa3966e8",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-11-29T16:56:51+0100",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpCvuGn-aLJxVkBhbBr",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/providers/spi/base/DiscoveryLiteDescriptor.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 76,
+        "hash": "4b121bb5daae9799acee1c2cd9b6f239",
+        "textRange": {
+            "startLine": 76,
+            "endLine": 76,
+            "startOffset": 32,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpCvuGn-aLJxVkBhbBs",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/providers/spi/base/DiscoveryLiteDescriptor.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 80,
+        "hash": "bf58075d0a2679af1137479ea154bfb1",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 47,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpCvuGn-aLJxVkBhbBy",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/providers/spi/base/DiscoveryLiteDescriptor.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 80,
+        "hash": "bf58075d0a2679af1137479ea154bfb1",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 47,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpCvuGn-aLJxVkBhbBt",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/providers/spi/base/DiscoveryLiteDescriptor.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 113,
+        "hash": "2528160cc25381ea639c3b5748d9145d",
+        "textRange": {
+            "startLine": 113,
+            "endLine": 113,
+            "startOffset": 37,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpCvuGn-aLJxVkBhbBu",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/providers/spi/base/DiscoveryLiteDescriptor.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 137,
+        "hash": "10eb640a048d62839eca115c13cc8def",
+        "textRange": {
+            "startLine": 137,
+            "endLine": 137,
+            "startOffset": 35,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpCvuGn-aLJxVkBhbBz",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/providers/spi/base/DiscoveryLiteDescriptor.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 137,
+        "hash": "10eb640a048d62839eca115c13cc8def",
+        "textRange": {
+            "startLine": 137,
+            "endLine": 137,
+            "startOffset": 35,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpCvuGn-aLJxVkBhbBv",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/providers/spi/base/DiscoveryLiteDescriptor.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 141,
+        "hash": "856c8bea653f3941913a16c86e9a740b",
+        "textRange": {
+            "startLine": 141,
+            "endLine": 141,
+            "startOffset": 36,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpCvuGn-aLJxVkBhbBo",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/providers/spi/base/DiscoveryLiteDescriptor.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 54,
+        "hash": "b105044b0b0318f100940ec5b02c9be2",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpCvuIE-aLJxVkBhbED",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/InitDelayingTopologyEventListener.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 178,
+        "hash": "070c3718cd18f3331cb6c0fb6c4e2a7a",
+        "textRange": {
+            "startLine": 178,
+            "endLine": 178,
+            "startOffset": 11,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-05-08T07:19:54+0200",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpCvuIE-aLJxVkBhbEC",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/InitDelayingTopologyEventListener.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 160,
+        "hash": "070c3718cd18f3331cb6c0fb6c4e2a7a",
+        "textRange": {
+            "startLine": 160,
+            "endLine": 160,
+            "startOffset": 11,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-05-08T07:19:54+0200",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpCvuGn-aLJxVkBhbB0",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/providers/spi/base/DiscoveryLiteDescriptor.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 141,
+        "hash": "856c8bea653f3941913a16c86e9a740b",
+        "textRange": {
+            "startLine": 141,
+            "endLine": 141,
+            "startOffset": 36,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpCvuG2-aLJxVkBhbCG",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/providers/spi/base/AbstractServiceWithBackgroundCheck.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 147,
+        "hash": "b0f87998bf7cc798224d44e2cb2f7267",
+        "textRange": {
+            "startLine": 147,
+            "endLine": 147,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpCvuHh-aLJxVkBhbDh",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/providers/base/ViewStateManagerFactory.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 31,
+        "hash": "9e0429f2b6d1b0c0ebf47763167efd3d",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-10-08T16:31:45+0200",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpCvuGn-aLJxVkBhbBq",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/providers/spi/base/DiscoveryLiteDescriptor.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 51,
+        "hash": "6a1dd2d64b008e5f36b8c03ef4e4564a",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 102,
+            "endOffset": 111
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpCvuHy-aLJxVkBhbDw",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/providers/util/ResourceHelper.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 38,
+        "hash": "f5324cae3ba14fb3c4eefc41214ab33b",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpCvuHv-aLJxVkBhbDt",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-commons:src/main/java/org/apache/sling/discovery/commons/providers/util/PropertyNameHelper.java",
+        "project": "apache_sling-org-apache-sling-discovery-commons",
+        "line": 21,
+        "hash": "7bd93cc55730567dffb19cbbe88aa488",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 13,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-22T03:52:30+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

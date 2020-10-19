@@ -1,0 +1,426 @@
+[
+    {
+        "key": "AWogePn99zLXaOU8uV7D",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-auth-core:src/main/java/org/apache/sling/engine/auth/AuthenticationInfo.java",
+        "project": "apache_sling-org-apache-sling-auth-core",
+        "line": 30,
+        "hash": "116195ea52317a12bb1fe7204848b454",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 13,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2010-08-15T14:28:54+0200",
+        "updateDate": "2019-04-15T12:08:58+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogePn59zLXaOU8uV7A",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-auth-core:src/main/java/org/apache/sling/engine/auth/AuthenticationHandler.java",
+        "project": "apache_sling-org-apache-sling-auth-core",
+        "line": 35,
+        "hash": "4cd624ae54589da2a9b6dd26e943b870",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 17,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2010-08-15T14:28:54+0200",
+        "updateDate": "2019-04-15T12:08:58+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogePn39zLXaOU8uV6-",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-auth-core:src/main/java/org/apache/sling/engine/auth/Authenticator.java",
+        "project": "apache_sling-org-apache-sling-auth-core",
+        "line": 40,
+        "hash": "b852b5678fccc8ef898ccb746a78bfcd",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 17,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2010-08-15T14:28:54+0200",
+        "updateDate": "2019-04-15T12:08:58+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogePn09zLXaOU8uV68",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-auth-core:src/main/java/org/apache/sling/engine/auth/NoAuthenticationHandlerException.java",
+        "project": "apache_sling-org-apache-sling-auth-core",
+        "line": 38,
+        "hash": "7deeede2922a2781b73da9c78a2f2572",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 13,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2010-08-15T14:28:54+0200",
+        "updateDate": "2019-04-15T12:08:58+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogePmv9zLXaOU8uV5U",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-auth-core:src/main/java/org/apache/sling/auth/core/spi/AbstractAuthenticationHandler.java",
+        "project": "apache_sling-org-apache-sling-auth-core",
+        "line": 234,
+        "hash": "db487a4812edb612f3a7c16b997e5a1d",
+        "textRange": {
+            "startLine": 234,
+            "endLine": 234,
+            "startOffset": 23,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2011-11-23T16:40:20+0100",
+        "updateDate": "2019-04-15T12:08:58+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogePmv9zLXaOU8uV5T",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-auth-core:src/main/java/org/apache/sling/auth/core/spi/AbstractAuthenticationHandler.java",
+        "project": "apache_sling-org-apache-sling-auth-core",
+        "line": 217,
+        "hash": "f58be025ffeba19c6dc9cdef70033039",
+        "textRange": {
+            "startLine": 217,
+            "endLine": 217,
+            "startOffset": 23,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2010-09-24T21:50:12+0200",
+        "updateDate": "2019-04-15T12:08:58+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogePmv9zLXaOU8uV5S",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-auth-core:src/main/java/org/apache/sling/auth/core/spi/AbstractAuthenticationHandler.java",
+        "project": "apache_sling-org-apache-sling-auth-core",
+        "line": 204,
+        "hash": "a3be856aef8197734c556c269844a765",
+        "textRange": {
+            "startLine": 204,
+            "endLine": 204,
+            "startOffset": 26,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2010-09-24T21:50:12+0200",
+        "updateDate": "2019-04-15T12:08:58+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogePmv9zLXaOU8uV5R",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-auth-core:src/main/java/org/apache/sling/auth/core/spi/AbstractAuthenticationHandler.java",
+        "project": "apache_sling-org-apache-sling-auth-core",
+        "line": 183,
+        "hash": "2e44f0a7ad1c97f6216fee5ebbbecf0d",
+        "textRange": {
+            "startLine": 183,
+            "endLine": 183,
+            "startOffset": 26,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2011-11-23T16:40:20+0100",
+        "updateDate": "2019-04-15T12:08:58+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogePmv9zLXaOU8uV5Q",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-auth-core:src/main/java/org/apache/sling/auth/core/spi/AbstractAuthenticationHandler.java",
+        "project": "apache_sling-org-apache-sling-auth-core",
+        "line": 168,
+        "hash": "0007f15a15419b8e4d624f4bf506a45b",
+        "textRange": {
+            "startLine": 168,
+            "endLine": 168,
+            "startOffset": 23,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2011-11-23T16:40:20+0100",
+        "updateDate": "2019-04-15T12:08:58+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogePmk9zLXaOU8uV5G",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-auth-core:src/main/java/org/apache/sling/auth/core/spi/AuthenticationInfo.java",
+        "project": "apache_sling-org-apache-sling-auth-core",
+        "line": 52,
+        "hash": "e550a60275d08d6533885436405553f9",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 43,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2010-08-15T14:28:54+0200",
+        "updateDate": "2019-04-15T12:08:58+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogePmv9zLXaOU8uV5P",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-auth-core:src/main/java/org/apache/sling/auth/core/spi/AbstractAuthenticationHandler.java",
+        "project": "apache_sling-org-apache-sling-auth-core",
+        "line": 114,
+        "hash": "e015ce90fe99b1e06fb2cbfea31b9fc6",
+        "textRange": {
+            "startLine": 114,
+            "endLine": 114,
+            "startOffset": 25,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2011-11-23T16:40:20+0100",
+        "updateDate": "2019-04-15T12:08:58+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogePmv9zLXaOU8uV5O",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-auth-core:src/main/java/org/apache/sling/auth/core/spi/AbstractAuthenticationHandler.java",
+        "project": "apache_sling-org-apache-sling-auth-core",
+        "line": 88,
+        "hash": "8fb83d8f06df4c7d97ec0cfff78e2edd",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 25,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2011-11-23T16:40:20+0100",
+        "updateDate": "2019-04-15T12:08:58+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogePmv9zLXaOU8uV5N",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-auth-core:src/main/java/org/apache/sling/auth/core/spi/AbstractAuthenticationHandler.java",
+        "project": "apache_sling-org-apache-sling-auth-core",
+        "line": 67,
+        "hash": "d0a140c367cfe30b330d99ceec0996b9",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 25,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2011-11-23T16:40:20+0100",
+        "updateDate": "2019-04-15T12:08:58+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogePmv9zLXaOU8uV5M",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-auth-core:src/main/java/org/apache/sling/auth/core/spi/AbstractAuthenticationHandler.java",
+        "project": "apache_sling-org-apache-sling-auth-core",
+        "line": 40,
+        "hash": "21d465500c7a76d3f61e636300f88987",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 22,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2011-11-23T16:40:20+0100",
+        "updateDate": "2019-04-15T12:08:58+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogePmk9zLXaOU8uV5H",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-auth-core:src/main/java/org/apache/sling/auth/core/spi/AuthenticationInfo.java",
+        "project": "apache_sling-org-apache-sling-auth-core",
+        "line": 66,
+        "hash": "42c8852fa725fa6ef1128a1ee6600ad9",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 43,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2010-08-15T14:28:54+0200",
+        "updateDate": "2019-04-15T12:08:58+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

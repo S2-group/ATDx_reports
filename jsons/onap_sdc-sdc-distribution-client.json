@@ -1,0 +1,58 @@
+[
+    {
+        "key": "AW6llWxE2OOXxfpkJTjJ",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-distribution-client:sdc-distribution-client/src/main/java/org/onap/sdc/api/results/IDistributionClientDownloadResult.java",
+        "project": "onap_sdc-sdc-distribution-client",
+        "line": 39,
+        "hash": "c484073dbaaba80d0246ac3f98f075b4",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 11,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-02-15T15:03:20+0100",
+        "updateDate": "2019-11-26T03:40:49+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llWxm2OOXxfpkJTjK",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-distribution-client:sdc-distribution-client/src/main/java/org/onap/sdc/api/IDistributionClient.java",
+        "project": "onap_sdc-sdc-distribution-client",
+        "line": 208,
+        "hash": "e4e7dbc0113d7c424e4c9ced27b9442e",
+        "textRange": {
+            "startLine": 208,
+            "endLine": 208,
+            "startOffset": 28,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-03-29T12:35:45+0200",
+        "updateDate": "2019-11-26T03:40:49+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

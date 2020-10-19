@@ -1,0 +1,1264 @@
+[
+    {
+        "key": "AW8V9bF2wUEZbRUtLXSZ",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/consul/util/ClientUtil.java",
+        "project": "onap_msb-discovery",
+        "line": 43,
+        "hash": "97ef119ddaaf93b72f6db64f77139561",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 13,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bE0wUEZbRUtLXPK",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/core/MicroServiceFullInfo.java",
+        "project": "onap_msb-discovery",
+        "line": 37,
+        "hash": "068d17e53ec70a427b0de273e62d0283",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 16,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bE0wUEZbRUtLXPJ",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/core/MicroServiceFullInfo.java",
+        "project": "onap_msb-discovery",
+        "line": 33,
+        "hash": "e35a1daac96e5b5e229f5911fcac0589",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 25,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGUwUEZbRUtLXSy",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/consul/Consul.java",
+        "project": "onap_msb-discovery",
+        "line": 127,
+        "hash": "a5603ec28ee514d9b1581555b894b981",
+        "textRange": {
+            "startLine": 127,
+            "endLine": 127,
+            "startOffset": 25,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGUwUEZbRUtLXSx",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/consul/Consul.java",
+        "project": "onap_msb-discovery",
+        "line": 109,
+        "hash": "64a0aa2ec87c767d88c4e38f05a89d30",
+        "textRange": {
+            "startLine": 109,
+            "endLine": 109,
+            "startOffset": 25,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGUwUEZbRUtLXSw",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/consul/Consul.java",
+        "project": "onap_msb-discovery",
+        "line": 94,
+        "hash": "c45e754bd1666a11d1603a5ae1229cb6",
+        "textRange": {
+            "startLine": 94,
+            "endLine": 94,
+            "startOffset": 25,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGUwUEZbRUtLXSv",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/consul/Consul.java",
+        "project": "onap_msb-discovery",
+        "line": 220,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 220,
+            "endLine": 220,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGUwUEZbRUtLXSu",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/consul/Consul.java",
+        "project": "onap_msb-discovery",
+        "line": 204,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 204,
+            "endLine": 204,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGUwUEZbRUtLXSt",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/consul/Consul.java",
+        "project": "onap_msb-discovery",
+        "line": 171,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 171,
+            "endLine": 171,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bFKwUEZbRUtLXP3",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/util/DiscoverUtil.java",
+        "project": "onap_msb-discovery",
+        "line": 77,
+        "hash": "1cafaf389a65d7fffdeb12824bf2f76f",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 33,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bFKwUEZbRUtLXP2",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/util/DiscoverUtil.java",
+        "project": "onap_msb-discovery",
+        "line": 75,
+        "hash": "58a2c7d5b67553953b03fe460d8a872b",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 33,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bFKwUEZbRUtLXP1",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/util/DiscoverUtil.java",
+        "project": "onap_msb-discovery",
+        "line": 27,
+        "hash": "7f38d36db866682c320ec60984ca94dd",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 13,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bFNwUEZbRUtLXP-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/util/JacksonJsonUtil.java",
+        "project": "onap_msb-discovery",
+        "line": 55,
+        "hash": "5bf1d25867110bef0ac7d701eaaf5944",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 55,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bFNwUEZbRUtLXQC",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/util/JacksonJsonUtil.java",
+        "project": "onap_msb-discovery",
+        "line": 29,
+        "hash": "fb991d9f6be2ccbeac17123713f770f3",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bFewUEZbRUtLXQq",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/util/HttpClientUtil.java",
+        "project": "onap_msb-discovery",
+        "line": 218,
+        "hash": "03d0c5c14d8a575c8ac0988217db5bd3",
+        "textRange": {
+            "startLine": 218,
+            "endLine": 218,
+            "startOffset": 55,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bFZwUEZbRUtLXQT",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/util/ConfigUtil.java",
+        "project": "onap_msb-discovery",
+        "line": 66,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 12,
+            "endOffset": 13
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bFnwUEZbRUtLXRA",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/PublishAddressWrapper.java",
+        "project": "onap_msb-discovery",
+        "line": 70,
+        "hash": "5a30c5da7044634614e3ee0e1e64a89c",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 67,
+            "endOffset": 88
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static publishApigateWayList\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bFewUEZbRUtLXQr",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/util/HttpClientUtil.java",
+        "project": "onap_msb-discovery",
+        "line": 40,
+        "hash": "a503385b03fa1ac59cac2d8b27cf557c",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bFewUEZbRUtLXQp",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/util/HttpClientUtil.java",
+        "project": "onap_msb-discovery",
+        "line": 108,
+        "hash": "42d0f5f6ab57b8c18f0a17e709f7296f",
+        "textRange": {
+            "startLine": 108,
+            "endLine": 108,
+            "startOffset": 67,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bFewUEZbRUtLXQo",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/util/HttpClientUtil.java",
+        "project": "onap_msb-discovery",
+        "line": 126,
+        "hash": "cdd2caf928fe4633f6b18e8a7bd52e03",
+        "textRange": {
+            "startLine": 126,
+            "endLine": 126,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bFNwUEZbRUtLXP_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/util/JacksonJsonUtil.java",
+        "project": "onap_msb-discovery",
+        "line": 87,
+        "hash": "ef0f820d90363b7501d5cfc862e01a8c",
+        "textRange": {
+            "startLine": 87,
+            "endLine": 87,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGUwUEZbRUtLXSz",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/consul/Consul.java",
+        "project": "onap_msb-discovery",
+        "line": 139,
+        "hash": "cabf44e2f5bcb9e0f0f6ecd66f7d7884",
+        "textRange": {
+            "startLine": 139,
+            "endLine": 139,
+            "startOffset": 25,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGnwUEZbRUtLXTe",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/ConsulClientApp.java",
+        "project": "onap_msb-discovery",
+        "line": 54,
+        "hash": "671684f117ec6fe1b27e08e916be281d",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGkwUEZbRUtLXTY",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/ConsulCatalogServiceWrapper.java",
+        "project": "onap_msb-discovery",
+        "line": 54,
+        "hash": "95010f33b6b17f701e5523393692ef64",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 67,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGewUEZbRUtLXTE",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/consul/cache/ConsulCache.java",
+        "project": "onap_msb-discovery",
+        "line": 124,
+        "hash": "6dbf82192a6ec6a2f061d44352055c8d",
+        "textRange": {
+            "startLine": 124,
+            "endLine": 124,
+            "startOffset": 30,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGewUEZbRUtLXTD",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/consul/cache/ConsulCache.java",
+        "project": "onap_msb-discovery",
+        "line": 118,
+        "hash": "92c28d0543fada9ba5433cec0a118670",
+        "textRange": {
+            "startLine": 118,
+            "endLine": 118,
+            "startOffset": 31,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bEowUEZbRUtLXO6",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/core/MicroServiceInfo.java",
+        "project": "onap_msb-discovery",
+        "line": 37,
+        "hash": "38cc32f2b70f30c45805af9592fea519",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 16,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bEowUEZbRUtLXO5",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/core/MicroServiceInfo.java",
+        "project": "onap_msb-discovery",
+        "line": 33,
+        "hash": "70e09c5618d935263a9449d4d99d23a4",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 21,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGkwUEZbRUtLXTa",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/ConsulCatalogServiceWrapper.java",
+        "project": "onap_msb-discovery",
+        "line": 54,
+        "hash": "95010f33b6b17f701e5523393692ef64",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 67,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGswUEZbRUtLXT3",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/ConsulAgentServiceWrapper.java",
+        "project": "onap_msb-discovery",
+        "line": 51,
+        "hash": "95010f33b6b17f701e5523393692ef64",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 67,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGswUEZbRUtLXT2",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/ConsulAgentServiceWrapper.java",
+        "project": "onap_msb-discovery",
+        "line": 51,
+        "hash": "95010f33b6b17f701e5523393692ef64",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 67,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bFnwUEZbRUtLXRC",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/PublishAddressWrapper.java",
+        "project": "onap_msb-discovery",
+        "line": 70,
+        "hash": "5a30c5da7044634614e3ee0e1e64a89c",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 67,
+            "endOffset": 88
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make publishApigateWayList a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGywUEZbRUtLXUz",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/ConsulServiceWrapper.java",
+        "project": "onap_msb-discovery",
+        "line": 923,
+        "hash": "7cc9628122130e6ec477b13f13f49393",
+        "textRange": {
+            "startLine": 923,
+            "endLine": 923,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGywUEZbRUtLXUy",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/ConsulServiceWrapper.java",
+        "project": "onap_msb-discovery",
+        "line": 813,
+        "hash": "7cc9628122130e6ec477b13f13f49393",
+        "textRange": {
+            "startLine": 813,
+            "endLine": 813,
+            "startOffset": 30,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGywUEZbRUtLXUx",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/ConsulServiceWrapper.java",
+        "project": "onap_msb-discovery",
+        "line": 719,
+        "hash": "1a6ffbdc96d88a58df0be310dde8ea4d",
+        "textRange": {
+            "startLine": 719,
+            "endLine": 719,
+            "startOffset": 30,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bFowUEZbRUtLXRk",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/PublishAddressWrapper.java",
+        "project": "onap_msb-discovery",
+        "line": 70,
+        "hash": "5a30c5da7044634614e3ee0e1e64a89c",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 67,
+            "endOffset": 88
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGfwUEZbRUtLXTS",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/consul/cache/ConsulCache.java",
+        "project": "onap_msb-discovery",
+        "line": 124,
+        "hash": "6dbf82192a6ec6a2f061d44352055c8d",
+        "textRange": {
+            "startLine": 124,
+            "endLine": 124,
+            "startOffset": 30,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bGfwUEZbRUtLXTR",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/consul/cache/ConsulCache.java",
+        "project": "onap_msb-discovery",
+        "line": 118,
+        "hash": "92c28d0543fada9ba5433cec0a118670",
+        "textRange": {
+            "startLine": 118,
+            "endLine": 118,
+            "startOffset": 31,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bF8wUEZbRUtLXSe",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/consul/model/health/Service.java",
+        "project": "onap_msb-discovery",
+        "line": 28,
+        "hash": "6c3742def0b08eac320eb0a50f0302ee",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 22,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"Service\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bF6wUEZbRUtLXSd",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/consul/model/health/Node.java",
+        "project": "onap_msb-discovery",
+        "line": 25,
+        "hash": "84e971faffd43310eee8d2dcc7abdae7",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 22,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"Node\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bFNwUEZbRUtLXP9",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/util/JacksonJsonUtil.java",
+        "project": "onap_msb-discovery",
+        "line": 63,
+        "hash": "c2692fa6837596406fdd9a6a66932864",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bFNwUEZbRUtLXQA",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/wrapper/util/JacksonJsonUtil.java",
+        "project": "onap_msb-discovery",
+        "line": 78,
+        "hash": "e8e96d47955a87f67d5d4fb3d595fdb5",
+        "textRange": {
+            "startLine": 78,
+            "endLine": 78,
+            "startOffset": 70,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9bFBwUEZbRUtLXPg",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-discovery:sdclient/discovery-service/src/main/java/org/onap/msb/sdclient/core/CustomDateSerializer.java",
+        "project": "onap_msb-discovery",
+        "line": 29,
+        "hash": "39be3766e1fc5d734cbebaf952892ac5",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 40,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonProcessingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T07:51:17+0200",
+        "updateDate": "2019-12-17T23:23:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

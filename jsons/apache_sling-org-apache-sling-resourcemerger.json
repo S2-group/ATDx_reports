@@ -1,0 +1,198 @@
+[
+    {
+        "key": "AWohkpsd9zLXaOU8e2OW",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-resourcemerger:src/main/java/org/apache/sling/resourcemerger/impl/CRUDMergingResourceProvider.java",
+        "project": "apache_sling-org-apache-sling-resourcemerger",
+        "line": 51,
+        "hash": "21b1df5337ccd3e0731435fb1361ed67",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 19,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make count a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2014-09-13T15:08:08+0200",
+        "updateDate": "2019-04-15T17:16:42+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWohkpsd9zLXaOU8e2OX",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-resourcemerger:src/main/java/org/apache/sling/resourcemerger/impl/CRUDMergingResourceProvider.java",
+        "project": "apache_sling-org-apache-sling-resourcemerger",
+        "line": 52,
+        "hash": "af01a779f3577f00a700db840995b90d",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 22,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make highestResourcePath a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2014-09-13T15:08:08+0200",
+        "updateDate": "2019-04-15T17:16:42+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWohkpsW9zLXaOU8e2OL",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-resourcemerger:src/main/java/org/apache/sling/resourcemerger/spi/MergedResourcePicker.java",
+        "project": "apache_sling-org-apache-sling-resourcemerger",
+        "line": 37,
+        "hash": "2ec6d308aea3eec0a71c1396b7b5e168",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 17,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2014-09-04T03:37:48+0200",
+        "updateDate": "2019-04-15T17:16:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWohkps49zLXaOU8e2Ov",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-resourcemerger:src/main/java/org/apache/sling/resourcemerger/impl/StubResource.java",
+        "project": "apache_sling-org-apache-sling-resourcemerger",
+        "line": 54,
+        "hash": "5eb1048a65cef9f848fe69a1337d77e1",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-14T23:36:57+0100",
+        "updateDate": "2019-04-15T17:16:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWohkps49zLXaOU8e2Ou",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-resourcemerger:src/main/java/org/apache/sling/resourcemerger/impl/StubResource.java",
+        "project": "apache_sling-org-apache-sling-resourcemerger",
+        "line": 47,
+        "hash": "56e3a8675802c9e2cd5d8d24bad49349",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 24,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-14T23:36:57+0100",
+        "updateDate": "2019-04-15T17:16:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWohkps89zLXaOU8e2Ow",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-resourcemerger:src/main/java/org/apache/sling/resourcemerger/api/ResourceMergerService.java",
+        "project": "apache_sling-org-apache-sling-resourcemerger",
+        "line": 31,
+        "hash": "a97d29daa2d697bb20f97b46d892d217",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 17,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2014-02-18T08:49:05+0100",
+        "updateDate": "2019-04-15T17:16:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWohkps_9zLXaOU8e2Ox",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-resourcemerger:src/main/java/org/apache/sling/resourcemerger/api/ResourceMergerUtil.java",
+        "project": "apache_sling-org-apache-sling-resourcemerger",
+        "line": 28,
+        "hash": "3abd83eb0100561fd6edfd5ffebc3a8e",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 22,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2014-09-23T04:39:47+0200",
+        "updateDate": "2019-04-15T17:16:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

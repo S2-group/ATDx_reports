@@ -1,0 +1,316 @@
+[
+    {
+        "key": "AWotLuk5SX35U3sTgKia",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-classloader:src/main/java/org/apache/sling/jcr/classloader/internal/Util.java",
+        "project": "apache_sling-org-apache-sling-jcr-classloader",
+        "line": 84,
+        "hash": "a23cae9268958560af12492c4842c85b",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 57,
+            "endOffset": 77
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.ValueFormatException' which is a subclass of 'javax.jcr.RepositoryException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2010-01-25T13:43:22+0100",
+        "updateDate": "2019-04-17T23:23:17+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWotLukOSX35U3sTgKhr",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-classloader:src/main/java/org/apache/sling/jcr/classloader/internal/net/JCRURLConnection.java",
+        "project": "apache_sling-org-apache-sling-jcr-classloader",
+        "line": 612,
+        "hash": "78038b5364a66a31a25eb9abd8c6b77e",
+        "textRange": {
+            "startLine": 612,
+            "endLine": 612,
+            "startOffset": 16,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2010-01-25T13:43:22+0100",
+        "updateDate": "2019-04-17T23:23:17+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWotLukOSX35U3sTgKhp",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-classloader:src/main/java/org/apache/sling/jcr/classloader/internal/net/JCRURLConnection.java",
+        "project": "apache_sling-org-apache-sling-jcr-classloader",
+        "line": 588,
+        "hash": "9871700c99e36954bd3b3baf72c9052a",
+        "textRange": {
+            "startLine": 588,
+            "endLine": 588,
+            "startOffset": 15,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2010-01-25T13:43:22+0100",
+        "updateDate": "2019-04-17T23:23:17+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWotLukOSX35U3sTgKhn",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-classloader:src/main/java/org/apache/sling/jcr/classloader/internal/net/JCRURLConnection.java",
+        "project": "apache_sling-org-apache-sling-jcr-classloader",
+        "line": 564,
+        "hash": "8507c6b1b8a2e6b3e90ea0c9eb4c007c",
+        "textRange": {
+            "startLine": 564,
+            "endLine": 564,
+            "startOffset": 18,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2010-01-25T13:43:22+0100",
+        "updateDate": "2019-04-17T23:23:17+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWotLukOSX35U3sTgKhl",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-classloader:src/main/java/org/apache/sling/jcr/classloader/internal/net/JCRURLConnection.java",
+        "project": "apache_sling-org-apache-sling-jcr-classloader",
+        "line": 540,
+        "hash": "4bc5ee3b7804460c4cecc9c51ee51025",
+        "textRange": {
+            "startLine": 540,
+            "endLine": 540,
+            "startOffset": 18,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2010-01-25T13:43:22+0100",
+        "updateDate": "2019-04-17T23:23:17+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWotLukOSX35U3sTgKhh",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-classloader:src/main/java/org/apache/sling/jcr/classloader/internal/net/JCRURLConnection.java",
+        "project": "apache_sling-org-apache-sling-jcr-classloader",
+        "line": 472,
+        "hash": "9d9fb9e04ec1762deb6ce76f83ee4ada",
+        "textRange": {
+            "startLine": 472,
+            "endLine": 472,
+            "startOffset": 18,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2010-01-25T13:43:22+0100",
+        "updateDate": "2019-04-17T23:23:17+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWotLukOSX35U3sTgKhc",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-classloader:src/main/java/org/apache/sling/jcr/classloader/internal/net/JCRURLConnection.java",
+        "project": "apache_sling-org-apache-sling-jcr-classloader",
+        "line": 380,
+        "hash": "66fb1f26bbaa926c14c658adcf1132dd",
+        "textRange": {
+            "startLine": 380,
+            "endLine": 380,
+            "startOffset": 23,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2010-01-25T13:43:22+0100",
+        "updateDate": "2019-04-17T23:23:17+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWotLukOSX35U3sTgKhi",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-classloader:src/main/java/org/apache/sling/jcr/classloader/internal/net/JCRURLConnection.java",
+        "project": "apache_sling-org-apache-sling-jcr-classloader",
+        "line": 507,
+        "hash": "b9e53f64ee2222f3bad317ec93a9b978",
+        "textRange": {
+            "startLine": 507,
+            "endLine": 507,
+            "startOffset": 37,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2010-01-25T13:52:10+0100",
+        "updateDate": "2019-04-17T23:23:17+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWotLukOSX35U3sTgKhf",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-classloader:src/main/java/org/apache/sling/jcr/classloader/internal/net/JCRURLConnection.java",
+        "project": "apache_sling-org-apache-sling-jcr-classloader",
+        "line": 437,
+        "hash": "65026ab00e6f46c2dd58753d528958fe",
+        "textRange": {
+            "startLine": 437,
+            "endLine": 437,
+            "startOffset": 18,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2010-01-25T13:43:22+0100",
+        "updateDate": "2019-04-17T23:23:17+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWotLukOSX35U3sTgKhd",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-classloader:src/main/java/org/apache/sling/jcr/classloader/internal/net/JCRURLConnection.java",
+        "project": "apache_sling-org-apache-sling-jcr-classloader",
+        "line": 400,
+        "hash": "6d66e2675c88dd9c773d21e1d025c008",
+        "textRange": {
+            "startLine": 400,
+            "endLine": 400,
+            "startOffset": 18,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2010-01-25T13:43:22+0100",
+        "updateDate": "2019-04-17T23:23:17+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWotLuksSX35U3sTgKh1",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-classloader:src/main/java/org/apache/sling/jcr/classloader/internal/RepositoryClassLoader.java",
+        "project": "apache_sling-org-apache-sling-jcr-classloader",
+        "line": 297,
+        "hash": "4c3469acaff0a74684c7b2a48fcb9c7d",
+        "textRange": {
+            "startLine": 297,
+            "endLine": 297,
+            "startOffset": 70,
+            "endOffset": 81
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2012-05-09T19:44:24+0200",
+        "updateDate": "2019-04-17T23:23:17+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "key": "AWo3jI2-yRjJygCr6vr_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-rules:src/main/java/org/apache/sling/testing/junit/rules/util/Action.java",
+        "project": "apache_sling-org-apache-sling-testing-rules",
+        "line": 20,
+        "hash": "dfbe0e85b0b0c77144b30d77085c18f0",
+        "textRange": {
+            "startLine": 20,
+            "endLine": 20,
+            "startOffset": 23,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-04-29T16:04:50+0200",
+        "updateDate": "2019-04-19T23:41:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3jI3XyRjJygCr6vsU",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-rules:src/main/java/org/apache/sling/testing/junit/rules/RemoteLogDumperRule.java",
+        "project": "apache_sling-org-apache-sling-testing-rules",
+        "line": 96,
+        "hash": "cd625d333dfc2ab288f4e68fc0597546",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 21,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2017-01-05T12:29:42+0100",
+        "updateDate": "2019-04-19T23:41:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "key": "AWoz8c87-aLJxVkBwd83",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-jsp-taglib:src/main/java/org/apache/sling/scripting/jsp/taglib/SlingFunctions.java",
+        "project": "apache_sling-org-apache-sling-scripting-jsp-taglib",
+        "line": 42,
+        "hash": "53d2230156c8635f5cd4d4e7d87fe46f",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-01-03T14:18:49+0100",
+        "updateDate": "2019-04-19T06:53:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz8c8a-aLJxVkBwd8j",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "apache_sling-org-apache-sling-scripting-jsp-taglib:src/main/java/org/apache/sling/scripting/jsp/taglib/internal/XSSSupport.java",
+        "project": "apache_sling-org-apache-sling-scripting-jsp-taglib",
+        "line": 44,
+        "hash": "4898d9380133c0091c5465df8d729002",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 8,
+            "endOffset": 15
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-02-13T14:06:05+0100",
+        "updateDate": "2019-04-19T06:53:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz8c8a-aLJxVkBwd8i",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "apache_sling-org-apache-sling-scripting-jsp-taglib:src/main/java/org/apache/sling/scripting/jsp/taglib/internal/XSSSupport.java",
+        "project": "apache_sling-org-apache-sling-scripting-jsp-taglib",
+        "line": 40,
+        "hash": "bb56582369218b3e18f84ec423aade1f",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 8,
+            "endOffset": 15
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-02-13T14:06:05+0100",
+        "updateDate": "2019-04-19T06:53:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,1498 @@
+[
+    {
+        "key": "AW6x8qB3L5N7eZOUCeP2",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-topology/src/main/java/org/onap/optf/cmso/common/exceptions/CmsoException.java",
+        "project": "onap_optf-cmso",
+        "line": 42,
+        "hash": "773d05e758a5fda60d3e1b6b1313f733",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 21,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"status\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-03-26T20:13:47+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8qB3L5N7eZOUCeP1",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-topology/src/main/java/org/onap/optf/cmso/common/exceptions/CmsoException.java",
+        "project": "onap_optf-cmso",
+        "line": 41,
+        "hash": "38f0f40c9a983eb4761fc86678e65d9b",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 35,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"messageCode\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-03-26T20:13:47+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8qB3L5N7eZOUCeP0",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-topology/src/main/java/org/onap/optf/cmso/common/exceptions/CmsoException.java",
+        "project": "onap_optf-cmso",
+        "line": 40,
+        "hash": "5ba787a4c692b646f45a7d2241bb4198",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 25,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"variables\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-03-26T20:13:47+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8qB3L5N7eZOUCePz",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-topology/src/main/java/org/onap/optf/cmso/common/exceptions/CmsoException.java",
+        "project": "onap_optf-cmso",
+        "line": 39,
+        "hash": "5daee80b0544d714c9fb29d5a822fb81",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 31,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"requestError\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-03-26T20:13:47+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8qJNL5N7eZOUCeTa",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-ticketmgt/src/main/java/org/onap/optf/cmso/common/exceptions/CmsoException.java",
+        "project": "onap_optf-cmso",
+        "line": 47,
+        "hash": "773d05e758a5fda60d3e1b6b1313f733",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 21,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"status\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-03-13T15:21:12+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pU0L5N7eZOUCeMa",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/ticketmgt/bean/TmApprovalStatusEnum.java",
+        "project": "onap_optf-cmso",
+        "line": 44,
+        "hash": "5eb1048a65cef9f848fe69a1337d77e1",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:41:45+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8oTyL5N7eZOUCeEi",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-optimizer/src/main/java/org/onap/optf/cmso/optimizer/exceptions/CmsoException.java",
+        "project": "onap_optf-cmso",
+        "line": 45,
+        "hash": "773d05e758a5fda60d3e1b6b1313f733",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 21,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"status\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-03-28T10:59:17+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8oTyL5N7eZOUCeEh",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-optimizer/src/main/java/org/onap/optf/cmso/optimizer/exceptions/CmsoException.java",
+        "project": "onap_optf-cmso",
+        "line": 44,
+        "hash": "38f0f40c9a983eb4761fc86678e65d9b",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 35,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"messageCode\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-03-28T10:59:17+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8oTyL5N7eZOUCeEg",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-optimizer/src/main/java/org/onap/optf/cmso/optimizer/exceptions/CmsoException.java",
+        "project": "onap_optf-cmso",
+        "line": 43,
+        "hash": "5ba787a4c692b646f45a7d2241bb4198",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 25,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"variables\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-03-28T10:59:17+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8oTyL5N7eZOUCeEf",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-optimizer/src/main/java/org/onap/optf/cmso/optimizer/exceptions/CmsoException.java",
+        "project": "onap_optf-cmso",
+        "line": 42,
+        "hash": "5daee80b0544d714c9fb29d5a822fb81",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 31,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"requestError\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-03-28T10:59:17+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pPQL5N7eZOUCeIi",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/service/rs/CmsoService.java",
+        "project": "onap_optf-cmso",
+        "line": 158,
+        "hash": "c350d54ad3544406cb57f68bc11b41d6",
+        "textRange": {
+            "startLine": 158,
+            "endLine": 158,
+            "startOffset": 20,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 23 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-03-26T19:11:42+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8qJNL5N7eZOUCeTZ",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-ticketmgt/src/main/java/org/onap/optf/cmso/common/exceptions/CmsoException.java",
+        "project": "onap_optf-cmso",
+        "line": 46,
+        "hash": "38f0f40c9a983eb4761fc86678e65d9b",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 35,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"messageCode\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-03-13T15:21:12+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8qJNL5N7eZOUCeTY",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-ticketmgt/src/main/java/org/onap/optf/cmso/common/exceptions/CmsoException.java",
+        "project": "onap_optf-cmso",
+        "line": 45,
+        "hash": "5ba787a4c692b646f45a7d2241bb4198",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 25,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"variables\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-03-13T15:21:12+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8qJNL5N7eZOUCeTX",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-ticketmgt/src/main/java/org/onap/optf/cmso/common/exceptions/CmsoException.java",
+        "project": "onap_optf-cmso",
+        "line": 44,
+        "hash": "5daee80b0544d714c9fb29d5a822fb81",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 31,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"requestError\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-04-16T17:29:13+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8oNUL5N7eZOUCeCX",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_optf-cmso:cmso-optimizer/src/main/java/org/onap/optf/cmso/optimizer/availability/timewindows/RecurringWindows.java",
+        "project": "onap_optf-cmso",
+        "line": 50,
+        "hash": "9efbb52a25763089c6a835c7a9e2fbcf",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-28T21:44:57+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pUPL5N7eZOUCeLV",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/ticketmgt/TmClient.java",
+        "project": "onap_optf-cmso",
+        "line": 479,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 479,
+            "endLine": 479,
+            "startOffset": 25,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:41:45+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pUPL5N7eZOUCeLU",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/ticketmgt/TmClient.java",
+        "project": "onap_optf-cmso",
+        "line": 474,
+        "hash": "5005e6a8d129dcec048dd7a0dab54369",
+        "textRange": {
+            "startLine": 474,
+            "endLine": 474,
+            "startOffset": 26,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:41:45+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pUPL5N7eZOUCeLT",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/ticketmgt/TmClient.java",
+        "project": "onap_optf-cmso",
+        "line": 443,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 443,
+            "endLine": 443,
+            "startOffset": 25,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:41:45+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pUPL5N7eZOUCeLS",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/ticketmgt/TmClient.java",
+        "project": "onap_optf-cmso",
+        "line": 425,
+        "hash": "5005e6a8d129dcec048dd7a0dab54369",
+        "textRange": {
+            "startLine": 425,
+            "endLine": 425,
+            "startOffset": 26,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:41:45+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pUPL5N7eZOUCeLR",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/ticketmgt/TmClient.java",
+        "project": "onap_optf-cmso",
+        "line": 298,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 298,
+            "endLine": 298,
+            "startOffset": 25,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:41:45+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pUPL5N7eZOUCeLQ",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/ticketmgt/TmClient.java",
+        "project": "onap_optf-cmso",
+        "line": 287,
+        "hash": "362f52ef1cc7a1656d9bd2f6c6a982f9",
+        "textRange": {
+            "startLine": 287,
+            "endLine": 287,
+            "startOffset": 26,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:41:45+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pUPL5N7eZOUCeLP",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/ticketmgt/TmClient.java",
+        "project": "onap_optf-cmso",
+        "line": 282,
+        "hash": "5005e6a8d129dcec048dd7a0dab54369",
+        "textRange": {
+            "startLine": 282,
+            "endLine": 282,
+            "startOffset": 26,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:41:45+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pUPL5N7eZOUCeLO",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/ticketmgt/TmClient.java",
+        "project": "onap_optf-cmso",
+        "line": 194,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 194,
+            "endLine": 194,
+            "startOffset": 25,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:41:45+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pQQL5N7eZOUCeJL",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/dispatcher/CmJob.java",
+        "project": "onap_optf-cmso",
+        "line": 143,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 143,
+            "endLine": 143,
+            "startOffset": 29,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:40:47+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pW0L5N7eZOUCeNj",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/observations/Observation.java",
+        "project": "onap_optf-cmso",
+        "line": 38,
+        "hash": "b70f7cecfac2c9d6dad3ed2ac22f40f1",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-25T17:24:53+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pITL5N7eZOUCeF-",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/common/CmHelpers.java",
+        "project": "onap_optf-cmso",
+        "line": 46,
+        "hash": "19a3b9dfeb98f2a1f01e85bd054cd2d3",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-09-20T00:38:15+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8qJuL5N7eZOUCeUC",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_optf-cmso:cmso-ticketmgt/src/main/java/org/onap/observations/Observation.java",
+        "project": "onap_optf-cmso",
+        "line": 38,
+        "hash": "b70f7cecfac2c9d6dad3ed2ac22f40f1",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-29T18:04:02+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pTuL5N7eZOUCeKy",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/sostatus/ScheduleStatusJob.java",
+        "project": "onap_optf-cmso",
+        "line": 147,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 147,
+            "endLine": 147,
+            "startOffset": 29,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:41:45+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pTuL5N7eZOUCeKz",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/sostatus/ScheduleStatusJob.java",
+        "project": "onap_optf-cmso",
+        "line": 190,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 190,
+            "endLine": 190,
+            "startOffset": 29,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:41:45+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW_XgtB7nBrFejmlZCMz",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/service/rs/CommonServiceImpl.java",
+        "project": "onap_optf-cmso",
+        "line": 112,
+        "hash": "887e7b0df60b368eb179dca6a2a40454",
+        "textRange": {
+            "startLine": 112,
+            "endLine": 112,
+            "startOffset": 70,
+            "endOffset": 93
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonProcessingException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-16T17:29:13+0200",
+        "updateDate": "2020-01-24T13:22:18+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8qCML5N7eZOUCeQQ",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_optf-cmso:cmso-topology/src/main/java/org/onap/observations/Observation.java",
+        "project": "onap_optf-cmso",
+        "line": 38,
+        "hash": "b70f7cecfac2c9d6dad3ed2ac22f40f1",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-26T20:13:05+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pMGL5N7eZOUCeHL",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/optimizer/CmsoOptimizerClient.java",
+        "project": "onap_optf-cmso",
+        "line": 297,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 297,
+            "endLine": 297,
+            "startOffset": 25,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-03-31T14:41:13+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pMGL5N7eZOUCeHK",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/optimizer/CmsoOptimizerClient.java",
+        "project": "onap_optf-cmso",
+        "line": 207,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 207,
+            "endLine": 207,
+            "startOffset": 29,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-03-25T17:51:05+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pMGL5N7eZOUCeHJ",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/optimizer/CmsoOptimizerClient.java",
+        "project": "onap_optf-cmso",
+        "line": 191,
+        "hash": "362f52ef1cc7a1656d9bd2f6c6a982f9",
+        "textRange": {
+            "startLine": 191,
+            "endLine": 191,
+            "startOffset": 30,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-03-31T14:41:13+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pUDL5N7eZOUCeK-",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/sostatus/MsoStatusClient.java",
+        "project": "onap_optf-cmso",
+        "line": 282,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 282,
+            "endLine": 282,
+            "startOffset": 25,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:41:45+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pUDL5N7eZOUCeK9",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/sostatus/MsoStatusClient.java",
+        "project": "onap_optf-cmso",
+        "line": 183,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 183,
+            "endLine": 183,
+            "startOffset": 25,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:41:45+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pQZL5N7eZOUCeJQ",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/dispatcher/CmsoClient.java",
+        "project": "onap_optf-cmso",
+        "line": 135,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 135,
+            "endLine": 135,
+            "startOffset": 29,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:40:47+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pQZL5N7eZOUCeJP",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/dispatcher/CmsoClient.java",
+        "project": "onap_optf-cmso",
+        "line": 127,
+        "hash": "5005e6a8d129dcec048dd7a0dab54369",
+        "textRange": {
+            "startLine": 127,
+            "endLine": 127,
+            "startOffset": 30,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:40:47+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pQZL5N7eZOUCeJO",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/dispatcher/CmsoClient.java",
+        "project": "onap_optf-cmso",
+        "line": 121,
+        "hash": "eb2e17543c64c5707936c4d59944bc5a",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 30,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:40:47+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8oQBL5N7eZOUCeDT",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_optf-cmso:cmso-optimizer/src/main/java/org/onap/optf/cmso/optimizer/observations/Observation.java",
+        "project": "onap_optf-cmso",
+        "line": 38,
+        "hash": "b70f7cecfac2c9d6dad3ed2ac22f40f1",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-28T10:57:15+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pLzL5N7eZOUCeG_",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/optimizer/CmsoOptimizerHandler.java",
+        "project": "onap_optf-cmso",
+        "line": 145,
+        "hash": "aae5927aa5e39cba492b70d439f4acb0",
+        "textRange": {
+            "startLine": 145,
+            "endLine": 145,
+            "startOffset": 85,
+            "endOffset": 98
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.optf.cmso.common.exceptions.CmsoException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-16T17:29:13+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pUPL5N7eZOUCeLN",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/ticketmgt/TmClient.java",
+        "project": "onap_optf-cmso",
+        "line": 187,
+        "hash": "5005e6a8d129dcec048dd7a0dab54369",
+        "textRange": {
+            "startLine": 187,
+            "endLine": 187,
+            "startOffset": 26,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:41:45+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8qGYL5N7eZOUCeSF",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-ticketmgt/src/main/java/org/onap/optf/ticketmgt/aaf/AafAuthProvider.java",
+        "project": "onap_optf-cmso",
+        "line": 58,
+        "hash": "4f94595b7a8f49f1cb1a359b9e525d79",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 77,
+            "endOffset": 100
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.springframework.security.core.AuthenticationException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-09-22T16:42:56+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pUDL5N7eZOUCeK8",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/sostatus/MsoStatusClient.java",
+        "project": "onap_optf-cmso",
+        "line": 175,
+        "hash": "189a07d60512cdf630d2def7b5803548",
+        "textRange": {
+            "startLine": 175,
+            "endLine": 175,
+            "startOffset": 26,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-03-25T18:12:42+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pUDL5N7eZOUCeK7",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/sostatus/MsoStatusClient.java",
+        "project": "onap_optf-cmso",
+        "line": 168,
+        "hash": "dccc1cabde022cefcdbf7f9331f43f16",
+        "textRange": {
+            "startLine": 168,
+            "endLine": 168,
+            "startOffset": 26,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-03-25T18:12:42+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pUDL5N7eZOUCeK6",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/sostatus/MsoStatusClient.java",
+        "project": "onap_optf-cmso",
+        "line": 132,
+        "hash": "5005e6a8d129dcec048dd7a0dab54369",
+        "textRange": {
+            "startLine": 132,
+            "endLine": 132,
+            "startOffset": 26,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:41:45+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pHdL5N7eZOUCeFP",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/common/exceptions/CmsoException.java",
+        "project": "onap_optf-cmso",
+        "line": 47,
+        "hash": "773d05e758a5fda60d3e1b6b1313f733",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 21,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"status\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-09-20T00:38:15+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pHdL5N7eZOUCeFO",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/common/exceptions/CmsoException.java",
+        "project": "onap_optf-cmso",
+        "line": 46,
+        "hash": "00a5e950f6016a6929bb929ecf61bfd2",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 26,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"messageCode\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-09-20T00:38:15+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pHdL5N7eZOUCeFN",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/common/exceptions/CmsoException.java",
+        "project": "onap_optf-cmso",
+        "line": 45,
+        "hash": "5ba787a4c692b646f45a7d2241bb4198",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 25,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"variables\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-09-20T00:38:15+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pHdL5N7eZOUCeFM",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/common/exceptions/CmsoException.java",
+        "project": "onap_optf-cmso",
+        "line": 44,
+        "hash": "5daee80b0544d714c9fb29d5a822fb81",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 31,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"requestError\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-04-16T17:29:13+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8oInL5N7eZOUCeAV",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-optimizer/src/main/java/org/onap/optf/cmso/optimizer/clients/optimizer/ElementWindowMapping.java",
+        "project": "onap_optf-cmso",
+        "line": 71,
+        "hash": "d1e96ac92a7e3d1c42d08067b9e2d158",
+        "textRange": {
+            "startLine": 71,
+            "endLine": 71,
+            "startOffset": 37,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-03T00:55:32+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pPQL5N7eZOUCeIh",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/service/rs/CmsoService.java",
+        "project": "onap_optf-cmso",
+        "line": 71,
+        "hash": "0a9f07a83c6e380db3fcbea7d0615580",
+        "textRange": {
+            "startLine": 71,
+            "endLine": 71,
+            "startOffset": 20,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-03-26T19:11:42+0100",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6x8pL8L5N7eZOUCeHE",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_optf-cmso:cmso-service/src/main/java/org/onap/optf/cmso/optimizer/OptimizerQuartzJob.java",
+        "project": "onap_optf-cmso",
+        "line": 143,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 143,
+            "endLine": 143,
+            "startOffset": 25,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-20T00:40:47+0200",
+        "updateDate": "2019-11-28T13:17:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

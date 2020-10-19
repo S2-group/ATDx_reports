@@ -1,0 +1,1626 @@
+[
+    {
+        "key": "AWpA29bJYsUHy63ni7Gu",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/tag/StartTag.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 58,
+        "hash": "103592cc1c768776553cc07a3d6a2fac",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 19,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7Fc",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 285,
+        "hash": "9fff380b2d86a3aa60dbc39a021aa8f8",
+        "textRange": {
+            "startLine": 285,
+            "endLine": 285,
+            "startOffset": 134,
+            "endOffset": 150
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7FC",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 123,
+        "hash": "3881fbec03cee9375adf75cc5e59377e",
+        "textRange": {
+            "startLine": 123,
+            "endLine": 123,
+            "startOffset": 5,
+            "endOffset": 6
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7E7",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 35,
+        "hash": "e2ad5bff200d9ff3168a049a77fb89bd",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 28,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7FF",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 153,
+        "hash": "57cca2668cb823db0d191d3dd14e372d",
+        "textRange": {
+            "startLine": 153,
+            "endLine": 153,
+            "startOffset": 6,
+            "endOffset": 7
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7FZ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 159,
+        "hash": "553a5cc88e14aeb1aaef90d705a79c9b",
+        "textRange": {
+            "startLine": 159,
+            "endLine": 159,
+            "startOffset": 14,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29apYsUHy63ni7EZ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/SimpleCharStream.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 79,
+        "hash": "27a43617d24f3d6823e8885f482fe3fd",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7FX",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 124,
+        "hash": "553a5cc88e14aeb1aaef90d705a79c9b",
+        "textRange": {
+            "startLine": 124,
+            "endLine": 124,
+            "startOffset": 14,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29ZyYsUHy63ni7CQ",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/ParseException.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 72,
+        "hash": "394e25dc102792b982b7accf4ca1c958",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 17,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"expectedTokenSequences\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29ZyYsUHy63ni7CP",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/ParseException.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 65,
+        "hash": "26c8fc15d27f54f8ac8875077722a290",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 15,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"currentToken\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29ZyYsUHy63ni7CO",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/ParseException.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 79,
+        "hash": "eea3b24de31854a92125b31498f28888",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make tokenImage a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29ZyYsUHy63ni7CN",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/ParseException.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 72,
+        "hash": "394e25dc102792b982b7accf4ca1c958",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 17,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make expectedTokenSequences a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29ZyYsUHy63ni7CM",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/ParseException.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 65,
+        "hash": "26c8fc15d27f54f8ac8875077722a290",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 15,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make currentToken a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29alYsUHy63ni7EO",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/Token.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 23,
+        "hash": "ece16671a539f0ce22ab5111e48b618b",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make kind a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29aQYsUHy63ni7Ch",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParserConstants.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 82,
+        "hash": "6374630ec06da3c96d6f943ec322f495",
+        "textRange": {
+            "startLine": 82,
+            "endLine": 82,
+            "startOffset": 11,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Move \"tokenImage\" to a class and lower its visibility",
+        "effort": "15min",
+        "debt": "15min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29aUYsUHy63ni7DC",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParserTokenManager.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 12,
+        "hash": "d9a0588283ee5c8c8047a090eb767a02",
+        "textRange": {
+            "startLine": 12,
+            "endLine": 12,
+            "startOffset": 30,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make debugStream a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29aUYsUHy63ni7DM",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParserTokenManager.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 875,
+        "hash": "66bfd795f8546b62d639b445475e5925",
+        "textRange": {
+            "startLine": 875,
+            "endLine": 875,
+            "startOffset": 26,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29aUYsUHy63ni7DL",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParserTokenManager.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 864,
+        "hash": "df4f3232c95e28b8c93b74a3ec5f3c1f",
+        "textRange": {
+            "startLine": 864,
+            "endLine": 864,
+            "startOffset": 29,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29aUYsUHy63ni7DK",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParserTokenManager.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 858,
+        "hash": "05b89f05f831dbdd5e1b12811dacfe76",
+        "textRange": {
+            "startLine": 858,
+            "endLine": 858,
+            "startOffset": 29,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29aMYsUHy63ni7Cf",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TokenMgrError.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 124,
+        "hash": "8828e03595273609ac6ecaeaa8044115",
+        "textRange": {
+            "startLine": 124,
+            "endLine": 124,
+            "startOffset": 16,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29aMYsUHy63ni7Ce",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TokenMgrError.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 124,
+        "hash": "8828e03595273609ac6ecaeaa8044115",
+        "textRange": {
+            "startLine": 124,
+            "endLine": 124,
+            "startOffset": 16,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29aMYsUHy63ni7Ca",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TokenMgrError.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 44,
+        "hash": "882aad94cf961762112192dcf3e37119",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 6,
+            "endOffset": 15
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"errorCode\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7FJ",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 220,
+        "hash": "8d0d5ccab9b6ace5de9c93d292ad84c8",
+        "textRange": {
+            "startLine": 220,
+            "endLine": 220,
+            "startOffset": 4,
+            "endOffset": 5
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7FH",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 190,
+        "hash": "c320a0ca7fdfe9f15f48670949313eca",
+        "textRange": {
+            "startLine": 190,
+            "endLine": 190,
+            "startOffset": 4,
+            "endOffset": 5
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29ZyYsUHy63ni7CS",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/ParseException.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 134,
+        "hash": "7e3d12c70efe1d5493727bb3c8a412b0",
+        "textRange": {
+            "startLine": 134,
+            "endLine": 134,
+            "startOffset": 19,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"eol\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29ZyYsUHy63ni7CR",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/ParseException.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 79,
+        "hash": "eea3b24de31854a92125b31498f28888",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"tokenImage\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7Fb",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 222,
+        "hash": "553a5cc88e14aeb1aaef90d705a79c9b",
+        "textRange": {
+            "startLine": 222,
+            "endLine": 222,
+            "startOffset": 14,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7FY",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 142,
+        "hash": "553a5cc88e14aeb1aaef90d705a79c9b",
+        "textRange": {
+            "startLine": 142,
+            "endLine": 142,
+            "startOffset": 14,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29apYsUHy63ni7Ep",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/SimpleCharStream.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 220,
+        "hash": "638c82f5f6e1b8e53798d73c00760f12",
+        "textRange": {
+            "startLine": 220,
+            "endLine": 220,
+            "startOffset": 13,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29apYsUHy63ni7En",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/SimpleCharStream.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 210,
+        "hash": "a5e8a1a20f7b2172995953c42d4e1e7e",
+        "textRange": {
+            "startLine": 210,
+            "endLine": 210,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7FE",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 140,
+        "hash": "8d0d5ccab9b6ace5de9c93d292ad84c8",
+        "textRange": {
+            "startLine": 140,
+            "endLine": 140,
+            "startOffset": 4,
+            "endOffset": 5
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7E-",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 48,
+        "hash": "e2ad5bff200d9ff3168a049a77fb89bd",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 28,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7FT",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 257,
+        "hash": "442918719ed8d4f7990c358ff3d57aac",
+        "textRange": {
+            "startLine": 257,
+            "endLine": 257,
+            "startOffset": 31,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make token_source a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7E8",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 40,
+        "hash": "e2ad5bff200d9ff3168a049a77fb89bd",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 36,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7FW",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 74,
+        "hash": "553a5cc88e14aeb1aaef90d705a79c9b",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 14,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7FB",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 64,
+        "hash": "521f024339f5cee80d7917fe7ed88734",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 14,
+            "endOffset": 15
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7FA",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 60,
+        "hash": "19181fe13d65000796ba3cd53ed641d6",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 29,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7E_",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 55,
+        "hash": "db2317d2f2216241a5d34c2f59181bf1",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 14,
+            "endOffset": 15
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7FV",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 262,
+        "hash": "ed51b648a87dd2dcf8271b3bbc72baea",
+        "textRange": {
+            "startLine": 262,
+            "endLine": 262,
+            "startOffset": 15,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make jj_nt a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7FD",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 136,
+        "hash": "339d95b8e3b1785648d743af6eaea815",
+        "textRange": {
+            "startLine": 136,
+            "endLine": 136,
+            "startOffset": 6,
+            "endOffset": 7
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7Fd",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 300,
+        "hash": "9757947b4cf4529657a33ed5e2f43001",
+        "textRange": {
+            "startLine": 300,
+            "endLine": 300,
+            "startOffset": 118,
+            "endOffset": 134
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29aUYsUHy63ni7DE",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParserTokenManager.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 899,
+        "hash": "cae54daaa981929a19ac1aeae3987dcb",
+        "textRange": {
+            "startLine": 899,
+            "endLine": 899,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7Fa",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 191,
+        "hash": "553a5cc88e14aeb1aaef90d705a79c9b",
+        "textRange": {
+            "startLine": 191,
+            "endLine": 191,
+            "startOffset": 14,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7FU",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 260,
+        "hash": "82f0ffbd742b316efea6ae213659c2af",
+        "textRange": {
+            "startLine": 260,
+            "endLine": 260,
+            "startOffset": 15,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make token a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7FG",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 157,
+        "hash": "8d0d5ccab9b6ace5de9c93d292ad84c8",
+        "textRange": {
+            "startLine": 157,
+            "endLine": 157,
+            "startOffset": 4,
+            "endOffset": 5
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7E9",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 44,
+        "hash": "e2ad5bff200d9ff3168a049a77fb89bd",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 36,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29axYsUHy63ni7FI",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/TagParser.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 216,
+        "hash": "fef10d3499e0d3ca9d5ed39450dc3ac4",
+        "textRange": {
+            "startLine": 216,
+            "endLine": 216,
+            "startOffset": 6,
+            "endOffset": 7
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29alYsUHy63ni7ER",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/Token.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 30,
+        "hash": "047e8985a2d5b7eed304a7cee72f5959",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 13,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make endLine a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29alYsUHy63ni7EQ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/Token.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 28,
+        "hash": "a940fa29eac439ef42729bac61f6634d",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make beginColumn a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29alYsUHy63ni7EP",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/Token.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 26,
+        "hash": "c69ea5f2e25b88ce354198d29f17115c",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make beginLine a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29alYsUHy63ni7EV",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/Token.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 61,
+        "hash": "949efa3be9d5bb29ae2c5ea21af5af14",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 15,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make specialToken a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29alYsUHy63ni7EU",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/Token.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 47,
+        "hash": "8678fec7e7484d148b189041ba90f936",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 15,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make next a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29alYsUHy63ni7ET",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/Token.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 37,
+        "hash": "c1fa6d78fe598499247b20824b87648f",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make image a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29alYsUHy63ni7ES",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/Token.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 32,
+        "hash": "1c017558dd0b2b4e1abc80243ae49bfd",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make endColumn a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpA29apYsUHy63ni7EY",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-commons-html:src/main/java/org/apache/sling/commons/html/impl/parser/SimpleCharStream.java",
+        "project": "apache_sling-org-apache-sling-commons-html",
+        "line": 18,
+        "hash": "5ed5b1dee39f5d6baf3994e222fd8d86",
+        "textRange": {
+            "startLine": 18,
+            "endLine": 18,
+            "startOffset": 13,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make bufpos a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-29T16:25:28+0100",
+        "updateDate": "2019-04-21T19:04:53+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

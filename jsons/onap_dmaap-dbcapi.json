@@ -1,0 +1,624 @@
+[
+    {
+        "key": "AW8V0jmpEtrU8F3l2_Vj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/database/DatabaseClass.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 268,
+        "hash": "ec9c12738ecfe1be416097b63782c1fc",
+        "textRange": {
+            "startLine": 268,
+            "endLine": 268,
+            "startOffset": 46,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-25T09:13:32+0100",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0jmhEtrU8F3l2_Vg",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/database/ConnWrapper.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 34,
+        "hash": "0211978636f1fde410a18617a368429c",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 38,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-31T23:09:25+0200",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0jmWEtrU8F3l2_Vc",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/database/TableHandler.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 79,
+        "hash": "f483c7c3f0ef2588dcac84cb75d98ebd",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 95,
+            "endOffset": 104
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-31T23:09:25+0200",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0jnLEtrU8F3l2_V0",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/database/DBFieldHandler.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 141,
+        "hash": "303a2879e0d861ffad4dac9327aa52dc",
+        "textRange": {
+            "startLine": 141,
+            "endLine": 141,
+            "startOffset": 51,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-31T23:09:25+0200",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0jnLEtrU8F3l2_Vz",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/database/DBFieldHandler.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 76,
+        "hash": "c526080a00ed553b342d98ae4068205f",
+        "textRange": {
+            "startLine": 76,
+            "endLine": 76,
+            "startOffset": 72,
+            "endOffset": 81
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-31T23:09:25+0200",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0jnLEtrU8F3l2_Vy",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/database/DBFieldHandler.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 75,
+        "hash": "48fa105ade854aa31502c7e2e89b9e86",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 52,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-31T23:09:25+0200",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0jnLEtrU8F3l2_Vx",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/database/DBFieldHandler.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 44,
+        "hash": "944d6f98c28aa623bd4a131d65246bab",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 84,
+            "endOffset": 93
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-09-05T15:15:41+0200",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0juGEtrU8F3l2_aK",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/service/ApiService.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 102,
+        "hash": "0b6dca8823b0c9152c23ff8a9945ed96",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 44,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-22T07:18:44+0100",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0jyHEtrU8F3l2_cv",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/server/Main.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 52,
+        "hash": "bc1821a6ff81cc22a20823dd9b8408eb",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 50,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-31T23:09:25+0200",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0jyHEtrU8F3l2_cu",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/server/Main.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 48,
+        "hash": "17144322a44aa785a745f1ff520d5c69",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 7,
+            "endOffset": 15
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2017-08-31T23:09:25+0200",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0jumEtrU8F3l2_a4",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/service/DR_SubService.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 96,
+        "hash": "b2263589b25d2721b64d073e805e77ee",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 2,
+            "endOffset": 6
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2017-08-31T23:09:25+0200",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0js4EtrU8F3l2_Yd",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/model/Topic.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 157,
+        "hash": "bb153ac7ee75fdc8686a262dd72345e5",
+        "textRange": {
+            "startLine": 157,
+            "endLine": 157,
+            "startOffset": 2,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-12-26T20:56:38+0100",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0js4EtrU8F3l2_Yc",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/model/Topic.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 156,
+        "hash": "d109ad6282ff98b8c45b4a7106b27a8f",
+        "textRange": {
+            "startLine": 156,
+            "endLine": 156,
+            "startOffset": 2,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-12-26T20:56:38+0100",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0jx_EtrU8F3l2_cs",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/aaf/AafObject.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 25,
+        "hash": "b5428ca7cff36d3e149e1290952ed04c",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"AafObject\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2017-08-31T23:09:25+0200",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0jlWEtrU8F3l2_VY",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/database/DBSingleton.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 89,
+        "hash": "a2410a76b29edaeaba007ec6eba4bb7c",
+        "textRange": {
+            "startLine": 89,
+            "endLine": 89,
+            "startOffset": 29,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.dmaap.dbcapi.database.DBException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-31T23:09:25+0200",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0jttEtrU8F3l2_Zj",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/service/MirrorMakerService.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 88,
+        "hash": "b5b65e8ebf18a88bf1edbf9ffd2d0595",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 2,
+            "endOffset": 6
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2017-08-31T23:09:25+0200",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0jw_EtrU8F3l2_cM",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/aaf/AafLurService.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 102,
+        "hash": "eac10e9bb1b571d8bd87bd6a0280a99e",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 94,
+            "endOffset": 107
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aaf.cadi.CadiException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-22T22:30:38+0200",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0jw_EtrU8F3l2_cL",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/aaf/AafLurService.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 63,
+        "hash": "7111580d00f2d39a1b1fd789699b18ae",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 52,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aaf.misc.env.APIException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-22T22:30:38+0200",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0jnLEtrU8F3l2_V3",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/database/DBFieldHandler.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 187,
+        "hash": "e2efb66f372a6eaf5caa8d461d0ed201",
+        "textRange": {
+            "startLine": 187,
+            "endLine": 187,
+            "startOffset": 39,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-31T23:09:25+0200",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0jnLEtrU8F3l2_V2",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/database/DBFieldHandler.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 184,
+        "hash": "936b8118416b18d271bd4c1a764f4cbb",
+        "textRange": {
+            "startLine": 184,
+            "endLine": 184,
+            "startOffset": 49,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-31T23:09:25+0200",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V0jnLEtrU8F3l2_V1",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-dbcapi:src/main/java/org/onap/dmaap/dbcapi/database/DBFieldHandler.java",
+        "project": "onap_dmaap-dbcapi",
+        "line": 181,
+        "hash": "568d0fb2b21ef72eae403e62074df834",
+        "textRange": {
+            "startLine": 181,
+            "endLine": 181,
+            "startOffset": 49,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-31T23:09:25+0200",
+        "updateDate": "2019-12-17T22:44:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

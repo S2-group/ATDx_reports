@@ -1,0 +1,144 @@
+[
+    {
+        "key": "AWorIjGhSX35U3sTfa3Y",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-sightly-js-provider:src/main/java/org/apache/sling/scripting/sightly/js/impl/Variables.java",
+        "project": "apache_sling-org-apache-sling-scripting-sightly-js-provider",
+        "line": 24,
+        "hash": "011c90d154690ca3649b3eef47d91133",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-05-12T17:39:47+0200",
+        "updateDate": "2019-04-17T13:50:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorIjGeSX35U3sTfa3X",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-sightly-js-provider:src/main/java/org/apache/sling/scripting/sightly/js/impl/loop/EventLoopInterop.java",
+        "project": "apache_sling-org-apache-sling-scripting-sightly-js-provider",
+        "line": 26,
+        "hash": "25563317cf139a23788bbd15829535a5",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-05-12T17:39:47+0200",
+        "updateDate": "2019-04-17T13:50:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorIjG6SX35U3sTfa3r",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-sightly-js-provider:src/main/java/org/apache/sling/scripting/sightly/js/impl/rhino/JsUtils.java",
+        "project": "apache_sling-org-apache-sling-scripting-sightly-js-provider",
+        "line": 28,
+        "hash": "5e9ac554864b6707e63691a9a954b216",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 13,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-05-12T17:39:47+0200",
+        "updateDate": "2019-04-17T13:50:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorIjGzSX35U3sTfa3k",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-sightly-js-provider:src/main/java/org/apache/sling/scripting/sightly/js/impl/Utils.java",
+        "project": "apache_sling-org-apache-sling-scripting-sightly-js-provider",
+        "line": 40,
+        "hash": "ce08e933453c722b919834e9e0391d2e",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 33,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2015-05-12T17:39:47+0200",
+        "updateDate": "2019-04-17T13:50:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorIjGzSX35U3sTfa3j",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-sightly-js-provider:src/main/java/org/apache/sling/scripting/sightly/js/impl/Utils.java",
+        "project": "apache_sling-org-apache-sling-scripting-sightly-js-provider",
+        "line": 37,
+        "hash": "e8aab3d9c621ed292086fa8386e1e213",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 13,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-05-12T17:39:47+0200",
+        "updateDate": "2019-04-17T13:50:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,5172 @@
+[
+    {
+        "key": "AW4bFCHgQ1QxdgjibgKI",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/startup/DatabaseInstaller.java",
+        "project": "roller-master",
+        "line": 830,
+        "hash": "565c6d2bf8a30358e91abcfeb4ddd2ab",
+        "textRange": {
+            "startLine": 830,
+            "endLine": 830,
+            "startOffset": 44,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.business.startup.StartupException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCHgQ1QxdgjibgJ9",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/startup/DatabaseInstaller.java",
+        "project": "roller-master",
+        "line": 104,
+        "hash": "994ac230fb0dc17586983c847ce9a1b0",
+        "textRange": {
+            "startLine": 104,
+            "endLine": 104,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBfjQ1Qxdgjibf02",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/MediaFile.java",
+        "project": "roller-master",
+        "line": 215,
+        "hash": "86f546671c3921d6f34c1a5be54c0d02",
+        "textRange": {
+            "startLine": 215,
+            "endLine": 215,
+            "startOffset": 43,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.WebloggerException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-07-13T18:27:34+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBfjQ1Qxdgjibf03",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/MediaFile.java",
+        "project": "roller-master",
+        "line": 238,
+        "hash": "3793984e7d3ec55785c755de3a0b4824",
+        "textRange": {
+            "startLine": 238,
+            "endLine": 238,
+            "startOffset": 48,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.WebloggerException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-07-13T18:27:34+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWvQ1QxdgjibgXz",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/planet/business/Manager.java",
+        "project": "roller-master",
+        "line": 32,
+        "hash": "fac5777d9dca6d685c617bf0edc2285e",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 29,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-07-20T21:21:47+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWXQ1QxdgjibgXv",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/planet/business/Planet.java",
+        "project": "roller-master",
+        "line": 64,
+        "hash": "fac5777d9dca6d685c617bf0edc2285e",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 29,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-07-22T03:43:18+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCHBQ1QxdgjibgI-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/GuiceWebloggerProvider.java",
+        "project": "roller-master",
+        "line": 58,
+        "hash": "50bb62588aa4684e2de004e48db3f30f",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-06-07T13:19:05+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBf3Q1Qxdgjibf0_",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/Weblog.java",
+        "project": "roller-master",
+        "line": 102,
+        "hash": "ebcf5f687e64a28b4eaefcc005aac81f",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 11,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXI",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 119,
+        "hash": "91a8a8581cc80b67b9dec504fdb91584",
+        "textRange": {
+            "startLine": 119,
+            "endLine": 119,
+            "startOffset": 56,
+            "endOffset": 65
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXH",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 104,
+        "hash": "a6149bcb4e206a776b11d12f2d93c7d4",
+        "textRange": {
+            "startLine": 104,
+            "endLine": 104,
+            "startOffset": 50,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCGcQ1QxdgjibgIq",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/runnable/ResetHitCountsTask.java",
+        "project": "roller-master",
+        "line": 36,
+        "hash": "0956b0e51f0447d8d798f15eca29e2b8",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 25,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static NAME\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCGcQ1QxdgjibgIr",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/runnable/ResetHitCountsTask.java",
+        "project": "roller-master",
+        "line": 36,
+        "hash": "0956b0e51f0447d8d798f15eca29e2b8",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 25,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make NAME a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFB9CQ1QxdgjibgFH",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/core/RollerContext.java",
+        "project": "roller-master",
+        "line": 102,
+        "hash": "539e63a8f83dfacfa9855f5e84c5fed3",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 22,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2014-03-29T05:39:05+0100",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFByVQ1Qxdgjibf-8",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/rendering/util/mobile/DeviceUtils.java",
+        "project": "roller-master",
+        "line": 32,
+        "hash": "f9421ac546508cce64b06f2ad230b7d2",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2014-09-03T09:13:17+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCL0Q1QxdgjibgMY",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/TestTask.java",
+        "project": "roller-master",
+        "line": 25,
+        "hash": "74782eb2ecbcbfa5e6a8892718fc4c4a",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 25,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make NAME a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCL0Q1QxdgjibgMX",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/TestTask.java",
+        "project": "roller-master",
+        "line": 25,
+        "hash": "74782eb2ecbcbfa5e6a8892718fc4c4a",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 25,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static NAME\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCLDQ1QxdgjibgMK",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/pings/PingQueueProcessor.java",
+        "project": "roller-master",
+        "line": 52,
+        "hash": "f2e2e04115ee02123446a77eae682aa2",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 40,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.WebloggerException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCK5Q1QxdgjibgMG",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/pings/PingQueueTask.java",
+        "project": "roller-master",
+        "line": 40,
+        "hash": "60f91fb6107f1dda7c11e98084c037da",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 25,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make NAME a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCK5Q1QxdgjibgMF",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/pings/PingQueueTask.java",
+        "project": "roller-master",
+        "line": 40,
+        "hash": "60f91fb6107f1dda7c11e98084c037da",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 25,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static NAME\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCGTQ1QxdgjibgIm",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/runnable/ScheduledEntriesTask.java",
+        "project": "roller-master",
+        "line": 43,
+        "hash": "637175b277e7e092fd693c43d05c4d58",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 25,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make NAME a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCGTQ1QxdgjibgIl",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/runnable/ScheduledEntriesTask.java",
+        "project": "roller-master",
+        "line": 43,
+        "hash": "637175b277e7e092fd693c43d05c4d58",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 25,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static NAME\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPJQ1QxdgjibgPA",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/PasswordUtility.java",
+        "project": "roller-master",
+        "line": 235,
+        "hash": "4325288ed42a7f89baebdd3f81b55dd0",
+        "textRange": {
+            "startLine": 235,
+            "endLine": 235,
+            "startOffset": 75,
+            "endOffset": 84
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPJQ1QxdgjibgO_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/PasswordUtility.java",
+        "project": "roller-master",
+        "line": 221,
+        "hash": "7da489fc20b099b781938b8f34e2c627",
+        "textRange": {
+            "startLine": 221,
+            "endLine": 221,
+            "startOffset": 16,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPJQ1QxdgjibgO-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/PasswordUtility.java",
+        "project": "roller-master",
+        "line": 197,
+        "hash": "6af1b2cb43100c3abb7536f4a554c584",
+        "textRange": {
+            "startLine": 197,
+            "endLine": 197,
+            "startOffset": 60,
+            "endOffset": 69
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBfjQ1Qxdgjibf0z",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/MediaFile.java",
+        "project": "roller-master",
+        "line": 202,
+        "hash": "aaf14a477c0ed00647844c5eec1264e0",
+        "textRange": {
+            "startLine": 202,
+            "endLine": 202,
+            "startOffset": 58,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.WebloggerException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-07-13T18:27:34+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPAQ1QxdgjibgOq",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/MediacastException.java",
+        "project": "roller-master",
+        "line": 30,
+        "hash": "af4d8d1eac4f136aa541d53cfe6bd3cf",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 19,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"errorKey\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPAQ1QxdgjibgOp",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/MediacastException.java",
+        "project": "roller-master",
+        "line": 29,
+        "hash": "ac42f2e4d3d6416432559eee95aa11d9",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 16,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"errorCode\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFB6cQ1QxdgjibgD_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/rendering/velocity/VelocityRenderer.java",
+        "project": "roller-master",
+        "line": 59,
+        "hash": "cc60b1eb8a8bd51d50897ba2efe37db2",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 65,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFB4zQ1QxdgjibgDg",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/rendering/plugins/comments/CommentAuthenticatorUtils.java",
+        "project": "roller-master",
+        "line": 30,
+        "hash": "0213d8660d233301fa147095905d5e44",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 6,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-05-19T13:36:45+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCQDQ1QxdgjibgQb",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/I18nUtils.java",
+        "project": "roller-master",
+        "line": 28,
+        "hash": "0b4a231af1232235f7a834ec356adada",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCHgQ1QxdgjibgJ8",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/startup/DatabaseInstaller.java",
+        "project": "roller-master",
+        "line": 82,
+        "hash": "2183c4d2c5e85c718bc1b9627e19d1f3",
+        "textRange": {
+            "startLine": 82,
+            "endLine": 82,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-08-09T16:42:46+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFB-7Q1QxdgjibgGA",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/core/tags/calendar/CalendarModel.java",
+        "project": "roller-master",
+        "line": 30,
+        "hash": "4ed7908f5a285a81476857a218ab37e9",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 39,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-07-22T03:43:18+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFB-yQ1QxdgjibgF8",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/core/security/CustomUserRegistry.java",
+        "project": "roller-master",
+        "line": 42,
+        "hash": "09c692db357e6a8de1e16f960854d4a1",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 13,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFB-mQ1QxdgjibgF3",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/core/security/RollerRememberMeServices.java",
+        "project": "roller-master",
+        "line": 42,
+        "hash": "0285e6eea6d36962c14bbd7979f5d86a",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-05-19T22:53:40+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBk4Q1Qxdgjibf3K",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/struts2/editor/MediaFileView.java",
+        "project": "roller-master",
+        "line": 116,
+        "hash": "cd91ed110eaf79984bcc027c7bbbcb66",
+        "textRange": {
+            "startLine": 116,
+            "endLine": 116,
+            "startOffset": 12,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2014-06-17T15:34:40+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBk4Q1Qxdgjibf3L",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/struts2/editor/MediaFileView.java",
+        "project": "roller-master",
+        "line": 122,
+        "hash": "f41ab785a6801daf74a7374edd1a35b4",
+        "textRange": {
+            "startLine": 122,
+            "endLine": 122,
+            "startOffset": 12,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2014-06-17T15:34:40+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCKKQ1QxdgjibgL4",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/URLStrategy.java",
+        "project": "roller-master",
+        "line": 198,
+        "hash": "066fcb7b9a2da797b5cc695f2d25d426",
+        "textRange": {
+            "startLine": 198,
+            "endLine": 198,
+            "startOffset": 11,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2013-07-20T21:21:47+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCKKQ1QxdgjibgL3",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/URLStrategy.java",
+        "project": "roller-master",
+        "line": 184,
+        "hash": "e4cd502f0e4d7ceadaeefe397c843876",
+        "textRange": {
+            "startLine": 184,
+            "endLine": 184,
+            "startOffset": 11,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2013-07-20T21:21:47+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCJ4Q1QxdgjibgLz",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/jpa/JPAWebloggerImpl.java",
+        "project": "roller-master",
+        "line": 48,
+        "hash": "d306d2100529184188f79eb0f310621b",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 14,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 20 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFB58Q1QxdgjibgD2",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/rendering/velocity/RollerVelocity.java",
+        "project": "roller-master",
+        "line": 81,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCNmQ1QxdgjibgNN",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/cache/CachedContent.java",
+        "project": "roller-master",
+        "line": 83,
+        "hash": "051c31accb36c0e1c20a131a42b3ffe6",
+        "textRange": {
+            "startLine": 83,
+            "endLine": 83,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCNmQ1QxdgjibgNM",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/cache/CachedContent.java",
+        "project": "roller-master",
+        "line": 50,
+        "hash": "08661c7c5996f54abed566a74d237406",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCNdQ1QxdgjibgNE",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/cache/CacheManager.java",
+        "project": "roller-master",
+        "line": 92,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 92,
+            "endLine": 92,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCa6Q1QxdgjibgZT",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/util/RegexUtil.java",
+        "project": "roller-master",
+        "line": 32,
+        "hash": "ea2db4dd4a91f05faac5f1a1ffbab5f7",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCavQ1QxdgjibgZR",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/util/ISO8601DateParser.java",
+        "project": "roller-master",
+        "line": 31,
+        "hash": "d230511d7c0792b8ad068c1cca2502f5",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBhLQ1Qxdgjibf1e",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/User.java",
+        "project": "roller-master",
+        "line": 57,
+        "hash": "ecfbb675b869d0d4f6f6202bb4e13276",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 11,
+            "endOffset": 15
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBgYQ1Qxdgjibf1V",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/WeblogCategory.java",
+        "project": "roller-master",
+        "line": 207,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 207,
+            "endLine": 207,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPpQ1QxdgjibgP0",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/HTMLSanitizer.java",
+        "project": "roller-master",
+        "line": 56,
+        "hash": "5fd3c4e73b27453ad9d5e7d6680bdde0",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 26,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static allowedTags\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPpQ1QxdgjibgPz",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/HTMLSanitizer.java",
+        "project": "roller-master",
+        "line": 55,
+        "hash": "3058d1a3b5882b045bb0077526b675a6",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 26,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static forbiddenTags\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPpQ1QxdgjibgPy",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/HTMLSanitizer.java",
+        "project": "roller-master",
+        "line": 53,
+        "hash": "4e6c741fc250dc5e1c7fcb263f887509",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 26,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static xssEnabled\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCOSQ1QxdgjibgNe",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/GenericThrottle.java",
+        "project": "roller-master",
+        "line": 167,
+        "hash": "e18bde118bfa835ee4fd951d681e9656",
+        "textRange": {
+            "startLine": 167,
+            "endLine": 167,
+            "startOffset": 30,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make start a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCOSQ1QxdgjibgNd",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/GenericThrottle.java",
+        "project": "roller-master",
+        "line": 166,
+        "hash": "040aa765728db9a9bfbbb81fbe96bc79",
+        "textRange": {
+            "startLine": 166,
+            "endLine": 166,
+            "startOffset": 19,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make hits a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFB1PQ1QxdgjibgAm",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/rendering/servlets/PageServlet.java",
+        "project": "roller-master",
+        "line": 114,
+        "hash": "19ca1995bafe2dbc711ff00b97dd1798",
+        "textRange": {
+            "startLine": 114,
+            "endLine": 114,
+            "startOffset": 16,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPJQ1QxdgjibgPB",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/PasswordUtility.java",
+        "project": "roller-master",
+        "line": 273,
+        "hash": "a215f3def31603ad9fd90a423592332f",
+        "textRange": {
+            "startLine": 273,
+            "endLine": 273,
+            "startOffset": 76,
+            "endOffset": 85
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCRGQ1QxdgjibgRH",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/webservices/oauth/RequestTokenServlet.java",
+        "project": "roller-master",
+        "line": 75,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 16,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCTCQ1QxdgjibgVQ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/webservices/xmlrpc/BaseAPIHandler.java",
+        "project": "roller-master",
+        "line": 219,
+        "hash": "adcf096f5e0c556022afb543b9e83ced",
+        "textRange": {
+            "startLine": 219,
+            "endLine": 219,
+            "startOffset": 57,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCTCQ1QxdgjibgVO",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/webservices/xmlrpc/BaseAPIHandler.java",
+        "project": "roller-master",
+        "line": 219,
+        "hash": "adcf096f5e0c556022afb543b9e83ced",
+        "textRange": {
+            "startLine": 219,
+            "endLine": 219,
+            "startOffset": 57,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCTCQ1QxdgjibgVN",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/webservices/xmlrpc/BaseAPIHandler.java",
+        "project": "roller-master",
+        "line": 174,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 174,
+            "endLine": 174,
+            "startOffset": 11,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCTCQ1QxdgjibgVM",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/webservices/xmlrpc/BaseAPIHandler.java",
+        "project": "roller-master",
+        "line": 112,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 112,
+            "endLine": 112,
+            "startOffset": 11,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCRsQ1QxdgjibgSS",
+        "rule": "java:S2276",
+        "severity": "BLOCKER",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/webservices/atomprotocol/RollerAtomHandler.java",
+        "project": "roller-master",
+        "line": 520,
+        "hash": "51f783a6c1738d80a59f183f2e214362",
+        "textRange": {
+            "startLine": 520,
+            "endLine": 520,
+            "startOffset": 27,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Replace the call to \"Thread.sleep(...)\" with a call to \"wait(...)\".",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "cert",
+            "multi-threading",
+            "performance"
+        ],
+        "creationDate": "2014-04-20T15:38:51+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "BUG",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPpQ1QxdgjibgQD",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/HTMLSanitizer.java",
+        "project": "roller-master",
+        "line": 52,
+        "hash": "6d2c3a23c9781fa143230cab9c144fcf",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 13,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPpQ1QxdgjibgP_",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/HTMLSanitizer.java",
+        "project": "roller-master",
+        "line": 456,
+        "hash": "eeea63b42bf680969adb238dd4f0fec9",
+        "textRange": {
+            "startLine": 456,
+            "endLine": 456,
+            "startOffset": 28,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make invalidTags a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2014-04-08T03:41:22+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPpQ1QxdgjibgP-",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/HTMLSanitizer.java",
+        "project": "roller-master",
+        "line": 455,
+        "hash": "5ee9d74dd7859df557f6a56de70cd780",
+        "textRange": {
+            "startLine": 455,
+            "endLine": 455,
+            "startOffset": 23,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make isValid a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPpQ1QxdgjibgP9",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/HTMLSanitizer.java",
+        "project": "roller-master",
+        "line": 454,
+        "hash": "e74cfc050974bbacc8b717b824033f40",
+        "textRange": {
+            "startLine": 454,
+            "endLine": 454,
+            "startOffset": 22,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make val a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPpQ1QxdgjibgP8",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/HTMLSanitizer.java",
+        "project": "roller-master",
+        "line": 453,
+        "hash": "0d9e459bfaff481c87a987a4d7cad6b4",
+        "textRange": {
+            "startLine": 453,
+            "endLine": 453,
+            "startOffset": 22,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make text a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPpQ1QxdgjibgP7",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/HTMLSanitizer.java",
+        "project": "roller-master",
+        "line": 452,
+        "hash": "69b618007e251b1afcc97e3f6aa037ff",
+        "textRange": {
+            "startLine": 452,
+            "endLine": 452,
+            "startOffset": 22,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make html a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPpQ1QxdgjibgP6",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/HTMLSanitizer.java",
+        "project": "roller-master",
+        "line": 56,
+        "hash": "5fd3c4e73b27453ad9d5e7d6680bdde0",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 26,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make allowedTags a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCURQ1QxdgjibgWb",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/planet/tasks/RefreshRollerPlanetTask.java",
+        "project": "roller-master",
+        "line": 46,
+        "hash": "67831fb4b4363a188b328ac7c488a723",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 25,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make NAME a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCUaQ1QxdgjibgWe",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/planet/tasks/SyncWebsitesTask.java",
+        "project": "roller-master",
+        "line": 53,
+        "hash": "a38a78abe63990a13081abb373b8b7a3",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 25,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static NAME\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCUaQ1QxdgjibgWf",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/planet/tasks/SyncWebsitesTask.java",
+        "project": "roller-master",
+        "line": 53,
+        "hash": "a38a78abe63990a13081abb373b8b7a3",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 25,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make NAME a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCOzQ1QxdgjibgOL",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/Utilities.java",
+        "project": "roller-master",
+        "line": 41,
+        "hash": "02bf84f3deef7bc9f0910a7eb5a29c99",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCCyQ1QxdgjibgHK",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/themes/ThemeManagerImpl.java",
+        "project": "roller-master",
+        "line": 107,
+        "hash": "d7b0d52bb21a7d47297a6f1c90e293ed",
+        "textRange": {
+            "startLine": 107,
+            "endLine": 107,
+            "startOffset": 14,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCCyQ1QxdgjibgHJ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/themes/ThemeManagerImpl.java",
+        "project": "roller-master",
+        "line": 95,
+        "hash": "0285e6eea6d36962c14bbd7979f5d86a",
+        "textRange": {
+            "startLine": 95,
+            "endLine": 95,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCLoQ1QxdgjibgMT",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/UserManager.java",
+        "project": "roller-master",
+        "line": 309,
+        "hash": "d6dd8b88ad6a0357a08f1c5651040d20",
+        "textRange": {
+            "startLine": 309,
+            "endLine": 309,
+            "startOffset": 12,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2013-07-19T13:01:23+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBgMQ1Qxdgjibf1Q",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/WeblogPermission.java",
+        "project": "roller-master",
+        "line": 39,
+        "hash": "805d9aec00608914c60bc7a4f740f9db",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 37,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXT",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 429,
+        "hash": "302e605750dc6f816fc36b77fa5eca4c",
+        "textRange": {
+            "startLine": 429,
+            "endLine": 429,
+            "startOffset": 38,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-07-31T13:40:05+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXO",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 296,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 296,
+            "endLine": 296,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-07-31T13:40:05+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXM",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 244,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 244,
+            "endLine": 244,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-07-31T13:40:05+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCYMQ1QxdgjibgYb",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/planet/pojos/PlanetGroup.java",
+        "project": "roller-master",
+        "line": 65,
+        "hash": "48425a944d9205279456dd311180d1e3",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2013-12-17T16:11:42+0100",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFB3sQ1QxdgjibgC4",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/rendering/pagers/WeblogEntriesListPager.java",
+        "project": "roller-master",
+        "line": 63,
+        "hash": "f46c5e0ce36d1e828a86af963217855a",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 11,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFB3WQ1QxdgjibgCn",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/rendering/pagers/AbstractWeblogEntriesPager.java",
+        "project": "roller-master",
+        "line": 236,
+        "hash": "ae6e0a7803992d6b00ad8eda93c88d7f",
+        "textRange": {
+            "startLine": 236,
+            "endLine": 236,
+            "startOffset": 21,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFB3WQ1QxdgjibgCm",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/rendering/pagers/AbstractWeblogEntriesPager.java",
+        "project": "roller-master",
+        "line": 62,
+        "hash": "0af7c2f4a637babbdb264efafc8b254e",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 11,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPJQ1QxdgjibgO9",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/PasswordUtility.java",
+        "project": "roller-master",
+        "line": 165,
+        "hash": "ea9e7832114e6cf4a900b88495605251",
+        "textRange": {
+            "startLine": 165,
+            "endLine": 165,
+            "startOffset": 61,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPJQ1QxdgjibgO8",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/PasswordUtility.java",
+        "project": "roller-master",
+        "line": 144,
+        "hash": "6af1b2cb43100c3abb7536f4a554c584",
+        "textRange": {
+            "startLine": 144,
+            "endLine": 144,
+            "startOffset": 60,
+            "endOffset": 69
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPJQ1QxdgjibgO7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/PasswordUtility.java",
+        "project": "roller-master",
+        "line": 120,
+        "hash": "7da489fc20b099b781938b8f34e2c627",
+        "textRange": {
+            "startLine": 120,
+            "endLine": 120,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXQ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 335,
+        "hash": "7294904157dfcd7393a5a0896c455270",
+        "textRange": {
+            "startLine": 335,
+            "endLine": 335,
+            "startOffset": 64,
+            "endOffset": 73
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXP",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 311,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 311,
+            "endLine": 311,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-14T12:33:43+0100",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXN",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 279,
+        "hash": "7cf6449a0549221297ce9ce39183cce2",
+        "textRange": {
+            "startLine": 279,
+            "endLine": 279,
+            "startOffset": 56,
+            "endOffset": 65
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXL",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 227,
+        "hash": "3540eba0b2fc039594a0e25430dad979",
+        "textRange": {
+            "startLine": 227,
+            "endLine": 227,
+            "startOffset": 60,
+            "endOffset": 69
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXK",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 191,
+        "hash": "634ac8fa82dd4d20ce3341bbb3df3f1d",
+        "textRange": {
+            "startLine": 191,
+            "endLine": 191,
+            "startOffset": 57,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-07-31T13:40:05+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCKnQ1QxdgjibgMB",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/WebloggerImpl.java",
+        "project": "roller-master",
+        "line": 108,
+        "hash": "7dc612562b310c777115da657970ddc7",
+        "textRange": {
+            "startLine": 108,
+            "endLine": 108,
+            "startOffset": 49,
+            "endOffset": 67
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.WebloggerException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCKnQ1QxdgjibgL-",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/WebloggerImpl.java",
+        "project": "roller-master",
+        "line": 89,
+        "hash": "c2be978c583742250e146870bf780e19",
+        "textRange": {
+            "startLine": 89,
+            "endLine": 89,
+            "startOffset": 14,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 19 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCQ0Q1QxdgjibgQ7",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/WSSEUtilities.java",
+        "project": "roller-master",
+        "line": 31,
+        "hash": "73064775da3900ee46ee8cf697a280b2",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCQrQ1QxdgjibgQ3",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/StandaloneWebappClassLoader.java",
+        "project": "roller-master",
+        "line": 67,
+        "hash": "3b321388fd7b16ed62f24c480099793e",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 69,
+            "endOffset": 78
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXS",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 412,
+        "hash": "600a3acea15a2dd1eb67aa4af8103431",
+        "textRange": {
+            "startLine": 412,
+            "endLine": 412,
+            "startOffset": 61,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 375,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 375,
+            "endLine": 375,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-01-07T15:29:33+0100",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCOlQ1QxdgjibgOC",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/MailUtil.java",
+        "project": "roller-master",
+        "line": 519,
+        "hash": "bf158e763461a9887e8cd00df717ad5a",
+        "textRange": {
+            "startLine": 519,
+            "endLine": 519,
+            "startOffset": 19,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.util.MailUtil$MailingException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCQrQ1QxdgjibgQ0",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/StandaloneWebappClassLoader.java",
+        "project": "roller-master",
+        "line": 37,
+        "hash": "d11d11cb8ce056a8bfe974f7163472fe",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 25,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static FS\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXV",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 481,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 481,
+            "endLine": 481,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 463,
+        "hash": "d740e052ce6733892b6d0c8c0e10f5d8",
+        "textRange": {
+            "startLine": 463,
+            "endLine": 463,
+            "startOffset": 57,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCB2Q1QxdgjibgGy",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/search/FieldConstants.java",
+        "project": "roller-master",
+        "line": 27,
+        "hash": "761f25e9597e7016059e98bbd4792bd1",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 19,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCCBQ1QxdgjibgG1",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/search/IndexManagerImpl.java",
+        "project": "roller-master",
+        "line": 304,
+        "hash": "994ac230fb0dc17586983c847ce9a1b0",
+        "textRange": {
+            "startLine": 304,
+            "endLine": 304,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-07-17T00:59:23+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCalQ1QxdgjibgZK",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/util/DateUtil.java",
+        "project": "roller-master",
+        "line": 36,
+        "hash": "08cd26e41086c33a9af18915194e0184",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCOFQ1QxdgjibgNW",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/Trackback.java",
+        "project": "roller-master",
+        "line": 100,
+        "hash": "3e4664f127e194fe38b72c011f9f438f",
+        "textRange": {
+            "startLine": 100,
+            "endLine": 100,
+            "startOffset": 40,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.WebloggerException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBiHQ1Qxdgjibf2G",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/WeblogEntry.java",
+        "project": "roller-master",
+        "line": 769,
+        "hash": "a0b1a49719721f90c19e6a297082f403",
+        "textRange": {
+            "startLine": 769,
+            "endLine": 769,
+            "startOffset": 18,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCOzQ1QxdgjibgOX",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/Utilities.java",
+        "project": "roller-master",
+        "line": 554,
+        "hash": "856706b11c90aa3ed4dab2a568cfc306",
+        "textRange": {
+            "startLine": 554,
+            "endLine": 554,
+            "startOffset": 57,
+            "endOffset": 68
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCOzQ1QxdgjibgOW",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/Utilities.java",
+        "project": "roller-master",
+        "line": 541,
+        "hash": "cbe4dd745c75160460bc72cd33ab47c1",
+        "textRange": {
+            "startLine": 541,
+            "endLine": 541,
+            "startOffset": 57,
+            "endOffset": 68
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBl5Q1Qxdgjibf3j",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/struts2/editor/CategoryBean.java",
+        "project": "roller-master",
+        "line": 69,
+        "hash": "193c569066f2b32404210fd0d9130cd4",
+        "textRange": {
+            "startLine": 69,
+            "endLine": 69,
+            "startOffset": 57,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.WebloggerException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBlcQ1Qxdgjibf3V",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/struts2/editor/FolderBean.java",
+        "project": "roller-master",
+        "line": 48,
+        "hash": "e79bbd495367ae9dec451b05e265f18a",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 63,
+            "endOffset": 81
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.WebloggerException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBrOQ1Qxdgjibf69",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/struts2/util/UIUtils.java",
+        "project": "roller-master",
+        "line": 32,
+        "hash": "4b019baadf5c23a5905621f03b29e89f",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 19,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBweQ1Qxdgjibf9z",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/rendering/model/ModelLoader.java",
+        "project": "roller-master",
+        "line": 31,
+        "hash": "6bf0a947a58f66ea17918f9621188fb9",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXg",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 756,
+        "hash": "b902fe66b011db52bce68c738470451a",
+        "textRange": {
+            "startLine": 756,
+            "endLine": 756,
+            "startOffset": 55,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXf",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 727,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 727,
+            "endLine": 727,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXe",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 710,
+        "hash": "94775b03b1aa49974f06548168bfc9f0",
+        "textRange": {
+            "startLine": 710,
+            "endLine": 710,
+            "startOffset": 56,
+            "endOffset": 65
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXd",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 686,
+        "hash": "159e03fc46162746700d5d4c92ab33d4",
+        "textRange": {
+            "startLine": 686,
+            "endLine": 686,
+            "startOffset": 59,
+            "endOffset": 68
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXc",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 634,
+        "hash": "aa6c75fee0515d77051b2ef95fd81591",
+        "textRange": {
+            "startLine": 634,
+            "endLine": 634,
+            "startOffset": 56,
+            "endOffset": 65
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXa",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 596,
+        "hash": "9ec45b7304b38243e7c867ba2f5c2874",
+        "textRange": {
+            "startLine": 596,
+            "endLine": 596,
+            "startOffset": 58,
+            "endOffset": 67
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXZ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 569,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 569,
+            "endLine": 569,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXY",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 551,
+        "hash": "b5bf70d81a1493fef66db72da3fa46ec",
+        "textRange": {
+            "startLine": 551,
+            "endLine": 551,
+            "startOffset": 58,
+            "endOffset": 67
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXX",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 526,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 526,
+            "endLine": 526,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXW",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 508,
+        "hash": "1604471797a11bae79550652df3fb3c0",
+        "textRange": {
+            "startLine": 508,
+            "endLine": 508,
+            "startOffset": 60,
+            "endOffset": 69
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCXSQ1QxdgjibgX6",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/planet/business/jpa/JPAPlanetImpl.java",
+        "project": "roller-master",
+        "line": 62,
+        "hash": "ccfe67c4409ae575fa676564bc00dc25",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 50,
+            "endOffset": 65
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.RollerException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCXGQ1QxdgjibgX2",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/planet/business/jpa/JPAPlanetManagerImpl.java",
+        "project": "roller-master",
+        "line": 122,
+        "hash": "0285e6eea6d36962c14bbd7979f5d86a",
+        "textRange": {
+            "startLine": 122,
+            "endLine": 122,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCY8Q1QxdgjibgYt",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/planet/tasks/PlanetTask.java",
+        "project": "roller-master",
+        "line": 25,
+        "hash": "9b34cc2a7d77e8606760790376472a24",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 22,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"PlanetTask\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCY8Q1QxdgjibgYs",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/planet/tasks/PlanetTask.java",
+        "project": "roller-master",
+        "line": 30,
+        "hash": "032b66bad4f95c0f2675618c84ace74e",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 36,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCYzQ1QxdgjibgYo",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/planet/tasks/StaticPlanetModel.java",
+        "project": "roller-master",
+        "line": 54,
+        "hash": "6fe895e96b13e12e569c5c7e8e9e83a8",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 89,
+            "endOffset": 98
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-03-10T05:13:14+0100",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCYzQ1QxdgjibgYn",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/planet/tasks/StaticPlanetModel.java",
+        "project": "roller-master",
+        "line": 49,
+        "hash": "0d2a9cf1729427a3b3f1fcd2e04ea7da",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 63,
+            "endOffset": 72
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPpQ1QxdgjibgP5",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/HTMLSanitizer.java",
+        "project": "roller-master",
+        "line": 55,
+        "hash": "3058d1a3b5882b045bb0077526b675a6",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 26,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make forbiddenTags a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCPpQ1QxdgjibgP4",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/HTMLSanitizer.java",
+        "project": "roller-master",
+        "line": 53,
+        "hash": "4e6c741fc250dc5e1c7fcb263f887509",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 26,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make xssEnabled a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXk",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 850,
+        "hash": "e5db2935a39ecd3aa4399fd934967728",
+        "textRange": {
+            "startLine": 850,
+            "endLine": 850,
+            "startOffset": 55,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 817,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 817,
+            "endLine": 817,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXi",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 800,
+        "hash": "08877e2f472d36dbf2a010bec6d94af7",
+        "textRange": {
+            "startLine": 800,
+            "endLine": 800,
+            "startOffset": 62,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXh",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 774,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 774,
+            "endLine": 774,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBk4Q1Qxdgjibf3J",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/struts2/editor/MediaFileView.java",
+        "project": "roller-master",
+        "line": 106,
+        "hash": "34db3e53caa8f71bc05412c19e35c930",
+        "textRange": {
+            "startLine": 106,
+            "endLine": 106,
+            "startOffset": 12,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2014-06-17T15:34:40+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBk4Q1Qxdgjibf3I",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/struts2/editor/MediaFileView.java",
+        "project": "roller-master",
+        "line": 97,
+        "hash": "25c6118766e0f8aa2d44f7e652769701",
+        "textRange": {
+            "startLine": 97,
+            "endLine": 97,
+            "startOffset": 12,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2014-06-17T15:34:40+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCCpQ1QxdgjibgHF",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/themes/SharedThemeResourceFromDir.java",
+        "project": "roller-master",
+        "line": 96,
+        "hash": "e213d1078e27e2d7a30a4bcf3b4a47f4",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBhLQ1Qxdgjibf1h",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/User.java",
+        "project": "roller-master",
+        "line": 118,
+        "hash": "c40394f12234a7c0862eca6bac1bb515",
+        "textRange": {
+            "startLine": 118,
+            "endLine": 118,
+            "startOffset": 57,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.WebloggerException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBiHQ1Qxdgjibf19",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/WeblogEntry.java",
+        "project": "roller-master",
+        "line": 546,
+        "hash": "86f546671c3921d6f34c1a5be54c0d02",
+        "textRange": {
+            "startLine": 546,
+            "endLine": 546,
+            "startOffset": 43,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.WebloggerException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBiHQ1Qxdgjibf16",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/WeblogEntry.java",
+        "project": "roller-master",
+        "line": 534,
+        "hash": "a5b4dc42206a55943ccd379c26ebde90",
+        "textRange": {
+            "startLine": 534,
+            "endLine": 534,
+            "startOffset": 60,
+            "endOffset": 78
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.WebloggerException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-09-18T03:05:57+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBiHQ1Qxdgjibf15",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/WeblogEntry.java",
+        "project": "roller-master",
+        "line": 371,
+        "hash": "be09e672164a7423c5d13290ff0ee845",
+        "textRange": {
+            "startLine": 371,
+            "endLine": 371,
+            "startOffset": 68,
+            "endOffset": 77
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBiuQ1Qxdgjibf2b",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/FileContent.java",
+        "project": "roller-master",
+        "line": 76,
+        "hash": "e213d1078e27e2d7a30a4bcf3b4a47f4",
+        "textRange": {
+            "startLine": 76,
+            "endLine": 76,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBiUQ1Qxdgjibf2V",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/GlobalPermission.java",
+        "project": "roller-master",
+        "line": 90,
+        "hash": "c7cff451c289737e413aa8a96762ff80",
+        "textRange": {
+            "startLine": 90,
+            "endLine": 90,
+            "startOffset": 68,
+            "endOffset": 86
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.WebloggerException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBiUQ1Qxdgjibf2U",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/GlobalPermission.java",
+        "project": "roller-master",
+        "line": 79,
+        "hash": "1917d22a191d5bc41ef01c9642fd511a",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 57,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.WebloggerException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCC8Q1QxdgjibgHY",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/themes/SharedThemeTemplate.java",
+        "project": "roller-master",
+        "line": 55,
+        "hash": "9c55200328e17908fb1b536e79a4a084",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 11,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2014-07-24T22:44:41+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXb",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 614,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 614,
+            "endLine": 614,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-14T12:33:43+0100",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCOlQ1QxdgjibgN8",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/MailUtil.java",
+        "project": "roller-master",
+        "line": 258,
+        "hash": "bf158e763461a9887e8cd00df717ad5a",
+        "textRange": {
+            "startLine": 258,
+            "endLine": 258,
+            "startOffset": 19,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.util.MailUtil$MailingException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBiHQ1Qxdgjibf1q",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/WeblogEntry.java",
+        "project": "roller-master",
+        "line": 116,
+        "hash": "dd35be30e8318e19e297547876b7d2d7",
+        "textRange": {
+            "startLine": 116,
+            "endLine": 116,
+            "startOffset": 11,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXJ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 132,
+        "hash": "0d049d7c9961b216f972e214f065e1a9",
+        "textRange": {
+            "startLine": 132,
+            "endLine": 132,
+            "startOffset": 47,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-01-07T15:29:33+0100",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBw-Q1Qxdgjibf-c",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/rendering/util/ParsedRequest.java",
+        "project": "roller-master",
+        "line": 67,
+        "hash": "7391622ee36571eab491125ecb3a0411",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 60,
+            "endOffset": 83
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.ui.rendering.util.InvalidRequestException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCFfQ1QxdgjibgIV",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/runnable/RollerTask.java",
+        "project": "roller-master",
+        "line": 43,
+        "hash": "387e8d87f9b176657d247a7d5fe39515",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 41,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.roller.weblogger.WebloggerException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCTNQ1QxdgjibgVj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/webservices/xmlrpc/MetaWeblogAPIHandler.java",
+        "project": "roller-master",
+        "line": 393,
+        "hash": "f1f215b9e7434628095a744333182a23",
+        "textRange": {
+            "startLine": 393,
+            "endLine": 393,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBiHQ1Qxdgjibf1r",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/WeblogEntry.java",
+        "project": "roller-master",
+        "line": 371,
+        "hash": "be09e672164a7423c5d13290ff0ee845",
+        "textRange": {
+            "startLine": 371,
+            "endLine": 371,
+            "startOffset": 68,
+            "endOffset": 77
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCWAQ1QxdgjibgXo",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/TestUtils.java",
+        "project": "roller-master",
+        "line": 104,
+        "hash": "a6149bcb4e206a776b11d12f2d93c7d4",
+        "textRange": {
+            "startLine": 104,
+            "endLine": 104,
+            "startOffset": 50,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCLoQ1QxdgjibgMV",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/UserManager.java",
+        "project": "roller-master",
+        "line": 317,
+        "hash": "c2ac76c7a35e358c8e35f29a279819c6",
+        "textRange": {
+            "startLine": 317,
+            "endLine": 317,
+            "startOffset": 17,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2013-07-19T13:01:23+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCalQ1QxdgjibgZJ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/util/DateUtil.java",
+        "project": "roller-master",
+        "line": 521,
+        "hash": "238848bb3bfbb99fb74cf6a7e8995b0b",
+        "textRange": {
+            "startLine": 521,
+            "endLine": 521,
+            "startOffset": 57,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCZ-Q1QxdgjibgY6",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/planet/util/MailUtil.java",
+        "project": "roller-master",
+        "line": 52,
+        "hash": "1932b97f134db8a2625375da5a911564",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 23,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2013-09-09T04:49:44+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCHBQ1QxdgjibgI_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/GuiceWebloggerProvider.java",
+        "project": "roller-master",
+        "line": 82,
+        "hash": "50bb62588aa4684e2de004e48db3f30f",
+        "textRange": {
+            "startLine": 82,
+            "endLine": 82,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-06-07T13:19:05+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFB-QQ1QxdgjibgFq",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/core/security/RollerRememberMeAuthenticationProvider.java",
+        "project": "roller-master",
+        "line": 37,
+        "hash": "0285e6eea6d36962c14bbd7979f5d86a",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-05-11T23:13:20+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCYVQ1QxdgjibgYf",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/planet/pojos/Planet.java",
+        "project": "roller-master",
+        "line": 51,
+        "hash": "4012ce04c2f06660aab60ca78c2ac2e4",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2013-12-17T16:11:42+0100",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCHKQ1QxdgjibgJE",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/startup/DatabaseScriptProvider.java",
+        "project": "roller-master",
+        "line": 32,
+        "hash": "58c26e0642284f0c32d5de5f4e8f5525",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 54,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-07-20T21:21:47+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCQrQ1QxdgjibgQ1",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/util/StandaloneWebappClassLoader.java",
+        "project": "roller-master",
+        "line": 37,
+        "hash": "d11d11cb8ce056a8bfe974f7163472fe",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 25,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make FS a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFB6SQ1QxdgjibgD7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/rendering/velocity/RollerResourceLoader.java",
+        "project": "roller-master",
+        "line": 106,
+        "hash": "051c31accb36c0e1c20a131a42b3ffe6",
+        "textRange": {
+            "startLine": 106,
+            "endLine": 106,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFB6GQ1QxdgjibgD5",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/rendering/velocity/ThemeResourceLoader.java",
+        "project": "roller-master",
+        "line": 124,
+        "hash": "051c31accb36c0e1c20a131a42b3ffe6",
+        "textRange": {
+            "startLine": 124,
+            "endLine": 124,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFB58Q1QxdgjibgD4",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/rendering/velocity/RollerVelocity.java",
+        "project": "roller-master",
+        "line": 39,
+        "hash": "5a14b703ac2a08498a7eeb2b61e5b3c9",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCJkQ1QxdgjibgLe",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/jpa/JPAPropertiesManagerImpl.java",
+        "project": "roller-master",
+        "line": 83,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 83,
+            "endLine": 83,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCEkQ1QxdgjibgIM",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/plugins/entry/SmileysPlugin.java",
+        "project": "roller-master",
+        "line": 41,
+        "hash": "8320c9c769bb9e5c6032127b55c68d5c",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 28,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2014-03-23T03:09:29+0100",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCEkQ1QxdgjibgIK",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/plugins/entry/SmileysPlugin.java",
+        "project": "roller-master",
+        "line": 41,
+        "hash": "8320c9c769bb9e5c6032127b55c68d5c",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 28,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make smileyPatterns a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2014-03-23T03:09:29+0100",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCEkQ1QxdgjibgIJ",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/plugins/entry/SmileysPlugin.java",
+        "project": "roller-master",
+        "line": 41,
+        "hash": "8320c9c769bb9e5c6032127b55c68d5c",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 28,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static smileyPatterns\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2014-03-23T03:09:29+0100",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCMcQ1QxdgjibgMn",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/FileContentManagerImpl.java",
+        "project": "roller-master",
+        "line": 228,
+        "hash": "994ac230fb0dc17586983c847ce9a1b0",
+        "textRange": {
+            "startLine": 228,
+            "endLine": 228,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCMcQ1QxdgjibgMm",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/business/FileContentManagerImpl.java",
+        "project": "roller-master",
+        "line": 179,
+        "hash": "994ac230fb0dc17586983c847ce9a1b0",
+        "textRange": {
+            "startLine": 179,
+            "endLine": 179,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFB_VQ1QxdgjibgGL",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/core/tags/calendar/CalendarTag.java",
+        "project": "roller-master",
+        "line": 112,
+        "hash": "f8a3e510bba59453a239a25abec3271a",
+        "textRange": {
+            "startLine": 112,
+            "endLine": 112,
+            "startOffset": 51,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.servlet.jsp.JspException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCANQ1QxdgjibgGe",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/core/RollerSession.java",
+        "project": "roller-master",
+        "line": 139,
+        "hash": "3d283375ae814b5a2563097abeca9194",
+        "textRange": {
+            "startLine": 139,
+            "endLine": 139,
+            "startOffset": 16,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFB_VQ1QxdgjibgGQ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/ui/core/tags/calendar/CalendarTag.java",
+        "project": "roller-master",
+        "line": 371,
+        "hash": "baf613b2595fe20848bab6be7c7391fe",
+        "textRange": {
+            "startLine": 371,
+            "endLine": 371,
+            "startOffset": 49,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.servlet.jsp.JspException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCRPQ1QxdgjibgRR",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/webservices/oauth/AuthorizationServlet.java",
+        "project": "roller-master",
+        "line": 125,
+        "hash": "813138a6b0ebd1701e633e839b963bc7",
+        "textRange": {
+            "startLine": 125,
+            "endLine": 125,
+            "startOffset": 28,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFBiHQ1Qxdgjibf2E",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/pojos/WeblogEntry.java",
+        "project": "roller-master",
+        "line": 755,
+        "hash": "8dee475da7cc6b379d1c48ad77958ccb",
+        "textRange": {
+            "startLine": 755,
+            "endLine": 755,
+            "startOffset": 18,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4bFCURQ1QxdgjibgWa",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "roller-master:app/src/main/java/org/apache/roller/weblogger/planet/tasks/RefreshRollerPlanetTask.java",
+        "project": "roller-master",
+        "line": 46,
+        "hash": "67831fb4b4363a188b328ac7c488a723",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 25,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static NAME\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2013-06-08T23:44:53+0200",
+        "updateDate": "2019-10-30T06:07:41+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

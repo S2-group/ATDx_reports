@@ -1,0 +1,312 @@
+[
+    {
+        "key": "AWo8uIKPK1LJlmpka27R",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager:src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/post/ModifyAceServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager",
+        "line": 138,
+        "hash": "386b6d88d21fde5977b2f14949f5fa76",
+        "textRange": {
+            "startLine": 138,
+            "endLine": 138,
+            "startOffset": 16,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2018-08-19T22:38:40+0200",
+        "updateDate": "2019-04-20T23:47:50+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4ULRCLrxTRRNL2VMpH",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager:src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/post/ModifyAceServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager",
+        "line": 264,
+        "hash": "e4bf8b19322e7222be1da3b7833334ab",
+        "textRange": {
+            "startLine": 264,
+            "endLine": 264,
+            "startOffset": 16,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-10-28T22:01:52+0100",
+        "updateDate": "2019-10-28T22:01:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8uIJxK1LJlmpka26k",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager:src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/PrivilegesInfo.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager",
+        "line": 86,
+        "hash": "6798eb564c64bd26611c130d5f76000a",
+        "textRange": {
+            "startLine": 86,
+            "endLine": 86,
+            "startOffset": 4,
+            "endOffset": 13
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-20T23:47:50+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8uIKCK1LJlmpka27F",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager:src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/post/AbstractAccessPostServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager",
+        "line": 164,
+        "hash": "12dde85e8511caf8544fa4c640eb74ab",
+        "textRange": {
+            "startLine": 164,
+            "endLine": 164,
+            "startOffset": 35,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2012-12-11T15:57:03+0100",
+        "updateDate": "2019-04-20T23:47:50+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8uIKTK1LJlmpka27X",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager:src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/post/DeleteAcesServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager",
+        "line": 114,
+        "hash": "386b6d88d21fde5977b2f14949f5fa76",
+        "textRange": {
+            "startLine": 114,
+            "endLine": 114,
+            "startOffset": 16,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2018-08-19T22:38:40+0200",
+        "updateDate": "2019-04-20T23:47:50+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8uIKCK1LJlmpka268",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager:src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/post/AbstractAccessPostServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager",
+        "line": 511,
+        "hash": "a4c1f4b675e63259e5c643d284febadf",
+        "textRange": {
+            "startLine": 511,
+            "endLine": 511,
+            "startOffset": 19,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make ranking a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-19T22:38:40+0200",
+        "updateDate": "2019-04-20T23:47:50+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8uIKCK1LJlmpka27G",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager:src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/post/AbstractAccessPostServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager",
+        "line": 220,
+        "hash": "7af4a3e782460284b0a753ebc565a95a",
+        "textRange": {
+            "startLine": 220,
+            "endLine": 220,
+            "startOffset": 16,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-19T22:38:40+0200",
+        "updateDate": "2019-04-20T23:47:50+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8uIKCK1LJlmpka27I",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager:src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/post/AbstractAccessPostServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager",
+        "line": 244,
+        "hash": "17622f1a0948fece3d60d79f234505ae",
+        "textRange": {
+            "startLine": 244,
+            "endLine": 244,
+            "startOffset": 21,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2012-12-11T15:57:03+0100",
+        "updateDate": "2019-04-20T23:47:50+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW4Fe9IErxTRRNL2lPZy",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager:src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/ModifyAce.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager",
+        "line": 163,
+        "hash": "bcb2b1ad17f1be592c4679d56d650d28",
+        "textRange": {
+            "startLine": 163,
+            "endLine": 163,
+            "startOffset": 14,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-10-26T02:33:35+0200",
+        "updateDate": "2019-10-26T02:33:35+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8uIKYK1LJlmpka27b",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager:src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/ModifyAce.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager",
+        "line": 125,
+        "hash": "bcb2b1ad17f1be592c4679d56d650d28",
+        "textRange": {
+            "startLine": 125,
+            "endLine": 125,
+            "startOffset": 14,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-12-16T22:58:12+0100",
+        "updateDate": "2019-04-20T23:47:50+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8uIKCK1LJlmpka267",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager:src/main/java/org/apache/sling/jcr/jackrabbit/accessmanager/post/AbstractAccessPostServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-accessmanager",
+        "line": 510,
+        "hash": "90472c75b50f66319e264962c0ecdd6c",
+        "textRange": {
+            "startLine": 510,
+            "endLine": 510,
+            "startOffset": 35,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make creator a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-19T22:38:40+0200",
+        "updateDate": "2019-04-20T23:47:50+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

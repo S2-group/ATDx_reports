@@ -1,0 +1,30 @@
+[
+    {
+        "key": "AXEb8TmpV4RdzKZavB6-",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-scriptingbundle-maven-plugin:src/main/java/org/apache/sling/scriptingbundle/maven/plugin/capability/ProvidedResourceTypeCapability.java",
+        "project": "apache_sling-scriptingbundle-maven-plugin",
+        "line": 40,
+        "hash": "582d949e3214ab23b0be7feaaa6d8b20",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 12,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-03-27T13:21:50+0100",
+        "updateDate": "2020-03-31T16:18:02+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

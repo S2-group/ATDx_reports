@@ -1,0 +1,170 @@
+[
+    {
+        "key": "AW6lUAu32OOXxfpkHtM9",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-collectors-ves:src/main/java/org/onap/dcae/common/publishing/DMaaPPublishersBuilder.java",
+        "project": "onap_dcaegen2-collectors-ves",
+        "line": 34,
+        "hash": "78370cf2cf3acd0e5f854cd262f6aa85",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 12,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-07-02T09:52:44+0200",
+        "updateDate": "2019-11-26T02:25:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lUAur2OOXxfpkHtM8",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-collectors-ves:src/main/java/org/onap/dcae/common/publishing/DMaaPConfigurationParser.java",
+        "project": "onap_dcaegen2-collectors-ves",
+        "line": 42,
+        "hash": "2c9fc31f17c2140190452c13ab947a55",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 19,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-07-02T09:52:44+0200",
+        "updateDate": "2019-11-26T02:25:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lUAta2OOXxfpkHtL1",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-collectors-ves:src/main/java/org/onap/dcae/controller/ConfigSource.java",
+        "project": "onap_dcaegen2-collectors-ves",
+        "line": 37,
+        "hash": "cd1f394f9ef637bc0ad5af3841d0d5d0",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 12,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-06T09:43:32+0200",
+        "updateDate": "2019-11-26T02:25:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lUAwO2OOXxfpkHtNW",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-collectors-ves:src/main/java/org/onap/dcae/common/VESLogger.java",
+        "project": "onap_dcaegen2-collectors-ves",
+        "line": 30,
+        "hash": "a68cf0a0b641d0c712d551b2a9e7ffae",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-23T06:57:24+0200",
+        "updateDate": "2019-11-26T02:25:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lUAxm2OOXxfpkHtNp",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-collectors-ves:src/main/java/org/onap/dcae/CLIUtils.java",
+        "project": "onap_dcaegen2-collectors-ves",
+        "line": 28,
+        "hash": "d597c49fec5a7b8613b5236cc166a0cf",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-07-18T11:12:09+0200",
+        "updateDate": "2019-11-26T02:25:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lUAtv2OOXxfpkHtL9",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-collectors-ves:src/main/java/org/onap/dcae/controller/EnvPropertiesReader.java",
+        "project": "onap_dcaegen2-collectors-ves",
+        "line": 32,
+        "hash": "b212ddbe44f85cfd82c1b112a56f1168",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 12,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-06T09:43:32+0200",
+        "updateDate": "2019-11-26T02:25:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

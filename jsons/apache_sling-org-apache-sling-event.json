@@ -1,0 +1,1047 @@
+[
+    {
+        "key": "AWpSxnzmYsUHy63nxTNJ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/config/TopologyHandler.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 114,
+        "hash": "46b3ad391b6ca7e8e7163757ba1458b8",
+        "textRange": {
+            "startLine": 114,
+            "endLine": 114,
+            "startOffset": 29,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make event a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxnz_YsUHy63nxTNx",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/JobConsumerManager.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 407,
+        "hash": "d5f00bfc970b0b035ccc8f931bd829b6",
+        "textRange": {
+            "startLine": 407,
+            "endLine": 407,
+            "startOffset": 27,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make executor a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn1UYsUHy63nxTQK",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/JobManagerImpl.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 133,
+        "hash": "b9f6b1fb96f696a33da17e5c6b521b07",
+        "textRange": {
+            "startLine": 133,
+            "endLine": 133,
+            "startOffset": 93,
+            "endOffset": 107
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.api.resource.LoginException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxnz3YsUHy63nxTNp",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/config/ConfigurationConstants.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 24,
+        "hash": "8e79fe223e2aa38169d10197b0fc6e80",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 22,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxnzxYsUHy63nxTNc",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/config/JobManagerConfiguration.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 291,
+        "hash": "6fcf0c4a837a31e4dd7f6b015fadac0c",
+        "textRange": {
+            "startLine": 291,
+            "endLine": 291,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxnzxYsUHy63nxTNb",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/config/JobManagerConfiguration.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 219,
+        "hash": "c99c3b043287f40cae497e0d0257a30b",
+        "textRange": {
+            "startLine": 219,
+            "endLine": 219,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn1vYsUHy63nxTQu",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/support/Environment.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 28,
+        "hash": "311d5783d10d8d887f481e8d08d83a98",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn1vYsUHy63nxTQq",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/support/Environment.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 34,
+        "hash": "e4117103b406e94686d082453152b851",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 38,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make THREAD_POOL a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn1vYsUHy63nxTQp",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/support/Environment.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 31,
+        "hash": "3042ba89c96295f7f1dc22f1fd5ffe6e",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make APPLICATION_ID a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn1vYsUHy63nxTQo",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/support/Environment.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 34,
+        "hash": "e4117103b406e94686d082453152b851",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 38,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static THREAD_POOL\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn1vYsUHy63nxTQn",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/support/Environment.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 31,
+        "hash": "3042ba89c96295f7f1dc22f1fd5ffe6e",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static APPLICATION_ID\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxnz7YsUHy63nxTNs",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/config/QueueConfigurationManager.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 123,
+        "hash": "e69f17732c7cea86baaf0d3d4921591c",
+        "textRange": {
+            "startLine": 123,
+            "endLine": 123,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make targetId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxnz7YsUHy63nxTNr",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/config/QueueConfigurationManager.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 122,
+        "hash": "a4ae99a32aa4521dce4f0ec8915445a5",
+        "textRange": {
+            "startLine": 122,
+            "endLine": 122,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make queueName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxnz7YsUHy63nxTNq",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/config/QueueConfigurationManager.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 121,
+        "hash": "0339170eabc200bd73ce29be2915fa05",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 42,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make queueConfiguration a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn1nYsUHy63nxTQj",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/Utility.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 41,
+        "hash": "7187a97569b2476cc3e487f99c3a8b0c",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 22,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn2CYsUHy63nxTRC",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/support/TopicMatcherHelper.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 23,
+        "hash": "4f2d13f38b0db85c29c4a53424b2e4a0",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 39,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn2CYsUHy63nxTRB",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/support/TopicMatcherHelper.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 21,
+        "hash": "1ace3db6ac3f2474124666a2614d322c",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 22,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn1-YsUHy63nxTQ9",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/support/ResourceHelper.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 44,
+        "hash": "29909c787b05bae41bb32432227b9d71",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 22,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxnzYYsUHy63nxTMp",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/scheduling/ScheduledJobHandler.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 54,
+        "hash": "636b4fa8a1e0f8cf755e9af97b1f3560",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 36,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make info a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxnzYYsUHy63nxTMo",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/scheduling/ScheduledJobHandler.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 53,
+        "hash": "ac38e28c3066c2b1a16ea6eccbf6afbd",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make created a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn1ZYsUHy63nxTQT",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/JobHandler.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 48,
+        "hash": "ed5f7f1b8c9d729c560c181cf28c9c34",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 25,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make started a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxnzgYsUHy63nxTM5",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/config/InternalQueueConfiguration.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 396,
+        "hash": "dbedb92425c9e0dd185eb45a001b1bdd",
+        "textRange": {
+            "startLine": 396,
+            "endLine": 396,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn1PYsUHy63nxTQD",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/queues/QueueServices.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 45,
+        "hash": "cf6c89058541827499bed323a2cc5561",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 22,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make eventingThreadPool a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn1PYsUHy63nxTQC",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/queues/QueueServices.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 43,
+        "hash": "94573cdec1e44c5795199073b886d461",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 29,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make statisticsManager a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn1PYsUHy63nxTQB",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/queues/QueueServices.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 41,
+        "hash": "65eba8b569b9d9bce8c42b057b50914c",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 29,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make threadPoolManager a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn1PYsUHy63nxTQA",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/queues/QueueServices.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 39,
+        "hash": "8da8d83bc6429cc5550d645cc377c67a",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 22,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make eventAdmin a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn1PYsUHy63nxTP_",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/queues/QueueServices.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 37,
+        "hash": "b090bcb41f1ba1d6f94a076dc4286f9e",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 30,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make jobConsumerManager a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn1PYsUHy63nxTP-",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/queues/QueueServices.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 35,
+        "hash": "bf6d805a6d4486a7c572bda4d5f1f18a",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 35,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make configuration a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn0_YsUHy63nxTPo",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/queues/JobQueueImpl.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 437,
+        "hash": "03e30dcf2774dc6003b9a876b4bb7c49",
+        "textRange": {
+            "startLine": 437,
+            "endLine": 437,
+            "startOffset": 38,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make finalState a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn0QYsUHy63nxTOE",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/notifications/NotificationUtility.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 32,
+        "hash": "c0c5548203feb162257e8ceaf569208a",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 22,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn0_YsUHy63nxTPn",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/queues/JobQueueImpl.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 436,
+        "hash": "e8bed5d0fc9290d2a1fe8e1e9788fd59",
+        "textRange": {
+            "startLine": 436,
+            "endLine": 436,
+            "startOffset": 28,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make state a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn0_YsUHy63nxTPm",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/queues/JobQueueImpl.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 435,
+        "hash": "39cb584e8544e0beab78e45b630cf961",
+        "textRange": {
+            "startLine": 435,
+            "endLine": 435,
+            "startOffset": 28,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make processingTime a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn0_YsUHy63nxTPl",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/queues/JobQueueImpl.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 433,
+        "hash": "fe516331990cf8742f543f4aa0ce1186",
+        "textRange": {
+            "startLine": 433,
+            "endLine": 433,
+            "startOffset": 28,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make reschedule a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxnzYYsUHy63nxTMq",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/jobs/scheduling/ScheduledJobHandler.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 55,
+        "hash": "9ac562f2521764349e2f51b893e338a2",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 20,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make read a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn2KYsUHy63nxTRH",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/EnvironmentComponent.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 73,
+        "hash": "7d95b42f673f1165451d1314108cadb1",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 24,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn2KYsUHy63nxTRG",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/EnvironmentComponent.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 63,
+        "hash": "057c700ac17ee741ed68cf8c2aa8c9ae",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 20,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpSxn2KYsUHy63nxTRF",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "apache_sling-org-apache-sling-event:src/main/java/org/apache/sling/event/impl/EnvironmentComponent.java",
+        "project": "apache_sling-org-apache-sling-event",
+        "line": 62,
+        "hash": "346e187e4325f5f82b5e87c6bf3107e5",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 20,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2017-03-29T09:57:17+0200",
+        "updateDate": "2019-04-25T06:34:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,148 @@
+[
+    {
+        "key": "AWoxoRdaYsUHy63nas8K",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-get:src/main/java/org/apache/sling/servlets/get/impl/util/ResourceTraversor.java",
+        "project": "apache_sling-org-apache-sling-servlets-get",
+        "line": 81,
+        "hash": "edb226f97b4f132a39c7d48838dd857d",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 41,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.api.request.RecursionTooDeepException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-03-28T15:02:19+0200",
+        "updateDate": "2019-04-18T20:06:25+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxoRc1YsUHy63nas7Q",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-get:src/main/java/org/apache/sling/servlets/get/impl/helpers/StreamRenderer.java",
+        "project": "apache_sling-org-apache-sling-servlets-get",
+        "line": 743,
+        "hash": "a930099ad0f2ecc1e4f3a147299ee9b9",
+        "textRange": {
+            "startLine": 743,
+            "endLine": 743,
+            "startOffset": 20,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make end a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2010-10-02T02:13:29+0200",
+        "updateDate": "2019-04-18T20:06:25+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxoRc1YsUHy63nas7P",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-get:src/main/java/org/apache/sling/servlets/get/impl/helpers/StreamRenderer.java",
+        "project": "apache_sling-org-apache-sling-servlets-get",
+        "line": 741,
+        "hash": "16c6d61fcd55cc01bb1d270d189f6b2a",
+        "textRange": {
+            "startLine": 741,
+            "endLine": 741,
+            "startOffset": 20,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make start a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2010-10-02T02:13:29+0200",
+        "updateDate": "2019-04-18T20:06:25+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxoRcpYsUHy63nas7A",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-get:src/main/java/org/apache/sling/servlets/get/impl/helpers/JsonRenderer.java",
+        "project": "apache_sling-org-apache-sling-servlets-get",
+        "line": 153,
+        "hash": "2a9ded02c4c6dfb8c08a5bd0a4669695",
+        "textRange": {
+            "startLine": 153,
+            "endLine": 153,
+            "startOffset": 75,
+            "endOffset": 99
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-07-24T13:38:45+0200",
+        "updateDate": "2019-04-18T20:06:25+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxoRc1YsUHy63nas7R",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-get:src/main/java/org/apache/sling/servlets/get/impl/helpers/StreamRenderer.java",
+        "project": "apache_sling-org-apache-sling-servlets-get",
+        "line": 745,
+        "hash": "a451d8c98ef0826491f6f5fee253a114",
+        "textRange": {
+            "startLine": 745,
+            "endLine": 745,
+            "startOffset": 20,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make length a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2010-10-02T02:13:29+0200",
+        "updateDate": "2019-04-18T20:06:25+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

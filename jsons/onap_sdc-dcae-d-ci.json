@@ -1,0 +1,2180 @@
+[
+    {
+        "key": "AW6ljYENq7sQNeyHaxm5",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/services/attachment/PostAttachment.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 136,
+        "hash": "713a07e90148ed9b7f21589d83e843a4",
+        "textRange": {
+            "startLine": 136,
+            "endLine": 136,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYENq7sQNeyHaxm4",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/services/attachment/PostAttachment.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 114,
+        "hash": "713a07e90148ed9b7f21589d83e843a4",
+        "textRange": {
+            "startLine": 114,
+            "endLine": 114,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYENq7sQNeyHaxm3",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/services/attachment/PostAttachment.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 84,
+        "hash": "713a07e90148ed9b7f21589d83e843a4",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDwq7sQNeyHaxl0",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/lifeCycle/PutCheckout.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 116,
+        "hash": "12a86429250f01765214312e2647b361",
+        "textRange": {
+            "startLine": 116,
+            "endLine": 116,
+            "startOffset": 52,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDwq7sQNeyHaxlz",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/lifeCycle/PutCheckout.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 104,
+        "hash": "bd9e79e7b440cb26c18d1c4025190a62",
+        "textRange": {
+            "startLine": 104,
+            "endLine": 104,
+            "startOffset": 52,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDwq7sQNeyHaxly",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/lifeCycle/PutCheckout.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 93,
+        "hash": "f5284917d894df4d4d3bd3e988c73fd2",
+        "textRange": {
+            "startLine": 93,
+            "endLine": 93,
+            "startOffset": 53,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDwq7sQNeyHaxlx",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/lifeCycle/PutCheckout.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 82,
+        "hash": "aef6cc29a20403fdc3e25404cc975087",
+        "textRange": {
+            "startLine": 82,
+            "endLine": 82,
+            "startOffset": 59,
+            "endOffset": 68
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDwq7sQNeyHaxlw",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/lifeCycle/PutCheckout.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 62,
+        "hash": "886628f41b41ecb437cac2924fad406c",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 42,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDwq7sQNeyHaxlv",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/lifeCycle/PutCheckout.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 47,
+        "hash": "e806b0c9221e2254ec99f2084a2103ec",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 45,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDwq7sQNeyHaxl1",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/lifeCycle/PutCheckout.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 127,
+        "hash": "03cdf89fffee31325aa09d7455a43437",
+        "textRange": {
+            "startLine": 127,
+            "endLine": 127,
+            "startOffset": 53,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDOq7sQNeyHaxkq",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/vfcmt/CreateMonitoringComponent.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 245,
+        "hash": "922c173709a636bc3c6e14b27e510d21",
+        "textRange": {
+            "startLine": 245,
+            "endLine": 245,
+            "startOffset": 77,
+            "endOffset": 86
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDOq7sQNeyHaxkp",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/vfcmt/CreateMonitoringComponent.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 205,
+        "hash": "6ccc7f3e66077b5cd765cfa429608011",
+        "textRange": {
+            "startLine": 205,
+            "endLine": 205,
+            "startOffset": 75,
+            "endOffset": 84
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDOq7sQNeyHaxko",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/vfcmt/CreateMonitoringComponent.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 163,
+        "hash": "d1e835df8df9e6905ac086593c2c02a7",
+        "textRange": {
+            "startLine": 163,
+            "endLine": 163,
+            "startOffset": 90,
+            "endOffset": 99
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYCxq7sQNeyHaxj5",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/DcaeUtil.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 82,
+        "hash": "29ef52d33c856cb2b86223148364afe4",
+        "textRange": {
+            "startLine": 82,
+            "endLine": 82,
+            "startOffset": 90,
+            "endOffset": 104
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.simple.parser.ParseException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-05-22T09:49:04+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYCxq7sQNeyHaxj4",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/DcaeUtil.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 44,
+        "hash": "fce5744f1c2cb1a0605fb4d8a6860d0b",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 24,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-05-22T09:49:04+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYCxq7sQNeyHaxj3",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/DcaeUtil.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 41,
+        "hash": "0a293a242a324f8d329717c1667cb81f",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-05-22T09:49:04+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYCxq7sQNeyHaxj2",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/DcaeUtil.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 50,
+        "hash": "13aec821fbee4d955a6a9facab52247b",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 65,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-22T09:49:04+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYCxq7sQNeyHaxj0",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/DcaeUtil.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 42,
+        "hash": "1d3b1ace1fc8859ec0832af9838b12c0",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 23,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make gson a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-05-22T09:49:04+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDhq7sQNeyHaxlI",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/composition/CompositionControllerApiTests.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 115,
+        "hash": "060aa69539a345fb88034b7777f76d2d",
+        "textRange": {
+            "startLine": 115,
+            "endLine": 115,
+            "startOffset": 45,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDhq7sQNeyHaxlH",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/composition/CompositionControllerApiTests.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 59,
+        "hash": "c480d49f4532ae0f0307935c6f603cc0",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 51,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYEVq7sQNeyHaxnQ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/services/instance/GetServiceInstancePositive.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 116,
+        "hash": "d4322b3055a3d0c5eac4a40ba893f3ac",
+        "textRange": {
+            "startLine": 116,
+            "endLine": 116,
+            "startOffset": 53,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYCjq7sQNeyHaxje",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/report/Report.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 31,
+        "hash": "941e1ff16c572455e0abe436d4a3c3c7",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-05-22T09:49:04+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW_Nd8wmAswFs5HO9BL4",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/services/instance/GetServiceInstancePositive.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 100,
+        "hash": "e635c99ddcead4c82f9df6b82a003bc3",
+        "textRange": {
+            "startLine": 100,
+            "endLine": 100,
+            "startOffset": 44,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2020-01-22T14:35:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYENq7sQNeyHaxm2",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/services/attachment/PostAttachment.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 56,
+        "hash": "713a07e90148ed9b7f21589d83e843a4",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYC9q7sQNeyHaxkF",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/DcaeTestConstants.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 31,
+        "hash": "fb8eefed76ffb1c150e3b9990cacbfcb",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 15,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYC9q7sQNeyHaxkD",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/DcaeTestConstants.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 25,
+        "hash": "82f1f66ea27ce1f18fe2e5cdca14b389",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 14,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYEVq7sQNeyHaxnN",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/services/instance/GetServiceInstancePositive.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 107,
+        "hash": "db591dcdd0ee94c0906e95e8dbf8955d",
+        "textRange": {
+            "startLine": 107,
+            "endLine": 107,
+            "startOffset": 53,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYESq7sQNeyHaxnD",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/services/attachment/GetAttachment.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 66,
+        "hash": "5161e8cf18fa219f3d83f1e2df9dadf9",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 57,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYENq7sQNeyHaxm8",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/services/attachment/PostAttachment.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 189,
+        "hash": "26c71516dd72b37253822ec52f1e433d",
+        "textRange": {
+            "startLine": 189,
+            "endLine": 189,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYENq7sQNeyHaxm7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/services/attachment/PostAttachment.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 171,
+        "hash": "09d003fcb928e54fefe51f5e9a9f2b4b",
+        "textRange": {
+            "startLine": 171,
+            "endLine": 171,
+            "startOffset": 33,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYENq7sQNeyHaxm6",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/services/attachment/PostAttachment.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 158,
+        "hash": "713a07e90148ed9b7f21589d83e843a4",
+        "textRange": {
+            "startLine": 158,
+            "endLine": 158,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYEgq7sQNeyHaxnc",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/DcaeRestBaseTest.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 60,
+        "hash": "e811b6b9e39539bc9034fcc3a79e7e8d",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 20,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make gson a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDOq7sQNeyHaxkn",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/vfcmt/CreateMonitoringComponent.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 127,
+        "hash": "dce771d9dc792e8516929678e9ce459d",
+        "textRange": {
+            "startLine": 127,
+            "endLine": 127,
+            "startOffset": 76,
+            "endOffset": 85
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYD3q7sQNeyHaxl_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/lifeCycle/PutCertify.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 41,
+        "hash": "2f672ce42f27a646efa4c5777739296e",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 43,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-22T09:49:04+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYCmq7sQNeyHaxjl",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/SetupReport.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 63,
+        "hash": "c6aa755da67bb74b61785dd366eca83b",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 2,
+            "endOffset": 10
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-05-22T09:49:04+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYD9q7sQNeyHaxmf",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/ruleEditor/RuleEditorControllerTest.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 455,
+        "hash": "5499d4e46d9806e9b1c842b4744ea65c",
+        "textRange": {
+            "startLine": 455,
+            "endLine": 455,
+            "startOffset": 59,
+            "endOffset": 68
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-06T14:26:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYD9q7sQNeyHaxme",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/ruleEditor/RuleEditorControllerTest.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 416,
+        "hash": "8447d1cf38a6e49a421c9061ade95cfd",
+        "textRange": {
+            "startLine": 416,
+            "endLine": 416,
+            "startOffset": 65,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYD9q7sQNeyHaxmd",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/ruleEditor/RuleEditorControllerTest.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 401,
+        "hash": "1e552f82c7327801b7758947487fdf08",
+        "textRange": {
+            "startLine": 401,
+            "endLine": 401,
+            "startOffset": 146,
+            "endOffset": 155
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYD9q7sQNeyHaxmc",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/ruleEditor/RuleEditorControllerTest.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 377,
+        "hash": "01b7fd1b515f7552bc857320d98ded4c",
+        "textRange": {
+            "startLine": 377,
+            "endLine": 377,
+            "startOffset": 59,
+            "endOffset": 68
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYD9q7sQNeyHaxmb",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/ruleEditor/RuleEditorControllerTest.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 365,
+        "hash": "7c867daba5393f6b61e1f88903a509d1",
+        "textRange": {
+            "startLine": 365,
+            "endLine": 365,
+            "startOffset": 52,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYD9q7sQNeyHaxma",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/ruleEditor/RuleEditorControllerTest.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 353,
+        "hash": "5ed9d582bcc49eb25f8ec18ffd97234e",
+        "textRange": {
+            "startLine": 353,
+            "endLine": 353,
+            "startOffset": 51,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYD9q7sQNeyHaxmZ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/ruleEditor/RuleEditorControllerTest.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 345,
+        "hash": "bf2f74bbf72c8ab74aadd42a56939c4d",
+        "textRange": {
+            "startLine": 345,
+            "endLine": 345,
+            "startOffset": 47,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYD9q7sQNeyHaxmY",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/ruleEditor/RuleEditorControllerTest.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 337,
+        "hash": "39a247286437fafc01d9ea36c78bf934",
+        "textRange": {
+            "startLine": 337,
+            "endLine": 337,
+            "startOffset": 51,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYCpq7sQNeyHaxjo",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/DcaeEntityClient.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 57,
+        "hash": "8acbc8192fc629d131e1b55ad92ea903",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 81,
+            "endOffset": 90
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYCsq7sQNeyHaxju",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/ConfigurationReader.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 46,
+        "hash": "2694919893eecebd655f5e9719c0f630",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYCsq7sQNeyHaxjv",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/ConfigurationReader.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 27,
+        "hash": "1b06d4ade3527a1492251b683d23dd95",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 13,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYESq7sQNeyHaxnE",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/services/attachment/GetAttachment.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 74,
+        "hash": "94d1f7493d658b0865a8d34b9c4fbfcc",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 61,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW_Nd8vsAswFs5HO9BL3",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/services/list/GetAllServicesPositive.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 65,
+        "hash": "e635c99ddcead4c82f9df6b82a003bc3",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 44,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2020-01-22T14:35:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYD5q7sQNeyHaxmC",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/ruleEditor/GetListEventsAndVersionsTest.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 42,
+        "hash": "fecc0ccd3f29a93a9a2d1293767dd09e",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 43,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYEDq7sQNeyHaxmm",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/ruleEditor/GetDefinitionTest.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 122,
+        "hash": "739397150224ff533db238e62d18c30e",
+        "textRange": {
+            "startLine": 122,
+            "endLine": 122,
+            "startOffset": 98,
+            "endOffset": 116
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.google.gson.JsonParseException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYEDq7sQNeyHaxmj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/ruleEditor/GetDefinitionTest.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 78,
+        "hash": "55cd91197a01c85fa4b59445ac57af06",
+        "textRange": {
+            "startLine": 78,
+            "endLine": 78,
+            "startOffset": 72,
+            "endOffset": 81
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYEDq7sQNeyHaxmi",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/ruleEditor/GetDefinitionTest.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 59,
+        "hash": "777995101cea567c886799293d45af18",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 14,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW_Nd8p1AswFs5HO9BL2",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/vfcmt/CreateVfcmt.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 63,
+        "hash": "e635c99ddcead4c82f9df6b82a003bc3",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 44,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-05-22T09:49:04+0200",
+        "updateDate": "2020-01-22T14:35:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYEgq7sQNeyHaxnb",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/DcaeRestBaseTest.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 60,
+        "hash": "e811b6b9e39539bc9034fcc3a79e7e8d",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 20,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static gson\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYEdq7sQNeyHaxnW",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/blueprint/SaveCompositionPositve.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 76,
+        "hash": "1a186edbc49e60b05c181f3c2bf224b4",
+        "textRange": {
+            "startLine": 76,
+            "endLine": 76,
+            "startOffset": 63,
+            "endOffset": 72
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYEKq7sQNeyHaxmu",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/services/list/GetAllServicesPositive.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 72,
+        "hash": "d4322b3055a3d0c5eac4a40ba893f3ac",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 53,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDlq7sQNeyHaxlV",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/composition/GetCompositionControllerTests.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 84,
+        "hash": "3f95810bb5842a4e720ed44de99454fa",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 87,
+            "endOffset": 98
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException' which is a subclass of 'java.lang.Exception'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDRq7sQNeyHaxkt",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/vfcmt/CreateVfcmt.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 70,
+        "hash": "d4322b3055a3d0c5eac4a40ba893f3ac",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 52,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-05-22T09:49:04+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYCpq7sQNeyHaxjs",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/DcaeEntityClient.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 154,
+        "hash": "ccc1092e70dc8bfd1dbb14b8840ada27",
+        "textRange": {
+            "startLine": 154,
+            "endLine": 154,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYCpq7sQNeyHaxjr",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/DcaeEntityClient.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 124,
+        "hash": "0150e10617e420ffd2d50896792a0061",
+        "textRange": {
+            "startLine": 124,
+            "endLine": 124,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYCpq7sQNeyHaxjp",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/DcaeEntityClient.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 109,
+        "hash": "f473550b6991b5dd50ab113382156860",
+        "textRange": {
+            "startLine": 109,
+            "endLine": 109,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYCpq7sQNeyHaxjq",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/DcaeEntityClient.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 106,
+        "hash": "9095a8dd3c71f8c2c1ba840a5c2328d3",
+        "textRange": {
+            "startLine": 106,
+            "endLine": 106,
+            "startOffset": 70,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-22T09:49:04+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYCpq7sQNeyHaxjn",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/DcaeEntityClient.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 61,
+        "hash": "f473550b6991b5dd50ab113382156860",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYCxq7sQNeyHaxjz",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/DcaeUtil.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 42,
+        "hash": "1d3b1ace1fc8859ec0832af9838b12c0",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 23,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static gson\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2018-05-22T09:49:04+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYCvq7sQNeyHaxjx",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/utilities/StringUtils.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 27,
+        "hash": "3e3510ab100bb0e4a41e5e402d2f35c3",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDlq7sQNeyHaxlR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/composition/GetCompositionControllerTests.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 113,
+        "hash": "1a186edbc49e60b05c181f3c2bf224b4",
+        "textRange": {
+            "startLine": 113,
+            "endLine": 113,
+            "startOffset": 63,
+            "endOffset": 72
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDsq7sQNeyHaxlk",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/lifeCycle/PutCheckin.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 99,
+        "hash": "12a86429250f01765214312e2647b361",
+        "textRange": {
+            "startLine": 99,
+            "endLine": 99,
+            "startOffset": 52,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDsq7sQNeyHaxlj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/lifeCycle/PutCheckin.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 87,
+        "hash": "bd9e79e7b440cb26c18d1c4025190a62",
+        "textRange": {
+            "startLine": 87,
+            "endLine": 87,
+            "startOffset": 52,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDsq7sQNeyHaxli",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/lifeCycle/PutCheckin.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 76,
+        "hash": "f5284917d894df4d4d3bd3e988c73fd2",
+        "textRange": {
+            "startLine": 76,
+            "endLine": 76,
+            "startOffset": 53,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDsq7sQNeyHaxlh",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/lifeCycle/PutCheckin.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 65,
+        "hash": "c1ad05f058495c0abe601746bb3b1bba",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 58,
+            "endOffset": 67
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDsq7sQNeyHaxlg",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/lifeCycle/PutCheckin.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 48,
+        "hash": "0a22e70fa1362563aba05a63cc86a239",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 46,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDsq7sQNeyHaxlm",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/lifeCycle/PutCheckin.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 123,
+        "hash": "03cdf89fffee31325aa09d7455a43437",
+        "textRange": {
+            "startLine": 123,
+            "endLine": 123,
+            "startOffset": 53,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ljYDsq7sQNeyHaxll",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-ci:src/main/java/org/onap/dcae/ci/api/tests/lifeCycle/PutCheckin.java",
+        "project": "onap_sdc-dcae-d-ci",
+        "line": 110,
+        "hash": "905058b50b1fd3625418c30fcbfb670b",
+        "textRange": {
+            "startLine": 110,
+            "endLine": 110,
+            "startOffset": 48,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T15:07:20+0200",
+        "updateDate": "2019-11-26T03:32:06+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

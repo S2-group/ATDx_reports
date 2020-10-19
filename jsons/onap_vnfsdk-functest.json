@@ -1,0 +1,30 @@
+[
+    {
+        "key": "AW6lajEmr36yrbKLNB_U",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_vnfsdk-functest:vnf-sdk-function-test/src/main/java/org/onap/vnfsdk/functest/models/TaskRecord.java",
+        "project": "onap_vnfsdk-functest",
+        "line": 70,
+        "hash": "36e961375148598b212cfd8a699178c6",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 11,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-28T17:34:40+0200",
+        "updateDate": "2019-11-26T02:53:32+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

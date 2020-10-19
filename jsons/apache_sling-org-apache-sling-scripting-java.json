@@ -1,0 +1,265 @@
+[
+    {
+        "key": "AWoxUg4ZYsUHy63nTjlz",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-java:src/main/java/org/apache/sling/scripting/java/impl/CompilerUtil.java",
+        "project": "apache_sling-org-apache-sling-scripting-java",
+        "line": 19,
+        "hash": "7ce719c3d0530e5b763d77f67d71b7bf",
+        "textRange": {
+            "startLine": 19,
+            "endLine": 19,
+            "startOffset": 13,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T18:40:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxUg4VYsUHy63nTjls",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-scripting-java:src/main/java/org/apache/sling/scripting/java/impl/JavaServletContext.java",
+        "project": "apache_sling-org-apache-sling-scripting-java",
+        "line": 259,
+        "hash": "a88a5b087abb700b8d3c9cf221bfd984",
+        "textRange": {
+            "startLine": 259,
+            "endLine": 259,
+            "startOffset": 19,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T18:40:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxUg4VYsUHy63nTjlq",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-scripting-java:src/main/java/org/apache/sling/scripting/java/impl/JavaServletContext.java",
+        "project": "apache_sling-org-apache-sling-scripting-java",
+        "line": 130,
+        "hash": "7f2c4adc08c4e1801e7fc199b4a1bbff",
+        "textRange": {
+            "startLine": 130,
+            "endLine": 130,
+            "startOffset": 16,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T18:40:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxUg4RYsUHy63nTjlp",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-java:src/main/java/org/apache/sling/scripting/java/impl/SlingIOProvider.java",
+        "project": "apache_sling-org-apache-sling-scripting-java",
+        "line": 178,
+        "hash": "e4dd17f2fc4834288a22ede1d0a9f1a2",
+        "textRange": {
+            "startLine": 178,
+            "endLine": 178,
+            "startOffset": 61,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.api.SlingException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T18:40:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxUg4RYsUHy63nTjln",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-java:src/main/java/org/apache/sling/scripting/java/impl/SlingIOProvider.java",
+        "project": "apache_sling-org-apache-sling-scripting-java",
+        "line": 108,
+        "hash": "2ce4aa0c712ce507842eca4d2cd03816",
+        "textRange": {
+            "startLine": 108,
+            "endLine": 108,
+            "startOffset": 11,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T18:40:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxUg4NYsUHy63nTjlk",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-java:src/main/java/org/apache/sling/scripting/java/impl/JavaScriptEngineFactory.java",
+        "project": "apache_sling-org-apache-sling-scripting-java",
+        "line": 242,
+        "hash": "f8b917cb4e8ccecf7037aebe23c7ed71",
+        "textRange": {
+            "startLine": 242,
+            "endLine": 242,
+            "startOffset": 11,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.api.SlingException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2010-02-17T16:31:27+0100",
+        "updateDate": "2019-04-18T18:40:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxUg4VYsUHy63nTjlw",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-scripting-java:src/main/java/org/apache/sling/scripting/java/impl/JavaServletContext.java",
+        "project": "apache_sling-org-apache-sling-scripting-java",
+        "line": 285,
+        "hash": "ce1486a1e2c6f95dc459c4a1216293f3",
+        "textRange": {
+            "startLine": 285,
+            "endLine": 285,
+            "startOffset": 32,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-10-05T15:08:15+0200",
+        "updateDate": "2019-04-18T18:40:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxUg4VYsUHy63nTjlu",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-scripting-java:src/main/java/org/apache/sling/scripting/java/impl/JavaServletContext.java",
+        "project": "apache_sling-org-apache-sling-scripting-java",
+        "line": 276,
+        "hash": "8008a274806bba4afc51da3b427852f4",
+        "textRange": {
+            "startLine": 276,
+            "endLine": 276,
+            "startOffset": 31,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-10-05T15:08:15+0200",
+        "updateDate": "2019-04-18T18:40:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxUg4HYsUHy63nTjlR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-java:src/main/java/org/apache/sling/scripting/java/impl/ServletWrapper.java",
+        "project": "apache_sling-org-apache-sling-scripting-java",
+        "line": 240,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 240,
+            "endLine": 240,
+            "startOffset": 11,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2011-02-24T10:09:10+0100",
+        "updateDate": "2019-04-18T18:40:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

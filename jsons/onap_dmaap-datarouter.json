@@ -1,0 +1,650 @@
+[
+    {
+        "key": "AW8V3S5u1zbPcHHqYuom",
+        "rule": "java:S1182",
+        "severity": "MINOR",
+        "component": "onap_dmaap-datarouter:datarouter-prov/src/main/java/org/onap/dmaap/datarouter/provisioning/utils/RLEBitSet.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 420,
+        "hash": "85f26ebdf4ea5bef8adaf862b2348076",
+        "textRange": {
+            "startLine": 420,
+            "endLine": 420,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Use super.clone() to create and seed the cloned instance to be returned.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "convention",
+            "cwe"
+        ],
+        "creationDate": "2017-08-04T17:41:45+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S5u1zbPcHHqYuol",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "onap_dmaap-datarouter:datarouter-prov/src/main/java/org/onap/dmaap/datarouter/provisioning/utils/RLEBitSet.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 420,
+        "hash": "85f26ebdf4ea5bef8adaf862b2348076",
+        "textRange": {
+            "startLine": 420,
+            "endLine": 420,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-08-04T17:41:45+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S7k1zbPcHHqYup4",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-datarouter:datarouter-prov/src/main/java/org/onap/dmaap/datarouter/provisioning/SubscribeServlet.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 244,
+        "hash": "fa443cf7c77ff007afa62e8ef105eb67",
+        "textRange": {
+            "startLine": 244,
+            "endLine": 244,
+            "startOffset": 16,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-08-17T18:58:55+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S7k1zbPcHHqYup3",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-datarouter:datarouter-prov/src/main/java/org/onap/dmaap/datarouter/provisioning/SubscribeServlet.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 243,
+        "hash": "5c5a2b7e0a09074622b83b70ba3e8870",
+        "textRange": {
+            "startLine": 243,
+            "endLine": 243,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-08-17T18:58:55+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S7k1zbPcHHqYup6",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-datarouter:datarouter-prov/src/main/java/org/onap/dmaap/datarouter/provisioning/SubscribeServlet.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 351,
+        "hash": "fa443cf7c77ff007afa62e8ef105eb67",
+        "textRange": {
+            "startLine": 351,
+            "endLine": 351,
+            "startOffset": 16,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-08-17T18:58:55+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S7a1zbPcHHqYupu",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-datarouter:datarouter-prov/src/main/java/org/onap/dmaap/datarouter/provisioning/FeedServlet.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 145,
+        "hash": "44043ebd81fa86130be3e9213a4771fa",
+        "textRange": {
+            "startLine": 145,
+            "endLine": 145,
+            "startOffset": 16,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-08-17T18:58:55+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S7S1zbPcHHqYupd",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-datarouter:datarouter-prov/src/main/java/org/onap/dmaap/datarouter/provisioning/DRFeedsServlet.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 271,
+        "hash": "5f91346eece4d25f92480b604de7102d",
+        "textRange": {
+            "startLine": 271,
+            "endLine": 271,
+            "startOffset": 18,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-08-17T18:58:55+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S7S1zbPcHHqYupe",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-datarouter:datarouter-prov/src/main/java/org/onap/dmaap/datarouter/provisioning/DRFeedsServlet.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 272,
+        "hash": "44043ebd81fa86130be3e9213a4771fa",
+        "textRange": {
+            "startLine": 272,
+            "endLine": 272,
+            "startOffset": 16,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-08-17T18:58:55+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S7k1zbPcHHqYup5",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-datarouter:datarouter-prov/src/main/java/org/onap/dmaap/datarouter/provisioning/SubscribeServlet.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 256,
+        "hash": "fa443cf7c77ff007afa62e8ef105eb67",
+        "textRange": {
+            "startLine": 256,
+            "endLine": 256,
+            "startOffset": 16,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-08-17T18:58:55+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S521zbPcHHqYuoz",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-datarouter:datarouter-prov/src/main/java/org/onap/dmaap/datarouter/provisioning/SubscriptionServlet.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 152,
+        "hash": "fa443cf7c77ff007afa62e8ef105eb67",
+        "textRange": {
+            "startLine": 152,
+            "endLine": 152,
+            "startOffset": 16,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-08-17T18:58:55+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S651zbPcHHqYupJ",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-datarouter:datarouter-prov/src/main/java/org/onap/dmaap/datarouter/provisioning/beans/Group.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 290,
+        "hash": "f476c7cfe85ccec02fb841ce7d6a4f5e",
+        "textRange": {
+            "startLine": 290,
+            "endLine": 290,
+            "startOffset": 16,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-07-23T18:22:03+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S651zbPcHHqYupI",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-datarouter:datarouter-prov/src/main/java/org/onap/dmaap/datarouter/provisioning/beans/Group.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 286,
+        "hash": "932987ace15208c51fac06ef91c52de5",
+        "textRange": {
+            "startLine": 286,
+            "endLine": 286,
+            "startOffset": 27,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-07-23T18:22:03+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S6o1zbPcHHqYupC",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-datarouter:datarouter-prov/src/main/java/org/onap/dmaap/datarouter/provisioning/beans/Subscription.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 487,
+        "hash": "53e6bccd2982d42c924f260b65e27b51",
+        "textRange": {
+            "startLine": 487,
+            "endLine": 487,
+            "startOffset": 16,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-09-25T23:51:44+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S6o1zbPcHHqYupB",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-datarouter:datarouter-prov/src/main/java/org/onap/dmaap/datarouter/provisioning/beans/Subscription.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 483,
+        "hash": "b7a93af9e19cc66e5665cb0ec0de0263",
+        "textRange": {
+            "startLine": 483,
+            "endLine": 483,
+            "startOffset": 25,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-09-25T23:51:44+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S5a1zbPcHHqYuoR",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-datarouter:datarouter-prov/src/main/java/org/onap/dmaap/datarouter/provisioning/utils/LOGJSONObject.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 912,
+        "hash": "81286d52517e746312a67e2e47fd5dcd",
+        "textRange": {
+            "startLine": 912,
+            "endLine": 912,
+            "startOffset": 20,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-07-23T18:22:03+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S5a1zbPcHHqYuoK",
+        "rule": "java:S1182",
+        "severity": "MINOR",
+        "component": "onap_dmaap-datarouter:datarouter-prov/src/main/java/org/onap/dmaap/datarouter/provisioning/utils/LOGJSONObject.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 131,
+        "hash": "36a8fcce2bd9f8d2881117741dd0da23",
+        "textRange": {
+            "startLine": 131,
+            "endLine": 131,
+            "startOffset": 31,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Use super.clone() to create and seed the cloned instance to be returned.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "convention",
+            "cwe"
+        ],
+        "creationDate": "2018-02-19T15:53:38+0100",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S5a1zbPcHHqYuoJ",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "onap_dmaap-datarouter:datarouter-prov/src/main/java/org/onap/dmaap/datarouter/provisioning/utils/LOGJSONObject.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 131,
+        "hash": "36a8fcce2bd9f8d2881117741dd0da23",
+        "textRange": {
+            "startLine": 131,
+            "endLine": 131,
+            "startOffset": 31,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2018-02-19T15:53:38+0100",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S9l1zbPcHHqYuqv",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-datarouter:datarouter-node/src/main/java/org/onap/dmaap/datarouter/node/StatusLog.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 157,
+        "hash": "42c8ba7c6a17bafa59ecda8081614dbd",
+        "textRange": {
+            "startLine": 157,
+            "endLine": 157,
+            "startOffset": 23,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-05-29T15:19:49+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S951zbPcHHqYuq7",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dmaap-datarouter:datarouter-node/src/main/java/org/onap/dmaap/datarouter/node/NodeServlet.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 93,
+        "hash": "0e1d51f6efcbe99f9ed4abb7fc21c056",
+        "textRange": {
+            "startLine": 93,
+            "endLine": 93,
+            "startOffset": 8,
+            "endOffset": 14
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2017-08-04T17:41:45+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S9l1zbPcHHqYuqy",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-datarouter:datarouter-node/src/main/java/org/onap/dmaap/datarouter/node/StatusLog.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 227,
+        "hash": "f46e93c16e9f93cf6de66919842cfd84",
+        "textRange": {
+            "startLine": 227,
+            "endLine": 227,
+            "startOffset": 23,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-05-29T15:19:49+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S9l1zbPcHHqYuqx",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-datarouter:datarouter-node/src/main/java/org/onap/dmaap/datarouter/node/StatusLog.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 202,
+        "hash": "0fb34d78c24ebb2abf3d371e4e705380",
+        "textRange": {
+            "startLine": 202,
+            "endLine": 202,
+            "startOffset": 23,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-05-29T15:19:49+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S9l1zbPcHHqYuqw",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-datarouter:datarouter-node/src/main/java/org/onap/dmaap/datarouter/node/StatusLog.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 180,
+        "hash": "1faae3dbb5e2d68b3368973e2245141d",
+        "textRange": {
+            "startLine": 180,
+            "endLine": 180,
+            "startOffset": 23,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-05-29T15:19:49+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V3S-H1zbPcHHqYurA",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-datarouter:datarouter-node/src/main/java/org/onap/dmaap/datarouter/node/NodeConfig.java",
+        "project": "onap_dmaap-datarouter",
+        "line": 760,
+        "hash": "533e98c781dd2249bf00fdd44290fdaf",
+        "textRange": {
+            "startLine": 760,
+            "endLine": 760,
+            "startOffset": 15,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-05-29T15:19:49+0200",
+        "updateDate": "2019-12-17T22:55:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

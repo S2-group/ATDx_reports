@@ -1,0 +1,495 @@
+[
+    {
+        "key": "AWo4wjuvnu96bB9fOyTM",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-base:src/main/java/org/apache/sling/launchpad/base/impl/ContextConnection.java",
+        "project": "apache_sling-org-apache-sling-launchpad-base",
+        "line": 104,
+        "hash": "66fb1f26bbaa926c14c658adcf1132dd",
+        "textRange": {
+            "startLine": 104,
+            "endLine": 104,
+            "startOffset": 23,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-20T05:19:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo4wjuvnu96bB9fOyTL",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-base:src/main/java/org/apache/sling/launchpad/base/impl/ContextConnection.java",
+        "project": "apache_sling-org-apache-sling-launchpad-base",
+        "line": 92,
+        "hash": "4bc5ee3b7804460c4cecc9c51ee51025",
+        "textRange": {
+            "startLine": 92,
+            "endLine": 92,
+            "startOffset": 18,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-20T05:19:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo4wjuvnu96bB9fOyTK",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-base:src/main/java/org/apache/sling/launchpad/base/impl/ContextConnection.java",
+        "project": "apache_sling-org-apache-sling-launchpad-base",
+        "line": 84,
+        "hash": "9871700c99e36954bd3b3baf72c9052a",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 15,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-20T05:19:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo4wjujnu96bB9fOyS7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-base:src/main/java/org/apache/sling/launchpad/base/impl/bootstrapcommands/Command.java",
+        "project": "apache_sling-org-apache-sling-launchpad-base",
+        "line": 45,
+        "hash": "d3f74424bb965af7d1869c6ddc48231c",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 61,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2011-08-04T14:24:45+0200",
+        "updateDate": "2019-04-20T05:19:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo4wjvSnu96bB9fOyUl",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-launchpad-base:src/main/java/org/apache/sling/launchpad/base/webapp/SlingHttpSessionListenerDelegate.java",
+        "project": "apache_sling-org-apache-sling-launchpad-base",
+        "line": 31,
+        "hash": "0dbee05d17081f8444a2523fd00342bc",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-08-14T15:15:53+0200",
+        "updateDate": "2019-04-20T05:19:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo4wjwAnu96bB9fOyWj",
+        "rule": "java:S2885",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-base:src/main/java/org/apache/sling/launchpad/app/Main.java",
+        "project": "apache_sling-org-apache-sling-launchpad-base",
+        "line": 583,
+        "hash": "d9c9902949536ce9d78b4a75c6338f05",
+        "textRange": {
+            "startLine": 583,
+            "endLine": 583,
+            "startOffset": 36,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make \"fmt\" an instance variable.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-20T05:19:52+0200",
+        "type": "BUG",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo4wju7nu96bB9fOyTl",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-launchpad-base:src/main/java/org/apache/sling/launchpad/base/impl/SlingFelix.java",
+        "project": "apache_sling-org-apache-sling-launchpad-base",
+        "line": 46,
+        "hash": "7ab58c2019d1e339c702712ff8ef05b8",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 105,
+            "endOffset": 114
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-08-25T14:24:42+0200",
+        "updateDate": "2019-04-20T05:19:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo4wju7nu96bB9fOyTj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-base:src/main/java/org/apache/sling/launchpad/base/impl/SlingFelix.java",
+        "project": "apache_sling-org-apache-sling-launchpad-base",
+        "line": 46,
+        "hash": "7ab58c2019d1e339c702712ff8ef05b8",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 105,
+            "endOffset": 114
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-08-25T14:24:42+0200",
+        "updateDate": "2019-04-20T05:19:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo4wjuvnu96bB9fOyTN",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-base:src/main/java/org/apache/sling/launchpad/base/impl/ContextConnection.java",
+        "project": "apache_sling-org-apache-sling-launchpad-base",
+        "line": 113,
+        "hash": "78038b5364a66a31a25eb9abd8c6b77e",
+        "textRange": {
+            "startLine": 113,
+            "endLine": 113,
+            "startOffset": 16,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-20T05:19:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo4wjvBnu96bB9fOyTu",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-base:src/main/java/org/apache/sling/launchpad/base/impl/Sling.java",
+        "project": "apache_sling-org-apache-sling-launchpad-base",
+        "line": 340,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 340,
+            "endLine": 340,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2011-08-10T10:46:47+0200",
+        "updateDate": "2019-04-20T05:19:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo4wjvwnu96bB9fOyVX",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-launchpad-base:src/main/java/org/apache/sling/launchpad/webapp/SlingSessionListener.java",
+        "project": "apache_sling-org-apache-sling-launchpad-base",
+        "line": 29,
+        "hash": "e8715e92a1c2f1513f6521ad513674d3",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2011-01-10T08:37:12+0100",
+        "updateDate": "2019-04-20T05:19:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo4wjuznu96bB9fOyTS",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-base:src/main/java/org/apache/sling/launchpad/base/impl/BootstrapInstaller.java",
+        "project": "apache_sling-org-apache-sling-launchpad-base",
+        "line": 329,
+        "hash": "035af66e0cf613a962088a254d78dddc",
+        "textRange": {
+            "startLine": 329,
+            "endLine": 329,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2009-09-03T08:44:19+0200",
+        "updateDate": "2019-04-20T05:19:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo4wjvknu96bB9fOyVA",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-launchpad-base:src/main/java/org/apache/sling/launchpad/base/shared/LauncherClassLoader.java",
+        "project": "apache_sling-org-apache-sling-launchpad-base",
+        "line": 129,
+        "hash": "a71b083b402f14eb062a9f4ff69cfe95",
+        "textRange": {
+            "startLine": 129,
+            "endLine": 129,
+            "startOffset": 64,
+            "endOffset": 85
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.net.MalformedURLException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-02-26T10:26:16+0100",
+        "updateDate": "2019-04-20T05:19:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo4wju3nu96bB9fOyTh",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-base:src/main/java/org/apache/sling/launchpad/base/impl/DirectoryUtil.java",
+        "project": "apache_sling-org-apache-sling-launchpad-base",
+        "line": 25,
+        "hash": "7390cc42df80f7dc007ef93f791172dc",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 13,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2012-01-18T11:38:16+0100",
+        "updateDate": "2019-04-20T05:19:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo4wjvVnu96bB9fOyUn",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-base:src/main/java/org/apache/sling/launchpad/base/webapp/SlingBridge.java",
+        "project": "apache_sling-org-apache-sling-launchpad-base",
+        "line": 36,
+        "hash": "c233648bc78ef39b78c470878036d0aa",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-03-04T09:01:45+0100",
+        "updateDate": "2019-04-20T05:19:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo4wjvZnu96bB9fOyUo",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-launchpad-base:src/main/java/org/apache/sling/launchpad/base/shared/Util.java",
+        "project": "apache_sling-org-apache-sling-launchpad-base",
+        "line": 67,
+        "hash": "8991b107f1ba07c07d53a5f8457947e4",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 19,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-11-02T09:51:17+0100",
+        "updateDate": "2019-04-20T05:19:52+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo4wjvrnu96bB9fOyVU",
+        "rule": "java:S2885",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-base:src/main/java/org/apache/sling/launchpad/base/app/MainDelegate.java",
+        "project": "apache_sling-org-apache-sling-launchpad-base",
+        "line": 349,
+        "hash": "d9c9902949536ce9d78b4a75c6338f05",
+        "textRange": {
+            "startLine": 349,
+            "endLine": 349,
+            "startOffset": 36,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make \"fmt\" an instance variable.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-20T05:19:52+0200",
+        "type": "BUG",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

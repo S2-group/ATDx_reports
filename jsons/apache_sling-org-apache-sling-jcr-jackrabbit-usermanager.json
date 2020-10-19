@@ -1,0 +1,558 @@
+[
+    {
+        "key": "AWo-S5sgK1LJlmpkjR0a",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/resource/AuthorizableValueMap.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 332,
+        "hash": "44fa57a94ffdfadb7bd20a7eb483c6e0",
+        "textRange": {
+            "startLine": 332,
+            "endLine": 332,
+            "startOffset": 19,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.ValueFormatException' which is a subclass of 'javax.jcr.RepositoryException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5sgK1LJlmpkjR0c",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/resource/AuthorizableValueMap.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 349,
+        "hash": "44fa57a94ffdfadb7bd20a7eb483c6e0",
+        "textRange": {
+            "startLine": 349,
+            "endLine": 349,
+            "startOffset": 19,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.ValueFormatException' which is a subclass of 'javax.jcr.RepositoryException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5sFK1LJlmpkjRz4",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/post/CreateGroupServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 138,
+        "hash": "386b6d88d21fde5977b2f14949f5fa76",
+        "textRange": {
+            "startLine": 138,
+            "endLine": 138,
+            "startOffset": 16,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2018-08-19T22:39:05+0200",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5ssK1LJlmpkjR05",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/AuthorizablePrivilegesInfoImpl.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 291,
+        "hash": "443556724c78e7350f9ace47628b330b",
+        "textRange": {
+            "startLine": 291,
+            "endLine": 291,
+            "startOffset": 35,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2010-03-19T20:31:12+0100",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5ssK1LJlmpkjR04",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/AuthorizablePrivilegesInfoImpl.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 291,
+        "hash": "443556724c78e7350f9ace47628b330b",
+        "textRange": {
+            "startLine": 291,
+            "endLine": 291,
+            "startOffset": 12,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2010-03-19T20:31:12+0100",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5ssK1LJlmpkjR03",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/AuthorizablePrivilegesInfoImpl.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 290,
+        "hash": "e11740ff488bb7a0661912de41c9cd74",
+        "textRange": {
+            "startLine": 290,
+            "endLine": 290,
+            "startOffset": 40,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.security.NoSuchAlgorithmException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2010-03-19T20:31:12+0100",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5ssK1LJlmpkjR02",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/AuthorizablePrivilegesInfoImpl.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 290,
+        "hash": "e11740ff488bb7a0661912de41c9cd74",
+        "textRange": {
+            "startLine": 290,
+            "endLine": 290,
+            "startOffset": 19,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.security.InvalidKeyException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2010-03-19T20:31:12+0100",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5saK1LJlmpkjR0U",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/post/ChangeUserPasswordServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 164,
+        "hash": "386b6d88d21fde5977b2f14949f5fa76",
+        "textRange": {
+            "startLine": 164,
+            "endLine": 164,
+            "startOffset": 16,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2018-08-19T22:39:05+0200",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5sJK1LJlmpkjR0D",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/post/CreateUserServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 205,
+        "hash": "386b6d88d21fde5977b2f14949f5fa76",
+        "textRange": {
+            "startLine": 205,
+            "endLine": 205,
+            "startOffset": 16,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2018-08-19T22:39:05+0200",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5r_K1LJlmpkjRzk",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/post/AbstractPostServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 450,
+        "hash": "a4c1f4b675e63259e5c643d284febadf",
+        "textRange": {
+            "startLine": 450,
+            "endLine": 450,
+            "startOffset": 19,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make ranking a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-19T22:39:05+0200",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5r_K1LJlmpkjRzj",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/post/AbstractPostServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 449,
+        "hash": "90472c75b50f66319e264962c0ecdd6c",
+        "textRange": {
+            "startLine": 449,
+            "endLine": 449,
+            "startOffset": 35,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make creator a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-19T22:39:05+0200",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5r7K1LJlmpkjRzi",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/post/UpdateUserServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 131,
+        "hash": "386b6d88d21fde5977b2f14949f5fa76",
+        "textRange": {
+            "startLine": 131,
+            "endLine": 131,
+            "startOffset": 16,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2018-08-19T22:39:05+0200",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5r_K1LJlmpkjRzw",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/post/AbstractPostServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 265,
+        "hash": "17622f1a0948fece3d60d79f234505ae",
+        "textRange": {
+            "startLine": 265,
+            "endLine": 265,
+            "startOffset": 21,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2012-12-11T15:57:03+0100",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5r_K1LJlmpkjRzu",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/post/AbstractPostServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 238,
+        "hash": "7af4a3e782460284b0a753ebc565a95a",
+        "textRange": {
+            "startLine": 238,
+            "endLine": 238,
+            "startOffset": 19,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-19T22:39:05+0200",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5r_K1LJlmpkjRzt",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/post/AbstractPostServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 181,
+        "hash": "12dde85e8511caf8544fa4c640eb74ab",
+        "textRange": {
+            "startLine": 181,
+            "endLine": 181,
+            "startOffset": 35,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2012-12-11T15:57:03+0100",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5sTK1LJlmpkjR0M",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/post/UpdateGroupServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 139,
+        "hash": "386b6d88d21fde5977b2f14949f5fa76",
+        "textRange": {
+            "startLine": 139,
+            "endLine": 139,
+            "startOffset": 16,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2018-08-19T22:39:05+0200",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5sXK1LJlmpkjR0P",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/post/DeleteAuthorizableServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 114,
+        "hash": "386b6d88d21fde5977b2f14949f5fa76",
+        "textRange": {
+            "startLine": 114,
+            "endLine": 114,
+            "startOffset": 16,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2018-08-19T22:39:05+0200",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5sXK1LJlmpkjR0Q",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/post/DeleteAuthorizableServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 256,
+        "hash": "1b9178d95b3f808cfdbcf82cab899405",
+        "textRange": {
+            "startLine": 256,
+            "endLine": 256,
+            "startOffset": 20,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo-S5slK1LJlmpkjR0s",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager:src/main/java/org/apache/sling/jackrabbit/usermanager/impl/resource/AuthorizableResourceProvider.java",
+        "project": "apache_sling-org-apache-sling-jcr-jackrabbit-usermanager",
+        "line": 215,
+        "hash": "1b9178d95b3f808cfdbcf82cab899405",
+        "textRange": {
+            "startLine": 215,
+            "endLine": 215,
+            "startOffset": 20,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-21T07:08:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

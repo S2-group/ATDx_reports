@@ -1,0 +1,82 @@
+[
+    {
+        "key": "AWohdR-w1dBUQTlh74NW",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-tracer:src/main/java/org/apache/sling/tracer/internal/JSONRecording.java",
+        "project": "apache_sling-org-apache-sling-tracer",
+        "line": 249,
+        "hash": "af36a9d9c23cddc88464382de74194ef",
+        "textRange": {
+            "startLine": 249,
+            "endLine": 249,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2018-08-13T11:53:01+0200",
+        "updateDate": "2019-04-15T16:44:28+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWohdR-h1dBUQTlh74NP",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-tracer:src/main/java/org/apache/sling/tracer/internal/Util.java",
+        "project": "apache_sling-org-apache-sling-tracer",
+        "line": 22,
+        "hash": "c0ed27a1a9fd70ea6d7b5fb3bbd8b52e",
+        "textRange": {
+            "startLine": 22,
+            "endLine": 22,
+            "startOffset": 6,
+            "endOffset": 10
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-10-08T11:29:53+0200",
+        "updateDate": "2019-04-15T16:44:28+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWohdSKA1dBUQTlh74Nl",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-tracer:src/main/java/org/apache/sling/tracer/internal/TracerConfig.java",
+        "project": "apache_sling-org-apache-sling-tracer",
+        "line": 71,
+        "hash": "584e3e976feb5aa0761bcd4b922629b7",
+        "textRange": {
+            "startLine": 71,
+            "endLine": 71,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2018-08-13T11:53:01+0200",
+        "updateDate": "2019-04-15T16:44:28+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

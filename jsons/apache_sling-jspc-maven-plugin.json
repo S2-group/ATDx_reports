@@ -1,0 +1,324 @@
+[
+    {
+        "key": "AWoo-W5O7getyiJUeWBo",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-jspc-maven-plugin:src/main/java/org/apache/sling/maven/jspc/JspCTldLocationsCache.java",
+        "project": "apache_sling-jspc-maven-plugin",
+        "line": 513,
+        "hash": "7f1c6b3b3c9848db4a3c1c74eb2c924b",
+        "textRange": {
+            "startLine": 513,
+            "endLine": 513,
+            "startOffset": 35,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-06-02T06:39:26+0200",
+        "updateDate": "2019-04-17T03:46:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoo-W4w7getyiJUeWBP",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-jspc-maven-plugin:src/main/java/org/apache/sling/maven/jspc/JspcMojo.java",
+        "project": "apache_sling-jspc-maven-plugin",
+        "line": 146,
+        "hash": "dfb05a3092b2a42a9b6da1e72c65ccbb",
+        "textRange": {
+            "startLine": 146,
+            "endLine": 146,
+            "startOffset": 19,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2013-07-24T20:13:22+0200",
+        "updateDate": "2019-04-17T03:46:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoo-W5U7getyiJUeWB3",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-jspc-maven-plugin:src/main/java/org/apache/sling/maven/jspc/JspCIOProvider.java",
+        "project": "apache_sling-jspc-maven-plugin",
+        "line": 58,
+        "hash": "e04eda9a906265f3333d59dc9fc7c129",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 62,
+            "endOffset": 83
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-06-02T06:39:26+0200",
+        "updateDate": "2019-04-17T03:46:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoo-W5L7getyiJUeWBh",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-jspc-maven-plugin:src/main/java/org/apache/sling/maven/jspc/JspCClassLoaderWriter.java",
+        "project": "apache_sling-jspc-maven-plugin",
+        "line": 50,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-06-02T06:39:26+0200",
+        "updateDate": "2019-04-17T03:46:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoo-W4w7getyiJUeWBX",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-jspc-maven-plugin:src/main/java/org/apache/sling/maven/jspc/JspcMojo.java",
+        "project": "apache_sling-jspc-maven-plugin",
+        "line": 401,
+        "hash": "e80cb8c33c72f85a69d63f218f184d1f",
+        "textRange": {
+            "startLine": 401,
+            "endLine": 401,
+            "startOffset": 12,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.maven.artifact.DependencyResolutionRequiredException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-07-24T20:13:22+0200",
+        "updateDate": "2019-04-17T03:46:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXIWiyJ4Cwxxq8sKSniE",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-jspc-maven-plugin:src/main/java/org/apache/sling/maven/jspc/JspcMojo.java",
+        "project": "apache_sling-jspc-maven-plugin",
+        "line": 312,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 312,
+            "endLine": 312,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-05-15T06:15:00+0200",
+        "updateDate": "2020-05-15T06:15:00+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoo-W5e7getyiJUeWCD",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-jspc-maven-plugin:src/main/java/org/apache/sling/maven/jspc/JspCServletContext.java",
+        "project": "apache_sling-jspc-maven-plugin",
+        "line": 329,
+        "hash": "6a2197bef48a0e4ea2359022e356a94f",
+        "textRange": {
+            "startLine": 329,
+            "endLine": 329,
+            "startOffset": 19,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2013-07-24T20:13:22+0200",
+        "updateDate": "2019-04-17T03:46:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoo-W5e7getyiJUeWCG",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-jspc-maven-plugin:src/main/java/org/apache/sling/maven/jspc/JspCServletContext.java",
+        "project": "apache_sling-jspc-maven-plugin",
+        "line": 390,
+        "hash": "ae1f0dd20d8118ea788f90599e793328",
+        "textRange": {
+            "startLine": 390,
+            "endLine": 390,
+            "startOffset": 16,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2013-07-24T20:13:22+0200",
+        "updateDate": "2019-04-17T03:46:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoo-W5e7getyiJUeWCF",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-jspc-maven-plugin:src/main/java/org/apache/sling/maven/jspc/JspCServletContext.java",
+        "project": "apache_sling-jspc-maven-plugin",
+        "line": 367,
+        "hash": "ce1486a1e2c6f95dc459c4a1216293f3",
+        "textRange": {
+            "startLine": 367,
+            "endLine": 367,
+            "startOffset": 32,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2013-07-24T20:13:22+0200",
+        "updateDate": "2019-04-17T03:46:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoo-W5e7getyiJUeWCE",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-jspc-maven-plugin:src/main/java/org/apache/sling/maven/jspc/JspCServletContext.java",
+        "project": "apache_sling-jspc-maven-plugin",
+        "line": 356,
+        "hash": "8008a274806bba4afc51da3b427852f4",
+        "textRange": {
+            "startLine": 356,
+            "endLine": 356,
+            "startOffset": 31,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2013-07-24T20:13:22+0200",
+        "updateDate": "2019-04-17T03:46:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoo-W5O7getyiJUeWBn",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-jspc-maven-plugin:src/main/java/org/apache/sling/maven/jspc/JspCTldLocationsCache.java",
+        "project": "apache_sling-jspc-maven-plugin",
+        "line": 280,
+        "hash": "8c8668405ab111e0548b7fa5a1762d75",
+        "textRange": {
+            "startLine": 280,
+            "endLine": 280,
+            "startOffset": 43,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-06-02T06:39:26+0200",
+        "updateDate": "2019-04-17T03:46:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

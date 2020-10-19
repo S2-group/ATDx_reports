@@ -1,0 +1,88 @@
+[
+    {
+        "key": "AWoxFWGEK1LJlmpkTlh2",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-xss:src/main/java/org/apache/sling/xss/impl/PolicyHandler.java",
+        "project": "apache_sling-org-apache-sling-xss",
+        "line": 38,
+        "hash": "3cdfa746fe3754e02d319df09619772d",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 58,
+            "endOffset": 67
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-05-12T17:45:29+0200",
+        "updateDate": "2019-04-18T17:33:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxFWFZK1LJlmpkTlhp",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-xss:src/main/java/javax/xml/parsers/FactoryFinder.java",
+        "project": "apache_sling-org-apache-sling-xss",
+        "line": 162,
+        "hash": "70bd42a5533d521458bb067703b0d3e8",
+        "textRange": {
+            "startLine": 162,
+            "endLine": 162,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"exception\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-03-27T13:57:27+0100",
+        "updateDate": "2019-04-18T17:33:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoxFWF-K1LJlmpkTlh0",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-xss:src/main/java/javax/xml/transform/FactoryFinder.java",
+        "project": "apache_sling-org-apache-sling-xss",
+        "line": 162,
+        "hash": "70bd42a5533d521458bb067703b0d3e8",
+        "textRange": {
+            "startLine": 162,
+            "endLine": 162,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"exception\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-03-27T13:57:27+0100",
+        "updateDate": "2019-04-18T17:33:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

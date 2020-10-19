@@ -1,0 +1,114 @@
+[
+    {
+        "key": "AW8WKyJWVI--xHvmpoPu",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_logging-analytics-pomba-pomba-context-aggregator:src/main/java/org/onap/pomba/contextaggregator/exception/ContextAggregatorException.java",
+        "project": "onap_logging-analytics-pomba-pomba-context-aggregator",
+        "line": 23,
+        "hash": "5ce62ceaa15314f2f91397774542c13f",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 19,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"errorId\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-08-07T16:19:39+0200",
+        "updateDate": "2019-12-18T00:21:53+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WKyKBVI--xHvmpoPw",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-context-aggregator:src/main/java/org/onap/pomba/contextaggregator/publisher/EventPublisherFactory.java",
+        "project": "onap_logging-analytics-pomba-pomba-context-aggregator",
+        "line": 39,
+        "hash": "6c46bad39869cedd6d905d734b0dee2f",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 11,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-08-07T16:19:39+0200",
+        "updateDate": "2019-12-18T00:21:53+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WKyKEVI--xHvmpoPz",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-context-aggregator:src/main/java/org/onap/pomba/contextaggregator/config/TransportConfig.java",
+        "project": "onap_logging-analytics-pomba-pomba-context-aggregator",
+        "line": 73,
+        "hash": "be548c1579ff315df49f863c929c6fb0",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 33,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-08-07T16:19:39+0200",
+        "updateDate": "2019-12-18T00:21:53+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WKyKEVI--xHvmpoPy",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_logging-analytics-pomba-pomba-context-aggregator:src/main/java/org/onap/pomba/contextaggregator/config/TransportConfig.java",
+        "project": "onap_logging-analytics-pomba-pomba-context-aggregator",
+        "line": 36,
+        "hash": "2d25bf8599271e93bdba720fed2e516c",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-08-07T16:19:39+0200",
+        "updateDate": "2019-12-18T00:21:53+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

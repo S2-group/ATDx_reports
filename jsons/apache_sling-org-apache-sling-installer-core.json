@@ -1,0 +1,540 @@
+[
+    {
+        "key": "AWopgrjjgJaYv1rO57V4",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/core/impl/Util.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 31,
+        "hash": "a7ae4d6a19bbdfd2bcd1ef8d94580e51",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2011-01-03T11:14:32+0100",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgri3gJaYv1rO57UF",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/core/impl/OsgiInstallerImpl.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 1047,
+        "hash": "9765222ba39a572076347b46332050ba",
+        "textRange": {
+            "startLine": 1047,
+            "endLine": 1047,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make entityId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2014-04-28T16:03:35+0200",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgrjEgJaYv1rO57VD",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/core/impl/RegisteredResourceImpl.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 171,
+        "hash": "4a3b955d7b5a770d6660663510eb831e",
+        "textRange": {
+            "startLine": 171,
+            "endLine": 171,
+            "startOffset": 11,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2011-01-10T18:06:30+0100",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgrjKgJaYv1rO57VJ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/core/impl/Activator.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 129,
+        "hash": "c48df2420a71fd5f474615a09a82ceb8",
+        "textRange": {
+            "startLine": 129,
+            "endLine": 129,
+            "startOffset": 70,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2011-01-10T18:06:30+0100",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgri3gJaYv1rO57UR",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/core/impl/OsgiInstallerImpl.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 226,
+        "hash": "a7af1842a4cb793045e6a75e54015a27",
+        "textRange": {
+            "startLine": 226,
+            "endLine": 226,
+            "startOffset": 22,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2011-01-12T12:00:27+0100",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgri3gJaYv1rO57UG",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/core/impl/OsgiInstallerImpl.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 1048,
+        "hash": "de8b178135b1d13494c034961ba5c592",
+        "textRange": {
+            "startLine": 1048,
+            "endLine": 1048,
+            "startOffset": 35,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make attributes a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2014-04-28T16:03:35+0200",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgri3gJaYv1rO57UD",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/core/impl/OsgiInstallerImpl.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 1045,
+        "hash": "1b2c4089ef1d05cee3a700f382311631",
+        "textRange": {
+            "startLine": 1045,
+            "endLine": 1045,
+            "startOffset": 42,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make dict a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2014-04-28T16:03:35+0200",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgrjjgJaYv1rO57V2",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/core/impl/Util.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 102,
+        "hash": "541c5f053dd8c944d595e47b62a0349b",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 22,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make version a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2011-01-21T19:33:01+0100",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgrjjgJaYv1rO57V1",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/core/impl/Util.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 101,
+        "hash": "66089c4afbc7ea19079cdebb7482b1de",
+        "textRange": {
+            "startLine": 101,
+            "endLine": 101,
+            "startOffset": 22,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make symbolicName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2011-01-21T19:33:01+0100",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgrjogJaYv1rO57WE",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/core/impl/InternalResource.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 157,
+        "hash": "cc2fd99d8df6f9b6427dbaf035214556",
+        "textRange": {
+            "startLine": 157,
+            "endLine": 157,
+            "startOffset": 11,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2011-03-01T09:16:24+0100",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgrjjgJaYv1rO57V3",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/core/impl/Util.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 103,
+        "hash": "f045e9b589ed79a2aedf996a376e3122",
+        "textRange": {
+            "startLine": 103,
+            "endLine": 103,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make activationPolicy a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2011-01-21T19:33:01+0100",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgri3gJaYv1rO57UE",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/core/impl/OsgiInstallerImpl.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 1046,
+        "hash": "6360cd26f44ca2262ebe5812d6683051",
+        "textRange": {
+            "startLine": 1046,
+            "endLine": 1046,
+            "startOffset": 22,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make resourceType a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2014-04-28T16:03:35+0200",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgri3gJaYv1rO57UC",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/core/impl/OsgiInstallerImpl.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 1044,
+        "hash": "5c96e414634934a5dfd0173fd932615f",
+        "textRange": {
+            "startLine": 1044,
+            "endLine": 1044,
+            "startOffset": 28,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make data a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2014-04-28T16:03:35+0200",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgrjEgJaYv1rO57U2",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/core/impl/RegisteredResourceImpl.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 189,
+        "hash": "9721def73a26a197d4f4a2b8e537e793",
+        "textRange": {
+            "startLine": 189,
+            "endLine": 189,
+            "startOffset": 9,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2011-01-10T18:06:30+0100",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgrhhgJaYv1rO57Ta",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/api/tasks/InstallationContext.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 72,
+        "hash": "b4cca53d80e2c367c9aa7853f1114612",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 9,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2013-07-08T13:48:43+0200",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgrhhgJaYv1rO57TZ",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/api/tasks/InstallationContext.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 53,
+        "hash": "e52d25de23525ae6200f856adc74722f",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 9,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2013-07-08T13:48:43+0200",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgrjZgJaYv1rO57Vo",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/core/impl/FileDataStore.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 66,
+        "hash": "2c9b54bfba32c76f3d10df4b6bf6b561",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 32,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make SHARED a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2011-01-12T12:00:27+0100",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgrjZgJaYv1rO57Vn",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/core/impl/FileDataStore.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 66,
+        "hash": "2c9b54bfba32c76f3d10df4b6bf6b561",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 32,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static SHARED\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2011-01-12T12:00:27+0100",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWopgrirgJaYv1rO57T2",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-installer-core:src/main/java/org/apache/sling/installer/core/impl/tasks/BundleUtil.java",
+        "project": "apache_sling-org-apache-sling-installer-core",
+        "line": 25,
+        "hash": "2fccf7a66580efe91212612c2f2945ae",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 22,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2012-07-20T21:53:22+0200",
+        "updateDate": "2019-04-17T06:16:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

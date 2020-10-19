@@ -1,0 +1,149 @@
+[
+    {
+        "key": "AWpDGtHnnu96bB9fsTIp",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-maven-launchpad-plugin:src/main/java/org/apache/sling/maven/projectsupport/CreateBundleJarMojo.java",
+        "project": "apache_sling-maven-launchpad-plugin",
+        "line": 72,
+        "hash": "eb819b841de860b01f5457a6395df30a",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 33,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2013-07-24T20:13:22+0200",
+        "updateDate": "2019-04-22T05:32:55+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDGtH8nu96bB9fsTJH",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-maven-launchpad-plugin:src/main/java/org/apache/sling/maven/projectsupport/LaunchpadPluginLifecycleParticipant.java",
+        "project": "apache_sling-maven-launchpad-plugin",
+        "line": 101,
+        "hash": "a4b427c8182b1eb177f6a4e775453e23",
+        "textRange": {
+            "startLine": 101,
+            "endLine": 101,
+            "startOffset": 38,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-07-24T20:13:22+0200",
+        "updateDate": "2019-04-22T05:32:55+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDGtG9nu96bB9fsTIE",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-maven-launchpad-plugin:src/main/java/org/apache/sling/maven/projectsupport/RunMojo.java",
+        "project": "apache_sling-maven-launchpad-plugin",
+        "line": 80,
+        "hash": "58fb5a36b6722740056a709b818da2e0",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 27,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-07-24T20:13:22+0200",
+        "updateDate": "2019-04-22T05:32:55+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDGtHVnu96bB9fsTIY",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-maven-launchpad-plugin:src/main/java/org/apache/sling/maven/projectsupport/StartMojo.java",
+        "project": "apache_sling-maven-launchpad-plugin",
+        "line": 54,
+        "hash": "58fb5a36b6722740056a709b818da2e0",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 27,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-07-24T20:13:22+0200",
+        "updateDate": "2019-04-22T05:32:55+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDGtHHnu96bB9fsTIN",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-maven-launchpad-plugin:src/main/java/org/apache/sling/maven/projectsupport/AttachPartialBundleListMojo.java",
+        "project": "apache_sling-maven-launchpad-plugin",
+        "line": 127,
+        "hash": "0804a6aec79e2a888188c59c68028440",
+        "textRange": {
+            "startLine": 127,
+            "endLine": 127,
+            "startOffset": 47,
+            "endOffset": 69
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.maven.plugin.MojoExecutionException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-07-24T20:13:22+0200",
+        "updateDate": "2019-04-22T05:32:55+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

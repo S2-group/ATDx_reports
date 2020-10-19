@@ -1,0 +1,318 @@
+[
+    {
+        "key": "AW6lYHJjCXGNidVbzzV0",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-wfengine-activiti-extension:src/main/java/org/onap/workflow/activitiext/restservicetask/HighLevelRestApi.java",
+        "project": "onap_vfc-nfvo-wfengine-activiti-extension",
+        "line": 35,
+        "hash": "28504daa4cd8e2beab9c4d00d9042d56",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-09T07:07:00+0200",
+        "updateDate": "2019-11-26T02:43:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYHJQCXGNidVbzzVR",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-wfengine-activiti-extension:src/main/java/org/onap/workflow/activitiext/restservicetask/GsonUtil.java",
+        "project": "onap_vfc-nfvo-wfengine-activiti-extension",
+        "line": 30,
+        "hash": "76977c7658ff34b2563bf4b8cb80c2a5",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-09-28T10:58:17+0200",
+        "updateDate": "2019-11-26T02:43:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYHJ0CXGNidVbzzWK",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-wfengine-activiti-extension:src/main/java/org/onap/workflow/utils/MsbUtils.java",
+        "project": "onap_vfc-nfvo-wfengine-activiti-extension",
+        "line": 28,
+        "hash": "48d183b6fdcca05f7766cfc31d2af008",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-09-28T10:58:17+0200",
+        "updateDate": "2019-11-26T02:43:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYHJxCXGNidVbzzWJ",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-wfengine-activiti-extension:src/main/java/org/onap/workflow/activitiext/common/ConstString.java",
+        "project": "onap_vfc-nfvo-wfengine-activiti-extension",
+        "line": 23,
+        "hash": "72c4e465bcf93dc7958bd001e0f84f9e",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-09T07:07:00+0200",
+        "updateDate": "2019-11-26T02:43:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYHJsCXGNidVbzzWE",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-wfengine-activiti-extension:src/main/java/org/onap/workflow/activitiext/common/EnumModuleUrl.java",
+        "project": "onap_vfc-nfvo-wfengine-activiti-extension",
+        "line": 27,
+        "hash": "324a163226e9bec598c25269cdb1c058",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 13,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-09-28T10:58:17+0200",
+        "updateDate": "2019-11-26T02:43:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYHJfCXGNidVbzzVi",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-wfengine-activiti-extension:src/main/java/org/onap/workflow/activitiext/restservicetask/HttpUtil.java",
+        "project": "onap_vfc-nfvo-wfengine-activiti-extension",
+        "line": 123,
+        "hash": "37a22fe77f18662893b014cdac789140",
+        "textRange": {
+            "startLine": 123,
+            "endLine": 123,
+            "startOffset": 10,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.activiti.engine.ActivitiException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-09-28T10:58:17+0200",
+        "updateDate": "2019-11-26T02:43:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYHJWCXGNidVbzzVW",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-wfengine-activiti-extension:src/main/java/org/onap/workflow/activitiext/restservicetask/LowLevelRestApi.java",
+        "project": "onap_vfc-nfvo-wfengine-activiti-extension",
+        "line": 45,
+        "hash": "ce1c5c8df593f04aed460d4a8a691fb4",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 79,
+            "endOffset": 88
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-09-28T10:58:17+0200",
+        "updateDate": "2019-11-26T02:43:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYHJUCXGNidVbzzVV",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-wfengine-activiti-extension:src/main/java/org/onap/workflow/activitiext/restservicetask/CatalogServiceConsumer.java",
+        "project": "onap_vfc-nfvo-wfengine-activiti-extension",
+        "line": 29,
+        "hash": "c9ed464b7210049de00fb360645aae37",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 13,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-09-28T10:58:17+0200",
+        "updateDate": "2019-11-26T02:43:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYHJfCXGNidVbzzVe",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-wfengine-activiti-extension:src/main/java/org/onap/workflow/activitiext/restservicetask/HttpUtil.java",
+        "project": "onap_vfc-nfvo-wfengine-activiti-extension",
+        "line": 64,
+        "hash": "a4bef7ea242744a7f636886ebd80732c",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 57,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.activiti.engine.ActivitiException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-09T07:07:00+0200",
+        "updateDate": "2019-11-26T02:43:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYHJcCXGNidVbzzVb",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-wfengine-activiti-extension:src/main/java/org/onap/workflow/activitiext/restservicetask/PropertyUtil.java",
+        "project": "onap_vfc-nfvo-wfengine-activiti-extension",
+        "line": 23,
+        "hash": "6b818ab0bf8924f1471567deaa9fb5bf",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-09T07:07:00+0200",
+        "updateDate": "2019-11-26T02:43:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYHJWCXGNidVbzzVX",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-wfengine-activiti-extension:src/main/java/org/onap/workflow/activitiext/restservicetask/LowLevelRestApi.java",
+        "project": "onap_vfc-nfvo-wfengine-activiti-extension",
+        "line": 29,
+        "hash": "5c5788ea6e649b088911d6584fb4e981",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-09T07:07:00+0200",
+        "updateDate": "2019-11-26T02:43:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

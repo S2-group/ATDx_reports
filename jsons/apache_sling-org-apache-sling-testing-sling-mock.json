@@ -1,0 +1,1306 @@
+[
+    {
+        "key": "AXF58pySf_iQWSeuYMIF",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/builder/ImmutableValueMap.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 164,
+        "hash": "0b985b42726a6e711d6165cd8ed56b94",
+        "textRange": {
+            "startLine": 164,
+            "endLine": 164,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2020-04-14T20:20:35+0200",
+        "updateDate": "2020-04-14T20:27:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXF58pySf_iQWSeuYMIE",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/builder/ImmutableValueMap.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 155,
+        "hash": "c58b0d88692d389f93e63c05b2fbde83",
+        "textRange": {
+            "startLine": 155,
+            "endLine": 155,
+            "startOffset": 16,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2020-04-14T20:20:35+0200",
+        "updateDate": "2020-04-14T20:27:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXF58pySf_iQWSeuYMID",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/builder/ImmutableValueMap.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 146,
+        "hash": "bcc46710b7042704b20fc42c75b46d4a",
+        "textRange": {
+            "startLine": 146,
+            "endLine": 146,
+            "startOffset": 18,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2020-04-14T20:20:35+0200",
+        "updateDate": "2020-04-14T20:27:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXF58pySf_iQWSeuYMIC",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/builder/ImmutableValueMap.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 137,
+        "hash": "128cf2920a0cda9501b478f3b4ca8649",
+        "textRange": {
+            "startLine": 137,
+            "endLine": 137,
+            "startOffset": 18,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2020-04-14T20:20:35+0200",
+        "updateDate": "2020-04-14T20:27:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyIKPT9GnU7ZT0Y",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/servlet/MockRequestPathInfo.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 32,
+        "hash": "2e476b0d03535e92e6ec82a4318c8c8d",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 11,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-03T16:16:43+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyEKPT9GnU7ZT0V",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/servlet/MockSlingHttpServletRequest.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 59,
+        "hash": "79987521bdc09d34e63715ff0880469d",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 39,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-08-03T15:20:28+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyEKPT9GnU7ZT0U",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/servlet/MockSlingHttpServletRequest.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 55,
+        "hash": "f9df95c9e08ae36554f358b3980586e5",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 43,
+            "endOffset": 65
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-08-03T15:20:28+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyAKPT9GnU7ZT0S",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/servlet/MockHttpSession.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 26,
+        "hash": "83b51348398f34c21fb15e5269c32f36",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 33,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-01-14T00:07:09+0100",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPxvKPT9GnU7ZT0J",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/loader/ContentLoader.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 373,
+        "hash": "f56e4e0323a660ccbba16818899d83e7",
+        "textRange": {
+            "startLine": 373,
+            "endLine": 373,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPxvKPT9GnU7ZT0I",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/loader/ContentLoader.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 249,
+        "hash": "994ac230fb0dc17586983c847ce9a1b0",
+        "textRange": {
+            "startLine": 249,
+            "endLine": 249,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPxvKPT9GnU7ZT0H",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/loader/ContentLoader.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 231,
+        "hash": "994ac230fb0dc17586983c847ce9a1b0",
+        "textRange": {
+            "startLine": 231,
+            "endLine": 231,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPxrKPT9GnU7ZT0B",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/loader/LoaderContentHandler.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 71,
+        "hash": "1037326a8d3e532daa26eb30a5272299",
+        "textRange": {
+            "startLine": 71,
+            "endLine": 71,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-03-17T23:24:27+0100",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPxrKPT9GnU7ZT0A",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/loader/LoaderContentHandler.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 65,
+        "hash": "e3fc9987b99cd3d128b19a7c74d05ce2",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-03-17T23:24:27+0100",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyqKPT9GnU7ZT0_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/context/ModelAdapterFactoryUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 189,
+        "hash": "a8156487ab1d6a1a2bea5592eb9ffd22",
+        "textRange": {
+            "startLine": 189,
+            "endLine": 189,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-12-04T11:37:46+0100",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyvKPT9GnU7ZT1O",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/ResourceResolverFactoryInitializer.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 199,
+        "hash": "5c265cf7b6253e3e9ba6398572e3cf3b",
+        "textRange": {
+            "startLine": 199,
+            "endLine": 199,
+            "startOffset": 20,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-02T22:52:05+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW_PgKzdAv5tvMWXh-Fq",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/context/SlingContextImpl.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 309,
+        "hash": "483b8406c85d399971792b041210bbc7",
+        "textRange": {
+            "startLine": 309,
+            "endLine": 309,
+            "startOffset": 31,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2020-01-23T00:04:28+0100",
+        "updateDate": "2020-01-23T00:04:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPylKPT9GnU7ZT03",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/context/SlingContextImpl.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 272,
+        "hash": "5f29f20610a189e32a9774eac166c601",
+        "textRange": {
+            "startLine": 272,
+            "endLine": 272,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-10-16T18:11:32+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPylKPT9GnU7ZT06",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/context/SlingContextImpl.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 208,
+        "hash": "588f8ac3b43c9100f804bd48c3114109",
+        "textRange": {
+            "startLine": 208,
+            "endLine": 208,
+            "startOffset": 19,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPylKPT9GnU7ZT04",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/context/SlingContextImpl.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 117,
+        "hash": "1e08509297d7a54f1c71ff9ff1f58216",
+        "textRange": {
+            "startLine": 117,
+            "endLine": 117,
+            "startOffset": 19,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyVKPT9GnU7ZT0o",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/MockJcrSlingRepository.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 119,
+        "hash": "8f5b37cdec11efb483aa739313ef0697",
+        "textRange": {
+            "startLine": 119,
+            "endLine": 119,
+            "startOffset": 19,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.LoginException' which is a subclass of 'javax.jcr.RepositoryException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-02-23T01:09:40+0100",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPycKPT9GnU7ZT0s",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/context/UniqueRoot.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 72,
+        "hash": "005d0ed53db6cb246116e9c737cbd6f4",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-09-27T11:46:11+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyzKPT9GnU7ZT1Y",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/builder/ContentBuilder.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 97,
+        "hash": "b278d00fabf4da71d9ebff0f92c8536e",
+        "textRange": {
+            "startLine": 97,
+            "endLine": 97,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-09-27T09:16:02+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyzKPT9GnU7ZT1Z",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/builder/ContentBuilder.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 190,
+        "hash": "b278d00fabf4da71d9ebff0f92c8536e",
+        "textRange": {
+            "startLine": 190,
+            "endLine": 190,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPxvKPT9GnU7ZT0K",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/loader/ContentLoader.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 495,
+        "hash": "f56e4e0323a660ccbba16818899d83e7",
+        "textRange": {
+            "startLine": 495,
+            "endLine": 495,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXF58pySf_iQWSeuYMIB",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/builder/ImmutableValueMap.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 267,
+        "hash": "537fd608ea4cdb91c13673dd4703fb8b",
+        "textRange": {
+            "startLine": 267,
+            "endLine": 267,
+            "startOffset": 36,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-04-14T20:20:35+0200",
+        "updateDate": "2020-04-14T20:27:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXF58pySf_iQWSeuYMIA",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/builder/ImmutableValueMap.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 241,
+        "hash": "37c39d177b78f534c0c70e76d7af3b74",
+        "textRange": {
+            "startLine": 241,
+            "endLine": 241,
+            "startOffset": 45,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-04-14T20:20:35+0200",
+        "updateDate": "2020-04-14T20:27:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyRKPT9GnU7ZT0e",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/services/MockMimeTypeService.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 93,
+        "hash": "43235b03a86ac236d91f8aec48945462",
+        "textRange": {
+            "startLine": 93,
+            "endLine": 93,
+            "startOffset": 38,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-14T16:54:32+0100",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyfKPT9GnU7ZT0w",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/context/ContextResourceResolverFactory.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 72,
+        "hash": "01ba0de2003ce4743a56d0861082cf42",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 112,
+            "endOffset": 126
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.api.resource.LoginException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-03T15:20:28+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyfKPT9GnU7ZT0v",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/context/ContextResourceResolverFactory.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 72,
+        "hash": "01ba0de2003ce4743a56d0861082cf42",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 91,
+            "endOffset": 110
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.RepositoryException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-03T15:20:28+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPy4KPT9GnU7ZT1b",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/ThreadsafeMockAdapterManagerWrapper.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 97,
+        "hash": "3225ad55e8fa413a1bc7a511ea2d733f",
+        "textRange": {
+            "startLine": 97,
+            "endLine": 97,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-02-20T01:21:18+0100",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyVKPT9GnU7ZT0n",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/MockJcrSlingRepository.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 113,
+        "hash": "ea5f89faaa71184f87b3c0f618938bc7",
+        "textRange": {
+            "startLine": 113,
+            "endLine": 113,
+            "startOffset": 34,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.LoginException' which is a subclass of 'javax.jcr.RepositoryException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyVKPT9GnU7ZT0m",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/MockJcrSlingRepository.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 107,
+        "hash": "1b0f229338f85f8e9ac5565b7ce1c0ab",
+        "textRange": {
+            "startLine": 107,
+            "endLine": 107,
+            "startOffset": 76,
+            "endOffset": 100
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.NoSuchWorkspaceException' which is a subclass of 'javax.jcr.RepositoryException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyfKPT9GnU7ZT0t",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/context/ContextResourceResolverFactory.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 68,
+        "hash": "4b58c01009669e67423499c695de43b5",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-09-26T17:30:02+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyVKPT9GnU7ZT0i",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/MockJcrSlingRepository.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 96,
+        "hash": "f3940d8f1c6b131b179747bcfe164221",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 91,
+            "endOffset": 105
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.LoginException' which is a subclass of 'javax.jcr.RepositoryException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyVKPT9GnU7ZT0h",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/MockJcrSlingRepository.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 55,
+        "hash": "8f5b37cdec11efb483aa739313ef0697",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 19,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.LoginException' which is a subclass of 'javax.jcr.RepositoryException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-10-28T11:17:59+0100",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPzKKPT9GnU7ZT2Y",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/MockSling.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 121,
+        "hash": "9e6295d926e50cda4b4e9e04d9fd6381",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-03T00:35:50+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPzKKPT9GnU7ZT2X",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/MockSling.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 102,
+        "hash": "99cd244150215358f6047d25181d0e90",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPzKKPT9GnU7ZT2V",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/MockSling.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 90,
+        "hash": "99cd244150215358f6047d25181d0e90",
+        "textRange": {
+            "startLine": 90,
+            "endLine": 90,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPzKKPT9GnU7ZT2W",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/MockSling.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 96,
+        "hash": "99cd244150215358f6047d25181d0e90",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyVKPT9GnU7ZT0l",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/MockJcrSlingRepository.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 107,
+        "hash": "1b0f229338f85f8e9ac5565b7ce1c0ab",
+        "textRange": {
+            "startLine": 107,
+            "endLine": 107,
+            "startOffset": 60,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.LoginException' which is a subclass of 'javax.jcr.RepositoryException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyVKPT9GnU7ZT0k",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/MockJcrSlingRepository.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 102,
+        "hash": "2d36ce9e631386fe72ca77c8244b2a75",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 63,
+            "endOffset": 77
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.LoginException' which is a subclass of 'javax.jcr.RepositoryException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyRKPT9GnU7ZT0f",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/services/MockMimeTypeService.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 99,
+        "hash": "abda698b0766800f7ba750ceee60b565",
+        "textRange": {
+            "startLine": 99,
+            "endLine": 99,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-14T16:54:32+0100",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyRKPT9GnU7ZT0d",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/services/MockMimeTypeService.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 64,
+        "hash": "c61065af55edad2fd9673a95bf41c740",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-05-06T15:14:59+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvlqPyVKPT9GnU7ZT0j",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-sling-mock:core/src/main/java/org/apache/sling/testing/mock/sling/MockJcrSlingRepository.java",
+        "project": "apache_sling-org-apache-sling-testing-sling-mock",
+        "line": 97,
+        "hash": "772342c059e7f3be22d0d211baeb09a1",
+        "textRange": {
+            "startLine": 97,
+            "endLine": 97,
+            "startOffset": 12,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.NoSuchWorkspaceException' which is a subclass of 'javax.jcr.RepositoryException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-07-12T12:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

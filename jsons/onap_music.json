@@ -1,0 +1,2033 @@
+[
+    {
+        "key": "AW6lfFhGBmP1bM4iQbCG",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/datastore/jsonobjects/JsonInsert.java",
+        "project": "onap_music",
+        "line": 352,
+        "hash": "f1a12f0864cd0df9a6f0c4d4d8074ab0",
+        "textRange": {
+            "startLine": 352,
+            "endLine": 352,
+            "startOffset": 29,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make rowIdString a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-07-02T10:15:12+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoBBmP1bM4iQbFg",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicQAPI.java",
+        "project": "onap_music",
+        "line": 306,
+        "hash": "44f7c0832e8bab56d622a057d3d9ebc4",
+        "textRange": {
+            "startLine": 306,
+            "endLine": 306,
+            "startOffset": 20,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoBBmP1bM4iQbFh",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicQAPI.java",
+        "project": "onap_music",
+        "line": 343,
+        "hash": "496fb458f5a25929beb4bd3cc27fe470",
+        "textRange": {
+            "startLine": 343,
+            "endLine": 343,
+            "startOffset": 20,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-07-16T22:41:20+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoBBmP1bM4iQbFi",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicQAPI.java",
+        "project": "onap_music",
+        "line": 402,
+        "hash": "340b923416d826859e1654c5f57151ea",
+        "textRange": {
+            "startLine": 402,
+            "endLine": 402,
+            "startOffset": 20,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-07-16T22:41:20+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoBBmP1bM4iQbFj",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicQAPI.java",
+        "project": "onap_music",
+        "line": 428,
+        "hash": "8845851b50403824fe9007b203b4b610",
+        "textRange": {
+            "startLine": 428,
+            "endLine": 428,
+            "startOffset": 20,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoNBmP1bM4iQbGB",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 947,
+        "hash": "c73cffe0fe1520cdeb1c88c4e1dd1d36",
+        "textRange": {
+            "startLine": 947,
+            "endLine": 947,
+            "startOffset": 46,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-06-25T15:20:59+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoNBmP1bM4iQbGA",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 827,
+        "hash": "e18ba0b054224c98f68c70910af127d8",
+        "textRange": {
+            "startLine": 827,
+            "endLine": 827,
+            "startOffset": 38,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoNBmP1bM4iQbF_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 751,
+        "hash": "3d0ce87a4768916d661a284986551538",
+        "textRange": {
+            "startLine": 751,
+            "endLine": 751,
+            "startOffset": 78,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoNBmP1bM4iQbF-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 395,
+        "hash": "e18ba0b054224c98f68c70910af127d8",
+        "textRange": {
+            "startLine": 395,
+            "endLine": 395,
+            "startOffset": 38,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoNBmP1bM4iQbF9",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 314,
+        "hash": "dbbd9d73351d5445785c56c25b552605",
+        "textRange": {
+            "startLine": 314,
+            "endLine": 314,
+            "startOffset": 105,
+            "endOffset": 114
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoBBmP1bM4iQbFf",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicQAPI.java",
+        "project": "onap_music",
+        "line": 264,
+        "hash": "e12835a972e47c4e6d44621ee861d5a4",
+        "textRange": {
+            "startLine": 264,
+            "endLine": 264,
+            "startOffset": 20,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoBBmP1bM4iQbFe",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicQAPI.java",
+        "project": "onap_music",
+        "line": 228,
+        "hash": "99bf1606395f656fcb51f0ae5d78b543",
+        "textRange": {
+            "startLine": 228,
+            "endLine": 228,
+            "startOffset": 20,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFhGBmP1bM4iQbCF",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/datastore/jsonobjects/JsonInsert.java",
+        "project": "onap_music",
+        "line": 351,
+        "hash": "05c639713ec71b7e66d7e474dd0958e3",
+        "textRange": {
+            "startLine": 351,
+            "endLine": 351,
+            "startOffset": 22,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make primarKeyValue a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-07-02T10:15:12+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoMBmP1bM4iQbFx",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 122,
+        "hash": "f1a12f0864cd0df9a6f0c4d4d8074ab0",
+        "textRange": {
+            "startLine": 122,
+            "endLine": 122,
+            "startOffset": 29,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make rowIdString a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-02-05T16:20:49+0100",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoMBmP1bM4iQbFw",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 121,
+        "hash": "05c639713ec71b7e66d7e474dd0958e3",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 22,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make primarKeyValue a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-02-05T16:20:49+0100",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFhaBmP1bM4iQbCO",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/datastore/jsonobjects/JsonSelect.java",
+        "project": "onap_music",
+        "line": 146,
+        "hash": "f1a12f0864cd0df9a6f0c4d4d8074ab0",
+        "textRange": {
+            "startLine": 146,
+            "endLine": 146,
+            "startOffset": 29,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make rowIdString a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-07-02T10:15:12+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFhaBmP1bM4iQbCN",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/datastore/jsonobjects/JsonSelect.java",
+        "project": "onap_music",
+        "line": 145,
+        "hash": "05c639713ec71b7e66d7e474dd0958e3",
+        "textRange": {
+            "startLine": 145,
+            "endLine": 145,
+            "startOffset": 22,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make primarKeyValue a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-07-02T10:15:12+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFgCBmP1bM4iQbBW",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/exceptions/MusicServiceException.java",
+        "project": "onap_music",
+        "line": 35,
+        "hash": "72da543693d9640dc82b6f80b8afc0a6",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 19,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"errorMessage\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-02-05T16:20:49+0100",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFekBmP1bM4iQbAu",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/main/MusicUtil.java",
+        "project": "onap_music",
+        "line": 541,
+        "hash": "def639f16524a814a2f33538a24654c3",
+        "textRange": {
+            "startLine": 541,
+            "endLine": 541,
+            "startOffset": 99,
+            "endOffset": 108
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-08T07:55:21+0100",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFekBmP1bM4iQbAo",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/main/MusicUtil.java",
+        "project": "onap_music",
+        "line": 403,
+        "hash": "fe787ca58534532e1ffd369404c5bf52",
+        "textRange": {
+            "startLine": 403,
+            "endLine": 403,
+            "startOffset": 25,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-02-05T16:20:49+0100",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFgCBmP1bM4iQbBV",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/exceptions/MusicServiceException.java",
+        "project": "onap_music",
+        "line": 34,
+        "hash": "57e5309a572f99412d608b80cd006a92",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 16,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"errorCode\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-02-05T16:20:49+0100",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFfdBmP1bM4iQbBM",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/main/CipherUtil.java",
+        "project": "onap_music",
+        "line": 231,
+        "hash": "78bfb26fdad0204c53be1a149ae1aee0",
+        "textRange": {
+            "startLine": 231,
+            "endLine": 231,
+            "startOffset": 25,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-06-25T15:20:59+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFgRBmP1bM4iQbBX",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/datastore/Condition.java",
+        "project": "onap_music",
+        "line": 49,
+        "hash": "43297d3e791d0c8e2b435fc6471c1af0",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-01-29T22:05:01+0100",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFfdBmP1bM4iQbBD",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/main/CipherUtil.java",
+        "project": "onap_music",
+        "line": 102,
+        "hash": "45abe85953a570d7953f24270c4f6940",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 25,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-06-25T15:20:59+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFfdBmP1bM4iQbA_",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/main/CipherUtil.java",
+        "project": "onap_music",
+        "line": 76,
+        "hash": "cfe6a4d967faca8b4bee214066220a2f",
+        "textRange": {
+            "startLine": 76,
+            "endLine": 76,
+            "startOffset": 25,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-06-25T15:20:59+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFeEBmP1bM4iQbAV",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/main/DeadlockDetectionUtil.java",
+        "project": "onap_music",
+        "line": 82,
+        "hash": "0cab0308d8419a26c24a61e3bfb80c68",
+        "textRange": {
+            "startLine": 82,
+            "endLine": 82,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2019-09-16T20:24:40+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFfdBmP1bM4iQbBE",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/main/CipherUtil.java",
+        "project": "onap_music",
+        "line": 135,
+        "hash": "7d06874fd8e7a83c778f306e4fc29997",
+        "textRange": {
+            "startLine": 135,
+            "endLine": 135,
+            "startOffset": 25,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-06-25T15:20:59+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoNBmP1bM4iQbF8",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 241,
+        "hash": "6b5f6594d7d7fe765380425a0b8ce322",
+        "textRange": {
+            "startLine": 241,
+            "endLine": 241,
+            "startOffset": 106,
+            "endOffset": 115
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoNBmP1bM4iQbF5",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 811,
+        "hash": "e583aa47af3baf4a4c9b90519a2fbd00",
+        "textRange": {
+            "startLine": 811,
+            "endLine": 811,
+            "startOffset": 20,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoNBmP1bM4iQbF4",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 737,
+        "hash": "8f56bbcf9b8068b561a1ed623b96461c",
+        "textRange": {
+            "startLine": 737,
+            "endLine": 737,
+            "startOffset": 20,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoNBmP1bM4iQbF3",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 645,
+        "hash": "5e9edaf2c8a909832e5bd9fbeb4cdc88",
+        "textRange": {
+            "startLine": 645,
+            "endLine": 645,
+            "startOffset": 20,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoNBmP1bM4iQbF2",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 533,
+        "hash": "7946ab63aac6a0a2abf3ce63ac3c752a",
+        "textRange": {
+            "startLine": 533,
+            "endLine": 533,
+            "startOffset": 20,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoNBmP1bM4iQbF1",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 456,
+        "hash": "985976850379b3285f1849b74453ad4b",
+        "textRange": {
+            "startLine": 456,
+            "endLine": 456,
+            "startOffset": 20,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoMBmP1bM4iQbFz",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 305,
+        "hash": "beef425dc064b885fda8a368580b35ad",
+        "textRange": {
+            "startLine": 305,
+            "endLine": 305,
+            "startOffset": 20,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoMBmP1bM4iQbFy",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 162,
+        "hash": "00e4e171a88481bc75e45276a1ef5bf7",
+        "textRange": {
+            "startLine": 162,
+            "endLine": 162,
+            "startOffset": 20,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFnQBmP1bM4iQbFC",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/conductor/conditionals/MusicConditional.java",
+        "project": "onap_music",
+        "line": 284,
+        "hash": "aac97883d540a2e7aef6c61f16e17fd1",
+        "textRange": {
+            "startLine": 284,
+            "endLine": 284,
+            "startOffset": 38,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-06-05T20:09:02+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoBBmP1bM4iQbFd",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicQAPI.java",
+        "project": "onap_music",
+        "line": 88,
+        "hash": "ceaf65fe54e84b7b7c88a690bb1593c9",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 20,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFf5BmP1bM4iQbBT",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/exceptions/MusicQueryException.java",
+        "project": "onap_music",
+        "line": 37,
+        "hash": "57e5309a572f99412d608b80cd006a92",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 16,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"errorCode\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-02-05T16:20:49+0100",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFfoBmP1bM4iQbBS",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/exceptions/MusicDeadlockException.java",
+        "project": "onap_music",
+        "line": 29,
+        "hash": "636f0803756ef6564543fb3d6aefc122",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 16,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"key\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-10-09T16:39:45+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFfoBmP1bM4iQbBR",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/exceptions/MusicDeadlockException.java",
+        "project": "onap_music",
+        "line": 28,
+        "hash": "b388a640e1efd2e27d212c461a0cade1",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"table\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-10-09T16:39:45+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFfoBmP1bM4iQbBQ",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/exceptions/MusicDeadlockException.java",
+        "project": "onap_music",
+        "line": 27,
+        "hash": "19012577f0901435d2f074dfe608ad16",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 16,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"keyspace\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-10-09T16:39:45+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFfnBmP1bM4iQbBP",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/exceptions/MusicDeadlockException.java",
+        "project": "onap_music",
+        "line": 26,
+        "hash": "8bb2a96f80d856ad436f9e1505bc2b14",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"owner\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2019-10-09T16:39:45+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFfUBmP1bM4iQbA7",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/main/MusicCore.java",
+        "project": "onap_music",
+        "line": 50,
+        "hash": "b32dcabedbfd8d4e594a6fb266dbe663",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-02-05T16:20:49+0100",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFekBmP1bM4iQbAw",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/main/MusicUtil.java",
+        "project": "onap_music",
+        "line": 623,
+        "hash": "750563d982eed2256aabb063c9d9c173",
+        "textRange": {
+            "startLine": 623,
+            "endLine": 623,
+            "startOffset": 89,
+            "endOffset": 110
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.music.exceptions.MusicServiceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-29T22:05:01+0100",
+        "updateDate": "2020-01-29T21:17:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFmEBmP1bM4iQbEh",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/authentication/CadiAuthFilter.java",
+        "project": "onap_music",
+        "line": 53,
+        "hash": "5062069c81693f10e0f81a2f16ad8886",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 16,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2019-01-29T22:05:01+0100",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFekBmP1bM4iQbAv",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/main/MusicUtil.java",
+        "project": "onap_music",
+        "line": 623,
+        "hash": "750563d982eed2256aabb063c9d9c173",
+        "textRange": {
+            "startLine": 623,
+            "endLine": 623,
+            "startOffset": 112,
+            "endOffset": 131
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.music.exceptions.MusicQueryException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-29T22:05:01+0100",
+        "updateDate": "2020-01-29T21:17:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFekBmP1bM4iQbAf",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/main/MusicUtil.java",
+        "project": "onap_music",
+        "line": 478,
+        "hash": "4667cc7a2eace5c5f287657bc63dfaa1",
+        "textRange": {
+            "startLine": 478,
+            "endLine": 478,
+            "startOffset": 22,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-02-05T16:20:49+0100",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFekBmP1bM4iQbAi",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/main/MusicUtil.java",
+        "project": "onap_music",
+        "line": 499,
+        "hash": "fcff181f22b7d8679db546494f11019e",
+        "textRange": {
+            "startLine": 499,
+            "endLine": 499,
+            "startOffset": 91,
+            "endOffset": 100
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-04T09:28:07+0100",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFnQBmP1bM4iQbFF",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/conductor/conditionals/MusicConditional.java",
+        "project": "onap_music",
+        "line": 55,
+        "hash": "1eaed775b9f310b12ef7d930394b4c38",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-07-16T22:41:20+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFntBmP1bM4iQbFT",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicLocksAPI.java",
+        "project": "onap_music",
+        "line": 602,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 602,
+            "endLine": 602,
+            "startOffset": 27,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-09-26T19:52:01+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFntBmP1bM4iQbFS",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicLocksAPI.java",
+        "project": "onap_music",
+        "line": 547,
+        "hash": "0d3784ba33f9be283fe25fc9bb23c7a2",
+        "textRange": {
+            "startLine": 547,
+            "endLine": 547,
+            "startOffset": 98,
+            "endOffset": 107
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-06-25T15:20:59+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFntBmP1bM4iQbFR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicLocksAPI.java",
+        "project": "onap_music",
+        "line": 480,
+        "hash": "0d3784ba33f9be283fe25fc9bb23c7a2",
+        "textRange": {
+            "startLine": 480,
+            "endLine": 480,
+            "startOffset": 86,
+            "endOffset": 95
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-06-25T15:20:59+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFntBmP1bM4iQbFQ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicLocksAPI.java",
+        "project": "onap_music",
+        "line": 309,
+        "hash": "0d3784ba33f9be283fe25fc9bb23c7a2",
+        "textRange": {
+            "startLine": 309,
+            "endLine": 309,
+            "startOffset": 98,
+            "endOffset": 107
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-06-25T15:20:59+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFntBmP1bM4iQbFP",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicLocksAPI.java",
+        "project": "onap_music",
+        "line": 254,
+        "hash": "fdba54b640ba0b13d7fe030f264586e5",
+        "textRange": {
+            "startLine": 254,
+            "endLine": 254,
+            "startOffset": 120,
+            "endOffset": 129
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-06-25T15:20:59+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFntBmP1bM4iQbFO",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicLocksAPI.java",
+        "project": "onap_music",
+        "line": 189,
+        "hash": "0d3784ba33f9be283fe25fc9bb23c7a2",
+        "textRange": {
+            "startLine": 189,
+            "endLine": 189,
+            "startOffset": 98,
+            "endOffset": 107
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-06-25T15:20:59+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFntBmP1bM4iQbFW",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicLocksAPI.java",
+        "project": "onap_music",
+        "line": 309,
+        "hash": "0d3784ba33f9be283fe25fc9bb23c7a2",
+        "textRange": {
+            "startLine": 309,
+            "endLine": 309,
+            "startOffset": 98,
+            "endOffset": 107
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-06-25T15:20:59+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoNBmP1bM4iQbF0",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 385,
+        "hash": "9181a7fd20983cbaa5d9a6b75c925585",
+        "textRange": {
+            "startLine": 385,
+            "endLine": 385,
+            "startOffset": 20,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-28T01:50:44+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFjNBmP1bM4iQbDs",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/service/impl/MusicCassaCore.java",
+        "project": "onap_music",
+        "line": 936,
+        "hash": "299eab4f80727d0630e925646a2cb81b",
+        "textRange": {
+            "startLine": 936,
+            "endLine": 936,
+            "startOffset": 22,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-29T22:05:01+0100",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFekBmP1bM4iQbAk",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/main/MusicUtil.java",
+        "project": "onap_music",
+        "line": 187,
+        "hash": "ffc463e07c5867e412fff55d84a8bbae",
+        "textRange": {
+            "startLine": 187,
+            "endLine": 187,
+            "startOffset": 11,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Hide this public constructor.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-08-29T19:07:31+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFfLBmP1bM4iQbA4",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/main/CorePropertiesLoader.java",
+        "project": "onap_music",
+        "line": 27,
+        "hash": "d55ccd50287e75c6e7a13d18101c607f",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-09-26T23:02:22+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFjNBmP1bM4iQbDe",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/service/impl/MusicCassaCore.java",
+        "project": "onap_music",
+        "line": 576,
+        "hash": "7fed176f9d082661d1757f5d39aa9ce9",
+        "textRange": {
+            "startLine": 576,
+            "endLine": 576,
+            "startOffset": 17,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-29T22:05:01+0100",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFjNBmP1bM4iQbDu",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/service/impl/MusicCassaCore.java",
+        "project": "onap_music",
+        "line": 964,
+        "hash": "dd8ca7cfe799cba8bc8ccd8e89a4207c",
+        "textRange": {
+            "startLine": 964,
+            "endLine": 964,
+            "startOffset": 21,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-29T22:05:01+0100",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFm7BmP1bM4iQbE4",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/conductor/conditionals/RestMusicConditionalAPI.java",
+        "project": "onap_music",
+        "line": 132,
+        "hash": "64eee04f1ea1c3cf0c6184257888b7cc",
+        "textRange": {
+            "startLine": 132,
+            "endLine": 132,
+            "startOffset": 20,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-06-05T20:09:02+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFm7BmP1bM4iQbE3",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/conductor/conditionals/RestMusicConditionalAPI.java",
+        "project": "onap_music",
+        "line": 74,
+        "hash": "65a368c9740a343ab779508382f69752",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 20,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-06-05T20:09:02+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFntBmP1bM4iQbFU",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicLocksAPI.java",
+        "project": "onap_music",
+        "line": 247,
+        "hash": "01146332cddf141c50d9fb83914a745b",
+        "textRange": {
+            "startLine": 247,
+            "endLine": 247,
+            "startOffset": 20,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-06-25T15:20:59+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFntBmP1bM4iQbFN",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicLocksAPI.java",
+        "project": "onap_music",
+        "line": 121,
+        "hash": "0d3784ba33f9be283fe25fc9bb23c7a2",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 98,
+            "endOffset": 107
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-06-25T15:20:59+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFntBmP1bM4iQbFY",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicLocksAPI.java",
+        "project": "onap_music",
+        "line": 541,
+        "hash": "7b30a229ebfa89ff9c4b6c79d734222b",
+        "textRange": {
+            "startLine": 541,
+            "endLine": 541,
+            "startOffset": 20,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-03-29T05:15:59+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFekBmP1bM4iQbAj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_music:music-core/src/main/java/org/onap/music/main/MusicUtil.java",
+        "project": "onap_music",
+        "line": 541,
+        "hash": "def639f16524a814a2f33538a24654c3",
+        "textRange": {
+            "startLine": 541,
+            "endLine": 541,
+            "startOffset": 99,
+            "endOffset": 108
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-08T07:55:21+0100",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoNBmP1bM4iQbF7",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 944,
+        "hash": "6fa899241765424da64bf3b07d758b3d",
+        "textRange": {
+            "startLine": 944,
+            "endLine": 944,
+            "startOffset": 21,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-06-25T15:20:59+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFoNBmP1bM4iQbF6",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicDataAPI.java",
+        "project": "onap_music",
+        "line": 912,
+        "hash": "d75dde0da8bc8718c11a61b0f250f64c",
+        "textRange": {
+            "startLine": 912,
+            "endLine": 912,
+            "startOffset": 20,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-06-25T15:20:59+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfFntBmP1bM4iQbFM",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_music:music-rest/src/main/java/org/onap/music/rest/RestMusicLocksAPI.java",
+        "project": "onap_music",
+        "line": 112,
+        "hash": "64f885cefc1423583ba11341b4f355e7",
+        "textRange": {
+            "startLine": 112,
+            "endLine": 112,
+            "startOffset": 20,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-29T05:15:59+0200",
+        "updateDate": "2019-11-26T03:13:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

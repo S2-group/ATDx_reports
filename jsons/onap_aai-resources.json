@@ -1,0 +1,598 @@
+[
+    {
+        "key": "AW6lMuDYk4KhMkVz5e0z",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/rest/LegacyMoxyConsumer.java",
+        "project": "onap_aai-resources",
+        "line": 188,
+        "hash": "9f759a3be19f5349dca7068f36e01e86",
+        "textRange": {
+            "startLine": 188,
+            "endLine": 188,
+            "startOffset": 17,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-02-28T17:36:08+0100",
+        "updateDate": "2019-11-26T01:53:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMuD0k4KhMkVz5e1U",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/rest/BulkConsumer.java",
+        "project": "onap_aai-resources",
+        "line": 260,
+        "hash": "bf5f75fbb4e7dbba27906e4b7ff56f64",
+        "textRange": {
+            "startLine": 260,
+            "endLine": 260,
+            "startOffset": 24,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.google.gson.JsonSyntaxException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-02-12T21:44:18+0100",
+        "updateDate": "2019-11-26T01:53:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMuDzk4KhMkVz5e1R",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/rest/BulkConsumer.java",
+        "project": "onap_aai-resources",
+        "line": 224,
+        "hash": "518f8c985114bc56e77771213d26cd51",
+        "textRange": {
+            "startLine": 224,
+            "endLine": 224,
+            "startOffset": 93,
+            "endOffset": 112
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.google.gson.JsonSyntaxException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-12-05T15:56:40+0100",
+        "updateDate": "2019-11-26T01:53:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMuCqk4KhMkVz5e0T",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/rest/util/LogFormatTools.java",
+        "project": "onap_aai-resources",
+        "line": 26,
+        "hash": "77886d20080b67df9c3946037d395e4a",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-13T08:49:05+0200",
+        "updateDate": "2019-11-26T01:53:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCigABdepjwwnQMD9Sl",
+        "rule": "java:S2885",
+        "severity": "MAJOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/TenantIsolation/DataImportTasks.java",
+        "project": "onap_aai-resources",
+        "line": 69,
+        "hash": "74ecf63eb3d0fe631d5c9aa2934afb93",
+        "textRange": {
+            "startLine": 69,
+            "endLine": 69,
+            "startOffset": 42,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make \"dateFormat\" an instance variable.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2020-03-03T19:20:06+0100",
+        "updateDate": "2020-03-03T23:23:35+0100",
+        "type": "BUG",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCigABcepjwwnQMD9Sb",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/TenantIsolation/DataImportTasks.java",
+        "project": "onap_aai-resources",
+        "line": 95,
+        "hash": "79dad7a3b6106f3895455103a74ee472",
+        "textRange": {
+            "startLine": 95,
+            "endLine": 95,
+            "startOffset": 50,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-03T19:20:06+0100",
+        "updateDate": "2020-03-03T23:23:35+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMuD0k4KhMkVz5e1V",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/rest/BulkConsumer.java",
+        "project": "onap_aai-resources",
+        "line": 287,
+        "hash": "8158726114863333b2fe4712c17de2be",
+        "textRange": {
+            "startLine": 287,
+            "endLine": 287,
+            "startOffset": 203,
+            "endOffset": 222
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.google.gson.JsonSyntaxException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-12-04T21:31:29+0100",
+        "updateDate": "2019-11-26T01:53:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMuHvk4KhMkVz5e2S",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/IncreaseNodesTool.java",
+        "project": "onap_aai-resources",
+        "line": 56,
+        "hash": "104d84c6164b102d12e65b27acdb951b",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static nodeCount\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2018-08-13T08:49:05+0200",
+        "updateDate": "2019-11-26T01:53:00+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMuDYk4KhMkVz5e00",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/rest/LegacyMoxyConsumer.java",
+        "project": "onap_aai-resources",
+        "line": 218,
+        "hash": "5852190bf3bdcfd3bca89921b842bd6e",
+        "textRange": {
+            "startLine": 218,
+            "endLine": 218,
+            "startOffset": 17,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-02-28T17:36:08+0100",
+        "updateDate": "2019-11-26T01:53:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMuIEk4KhMkVz5e2l",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/dbgen/tags/Command.java",
+        "project": "onap_aai-resources",
+        "line": 24,
+        "hash": "e23a8c5f9c324678778cdf6ad80bbe2e",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 39,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-28T22:18:53+0200",
+        "updateDate": "2019-11-26T01:53:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCigABdepjwwnQMD9Sy",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/TenantIsolation/DataImportTasks.java",
+        "project": "onap_aai-resources",
+        "line": 208,
+        "hash": "1193fa22827810b70d7c0c299ec09975",
+        "textRange": {
+            "startLine": 208,
+            "endLine": 208,
+            "startOffset": 65,
+            "endOffset": 77
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.exceptions.AAIException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-03-03T19:20:06+0100",
+        "updateDate": "2020-03-03T23:23:35+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCigABdepjwwnQMD9Sn",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/TenantIsolation/DataImportTasks.java",
+        "project": "onap_aai-resources",
+        "line": 95,
+        "hash": "79dad7a3b6106f3895455103a74ee472",
+        "textRange": {
+            "startLine": 95,
+            "endLine": 95,
+            "startOffset": 36,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.exceptions.AAIException' which is a subclass of 'java.lang.Exception'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-03-03T19:20:06+0100",
+        "updateDate": "2020-03-03T23:23:35+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMuHvk4KhMkVz5e2Y",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/IncreaseNodesTool.java",
+        "project": "onap_aai-resources",
+        "line": 73,
+        "hash": "5a7479e84f75546a56cc9db44563a78b",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 49,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.introspection.exceptions.AAIUnknownObjectException' which is a subclass of 'org.onap.aai.exceptions.AAIException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-10T21:50:25+0200",
+        "updateDate": "2019-11-26T01:53:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMuHvk4KhMkVz5e2T",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/IncreaseNodesTool.java",
+        "project": "onap_aai-resources",
+        "line": 56,
+        "hash": "104d84c6164b102d12e65b27acdb951b",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make nodeCount a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-13T08:49:05+0200",
+        "updateDate": "2019-11-26T01:53:00+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMuHvk4KhMkVz5e2a",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/IncreaseNodesTool.java",
+        "project": "onap_aai-resources",
+        "line": 111,
+        "hash": "817637f410e751d4b4488cea43be53a2",
+        "textRange": {
+            "startLine": 111,
+            "endLine": 111,
+            "startOffset": 92,
+            "endOffset": 120
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-13T08:49:05+0200",
+        "updateDate": "2019-11-26T01:53:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMuHvk4KhMkVz5e2d",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/IncreaseNodesTool.java",
+        "project": "onap_aai-resources",
+        "line": 123,
+        "hash": "8bf2e31805f3719a83a4a3cb4a160768",
+        "textRange": {
+            "startLine": 123,
+            "endLine": 123,
+            "startOffset": 8,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-08-13T08:49:05+0200",
+        "updateDate": "2019-11-26T01:53:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMuH8k4KhMkVz5e2k",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/util/PositiveNumValidator.java",
+        "project": "onap_aai-resources",
+        "line": 28,
+        "hash": "6f017de7fe59601ce2157c69235132e2",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 56,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.beust.jcommander.ParameterException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-13T08:49:05+0200",
+        "updateDate": "2019-11-26T01:53:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMuHmk4KhMkVz5e2N",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/ResourcesApp.java",
+        "project": "onap_aai-resources",
+        "line": 93,
+        "hash": "53858ebf0ed0cf2797390172a7fb0d37",
+        "textRange": {
+            "startLine": 93,
+            "endLine": 93,
+            "startOffset": 28,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.exceptions.AAIException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-02-28T17:36:08+0100",
+        "updateDate": "2019-11-26T01:53:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMuHek4KhMkVz5e2I",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/service/AuthorizationService.java",
+        "project": "onap_aai-resources",
+        "line": 75,
+        "hash": "099cfe3ffe3de6cd90e40ab50b395088",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-11T06:16:29+0200",
+        "updateDate": "2019-11-26T01:53:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lMuHek4KhMkVz5e2H",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-resources:aai-resources/src/main/java/org/onap/aai/service/AuthorizationService.java",
+        "project": "onap_aai-resources",
+        "line": 66,
+        "hash": "df8c08d065aee5925d44c099a64d2d8e",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-11T06:16:29+0200",
+        "updateDate": "2019-11-26T01:53:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

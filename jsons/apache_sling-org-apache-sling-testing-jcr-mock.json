@@ -1,0 +1,275 @@
+[
+    {
+        "key": "AWoqbWzpgJaYv1rOQkMb",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-jcr-mock:src/main/java/org/apache/sling/testing/mock/jcr/MockJcr.java",
+        "project": "apache_sling-org-apache-sling-testing-jcr-mock",
+        "line": 174,
+        "hash": "8fd411d53b32d7f9f45f2d633df8a674",
+        "textRange": {
+            "startLine": 174,
+            "endLine": 174,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-12-09T16:48:31+0100",
+        "updateDate": "2019-04-17T10:32:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoqbWzpgJaYv1rOQkMa",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-jcr-mock:src/main/java/org/apache/sling/testing/mock/jcr/MockJcr.java",
+        "project": "apache_sling-org-apache-sling-testing-jcr-mock",
+        "line": 89,
+        "hash": "03210a7b663fe05106803fc892187849",
+        "textRange": {
+            "startLine": 89,
+            "endLine": 89,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-04-17T10:32:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoqbWzigJaYv1rOQkMU",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-jcr-mock:src/main/java/org/apache/sling/testing/mock/jcr/MockRow.java",
+        "project": "apache_sling-org-apache-sling-testing-jcr-mock",
+        "line": 58,
+        "hash": "07932b999a5cd22facc7198cd2dbbfd8",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 52,
+            "endOffset": 73
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.ItemNotFoundException' which is a subclass of 'javax.jcr.RepositoryException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-12-09T16:32:02+0100",
+        "updateDate": "2019-04-17T10:32:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoqbWzfgJaYv1rOQkMS",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-jcr-mock:src/main/java/org/apache/sling/testing/mock/jcr/MockProperty.java",
+        "project": "apache_sling-org-apache-sling-testing-jcr-mock",
+        "line": 50,
+        "hash": "c43cc1feef4943f131ed342f0d6aeedb",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-10-16T19:53:47+0200",
+        "updateDate": "2019-04-17T10:32:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoqbWy9gJaYv1rOQkML",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-jcr-mock:src/main/java/org/apache/sling/testing/mock/jcr/MockNode.java",
+        "project": "apache_sling-org-apache-sling-testing-jcr-mock",
+        "line": 307,
+        "hash": "3ea1336be846ef911caa5a2be4e59f7d",
+        "textRange": {
+            "startLine": 307,
+            "endLine": 307,
+            "startOffset": 51,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.RepositoryException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-11-12T11:36:01+0100",
+        "updateDate": "2019-04-17T10:32:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoqbWztgJaYv1rOQkMd",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-jcr-mock:src/main/java/org/apache/sling/testing/mock/jcr/ResourceUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-jcr-mock",
+        "line": 25,
+        "hash": "91bcae24abffb0ce074bd4e6c19ac7af",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 6,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-04-17T10:32:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoqbWzygJaYv1rOQkMi",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-jcr-mock:src/main/java/org/apache/sling/testing/mock/jcr/MockQuery.java",
+        "project": "apache_sling-org-apache-sling-testing-jcr-mock",
+        "line": 98,
+        "hash": "f941a1079595b293d1fa4a2b2a1e2460",
+        "textRange": {
+            "startLine": 98,
+            "endLine": 98,
+            "startOffset": 56,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.RepositoryException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-12-12T09:43:42+0100",
+        "updateDate": "2019-04-17T10:32:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoqbWzygJaYv1rOQkMg",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-jcr-mock:src/main/java/org/apache/sling/testing/mock/jcr/MockQuery.java",
+        "project": "apache_sling-org-apache-sling-testing-jcr-mock",
+        "line": 64,
+        "hash": "02cdfc8ced984dbdcc8b17e1f6b1d026",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 34,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.RepositoryException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-12-12T09:43:42+0100",
+        "updateDate": "2019-04-17T10:32:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoqbWzygJaYv1rOQkMh",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-jcr-mock:src/main/java/org/apache/sling/testing/mock/jcr/MockQuery.java",
+        "project": "apache_sling-org-apache-sling-testing-jcr-mock",
+        "line": 73,
+        "hash": "599965383d7750d347a3ed407a3bcf48",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 35,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.RepositoryException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-12-12T09:43:42+0100",
+        "updateDate": "2019-04-17T10:32:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,2050 @@
+[
+    {
+        "key": "AWo_AVcO-aLJxVkBT2C8",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/jobhandling/JobHandlingUtils.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 33,
+        "hash": "da52d20e0b7409f4d165fa4b3163a79b",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 6,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-01-18T12:29:58+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVjh-aLJxVkBT2IX",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/servlet/DistributionPackageImporterServlet.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 99,
+        "hash": "7da775eac4ca5004f4db1dfa84b5059a",
+        "textRange": {
+            "startLine": 99,
+            "endLine": 99,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-01-18T16:21:08+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVf3-aLJxVkBT2Ff",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/component/impl/DistributionComponentConstants.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 25,
+        "hash": "b55ede53a5e3ec57c109772ddafe727c",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 13,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-02-04T12:25:29+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AViK-aLJxVkBT2HQ",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/packaging/impl/DistributionPackageUtils.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 66,
+        "hash": "c131b7f21c81b97be0b883a5f492825f",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 13,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-02-04T10:23:46+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVjT-aLJxVkBT2IM",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/servlet/DistributionPackageExporterServlet.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 82,
+        "hash": "d866b458f09f0e149f5a1b6a77489dde",
+        "textRange": {
+            "startLine": 82,
+            "endLine": 82,
+            "startOffset": 37,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-07-14T15:15:17+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVjT-aLJxVkBT2IL",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/servlet/DistributionPackageExporterServlet.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 82,
+        "hash": "d866b458f09f0e149f5a1b6a77489dde",
+        "textRange": {
+            "startLine": 82,
+            "endLine": 82,
+            "startOffset": 19,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-07-14T15:15:17+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVjT-aLJxVkBT2IH",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/servlet/DistributionPackageExporterServlet.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 110,
+        "hash": "bb69c95ebd5be31082e2146f30ff8914",
+        "textRange": {
+            "startLine": 110,
+            "endLine": 110,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T13:28:33+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVd7-aLJxVkBT2EQ",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/ForwardDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 233,
+        "hash": "97473c5a1d95230856af34e6e25b5b99",
+        "textRange": {
+            "startLine": 233,
+            "endLine": 233,
+            "startOffset": 19,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-05T11:40:33+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVd0-aLJxVkBT2EC",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/QueueingDistributionPackageProcessor.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 79,
+        "hash": "c2f54dcf5c393377c5a83a9bbd80e81c",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 4,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-08-13T11:26:52+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVdg-aLJxVkBT2D_",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/DistributionQueueCapabilities.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 24,
+        "hash": "78ad0f17a1f50e18dc5a32febfbede7b",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 19,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-11-12T16:15:06+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVdP-aLJxVkBT2D6",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/DistributionQueueUtils.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 29,
+        "hash": "cc5951efff891474c3a940f9a6a0f70d",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 13,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-01-16T09:03:33+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8jVLWGFN2GgBToHgk3",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/resource/ResourceQueueProvider.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 97,
+        "hash": "62c261625718f158450bca2a3517cff5",
+        "textRange": {
+            "startLine": 97,
+            "endLine": 97,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-11-26T06:20:38+0100",
+        "updateDate": "2019-11-26T09:08:11+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW00CDvxPs7qf_uD19dn",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/serialization/impl/vlt/FileVaultContentSerializer.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 87,
+        "hash": "ea739566038cabb308a7623f0eba6629",
+        "textRange": {
+            "startLine": 87,
+            "endLine": 87,
+            "startOffset": 11,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 12 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-09-15T10:26:24+0200",
+        "updateDate": "2019-09-15T10:26:24+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVcs-aLJxVkBT2Dm",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/resource/ResourceQueueUtils.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 56,
+        "hash": "0cc5116db378c282eab7f239bb6030f9",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 13,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-10-15T13:32:53+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVd7-aLJxVkBT2EP",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/ForwardDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 228,
+        "hash": "dea04e9c5de2d84398e8e2c6ab07c53e",
+        "textRange": {
+            "startLine": 228,
+            "endLine": 228,
+            "startOffset": 19,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-05T11:40:33+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVd7-aLJxVkBT2EN",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/ForwardDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 224,
+        "hash": "8da62412bc09c4fd813bb859d2f60db7",
+        "textRange": {
+            "startLine": 224,
+            "endLine": 224,
+            "startOffset": 19,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-05T11:40:33+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVcm-aLJxVkBT2DY",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/resource/ResourceQueue.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 167,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 167,
+            "endLine": 167,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-15T13:32:53+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVcm-aLJxVkBT2Dd",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/resource/ResourceQueue.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 229,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 229,
+            "endLine": 229,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-15T13:32:53+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVcm-aLJxVkBT2Db",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/resource/ResourceQueue.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 209,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 209,
+            "endLine": 209,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-15T13:32:53+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVcm-aLJxVkBT2DZ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/resource/ResourceQueue.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 169,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 169,
+            "endLine": 169,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-15T13:32:53+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVcm-aLJxVkBT2Dc",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/resource/ResourceQueue.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 227,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 227,
+            "endLine": 227,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-15T13:32:53+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVgD-aLJxVkBT2Fs",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/component/impl/SettingsUtils.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 35,
+        "hash": "8107f18d869f207c7ce4d7028af4ca9d",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 13,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2014-11-07T11:28:02+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVcm-aLJxVkBT2DX",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/resource/ResourceQueue.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 144,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 144,
+            "endLine": 144,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-15T13:32:53+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVcm-aLJxVkBT2DW",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/resource/ResourceQueue.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 142,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 142,
+            "endLine": 142,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-15T13:32:53+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVcm-aLJxVkBT2DV",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/resource/ResourceQueue.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 122,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 122,
+            "endLine": 122,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-15T13:32:53+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVcm-aLJxVkBT2DU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/resource/ResourceQueue.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 120,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 120,
+            "endLine": 120,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-15T13:32:53+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVcm-aLJxVkBT2DT",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/resource/ResourceQueue.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 98,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 98,
+            "endLine": 98,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-15T13:32:53+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVcm-aLJxVkBT2DS",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/resource/ResourceQueue.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 96,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-15T13:32:53+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVeF-aLJxVkBT2EY",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/SyncDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 197,
+        "hash": "97473c5a1d95230856af34e6e25b5b99",
+        "textRange": {
+            "startLine": 197,
+            "endLine": 197,
+            "startOffset": 19,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-07T12:02:33+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVeF-aLJxVkBT2EX",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/SyncDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 192,
+        "hash": "dea04e9c5de2d84398e8e2c6ab07c53e",
+        "textRange": {
+            "startLine": 192,
+            "endLine": 192,
+            "startOffset": 19,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-07T12:02:33+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVeF-aLJxVkBT2EV",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/SyncDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 187,
+        "hash": "8da62412bc09c4fd813bb859d2f60db7",
+        "textRange": {
+            "startLine": 187,
+            "endLine": 187,
+            "startOffset": 19,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-07T12:02:33+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVd7-aLJxVkBT2EL",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/ForwardDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 220,
+        "hash": "6ad66f864edf4aced09f66856de1aebf",
+        "textRange": {
+            "startLine": 220,
+            "endLine": 220,
+            "startOffset": 19,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-05T11:40:33+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVcU-aLJxVkBT2DC",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/jobhandling/JobHandlingDistributionQueueProvider.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 114,
+        "hash": "62c261625718f158450bca2a3517cff5",
+        "textRange": {
+            "startLine": 114,
+            "endLine": 114,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-07-28T12:28:52+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVh6-aLJxVkBT2HH",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/packaging/impl/importer/RepositoryDistributionPackageImporter.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 107,
+        "hash": "c524352d1f3a42f0ab6695dba0a0d621",
+        "textRange": {
+            "startLine": 107,
+            "endLine": 107,
+            "startOffset": 42,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-12-05T09:08:59+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVh6-aLJxVkBT2HG",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/packaging/impl/importer/RepositoryDistributionPackageImporter.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 116,
+        "hash": "b5a259ba329236dc2978ad51bcb0ed6d",
+        "textRange": {
+            "startLine": 116,
+            "endLine": 116,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-12-05T09:08:59+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVh6-aLJxVkBT2HF",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/packaging/impl/importer/RepositoryDistributionPackageImporter.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 91,
+        "hash": "abc01c40e0122ec67a0a77a6401fc6ec",
+        "textRange": {
+            "startLine": 91,
+            "endLine": 91,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-11-07T11:28:02+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVe2-aLJxVkBT2FF",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/transport/impl/HttpTransportUtils.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 34,
+        "hash": "57b219d22744759d9fb941864e75ac95",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 6,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-01-19T16:03:06+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVhR-aLJxVkBT2Gw",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/resources/impl/OsgiUtils.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 33,
+        "hash": "c2cf3699ad983563fc0cfb90849c2989",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2014-11-07T11:28:02+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVcm-aLJxVkBT2Da",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/resource/ResourceQueue.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 207,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 207,
+            "endLine": 207,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-15T13:32:53+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8jVLT4FN2GgBToHgk2",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/queue/impl/resource/ActiveResourceQueue.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 69,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 69,
+            "endLine": 69,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-12-04T05:29:02+0100",
+        "updateDate": "2019-12-20T13:41:51+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVgS-aLJxVkBT2F6",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/component/impl/DefaultDistributionConfigurationManager.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 82,
+        "hash": "b581d9f17aab377cc50ef8483cb00b60",
+        "textRange": {
+            "startLine": 82,
+            "endLine": 82,
+            "startOffset": 8,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2016-06-15T13:20:25+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AViW-aLJxVkBT2He",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/packaging/impl/ResourceDistributionPackage.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 148,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 148,
+            "endLine": 148,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-02-03T15:59:56+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVeO-aLJxVkBT2Eh",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/SimpleDistributionAgent.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 123,
+        "hash": "6c9193d4d263b0f0939ac24d92074a10",
+        "textRange": {
+            "startLine": 123,
+            "endLine": 123,
+            "startOffset": 17,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2016-05-04T16:38:50+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVeO-aLJxVkBT2Eg",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/SimpleDistributionAgent.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 85,
+        "hash": "f92a0e9770d360dc78016fc9fdaa4bfe",
+        "textRange": {
+            "startLine": 85,
+            "endLine": 85,
+            "startOffset": 11,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 17 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2014-11-07T11:28:02+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVeI-aLJxVkBT2Ef",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/ReverseDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 183,
+        "hash": "97473c5a1d95230856af34e6e25b5b99",
+        "textRange": {
+            "startLine": 183,
+            "endLine": 183,
+            "startOffset": 19,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-05T11:40:33+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVeI-aLJxVkBT2Ee",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/ReverseDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 178,
+        "hash": "dea04e9c5de2d84398e8e2c6ab07c53e",
+        "textRange": {
+            "startLine": 178,
+            "endLine": 178,
+            "startOffset": 19,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-05T11:40:33+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVeI-aLJxVkBT2Ec",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/ReverseDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 173,
+        "hash": "8da62412bc09c4fd813bb859d2f60db7",
+        "textRange": {
+            "startLine": 173,
+            "endLine": 173,
+            "startOffset": 19,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-05T11:40:33+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVeI-aLJxVkBT2Ea",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/ReverseDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 169,
+        "hash": "6ad66f864edf4aced09f66856de1aebf",
+        "textRange": {
+            "startLine": 169,
+            "endLine": 169,
+            "startOffset": 19,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-05T11:40:33+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVif-aLJxVkBT2Hi",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/packaging/impl/ResourceDistributionPackageBuilder.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 73,
+        "hash": "06904ad0d3dae619848067ad830c0176",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 11,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2016-08-01T13:21:08+0200",
+        "updateDate": "2019-08-05T17:13:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVjd-aLJxVkBT2IT",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/servlet/ServletJsonUtils.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 41,
+        "hash": "1f545aec0d56e2e75415fca53f742f71",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 6,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-01-18T12:29:58+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVi--aLJxVkBT2H1",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/serialization/impl/vlt/VltUtils.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 67,
+        "hash": "d535637b3cdd8a4c67e64a53f98ab145",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2014-12-05T10:55:53+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVhs-aLJxVkBT2G_",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/packaging/impl/exporter/AgentDistributionPackageExporterFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 79,
+        "hash": "e88fc528fa302a0d74f08a305f48b3d7",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 60,
+            "endOffset": 69
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-11-07T11:28:02+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVhs-aLJxVkBT2G-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/packaging/impl/exporter/AgentDistributionPackageExporterFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 79,
+        "hash": "e88fc528fa302a0d74f08a305f48b3d7",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 60,
+            "endOffset": 69
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-11-07T11:28:02+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVhj-aLJxVkBT2G6",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/packaging/impl/exporter/RemoteDistributionPackageExporterFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 96,
+        "hash": "426d68823903808c98fb46381557f0b1",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 63,
+            "endOffset": 72
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-11-07T11:28:02+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVeR-aLJxVkBT2Eo",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/QueueDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 159,
+        "hash": "8da62412bc09c4fd813bb859d2f60db7",
+        "textRange": {
+            "startLine": 159,
+            "endLine": 159,
+            "startOffset": 19,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-05T11:40:33+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVd3-aLJxVkBT2EJ",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/SimpleDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 158,
+        "hash": "97473c5a1d95230856af34e6e25b5b99",
+        "textRange": {
+            "startLine": 158,
+            "endLine": 158,
+            "startOffset": 19,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2014-11-07T11:28:02+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVd3-aLJxVkBT2EI",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/SimpleDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 153,
+        "hash": "dea04e9c5de2d84398e8e2c6ab07c53e",
+        "textRange": {
+            "startLine": 153,
+            "endLine": 153,
+            "startOffset": 19,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-05T11:40:33+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVd3-aLJxVkBT2EG",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/SimpleDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 148,
+        "hash": "8da62412bc09c4fd813bb859d2f60db7",
+        "textRange": {
+            "startLine": 148,
+            "endLine": 148,
+            "startOffset": 19,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-05T11:40:33+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVd3-aLJxVkBT2EE",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/SimpleDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 144,
+        "hash": "6ad66f864edf4aced09f66856de1aebf",
+        "textRange": {
+            "startLine": 144,
+            "endLine": 144,
+            "startOffset": 19,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2014-11-07T11:28:02+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVhj-aLJxVkBT2G5",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/packaging/impl/exporter/RemoteDistributionPackageExporterFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 96,
+        "hash": "426d68823903808c98fb46381557f0b1",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 63,
+            "endOffset": 72
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-11-07T11:28:02+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVeR-aLJxVkBT2Eq",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/QueueDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 164,
+        "hash": "dea04e9c5de2d84398e8e2c6ab07c53e",
+        "textRange": {
+            "startLine": 164,
+            "endLine": 164,
+            "startOffset": 19,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-05T11:40:33+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVeR-aLJxVkBT2Er",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/QueueDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 169,
+        "hash": "97473c5a1d95230856af34e6e25b5b99",
+        "textRange": {
+            "startLine": 169,
+            "endLine": 169,
+            "startOffset": 19,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2014-12-08T17:11:24+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVeX-aLJxVkBT2Es",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/SimpleDistributionAgentQueueProcessor.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 65,
+        "hash": "f7cc66b0424f137a68280cafb44fc2a9",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 11,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2016-08-18T16:17:38+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVhf-aLJxVkBT2G4",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/resources/DistributionResourceTypes.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 24,
+        "hash": "519e5da79bbf1181e7206adf7d5c51ee",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 13,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-01-16T09:03:33+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVfl-aLJxVkBT2FU",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/util/impl/ByteBufferBackedInputStream.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 57,
+        "hash": "ca581f5eed15a1c0e5bb098e1789c7f4",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 15,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-08-13T11:26:52+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVfi-aLJxVkBT2FR",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/util/impl/DistributionUtils.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 36,
+        "hash": "225549b6aad03ad0802c6ce19a1f7965",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-11-09T14:41:52+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVgp-aLJxVkBT2GP",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/trigger/impl/AbstractJcrEventTrigger.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 190,
+        "hash": "74b34dc5d264fbb505879e11468bf820",
+        "textRange": {
+            "startLine": 190,
+            "endLine": 190,
+            "startOffset": 38,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-09-16T21:53:47+0200",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVfv-aLJxVkBT2Fa",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/util/RequestUtils.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 34,
+        "hash": "e9c6bbc5f188f9c752bcc46102fc20ff",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 13,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2014-11-07T11:28:02+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVfr-aLJxVkBT2FX",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/util/DistributionJcrUtils.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 31,
+        "hash": "47441507574d7a2217eb0e110089852c",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2014-11-07T11:28:02+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVeR-aLJxVkBT2Em",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/QueueDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 155,
+        "hash": "6ad66f864edf4aced09f66856de1aebf",
+        "textRange": {
+            "startLine": 155,
+            "endLine": 155,
+            "startOffset": 19,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2014-12-08T17:11:24+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo_AVeF-aLJxVkBT2ET",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-distribution-core:src/main/java/org/apache/sling/distribution/agent/impl/SyncDistributionAgentFactory.java",
+        "project": "apache_sling-org-apache-sling-distribution-core",
+        "line": 183,
+        "hash": "6ad66f864edf4aced09f66856de1aebf",
+        "textRange": {
+            "startLine": 183,
+            "endLine": 183,
+            "startOffset": 19,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2014-12-08T17:11:24+0100",
+        "updateDate": "2019-04-21T10:26:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

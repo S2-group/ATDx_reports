@@ -1,0 +1,324 @@
+[
+    {
+        "key": "AW6lOuhDTPRzv3ZMQdd-",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-spike:src/main/java/org/onap/aai/spike/util/SpikeConstants.java",
+        "project": "onap_aai-spike",
+        "line": 27,
+        "hash": "59f2bd7e1a92093540b827370fc70edf",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-07-12T15:01:38+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lOuhMTPRzv3ZMQdeB",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-spike:src/main/java/org/onap/aai/spike/util/SpikeProperties.java",
+        "project": "onap_aai-spike",
+        "line": 29,
+        "hash": "367983b663736fa47ca1da6b5701ab6f",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-07-12T15:01:38+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lOujWTPRzv3ZMQde2",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-spike:src/main/java/org/onap/aai/spike/schema/RelationshipSchema.java",
+        "project": "onap_aai-spike",
+        "line": 79,
+        "hash": "c5e14bfd1948a48847f5bbe5070cceae",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 63,
+            "endOffset": 77
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.spike.exception.SpikeException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-07-12T15:01:38+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lOuirTPRzv3ZMQdeR",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-spike:src/main/java/org/onap/aai/spike/schema/GraphEventTransformer.java",
+        "project": "onap_aai-spike",
+        "line": 46,
+        "hash": "0688c2a1aa4c363243e82b4267922840",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 13,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-07-12T15:01:38+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lOuj8TPRzv3ZMQdfF",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-spike:src/main/java/org/onap/aai/spike/service/SpikeService.java",
+        "project": "onap_aai-spike",
+        "line": 47,
+        "hash": "1fadae1fc591d32d54572ca72d4179f7",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 33,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-12T15:01:38+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lOui4TPRzv3ZMQdeZ",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-spike:src/main/java/org/onap/aai/spike/schema/OXMModelLoader.java",
+        "project": "onap_aai-spike",
+        "line": 72,
+        "hash": "19e4f5806da4a62cece035b3323b575c",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 11,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Hide this public constructor.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-12-17T19:27:04+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lOui4TPRzv3ZMQded",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-spike:src/main/java/org/onap/aai/spike/schema/OXMModelLoader.java",
+        "project": "onap_aai-spike",
+        "line": 84,
+        "hash": "73bbbd4bbfa05ddb489358145619c322",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 56,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.spike.exception.SpikeException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-07-12T15:01:38+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lOujLTPRzv3ZMQdem",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-spike:src/main/java/org/onap/aai/spike/schema/EdgeRulesLoader.java",
+        "project": "onap_aai-spike",
+        "line": 77,
+        "hash": "ccd27815bd2526cea1add4551e39e1cb",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 11,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Hide this public constructor.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-12-17T19:27:04+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lOuhWTPRzv3ZMQdeD",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-spike:src/main/java/org/onap/aai/spike/event/incoming/OffsetManager.java",
+        "project": "onap_aai-spike",
+        "line": 266,
+        "hash": "56bd465620085baa6d1e5ddba0443b11",
+        "textRange": {
+            "startLine": 266,
+            "endLine": 266,
+            "startOffset": 29,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make state a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-12T15:01:38+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lOujLTPRzv3ZMQdev",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-spike:src/main/java/org/onap/aai/spike/schema/EdgeRulesLoader.java",
+        "project": "onap_aai-spike",
+        "line": 231,
+        "hash": "3a2dbf59f9e1659a7c9e2baecdc1e051",
+        "textRange": {
+            "startLine": 231,
+            "endLine": 231,
+            "startOffset": 19,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.spike.exception.SpikeException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-11-28T18:27:31+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lOujWTPRzv3ZMQde0",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-spike:src/main/java/org/onap/aai/spike/schema/RelationshipSchema.java",
+        "project": "onap_aai-spike",
+        "line": 60,
+        "hash": "c7927d05c989910ad29146b2b3bf91e0",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 85,
+            "endOffset": 99
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.spike.exception.SpikeException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-07-12T15:01:38+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

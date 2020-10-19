@@ -1,0 +1,257 @@
+[
+    {
+        "key": "AW6lje8UoucddIov5ptl",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-services-son-handler:src/main/java/org/onap/dcaegen2/services/sonhms/utils/AppConfig.java",
+        "project": "onap_dcaegen2-services-son-handler",
+        "line": 39,
+        "hash": "7986a288ba4ebc8c058dbb24efceb939",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-11T13:07:12+0100",
+        "updateDate": "2019-11-26T03:32:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBn13MPrlMkX__mZIge",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dcaegen2-services-son-handler:src/main/java/org/onap/dcaegen2/services/sonhms/child/ChildThread.java",
+        "project": "onap_dcaegen2-services-son-handler",
+        "line": 265,
+        "hash": "5eb3aee7a479d6b396f71fdbf8ad59fc",
+        "textRange": {
+            "startLine": 265,
+            "endLine": 265,
+            "startOffset": 5,
+            "endOffset": 14
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2020-02-21T14:01:28+0100",
+        "updateDate": "2020-02-21T14:01:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lje-3oucddIov5puA",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-son-handler:src/main/java/org/onap/dcaegen2/services/sonhms/EventHandler.java",
+        "project": "onap_dcaegen2-services-son-handler",
+        "line": 288,
+        "hash": "ae9cd2edc89c4bbcb7fdae9adbbe3ffa",
+        "textRange": {
+            "startLine": 288,
+            "endLine": 288,
+            "startOffset": 19,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.dcaegen2.services.sonhms.exceptions.ConfigDbNotFoundException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-05T14:43:32+0200",
+        "updateDate": "2019-11-26T03:32:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lje35oucddIov5ptO",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-services-son-handler:src/main/java/org/onap/dcaegen2/services/sonhms/model/LteNeighborListInUseLteCell.java",
+        "project": "onap_dcaegen2-services-son-handler",
+        "line": 59,
+        "hash": "2e96f32cd0a8e1882d0af6dd81b64739",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 11,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-02-15T11:58:41+0100",
+        "updateDate": "2019-11-26T03:32:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBn13FnrlMkX__mZIga",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-services-son-handler:src/main/java/org/onap/dcaegen2/services/sonhms/restclient/OofRestClient.java",
+        "project": "onap_dcaegen2-services-son-handler",
+        "line": 55,
+        "hash": "266dd35b1ca48ecde17ecab37bbe7b9c",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 25,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-02-21T14:01:28+0100",
+        "updateDate": "2020-02-21T14:01:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lje63oucddIov5pta",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-son-handler:src/main/java/org/onap/dcaegen2/services/sonhms/dmaap/NotificationCallback.java",
+        "project": "onap_dcaegen2-services-son-handler",
+        "line": 24,
+        "hash": "c79cda878ca7827de37aca2f9b6a55b0",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 22,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"NotificationCallback\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2019-04-05T14:43:32+0200",
+        "updateDate": "2019-11-26T03:32:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXI3U3NqvPFV4POp4hAk",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dcaegen2-services-son-handler:src/main/java/org/onap/dcaegen2/services/sonhms/child/ChildThread.java",
+        "project": "onap_dcaegen2-services-son-handler",
+        "line": 180,
+        "hash": "1b53f73e4667e87eb782641c92e2d8b2",
+        "textRange": {
+            "startLine": 180,
+            "endLine": 180,
+            "startOffset": 4,
+            "endOffset": 13
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2020-05-21T15:01:27+0200",
+        "updateDate": "2020-05-21T15:01:27+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lje8LoucddIov5ptk",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dcaegen2-services-son-handler:src/main/java/org/onap/dcaegen2/services/sonhms/utils/BeanUtil.java",
+        "project": "onap_dcaegen2-services-son-handler",
+        "line": 34,
+        "hash": "e8952c643ef93ffd980b90a75d61564c",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 8,
+            "endOffset": 15
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-03-11T13:07:12+0100",
+        "updateDate": "2019-11-26T03:32:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXI3U3NqvPFV4POp4hAj",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_dcaegen2-services-son-handler:src/main/java/org/onap/dcaegen2/services/sonhms/child/ChildThread.java",
+        "project": "onap_dcaegen2-services-son-handler",
+        "line": 174,
+        "hash": "c82c0fa41e0ca830df3e695b843ec9ed",
+        "textRange": {
+            "startLine": 174,
+            "endLine": 174,
+            "startOffset": 7,
+            "endOffset": 16
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2020-05-21T15:01:27+0200",
+        "updateDate": "2020-05-21T15:01:27+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,148 @@
+[
+    {
+        "key": "AWo6ydnjo4hEA1R-hLhD",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-installer-provider-jcr:src/main/java/org/apache/sling/installer/provider/jcr/impl/JcrInstaller.java",
+        "project": "apache_sling-org-apache-sling-installer-provider-jcr",
+        "line": 383,
+        "hash": "58cd1f2a47811a08ebc9775fe56d463a",
+        "textRange": {
+            "startLine": 383,
+            "endLine": 383,
+            "startOffset": 100,
+            "endOffset": 109
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-03-10T17:30:23+0100",
+        "updateDate": "2019-04-20T14:47:29+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo6ydndo4hEA1R-hLg8",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-installer-provider-jcr:src/main/java/org/apache/sling/installer/provider/jcr/impl/FileNodeConverter.java",
+        "project": "apache_sling-org-apache-sling-installer-provider-jcr",
+        "line": 68,
+        "hash": "f6ec8d50903f0b2d845ab4c179b5c6bc",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 11,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2010-09-20T18:11:45+0200",
+        "updateDate": "2019-04-20T14:47:29+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo6ydnwo4hEA1R-hLhs",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-installer-provider-jcr:src/main/java/org/apache/sling/installer/provider/jcr/impl/JcrUtil.java",
+        "project": "apache_sling-org-apache-sling-installer-provider-jcr",
+        "line": 31,
+        "hash": "9a800d81e484d7d03459a626201389cf",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 22,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2011-03-02T11:53:34+0100",
+        "updateDate": "2019-04-20T14:47:29+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo6ydnZo4hEA1R-hLg4",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-installer-provider-jcr:src/main/java/org/apache/sling/installer/provider/jcr/impl/WatchedFolder.java",
+        "project": "apache_sling-org-apache-sling-installer-provider-jcr",
+        "line": 67,
+        "hash": "41f7ac9844c9caf6ad35d1aae1df5afe",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 11,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.RepositoryException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2010-09-20T18:11:45+0200",
+        "updateDate": "2019-04-20T14:47:29+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo6ydnRo4hEA1R-hLgr",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-installer-provider-jcr:src/main/java/org/apache/sling/installer/provider/jcr/impl/FolderNameFilter.java",
+        "project": "apache_sling-org-apache-sling-installer-provider-jcr",
+        "line": 98,
+        "hash": "7a9cf7603d90fc9cb9a275b5329d8a7e",
+        "textRange": {
+            "startLine": 98,
+            "endLine": 98,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2011-03-02T11:53:34+0100",
+        "updateDate": "2019-04-20T14:47:29+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

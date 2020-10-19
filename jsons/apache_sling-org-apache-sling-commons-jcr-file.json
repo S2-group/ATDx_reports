@@ -1,0 +1,206 @@
+[
+    {
+        "key": "AXBu6pmOpDytFdLKl7dJ",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-jcr-file:src/main/java/org/apache/sling/commons/jcr/file/internal/JcrFileSystemProvider.java",
+        "project": "apache_sling-org-apache-sling-commons-jcr-file",
+        "line": 142,
+        "hash": "997c9bbbc60ca8809bdef8785dd038f9",
+        "textRange": {
+            "startLine": 142,
+            "endLine": 142,
+            "startOffset": 23,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-27T18:29:59+0200",
+        "updateDate": "2020-02-22T23:00:19+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBu6plzpDytFdLKl7cf",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-jcr-file:src/main/java/org/apache/sling/commons/jcr/file/internal/JcrFileChannel.java",
+        "project": "apache_sling-org-apache-sling-commons-jcr-file",
+        "line": 59,
+        "hash": "b997059b9d9e114ef043558f6d7a4bab",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 43,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-09-27T18:29:59+0200",
+        "updateDate": "2020-02-22T23:00:19+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBu6plkpDytFdLKl7cZ",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-jcr-file:src/main/java/org/apache/sling/commons/jcr/file/internal/JcrFileAttributes.java",
+        "project": "apache_sling-org-apache-sling-commons-jcr-file",
+        "line": 42,
+        "hash": "e4f7041a103bf1ced3488482abf78fd7",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 4,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-08-22T23:06:56+0200",
+        "updateDate": "2020-02-22T23:00:19+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBu6plcpDytFdLKl7cX",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-jcr-file:src/main/java/org/apache/sling/commons/jcr/file/internal/PathUtil.java",
+        "project": "apache_sling-org-apache-sling-commons-jcr-file",
+        "line": 33,
+        "hash": "15a34bd3e1ea8df5ded3b290465ffbb6",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-22T23:06:56+0200",
+        "updateDate": "2020-02-22T23:00:19+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBu6pkHpDytFdLKl7bu",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-jcr-file:src/main/java/org/apache/sling/commons/jcr/file/internal/JcrFile.java",
+        "project": "apache_sling-org-apache-sling-commons-jcr-file",
+        "line": 171,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 171,
+            "endLine": 171,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-22T23:06:56+0200",
+        "updateDate": "2020-02-22T23:00:19+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBu6pkHpDytFdLKl7bt",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-jcr-file:src/main/java/org/apache/sling/commons/jcr/file/internal/JcrFile.java",
+        "project": "apache_sling-org-apache-sling-commons-jcr-file",
+        "line": 161,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 161,
+            "endLine": 161,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-22T23:06:56+0200",
+        "updateDate": "2020-02-22T23:00:19+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBu6pmnpDytFdLKl7dj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-commons-jcr-file:src/main/java/org/apache/sling/commons/jcr/file/internal/JcrDirectoryStream.java",
+        "project": "apache_sling-org-apache-sling-commons-jcr-file",
+        "line": 64,
+        "hash": "ff99e00b161beb7ce1aa5ed5de6b5664",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-22T23:06:56+0200",
+        "updateDate": "2020-02-22T23:00:19+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "key": "AW6lYM1p2OOXxfpkIR4e",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-wfengine-wfenginemgrservice:src/main/java/org/onap/workflow/activitiext/common/ToolUtil.java",
+        "project": "onap_vfc-nfvo-wfengine-wfenginemgrservice",
+        "line": 26,
+        "hash": "4165fab13a134c6b644ae904ba004929",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-08T08:02:53+0200",
+        "updateDate": "2019-11-26T02:43:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYM4g2OOXxfpkIR46",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-wfengine-wfenginemgrservice:src/main/java/org/onap/workflow/WorkflowApp.java",
+        "project": "onap_vfc-nfvo-wfengine-wfenginemgrservice",
+        "line": 37,
+        "hash": "f0ddb0d0acb078304cbf16d15e00351b",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 16,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-08-08T08:02:53+0200",
+        "updateDate": "2019-11-26T02:43:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYM4I2OOXxfpkIR4z",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-wfengine-wfenginemgrservice:src/main/java/org/onap/workflow/tools/Constants.java",
+        "project": "onap_vfc-nfvo-wfengine-wfenginemgrservice",
+        "line": 21,
+        "hash": "4b77d437a8e60026e015f438636aa6a5",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-08T08:02:53+0200",
+        "updateDate": "2019-11-26T02:43:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYM3u2OOXxfpkIR4y",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-wfengine-wfenginemgrservice:src/main/java/org/onap/workflow/externalservice/service/activitiservice/ActivitiServiceConsumer.java",
+        "project": "onap_vfc-nfvo-wfengine-wfenginemgrservice",
+        "line": 42,
+        "hash": "d46c3d864ce766b4ff91427283c28f8d",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 13,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-08T08:02:53+0200",
+        "updateDate": "2019-11-26T02:43:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYM3U2OOXxfpkIR4w",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-wfengine-wfenginemgrservice:src/main/java/org/onap/workflow/common/Config.java",
+        "project": "onap_vfc-nfvo-wfengine-wfenginemgrservice",
+        "line": 21,
+        "hash": "aa7e1f1643060cf7fcff7241ad026fa9",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 13,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-08T08:02:53+0200",
+        "updateDate": "2019-11-26T02:43:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYM3L2OOXxfpkIR4v",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-wfengine-wfenginemgrservice:src/main/java/org/onap/workflow/common/RestClientUtils.java",
+        "project": "onap_vfc-nfvo-wfengine-wfenginemgrservice",
+        "line": 29,
+        "hash": "e0ae550d11ab953dfcf9c341dc868375",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-08T08:02:53+0200",
+        "updateDate": "2019-11-26T02:43:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYM2z2OOXxfpkIR4j",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-wfengine-wfenginemgrservice:src/main/java/org/onap/workflow/common/ToolUtil.java",
+        "project": "onap_vfc-nfvo-wfengine-wfenginemgrservice",
+        "line": 28,
+        "hash": "4165fab13a134c6b644ae904ba004929",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-08T08:02:53+0200",
+        "updateDate": "2019-11-26T02:43:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,539 @@
+[
+    {
+        "key": "AWoiTdih9zLXaOU8xxMU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/job/internal/JcrPropertyScanJobConsumer.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 121,
+        "hash": "c0d21ba6268a5e1b5f7c0123b8fea1cf",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 65,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-09-01T12:14:15+0200",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiTdih9zLXaOU8xxMT",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/job/internal/JcrPropertyScanJobConsumer.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 129,
+        "hash": "6fdc96dd441db68464addf57c4d15a3e",
+        "textRange": {
+            "startLine": 129,
+            "endLine": 129,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-09-01T12:14:15+0200",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiTdie9zLXaOU8xxMQ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/internal/ClamUtil.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 89,
+        "hash": "f139cbe7ce5671ab9f0d0473753b1b29",
+        "textRange": {
+            "startLine": 89,
+            "endLine": 89,
+            "startOffset": 92,
+            "endOffset": 101
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-01-31T11:33:28+0100",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiTdiH9zLXaOU8xxL_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/http/internal/RequestUtil.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 73,
+        "hash": "fcd912af065df142409d9a8916f42dbe",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 110,
+            "endOffset": 119
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-01-31T11:42:29+0100",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiTdiH9zLXaOU8xxMB",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/http/internal/RequestUtil.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 86,
+        "hash": "c868e06417fbba5ec6578e5a87c4e402",
+        "textRange": {
+            "startLine": 86,
+            "endLine": 86,
+            "startOffset": 106,
+            "endOffset": 115
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-01-31T11:42:29+0100",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiTdiH9zLXaOU8xxL8",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/http/internal/RequestUtil.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 48,
+        "hash": "4b0b05e0cdad57fea650f9bbbd716d81",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 121,
+            "endOffset": 130
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-01-31T11:42:29+0100",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiTdiZ9zLXaOU8xxMP",
+        "rule": "java:S2885",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/result/internal/ResourcePersistingScanResultHandler.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 86,
+        "hash": "98eb4f504ab202b1ad5dc71eaf7552f1",
+        "textRange": {
+            "startLine": 86,
+            "endLine": 86,
+            "startOffset": 42,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make \"FORMAT\" an instance variable.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-01-27T13:19:22+0100",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "BUG",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiTdh89zLXaOU8xxLr",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/jcr/NodeDescendingJcrPropertyDigger.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 30,
+        "hash": "96ee605608f94432989af574067471f6",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 163,
+            "endOffset": 172
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-01-31T11:31:24+0100",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiTdiH9zLXaOU8xxL5",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/http/internal/RequestUtil.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 42,
+        "hash": "9ae319f8d9bf4181121dbd3522ab1807",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-01-31T11:42:29+0100",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiTdiH9zLXaOU8xxL7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/http/internal/RequestUtil.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 56,
+        "hash": "491d27ba451352c4c2e5ff17b375e6c7",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-01-31T11:42:29+0100",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiTdiH9zLXaOU8xxL9",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/http/internal/RequestUtil.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 69,
+        "hash": "b8e9d0bb121726dc749bb33d0bab58f5",
+        "textRange": {
+            "startLine": 69,
+            "endLine": 69,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-01-31T11:42:29+0100",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiTdiH9zLXaOU8xxL-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/http/internal/RequestUtil.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 81,
+        "hash": "c79938dc970f729441835ebe36b6284d",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-01-31T11:42:29+0100",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiTdiH9zLXaOU8xxMA",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/http/internal/RequestUtil.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 94,
+        "hash": "616c23a972463809e592c91ebdfa739a",
+        "textRange": {
+            "startLine": 94,
+            "endLine": 94,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-01-31T11:42:29+0100",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiTdiH9zLXaOU8xxMC",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/http/internal/RequestUtil.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 99,
+        "hash": "6ea8b708e5c6bd68b87b3b6c6f12da22",
+        "textRange": {
+            "startLine": 99,
+            "endLine": 99,
+            "startOffset": 139,
+            "endOffset": 148
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-01-31T11:42:29+0100",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiTdiH9zLXaOU8xxL6",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/http/internal/RequestUtil.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 39,
+        "hash": "85bd37d55af647aebfbd58aa888256f8",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 78,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-01-31T11:42:29+0100",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiTdie9zLXaOU8xxMS",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/internal/ClamUtil.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 89,
+        "hash": "f139cbe7ce5671ab9f0d0473753b1b29",
+        "textRange": {
+            "startLine": 89,
+            "endLine": 89,
+            "startOffset": 92,
+            "endOffset": 101
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-31T11:33:28+0100",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiTdie9zLXaOU8xxMR",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/internal/ClamUtil.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 32,
+        "hash": "f7596338893fac3fe459885f12257035",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 19,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-09-01T12:14:15+0200",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoiTdiZ9zLXaOU8xxML",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-clam:src/main/java/org/apache/sling/clam/result/internal/ResourcePersistingScanResultHandler.java",
+        "project": "apache_sling-org-apache-sling-clam",
+        "line": 153,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 153,
+            "endLine": 153,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-09-01T12:14:15+0200",
+        "updateDate": "2019-04-15T20:41:15+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

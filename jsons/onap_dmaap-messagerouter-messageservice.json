@@ -1,0 +1,474 @@
+[
+    {
+        "key": "AW8WC4on6Zd_Lvs81X43",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-messageservice:src/main/java/org/onap/dmaap/service/TopicRestService.java",
+        "project": "onap_dmaap-messagerouter-messageservice",
+        "line": 315,
+        "hash": "b35959d8da73c5ba9fea7a42a31cc978",
+        "textRange": {
+            "startLine": 315,
+            "endLine": 315,
+            "startOffset": 74,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-14T22:15:23+0200",
+        "updateDate": "2019-12-17T23:47:07+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WC4pS6Zd_Lvs81X6C",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-messageservice:src/main/java/org/onap/dmaap/service/MMRestService.java",
+        "project": "onap_dmaap-messagerouter-messageservice",
+        "line": 445,
+        "hash": "a4e75d9afaae465299c3b916b50a4213",
+        "textRange": {
+            "startLine": 445,
+            "endLine": 445,
+            "startOffset": 59,
+            "endOffset": 72
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a subclass of 'java.lang.Exception'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-20T00:30:58+0100",
+        "updateDate": "2019-12-17T23:47:07+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WC4pR6Zd_Lvs81X5x",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-messageservice:src/main/java/org/onap/dmaap/service/MMRestService.java",
+        "project": "onap_dmaap-messagerouter-messageservice",
+        "line": 1069,
+        "hash": "ddab32cdeacb859424c82abd8443700c",
+        "textRange": {
+            "startLine": 1069,
+            "endLine": 1069,
+            "startOffset": 53,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-20T00:30:58+0100",
+        "updateDate": "2019-12-17T23:47:07+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WC4pR6Zd_Lvs81X5w",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-messageservice:src/main/java/org/onap/dmaap/service/MMRestService.java",
+        "project": "onap_dmaap-messagerouter-messageservice",
+        "line": 857,
+        "hash": "42a70deaa3e52103e28088d146b23bb6",
+        "textRange": {
+            "startLine": 857,
+            "endLine": 857,
+            "startOffset": 53,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-20T00:30:58+0100",
+        "updateDate": "2019-12-17T23:47:07+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WC4pR6Zd_Lvs81X5v",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-messageservice:src/main/java/org/onap/dmaap/service/MMRestService.java",
+        "project": "onap_dmaap-messagerouter-messageservice",
+        "line": 619,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 619,
+            "endLine": 619,
+            "startOffset": 10,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-20T00:30:58+0100",
+        "updateDate": "2019-12-17T23:47:07+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WC4pH6Zd_Lvs81X5L",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-messageservice:src/main/java/org/onap/dmaap/service/ServiceUtil.java",
+        "project": "onap_dmaap-messagerouter-messageservice",
+        "line": 27,
+        "hash": "158ca63f22c4b6d107108e59be5ca0e8",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-03-07T01:39:05+0100",
+        "updateDate": "2019-12-17T23:47:07+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WC4on6Zd_Lvs81X44",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-messageservice:src/main/java/org/onap/dmaap/service/TopicRestService.java",
+        "project": "onap_dmaap-messagerouter-messageservice",
+        "line": 561,
+        "hash": "1b37617523c4c71b6ae7c4e1490df40f",
+        "textRange": {
+            "startLine": 561,
+            "endLine": 561,
+            "startOffset": 86,
+            "endOffset": 107
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.att.nsa.security.ReadWriteSecuredResource$AccessDeniedException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-14T22:15:23+0200",
+        "updateDate": "2019-12-17T23:47:07+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WC4qx6Zd_Lvs81X7W",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-messageservice:src/main/java/org/onap/dmaap/mmagent/MirrorMaker.java",
+        "project": "onap_dmaap-messagerouter-messageservice",
+        "line": 25,
+        "hash": "d29eb809cd7e712070b86a449a5f2e82",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 15,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make name a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-31T17:57:12+0200",
+        "updateDate": "2019-12-17T23:47:07+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WC4qx6Zd_Lvs81X7X",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-messageservice:src/main/java/org/onap/dmaap/mmagent/MirrorMaker.java",
+        "project": "onap_dmaap-messagerouter-messageservice",
+        "line": 26,
+        "hash": "8b23e7b8d8e93514d47f7b5986fbe9f3",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 15,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make consumer a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-31T17:57:12+0200",
+        "updateDate": "2019-12-17T23:47:07+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WC4qx6Zd_Lvs81X7Y",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-messageservice:src/main/java/org/onap/dmaap/mmagent/MirrorMaker.java",
+        "project": "onap_dmaap-messagerouter-messageservice",
+        "line": 27,
+        "hash": "e2e4d0485dc4bfa5f13c2ead34227370",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 15,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make producer a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-31T17:57:12+0200",
+        "updateDate": "2019-12-17T23:47:07+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WC4qx6Zd_Lvs81X7Z",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-messageservice:src/main/java/org/onap/dmaap/mmagent/MirrorMaker.java",
+        "project": "onap_dmaap-messagerouter-messageservice",
+        "line": 28,
+        "hash": "4653839ac1aec1ea6877a4f6533439a7",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make whitelist a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-31T17:57:12+0200",
+        "updateDate": "2019-12-17T23:47:07+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WC4qx6Zd_Lvs81X7a",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-messageservice:src/main/java/org/onap/dmaap/mmagent/MirrorMaker.java",
+        "project": "onap_dmaap-messagerouter-messageservice",
+        "line": 29,
+        "hash": "a00265cea49c7df1e6340bc0422038cf",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 15,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make status a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-31T17:57:12+0200",
+        "updateDate": "2019-12-17T23:47:07+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WC4rZ6Zd_Lvs81X8E",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dmaap-messagerouter-messageservice:src/main/java/org/onap/dmaap/util/ServicePropertiesMapBean.java",
+        "project": "onap_dmaap-messagerouter-messageservice",
+        "line": 31,
+        "hash": "70df4406959f01ae5ab540749d6a8cf6",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-31T17:57:12+0200",
+        "updateDate": "2019-12-17T23:47:07+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WC4p56Zd_Lvs81X7F",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-messageservice:src/main/java/org/onap/dmaap/service/ApiKeysRestService.java",
+        "project": "onap_dmaap-messagerouter-messageservice",
+        "line": 195,
+        "hash": "01d26208f7857b87aeb48f5e6cb941d7",
+        "textRange": {
+            "startLine": 195,
+            "endLine": 195,
+            "startOffset": 53,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-14T22:15:23+0200",
+        "updateDate": "2019-12-17T23:47:07+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WC4p56Zd_Lvs81X7E",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-messageservice:src/main/java/org/onap/dmaap/service/ApiKeysRestService.java",
+        "project": "onap_dmaap-messagerouter-messageservice",
+        "line": 163,
+        "hash": "47321d77935b00ba3208feb6c8f63b80",
+        "textRange": {
+            "startLine": 163,
+            "endLine": 163,
+            "startOffset": 76,
+            "endOffset": 89
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-14T22:15:23+0200",
+        "updateDate": "2019-12-17T23:47:07+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WC4qg6Zd_Lvs81X7U",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dmaap-messagerouter-messageservice:src/main/java/org/onap/dmaap/mmagent/CreateMirrorMaker.java",
+        "project": "onap_dmaap-messagerouter-messageservice",
+        "line": 42,
+        "hash": "388cd5202f875c578fbb921b82d7036d",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 72,
+            "endOffset": 91
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.dmaap.dmf.mr.CambriaApiException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-14T22:15:23+0200",
+        "updateDate": "2019-12-17T23:47:07+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

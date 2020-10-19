@@ -1,0 +1,2245 @@
+[
+    {
+        "key": "AW6lV3-0gYcRdnXY2PFt",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RestapiCallNode.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 1296,
+        "hash": "0d37fb1187dc93a5cbfab3c14b0f27fb",
+        "textRange": {
+            "startLine": 1296,
+            "endLine": 1296,
+            "startOffset": 22,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make user a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2018-09-19T16:22:02+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3-0gYcRdnXY2PFy",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RestapiCallNode.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 1301,
+        "hash": "5e7ed08f3ac8839b8c984f6ba453d126",
+        "textRange": {
+            "startLine": 1301,
+            "endLine": 1301,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make oAuthConsumerKey a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2018-09-19T16:22:02+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4AOgYcRdnXY2PHW",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/HttpResponse.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 33,
+        "hash": "4591a0e0454d86ecf1e6c6019922a5d6",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 37,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make headers2 a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-08-28T17:32:41+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4AOgYcRdnXY2PHV",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/HttpResponse.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 32,
+        "hash": "0898b6840fad0bfc72a41938e964ee6b",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 42,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make headers a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4AOgYcRdnXY2PHU",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/HttpResponse.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 31,
+        "hash": "31b161a472de9d8ff6e608024f66aa02",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 18,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make body a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4AOgYcRdnXY2PHT",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/HttpResponse.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 30,
+        "hash": "b2bdc889f4333ff4646907e5b34d839c",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make message a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4AOgYcRdnXY2PHS",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/HttpResponse.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 29,
+        "hash": "a83eb37c39dfeb590d638ea6e29c0752",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 15,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make code a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3-0gYcRdnXY2PF3",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RestapiCallNode.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 1310,
+        "hash": "6434382a23f9a304abeaeaf44ac60f86",
+        "textRange": {
+            "startLine": 1310,
+            "endLine": 1310,
+            "startOffset": 22,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make topic a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2018-09-19T16:22:02+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3-0gYcRdnXY2PFu",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RestapiCallNode.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 1297,
+        "hash": "0446fa69f560c33bcb5f21bc6dcfb254",
+        "textRange": {
+            "startLine": 1297,
+            "endLine": 1297,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make password a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2018-09-19T16:22:02+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW7tW8_H9FPFrhTzl73z",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:grToolkit/provider/src/main/java/org/onap/ccsdk/sli/plugins/grtoolkit/connection/ConnectionResponse.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 32,
+        "hash": "68caede2b1511da78292597c90410c69",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make content a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-12-09T19:16:01+0100",
+        "updateDate": "2019-12-10T02:10:08+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW7tW8_H9FPFrhTzl73y",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:grToolkit/provider/src/main/java/org/onap/ccsdk/sli/plugins/grtoolkit/connection/ConnectionResponse.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 31,
+        "hash": "45de62900d5728d18c3a5dcf87bd5fe8",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 15,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make statusCode a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-12-09T19:16:01+0100",
+        "updateDate": "2019-12-10T02:10:08+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGn",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 34,
+        "hash": "40f2e9a887016a92a9590033b6aa439e",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 22,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make httpMethod a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGo",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 35,
+        "hash": "8f69f2b2c1d9840f50111b09a12026da",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 18,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make responsePrefix a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGp",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 36,
+        "hash": "ae542cbeca8e7660bcd2d220255f7a0d",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 23,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make listNameList a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGq",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 37,
+        "hash": "19a0aceb52c820be961a4796ff4376f7",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 19,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make skipSending a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGr",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 38,
+        "hash": "e739027717c0e0517da8247988e2daa4",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 19,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make convertResponse a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGs",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 39,
+        "hash": "e606e4535fb7699f6324ab07a329df54",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make keyStoreFileName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGt",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 40,
+        "hash": "411d647b524d4404a6bc44e113bcf707",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make keyStorePassword a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGu",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 41,
+        "hash": "76cb8fbee0e43d2306c7b6210ed8505e",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 18,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make trustStoreFileName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGv",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 42,
+        "hash": "200e76a65d3cb03b3c8809e966f2f95b",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 18,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make trustStorePassword a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGw",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 43,
+        "hash": "a106108d698d49250ca79f651815f801",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 19,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make ssl a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3-0gYcRdnXY2PFr",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RestapiCallNode.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 1294,
+        "hash": "d1a7655c17bcf965fb56e47b31afd1bb",
+        "textRange": {
+            "startLine": 1294,
+            "endLine": 1294,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make fileName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2018-09-19T16:22:02+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3-0gYcRdnXY2PFs",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RestapiCallNode.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 1295,
+        "hash": "51c843584af7feeec1bc36266893d9e3",
+        "textRange": {
+            "startLine": 1295,
+            "endLine": 1295,
+            "startOffset": 22,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make url a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2018-09-19T16:22:02+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3-0gYcRdnXY2PF1",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RestapiCallNode.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 1304,
+        "hash": "ac39971b6dbb87558b9d7969e70357ca",
+        "textRange": {
+            "startLine": 1304,
+            "endLine": 1304,
+            "startOffset": 22,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make oAuthVersion a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2018-09-19T16:22:02+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4F0gYcRdnXY2PIj",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:sshapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/sshapicall/model/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 40,
+        "hash": "b12803e04cb6b72b75cb9a0dba088f95",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 18,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make responseType a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-24T11:05:43+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3-0gYcRdnXY2PFw",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RestapiCallNode.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 1299,
+        "hash": "8f69f2b2c1d9840f50111b09a12026da",
+        "textRange": {
+            "startLine": 1299,
+            "endLine": 1299,
+            "startOffset": 22,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make responsePrefix a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2018-09-19T16:22:02+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3-0gYcRdnXY2PFx",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RestapiCallNode.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 1300,
+        "hash": "19a0aceb52c820be961a4796ff4376f7",
+        "textRange": {
+            "startLine": 1300,
+            "endLine": 1300,
+            "startOffset": 23,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make skipSending a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2018-09-19T16:22:02+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3-0gYcRdnXY2PFz",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RestapiCallNode.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 1302,
+        "hash": "9f4bdb6239958236182ee78d45919011",
+        "textRange": {
+            "startLine": 1302,
+            "endLine": 1302,
+            "startOffset": 22,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make oAuthConsumerSecret a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2018-09-19T16:22:02+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3-0gYcRdnXY2PF0",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RestapiCallNode.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 1303,
+        "hash": "99128fa0741aa1e204d49726a8ced75f",
+        "textRange": {
+            "startLine": 1303,
+            "endLine": 1303,
+            "startOffset": 22,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make oAuthSignatureMethod a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2018-09-19T16:22:02+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3-0gYcRdnXY2PF2",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RestapiCallNode.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 1305,
+        "hash": "9d28b5eeb9155d7e962c42073012c5de",
+        "textRange": {
+            "startLine": 1305,
+            "endLine": 1305,
+            "startOffset": 24,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make authtype a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2018-09-19T16:22:02+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3-0gYcRdnXY2PF4",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RestapiCallNode.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 1311,
+        "hash": "9ca3d690e5aa746eb61b390227de5e65",
+        "textRange": {
+            "startLine": 1311,
+            "endLine": 1311,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make templateFileName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2018-09-19T16:22:02+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3-0gYcRdnXY2PF5",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RestapiCallNode.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 1312,
+        "hash": "db49e3c70916b1ffea77d2adc5c6a870",
+        "textRange": {
+            "startLine": 1312,
+            "endLine": 1312,
+            "startOffset": 22,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make rootVarName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2018-09-19T16:22:02+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGm",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 33,
+        "hash": "a115b916d1f21e9fff078d209809b2e4",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 18,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make contentType a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGl",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 32,
+        "hash": "33a7fdc7d64416ae1eabdefd2b701d6d",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 18,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make format a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGk",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 31,
+        "hash": "d06bc6f607c99771cccda406202b24aa",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 18,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make restapiPassword a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGj",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 30,
+        "hash": "54f3940ef91d8fe959dcf7acd8fce6a6",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 18,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make restapiUser a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGi",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 29,
+        "hash": "e4981f6ba8c05347d4c878cb9b563e47",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make restapiUrlSuffix a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-05-29T17:43:52+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGh",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 28,
+        "hash": "c9b444de8a1ce5761ce2198c775a12f9",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make restapiUrl a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGg",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 27,
+        "hash": "9ca3d690e5aa746eb61b390227de5e65",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make templateFileName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3-0gYcRdnXY2PF6",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RestapiCallNode.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 1313,
+        "hash": "8f69f2b2c1d9840f50111b09a12026da",
+        "textRange": {
+            "startLine": 1313,
+            "endLine": 1313,
+            "startOffset": 22,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make responsePrefix a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2018-09-19T16:22:02+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4F0gYcRdnXY2PIm",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:sshapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/sshapicall/model/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 44,
+        "hash": "9d28b5eeb9155d7e962c42073012c5de",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 20,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make authtype a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-19T08:14:19+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4F0gYcRdnXY2PIl",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:sshapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/sshapicall/model/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 43,
+        "hash": "e739027717c0e0517da8247988e2daa4",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 19,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make convertResponse a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-19T08:14:19+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4F0gYcRdnXY2PIk",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:sshapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/sshapicall/model/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 42,
+        "hash": "ae542cbeca8e7660bcd2d220255f7a0d",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 23,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make listNameList a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-19T08:14:19+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW7tW88T9FPFrhTzl73H",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_ccsdk-sli-plugins:grToolkit/provider/src/main/java/org/onap/ccsdk/sli/plugins/grtoolkit/GrToolkitProvider.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 455,
+        "hash": "0628bc5ff44c52199f02d646c42a239d",
+        "textRange": {
+            "startLine": 455,
+            "endLine": 455,
+            "startOffset": 17,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-12-10T02:10:08+0100",
+        "updateDate": "2019-12-10T02:10:08+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW7tW88T9FPFrhTzl73K",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_ccsdk-sli-plugins:grToolkit/provider/src/main/java/org/onap/ccsdk/sli/plugins/grtoolkit/GrToolkitProvider.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 489,
+        "hash": "4511e368dbaf5c79b77288a86a0bd3cb",
+        "textRange": {
+            "startLine": 489,
+            "endLine": 489,
+            "startOffset": 17,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-12-10T02:10:08+0100",
+        "updateDate": "2019-12-10T02:10:08+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBvmx6DJw9Jz4G3vAMn",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 57,
+        "hash": "ecb3f5c53a04be6ce200ac7447c9ec94",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 18,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make targetEntity a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-02-23T02:12:21+0100",
+        "updateDate": "2020-02-23T02:12:21+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PG0",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 47,
+        "hash": "e83e46e83ba94d04d5186e87c80b0653",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 18,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make requestBody a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-03-13T20:13:19+0100",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3-0gYcRdnXY2PF7",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RestapiCallNode.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 1314,
+        "hash": "19a0aceb52c820be961a4796ff4376f7",
+        "textRange": {
+            "startLine": 1314,
+            "endLine": 1314,
+            "startOffset": 23,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make skipSending a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2018-09-19T16:22:02+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3-0gYcRdnXY2PFv",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RestapiCallNode.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 1298,
+        "hash": "40f2e9a887016a92a9590033b6aa439e",
+        "textRange": {
+            "startLine": 1298,
+            "endLine": 1298,
+            "startOffset": 26,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make httpMethod a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2018-09-19T16:22:02+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4F0gYcRdnXY2PIi",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:sshapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/sshapicall/model/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 39,
+        "hash": "8f69f2b2c1d9840f50111b09a12026da",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 18,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make responsePrefix a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-19T08:14:19+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4F0gYcRdnXY2PIh",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:sshapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/sshapicall/model/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 38,
+        "hash": "be6474e86a57491b9c6743054d6fd75c",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 18,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make cmd a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-19T08:14:19+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4FzgYcRdnXY2PIg",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:sshapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/sshapicall/model/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 37,
+        "hash": "656c700448b5bbd7673082b4ddf12323",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 19,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make sshWithRetry a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-24T11:05:43+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4FzgYcRdnXY2PIf",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:sshapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/sshapicall/model/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 36,
+        "hash": "498bd816b294c770e4d2bed0d18c461e",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make sshEnvParameters a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-24T11:05:43+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4FzgYcRdnXY2PIe",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:sshapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/sshapicall/model/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 35,
+        "hash": "5855e12d1a2615d4433625ac7322c325",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 18,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make sshFileParameters a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-24T11:05:43+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4FzgYcRdnXY2PId",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:sshapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/sshapicall/model/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 34,
+        "hash": "5889a78a97b29b2ea5a2aea49bd229cb",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 16,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make sshExecTimeout a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-24T11:05:43+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4FzgYcRdnXY2PIc",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:sshapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/sshapicall/model/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 33,
+        "hash": "a3f66c6edbfca5e55e3b086567a08332",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 18,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make sshKey a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-24T11:05:43+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4IhgYcRdnXY2PLn",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:properties-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/prop/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 28,
+        "hash": "4b4b651f70bfe669f95c804d48cbf40f",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 18,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make contextPrefix a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-06-15T03:34:36+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4IhgYcRdnXY2PLm",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:properties-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/prop/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 27,
+        "hash": "d1a7655c17bcf965fb56e47b31afd1bb",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make fileName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-06-15T03:34:36+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PG5",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 52,
+        "hash": "9d28b5eeb9155d7e962c42073012c5de",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 20,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make authtype a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-06-14T01:07:33+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PG4",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 51,
+        "hash": "ac39971b6dbb87558b9d7969e70357ca",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 18,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make oAuthVersion a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-06-12T12:28:36+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PG3",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 50,
+        "hash": "99128fa0741aa1e204d49726a8ced75f",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 18,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make oAuthSignatureMethod a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-06-12T12:28:36+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGz",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 46,
+        "hash": "50dc5d57fc88276f7a21b5f379164bc2",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 19,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make dumpHeaders a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGy",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 45,
+        "hash": "bf5af897242caff23c731527e507160f",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make partner a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PGx",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 44,
+        "hash": "37126692d360544b58540765e32e1f83",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 18,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make customHttpHeaders a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-01T17:35:12+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4GTgYcRdnXY2PJO",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:sshapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/sshapicall/model/ParseParam.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 205,
+        "hash": "09e9631bee7cdf1698db3e5fb0d911b6",
+        "textRange": {
+            "startLine": 205,
+            "endLine": 205,
+            "startOffset": 19,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-07-24T11:05:43+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4GTgYcRdnXY2PJN",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:sshapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/sshapicall/model/ParseParam.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 190,
+        "hash": "09e9631bee7cdf1698db3e5fb0d911b6",
+        "textRange": {
+            "startLine": 190,
+            "endLine": 190,
+            "startOffset": 19,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-07-24T11:05:43+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4FzgYcRdnXY2PIZ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:sshapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/sshapicall/model/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 30,
+        "hash": "1e74a42ff83d06c24080fd54e274f465",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 15,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make sshapiPort a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-24T11:05:43+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PG1",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 48,
+        "hash": "5e7ed08f3ac8839b8c984f6ba453d126",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make oAuthConsumerKey a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-06-12T12:28:36+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4FzgYcRdnXY2PIb",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:sshapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/sshapicall/model/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 32,
+        "hash": "375d54ebe02b85df1f9a9c7aad1d9b93",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 18,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make sshapiPassword a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-19T08:14:19+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW7tW88T9FPFrhTzl73N",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_ccsdk-sli-plugins:grToolkit/provider/src/main/java/org/onap/ccsdk/sli/plugins/grtoolkit/GrToolkitProvider.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 524,
+        "hash": "6a10119b662c05a025051d6577f7888c",
+        "textRange": {
+            "startLine": 524,
+            "endLine": 524,
+            "startOffset": 17,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-12-10T02:10:08+0100",
+        "updateDate": "2019-12-10T02:10:08+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4FzgYcRdnXY2PIa",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:sshapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/sshapicall/model/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 31,
+        "hash": "4ce29a32fdddb3ffb2319e304e4ba130",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make sshapiUser a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-19T08:14:19+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_xgYcRdnXY2PG_",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/RetryPolicy.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 55,
+        "hash": "656483055e552fd7519e7f55b2856ceb",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 43,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.ccsdk.sli.plugins.restapicall.RetryException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-05-29T17:43:52+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PG2",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 49,
+        "hash": "9f4bdb6239958236182ee78d45919011",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 18,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make oAuthConsumerSecret a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-06-12T12:28:36+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PG6",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 53,
+        "hash": "dbee36aea0d3b78a556e00f9be8c414d",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 19,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make returnRequestPayload a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-13T22:08:24+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PG9",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 56,
+        "hash": "2bd312d322ce4b110d258824a5707950",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 18,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make multipartFile a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-04-16T16:05:39+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PG8",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 55,
+        "hash": "6bb065cbb2add1db3a2134251b21ee1e",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 19,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make multipartFormData a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-04-16T16:05:39+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV3_bgYcRdnXY2PG7",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/restapicall/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 54,
+        "hash": "81e92e05211c8aeaef11abde67a204e4",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 18,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make accept a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-02-14T21:10:03+0100",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4B_gYcRdnXY2PHf",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:restconf-client/provider/src/main/java/org/onap/ccsdk/sli/plugins/yangserializers/dfserializer/YangParameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 34,
+        "hash": "4162a3a48778840a29d07337abeb2588",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make dirPath a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-01-01T07:58:01+0100",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4FzgYcRdnXY2PIY",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:sshapi-call-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/sshapicall/model/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 29,
+        "hash": "37f617ddc5216680de21895b1059ef0b",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 18,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make sshapiUrl a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-19T08:14:19+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4IhgYcRdnXY2PLo",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:properties-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/prop/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 29,
+        "hash": "ae542cbeca8e7660bcd2d220255f7a0d",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 23,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make listNameList a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-06-19T09:03:08+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lV4IhgYcRdnXY2PLp",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-plugins:properties-node/provider/src/main/java/org/onap/ccsdk/sli/plugins/prop/Parameters.java",
+        "project": "onap_ccsdk-sli-plugins",
+        "line": 30,
+        "hash": "db64b81c0f580e6f83734ff16a9d6538",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 19,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make fileBasedParsing a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-06-19T09:03:08+0200",
+        "updateDate": "2019-11-26T02:32:48+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

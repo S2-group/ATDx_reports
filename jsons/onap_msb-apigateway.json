@@ -1,0 +1,2332 @@
+[
+    {
+        "key": "AW8V9pQZtsS0rVJwIG8R",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/health/RedisHealthCheck.java",
+        "project": "onap_msb-apigateway",
+        "line": 29,
+        "hash": "8168777310e90222e15f41a14cc7a67d",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 26,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static writeCheckFlag\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pQHtsS0rVJwIG8M",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/service/MicroServiceFullService.java",
+        "project": "onap_msb-apigateway",
+        "line": 159,
+        "hash": "f61777e8a6dc5c7eaf4a305c1af97438",
+        "textRange": {
+            "startLine": 159,
+            "endLine": 159,
+            "startOffset": 6,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pQHtsS0rVJwIG8J",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/service/MicroServiceFullService.java",
+        "project": "onap_msb-apigateway",
+        "line": 80,
+        "hash": "56f4c911bc2cdfd8f59bfc33f52d2f2a",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pOutsS0rVJwIG59",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/serviceListener/MicroServiceChangeListener.java",
+        "project": "onap_msb-apigateway",
+        "line": 143,
+        "hash": "f4e9747cdbd0452cc54b5fd586a04bf3",
+        "textRange": {
+            "startLine": 143,
+            "endLine": 143,
+            "startOffset": 90,
+            "endOffset": 99
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pOutsS0rVJwIG6P",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/serviceListener/MicroServiceChangeListener.java",
+        "project": "onap_msb-apigateway",
+        "line": 143,
+        "hash": "f4e9747cdbd0452cc54b5fd586a04bf3",
+        "textRange": {
+            "startLine": 143,
+            "endLine": 143,
+            "startOffset": 90,
+            "endOffset": 99
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pHCtsS0rVJwIGzj",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/RegExpTestUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 19,
+        "hash": "2ee2ca1b5febde3b3664fa14236e37a3",
+        "textRange": {
+            "startLine": 19,
+            "endLine": 19,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-08-13T10:10:38+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pG4tsS0rVJwIGzc",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/CommonUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 21,
+        "hash": "c5b3765aee102b831a36cd6ec34c2bab",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 13,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pNBtsS0rVJwIG5T",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/service/IServiceDAO.java",
+        "project": "onap_msb-apigateway",
+        "line": 21,
+        "hash": "014baa95eee94e31b4585cce1dcdd4d1",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 72,
+            "endOffset": 81
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pNBtsS0rVJwIG5U",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/service/IServiceDAO.java",
+        "project": "onap_msb-apigateway",
+        "line": 23,
+        "hash": "07adea402b496590e135356249f3f9e4",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 55,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pNBtsS0rVJwIG5V",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/service/IServiceDAO.java",
+        "project": "onap_msb-apigateway",
+        "line": 25,
+        "hash": "10a943ec5a4cf8bec7b0358ce0ea4bf1",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 73,
+            "endOffset": 82
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pNBtsS0rVJwIG5W",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/service/IServiceDAO.java",
+        "project": "onap_msb-apigateway",
+        "line": 27,
+        "hash": "409595409a769ad74f43462a3d8a3aa7",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 49,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pNBtsS0rVJwIG5X",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/service/IServiceDAO.java",
+        "project": "onap_msb-apigateway",
+        "line": 29,
+        "hash": "d376b77a5963448f700c1b6ac7209a3d",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 61,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pNKtsS0rVJwIG5Y",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/service/ServiceDAOImpl.java",
+        "project": "onap_msb-apigateway",
+        "line": 32,
+        "hash": "fe9bcc14e8fc0e867d04df5ddf995be6",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pNKtsS0rVJwIG5Z",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/service/ServiceDAOImpl.java",
+        "project": "onap_msb-apigateway",
+        "line": 45,
+        "hash": "4e2f485f760a080fe12528a48e062fb8",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pNKtsS0rVJwIG5a",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/service/ServiceDAOImpl.java",
+        "project": "onap_msb-apigateway",
+        "line": 59,
+        "hash": "4e2f485f760a080fe12528a48e062fb8",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pJatsS0rVJwIG2e",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/queue/ServiceConsumer.java",
+        "project": "onap_msb-apigateway",
+        "line": 85,
+        "hash": "8177457dccb5e03b6382155c63a96de5",
+        "textRange": {
+            "startLine": 85,
+            "endLine": 85,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pJutsS0rVJwIG2_",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/consulextend/cache/ConsulCache.java",
+        "project": "onap_msb-apigateway",
+        "line": 185,
+        "hash": "6dbf82192a6ec6a2f061d44352055c8d",
+        "textRange": {
+            "startLine": 185,
+            "endLine": 185,
+            "startOffset": 30,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pJutsS0rVJwIG2-",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/consulextend/cache/ConsulCache.java",
+        "project": "onap_msb-apigateway",
+        "line": 179,
+        "hash": "92c28d0543fada9ba5433cec0a118670",
+        "textRange": {
+            "startLine": 179,
+            "endLine": 179,
+            "startOffset": 31,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pJttsS0rVJwIG20",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/consulextend/cache/ConsulCache.java",
+        "project": "onap_msb-apigateway",
+        "line": 185,
+        "hash": "6dbf82192a6ec6a2f061d44352055c8d",
+        "textRange": {
+            "startLine": 185,
+            "endLine": 185,
+            "startOffset": 30,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pJatsS0rVJwIG2p",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/queue/ServiceConsumer.java",
+        "project": "onap_msb-apigateway",
+        "line": 179,
+        "hash": "76074189e6166fd739f54881f8fe3c77",
+        "textRange": {
+            "startLine": 179,
+            "endLine": 179,
+            "startOffset": 29,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pJttsS0rVJwIG2z",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/consulextend/cache/ConsulCache.java",
+        "project": "onap_msb-apigateway",
+        "line": 179,
+        "hash": "92c28d0543fada9ba5433cec0a118670",
+        "textRange": {
+            "startLine": 179,
+            "endLine": 179,
+            "startOffset": 31,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pRetsS0rVJwIG9M",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/api/RouteInfo.java",
+        "project": "onap_msb-apigateway",
+        "line": 155,
+        "hash": "0638059409510b68e415badd59f0746d",
+        "textRange": {
+            "startLine": 155,
+            "endLine": 155,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-09-07T08:40:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pQutsS0rVJwIG8z",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/health/ConsulLinkHealthCheck.java",
+        "project": "onap_msb-apigateway",
+        "line": 88,
+        "hash": "7e66ab658fc481c52321c0d01415e26f",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 12,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pOStsS0rVJwIG5v",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/DAOConstants.java",
+        "project": "onap_msb-apigateway",
+        "line": 16,
+        "hash": "b1e86455405785a6b45d801c2dc0e945",
+        "textRange": {
+            "startLine": 16,
+            "endLine": 16,
+            "startOffset": 13,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pObtsS0rVJwIG5w",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/DAOFactory.java",
+        "project": "onap_msb-apigateway",
+        "line": 21,
+        "hash": "71054abe042183c8bcb1c80cf7e7b553",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 13,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pGstsS0rVJwIGzU",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/FileUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 28,
+        "hash": "d1a058b38105483d18a70971c60df29d",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 65,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-07-27T10:40:54+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pGstsS0rVJwIGzS",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/FileUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 23,
+        "hash": "7a953a029e0e9f2298762942bca13dc4",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 19,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-08-13T10:10:38+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pOAtsS0rVJwIG5r",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/route/RouteDAOImpl.java",
+        "project": "onap_msb-apigateway",
+        "line": 63,
+        "hash": "d5ef48a9d3d30491672ecdb51f1a361f",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pNTtsS0rVJwIG5f",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/route/IRouteDAO.java",
+        "project": "onap_msb-apigateway",
+        "line": 29,
+        "hash": "450ce4d40ab7ccbd5fe8cc15f86842ce",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 59,
+            "endOffset": 68
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pNTtsS0rVJwIG5e",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/route/IRouteDAO.java",
+        "project": "onap_msb-apigateway",
+        "line": 27,
+        "hash": "fc6c55ebb94315fcba5899f7cc8a4f88",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 47,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pNTtsS0rVJwIG5d",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/route/IRouteDAO.java",
+        "project": "onap_msb-apigateway",
+        "line": 25,
+        "hash": "83058a5e7d5bf921531bcc88d649d292",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 69,
+            "endOffset": 78
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pSrtsS0rVJwIG9r",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/resources/MicroServiceResource.java",
+        "project": "onap_msb-apigateway",
+        "line": 102,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 27,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-09-11T16:18:03+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pHMtsS0rVJwIGzs",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/MicroServiceUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 23,
+        "hash": "5a1911d4c78be15d99b6a684ccc7e272",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-08-13T10:10:38+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pOAtsS0rVJwIG5q",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/route/RouteDAOImpl.java",
+        "project": "onap_msb-apigateway",
+        "line": 49,
+        "hash": "d5ef48a9d3d30491672ecdb51f1a361f",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pOAtsS0rVJwIG5p",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/route/RouteDAOImpl.java",
+        "project": "onap_msb-apigateway",
+        "line": 36,
+        "hash": "08f8fc69eab0d33f83475f9f43569261",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pHYtsS0rVJwIGz5",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/RouteUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 24,
+        "hash": "8b2c6b00cd65a1bd8e15ee122c4a9366",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pHktsS0rVJwIG0N",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/HttpClientUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 123,
+        "hash": "42d0f5f6ab57b8c18f0a17e709f7296f",
+        "textRange": {
+            "startLine": 123,
+            "endLine": 123,
+            "startOffset": 67,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-09-11T04:57:05+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pHktsS0rVJwIG0M",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/HttpClientUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 141,
+        "hash": "cdd2caf928fe4633f6b18e8a7bd52e03",
+        "textRange": {
+            "startLine": 141,
+            "endLine": 141,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-09-11T04:57:05+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pHktsS0rVJwIG0L",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/HttpClientUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 107,
+        "hash": "7e313e7b722ba3038ecd805437e15d66",
+        "textRange": {
+            "startLine": 107,
+            "endLine": 107,
+            "startOffset": 79,
+            "endOffset": 88
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-09-11T04:57:05+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pTItsS0rVJwIG9_",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/ApiRouteApp.java",
+        "project": "onap_msb-apigateway",
+        "line": 58,
+        "hash": "fbf89903df37c6557ae6690168d0c515",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 16,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pGstsS0rVJwIGzY",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/FileUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 54,
+        "hash": "8406bb66469706c644fa286b01af7d18",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 60,
+            "endOffset": 81
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pP0tsS0rVJwIG79",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/service/IuiRouteService.java",
+        "project": "onap_msb-apigateway",
+        "line": 46,
+        "hash": "835196684f62ef17892e7e0b72769209",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pHktsS0rVJwIG0P",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/HttpClientUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 40,
+        "hash": "a503385b03fa1ac59cac2d8b27cf557c",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pHktsS0rVJwIG0O",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/HttpClientUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 223,
+        "hash": "03d0c5c14d8a575c8ac0988217db5bd3",
+        "textRange": {
+            "startLine": 223,
+            "endLine": 223,
+            "startOffset": 55,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pHktsS0rVJwIG0K",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/HttpClientUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 66,
+        "hash": "4ca9dc27ae979ebede50d219095727e1",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 59,
+            "endOffset": 68
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-09-11T16:18:03+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pIPtsS0rVJwIG1w",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/JacksonJsonUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 24,
+        "hash": "fb991d9f6be2ccbeac17123713f770f3",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pOJtsS0rVJwIG5t",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/RedisAccessWrapper.java",
+        "project": "onap_msb-apigateway",
+        "line": 29,
+        "hash": "5b5001308e1424799594c856c6180f7f",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 13,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pHktsS0rVJwIG0Q",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/HttpClientUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 66,
+        "hash": "4ca9dc27ae979ebede50d219095727e1",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 59,
+            "endOffset": 68
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-09-11T16:18:03+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pIFtsS0rVJwIG1i",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/JedisUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 180,
+        "hash": "c14504c2850bc0957d91089d2d3fc7b4",
+        "textRange": {
+            "startLine": 180,
+            "endLine": 180,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pShtsS0rVJwIG9n",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/resources/ApiRouteResource.java",
+        "project": "onap_msb-apigateway",
+        "line": 250,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 250,
+            "endLine": 250,
+            "startOffset": 27,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-09-07T08:40:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pO8tsS0rVJwIG6m",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/serviceListener/IMicroServiceChangeListener.java",
+        "project": "onap_msb-apigateway",
+        "line": 24,
+        "hash": "c3646c630d1627a795fbf1befe2d67dd",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 107,
+            "endOffset": 116
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pO8tsS0rVJwIG6l",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/serviceListener/IMicroServiceChangeListener.java",
+        "project": "onap_msb-apigateway",
+        "line": 22,
+        "hash": "f0f128f64f8d837e0379b8e5d8cbae92",
+        "textRange": {
+            "startLine": 22,
+            "endLine": 22,
+            "startOffset": 71,
+            "endOffset": 80
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pO8tsS0rVJwIG6k",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/serviceListener/IMicroServiceChangeListener.java",
+        "project": "onap_msb-apigateway",
+        "line": 20,
+        "hash": "db636cebdb9ae1a0a87d27169d5b606e",
+        "textRange": {
+            "startLine": 20,
+            "endLine": 20,
+            "startOffset": 69,
+            "endOffset": 78
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pIFtsS0rVJwIG1j",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/JedisUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 169,
+        "hash": "55adce95b3b6457bd358f19011d8fc62",
+        "textRange": {
+            "startLine": 169,
+            "endLine": 169,
+            "startOffset": 70,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pIFtsS0rVJwIG1h",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/JedisUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 44,
+        "hash": "e78faa8553c9984a5a7006afc9eb847e",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make propertiesName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pIFtsS0rVJwIG1g",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/JedisUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 44,
+        "hash": "e78faa8553c9984a5a7006afc9eb847e",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 25,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static propertiesName\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pNTtsS0rVJwIG5c",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/route/IRouteDAO.java",
+        "project": "onap_msb-apigateway",
+        "line": 23,
+        "hash": "6948c84a880b7a5ff92b7e1ee1b125b4",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 51,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pNTtsS0rVJwIG5b",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/dao/route/IRouteDAO.java",
+        "project": "onap_msb-apigateway",
+        "line": 21,
+        "hash": "a0ce05fac01363440c54ac92dc527695",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 66,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pIPtsS0rVJwIG1u",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/JacksonJsonUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 68,
+        "hash": "e8e96d47955a87f67d5d4fb3d595fdb5",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 70,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pIPtsS0rVJwIG1t",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/JacksonJsonUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 77,
+        "hash": "4e1788dbf7072ed3f61170a1ad00549a",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pIPtsS0rVJwIG1s",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/JacksonJsonUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 48,
+        "hash": "5bf1d25867110bef0ac7d701eaaf5944",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 55,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pPrtsS0rVJwIG76",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/service/ApiRouteService.java",
+        "project": "onap_msb-apigateway",
+        "line": 93,
+        "hash": "cbbd2771dfa62bf2d549f6b8307e534d",
+        "textRange": {
+            "startLine": 93,
+            "endLine": 93,
+            "startOffset": 6,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pPrtsS0rVJwIG74",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/service/ApiRouteService.java",
+        "project": "onap_msb-apigateway",
+        "line": 87,
+        "hash": "54c1089cd410967af46da6b99efab3b5",
+        "textRange": {
+            "startLine": 87,
+            "endLine": 87,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pP0tsS0rVJwIG8B",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/service/IuiRouteService.java",
+        "project": "onap_msb-apigateway",
+        "line": 95,
+        "hash": "2acdbd9f066cf72b71bcff57ab31ea14",
+        "textRange": {
+            "startLine": 95,
+            "endLine": 95,
+            "startOffset": 6,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pP0tsS0rVJwIG7-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/service/IuiRouteService.java",
+        "project": "onap_msb-apigateway",
+        "line": 88,
+        "hash": "54c1089cd410967af46da6b99efab3b5",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pPrtsS0rVJwIG73",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/service/ApiRouteService.java",
+        "project": "onap_msb-apigateway",
+        "line": 45,
+        "hash": "835196684f62ef17892e7e0b72769209",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pP-tsS0rVJwIG8H",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/service/CustomRouteService.java",
+        "project": "onap_msb-apigateway",
+        "line": 95,
+        "hash": "aacde68af4e04069a36c6a002f49ae7a",
+        "textRange": {
+            "startLine": 95,
+            "endLine": 95,
+            "startOffset": 6,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pP-tsS0rVJwIG8F",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/service/CustomRouteService.java",
+        "project": "onap_msb-apigateway",
+        "line": 88,
+        "hash": "54c1089cd410967af46da6b99efab3b5",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pP-tsS0rVJwIG8E",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/service/CustomRouteService.java",
+        "project": "onap_msb-apigateway",
+        "line": 46,
+        "hash": "8022b7ad0dfec3cff6432deeed00e71a",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pQ5tsS0rVJwIG89",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/api/ApiRouteInfo.java",
+        "project": "onap_msb-apigateway",
+        "line": 74,
+        "hash": "0638059409510b68e415badd59f0746d",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2017-09-07T08:40:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pQ5tsS0rVJwIG88",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/api/ApiRouteInfo.java",
+        "project": "onap_msb-apigateway",
+        "line": 74,
+        "hash": "0638059409510b68e415badd59f0746d",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-09-07T08:40:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pJQtsS0rVJwIG2W",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/queue/ServiceListCache.java",
+        "project": "onap_msb-apigateway",
+        "line": 24,
+        "hash": "7d23525ca3d90e97757744d8d9e41257",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pR-tsS0rVJwIG9c",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/api/CustomDateSerializer.java",
+        "project": "onap_msb-apigateway",
+        "line": 29,
+        "hash": "39be3766e1fc5d734cbebaf952892ac5",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 40,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonProcessingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-08-13T10:10:38+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pGstsS0rVJwIGzZ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/wrapper/util/FileUtil.java",
+        "project": "onap_msb-apigateway",
+        "line": 54,
+        "hash": "8406bb66469706c644fa286b01af7d18",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 83,
+            "endOffset": 94
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pQZtsS0rVJwIG8W",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/health/RedisHealthCheck.java",
+        "project": "onap_msb-apigateway",
+        "line": 125,
+        "hash": "7e66ab658fc481c52321c0d01415e26f",
+        "textRange": {
+            "startLine": 125,
+            "endLine": 125,
+            "startOffset": 12,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pQZtsS0rVJwIG8T",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/health/RedisHealthCheck.java",
+        "project": "onap_msb-apigateway",
+        "line": 48,
+        "hash": "98d61df74f596d4d5280c35c97ee2e84",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 16,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pQZtsS0rVJwIG8S",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/health/RedisHealthCheck.java",
+        "project": "onap_msb-apigateway",
+        "line": 29,
+        "hash": "8168777310e90222e15f41a14cc7a67d",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 26,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make writeCheckFlag a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-07-25T12:11:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pSrtsS0rVJwIG9q",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/resources/MicroServiceResource.java",
+        "project": "onap_msb-apigateway",
+        "line": 102,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 27,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-09-11T16:18:03+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8V9pShtsS0rVJwIG9g",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_msb-apigateway:apiroute/apiroute-service/src/main/java/org/onap/msb/apiroute/resources/ApiRouteResource.java",
+        "project": "onap_msb-apigateway",
+        "line": 250,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 250,
+            "endLine": 250,
+            "startOffset": 27,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-09-07T08:40:59+0200",
+        "updateDate": "2019-12-17T23:23:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

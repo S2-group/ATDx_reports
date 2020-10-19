@@ -1,0 +1,170 @@
+[
+    {
+        "key": "AWpDAklcnu96bB9fr3tP",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jmx-provider:src/main/java/org/apache/sling/jmx/provider/impl/Constants.java",
+        "project": "apache_sling-org-apache-sling-jmx-provider",
+        "line": 21,
+        "hash": "7bb51acb854056fb2c993417c9447a1f",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-08-20T08:48:59+0200",
+        "updateDate": "2019-04-22T05:06:11+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDAklZnu96bB9fr3tO",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jmx-provider:src/main/java/org/apache/sling/jmx/provider/impl/AttributeResource.java",
+        "project": "apache_sling-org-apache-sling-jmx-provider",
+        "line": 331,
+        "hash": "1b9178d95b3f808cfdbcf82cab899405",
+        "textRange": {
+            "startLine": 331,
+            "endLine": 331,
+            "startOffset": 28,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-08-19T18:15:14+0200",
+        "updateDate": "2019-04-22T05:06:11+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDAkljnu96bB9fr3tU",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jmx-provider:src/main/java/org/apache/sling/jmx/provider/impl/JMXResourceProvider.java",
+        "project": "apache_sling-org-apache-sling-jmx-provider",
+        "line": 498,
+        "hash": "0083efd022ffca55896cb04ec92a4c4b",
+        "textRange": {
+            "startLine": 498,
+            "endLine": 498,
+            "startOffset": 25,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make mbeanInfo a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-08-12T15:49:54+0200",
+        "updateDate": "2019-04-22T05:06:11+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDAkljnu96bB9fr3tT",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jmx-provider:src/main/java/org/apache/sling/jmx/provider/impl/JMXResourceProvider.java",
+        "project": "apache_sling-org-apache-sling-jmx-provider",
+        "line": 497,
+        "hash": "e357771bf4827ef6c489d629633bdf79",
+        "textRange": {
+            "startLine": 497,
+            "endLine": 497,
+            "startOffset": 26,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make objectName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-08-12T15:49:54+0200",
+        "updateDate": "2019-04-22T05:06:11+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDAkljnu96bB9fr3te",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jmx-provider:src/main/java/org/apache/sling/jmx/provider/impl/JMXResourceProvider.java",
+        "project": "apache_sling-org-apache-sling-jmx-provider",
+        "line": 333,
+        "hash": "1b9178d95b3f808cfdbcf82cab899405",
+        "textRange": {
+            "startLine": 333,
+            "endLine": 333,
+            "startOffset": 36,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-08-09T17:20:23+0200",
+        "updateDate": "2019-04-22T05:06:11+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDAkljnu96bB9fr3td",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jmx-provider:src/main/java/org/apache/sling/jmx/provider/impl/JMXResourceProvider.java",
+        "project": "apache_sling-org-apache-sling-jmx-provider",
+        "line": 300,
+        "hash": "1b9178d95b3f808cfdbcf82cab899405",
+        "textRange": {
+            "startLine": 300,
+            "endLine": 300,
+            "startOffset": 32,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-08-09T17:20:23+0200",
+        "updateDate": "2019-04-22T05:06:11+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

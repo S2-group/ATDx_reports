@@ -1,0 +1,708 @@
+[
+    {
+        "key": "AW6lL1YsyOMKZVYhOs07",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-rabbitmq/src/main/java/org/onap/aai/event/client/RabbitMqUtils.java",
+        "project": "onap_aai-event-client",
+        "line": 39,
+        "hash": "d0d6f73d9ea6e0ecfbe7a537f324c2a8",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 13,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-11-16T19:40:25+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1YsyOMKZVYhOs05",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-rabbitmq/src/main/java/org/onap/aai/event/client/RabbitMqUtils.java",
+        "project": "onap_aai-event-client",
+        "line": 97,
+        "hash": "f4450c68cffe9d4568d8d54ba8bd91e3",
+        "textRange": {
+            "startLine": 97,
+            "endLine": 97,
+            "startOffset": 96,
+            "endOffset": 105
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-16T19:40:25+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1Y7yOMKZVYhOs1P",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-api/src/main/java/org/onap/aai/event/api/EventConsumer.java",
+        "project": "onap_aai-event-client",
+        "line": 64,
+        "hash": "8d27dc947c0b81353577ee150c76ebd4",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 50,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1Y7yOMKZVYhOs1O",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-api/src/main/java/org/onap/aai/event/api/EventConsumer.java",
+        "project": "onap_aai-event-client",
+        "line": 57,
+        "hash": "5717cabadbd86357538785f4dab0b558",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 39,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1Y7yOMKZVYhOs1N",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-api/src/main/java/org/onap/aai/event/api/EventConsumer.java",
+        "project": "onap_aai-event-client",
+        "line": 50,
+        "hash": "12237f550f2d8155ced8c599f269783d",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 67,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1Y7yOMKZVYhOs1M",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-api/src/main/java/org/onap/aai/event/api/EventConsumer.java",
+        "project": "onap_aai-event-client",
+        "line": 42,
+        "hash": "85eee3d72704b3506cae880542156f8e",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 45,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1Y7yOMKZVYhOs1L",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-api/src/main/java/org/onap/aai/event/api/EventConsumer.java",
+        "project": "onap_aai-event-client",
+        "line": 32,
+        "hash": "418199daafd9b119549b2e58ec63b693",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 54,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1YeyOMKZVYhOs0y",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-dmaap/src/main/java/org/onap/aai/event/client/DMaaPEventPublisher.java",
+        "project": "onap_aai-event-client",
+        "line": 183,
+        "hash": "dc0272eb47752ade247e075e40096009",
+        "textRange": {
+            "startLine": 183,
+            "endLine": 183,
+            "startOffset": 49,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1YeyOMKZVYhOs0x",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-dmaap/src/main/java/org/onap/aai/event/client/DMaaPEventPublisher.java",
+        "project": "onap_aai-event-client",
+        "line": 148,
+        "hash": "8ba0ca11c3299179a9e2845c9eebcc68",
+        "textRange": {
+            "startLine": 148,
+            "endLine": 148,
+            "startOffset": 11,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1YeyOMKZVYhOs0w",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-dmaap/src/main/java/org/onap/aai/event/client/DMaaPEventPublisher.java",
+        "project": "onap_aai-event-client",
+        "line": 117,
+        "hash": "8ba0ca11c3299179a9e2845c9eebcc68",
+        "textRange": {
+            "startLine": 117,
+            "endLine": 117,
+            "startOffset": 11,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1YbyOMKZVYhOs0v",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-dmaap/src/main/java/org/onap/aai/event/client/DMaaPEventConsumer.java",
+        "project": "onap_aai-event-client",
+        "line": 125,
+        "hash": "bc77ada02feebf9de805c75583d747c0",
+        "textRange": {
+            "startLine": 125,
+            "endLine": 125,
+            "startOffset": 11,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1YbyOMKZVYhOs0u",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-dmaap/src/main/java/org/onap/aai/event/client/DMaaPEventConsumer.java",
+        "project": "onap_aai-event-client",
+        "line": 90,
+        "hash": "bc77ada02feebf9de805c75583d747c0",
+        "textRange": {
+            "startLine": 90,
+            "endLine": 90,
+            "startOffset": 11,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1Y_yOMKZVYhOs1Z",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-api/src/main/java/org/onap/aai/event/api/EventPublisher.java",
+        "project": "onap_aai-event-client",
+        "line": 106,
+        "hash": "74eb712c2d76f3f455ddf2daaff312af",
+        "textRange": {
+            "startLine": 106,
+            "endLine": 106,
+            "startOffset": 31,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1Y_yOMKZVYhOs1Y",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-api/src/main/java/org/onap/aai/event/api/EventPublisher.java",
+        "project": "onap_aai-event-client",
+        "line": 101,
+        "hash": "44db8c0b3f5b62cbf792cd1b5e6d3bd0",
+        "textRange": {
+            "startLine": 101,
+            "endLine": 101,
+            "startOffset": 62,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1Y_yOMKZVYhOs1X",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-api/src/main/java/org/onap/aai/event/api/EventPublisher.java",
+        "project": "onap_aai-event-client",
+        "line": 92,
+        "hash": "8542f7a45095936161c8afe0a72385ca",
+        "textRange": {
+            "startLine": 92,
+            "endLine": 92,
+            "startOffset": 49,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1Y_yOMKZVYhOs1W",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-api/src/main/java/org/onap/aai/event/api/EventPublisher.java",
+        "project": "onap_aai-event-client",
+        "line": 83,
+        "hash": "b155c32ba76aa0d073a40721988a67b3",
+        "textRange": {
+            "startLine": 83,
+            "endLine": 83,
+            "startOffset": 83,
+            "endOffset": 92
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1Y_yOMKZVYhOs1V",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-api/src/main/java/org/onap/aai/event/api/EventPublisher.java",
+        "project": "onap_aai-event-client",
+        "line": 73,
+        "hash": "f920d21b2b41bb46e7012bf4f18923c8",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 70,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1Y_yOMKZVYhOs1U",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-api/src/main/java/org/onap/aai/event/api/EventPublisher.java",
+        "project": "onap_aai-event-client",
+        "line": 63,
+        "hash": "fdf0cf5009e91ad5109833395455a9e5",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 60,
+            "endOffset": 69
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1Y_yOMKZVYhOs1T",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-api/src/main/java/org/onap/aai/event/api/EventPublisher.java",
+        "project": "onap_aai-event-client",
+        "line": 54,
+        "hash": "0bf5445254954647a99a2316514bebb0",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 47,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1Y_yOMKZVYhOs1S",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-api/src/main/java/org/onap/aai/event/api/EventPublisher.java",
+        "project": "onap_aai-event-client",
+        "line": 45,
+        "hash": "9562a994fab0d9e7c8c40e31dc13cd8c",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 81,
+            "endOffset": 90
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1Y_yOMKZVYhOs1R",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-api/src/main/java/org/onap/aai/event/api/EventPublisher.java",
+        "project": "onap_aai-event-client",
+        "line": 35,
+        "hash": "2903a1bcac3d921c16c9006cf6cf664f",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 68,
+            "endOffset": 77
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1YvyOMKZVYhOs1A",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-rabbitmq/src/main/java/org/onap/aai/event/client/RabbitMqEventConsumer.java",
+        "project": "onap_aai-event-client",
+        "line": 204,
+        "hash": "9335260acd157bf024269acc3e1dec6c",
+        "textRange": {
+            "startLine": 204,
+            "endLine": 204,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-06-07T16:02:28+0200",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1YbyOMKZVYhOs0t",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-dmaap/src/main/java/org/onap/aai/event/client/DMaaPEventConsumer.java",
+        "project": "onap_aai-event-client",
+        "line": 51,
+        "hash": "24ed7e7b4a2779e51512688d80e15b8a",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 30,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-01-30T11:24:18+0100",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL1Y7yOMKZVYhOs1Q",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-event-client:event-client-api/src/main/java/org/onap/aai/event/api/EventConsumer.java",
+        "project": "onap_aai-event-client",
+        "line": 70,
+        "hash": "060fc674601dd11cf70abbf70ec7a036",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 32,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-14T17:54:19+0200",
+        "updateDate": "2019-11-26T01:49:22+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,4775 @@
+[
+    {
+        "key": "AW6lTuuSk4KhMkVz6K7M",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/CloudifyExecutionRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 39,
+        "hash": "a9c66691df5abe56b343a68a339b2c7b",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 18,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make tenant a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuuSk4KhMkVz6K7L",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/CloudifyExecutionRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 38,
+        "hash": "0d9bdeeab56e55a6e88b1c4c1cc4279d",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 19,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make force a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuuSk4KhMkVz6K7K",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/CloudifyExecutionRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 37,
+        "hash": "3b3d324c11aa1ac778c7d2fda38157d7",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 19,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make allow_custom_parameters a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuuSk4KhMkVz6K7J",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/CloudifyExecutionRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 36,
+        "hash": "9b74c9f857e25dee4f3725bbb067af1f",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 18,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make workflow_id a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuuSk4KhMkVz6K7I",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/CloudifyExecutionRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 34,
+        "hash": "a13eb6cfbb44f7eafc16a122da2e00fc",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 18,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make deployment_id a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTutbk4KhMkVz6K6h",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/CloudifyExecution.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 58,
+        "hash": "24e8e7115ab6b912c79850d4a88bcd4b",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 19,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make helm_status a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTutbk4KhMkVz6K6g",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/CloudifyExecution.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 56,
+        "hash": "a9370ab8c02b949be663ba26845f467d",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 19,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make is_helm a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8P",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 412,
+        "hash": "28017f9ff61eabcd4c24b7a40d01518f",
+        "textRange": {
+            "startLine": 412,
+            "endLine": 412,
+            "startOffset": 35,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8O",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 512,
+        "hash": "b1e4ab11b339a7e9fa50bdef5ef6589f",
+        "textRange": {
+            "startLine": 512,
+            "endLine": 512,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8N",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 263,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 263,
+            "endLine": 263,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8M",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 183,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 183,
+            "endLine": 183,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8L",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 162,
+        "hash": "0de5be0518d48a557bf4f0fb5558ed59",
+        "textRange": {
+            "startLine": 162,
+            "endLine": 162,
+            "startOffset": 64,
+            "endOffset": 73
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8K",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 147,
+        "hash": "fd3eb679673ad2d805983f0c4e7aee89",
+        "textRange": {
+            "startLine": 147,
+            "endLine": 147,
+            "startOffset": 67,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8J",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 137,
+        "hash": "db581a64963dad9f819d938af7c6d5a3",
+        "textRange": {
+            "startLine": 137,
+            "endLine": 137,
+            "startOffset": 109,
+            "endOffset": 118
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuv_k4KhMkVz6K-4",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/InventoryController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 892,
+        "hash": "e5e40df13ba34c6f7cd6c12d9cf014f0",
+        "textRange": {
+            "startLine": 892,
+            "endLine": 892,
+            "startOffset": 8,
+            "endOffset": 11
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuv_k4KhMkVz6K-3",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/InventoryController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 884,
+        "hash": "28702282c0e20845b871a7409288f68e",
+        "textRange": {
+            "startLine": 884,
+            "endLine": 884,
+            "startOffset": 8,
+            "endOffset": 13
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTu4ik4KhMkVz6LK7",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-os/src/main/java/org/onap/portalapp/conf/ExternalAppInitializer.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 28,
+        "hash": "2225a88ca742d4a93818a9d21cd432a8",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 25,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2017-08-17T20:53:24+0200",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTu4ak4KhMkVz6LK1",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-os/src/main/java/org/onap/portalapp/conf/ExternalAppConfig.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 100,
+        "hash": "639ae2fb6f79682a3995f883ae3cab68",
+        "textRange": {
+            "startLine": 100,
+            "endLine": 100,
+            "startOffset": 16,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2017-08-17T20:53:24+0200",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTu4ak4KhMkVz6LK0",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-os/src/main/java/org/onap/portalapp/conf/ExternalAppConfig.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 88,
+        "hash": "873b00ae287a961371ebf56ceb226413",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 24,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2017-08-17T20:53:24+0200",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_3",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 791,
+        "hash": "3e2d0347c329746f0fda93398c66520f",
+        "textRange": {
+            "startLine": 791,
+            "endLine": 791,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_4",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 786,
+        "hash": "b022b7fc49b2dc7d73b5f544713db67d",
+        "textRange": {
+            "startLine": 786,
+            "endLine": 786,
+            "startOffset": 47,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_u",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 458,
+        "hash": "3e2d0347c329746f0fda93398c66520f",
+        "textRange": {
+            "startLine": 458,
+            "endLine": 458,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_r",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 242,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 242,
+            "endLine": 242,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_x",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 524,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 524,
+            "endLine": 524,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_t",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 325,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 325,
+            "endLine": 325,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_0",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 640,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 640,
+            "endLine": 640,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_2",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 737,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 737,
+            "endLine": 737,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTurhk4KhMkVz6K5g",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/EcdAppComponent.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 32,
+        "hash": "53f3352602505fc9dd6ab08a096e75fd",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 30,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make comps a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTurhk4KhMkVz6K5f",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/EcdAppComponent.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 30,
+        "hash": "2354c1f796b7db3a09a7faed50abd56c",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 18,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make app a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8W",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 701,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 701,
+            "endLine": 701,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8Q",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 527,
+        "hash": "341e0fb409bddb0ceeafa278bbd0e346",
+        "textRange": {
+            "startLine": 527,
+            "endLine": 527,
+            "startOffset": 104,
+            "endOffset": 113
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_q",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 187,
+        "hash": "cbafdf3e6583819240d6f67f67924f0c",
+        "textRange": {
+            "startLine": 187,
+            "endLine": 187,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_p",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 137,
+        "hash": "f4692d0e5635fd015b6dec31653239b6",
+        "textRange": {
+            "startLine": 137,
+            "endLine": 137,
+            "startOffset": 29,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_o",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 161,
+        "hash": "575af85ba2ccb4ff4be7b6a7ac58f6ed",
+        "textRange": {
+            "startLine": 161,
+            "endLine": 161,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwQk4KhMkVz6K_W",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/DashboardHomeController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 253,
+        "hash": "e5e40df13ba34c6f7cd6c12d9cf014f0",
+        "textRange": {
+            "startLine": 253,
+            "endLine": 253,
+            "startOffset": 8,
+            "endOffset": 11
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwQk4KhMkVz6K_V",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/DashboardHomeController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 246,
+        "hash": "28702282c0e20845b871a7409288f68e",
+        "textRange": {
+            "startLine": 246,
+            "endLine": 246,
+            "startOffset": 8,
+            "endOffset": 13
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_s",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 284,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 284,
+            "endLine": 284,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6LAW",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 857,
+        "hash": "28702282c0e20845b871a7409288f68e",
+        "textRange": {
+            "startLine": 857,
+            "endLine": 857,
+            "startOffset": 8,
+            "endOffset": 13
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6LAX",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 865,
+        "hash": "e5e40df13ba34c6f7cd6c12d9cf014f0",
+        "textRange": {
+            "startLine": 865,
+            "endLine": 865,
+            "startOffset": 8,
+            "endOffset": 11
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuxQk4KhMkVz6LBs",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/ECDSingleSignOnController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 114,
+        "hash": "f761a4dbba93d54f4dc26feb51f68988",
+        "textRange": {
+            "startLine": 114,
+            "endLine": 114,
+            "startOffset": 107,
+            "endOffset": 116
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-07T18:21:17+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuw8k4KhMkVz6LBm",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/DeploymentHandlerController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 223,
+        "hash": "e5e40df13ba34c6f7cd6c12d9cf014f0",
+        "textRange": {
+            "startLine": 223,
+            "endLine": 223,
+            "startOffset": 8,
+            "endOffset": 11
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTumwk4KhMkVz6K24",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/rest/HttpComponentsClientHttpRequestFactoryBasicAuth.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 54,
+        "hash": "14429cb5843e451fe153f87427e951cb",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 26,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-08-17T20:53:24+0200",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTumhk4KhMkVz6K2v",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/rest/ConsulRestClientImpl.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 77,
+        "hash": "2459b0f343d2df4d88ed4b1a59e95d69",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTumYk4KhMkVz6K2r",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/rest/CloudifyRestClientImpl.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 85,
+        "hash": "2459b0f343d2df4d88ed4b1a59e95d69",
+        "textRange": {
+            "startLine": 85,
+            "endLine": 85,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuv_k4KhMkVz6K-Z",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/InventoryController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 837,
+        "hash": "a2ab456ca65a8203021112d7c96de645",
+        "textRange": {
+            "startLine": 837,
+            "endLine": 837,
+            "startOffset": 67,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuv_k4KhMkVz6K-Y",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/InventoryController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 776,
+        "hash": "64cf87d46fd2a212d86cd5f47693e214",
+        "textRange": {
+            "startLine": 776,
+            "endLine": 776,
+            "startOffset": 53,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuv_k4KhMkVz6K-X",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/InventoryController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 732,
+        "hash": "40ba331fbcf6963d5bea06350289e6d2",
+        "textRange": {
+            "startLine": 732,
+            "endLine": 732,
+            "startOffset": 73,
+            "endOffset": 82
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuv_k4KhMkVz6K-W",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/InventoryController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 687,
+        "hash": "40ba331fbcf6963d5bea06350289e6d2",
+        "textRange": {
+            "startLine": 687,
+            "endLine": 687,
+            "startOffset": 73,
+            "endOffset": 82
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuv_k4KhMkVz6K-V",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/InventoryController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 639,
+        "hash": "b022b7fc49b2dc7d73b5f544713db67d",
+        "textRange": {
+            "startLine": 639,
+            "endLine": 639,
+            "startOffset": 43,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupck4KhMkVz6K4T",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceComponent.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 43,
+        "hash": "1eb78ec1ef3ba3cb298966ad1cb7a4b2",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 18,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make componentSource a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupck4KhMkVz6K4S",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceComponent.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 38,
+        "hash": "b14a728b34055a264aeb94707c708766",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 18,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make componentType a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupck4KhMkVz6K4R",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceComponent.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 36,
+        "hash": "2804324fb4f6583a14d85b955955994a",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make modified a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupck4KhMkVz6K4Q",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceComponent.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 34,
+        "hash": "1d36cb0267f4a0b68334e5a0cc1c565d",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make created a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupbk4KhMkVz6K4P",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceComponent.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 32,
+        "hash": "85546ec0e67db4f31c22d033836ff659",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 16,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make componentLink a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupbk4KhMkVz6K4O",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceComponent.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 30,
+        "hash": "9135a390f8a066bbe72d6e88d808f428",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 18,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make componentId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuowk4KhMkVz6K3r",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeUploadRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 43,
+        "hash": "e69f73c64d20b132467080366d581aa9",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 18,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make component a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuowk4KhMkVz6K3q",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeUploadRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 41,
+        "hash": "96eab507ec8673bd83245e22a437c3f9",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 18,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make application a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuowk4KhMkVz6K3p",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeUploadRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 39,
+        "hash": "c8f4295427034aa17b86e76de0ddf35b",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 18,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make blueprintTemplate a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuowk4KhMkVz6K3o",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeUploadRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 37,
+        "hash": "a78351b747001022050e475335d4adb5",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 19,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make typeVersion a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuowk4KhMkVz6K3n",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeUploadRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 35,
+        "hash": "1e7567a86d5f78b340950c6e9e4739f9",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make typeName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuowk4KhMkVz6K3m",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeUploadRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 33,
+        "hash": "11525835912d7aa642bf087e700c586b",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make owner a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuook4KhMkVz6K3l",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceGroupByResults.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 34,
+        "hash": "06908c1176bf819bba1744a09c3d2b6f",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 34,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make propertyValues a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuook4KhMkVz6K3k",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceGroupByResults.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 32,
+        "hash": "0dcc1463345bd1bf1f35043047d870d4",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 18,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make propertyName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_5",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 829,
+        "hash": "3e2d0347c329746f0fda93398c66520f",
+        "textRange": {
+            "startLine": 829,
+            "endLine": 829,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTumFk4KhMkVz6K2f",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/rest/RestInventoryClientImpl.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 84,
+        "hash": "2459b0f343d2df4d88ed4b1a59e95d69",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwvk4KhMkVz6LBL",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/ConsulController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 444,
+        "hash": "e5e40df13ba34c6f7cd6c12d9cf014f0",
+        "textRange": {
+            "startLine": 444,
+            "endLine": 444,
+            "startOffset": 8,
+            "endOffset": 11
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwvk4KhMkVz6LBK",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/ConsulController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 436,
+        "hash": "28702282c0e20845b871a7409288f68e",
+        "textRange": {
+            "startLine": 436,
+            "endLine": 436,
+            "startOffset": 8,
+            "endOffset": 13
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuv1k4KhMkVz6K9v",
+        "rule": "java:S2885",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/DashboardRestrictedBaseController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 52,
+        "hash": "9af9bf1805f2be921eab3ac84f8f378b",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 38,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make \"logDateFormat\" an instance variable.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2017-08-17T20:53:24+0200",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "BUG",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupKk4KhMkVz6K4B",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceComponentRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 41,
+        "hash": "5055cf94be067b835b23a8e40a5d2fc5",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make shareable a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupKk4KhMkVz6K4A",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceComponentRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 37,
+        "hash": "1eb78ec1ef3ba3cb298966ad1cb7a4b2",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 18,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make componentSource a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupKk4KhMkVz6K3_",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceComponentRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 32,
+        "hash": "b14a728b34055a264aeb94707c708766",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 18,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make componentType a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupKk4KhMkVz6K3-",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceComponentRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 30,
+        "hash": "9135a390f8a066bbe72d6e88d808f428",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 18,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make componentId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupBk4KhMkVz6K38",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 69,
+        "hash": "72bf7ff418eaaa53b4061fe48706415d",
+        "textRange": {
+            "startLine": 69,
+            "endLine": 69,
+            "startOffset": 28,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make asdcServiceURL a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8a",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 989,
+        "hash": "c1b0fd8b1d2b3256fc58b2c16da38454",
+        "textRange": {
+            "startLine": 989,
+            "endLine": 989,
+            "startOffset": 49,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8Z",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 997,
+        "hash": "88b5dbb1d542ab430143c52ce5f5892f",
+        "textRange": {
+            "startLine": 997,
+            "endLine": 997,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8Y",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 944,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 944,
+            "endLine": 944,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8X",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 949,
+        "hash": "b97dc2e00732153372f4df8610ee3d2c",
+        "textRange": {
+            "startLine": 949,
+            "endLine": 949,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8V",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 652,
+        "hash": "97fec2a939b55ce3eac3f4b3be2c97af",
+        "textRange": {
+            "startLine": 652,
+            "endLine": 652,
+            "startOffset": 42,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8U",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 609,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 609,
+            "endLine": 609,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8T",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 614,
+        "hash": "b97dc2e00732153372f4df8610ee3d2c",
+        "textRange": {
+            "startLine": 614,
+            "endLine": 614,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8S",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 564,
+        "hash": "11817fd0281d5d6c799a3f106c1fde95",
+        "textRange": {
+            "startLine": 564,
+            "endLine": 564,
+            "startOffset": 94,
+            "endOffset": 103
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8R",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 569,
+        "hash": "b97dc2e00732153372f4df8610ee3d2c",
+        "textRange": {
+            "startLine": 569,
+            "endLine": 569,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuv_k4KhMkVz6K-T",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/InventoryController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 200,
+        "hash": "c7f794e9d35b4127618d97ec42431085",
+        "textRange": {
+            "startLine": 200,
+            "endLine": 200,
+            "startOffset": 74,
+            "endOffset": 83
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuv_k4KhMkVz6K-S",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/InventoryController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 380,
+        "hash": "575af85ba2ccb4ff4be7b6a7ac58f6ed",
+        "textRange": {
+            "startLine": 380,
+            "endLine": 380,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuv_k4KhMkVz6K-R",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/InventoryController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 113,
+        "hash": "c7f794e9d35b4127618d97ec42431085",
+        "textRange": {
+            "startLine": 113,
+            "endLine": 113,
+            "startOffset": 74,
+            "endOffset": 83
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuv_k4KhMkVz6K-Q",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/InventoryController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 172,
+        "hash": "575af85ba2ccb4ff4be7b6a7ac58f6ed",
+        "textRange": {
+            "startLine": 172,
+            "endLine": 172,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTusck4KhMkVz6K5x",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/ControllerEndpointCredentials.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 85,
+        "hash": "2bbded455106c90293c054f059e92e79",
+        "textRange": {
+            "startLine": 85,
+            "endLine": 85,
+            "startOffset": 63,
+            "endOffset": 72
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTurMk4KhMkVz6K5d",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/CloudifyTenant.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 34,
+        "hash": "f3370f2b7dc9e967fdea4b220b17cd5a",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make dName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwvk4KhMkVz6LA3",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/ConsulController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 347,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 347,
+            "endLine": 347,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwvk4KhMkVz6LA2",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/ConsulController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 365,
+        "hash": "2f79cedd57fedaa6cdb9521f56b69f37",
+        "textRange": {
+            "startLine": 365,
+            "endLine": 365,
+            "startOffset": 30,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwvk4KhMkVz6LA1",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/ConsulController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 361,
+        "hash": "019f53aef7dd0ce6d93e6864551db709",
+        "textRange": {
+            "startLine": 361,
+            "endLine": 361,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8-",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 527,
+        "hash": "341e0fb409bddb0ceeafa278bbd0e346",
+        "textRange": {
+            "startLine": 527,
+            "endLine": 527,
+            "startOffset": 104,
+            "endOffset": 113
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTunOk4KhMkVz6K3A",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ApiResponseMessage.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 32,
+        "hash": "7ba709b14e744ad5c81755e81eb9d05d",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 18,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make type a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTunOk4KhMkVz6K2_",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ApiResponseMessage.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 30,
+        "hash": "d7fcc8af42a643c516d827ea69a31710",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 19,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make code a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTum6k4KhMkVz6K27",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/rest/DeploymentHandlerClientImpl.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 76,
+        "hash": "2459b0f343d2df4d88ed4b1a59e95d69",
+        "textRange": {
+            "startLine": 76,
+            "endLine": 76,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuw8k4KhMkVz6LBb",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/DeploymentHandlerController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 149,
+        "hash": "ed1d14733863ec2083732fd55edc26e6",
+        "textRange": {
+            "startLine": 149,
+            "endLine": 149,
+            "startOffset": 88,
+            "endOffset": 97
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuuSk4KhMkVz6K7N",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/CloudifyExecutionRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 41,
+        "hash": "965856401c72f05d3a21570957bdc6df",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 31,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make parameters a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupBk4KhMkVz6K37",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 67,
+        "hash": "ded468424345572cec441edc1c7aef52",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 28,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make asdcResourceId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTunek4KhMkVz6K3K",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 46,
+        "hash": "baf576afe64d075de190e8782912fbf6",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 47,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make components a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTunek4KhMkVz6K3J",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 41,
+        "hash": "6222202d0868d3fd902298dac624203b",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 18,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make deploymentRef a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTunek4KhMkVz6K3I",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 39,
+        "hash": "f8bff8a3c280aac709122554449beab2",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 18,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make vnfLocation a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTunek4KhMkVz6K3H",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 37,
+        "hash": "a6e95036fb7958ee17200422ce97dbf2",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make vnfType a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTunek4KhMkVz6K3G",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 35,
+        "hash": "1bd01c63e65475dc93a4053499a57a1a",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make vnfId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTunek4KhMkVz6K3F",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 33,
+        "hash": "8d4c881d8e7a3b4f0bdc8835c8aee645",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 18,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make typeId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTunOk4KhMkVz6K3B",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ApiResponseMessage.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 34,
+        "hash": "b2bdc889f4333ff4646907e5b34d839c",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make message a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvdk4KhMkVz6K9j",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 1165,
+        "hash": "28702282c0e20845b871a7409288f68e",
+        "textRange": {
+            "startLine": 1165,
+            "endLine": 1165,
+            "startOffset": 8,
+            "endOffset": 13
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvdk4KhMkVz6K9k",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 1172,
+        "hash": "e5e40df13ba34c6f7cd6c12d9cf014f0",
+        "textRange": {
+            "startLine": 1172,
+            "endLine": 1172,
+            "startOffset": 8,
+            "endOffset": 11
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwvk4KhMkVz6LAv",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/ConsulController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 126,
+        "hash": "e19216d086e6640f18e934a3ebb98bb0",
+        "textRange": {
+            "startLine": 126,
+            "endLine": 126,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_z",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 575,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 575,
+            "endLine": 575,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_6",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 824,
+        "hash": "11817fd0281d5d6c799a3f106c1fde95",
+        "textRange": {
+            "startLine": 824,
+            "endLine": 824,
+            "startOffset": 94,
+            "endOffset": 103
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuw8k4KhMkVz6LBa",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/DeploymentHandlerController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 78,
+        "hash": "6b4ff0c372b18a3778b927a158ed440d",
+        "textRange": {
+            "startLine": 78,
+            "endLine": 78,
+            "startOffset": 81,
+            "endOffset": 90
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupBk4KhMkVz6K32",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 43,
+        "hash": "e69f73c64d20b132467080366d581aa9",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 18,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make component a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupBk4KhMkVz6K31",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 41,
+        "hash": "96eab507ec8673bd83245e22a437c3f9",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 18,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make application a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupBk4KhMkVz6K30",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 39,
+        "hash": "c8f4295427034aa17b86e76de0ddf35b",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 18,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make blueprintTemplate a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupBk4KhMkVz6K3z",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 37,
+        "hash": "a78351b747001022050e475335d4adb5",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 19,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make typeVersion a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupBk4KhMkVz6K3y",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 35,
+        "hash": "1e7567a86d5f78b340950c6e9e4739f9",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make typeName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupBk4KhMkVz6K3x",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 33,
+        "hash": "11525835912d7aa642bf087e700c586b",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make owner a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuo4k4KhMkVz6K3w",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/InventoryProperty.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 34,
+        "hash": "f98742e3b1edfac2ff2934c8de55b69e",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 16,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make dcaeServiceQueryLink a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuo4k4KhMkVz6K3v",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/InventoryProperty.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 32,
+        "hash": "99c7a31439866e77656e703e69b877d6",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 18,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make propertyValue a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuo4k4KhMkVz6K3u",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/InventoryProperty.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 30,
+        "hash": "f85be5307e9b96d5b0c722fec3e9f10d",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 19,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make count a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupck4KhMkVz6K4W",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceComponent.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 51,
+        "hash": "5055cf94be067b835b23a8e40a5d2fc5",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make shareable a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupck4KhMkVz6K4V",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceComponent.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 47,
+        "hash": "063cbc8793c1d9e5af097d5674821864",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make location a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupck4KhMkVz6K4U",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceComponent.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 45,
+        "hash": "a00265cea49c7df1e6340bc0422038cf",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 18,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make status a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuw8k4KhMkVz6LBl",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/DeploymentHandlerController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 215,
+        "hash": "28702282c0e20845b871a7409288f68e",
+        "textRange": {
+            "startLine": 215,
+            "endLine": 215,
+            "startOffset": 8,
+            "endOffset": 13
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupBk4KhMkVz6K39",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 86,
+        "hash": "66e66ad7926dbba12af6a915e7947f01",
+        "textRange": {
+            "startLine": 86,
+            "endLine": 86,
+            "startOffset": 11,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 12 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuoRk4KhMkVz6K3d",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/Link.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 37,
+        "hash": "0c5b881a2ef098958aae73ff8b687dfd",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 18,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make uri a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuoRk4KhMkVz6K3c",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/Link.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 36,
+        "hash": "e7ae27763580716aed466bd585ab3857",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 18,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make rel a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuoRk4KhMkVz6K3b",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/Link.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 35,
+        "hash": "10084a9de82c6614506d62c0f83e04ee",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 18,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make href a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuoRk4KhMkVz6K3a",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/Link.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 34,
+        "hash": "8a90568c6e332919f11e323ba0057155",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make title a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwQk4KhMkVz6K_D",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/DashboardHomeController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 234,
+        "hash": "7d713532fc84242fa96359790274fe3d",
+        "textRange": {
+            "startLine": 234,
+            "endLine": 234,
+            "startOffset": 55,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_1",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 693,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 693,
+            "endLine": 693,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwvk4KhMkVz6LAz",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/ConsulController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 301,
+        "hash": "b427e7ff6197215d30a4008b0fc22318",
+        "textRange": {
+            "startLine": 301,
+            "endLine": 301,
+            "startOffset": 50,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwvk4KhMkVz6LAy",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/ConsulController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 240,
+        "hash": "6bec42da139c012e0cebcc9fe94d1c81",
+        "textRange": {
+            "startLine": 240,
+            "endLine": 240,
+            "startOffset": 96,
+            "endOffset": 105
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwvk4KhMkVz6LAx",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/ConsulController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 206,
+        "hash": "033e438114ecb05a8e0f7858a3133b28",
+        "textRange": {
+            "startLine": 206,
+            "endLine": 206,
+            "startOffset": 51,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwvk4KhMkVz6LAw",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/ConsulController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 170,
+        "hash": "cbafdf3e6583819240d6f67f67924f0c",
+        "textRange": {
+            "startLine": 170,
+            "endLine": 170,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwvk4KhMkVz6LAu",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/ConsulController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 144,
+        "hash": "575af85ba2ccb4ff4be7b6a7ac58f6ed",
+        "textRange": {
+            "startLine": 144,
+            "endLine": 144,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwvk4KhMkVz6LA4",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/ConsulController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 404,
+        "hash": "01f8cf15900da85cd9e570993dfbe114",
+        "textRange": {
+            "startLine": 404,
+            "endLine": 404,
+            "startOffset": 105,
+            "endOffset": 114
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwvk4KhMkVz6LA0",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/ConsulController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 352,
+        "hash": "ebf80015ca5de58867d91525fd14607e",
+        "textRange": {
+            "startLine": 352,
+            "endLine": 352,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTusck4KhMkVz6K5y",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/ControllerEndpointCredentials.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 97,
+        "hash": "13d3137bb8b297db7dfe4c5866613180",
+        "textRange": {
+            "startLine": 97,
+            "endLine": 97,
+            "startOffset": 43,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTusck4KhMkVz6K5w",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/ControllerEndpointCredentials.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 36,
+        "hash": "c78df4fb36d58493662b06512557bf1e",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 11,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwQk4KhMkVz6K_C",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/DashboardHomeController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 177,
+        "hash": "ae2e8c69690bc7525e835a133851b89e",
+        "textRange": {
+            "startLine": 177,
+            "endLine": 177,
+            "startOffset": 65,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTu4ik4KhMkVz6LK9",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-os/src/main/java/org/onap/portalapp/conf/ExternalAppInitializer.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 45,
+        "hash": "ecf494f5ad3b021f4ad2504539f18bd9",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 23,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2017-08-17T20:53:24+0200",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuv_k4KhMkVz6K-U",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/InventoryController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 591,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 591,
+            "endLine": 591,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTurBk4KhMkVz6K5c",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/HealthStatus.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 31,
+        "hash": "b2bdc889f4333ff4646907e5b34d839c",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make message a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-17T20:53:24+0200",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTurBk4KhMkVz6K5b",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/HealthStatus.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 29,
+        "hash": "45de62900d5728d18c3a5dcf87bd5fe8",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 15,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make statusCode a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-17T20:53:24+0200",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvSk4KhMkVz6K7m",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/util/DashboardProperties.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 136,
+        "hash": "5a17bea7615c81a4e9ea3ebdb6d905ea",
+        "textRange": {
+            "startLine": 136,
+            "endLine": 136,
+            "startOffset": 28,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-04-10T04:15:40+0200",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupBk4KhMkVz6K36",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 62,
+        "hash": "99737ed47882813f3be984b1fc6c5901",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 28,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make asdcServiceId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupBk4KhMkVz6K35",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 57,
+        "hash": "0e86a132b284b79c86ad5697b5ad1f4a",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make serviceLocations a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupBk4KhMkVz6K34",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 51,
+        "hash": "1b13c026cede9d1ebadd3d218ffba1fb",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 30,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make vnfTypes a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTupBk4KhMkVz6K33",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeRequest.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 49,
+        "hash": "2999bd1d618a4d29c84d322e070d3c48",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 30,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make serviceIds a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8d",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 1130,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 1130,
+            "endLine": 1130,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8c",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 1049,
+        "hash": "c1b0fd8b1d2b3256fc58b2c16da38454",
+        "textRange": {
+            "startLine": 1049,
+            "endLine": 1049,
+            "startOffset": 45,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuvck4KhMkVz6K8b",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CommonApiController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 1055,
+        "hash": "b97dc2e00732153372f4df8610ee3d2c",
+        "textRange": {
+            "startLine": 1055,
+            "endLine": 1055,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTunmk4KhMkVz6K3M",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/ServiceTypeQueryParams.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 51,
+        "hash": "d36bc54d69ed35dc7f28e0d75dace636",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 12,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-03-15T17:25:32+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_v",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 453,
+        "hash": "6d6901abb0bf3f2515dfa6b97458c8ed",
+        "textRange": {
+            "startLine": 453,
+            "endLine": 453,
+            "startOffset": 79,
+            "endOffset": 88
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_w",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 529,
+        "hash": "3e2d0347c329746f0fda93398c66520f",
+        "textRange": {
+            "startLine": 529,
+            "endLine": 529,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuwdk4KhMkVz6K_y",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/controller/CloudifyController.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 581,
+        "hash": "3e2d0347c329746f0fda93398c66520f",
+        "textRange": {
+            "startLine": 581,
+            "endLine": 581,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-21T23:19:12+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTusck4KhMkVz6K5v",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/ControllerEndpointCredentials.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 34,
+        "hash": "3816973039ad6478f198a89679818da1",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 19,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make isEncryptedPass a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-17T20:53:24+0200",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTusck4KhMkVz6K5u",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/ControllerEndpointCredentials.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 33,
+        "hash": "0446fa69f560c33bcb5f21bc6dcfb254",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make password a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-17T20:53:24+0200",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTusck4KhMkVz6K5t",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/ControllerEndpointCredentials.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 32,
+        "hash": "d84a5868cc1cab603831f3757b936e18",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make username a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-08-17T20:53:24+0200",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuoRk4KhMkVz6K3h",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/Link.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 41,
+        "hash": "7ba709b14e744ad5c81755e81eb9d05d",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 18,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make type a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuoRk4KhMkVz6K3g",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/Link.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 40,
+        "hash": "d9082e03cf23dcec5cc483ca34de5a5b",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 31,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make params a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuoRk4KhMkVz6K3f",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/Link.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 39,
+        "hash": "bfa76a00be5d25520971001608517f45",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 30,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make rels a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTuoRk4KhMkVz6K3e",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-common/src/main/java/org/onap/ccsdk/dashboard/model/inventory/Link.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 38,
+        "hash": "6b51e52aff8dd1c6f4fd3a961d847e82",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 22,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make uriBuilder a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-14T01:34:06+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lTu4qk4KhMkVz6LK-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-dashboard:ccsdk-app-os/src/main/java/org/onap/portalapp/lm/FusionLicenseManagerImpl.java",
+        "project": "onap_ccsdk-dashboard",
+        "line": 47,
+        "hash": "ade88b84548ec15c2f8b184babd0c149",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-28T22:49:25+0100",
+        "updateDate": "2019-11-26T02:23:29+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

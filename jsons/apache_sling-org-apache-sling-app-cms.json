@@ -1,0 +1,155 @@
+[
+    {
+        "key": "AWog-QaK1dBUQTlhfX2u",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-app-cms:core/src/main/java/org/apache/sling/cms/core/insights/impl/BaseInsightProvider.java",
+        "project": "apache_sling-org-apache-sling-app-cms",
+        "line": 44,
+        "hash": "f879cde6d015b0b741e0d51e6e6c566c",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 80,
+            "endOffset": 89
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-08T05:00:32+0200",
+        "updateDate": "2019-04-15T14:28:47+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWog-QXi1dBUQTlhfX2A",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-app-cms:api/src/main/java/org/apache/sling/cms/CMSConstants.java",
+        "project": "apache_sling-org-apache-sling-app-cms",
+        "line": 135,
+        "hash": "795deb7d7a30229e813bca32b2179520",
+        "textRange": {
+            "startLine": 135,
+            "endLine": 135,
+            "startOffset": 33,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2018-09-09T15:33:17+0200",
+        "updateDate": "2019-04-15T14:28:47+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWxDP5286j6VOKxtrbHU",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-app-cms:reference/src/main/java/org/apache/sling/cms/reference/forms/impl/FormRequestImpl.java",
+        "project": "apache_sling-org-apache-sling-app-cms",
+        "line": 85,
+        "hash": "5d28fb9cba4b183bad1092247474a3c2",
+        "textRange": {
+            "startLine": 85,
+            "endLine": 85,
+            "startOffset": 30,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.cms.reference.forms.FormException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-07-25T04:59:45+0200",
+        "updateDate": "2019-07-30T16:18:28+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWxDP5286j6VOKxtrbHT",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-app-cms:reference/src/main/java/org/apache/sling/cms/reference/forms/impl/FormRequestImpl.java",
+        "project": "apache_sling-org-apache-sling-app-cms",
+        "line": 63,
+        "hash": "73e76e252fa9c5105f65de693703a091",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 90,
+            "endOffset": 103
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.cms.reference.forms.FormException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-07-25T04:59:45+0200",
+        "updateDate": "2019-07-30T16:18:28+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWxDP5286j6VOKxtrbHS",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-app-cms:reference/src/main/java/org/apache/sling/cms/reference/forms/impl/FormRequestImpl.java",
+        "project": "apache_sling-org-apache-sling-app-cms",
+        "line": 58,
+        "hash": "1f67ca6f2a86b722fbcbd5060082ef53",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 67,
+            "endOffset": 80
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.cms.reference.forms.FormException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-07-25T04:59:45+0200",
+        "updateDate": "2019-07-30T16:18:28+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

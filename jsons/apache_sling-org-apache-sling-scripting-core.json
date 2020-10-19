@@ -1,0 +1,231 @@
+[
+    {
+        "key": "AWox51-7-aLJxVkBYvvJ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-core:src/main/java/org/apache/sling/scripting/core/impl/ServiceCache.java",
+        "project": "apache_sling-org-apache-sling-scripting-core",
+        "line": 130,
+        "hash": "33fbefa32279f10602340d8ec7f0ab0c",
+        "textRange": {
+            "startLine": 130,
+            "endLine": 130,
+            "startOffset": 32,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make service a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2010-04-09T16:02:31+0200",
+        "updateDate": "2019-04-18T21:23:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWox51-7-aLJxVkBYvvI",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-core:src/main/java/org/apache/sling/scripting/core/impl/ServiceCache.java",
+        "project": "apache_sling-org-apache-sling-scripting-core",
+        "line": 129,
+        "hash": "26035e9f5e9d1abccc09ada2b1356678",
+        "textRange": {
+            "startLine": 129,
+            "endLine": 129,
+            "startOffset": 32,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make reference a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2010-04-09T16:02:31+0200",
+        "updateDate": "2019-04-18T21:23:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXIIdk2qH0NwxbxUplwk",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-core:src/main/java/org/apache/sling/scripting/core/impl/bundled/Script.java",
+        "project": "apache_sling-org-apache-sling-scripting-core",
+        "line": 52,
+        "hash": "20db3dac98a64705163f825aa0a1aec8",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 4,
+            "endOffset": 10
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-05-12T12:33:47+0200",
+        "updateDate": "2020-05-12T12:37:25+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXIIdk2VH0NwxbxUplwi",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-core:src/main/java/org/apache/sling/scripting/core/impl/bundled/PrecompiledScript.java",
+        "project": "apache_sling-org-apache-sling-scripting-core",
+        "line": 40,
+        "hash": "1b4a7f8daa9c3460e8f1f6dc9eb6aba0",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 4,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-05-12T12:33:47+0200",
+        "updateDate": "2020-05-12T12:37:25+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWox51-f-aLJxVkBYvug",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-core:src/main/java/org/apache/sling/scripting/core/impl/BindingsValuesProvidersByContextImpl.java",
+        "project": "apache_sling-org-apache-sling-scripting-core",
+        "line": 66,
+        "hash": "60d6520b48c727ded81e2b6d5579d577",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 34,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2013-09-06T14:57:27+0200",
+        "updateDate": "2019-04-18T21:23:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWox51-z-aLJxVkBYvu7",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-core:src/main/java/org/apache/sling/scripting/core/impl/InternalScriptHelper.java",
+        "project": "apache_sling-org-apache-sling-scripting-core",
+        "line": 53,
+        "hash": "630b9069a3ceb916b6fc268b0e758b9b",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 37,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2010-04-09T16:02:31+0200",
+        "updateDate": "2019-04-18T21:23:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWox51_a-aLJxVkBYvvs",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-core:src/main/java/org/apache/sling/scripting/core/ScriptHelper.java",
+        "project": "apache_sling-org-apache-sling-scripting-core",
+        "line": 229,
+        "hash": "ba096df24dee312a63b9141209f80d20",
+        "textRange": {
+            "startLine": 229,
+            "endLine": 229,
+            "startOffset": 11,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.api.scripting.InvalidServiceFilterSyntaxException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T21:23:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWox51_a-aLJxVkBYvvn",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-scripting-core:src/main/java/org/apache/sling/scripting/core/ScriptHelper.java",
+        "project": "apache_sling-org-apache-sling-scripting-core",
+        "line": 194,
+        "hash": "822b519c44c75864a6d63e225a932a17",
+        "textRange": {
+            "startLine": 194,
+            "endLine": 194,
+            "startOffset": 16,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2010-04-09T15:15:50+0200",
+        "updateDate": "2019-04-18T21:23:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

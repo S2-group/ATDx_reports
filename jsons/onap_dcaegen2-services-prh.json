@@ -1,0 +1,86 @@
+[
+    {
+        "key": "AW8WR3OM_8FstaRg6mA2",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_dcaegen2-services-prh:prh-commons/src/main/java/org/onap/dcaegen2/services/prh/adapter/aai/main/AaiClientConfiguration.java",
+        "project": "onap_dcaegen2-services-prh",
+        "line": 67,
+        "hash": "621516353ca261a002b38ba2ebef316b",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 18,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-28T12:21:19+0100",
+        "updateDate": "2019-12-18T00:52:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WR3OM_8FstaRg6mA0",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_dcaegen2-services-prh:prh-commons/src/main/java/org/onap/dcaegen2/services/prh/adapter/aai/main/AaiClientConfiguration.java",
+        "project": "onap_dcaegen2-services-prh",
+        "line": 49,
+        "hash": "e816424cf4c7639e8d9674a5ea1f1188",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 18,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-28T12:21:19+0100",
+        "updateDate": "2019-12-18T00:52:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lfH8wgYcRdnXY3buo",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-services-prh:prh-commons/src/main/java/org/onap/dcaegen2/services/prh/model/utils/PrhModelAwareGsonBuilder.java",
+        "project": "onap_dcaegen2-services-prh",
+        "line": 28,
+        "hash": "f1f450966ad906e57f6624998cf71a38",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 19,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-05-22T15:36:41+0200",
+        "updateDate": "2019-11-26T03:13:31+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

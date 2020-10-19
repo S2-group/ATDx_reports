@@ -1,0 +1,171 @@
+[
+    {
+        "key": "AWo0ifpuYsUHy63nDT_I",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-serviceusermapper:src/main/java/org/apache/sling/serviceusermapping/impl/MappingConfigAmendment.java",
+        "project": "apache_sling-org-apache-sling-serviceusermapper",
+        "line": 100,
+        "hash": "1131e20e01d37fdb924678e5edf52721",
+        "textRange": {
+            "startLine": 100,
+            "endLine": 100,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2014-05-20T15:57:19+0200",
+        "updateDate": "2019-04-19T09:40:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo0ifp8YsUHy63nDT_l",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-serviceusermapper:src/main/java/org/apache/sling/serviceusermapping/Mapping.java",
+        "project": "apache_sling-org-apache-sling-serviceusermapper",
+        "line": 161,
+        "hash": "e0095b2f81b309d1d68d4cafecc2fc3f",
+        "textRange": {
+            "startLine": 161,
+            "endLine": 161,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2015-02-27T12:48:32+0100",
+        "updateDate": "2019-04-19T09:40:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo0ifp8YsUHy63nDT_i",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-serviceusermapper:src/main/java/org/apache/sling/serviceusermapping/Mapping.java",
+        "project": "apache_sling-org-apache-sling-serviceusermapper",
+        "line": 34,
+        "hash": "968197a202df3e7f0da4059589f9eac4",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 25,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make SERVICENAME a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "klcodanr@github",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-10T05:47:04+0100",
+        "updateDate": "2019-04-19T09:40:05+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo0ifp8YsUHy63nDT_h",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-serviceusermapper:src/main/java/org/apache/sling/serviceusermapping/Mapping.java",
+        "project": "apache_sling-org-apache-sling-serviceusermapper",
+        "line": 34,
+        "hash": "968197a202df3e7f0da4059589f9eac4",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 25,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static SERVICENAME\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "assignee": "klcodanr@github",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2018-01-10T05:47:04+0100",
+        "updateDate": "2019-04-19T09:40:05+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo0ifpIYsUHy63nDT-5",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-serviceusermapper:src/main/java/org/apache/sling/serviceusermapping/impl/ServiceUserMappedImpl.java",
+        "project": "apache_sling-org-apache-sling-serviceusermapper",
+        "line": 27,
+        "hash": "35f5464644c9dcfa9e49837dd333fe27",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 13,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-03-12T15:02:20+0100",
+        "updateDate": "2019-04-19T09:40:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo0ifpfYsUHy63nDT-7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-serviceusermapper:src/main/java/org/apache/sling/serviceusermapping/impl/ServiceUserMappedBundleFilter.java",
+        "project": "apache_sling-org-apache-sling-serviceusermapper",
+        "line": 144,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 144,
+            "endLine": 144,
+            "startOffset": 27,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-02T22:28:19+0100",
+        "updateDate": "2019-04-19T09:40:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

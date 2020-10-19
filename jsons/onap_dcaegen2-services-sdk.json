@@ -1,0 +1,623 @@
+[
+    {
+        "key": "AW6levGDN4Bi_QcqJ7fZ",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_dcaegen2-services-sdk:rest-services/http-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/adapters/http/logging/MdcVariables.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 30,
+        "hash": "25c91c5b69d6f6595b2dd411044c9cbb",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 31,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-11-26T16:02:51+0100",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levGDN4Bi_QcqJ7fb",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_dcaegen2-services-sdk:rest-services/http-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/adapters/http/logging/MdcVariables.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 32,
+        "hash": "bfda7b57265459490094cf7c3dda1ad6",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 31,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-11-26T16:02:51+0100",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levGDN4Bi_QcqJ7fd",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_dcaegen2-services-sdk:rest-services/http-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/adapters/http/logging/MdcVariables.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 60,
+        "hash": "6bf4f38b9f324704fa5f0f3c107c6943",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 23,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-11-26T16:02:51+0100",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levGBN4Bi_QcqJ7fX",
+        "rule": "java:S1598",
+        "severity": "CRITICAL",
+        "component": "onap_dcaegen2-services-sdk:rest-services/http-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/adapters/http/logging/RequestDiagnosticContext.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 21,
+        "hash": "a156d07f1a05022f86e3cf313f9fe609",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 8,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "This file \"RequestDiagnosticContext.java\" should be located in \"org/onap/dcaegen2/services/sdk/rest/services/model/logging\" directory, not in \"/w/workspace/dcaegen2-services-sdk-sonar/rest-services/http-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/adapters/http/logging\".",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "pitfall"
+        ],
+        "creationDate": "2019-02-27T14:43:42+0100",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levF6N4Bi_QcqJ7fU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-services-sdk:rest-services/http-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/adapters/http/test/DummyHttpServer.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 100,
+        "hash": "d1d28df067e3feb2a558b5748d65dbcc",
+        "textRange": {
+            "startLine": 100,
+            "endLine": 100,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-02-27T10:52:15+0100",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levHGN4Bi_QcqJ7f1",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-services-sdk:rest-services/cbs-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/cbs/client/impl/streams/gson/DataStreamUtils.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 37,
+        "hash": "5341de83904fef39a17a2ec8dd97a7c7",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 19,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-19T15:06:15+0100",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levG1N4Bi_QcqJ7fp",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-services-sdk:rest-services/cbs-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/cbs/client/api/streams/StreamPredicates.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 36,
+        "hash": "5d742754daa4b4cf0b665cabb867f542",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 11,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Hide this public constructor.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-26T12:55:04+0100",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levGrN4Bi_QcqJ7fn",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-services-sdk:rest-services/cbs-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/cbs/client/api/CbsRequests.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 34,
+        "hash": "394c32e9897fddf657f6a42556988d11",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 19,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-22T10:10:54+0100",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levG7N4Bi_QcqJ7fr",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-services-sdk:rest-services/cbs-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/cbs/client/api/CbsClientFactory.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 38,
+        "hash": "580242816c09691ec1858f6771ec084b",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-02-19T08:33:12+0100",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levHjN4Bi_QcqJ7f6",
+        "rule": "java:S1598",
+        "severity": "CRITICAL",
+        "component": "onap_dcaegen2-services-sdk:rest-services/cbs-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/cbs/client/annotations/ExperimentalApi.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 21,
+        "hash": "0003a446b3d09c4d89b217d6d8cedd24",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 8,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "This file \"ExperimentalApi.java\" should be located in \"org/onap/dcaegen2/services/sdk/rest/services/annotations\" directory, not in \"/w/workspace/dcaegen2-services-sdk-sonar/rest-services/cbs-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/cbs/client/annotations\".",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "pitfall"
+        ],
+        "creationDate": "2019-02-28T12:34:32+0100",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levJyN4Bi_QcqJ7gg",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_dcaegen2-services-sdk:security/ssl/src/main/java/org/onap/dcaegen2/services/sdk/security/ssl/SslFactory.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 117,
+        "hash": "2e1e79c2c90847ea4aefe3e75a82a3b2",
+        "textRange": {
+            "startLine": 117,
+            "endLine": 117,
+            "startOffset": 22,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-02-18T15:20:20+0100",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levHpN4Bi_QcqJ7gE",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_dcaegen2-services-sdk:rest-services/cbs-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/cbs/client/model/CbsClientConfiguration.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 126,
+        "hash": "a1129a3a46ae2d3349565b57575a3eb7",
+        "textRange": {
+            "startLine": 126,
+            "endLine": 126,
+            "startOffset": 19,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-05-30T12:46:02+0200",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levHcN4Bi_QcqJ7f3",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-services-sdk:rest-services/cbs-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/cbs/client/impl/streams/gson/StreamsConstants.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 26,
+        "hash": "c5f49e08ef455828d083f4f34db88943",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 19,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-19T13:37:13+0100",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levGDN4Bi_QcqJ7fY",
+        "rule": "java:S1598",
+        "severity": "CRITICAL",
+        "component": "onap_dcaegen2-services-sdk:rest-services/http-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/adapters/http/logging/MdcVariables.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 21,
+        "hash": "a156d07f1a05022f86e3cf313f9fe609",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 8,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "This file \"MdcVariables.java\" should be located in \"org/onap/dcaegen2/services/sdk/rest/services/model/logging\" directory, not in \"/w/workspace/dcaegen2-services-sdk-sonar/rest-services/http-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/adapters/http/logging\".",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "pitfall"
+        ],
+        "creationDate": "2018-11-26T16:02:51+0100",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levFkN4Bi_QcqJ7fT",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-sdk:services/hv-ves-client/producer/impl/src/main/java/org/onap/dcaegen2/services/sdk/services/hvves/client/producer/impl/encoders/WireFrameEncoder.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 56,
+        "hash": "362762082c255d0edd6a1e1ec3192f2f",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 88,
+            "endOffset": 108
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.dcaegen2.services.sdk.services.hvves.client.producer.impl.encoders.WTPEncodingException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-28T14:56:35+0100",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levGIN4Bi_QcqJ7fe",
+        "rule": "java:S1598",
+        "severity": "CRITICAL",
+        "component": "onap_dcaegen2-services-sdk:rest-services/http-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/adapters/http/logging/GlobalDiagnosticContext.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 21,
+        "hash": "a156d07f1a05022f86e3cf313f9fe609",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 8,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "This file \"GlobalDiagnosticContext.java\" should be located in \"org/onap/dcaegen2/services/sdk/rest/services/model/logging\" directory, not in \"/w/workspace/dcaegen2-services-sdk-sonar/rest-services/http-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/adapters/http/logging\".",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "pitfall"
+        ],
+        "creationDate": "2019-02-27T14:43:42+0100",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levGTN4Bi_QcqJ7fj",
+        "rule": "java:S1598",
+        "severity": "CRITICAL",
+        "component": "onap_dcaegen2-services-sdk:rest-services/http-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/adapters/http/URI.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 22,
+        "hash": "5b07dd99a5e759483a12914336093e43",
+        "textRange": {
+            "startLine": 22,
+            "endLine": 22,
+            "startOffset": 8,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "This file \"URI.java\" should be located in \"org/onap/dcaegen2/services/sdk/rest/services/uri\" directory, not in \"/w/workspace/dcaegen2-services-sdk-sonar/rest-services/http-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/adapters/http\".",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "pitfall"
+        ],
+        "creationDate": "2019-02-21T13:21:43+0100",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levHpN4Bi_QcqJ7gA",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_dcaegen2-services-sdk:rest-services/cbs-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/cbs/client/model/CbsClientConfiguration.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 116,
+        "hash": "a686e0e1a739d2b1ee3572fb8ad7f2ae",
+        "textRange": {
+            "startLine": 116,
+            "endLine": 116,
+            "startOffset": 19,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-05-30T12:46:02+0200",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levHpN4Bi_QcqJ7f_",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_dcaegen2-services-sdk:rest-services/cbs-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/cbs/client/model/CbsClientConfiguration.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 92,
+        "hash": "d243a18ff4e92a8ac9ae293fc388e127",
+        "textRange": {
+            "startLine": 92,
+            "endLine": 92,
+            "startOffset": 11,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-05-30T12:46:02+0200",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levHpN4Bi_QcqJ7gC",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_dcaegen2-services-sdk:rest-services/cbs-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/cbs/client/model/CbsClientConfiguration.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 121,
+        "hash": "524ae70fb4eb4da673750165d4d787de",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 20,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-05-30T12:46:02+0200",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levHpN4Bi_QcqJ7f-",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_dcaegen2-services-sdk:rest-services/cbs-client/src/main/java/org/onap/dcaegen2/services/sdk/rest/services/cbs/client/model/CbsClientConfiguration.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 82,
+        "hash": "7ab142973736269ac8e61ed481e55a38",
+        "textRange": {
+            "startLine": 82,
+            "endLine": 82,
+            "startOffset": 11,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-05-30T12:46:02+0200",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6levKoN4Bi_QcqJ7gp",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-services-sdk:standardization/moher-api/metrics/src/main/java/org/onap/dcaegen2/services/sdk/standardization/moher/metrics/api/MetricsFactory.java",
+        "project": "onap_dcaegen2-services-sdk",
+        "line": 42,
+        "hash": "7b2fd3513b057baa07d486f2b4ea647b",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-05-22T12:32:09+0200",
+        "updateDate": "2019-11-26T03:11:43+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

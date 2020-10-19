@@ -1,0 +1,5675 @@
+[
+    {
+        "key": "AWkltJUUgtFwgfOLu2YT",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/optimizer/src/main/java/org/apache/nemo/compiler/optimizer/pass/compiletime/annotating/ResourceSitePass.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 234,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 234,
+            "endLine": 234,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-10T09:13:04+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJUUgtFwgfOLu2YU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/optimizer/src/main/java/org/apache/nemo/compiler/optimizer/pass/compiletime/annotating/ResourceSitePass.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 271,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 271,
+            "endLine": 271,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-10T09:13:04+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJLXgtFwgfOLu2SW",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/StateMachine.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 314,
+        "hash": "f256f8ad674f50014f7ec5197cfdcc5c",
+        "textRange": {
+            "startLine": 314,
+            "endLine": 314,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-03-30T23:56:10+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJLXgtFwgfOLu2SV",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/StateMachine.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 299,
+        "hash": "9e4ff6b3a7f41b69d57e30e75937f46c",
+        "textRange": {
+            "startLine": 299,
+            "endLine": 299,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-03-30T23:56:10+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJLXgtFwgfOLu2SP",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/StateMachine.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 70,
+        "hash": "b57c6fed52178bb527331e818eba0d4a",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-03-30T23:56:10+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJLXgtFwgfOLu2SQ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/StateMachine.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 175,
+        "hash": "a24d7c71a127c4f68fb37ccf208fffe5",
+        "textRange": {
+            "startLine": 175,
+            "endLine": 175,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-03-30T23:56:10+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJLXgtFwgfOLu2SR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/StateMachine.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 258,
+        "hash": "49f9070da4e551f8cd45884cadd66787",
+        "textRange": {
+            "startLine": 258,
+            "endLine": 258,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-03-30T23:56:10+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW_G8F3MyzMGlbS0AYf4",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/StateMachine.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 336,
+        "hash": "141cc662990dd11c93031fff5a5d8ff3",
+        "textRange": {
+            "startLine": 336,
+            "endLine": 336,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-01-21T08:08:53+0100",
+        "updateDate": "2020-01-21T08:08:53+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJM9gtFwgfOLu2Tj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:examples/beam/src/main/java/org/apache/nemo/examples/beam/WindowedWordCount.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 91,
+        "hash": "beeb0ee91a2ceb3f5442e765772687a0",
+        "textRange": {
+            "startLine": 91,
+            "endLine": 91,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-13T05:30:36+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJTvgtFwgfOLu2YD",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/optimizer/src/main/java/org/apache/nemo/compiler/optimizer/pass/compiletime/annotating/DefaultParallelismPass.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 103,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 103,
+            "endLine": 103,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-04-07T00:42:05+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJFogtFwgfOLu2O0",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/BlockManagerWorker.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 409,
+        "hash": "b831cdbaa4d19cdccd409d20093b19e7",
+        "textRange": {
+            "startLine": 409,
+            "endLine": 409,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-15T10:11:49+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJFogtFwgfOLu2O1",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/BlockManagerWorker.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 475,
+        "hash": "b831cdbaa4d19cdccd409d20093b19e7",
+        "textRange": {
+            "startLine": 475,
+            "endLine": 475,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-12T06:52:44+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJFogtFwgfOLu2Ow",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/BlockManagerWorker.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 106,
+        "hash": "ca55fe7a08aa5a1844af891db4384fe4",
+        "textRange": {
+            "startLine": 106,
+            "endLine": 106,
+            "startOffset": 10,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-02-28T06:26:11+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJFogtFwgfOLu2Oz",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/BlockManagerWorker.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 196,
+        "hash": "e13bea6418659da914f9f617203f27ad",
+        "textRange": {
+            "startLine": 196,
+            "endLine": 196,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-01T09:34:02+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJD5gtFwgfOLu2NA",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/bytetransfer/ByteTransport.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 81,
+        "hash": "5eca7a801dae6671f449a3564b829987",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 10,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-02-28T06:28:29+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJD5gtFwgfOLu2NB",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/bytetransfer/ByteTransport.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 144,
+        "hash": "a2a0981365375bcc60ad62d42aed213e",
+        "textRange": {
+            "startLine": 144,
+            "endLine": 144,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-31T12:06:12+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJD5gtFwgfOLu2NC",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/bytetransfer/ByteTransport.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 152,
+        "hash": "389fad77f39473b2ac9ba85ef63b3bc5",
+        "textRange": {
+            "startLine": 152,
+            "endLine": 152,
+            "startOffset": 20,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-09-03T05:34:09+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJD5gtFwgfOLu2ND",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/bytetransfer/ByteTransport.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 161,
+        "hash": "2a6bc345b04ad6a9fa14c0edff58b0ee",
+        "textRange": {
+            "startLine": 161,
+            "endLine": 161,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-31T12:06:12+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJN5gtFwgfOLu2UL",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:examples/beam/src/main/java/org/apache/nemo/examples/beam/WindowedBroadcast.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 84,
+        "hash": "4aa12c08c6bc76146458529f50391f7b",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-21T10:03:45+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXC-G8Q-uLc2sLopmY9-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/scheduler/BatchSchedulerUtils.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 236,
+        "hash": "3e33cffbb3ff5560fb99a63f24e587bb",
+        "textRange": {
+            "startLine": 236,
+            "endLine": 236,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-09T08:02:28+0100",
+        "updateDate": "2020-03-09T08:02:28+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJNtgtFwgfOLu2UG",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "org.apache.nemo:nemo-project:examples/beam/src/main/java/org/apache/nemo/examples/beam/MultinomialLogisticRegression.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 281,
+        "hash": "6ceab78ad3ae525149d0aa018a1e0e2b",
+        "textRange": {
+            "startLine": 281,
+            "endLine": 281,
+            "startOffset": 62,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-04-18T08:30:58+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJEMgtFwgfOLu2Na",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/bytetransfer/ByteInputContext.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 57,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T06:28:29+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJEMgtFwgfOLu2Nb",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/bytetransfer/ByteInputContext.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 125,
+        "hash": "0c4f60de9be72d90a409a51dd8618878",
+        "textRange": {
+            "startLine": 125,
+            "endLine": 125,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T06:28:29+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJD-gtFwgfOLu2NL",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/bytetransfer/ByteOutputContext.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 243,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 243,
+            "endLine": 243,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-12-03T05:37:55+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW3zmidBbij0Bj-RHeWb",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/plan/PhysicalPlanGenerator.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 291,
+        "hash": "fd745d15d3873dccbbe781b6e21c2f2b",
+        "textRange": {
+            "startLine": 291,
+            "endLine": 291,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-10-20T00:11:24+0200",
+        "updateDate": "2019-10-20T00:11:24+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW3zmidBbij0Bj-RHeWa",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/plan/PhysicalPlanGenerator.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 288,
+        "hash": "d615b618b5eddff0d7eb149e2f5323ec",
+        "textRange": {
+            "startLine": 288,
+            "endLine": 288,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-10-20T00:11:24+0200",
+        "updateDate": "2019-10-20T00:11:24+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJF3gtFwgfOLu2PA",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/PipeContainer.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 81,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-30T02:13:18+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAPgtFwgfOLu2Kr",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/ClientRPC.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 121,
+        "hash": "798026a7dde58898a41026527ccbb189",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T06:49:52+0200",
+        "updateDate": "2019-03-30T16:37:51+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAPgtFwgfOLu2Kt",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/ClientRPC.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 148,
+        "hash": "20586911f0d2764e7cc263fa094d11a7",
+        "textRange": {
+            "startLine": 148,
+            "endLine": 148,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T06:49:52+0200",
+        "updateDate": "2019-03-30T16:37:51+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAPgtFwgfOLu2Ku",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/ClientRPC.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 175,
+        "hash": "d1d28df067e3feb2a558b5748d65dbcc",
+        "textRange": {
+            "startLine": 175,
+            "endLine": 175,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T06:49:52+0200",
+        "updateDate": "2019-03-30T16:37:51+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAPgtFwgfOLu2Ks",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/ClientRPC.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 138,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 138,
+            "endLine": 138,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T06:49:52+0200",
+        "updateDate": "2019-03-30T16:37:51+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAPgtFwgfOLu2Kq",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/ClientRPC.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 96,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T06:49:52+0200",
+        "updateDate": "2019-03-30T16:37:51+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAPgtFwgfOLu2Kp",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/ClientRPC.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 83,
+        "hash": "36a22fbf781a91240607ecd4fd56ef9c",
+        "textRange": {
+            "startLine": 83,
+            "endLine": 83,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T06:49:52+0200",
+        "updateDate": "2019-03-30T16:37:51+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJWrgtFwgfOLu2ZX",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:client/src/main/java/org/apache/nemo/client/DriverRPCServer.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 72,
+        "hash": "36a22fbf781a91240607ecd4fd56ef9c",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T06:49:52+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJWrgtFwgfOLu2Zc",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:client/src/main/java/org/apache/nemo/client/DriverRPCServer.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 182,
+        "hash": "798026a7dde58898a41026527ccbb189",
+        "textRange": {
+            "startLine": 182,
+            "endLine": 182,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T06:49:52+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJGQgtFwgfOLu2Pc",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/task/TaskExecutor.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 516,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 516,
+            "endLine": 516,
+            "startOffset": 20,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-29T12:54:20+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-AAmRs-bFEVZTIUzgo",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "org.apache.nemo:nemo-project:examples/beam/src/main/java/org/apache/nemo/examples/beam/AlternatingLeastSquareInefficient.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 139,
+        "hash": "6ceab78ad3ae525149d0aa018a1e0e2b",
+        "textRange": {
+            "startLine": 139,
+            "endLine": 139,
+            "startOffset": 66,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-06-25T08:16:18+0200",
+        "updateDate": "2020-01-07T13:35:37+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJNQgtFwgfOLu2Tt",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:examples/beam/src/main/java/org/apache/nemo/examples/beam/AlternatingLeastSquareInefficient.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 139,
+        "hash": "6ceab78ad3ae525149d0aa018a1e0e2b",
+        "textRange": {
+            "startLine": 139,
+            "endLine": 139,
+            "startOffset": 66,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-06-25T08:16:18+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJWvgtFwgfOLu2Zo",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:client/src/main/java/org/apache/nemo/client/JobLauncher.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 503,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 503,
+            "endLine": 503,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-03T08:59:20+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJWvgtFwgfOLu2Zk",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:client/src/main/java/org/apache/nemo/client/JobLauncher.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 310,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 310,
+            "endLine": 310,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-13T06:49:51+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJWvgtFwgfOLu2Zj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:client/src/main/java/org/apache/nemo/client/JobLauncher.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 274,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 274,
+            "endLine": 274,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "assignee": "wonook@github",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-12-03T07:07:25+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJWvgtFwgfOLu2Zn",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:client/src/main/java/org/apache/nemo/client/JobLauncher.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 324,
+        "hash": "817f9cbccf419dd7a3d77b91f8da0684",
+        "textRange": {
+            "startLine": 324,
+            "endLine": 324,
+            "startOffset": 77,
+            "endOffset": 86
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-13T01:47:34+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJWvgtFwgfOLu2Zh",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:client/src/main/java/org/apache/nemo/client/JobLauncher.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 168,
+        "hash": "4af0559a7d5ffa4ceb75bea8cf71ec44",
+        "textRange": {
+            "startLine": 168,
+            "endLine": 168,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-13T01:47:34+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJWvgtFwgfOLu2Zg",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:client/src/main/java/org/apache/nemo/client/JobLauncher.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 114,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 114,
+            "endLine": 114,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "assignee": "wonook@github",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-12-03T07:07:25+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJHSgtFwgfOLu2QG",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "org.apache.nemo:nemo-project:runtime/driver/src/main/java/org/apache/nemo/driver/RemoteClientMessageLoggingHandler.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 62,
+        "hash": "2a5455bfd583a485b249a0ab03d0cc4c",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 29,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.SecurityException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-02-28T06:26:12+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJE5gtFwgfOLu2Nw",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/PipeManagerWorker.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 101,
+        "hash": "e13bea6418659da914f9f617203f27ad",
+        "textRange": {
+            "startLine": 101,
+            "endLine": 101,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-30T02:13:18+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJRogtFwgfOLu2WR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/beam/src/main/java/org/apache/nemo/compiler/frontend/beam/PipelineTranslator.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 85,
+        "hash": "1734c28e634bcdeb34eb75c5f56b8324",
+        "textRange": {
+            "startLine": 85,
+            "endLine": 85,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-17T06:59:58+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJRogtFwgfOLu2WS",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/beam/src/main/java/org/apache/nemo/compiler/frontend/beam/PipelineTranslator.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 94,
+        "hash": "342b074f492ae350b2de10936fcad078",
+        "textRange": {
+            "startLine": 94,
+            "endLine": 94,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-17T06:59:58+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJRogtFwgfOLu2WT",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/beam/src/main/java/org/apache/nemo/compiler/frontend/beam/PipelineTranslator.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 120,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 120,
+            "endLine": 120,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-11T03:37:06+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJRogtFwgfOLu2WU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/beam/src/main/java/org/apache/nemo/compiler/frontend/beam/PipelineTranslator.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 122,
+        "hash": "eb5354cf390413a556cf3f73986d4af1",
+        "textRange": {
+            "startLine": 122,
+            "endLine": 122,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-06T08:05:16+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJRogtFwgfOLu2WV",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/beam/src/main/java/org/apache/nemo/compiler/frontend/beam/PipelineTranslator.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 150,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 150,
+            "endLine": 150,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-06T08:05:16+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJODgtFwgfOLu2UV",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:examples/beam/src/main/java/org/apache/nemo/examples/beam/AlternatingLeastSquare.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 215,
+        "hash": "6ceab78ad3ae525149d0aa018a1e0e2b",
+        "textRange": {
+            "startLine": 215,
+            "endLine": 215,
+            "startOffset": 62,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-03-31T11:00:21+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJODgtFwgfOLu2UR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:examples/beam/src/main/java/org/apache/nemo/examples/beam/AlternatingLeastSquare.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 74,
+        "hash": "6ceab78ad3ae525149d0aa018a1e0e2b",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 62,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-03-31T11:00:21+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJODgtFwgfOLu2UT",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:examples/beam/src/main/java/org/apache/nemo/examples/beam/AlternatingLeastSquare.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 116,
+        "hash": "6ceab78ad3ae525149d0aa018a1e0e2b",
+        "textRange": {
+            "startLine": 116,
+            "endLine": 116,
+            "startOffset": 62,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T06:27:33+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJODgtFwgfOLu2US",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:examples/beam/src/main/java/org/apache/nemo/examples/beam/AlternatingLeastSquare.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 122,
+        "hash": "57b69413c00b044e4c9c6c2e28d29431",
+        "textRange": {
+            "startLine": 122,
+            "endLine": 122,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T06:27:33+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJHZgtFwgfOLu2QI",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/test/src/main/java/org/apache/nemo/runtime/common/plan/TestPlanGenerator.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 53,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-18T08:56:58+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJRogtFwgfOLu2WY",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/beam/src/main/java/org/apache/nemo/compiler/frontend/beam/PipelineTranslator.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 475,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 475,
+            "endLine": 475,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-17T06:59:58+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJRogtFwgfOLu2WW",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/beam/src/main/java/org/apache/nemo/compiler/frontend/beam/PipelineTranslator.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 152,
+        "hash": "eb5354cf390413a556cf3f73986d4af1",
+        "textRange": {
+            "startLine": 152,
+            "endLine": 152,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-06T08:05:16+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJRogtFwgfOLu2WX",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/beam/src/main/java/org/apache/nemo/compiler/frontend/beam/PipelineTranslator.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 381,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 381,
+            "endLine": 381,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-07T05:49:40+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAngtFwgfOLu2LO",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/PlanStateManager.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 323,
+        "hash": "e8aa72c4ea0273452100747b3bc74f2b",
+        "textRange": {
+            "startLine": 323,
+            "endLine": 323,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-19T09:03:54+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAngtFwgfOLu2LQ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/PlanStateManager.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 431,
+        "hash": "1a347db77ce5fc259f78341b640426dc",
+        "textRange": {
+            "startLine": 431,
+            "endLine": 431,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-19T09:03:54+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAngtFwgfOLu2LR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/PlanStateManager.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 448,
+        "hash": "b94fcc66c9ea9a1fb3997f5969a43382",
+        "textRange": {
+            "startLine": 448,
+            "endLine": 448,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-19T09:03:54+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltI_5gtFwgfOLu2KU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/scheduler/BatchScheduler.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 203,
+        "hash": "e08ecc3af14f3b708be217041749f4ea",
+        "textRange": {
+            "startLine": 203,
+            "endLine": 203,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-19T09:03:54+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAbgtFwgfOLu2LA",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/BlockMetadata.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 85,
+        "hash": "e8f244c1a4c8fd8b193bec5283c415a5",
+        "textRange": {
+            "startLine": 85,
+            "endLine": 85,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-19T09:03:54+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAAgtFwgfOLu2Ke",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/BlockManagerMaster.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 297,
+        "hash": "d29308f4cf4a212356bff94069c56a86",
+        "textRange": {
+            "startLine": 297,
+            "endLine": 297,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-19T09:03:54+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJHKgtFwgfOLu2P6",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/driver/src/main/java/org/apache/nemo/driver/NemoDriver.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 93,
+        "hash": "ebf568c74c8e4f700cd8e32565182d9c",
+        "textRange": {
+            "startLine": 93,
+            "endLine": 93,
+            "startOffset": 10,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 12 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-02-28T07:55:23+0100",
+        "updateDate": "2019-08-23T09:31:20+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJKxgtFwgfOLu2Rv",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/test/ExampleTestUtil.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 141,
+        "hash": "09ca24454ec414697e42aa0f5ce9f087",
+        "textRange": {
+            "startLine": 141,
+            "endLine": 141,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-14T04:47:08+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJKxgtFwgfOLu2Rw",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/test/ExampleTestUtil.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 149,
+        "hash": "09ca24454ec414697e42aa0f5ce9f087",
+        "textRange": {
+            "startLine": 149,
+            "endLine": 149,
+            "startOffset": 20,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-14T04:47:08+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJWcgtFwgfOLu2ZN",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/backend/src/main/java/org/apache/nemo/compiler/backend/Backend.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 40,
+        "hash": "fcae06260684857105a9e4e5db66791b",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 33,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-02-01T02:32:18+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAbgtFwgfOLu2K_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/BlockMetadata.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 74,
+        "hash": "e0fbe96b1ced7d1b822ba401e9ef6bd8",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 20,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-12T06:52:44+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAAgtFwgfOLu2Kf",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/BlockManagerMaster.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 361,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 361,
+            "endLine": 361,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T06:26:11+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJEGgtFwgfOLu2NX",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/bytetransfer/ClosableBlockingQueue.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 105,
+        "hash": "d1d28df067e3feb2a558b5748d65dbcc",
+        "textRange": {
+            "startLine": 105,
+            "endLine": 105,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-03T09:33:40+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJEGgtFwgfOLu2NY",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/bytetransfer/ClosableBlockingQueue.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 126,
+        "hash": "d1d28df067e3feb2a558b5748d65dbcc",
+        "textRange": {
+            "startLine": 126,
+            "endLine": 126,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-03T09:33:40+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJEDgtFwgfOLu2NR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/bytetransfer/ContextManager.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 137,
+        "hash": "e8b766ebf14c2901f6f1b004c3544e1e",
+        "textRange": {
+            "startLine": 137,
+            "endLine": 137,
+            "startOffset": 20,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T06:28:29+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJEDgtFwgfOLu2NS",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/bytetransfer/ContextManager.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 187,
+        "hash": "e8b766ebf14c2901f6f1b004c3544e1e",
+        "textRange": {
+            "startLine": 187,
+            "endLine": 187,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T06:28:29+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJEDgtFwgfOLu2NT",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/bytetransfer/ContextManager.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 234,
+        "hash": "6f508f7efd02bd7b154d7553e7ba6ddb",
+        "textRange": {
+            "startLine": 234,
+            "endLine": 234,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T06:28:29+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJEDgtFwgfOLu2NQ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/bytetransfer/ContextManager.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 124,
+        "hash": "e8b766ebf14c2901f6f1b004c3544e1e",
+        "textRange": {
+            "startLine": 124,
+            "endLine": 124,
+            "startOffset": 20,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T06:28:29+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-AAmSw-bFEVZTIUzgq",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "org.apache.nemo:nemo-project:examples/beam/src/main/java/org/apache/nemo/examples/beam/MultinomialLogisticRegression.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 438,
+        "hash": "6ceab78ad3ae525149d0aa018a1e0e2b",
+        "textRange": {
+            "startLine": 438,
+            "endLine": 438,
+            "startOffset": 66,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-04-18T08:08:48+0200",
+        "updateDate": "2020-01-07T13:35:37+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-AAmSw-bFEVZTIUzgp",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "org.apache.nemo:nemo-project:examples/beam/src/main/java/org/apache/nemo/examples/beam/MultinomialLogisticRegression.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 128,
+        "hash": "6ceab78ad3ae525149d0aa018a1e0e2b",
+        "textRange": {
+            "startLine": 128,
+            "endLine": 128,
+            "startOffset": 62,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-04-18T08:08:48+0200",
+        "updateDate": "2020-01-07T13:35:37+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJNtgtFwgfOLu2T7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:examples/beam/src/main/java/org/apache/nemo/examples/beam/MultinomialLogisticRegression.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 128,
+        "hash": "6ceab78ad3ae525149d0aa018a1e0e2b",
+        "textRange": {
+            "startLine": 128,
+            "endLine": 128,
+            "startOffset": 62,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-04-18T08:08:48+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJNtgtFwgfOLu2T9",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:examples/beam/src/main/java/org/apache/nemo/examples/beam/MultinomialLogisticRegression.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 438,
+        "hash": "6ceab78ad3ae525149d0aa018a1e0e2b",
+        "textRange": {
+            "startLine": 438,
+            "endLine": 438,
+            "startOffset": 66,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-04-18T08:08:48+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJNtgtFwgfOLu2T8",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:examples/beam/src/main/java/org/apache/nemo/examples/beam/MultinomialLogisticRegression.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 281,
+        "hash": "6ceab78ad3ae525149d0aa018a1e0e2b",
+        "textRange": {
+            "startLine": 281,
+            "endLine": 281,
+            "startOffset": 62,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-04-18T08:30:58+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJS2gtFwgfOLu2Xq",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/beam/src/main/java/org/apache/nemo/compiler/frontend/beam/PipelineTranslationContext.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 265,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 265,
+            "endLine": 265,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-06T08:05:16+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJSngtFwgfOLu2Xf",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/beam/src/main/java/org/apache/nemo/compiler/frontend/beam/source/BeamBoundedSourceVertex.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 152,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 152,
+            "endLine": 152,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-06T05:27:34+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJSngtFwgfOLu2Xe",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/beam/src/main/java/org/apache/nemo/compiler/frontend/beam/source/BeamBoundedSourceVertex.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 168,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 168,
+            "endLine": 168,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-29T12:54:20+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWxq2KmgYNfAvfE74OPd",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/MemoryChunk.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 467,
+        "hash": "e4285cbde16a686368b3e5d9e9653921",
+        "textRange": {
+            "startLine": 467,
+            "endLine": 467,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-08-07T08:50:16+0200",
+        "updateDate": "2019-08-07T08:50:16+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWxq2KmgYNfAvfE74OPe",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/MemoryChunk.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 478,
+        "hash": "807fcf5942f5a1fd8c2ba7476cb4e139",
+        "textRange": {
+            "startLine": 478,
+            "endLine": 478,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-08-07T08:50:16+0200",
+        "updateDate": "2019-08-07T08:50:16+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWxq2KmgYNfAvfE74OPf",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/MemoryChunk.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 492,
+        "hash": "a50bc53ab3c121129a1b4384dd5fa901",
+        "textRange": {
+            "startLine": 492,
+            "endLine": 492,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-08-07T08:50:16+0200",
+        "updateDate": "2019-08-07T08:50:16+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWuNaMYbir0RQV_VH9pI",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/partition/SerializedPartition.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 197,
+        "hash": "6cff8ca2a3386bd0bf27d4b85f796e25",
+        "textRange": {
+            "startLine": 197,
+            "endLine": 197,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-06-25T08:52:02+0200",
+        "updateDate": "2019-06-25T08:52:02+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJOlgtFwgfOLu2Uu",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:examples/spark/src/main/java/org/apache/nemo/examples/spark/JavaWordAndLineCount.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 89,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 89,
+            "endLine": 89,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "assignee": "wonook@github",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-19T12:39:55+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJOpgtFwgfOLu2U0",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:examples/spark/src/main/java/org/apache/nemo/examples/spark/JavaWordCount.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 80,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T06:28:29+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAUgtFwgfOLu2Kz",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/RuntimeMaster.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 131,
+        "hash": "4b60a4ddd125ee35b1a61ecaafa10371",
+        "textRange": {
+            "startLine": 131,
+            "endLine": 131,
+            "startOffset": 10,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 13 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-07-13T12:55:28+0200",
+        "updateDate": "2019-04-05T17:16:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAngtFwgfOLu2LP",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/PlanStateManager.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 403,
+        "hash": "c94abd052ebdd7cd8a6b7603f85cec89",
+        "textRange": {
+            "startLine": 403,
+            "endLine": 403,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-19T09:03:54+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJD5gtFwgfOLu2NE",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/bytetransfer/ByteTransport.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 172,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 172,
+            "endLine": 172,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-31T12:06:12+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltI_ogtFwgfOLu2KI",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/scheduler/LocalitySchedulingConstraint.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 82,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 82,
+            "endLine": 82,
+            "startOffset": 24,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-07T15:14:04+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJQ-gtFwgfOLu2Vq",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/spark/src/main/java/org/apache/nemo/compiler/frontend/spark/transform/FlatMapTransform.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 55,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T06:27:34+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJRSgtFwgfOLu2WA",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/spark/src/main/java/org/apache/nemo/compiler/frontend/spark/sql/SparkSession.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 344,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 344,
+            "endLine": 344,
+            "startOffset": 20,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-12T06:16:12+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJRSgtFwgfOLu2V_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/spark/src/main/java/org/apache/nemo/compiler/frontend/spark/sql/SparkSession.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 140,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 140,
+            "endLine": 140,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T07:55:37+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltI_ogtFwgfOLu2KJ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/scheduler/LocalitySchedulingConstraint.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 117,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 117,
+            "endLine": 117,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-15T10:00:39+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAy3t1SeQNWlnNNEaPf",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "org.apache.nemo:nemo-project:examples/beam/src/main/java/org/apache/nemo/examples/beam/GenericSourceSink.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 166,
+        "hash": "d43c0f665a30038e25676b8fa6ccc7bf",
+        "textRange": {
+            "startLine": 166,
+            "endLine": 166,
+            "startOffset": 60,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.nemo.common.exception.DataSourceException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-11T07:08:40+0100",
+        "updateDate": "2020-02-11T07:08:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-AAlo8-bFEVZTIUzge",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/grpc/GrpcMessageClient.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 91,
+        "hash": "c112b0d089bf55941ec1d877e946cb49",
+        "textRange": {
+            "startLine": 91,
+            "endLine": 91,
+            "startOffset": 70,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-11-13T06:51:08+0100",
+        "updateDate": "2020-01-07T13:35:37+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJBqgtFwgfOLu2L5",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/grpc/GrpcMessageServer.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 145,
+        "hash": "b6f1feb53354161f77bbf90b119614f2",
+        "textRange": {
+            "startLine": 145,
+            "endLine": 145,
+            "startOffset": 14,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-13T06:51:08+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJBqgtFwgfOLu2L4",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/grpc/GrpcMessageServer.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 94,
+        "hash": "799d4959f1dddc013db25f333e8647a9",
+        "textRange": {
+            "startLine": 94,
+            "endLine": 94,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-13T06:51:08+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJBjgtFwgfOLu2Lz",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/grpc/GrpcMessageClient.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 91,
+        "hash": "c112b0d089bf55941ec1d877e946cb49",
+        "textRange": {
+            "startLine": 91,
+            "endLine": 91,
+            "startOffset": 70,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-13T06:51:08+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJCPgtFwgfOLu2MS",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/MessageParameters.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 27,
+        "hash": "a3be1f69571731e973bbf3acac97420f",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-11-13T06:51:08+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJWvgtFwgfOLu2Zi",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:client/src/main/java/org/apache/nemo/client/JobLauncher.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 210,
+        "hash": "dee4c904742db3e749a667bb653a1904",
+        "textRange": {
+            "startLine": 210,
+            "endLine": 210,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-05-21T16:48:11+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJKxgtFwgfOLu2Ru",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/test/ExampleTestUtil.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 120,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 120,
+            "endLine": 120,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-02T14:30:25+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJSjgtFwgfOLu2XZ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/beam/src/main/java/org/apache/nemo/compiler/frontend/beam/source/BeamUnboundedSourceVertex.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 145,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 145,
+            "endLine": 145,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-29T12:54:20+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJSjgtFwgfOLu2Xa",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/beam/src/main/java/org/apache/nemo/compiler/frontend/beam/source/BeamUnboundedSourceVertex.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 159,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 159,
+            "endLine": 159,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-06T05:27:34+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWx_ll29YNfAvfE7KqKJ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/resource/DefaultExecutorRepresenter.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 268,
+        "hash": "8e32c2510038af164419bc7f24c5b7d0",
+        "textRange": {
+            "startLine": 268,
+            "endLine": 268,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-08-11T09:29:57+0200",
+        "updateDate": "2019-08-11T09:29:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJDWgtFwgfOLu2Mp",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/datatransfer/PipeOutputWriter.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 81,
+        "hash": "7c02d84ad888e17ce167083294d8d002",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-13T05:30:36+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJDWgtFwgfOLu2Mq",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/datatransfer/PipeOutputWriter.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 126,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 126,
+            "endLine": 126,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-30T02:13:18+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJJVgtFwgfOLu2RB",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/ir/Readable.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 66,
+        "hash": "6e3f78526cb84fea5e8abaf5981ecdcf",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 37,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-08T08:58:32+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXEO_ULIqJ-RDOIqaeAB",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:client/src/main/java/org/apache/nemo/client/beam/NemoPipelineResult.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 89,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 89,
+            "endLine": 89,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-25T00:57:11+0100",
+        "updateDate": "2020-03-25T00:57:11+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXEO_ULIqJ-RDOIqaeAA",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:client/src/main/java/org/apache/nemo/client/beam/NemoPipelineResult.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 66,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-25T00:57:11+0100",
+        "updateDate": "2020-03-25T00:57:11+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJFcgtFwgfOLu2Oc",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/block/NonSerializedMemoryBlock.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 173,
+        "hash": "d05e4104959f41200295d63201dc71c3",
+        "textRange": {
+            "startLine": 173,
+            "endLine": 173,
+            "startOffset": 99,
+            "endOffset": 118
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.nemo.common.exception.BlockFetchException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-11T11:39:09+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJFcgtFwgfOLu2Od",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/block/NonSerializedMemoryBlock.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 203,
+        "hash": "23c57ec32cb76160bb596d553a83e915",
+        "textRange": {
+            "startLine": 203,
+            "endLine": 203,
+            "startOffset": 53,
+            "endOffset": 72
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.nemo.common.exception.BlockWriteException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-08T04:38:40+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJDugtFwgfOLu2Mz",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/datatransfer/DataFetcherOutputCollector.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 65,
+        "hash": "0a45e610898a6c83ffa0314ab2788c76",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 14,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-28T07:38:17+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWlr-K9F7GvbgGanD2JM",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:examples/beam/src/main/java/org/apache/nemo/examples/beam/NemoPipelineOptionsFactory.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 47,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-11T09:56:27+0100",
+        "updateDate": "2019-03-11T09:56:27+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJEhgtFwgfOLu2Nn",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/stores/BlockStore.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 65,
+        "hash": "8b97e8c2617b80e74401f5e5be29b708",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 51,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.nemo.common.exception.BlockFetchException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-11T11:39:09+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJEhgtFwgfOLu2Nm",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/stores/BlockStore.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 53,
+        "hash": "7cbf22a0f9f4bfb34bc4e4901f30d388",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 38,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.nemo.common.exception.BlockWriteException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-11T11:39:09+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJEhgtFwgfOLu2Nl",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/stores/BlockStore.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 42,
+        "hash": "67c79023fac2fc030a359923376b667a",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 43,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.nemo.common.exception.BlockWriteException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-11T11:39:09+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJD2gtFwgfOLu2M7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/datatransfer/NemoEventDecoderFactory.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 88,
+        "hash": "b13e7468f7da59b9b62b70896a99a375",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-13T05:30:36+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJSCgtFwgfOLu2W6",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/beam/src/main/java/org/apache/nemo/compiler/frontend/beam/transform/DoFnTransform.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 60,
+        "hash": "98bcb7962d7d6c5d7267f8aaadc5718b",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 9,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-10-11T03:37:06+0200",
+        "updateDate": "2020-02-05T02:00:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWtWgXjLir0RQV_VfUda",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/scheduler/LocalitySchedulingConstraint.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 85,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 85,
+            "endLine": 85,
+            "startOffset": 24,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-06-14T16:59:51+0200",
+        "updateDate": "2019-06-14T16:59:51+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltI_ygtFwgfOLu2KP",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/scheduler/MinOccupancyFirstSchedulingPolicy.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 49,
+        "hash": "946c2c43ddc7e1f454ee6678c5ab9ef7",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-29T06:25:40+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJCJgtFwgfOLu2MR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/MessageSender.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 53,
+        "hash": "5fd257c5a388a8f16faa386a62bf24d0",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-05-21T16:48:11+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJCDgtFwgfOLu2MP",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/MessageEnvironment.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 73,
+        "hash": "5fd257c5a388a8f16faa386a62bf24d0",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-05-21T16:48:11+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJQxgtFwgfOLu2Vi",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/spark/src/main/java/org/apache/nemo/compiler/frontend/spark/transform/MapTransform.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 55,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T06:27:29+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJQqgtFwgfOLu2Vg",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/spark/src/main/java/org/apache/nemo/compiler/frontend/spark/transform/MapToPairTransform.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 58,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T06:27:34+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJQlgtFwgfOLu2Vc",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/spark/src/main/java/org/apache/nemo/compiler/frontend/spark/transform/HDFSTextFileTransform.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 75,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-24T10:28:23+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJKsgtFwgfOLu2Rp",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/coder/DecoderFactory.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 81,
+        "hash": "c9948a1293a66ef8dba53208bc06e2d4",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T07:04:04+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJKogtFwgfOLu2Rn",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/coder/EncoderFactory.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 81,
+        "hash": "a96c5869f89f0817191f18a1ea8516f0",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T07:04:04+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAUgtFwgfOLu2K1",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/RuntimeMaster.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 255,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 255,
+            "endLine": 255,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-08T08:58:32+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAUgtFwgfOLu2K3",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/RuntimeMaster.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 282,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 282,
+            "endLine": 282,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-08T08:58:32+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAUgtFwgfOLu2K2",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/RuntimeMaster.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 249,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 249,
+            "endLine": 249,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-04-07T14:40:43+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJTFgtFwgfOLu2Xx",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/test/src/main/java/org/apache/nemo/compiler/CompilerTestUtil.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 80,
+        "hash": "959d0aa9fd45e4c0a115764a2a1171f5",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-13T01:47:34+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJGQgtFwgfOLu2Pd",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/task/TaskExecutor.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 527,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 527,
+            "endLine": 527,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-29T12:54:20+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJGQgtFwgfOLu2Pb",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/task/TaskExecutor.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 336,
+        "hash": "aa37e03f8aec2ba770b5f0c8720d317e",
+        "textRange": {
+            "startLine": 336,
+            "endLine": 336,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-14T10:57:18+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJHggtFwgfOLu2QO",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/ir/vertex/SourceVertex.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 60,
+        "hash": "0a3f896926dba403a9c6e54b568cfc29",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 80,
+            "endOffset": 89
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T06:28:29+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJODgtFwgfOLu2UU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:examples/beam/src/main/java/org/apache/nemo/examples/beam/AlternatingLeastSquare.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 252,
+        "hash": "9b6c69d99d9c33e0493d989dc5db80d7",
+        "textRange": {
+            "startLine": 252,
+            "endLine": 252,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-03-31T11:00:21+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJGGgtFwgfOLu2PT",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/task/MultiThreadParentTaskDataFetcher.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 140,
+        "hash": "33564fd91962b8abf3227fa413f57093",
+        "textRange": {
+            "startLine": 140,
+            "endLine": 140,
+            "startOffset": 20,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-01T01:32:42+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltI-ogtFwgfOLu2Jv",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/PipeManagerMaster.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 147,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 147,
+            "endLine": 147,
+            "startOffset": 24,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-30T02:13:18+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJF9gtFwgfOLu2PH",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/task/ParentTaskDataFetcher.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 152,
+        "hash": "e6a2d3ff5c5e1b20d8959e3b4d47910a",
+        "textRange": {
+            "startLine": 152,
+            "endLine": 152,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-09T07:23:50+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJBmgtFwgfOLu2L2",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/grpc/GrpcMessageEnvironment.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 77,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-13T06:51:08+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJFugtFwgfOLu2O7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/SerializerManager.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 108,
+        "hash": "a5d2c5acd4ab7daaf2436500a67f47c3",
+        "textRange": {
+            "startLine": 108,
+            "endLine": 108,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T06:28:29+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8Lwe_-UbmGVVKz9LKn",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/test/src/main/java/org/apache/nemo/runtime/common/plan/TestPlanGenerator.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 78,
+        "hash": "c4563a41ef6ee3ffe0c0c1d3ce9e5f3c",
+        "textRange": {
+            "startLine": 78,
+            "endLine": 78,
+            "startOffset": 104,
+            "endOffset": 113
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-12-15T23:50:04+0100",
+        "updateDate": "2019-12-15T23:50:04+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJD5gtFwgfOLu2NF",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/bytetransfer/ByteTransport.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 211,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 211,
+            "endLine": 211,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-31T12:06:12+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJSFgtFwgfOLu2W_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/beam/src/main/java/org/apache/nemo/compiler/frontend/beam/transform/WindowFnTransform.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 94,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 94,
+            "endLine": 94,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-11T03:37:06+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJSWgtFwgfOLu2XM",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/beam/src/main/java/org/apache/nemo/compiler/frontend/beam/transform/GroupByKeyAndWindowDoFnTransform.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 251,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 251,
+            "endLine": 251,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-19T04:13:29+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltI_agtFwgfOLu2J-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/scheduler/StreamingScheduler.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 140,
+        "hash": "e08ecc3af14f3b708be217041749f4ea",
+        "textRange": {
+            "startLine": 140,
+            "endLine": 140,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-24T01:51:36+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJHKgtFwgfOLu2P7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/driver/src/main/java/org/apache/nemo/driver/NemoDriver.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 234,
+        "hash": "ff86184af76e91cd5688e7a11e9c4de4",
+        "textRange": {
+            "startLine": 234,
+            "endLine": 234,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-06-14T03:26:35+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJItgtFwgfOLu2Qr",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/ir/edge/executionproperty/DuplicateEdgeGroupPropertyValue.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 69,
+        "hash": "b62457b8e2b2aa1997b6fe145efe90c8",
+        "textRange": {
+            "startLine": 69,
+            "endLine": 69,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-02T14:30:25+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJItgtFwgfOLu2Qq",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/ir/edge/executionproperty/DuplicateEdgeGroupPropertyValue.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 56,
+        "hash": "74cf33852e22ee04683bdbd6d8f9e99d",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-02T14:30:25+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy9ZA5DKTwBvn8q-U8c",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:conf/src/main/java/org/apache/nemo/conf/DataPlaneConf.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 43,
+        "hash": "e8201c0de554151986c1f60e527745da",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 10,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-08-23T09:31:20+0200",
+        "updateDate": "2020-01-16T09:40:18+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJItgtFwgfOLu2Qs",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/ir/edge/executionproperty/DuplicateEdgeGroupPropertyValue.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 81,
+        "hash": "c96d9f9c55f90a1c57ff1d39a2cc6910",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-02T14:30:25+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJTvgtFwgfOLu2YC",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/optimizer/src/main/java/org/apache/nemo/compiler/optimizer/pass/compiletime/annotating/DefaultParallelismPass.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 99,
+        "hash": "ba4d55f101273437894c76afab54255c",
+        "textRange": {
+            "startLine": 99,
+            "endLine": 99,
+            "startOffset": 20,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T06:27:29+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJItgtFwgfOLu2Qt",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/ir/edge/executionproperty/DuplicateEdgeGroupPropertyValue.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 102,
+        "hash": "fbc8e81086ee3a6d058fbb50cce6c167",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-02T14:30:25+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJQ1gtFwgfOLu2Vk",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/spark/src/main/java/org/apache/nemo/compiler/frontend/spark/transform/LocalTextFileTransform.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 71,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 71,
+            "endLine": 71,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-24T10:28:23+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJFSgtFwgfOLu2N-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/DataUtil.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 263,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 263,
+            "endLine": 263,
+            "startOffset": 20,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T07:55:37+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltI_VgtFwgfOLu2J8",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/scheduler/SchedulingConstraintRegistry.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 63,
+        "hash": "5e83539eae4fa8671f5cbdcd00f42642",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-29T06:25:40+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltI_VgtFwgfOLu2J9",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/scheduler/SchedulingConstraintRegistry.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 68,
+        "hash": "263d5227801d49ea3a6d73df2e040b99",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-29T06:25:40+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltI_PgtFwgfOLu2J7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/servlet/WebSocketMetricAdapter.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 61,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-03T10:29:06+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltI-ogtFwgfOLu2Ju",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/PipeManagerMaster.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 96,
+        "hash": "7f9cb211ea2e11c83706febadde0298b",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 24,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-30T02:13:18+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJRBgtFwgfOLu2Vt",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/spark/src/main/java/org/apache/nemo/compiler/frontend/spark/transform/ReduceTransform.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 99,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 99,
+            "endLine": 99,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-28T06:27:29+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJRdgtFwgfOLu2WK",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/spark/src/main/java/org/apache/nemo/compiler/frontend/spark/source/SparkSourceUtil.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 74,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-24T10:28:23+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJRBgtFwgfOLu2Vs",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/spark/src/main/java/org/apache/nemo/compiler/frontend/spark/transform/ReduceTransform.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 69,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 69,
+            "endLine": 69,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-10T08:02:58+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW_GLILOBJ1xWfMQ_z0E",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/grpc/GrpcMessageClient.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 156,
+        "hash": "9d915c5aec0b2a288d98c1a0a4e83c5c",
+        "textRange": {
+            "startLine": 156,
+            "endLine": 156,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-01-21T04:35:02+0100",
+        "updateDate": "2020-01-21T04:35:02+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJFcgtFwgfOLu2Ob",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/block/NonSerializedMemoryBlock.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 146,
+        "hash": "da291a4f1268aff95191172347f41543",
+        "textRange": {
+            "startLine": 146,
+            "endLine": 146,
+            "startOffset": 92,
+            "endOffset": 111
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.nemo.common.exception.BlockFetchException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-11T11:39:09+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJLhgtFwgfOLu2Sa",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:common/src/main/java/org/apache/nemo/common/HashRange.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 39,
+        "hash": "4dc323800e260c4f9056fe11877153fa",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-09-18T03:38:54+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW1ifhUZ-M_QmTA37V3n",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/BlockManagerWorker.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 190,
+        "hash": "a2f51b8628bd50c9ea7dcb928877a1f1",
+        "textRange": {
+            "startLine": 190,
+            "endLine": 190,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-09-24T10:57:07+0200",
+        "updateDate": "2019-09-24T10:57:07+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJHWgtFwgfOLu2QH",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/driver/src/main/java/org/apache/nemo/driver/UserApplicationRunner.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 117,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 117,
+            "endLine": 117,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-05-21T16:48:11+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJBugtFwgfOLu2L8",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/local/LocalMessageSender.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 52,
+        "hash": "97a1bc07aa70cdb57f14e7bdbd668a3d",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-05-21T16:48:11+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJBugtFwgfOLu2L9",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/local/LocalMessageSender.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 60,
+        "hash": "97a1bc07aa70cdb57f14e7bdbd668a3d",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-05-21T16:48:11+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJB_gtFwgfOLu2MG",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/ncs/NcsMessageEnvironment.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 83,
+        "hash": "799d4959f1dddc013db25f333e8647a9",
+        "textRange": {
+            "startLine": 83,
+            "endLine": 83,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-05-21T16:48:11+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJB3gtFwgfOLu2MC",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/common/src/main/java/org/apache/nemo/runtime/common/message/ncs/ControlMessageCodec.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 44,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-05-21T16:48:11+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAngtFwgfOLu2LN",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/PlanStateManager.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 220,
+        "hash": "0285e6eea6d36962c14bbd7979f5d86a",
+        "textRange": {
+            "startLine": 220,
+            "endLine": 220,
+            "startOffset": 20,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-19T09:03:54+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltI_jgtFwgfOLu2KD",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/scheduler/TaskDispatcher.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 233,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 233,
+            "endLine": 233,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-02T05:01:59+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJFcgtFwgfOLu2OY",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/block/NonSerializedMemoryBlock.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 81,
+        "hash": "73ab1da8c5071047968ee38143570b1b",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 49,
+            "endOffset": 68
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.nemo.common.exception.BlockWriteException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-11T11:39:09+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJFcgtFwgfOLu2Oa",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/block/NonSerializedMemoryBlock.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 123,
+        "hash": "921a3327d59f389e25edeb6e95c48b6c",
+        "textRange": {
+            "startLine": 123,
+            "endLine": 123,
+            "startOffset": 98,
+            "endOffset": 117
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.nemo.common.exception.BlockWriteException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-11T11:39:09+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJFcgtFwgfOLu2OZ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "org.apache.nemo:nemo-project:runtime/executor/src/main/java/org/apache/nemo/runtime/executor/data/block/NonSerializedMemoryBlock.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 104,
+        "hash": "755231e366b5527b7cf7a3bde1ddb011",
+        "textRange": {
+            "startLine": 104,
+            "endLine": 104,
+            "startOffset": 91,
+            "endOffset": 110
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.nemo.common.exception.BlockWriteException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-11T11:39:09+0100",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJRtgtFwgfOLu2Wk",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:compiler/frontend/beam/src/main/java/org/apache/nemo/compiler/frontend/beam/transform/AbstractDoFnTransform.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 103,
+        "hash": "7c57eca5784421d7d69424d20f3c8a54",
+        "textRange": {
+            "startLine": 103,
+            "endLine": 103,
+            "startOffset": 9,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-10-19T04:13:29+0200",
+        "updateDate": "2020-02-05T02:00:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJAUgtFwgfOLu2K4",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:runtime/master/src/main/java/org/apache/nemo/runtime/master/RuntimeMaster.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 445,
+        "hash": "33564fd91962b8abf3227fa413f57093",
+        "textRange": {
+            "startLine": 445,
+            "endLine": 445,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-06-14T03:26:35+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJWrgtFwgfOLu2ZY",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:client/src/main/java/org/apache/nemo/client/DriverRPCServer.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 97,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 97,
+            "endLine": 97,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T06:49:52+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJWrgtFwgfOLu2Ze",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:client/src/main/java/org/apache/nemo/client/DriverRPCServer.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 199,
+        "hash": "90acd8faa1f50eb1656be9936f5d719e",
+        "textRange": {
+            "startLine": 199,
+            "endLine": 199,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T06:49:52+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJWrgtFwgfOLu2Za",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:client/src/main/java/org/apache/nemo/client/DriverRPCServer.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 154,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 154,
+            "endLine": 154,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T06:49:52+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJWrgtFwgfOLu2Zb",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:client/src/main/java/org/apache/nemo/client/DriverRPCServer.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 171,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 171,
+            "endLine": 171,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T06:49:52+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJWrgtFwgfOLu2Zd",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:client/src/main/java/org/apache/nemo/client/DriverRPCServer.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 196,
+        "hash": "ebb78fe4feefb274a9feac50d2886dee",
+        "textRange": {
+            "startLine": 196,
+            "endLine": 196,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T06:49:52+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWkltJWrgtFwgfOLu2ZZ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "org.apache.nemo:nemo-project:client/src/main/java/org/apache/nemo/client/DriverRPCServer.java",
+        "project": "org.apache.nemo:nemo-project",
+        "line": 140,
+        "hash": "d314ed6dcd3b82011a0e17798ed76e90",
+        "textRange": {
+            "startLine": 140,
+            "endLine": 140,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T06:49:52+0200",
+        "updateDate": "2019-02-25T18:26:20+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

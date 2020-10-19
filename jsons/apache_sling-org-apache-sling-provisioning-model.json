@@ -1,0 +1,333 @@
+[
+    {
+        "key": "AWo1sDHcyRjJygCrbGYH",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-provisioning-model:src/main/java/org/apache/sling/provisioning/model/MergeUtility.java",
+        "project": "apache_sling-org-apache-sling-provisioning-model",
+        "line": 31,
+        "hash": "6e18f5abf2158e114cdd2513fca29882",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 22,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-10-21T10:36:50+0200",
+        "updateDate": "2019-04-19T15:01:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo1sDG5yRjJygCrbGXb",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-provisioning-model:src/main/java/org/apache/sling/provisioning/model/Configuration.java",
+        "project": "apache_sling-org-apache-sling-provisioning-model",
+        "line": 62,
+        "hash": "83249cec6b6d70b6cbfd3dc39aa5cee5",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2015-06-01T19:43:39+0200",
+        "updateDate": "2019-04-19T15:01:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo1sDIByRjJygCrbGYq",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-provisioning-model:src/main/java/org/apache/sling/provisioning/model/ArtifactGroup.java",
+        "project": "apache_sling-org-apache-sling-provisioning-model",
+        "line": 77,
+        "hash": "7a903d59ef6af94386a3b2bc199c47e6",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2014-10-01T18:27:00+0200",
+        "updateDate": "2019-04-19T15:01:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo1sDH6yRjJygCrbGYn",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-provisioning-model:src/main/java/org/apache/sling/provisioning/model/FeatureTypes.java",
+        "project": "apache_sling-org-apache-sling-provisioning-model",
+        "line": 23,
+        "hash": "604ec70b41b771b240ab4398176a9314",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 22,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-10-21T07:47:52+0200",
+        "updateDate": "2019-04-19T15:01:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo1sDHvyRjJygCrbGYj",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-provisioning-model:src/main/java/org/apache/sling/provisioning/model/ModelConstants.java",
+        "project": "apache_sling-org-apache-sling-provisioning-model",
+        "line": 22,
+        "hash": "2d8f8f84c3b1b796ab5974cd89e68513",
+        "textRange": {
+            "startLine": 22,
+            "endLine": 22,
+            "startOffset": 22,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2014-10-01T18:27:00+0200",
+        "updateDate": "2019-04-19T15:01:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo1sDHCyRjJygCrbGXs",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-provisioning-model:src/main/java/org/apache/sling/provisioning/model/io/ModelWriter.java",
+        "project": "apache_sling-org-apache-sling-provisioning-model",
+        "line": 42,
+        "hash": "71d1dc8c761ba581442f1200158e0754",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2014-10-01T18:27:00+0200",
+        "updateDate": "2019-04-19T15:01:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo1sDG9yRjJygCrbGXp",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-provisioning-model:src/main/java/org/apache/sling/provisioning/model/io/ModelReader.java",
+        "project": "apache_sling-org-apache-sling-provisioning-model",
+        "line": 354,
+        "hash": "953256630698e1d55f222499c3c2f6b6",
+        "textRange": {
+            "startLine": 354,
+            "endLine": 354,
+            "startOffset": 75,
+            "endOffset": 86
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-10-01T18:27:00+0200",
+        "updateDate": "2019-04-19T15:01:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo1sDHhyRjJygCrbGYS",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-provisioning-model:src/main/java/org/apache/sling/provisioning/model/ModelUtility.java",
+        "project": "apache_sling-org-apache-sling-provisioning-model",
+        "line": 130,
+        "hash": "41f62467f67486e6d163851123bb51a5",
+        "textRange": {
+            "startLine": 130,
+            "endLine": 130,
+            "startOffset": 24,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2014-10-01T18:27:00+0200",
+        "updateDate": "2019-04-19T15:01:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo1sDHhyRjJygCrbGYR",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-provisioning-model:src/main/java/org/apache/sling/provisioning/model/ModelUtility.java",
+        "project": "apache_sling-org-apache-sling-provisioning-model",
+        "line": 52,
+        "hash": "c76505b0b86ace232f46362dedc84070",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 23,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-06-09T13:37:32+0200",
+        "updateDate": "2019-04-19T15:01:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo1sDHhyRjJygCrbGYQ",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-provisioning-model:src/main/java/org/apache/sling/provisioning/model/ModelUtility.java",
+        "project": "apache_sling-org-apache-sling-provisioning-model",
+        "line": 39,
+        "hash": "df18c5d81e20eeb73a9906ce120ed408",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 23,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2014-10-01T18:27:00+0200",
+        "updateDate": "2019-04-19T15:01:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo1sDHlyRjJygCrbGYZ",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-provisioning-model:src/main/java/org/apache/sling/provisioning/model/RunMode.java",
+        "project": "apache_sling-org-apache-sling-provisioning-model",
+        "line": 249,
+        "hash": "0c50e9cfdf6e01d3555dbb6a4d20b046",
+        "textRange": {
+            "startLine": 249,
+            "endLine": 249,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2014-10-01T18:27:00+0200",
+        "updateDate": "2019-04-19T15:01:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo1sDHNyRjJygCrbGX3",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-provisioning-model:src/main/java/org/apache/sling/provisioning/model/Feature.java",
+        "project": "apache_sling-org-apache-sling-provisioning-model",
+        "line": 189,
+        "hash": "9603365fca0df98e2e095e52ec1b3c23",
+        "textRange": {
+            "startLine": 189,
+            "endLine": 189,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2014-10-01T18:27:00+0200",
+        "updateDate": "2019-04-19T15:01:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

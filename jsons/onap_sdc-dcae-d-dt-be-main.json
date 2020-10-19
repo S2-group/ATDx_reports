@@ -1,0 +1,585 @@
+[
+    {
+        "key": "AW6lja9Qr36yrbKLPfx-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_be/src/main/java/org/onap/sdc/dcae/composition/impl/ServiceBusinessLogic.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 170,
+        "hash": "9e0c2e85fa552e7394add0d5d20d766d",
+        "textRange": {
+            "startLine": 170,
+            "endLine": 170,
+            "startOffset": 139,
+            "endOffset": 148
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-23T10:30:13+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja_0r36yrbKLPfzj",
+        "rule": "java:S2166",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_catalog/asdc/src/main/java/org/onap/sdc/dcae/errormng/PolicyException.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 23,
+        "hash": "25cbce60cd38e6608e95f8cac3f74745",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this class to remove \"Exception\" or correct its inheritance.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "convention",
+            "error-handling",
+            "pitfall"
+        ],
+        "creationDate": "2018-04-12T14:49:38+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja_3r36yrbKLPfzk",
+        "rule": "java:S2166",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_catalog/asdc/src/main/java/org/onap/sdc/dcae/errormng/ServiceException.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 23,
+        "hash": "48a4c70831b8710f1be22cefac7e9e5f",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this class to remove \"Exception\" or correct its inheritance.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "convention",
+            "error-handling",
+            "pitfall"
+        ],
+        "creationDate": "2018-04-12T14:49:38+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja_lr36yrbKLPfzZ",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_catalog/asdc/src/main/java/org/onap/sdc/dcae/utils/Normalizers.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 27,
+        "hash": "91cd1de6580f316eb2d45c8214398324",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 19,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-04-12T14:49:38+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja7Rr36yrbKLPfwH",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_be/src/main/java/org/onap/sdc/dcae/rule/editor/translators/ActionTranslator.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 30,
+        "hash": "d696937718fa9849cc724caadc068577",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 15,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"ActionTranslator\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2018-05-23T10:30:13+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja_yr36yrbKLPfzg",
+        "rule": "java:S2166",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_catalog/asdc/src/main/java/org/onap/sdc/dcae/errormng/AbstractSdncException.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 33,
+        "hash": "9322229fd12727fb840f163fe2819aa4",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 13,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this class to remove \"Exception\" or correct its inheritance.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "convention",
+            "error-handling",
+            "pitfall"
+        ],
+        "creationDate": "2018-04-12T14:49:38+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja88r36yrbKLPfxq",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_be/src/main/java/org/onap/sdc/dcae/composition/impl/VfcmtBusinessLogic.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 219,
+        "hash": "9329f7f69c62126834f83bc78ae9a672",
+        "textRange": {
+            "startLine": 219,
+            "endLine": 219,
+            "startOffset": 112,
+            "endOffset": 123
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-05-23T10:30:13+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja9Wr36yrbKLPfyJ",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_be/src/main/java/org/onap/sdc/dcae/composition/CompositionEngine.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 120,
+        "hash": "8993411f83e9f0b52807d32075445a74",
+        "textRange": {
+            "startLine": 120,
+            "endLine": 120,
+            "startOffset": 4,
+            "endOffset": 15
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-04-12T14:49:38+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja_Lr36yrbKLPfzR",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_tools/src/main/java/tools/TemplateContainer.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 328,
+        "hash": "d7a7603306f45038797627317e619fac",
+        "textRange": {
+            "startLine": 328,
+            "endLine": 328,
+            "startOffset": 84,
+            "endOffset": 94
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-04-12T14:49:38+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja_Lr36yrbKLPfzN",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_tools/src/main/java/tools/TemplateContainer.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 246,
+        "hash": "adcced00e9982214103308672a387ff2",
+        "textRange": {
+            "startLine": 246,
+            "endLine": 246,
+            "startOffset": 110,
+            "endOffset": 120
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-04-12T14:49:38+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja_Lr36yrbKLPfzH",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_tools/src/main/java/tools/TemplateContainer.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 121,
+        "hash": "4214a58fa29aaf8e142815cc2cbe8c85",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 65,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-04-12T14:49:38+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja8Zr36yrbKLPfwq",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_be/src/main/java/org/onap/sdc/dcae/composition/controller/BlueprintController.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 74,
+        "hash": "aa8450c41a3d46b4edb06647d0cccb5e",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 23,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-05-24T15:12:32+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja9Qr36yrbKLPfx_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_be/src/main/java/org/onap/sdc/dcae/composition/impl/ServiceBusinessLogic.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 204,
+        "hash": "4c9eb02cde2e61d214a303fb6bdcae55",
+        "textRange": {
+            "startLine": 204,
+            "endLine": 204,
+            "startOffset": 94,
+            "endOffset": 103
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-23T10:30:13+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja9Nr36yrbKLPfx9",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_be/src/main/java/org/onap/sdc/dcae/composition/impl/CompositionCatalogBusinessLogic.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 122,
+        "hash": "53066c19f1a8bd8111dd9d50366c2df7",
+        "textRange": {
+            "startLine": 122,
+            "endLine": 122,
+            "startOffset": 93,
+            "endOffset": 104
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-10-21T12:35:08+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja8ir36yrbKLPfxB",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_be/src/main/java/org/onap/sdc/dcae/composition/controller/ServicesController.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 72,
+        "hash": "b8c2c89b9f3d4bab96d6c498f22422c9",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 23,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-04-12T14:49:38+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja9Wr36yrbKLPfyF",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_be/src/main/java/org/onap/sdc/dcae/composition/CompositionEngine.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 129,
+        "hash": "6cbf5a7724b50e6250d71e431683f167",
+        "textRange": {
+            "startLine": 129,
+            "endLine": 129,
+            "startOffset": 45,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T14:49:38+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja9Wr36yrbKLPfyE",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_be/src/main/java/org/onap/sdc/dcae/composition/CompositionEngine.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 136,
+        "hash": "d1b0791ec764c28545f578a2c1b52dd5",
+        "textRange": {
+            "startLine": 136,
+            "endLine": 136,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-12T14:49:38+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja64r36yrbKLPfvn",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_be/src/main/java/org/onap/sdc/dcae/errormng/ErrConfMgr.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 229,
+        "hash": "d877630b753b36a7db1614b7ef81f56f",
+        "textRange": {
+            "startLine": 229,
+            "endLine": 229,
+            "startOffset": 2,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-04-12T14:49:38+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja9kr36yrbKLPfyX",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_be/src/main/java/org/onap/sdc/dcae/ves/VesJsonDeserializer.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 30,
+        "hash": "8eba03e922f124d8f11a7d393f94481a",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 118,
+            "endOffset": 136
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.google.gson.JsonParseException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-04-12T14:49:38+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lja8Kr36yrbKLPfwc",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_sdc-dcae-d-dt-be-main:dcaedt_be/src/main/java/org/onap/sdc/dcae/rule/editor/validators/ReplaceActionValidator.java",
+        "project": "onap_sdc-dcae-d-dt-be-main",
+        "line": 41,
+        "hash": "1828f7425afb8bdfc59205586764a6e8",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 16,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-05-23T10:30:13+0200",
+        "updateDate": "2019-11-26T03:32:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

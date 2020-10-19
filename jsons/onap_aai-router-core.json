@@ -1,0 +1,121 @@
+[
+    {
+        "key": "AW6lL7WWk4KhMkVz5MXT",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-router-core:src/main/java/org/onap/aai/schema/SchemaIngestPropertiesReader.java",
+        "project": "onap_aai-router-core",
+        "line": 64,
+        "hash": "5770031bad89aff255a83b84864568c0",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-27T21:06:00+0200",
+        "updateDate": "2019-11-26T01:49:45+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL7VYk4KhMkVz5MWm",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_aai-router-core:src/main/java/org/onap/aai/rest/RestClientEndpoint.java",
+        "project": "onap_aai-router-core",
+        "line": 76,
+        "hash": "f5e94aefbdbc6ff1bd0c6087568d7b79",
+        "textRange": {
+            "startLine": 76,
+            "endLine": 76,
+            "startOffset": 17,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2017-05-09T15:58:26+0200",
+        "updateDate": "2019-11-26T01:49:45+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL7U7k4KhMkVz5MWd",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-router-core:src/main/java/org/onap/aai/event/AbstractEventBusEndpoint.java",
+        "project": "onap_aai-router-core",
+        "line": 32,
+        "hash": "60857bd8e010431a150cfabf0019fc3b",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 31,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-14T18:23:01+0200",
+        "updateDate": "2019-11-26T01:49:45+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL7WWk4KhMkVz5MXS",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-router-core:src/main/java/org/onap/aai/schema/SchemaIngestPropertiesReader.java",
+        "project": "onap_aai-router-core",
+        "line": 60,
+        "hash": "5770031bad89aff255a83b84864568c0",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-27T21:06:00+0200",
+        "updateDate": "2019-11-26T01:49:45+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

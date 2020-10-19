@@ -1,0 +1,344 @@
+[
+    {
+        "key": "AW6lWembgYcRdnXY2Q5z",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-sli-northbound:daexim-offsite-backup/provider/src/main/java/org/onap/ccsdk/sli/northbound/daeximoffsitebackup/DaeximOffsiteBackupProvider.java",
+        "project": "onap_ccsdk-sli-northbound",
+        "line": 154,
+        "hash": "99e0022bc4536c986265e516e9571750",
+        "textRange": {
+            "startLine": 154,
+            "endLine": 154,
+            "startOffset": 8,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-01-18T15:23:03+0100",
+        "updateDate": "2019-11-26T02:35:27+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lWembgYcRdnXY2Q5y",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-sli-northbound:daexim-offsite-backup/provider/src/main/java/org/onap/ccsdk/sli/northbound/daeximoffsitebackup/DaeximOffsiteBackupProvider.java",
+        "project": "onap_ccsdk-sli-northbound",
+        "line": 153,
+        "hash": "ac47926a3165eb56e73fbded2f806fe7",
+        "textRange": {
+            "startLine": 153,
+            "endLine": 153,
+            "startOffset": 8,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-01-18T15:23:03+0100",
+        "updateDate": "2019-11-26T02:35:27+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lWembgYcRdnXY2Q5x",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-sli-northbound:daexim-offsite-backup/provider/src/main/java/org/onap/ccsdk/sli/northbound/daeximoffsitebackup/DaeximOffsiteBackupProvider.java",
+        "project": "onap_ccsdk-sli-northbound",
+        "line": 151,
+        "hash": "237ec7f846ca6d8e8ec7ba41ae1db016",
+        "textRange": {
+            "startLine": 151,
+            "endLine": 151,
+            "startOffset": 12,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-01-18T15:23:03+0100",
+        "updateDate": "2019-11-26T02:35:27+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lWembgYcRdnXY2Q54",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-sli-northbound:daexim-offsite-backup/provider/src/main/java/org/onap/ccsdk/sli/northbound/daeximoffsitebackup/DaeximOffsiteBackupProvider.java",
+        "project": "onap_ccsdk-sli-northbound",
+        "line": 168,
+        "hash": "0fc3c5c96ad3887f0b930361daccdbaa",
+        "textRange": {
+            "startLine": 168,
+            "endLine": 168,
+            "startOffset": 12,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-01-18T15:23:03+0100",
+        "updateDate": "2019-11-26T02:35:27+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lWembgYcRdnXY2Q53",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-sli-northbound:daexim-offsite-backup/provider/src/main/java/org/onap/ccsdk/sli/northbound/daeximoffsitebackup/DaeximOffsiteBackupProvider.java",
+        "project": "onap_ccsdk-sli-northbound",
+        "line": 161,
+        "hash": "6ca9d0ef541d1599405f4424a92433bb",
+        "textRange": {
+            "startLine": 161,
+            "endLine": 161,
+            "startOffset": 12,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-01-18T15:23:03+0100",
+        "updateDate": "2019-11-26T02:35:27+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lWembgYcRdnXY2Q50",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-sli-northbound:daexim-offsite-backup/provider/src/main/java/org/onap/ccsdk/sli/northbound/daeximoffsitebackup/DaeximOffsiteBackupProvider.java",
+        "project": "onap_ccsdk-sli-northbound",
+        "line": 156,
+        "hash": "4cf1507c8145d9cee01427afe3e53539",
+        "textRange": {
+            "startLine": 156,
+            "endLine": 156,
+            "startOffset": 8,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-01-25T17:57:39+0100",
+        "updateDate": "2019-11-26T02:35:27+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lWeezgYcRdnXY2QzI",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-northbound:ueb-listener/src/main/java/org/onap/ccsdk/sli/northbound/uebclient/SdncGroupModel.java",
+        "project": "onap_ccsdk-sli-northbound",
+        "line": 41,
+        "hash": "362a2db39e0761afe68c2362fae89447",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 175,
+            "endOffset": 186
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-08-09T19:52:24+0200",
+        "updateDate": "2019-11-26T02:35:27+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lWec7gYcRdnXY2Qvt",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-northbound:lcm/provider/src/main/java/org/onap/ccsdk/sli/northbound/LcmRpcInvocationException.java",
+        "project": "onap_ccsdk-sli-northbound",
+        "line": 10,
+        "hash": "85b564be927abcb22d582ef002fd84e0",
+        "textRange": {
+            "startLine": 10,
+            "endLine": 10,
+            "startOffset": 22,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"commonHeader\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-04-13T01:19:16+0200",
+        "updateDate": "2019-11-26T02:35:27+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lWec7gYcRdnXY2Qvs",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-northbound:lcm/provider/src/main/java/org/onap/ccsdk/sli/northbound/LcmRpcInvocationException.java",
+        "project": "onap_ccsdk-sli-northbound",
+        "line": 9,
+        "hash": "2a3208e2993dc127490ad7b8052d2feb",
+        "textRange": {
+            "startLine": 9,
+            "endLine": 9,
+            "startOffset": 16,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"status\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-04-13T01:19:16+0200",
+        "updateDate": "2019-11-26T02:35:27+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lWefWgYcRdnXY2Qzr",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-sli-northbound:ueb-listener/src/main/java/org/onap/ccsdk/sli/northbound/uebclient/SdncOdlConnection.java",
+        "project": "onap_ccsdk-sli-northbound",
+        "line": 88,
+        "hash": "a66f8109bd431823b17e9f8368fb8318",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 95,
+            "endOffset": 106
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-01T21:10:25+0200",
+        "updateDate": "2019-11-26T02:35:27+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lWembgYcRdnXY2Q52",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-sli-northbound:daexim-offsite-backup/provider/src/main/java/org/onap/ccsdk/sli/northbound/daeximoffsitebackup/DaeximOffsiteBackupProvider.java",
+        "project": "onap_ccsdk-sli-northbound",
+        "line": 158,
+        "hash": "564af0b52cdbe05fcd1a0fd25dc72ca2",
+        "textRange": {
+            "startLine": 158,
+            "endLine": 158,
+            "startOffset": 8,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-01-25T17:57:39+0100",
+        "updateDate": "2019-11-26T02:35:27+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lWembgYcRdnXY2Q51",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_ccsdk-sli-northbound:daexim-offsite-backup/provider/src/main/java/org/onap/ccsdk/sli/northbound/daeximoffsitebackup/DaeximOffsiteBackupProvider.java",
+        "project": "onap_ccsdk-sli-northbound",
+        "line": 157,
+        "hash": "351ba23d1afb7bfdfb27e82b6ad7c970",
+        "textRange": {
+            "startLine": 157,
+            "endLine": 157,
+            "startOffset": 8,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-01-25T17:57:39+0100",
+        "updateDate": "2019-11-26T02:35:27+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

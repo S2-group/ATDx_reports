@@ -1,0 +1,1371 @@
+[
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 2234,
+        "hash": "d2d14946954861c97d6f8dccfcdec32b",
+        "textRange": {
+            "startLine": 2234,
+            "endLine": 2234,
+            "startOffset": 48,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTT",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 2212,
+        "hash": "31cf4f788e2a3294d39a2e68aa471baf",
+        "textRange": {
+            "startLine": 2212,
+            "endLine": 2212,
+            "startOffset": 52,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTS",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 2190,
+        "hash": "bb875205ae740fe58579c6ba9ed35cab",
+        "textRange": {
+            "startLine": 2190,
+            "endLine": 2190,
+            "startOffset": 44,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 2168,
+        "hash": "2e6e8ad44dd18a61fe94ae7e0f10c8e6",
+        "textRange": {
+            "startLine": 2168,
+            "endLine": 2168,
+            "startOffset": 47,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTQ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 2146,
+        "hash": "5a60aa5a6b228aa34ff57fcdab4f9f07",
+        "textRange": {
+            "startLine": 2146,
+            "endLine": 2146,
+            "startOffset": 54,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTP",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 2124,
+        "hash": "80efc134964be02be05bdd52ec8a6d23",
+        "textRange": {
+            "startLine": 2124,
+            "endLine": 2124,
+            "startOffset": 57,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTO",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 2102,
+        "hash": "83ec9367d8fb6c940c54b5c2586fc593",
+        "textRange": {
+            "startLine": 2102,
+            "endLine": 2102,
+            "startOffset": 48,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTN",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 2081,
+        "hash": "3c2e7fd0ffe050e844744221bae23b77",
+        "textRange": {
+            "startLine": 2081,
+            "endLine": 2081,
+            "startOffset": 46,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTM",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 1909,
+        "hash": "6aa2ab4122bfc0fdfe206e3501fab444",
+        "textRange": {
+            "startLine": 1909,
+            "endLine": 1909,
+            "startOffset": 39,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTL",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 1876,
+        "hash": "7a3b31885c2f727612dde785667d977d",
+        "textRange": {
+            "startLine": 1876,
+            "endLine": 1876,
+            "startOffset": 47,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTG",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 1819,
+        "hash": "7bb08145e661c3c4609dbf43448a1a7e",
+        "textRange": {
+            "startLine": 1819,
+            "endLine": 1819,
+            "startOffset": 50,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBUP",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 1819,
+        "hash": "7bb08145e661c3c4609dbf43448a1a7e",
+        "textRange": {
+            "startLine": 1819,
+            "endLine": 1819,
+            "startOffset": 50,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBR8",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 1823,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 1823,
+            "endLine": 1823,
+            "startOffset": 8,
+            "endOffset": 9
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBR9",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 1831,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 1831,
+            "endLine": 1831,
+            "startOffset": 8,
+            "endOffset": 9
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVekK1LJlmpkeBQ_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/MappingEventsTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 88,
+        "hash": "965d28c844f7908e5e14677dead3a5e1",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 41,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-10-29T11:27:26+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVekK1LJlmpkeBQ-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/MappingEventsTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 68,
+        "hash": "14fbd279089deb3f30d20796495011e2",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 44,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-10-27T15:38:45+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTK",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 1867,
+        "hash": "c251505644998848d10e97c41b6bda88",
+        "textRange": {
+            "startLine": 1867,
+            "endLine": 1867,
+            "startOffset": 65,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTJ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 1858,
+        "hash": "2f7541b9ce24b8fa80db8a86784e1b7d",
+        "textRange": {
+            "startLine": 1858,
+            "endLine": 1858,
+            "startOffset": 57,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTI",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 1850,
+        "hash": "b15f97b1c44cef479f2b88b790f6a47c",
+        "textRange": {
+            "startLine": 1850,
+            "endLine": 1850,
+            "startOffset": 53,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTZ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 2467,
+        "hash": "6102502d97723a942d6779aa77936016",
+        "textRange": {
+            "startLine": 2467,
+            "endLine": 2467,
+            "startOffset": 61,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTh",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 141,
+        "hash": "4edacd1d403fde3e0f3c8656c7986bf5",
+        "textRange": {
+            "startLine": 141,
+            "endLine": 141,
+            "startOffset": 12,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTg",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 137,
+        "hash": "f83674b03c11eec9811cdf7d716773cc",
+        "textRange": {
+            "startLine": 137,
+            "endLine": 137,
+            "startOffset": 12,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTH",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 1840,
+        "hash": "0fbca135b41f4f60a19f27eb9a026ea4",
+        "textRange": {
+            "startLine": 1840,
+            "endLine": 1840,
+            "startOffset": 67,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTF",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 1521,
+        "hash": "b34f5313bc39265947e9f5da6831ef00",
+        "textRange": {
+            "startLine": 1521,
+            "endLine": 1521,
+            "startOffset": 53,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTE",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 383,
+        "hash": "5a758131a0348b6b7cf442b588b36991",
+        "textRange": {
+            "startLine": 383,
+            "endLine": 383,
+            "startOffset": 51,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTD",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 366,
+        "hash": "fef9f65ada0d77391ac22e14dc322b2d",
+        "textRange": {
+            "startLine": 366,
+            "endLine": 366,
+            "startOffset": 47,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTC",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 328,
+        "hash": "1bbcb386f82e0dab79936c476f09ecf4",
+        "textRange": {
+            "startLine": 328,
+            "endLine": 328,
+            "startOffset": 61,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTB",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 222,
+        "hash": "4076e79df1a6abafa1eb13c708ef54a7",
+        "textRange": {
+            "startLine": 222,
+            "endLine": 222,
+            "startOffset": 57,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTA",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 181,
+        "hash": "9e27015056cfd4d2100919b49b7c1286",
+        "textRange": {
+            "startLine": 181,
+            "endLine": 181,
+            "startOffset": 61,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBS_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 146,
+        "hash": "69517063e58f6f0d306c5b2a10862ba2",
+        "textRange": {
+            "startLine": 146,
+            "endLine": 146,
+            "startOffset": 87,
+            "endOffset": 96
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVgsK1LJlmpkeBVw",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/post/DummyModification.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 25,
+        "hash": "b030dee94e929ca316cf8413dc995fa2",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-03-10T17:24:13+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBUU",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 1867,
+        "hash": "c251505644998848d10e97c41b6bda88",
+        "textRange": {
+            "startLine": 1867,
+            "endLine": 1867,
+            "startOffset": 65,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBUS",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 1858,
+        "hash": "2f7541b9ce24b8fa80db8a86784e1b7d",
+        "textRange": {
+            "startLine": 1858,
+            "endLine": 1858,
+            "startOffset": 57,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTY",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 2417,
+        "hash": "2841d53085b5cf017caf6a16cb3815b0",
+        "textRange": {
+            "startLine": 2417,
+            "endLine": 2417,
+            "startOffset": 64,
+            "endOffset": 73
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTX",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 2367,
+        "hash": "fcd85d255f3d693c9ec87558291d4387",
+        "textRange": {
+            "startLine": 2367,
+            "endLine": 2367,
+            "startOffset": 54,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTW",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 2319,
+        "hash": "f2d3516b4282640ecd1c19cc05642b9b",
+        "textRange": {
+            "startLine": 2319,
+            "endLine": 2319,
+            "startOffset": 44,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBTV",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 2239,
+        "hash": "82cb0a808f48881495a457ecfa30368d",
+        "textRange": {
+            "startLine": 2239,
+            "endLine": 2239,
+            "startOffset": 61,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVevK1LJlmpkeBUk",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 2234,
+        "hash": "d2d14946954861c97d6f8dccfcdec32b",
+        "textRange": {
+            "startLine": 2234,
+            "endLine": 2234,
+            "startOffset": 48,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeuK1LJlmpkeBUQ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/ResourceResolverWithVanityBloomFilterTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 1850,
+        "hash": "b15f97b1c44cef479f2b88b790f6a47c",
+        "textRange": {
+            "startLine": 1850,
+            "endLine": 1850,
+            "startOffset": 53,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-01-09T10:52:02+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeNK1LJlmpkeBQ5",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/WriteableResourcesTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 81,
+        "hash": "f972279e01180744916d68e5fab6812d",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 40,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-07-15T17:45:41+0200",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeNK1LJlmpkeBQ4",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/WriteableResourcesTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 66,
+        "hash": "59be2490568acc4fa342b80c5c089b65",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 33,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-07-15T17:45:41+0200",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeNK1LJlmpkeBQ3",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/WriteableResourcesTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 56,
+        "hash": "b62f00956ee8eb45577465ffb01379f6",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 31,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2013-07-15T17:45:41+0200",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVhYK1LJlmpkeBWI",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/exported/MappingsFacade.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 49,
+        "hash": "4647e3418dd4e408a974aebacaa2adf1",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 55,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-10-27T15:38:45+0100",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeNK1LJlmpkeBQx",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/WriteableResourcesTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 108,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 108,
+            "endLine": 108,
+            "startOffset": 8,
+            "endOffset": 9
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-07-15T17:45:41+0200",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeNK1LJlmpkeBQw",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/WriteableResourcesTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 101,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 101,
+            "endLine": 101,
+            "startOffset": 8,
+            "endOffset": 9
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-07-15T17:45:41+0200",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo9xVeNK1LJlmpkeBQv",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-launchpad-test-services:src/main/java/org/apache/sling/launchpad/testservices/serversidetests/WriteableResourcesTest.java",
+        "project": "apache_sling-org-apache-sling-launchpad-test-services",
+        "line": 88,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 8,
+            "endOffset": 9
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2013-07-15T17:45:41+0200",
+        "updateDate": "2019-04-21T04:41:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

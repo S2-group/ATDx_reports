@@ -1,0 +1,414 @@
+[
+    {
+        "key": "AW6lX3_1wQN7qqDOt2zw",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-mapper:UniversalVesAdapter/src/main/java/org/onap/universalvesadapter/service/VesService.java",
+        "project": "onap_dcaegen2-services-mapper",
+        "line": 80,
+        "hash": "d559314c18e749d2064c53c2b5bf5a2f",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 31,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.universalvesadapter.exception.MapperConfigException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-09T14:19:09+0200",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX3_1wQN7qqDOt2z1",
+        "rule": "java:S2276",
+        "severity": "BLOCKER",
+        "component": "onap_dcaegen2-services-mapper:UniversalVesAdapter/src/main/java/org/onap/universalvesadapter/service/VesService.java",
+        "project": "onap_dcaegen2-services-mapper",
+        "line": 131,
+        "hash": "bbb6779955bfebfa5ab8211f69ddbf40",
+        "textRange": {
+            "startLine": 131,
+            "endLine": 131,
+            "startOffset": 43,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Replace the call to \"Thread.sleep(...)\" with a call to \"wait(...)\".",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "cert",
+            "multi-threading",
+            "performance"
+        ],
+        "creationDate": "2019-02-25T11:47:04+0100",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "BUG",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX3_JwQN7qqDOt2zY",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-mapper:UniversalVesAdapter/src/main/java/org/onap/universalvesadapter/adapter/GenericAdapter.java",
+        "project": "onap_dcaegen2-services-mapper",
+        "line": 47,
+        "hash": "f7ad20174afdbb133450847ad17a1225",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 52,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.universalvesadapter.exception.ConfigFileSmooksConversionException' which is a subclass of 'org.onap.universalvesadapter.exception.VesException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-02-25T11:47:04+0100",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX4CawQN7qqDOt21d",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-services-mapper:UniversalVesAdapter/src/main/java/org/onap/universalvesadapter/dmaap/BaseDMaaPMRComponent.java",
+        "project": "onap_dcaegen2-services-mapper",
+        "line": 70,
+        "hash": "07574a9889e6fe1f900fcdda13e7aaf6",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 12,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Hide this public constructor.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-09T14:19:09+0200",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX4AfwQN7qqDOt21E",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-mapper:UniversalVesAdapter/src/main/java/org/onap/universalvesadapter/utils/FetchDynamicConfig.java",
+        "project": "onap_dcaegen2-services-mapper",
+        "line": 61,
+        "hash": "46803537b6db49593d4421c298cceb8c",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 25,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make retCBSString a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-02-25T11:47:04+0100",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX4AfwQN7qqDOt21D",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-mapper:UniversalVesAdapter/src/main/java/org/onap/universalvesadapter/utils/FetchDynamicConfig.java",
+        "project": "onap_dcaegen2-services-mapper",
+        "line": 60,
+        "hash": "5f582d1e3a5fb57c70011f1a4dfc66b4",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 25,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make retString a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-02-25T11:47:04+0100",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX4AfwQN7qqDOt21C",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-mapper:UniversalVesAdapter/src/main/java/org/onap/universalvesadapter/utils/FetchDynamicConfig.java",
+        "project": "onap_dcaegen2-services-mapper",
+        "line": 61,
+        "hash": "46803537b6db49593d4421c298cceb8c",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 25,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static retCBSString\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-02-25T11:47:04+0100",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX4AfwQN7qqDOt21B",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-mapper:UniversalVesAdapter/src/main/java/org/onap/universalvesadapter/utils/FetchDynamicConfig.java",
+        "project": "onap_dcaegen2-services-mapper",
+        "line": 60,
+        "hash": "5f582d1e3a5fb57c70011f1a4dfc66b4",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 25,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static retString\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-02-25T11:47:04+0100",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX3_UwQN7qqDOt2zd",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-mapper:UniversalVesAdapter/src/main/java/org/onap/universalvesadapter/adapter/UniversalEventAdapter.java",
+        "project": "onap_dcaegen2-services-mapper",
+        "line": 79,
+        "hash": "e026a272771bc04d0ad82421babd7bae",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 19,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.universalvesadapter.exception.ConfigFileSmooksConversionException' which is a subclass of 'org.onap.universalvesadapter.exception.VesException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-09T14:19:09+0200",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX4AGwQN7qqDOt2z6",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-services-mapper:UniversalVesAdapter/src/main/java/org/onap/universalvesadapter/utils/SmooksUtils.java",
+        "project": "onap_dcaegen2-services-mapper",
+        "line": 43,
+        "hash": "06cafc5e426f72d1839052b749348ea4",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-03-23T13:19:26+0100",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX4DmwQN7qqDOt21s",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-mapper:UniversalVesAdapter/src/main/java/org/onap/universalvesadapter/configs/DMaaPMRSubscriberConfig.java",
+        "project": "onap_dcaegen2-services-mapper",
+        "line": 89,
+        "hash": "5eafbc7b49931740ba524ee78c78e0e0",
+        "textRange": {
+            "startLine": 89,
+            "endLine": 89,
+            "startOffset": 76,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-15T17:10:26+0200",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX4DbwQN7qqDOt21q",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-mapper:UniversalVesAdapter/src/main/java/org/onap/universalvesadapter/configs/DMaaPMRPublisherConfig.java",
+        "project": "onap_dcaegen2-services-mapper",
+        "line": 93,
+        "hash": "5eafbc7b49931740ba524ee78c78e0e0",
+        "textRange": {
+            "startLine": 93,
+            "endLine": 93,
+            "startOffset": 76,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-15T17:10:26+0200",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX4BywQN7qqDOt21U",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-mapper:UniversalVesAdapter/src/main/java/org/onap/universalvesadapter/dmaap/MRPublisher/DMaaPMRPublisherImpl.java",
+        "project": "onap_dcaegen2-services-mapper",
+        "line": 71,
+        "hash": "ceb35954cdb79f4f950a394a51e85dc1",
+        "textRange": {
+            "startLine": 71,
+            "endLine": 71,
+            "startOffset": 15,
+            "endOffset": 16
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static a\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2018-08-09T14:19:09+0200",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX4BywQN7qqDOt21V",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-mapper:UniversalVesAdapter/src/main/java/org/onap/universalvesadapter/dmaap/MRPublisher/DMaaPMRPublisherImpl.java",
+        "project": "onap_dcaegen2-services-mapper",
+        "line": 71,
+        "hash": "ceb35954cdb79f4f950a394a51e85dc1",
+        "textRange": {
+            "startLine": 71,
+            "endLine": 71,
+            "startOffset": 15,
+            "endOffset": 16
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make a a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-08-09T14:19:09+0200",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,4479 @@
+[
+    {
+        "key": "AW6lPOl8r36yrbKLMAbS",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/subscription/payload/entity/ObjectInspectorPayload.java",
+        "project": "onap_aai-sparky-be",
+        "line": 102,
+        "hash": "853663297b72aeeb294f4eae52d70c2d",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 115,
+            "endOffset": 135
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.databind.JsonMappingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-01-18T21:58:03+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOl8r36yrbKLMAbR",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/subscription/payload/entity/ObjectInspectorPayload.java",
+        "project": "onap_aai-sparky-be",
+        "line": 102,
+        "hash": "853663297b72aeeb294f4eae52d70c2d",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 95,
+            "endOffset": 113
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonParseException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-01-18T21:58:03+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOlwr36yrbKLMAbE",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewinspect/sync/ViewInspectEntitySynchronizer.java",
+        "project": "onap_aai-sparky-be",
+        "line": 514,
+        "hash": "3597a4841839021895f42a126dd729fe",
+        "textRange": {
+            "startLine": 514,
+            "endLine": 514,
+            "startOffset": 51,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonProcessingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAXy",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 38,
+        "hash": "71b158a00ab7901262bd29e15c68fbfb",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 23,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static CONFIG_OXM_LOCATION\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAXx",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 36,
+        "hash": "39dc6eac0e4341860fa0197791160e26",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 23,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static DYNAMIC_CONFIG_APP_LOCATION\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAXw",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 35,
+        "hash": "fef44600aefe99cfbf6c0515cc7cf594",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 23,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static CONFIG_HOME\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAXv",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 28,
+        "hash": "a55dea23959e4d3be86cf0516743c06a",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 23,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static APP_NAME\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOn1r36yrbKLMAe5",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/crossentityreference/sync/CrossEntityReferenceSynchronizer.java",
+        "project": "onap_aai-sparky-be",
+        "line": 870,
+        "hash": "3597a4841839021895f42a126dd729fe",
+        "textRange": {
+            "startLine": 870,
+            "endLine": 870,
+            "startOffset": 51,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonProcessingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAY0",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 26,
+        "hash": "a496ee2a91fe4375be31b94b49c24007",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBt8dBkNmoioRJ3O60u",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/security/portal/PortalRestAPIServiceImpl.java",
+        "project": "onap_aai-sparky-be",
+        "line": 191,
+        "hash": "7d4153234d378efe15f0c6ceea84ac61",
+        "textRange": {
+            "startLine": 191,
+            "endLine": 191,
+            "startOffset": 17,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2020-02-22T18:26:32+0100",
+        "updateDate": "2020-02-22T18:26:32+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBt8dAKNmoioRJ3O60s",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/security/portal/PortalRestAPICentralServiceImpl.java",
+        "project": "onap_aai-sparky-be",
+        "line": 237,
+        "hash": "7d4153234d378efe15f0c6ceea84ac61",
+        "textRange": {
+            "startLine": 237,
+            "endLine": 237,
+            "startOffset": 17,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2020-02-22T18:26:32+0100",
+        "updateDate": "2020-02-22T18:26:32+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOmPr36yrbKLMAb3",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/security/portal/PortalRestAPIServiceImpl.java",
+        "project": "onap_aai-sparky-be",
+        "line": 144,
+        "hash": "857d7f37374ff4222e669455ac645021",
+        "textRange": {
+            "startLine": 144,
+            "endLine": 144,
+            "startOffset": 52,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.portalsdk.core.onboarding.exception.PortalAPIException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOi7r36yrbKLMAXN",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 116,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 116,
+            "endLine": 116,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOi7r36yrbKLMAXL",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 1386,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 1386,
+            "endLine": 1386,
+            "startOffset": 17,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOi7r36yrbKLMAXK",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 1373,
+        "hash": "dad0593176431e4af3fbf205a655c9f3",
+        "textRange": {
+            "startLine": 1373,
+            "endLine": 1373,
+            "startOffset": 36,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOi7r36yrbKLMAXJ",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 1367,
+        "hash": "e58180a482c552d9cda3acd61b2a4c4b",
+        "textRange": {
+            "startLine": 1367,
+            "endLine": 1367,
+            "startOffset": 20,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOi7r36yrbKLMAXI",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 859,
+        "hash": "dad0593176431e4af3fbf205a655c9f3",
+        "textRange": {
+            "startLine": 859,
+            "endLine": 859,
+            "startOffset": 36,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOi7r36yrbKLMAXH",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 854,
+        "hash": "48d149531a12cfe2fecd249408207af5",
+        "textRange": {
+            "startLine": 854,
+            "endLine": 854,
+            "startOffset": 45,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOi7r36yrbKLMAXG",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 849,
+        "hash": "a8051c2b27d3f84ea7fb44a346295c44",
+        "textRange": {
+            "startLine": 849,
+            "endLine": 849,
+            "startOffset": 35,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOi7r36yrbKLMAXF",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 845,
+        "hash": "e58180a482c552d9cda3acd61b2a4c4b",
+        "textRange": {
+            "startLine": 845,
+            "endLine": 845,
+            "startOffset": 20,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOkcr36yrbKLMAZp",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/search/SearchServiceAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 67,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-28T17:38:32+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOkNr36yrbKLMAZa",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/search/filters/FilterQueryBuilder.java",
+        "project": "onap_aai-sparky-be",
+        "line": 42,
+        "hash": "3ffbf9c2808f71e9a54b8a285002e1dc",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 13,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-12-08T14:57:29+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOkIr36yrbKLMAZT",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/search/filters/searchservice/FilterQueryAndResponseBuilder.java",
+        "project": "onap_aai-sparky-be",
+        "line": 41,
+        "hash": "e57a109ff060635e210a723ed5846ba1",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 15,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-22T17:20:12+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOkEr36yrbKLMAZS",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/search/filters/UiFiltersEntityConverter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 36,
+        "hash": "774ccf1f5ee8b23c5327915779846fe2",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 13,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-12-08T14:57:29+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjer36yrbKLMAZB",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/SchemaVisualizationProcessor.java",
+        "project": "onap_aai-sparky-be",
+        "line": 43,
+        "hash": "bba65ae948f7f4920527b9900ae54b67",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 46,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-22T14:34:25+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOh4r36yrbKLMAVs",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/util/EncryptConvertor.java",
+        "project": "onap_aai-sparky-be",
+        "line": 26,
+        "hash": "1e73c8694abf191450ff848c0a49cf59",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOh4r36yrbKLMAVr",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/util/EncryptConvertor.java",
+        "project": "onap_aai-sparky-be",
+        "line": 137,
+        "hash": "71dfa65f3f8fe4a027bd6c3d10062be0",
+        "textRange": {
+            "startLine": 137,
+            "endLine": 137,
+            "startOffset": 69,
+            "endOffset": 78
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOh4r36yrbKLMAVq",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/util/EncryptConvertor.java",
+        "project": "onap_aai-sparky-be",
+        "line": 140,
+        "hash": "fe66e79ee23f58ee331dc7936452c4a2",
+        "textRange": {
+            "startLine": 140,
+            "endLine": 140,
+            "startOffset": 16,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOh4r36yrbKLMAVp",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/util/EncryptConvertor.java",
+        "project": "onap_aai-sparky-be",
+        "line": 117,
+        "hash": "ad9081ec258f1bb29e75c8eebc8fdcdb",
+        "textRange": {
+            "startLine": 117,
+            "endLine": 117,
+            "startOffset": 16,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOidr36yrbKLMAWT",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/entity/D3VisualizationOutput.java",
+        "project": "onap_aai-sparky-be",
+        "line": 32,
+        "hash": "6bab6749cfd6e3b310f9370963f82a47",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 31,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make nodes a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOidr36yrbKLMAWS",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/entity/D3VisualizationOutput.java",
+        "project": "onap_aai-sparky-be",
+        "line": 31,
+        "hash": "a55759a208158965bf98a25b0c73134d",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make graphMeta a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOl-r36yrbKLMAbU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/subscription/services/SubscriptionService.java",
+        "project": "onap_aai-sparky-be",
+        "line": 36,
+        "hash": "09cc7f204ab5711dd67d1905660717fc",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 59,
+            "endOffset": 68
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-16T16:47:37+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOnor36yrbKLMAeU",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/aggregation/sync/AggregationSynchronizer.java",
+        "project": "onap_aai-sparky-be",
+        "line": 578,
+        "hash": "3597a4841839021895f42a126dd729fe",
+        "textRange": {
+            "startLine": 578,
+            "endLine": 578,
+            "startOffset": 51,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonProcessingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjDr36yrbKLMAXh",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/search/ViewInspectSearchProvider.java",
+        "project": "onap_aai-sparky-be",
+        "line": 75,
+        "hash": "fff6e40bb1febec854416231bd8fdbd3",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 81,
+            "endOffset": 90
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOhir36yrbKLMAU0",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/util/RawByteHelper.java",
+        "project": "onap_aai-sparky-be",
+        "line": 26,
+        "hash": "2941757de174c506e45d1a4c49c2cf50",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOhfr36yrbKLMAUy",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/util/ConfigHelper.java",
+        "project": "onap_aai-sparky-be",
+        "line": 40,
+        "hash": "45fc24e00db97fb7a6d0d9d8aeab10c0",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 13,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOnor36yrbKLMAeF",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/aggregation/sync/AggregationSynchronizer.java",
+        "project": "onap_aai-sparky-be",
+        "line": 124,
+        "hash": "73682c9497389a6b8afb1b76a505ea62",
+        "textRange": {
+            "startLine": 124,
+            "endLine": 124,
+            "startOffset": 9,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-12-11T21:43:42+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYL",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 42,
+        "hash": "2480d0aba61e1362dcef8252169eedc0",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 23,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make HOST a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYK",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 39,
+        "hash": "516ed57a7479fa7749e32bb6a680e169",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 23,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make CONFIG_FILTERS_BASE_LOCATION a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAX0",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 42,
+        "hash": "2480d0aba61e1362dcef8252169eedc0",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 23,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static HOST\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAX1",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 43,
+        "hash": "83c720b554371dabb20996b975fe43a8",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 23,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static IP_ADDRESS\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYM",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 43,
+        "hash": "83c720b554371dabb20996b975fe43a8",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 23,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make IP_ADDRESS a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAX2",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 44,
+        "hash": "8b29e4fdb01fab856a034d2f165bf25d",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 23,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static PORT\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOnWr36yrbKLMAdg",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/autosuggestion/sync/AutosuggestionSynchronizer.java",
+        "project": "onap_aai-sparky-be",
+        "line": 126,
+        "hash": "9f4621dbb39002eb1173ca0035341c29",
+        "textRange": {
+            "startLine": 126,
+            "endLine": 126,
+            "startOffset": 9,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-12-11T21:43:42+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjDr36yrbKLMAXi",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/search/ViewInspectSearchProvider.java",
+        "project": "onap_aai-sparky-be",
+        "line": 75,
+        "hash": "fff6e40bb1febec854416231bd8fdbd3",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 81,
+            "endOffset": 90
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOmCr36yrbKLMAbV",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/security/portal/config/RolesConfig.java",
+        "project": "onap_aai-sparky-be",
+        "line": 79,
+        "hash": "f17a338e55b9d0c0e1f13e74ae9a7cf2",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 29,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.google.gson.JsonSyntaxException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjVr36yrbKLMAY8",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/VisualizationContextBuilder.java",
+        "project": "onap_aai-sparky-be",
+        "line": 26,
+        "hash": "8caa1c55b617d51eb6fd728de5b66a07",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 63,
+            "endOffset": 72
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-25T08:19:12+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOkcr36yrbKLMAZt",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/search/SearchServiceAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 110,
+        "hash": "5facb347946b751dc6f05aaeb250a142",
+        "textRange": {
+            "startLine": 110,
+            "endLine": 110,
+            "startOffset": 25,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOg4r36yrbKLMAUX",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/sync/SyncControllerImpl.java",
+        "project": "onap_aai-sparky-be",
+        "line": 106,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 106,
+            "endLine": 106,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-12-11T21:43:42+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOhtr36yrbKLMAVI",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/util/TreeWalker.java",
+        "project": "onap_aai-sparky-be",
+        "line": 47,
+        "hash": "347a75df64134faddc34a1d5bf087ef9",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 56,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonProcessingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYJ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 38,
+        "hash": "71b158a00ab7901262bd29e15c68fbfb",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 23,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make CONFIG_OXM_LOCATION a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYI",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 36,
+        "hash": "39dc6eac0e4341860fa0197791160e26",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 23,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make DYNAMIC_CONFIG_APP_LOCATION a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYH",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 35,
+        "hash": "fef44600aefe99cfbf6c0515cc7cf594",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 23,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make CONFIG_HOME a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOnSr36yrbKLMAdc",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/autosuggestion/sync/VnfAliasSyncController.java",
+        "project": "onap_aai-sparky-be",
+        "line": 40,
+        "hash": "ae0eb4f6ca1fa953bf3c446ab5b037e0",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 9,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-12-11T21:43:42+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOm-r36yrbKLMAdN",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/ActiveInventoryAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 217,
+        "hash": "5ae7bd12b12c0c531f58d158fbd2903a",
+        "textRange": {
+            "startLine": 217,
+            "endLine": 217,
+            "startOffset": 55,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-12-11T21:43:42+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOipr36yrbKLMAWc",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/services/BaseVisualizationService.java",
+        "project": "onap_aai-sparky-be",
+        "line": 76,
+        "hash": "a9d92cfdf5aff248e2c4a14f3edca8d7",
+        "textRange": {
+            "startLine": 76,
+            "endLine": 76,
+            "startOffset": 52,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-25T08:19:12+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOidr36yrbKLMAWU",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/entity/D3VisualizationOutput.java",
+        "project": "onap_aai-sparky-be",
+        "line": 33,
+        "hash": "8bd710d5b67844afcacf001abd077a26",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 31,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make links a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOizr36yrbKLMAWz",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseGizmoVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 106,
+        "hash": "9a921be4020b5f9c5a52beae6685daf9",
+        "textRange": {
+            "startLine": 106,
+            "endLine": 106,
+            "startOffset": 46,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOizr36yrbKLMAWy",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseGizmoVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 754,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 754,
+            "endLine": 754,
+            "startOffset": 17,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOizr36yrbKLMAWx",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseGizmoVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 748,
+        "hash": "e58180a482c552d9cda3acd61b2a4c4b",
+        "textRange": {
+            "startLine": 748,
+            "endLine": 748,
+            "startOffset": 20,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOm1r36yrbKLMAc1",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/GizmoAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 129,
+        "hash": "70323d9aab899b48dbd802ae2fc3ddb0",
+        "textRange": {
+            "startLine": 129,
+            "endLine": 129,
+            "startOffset": 66,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOm1r36yrbKLMAc0",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/GizmoAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 123,
+        "hash": "a93588fe98febcdee708b24284e03f16",
+        "textRange": {
+            "startLine": 123,
+            "endLine": 123,
+            "startOffset": 65,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOm1r36yrbKLMAcz",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/GizmoAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 116,
+        "hash": "113804dc6e675f128e4016c785a0d865",
+        "textRange": {
+            "startLine": 116,
+            "endLine": 116,
+            "startOffset": 63,
+            "endOffset": 72
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOm1r36yrbKLMAcy",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/GizmoAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 83,
+        "hash": "cc736b8c8fd48e474057e8018ac966d2",
+        "textRange": {
+            "startLine": 83,
+            "endLine": 83,
+            "startOffset": 46,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOm1r36yrbKLMAcx",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/GizmoAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 83,
+        "hash": "cc736b8c8fd48e474057e8018ac966d2",
+        "textRange": {
+            "startLine": 83,
+            "endLine": 83,
+            "startOffset": 13,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.sparky.dal.exception.ElasticSearchOperationException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOm1r36yrbKLMAct",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/GizmoAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 290,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 290,
+            "endLine": 290,
+            "startOffset": 15,
+            "endOffset": 16
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOm1r36yrbKLMAcs",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/GizmoAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 285,
+        "hash": "2199685cf2911a22f85f014f69a6f52f",
+        "textRange": {
+            "startLine": 285,
+            "endLine": 285,
+            "startOffset": 21,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAX_",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 56,
+        "hash": "7961daadd09dbd868fbc6e8746790c21",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 23,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static DR_URI_SUFFIX\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAX-",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 53,
+        "hash": "d9ec06bbe963394d3e2be0c86f80fc1b",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 23,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static PORTAL_AUTHENTICATION_FILE_LOCATION\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAX9",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 52,
+        "hash": "be6935c52e84cc9646b018829303b953",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 23,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static ROLES_FILE_LOCATION\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAX8",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 51,
+        "hash": "b54afcd9a131353e26e20b6b259bd5d5",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 23,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static USERS_FILE_LOCATION\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAX7",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 50,
+        "hash": "d094a6729dd0a0b54dfd17664432a199",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 23,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static AUTHORIZED_USERS_FILE_LOCATION\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOlsr36yrbKLMAau",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewinspect/sync/ViewInspectSyncController.java",
+        "project": "onap_aai-sparky-be",
+        "line": 48,
+        "hash": "c9135a83cb661e371236ee9d80dcaa33",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 9,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-12-11T21:43:42+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOmmr36yrbKLMAcU",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/rest/RestOperationalStatistics.java",
+        "project": "onap_aai-sparky-be",
+        "line": 206,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 206,
+            "endLine": 206,
+            "startOffset": 15,
+            "endOffset": 16
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOmmr36yrbKLMAcT",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/rest/RestOperationalStatistics.java",
+        "project": "onap_aai-sparky-be",
+        "line": 187,
+        "hash": "3d861c90b94ee80302bab8df053655c7",
+        "textRange": {
+            "startLine": 187,
+            "endLine": 187,
+            "startOffset": 19,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOmmr36yrbKLMAcS",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/rest/RestOperationalStatistics.java",
+        "project": "onap_aai-sparky-be",
+        "line": 168,
+        "hash": "677663d70f28884b7a4348837d60f604",
+        "textRange": {
+            "startLine": 168,
+            "endLine": 168,
+            "startOffset": 17,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOmmr36yrbKLMAcR",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/rest/RestOperationalStatistics.java",
+        "project": "onap_aai-sparky-be",
+        "line": 149,
+        "hash": "adb76a362407c89ace61cffe37761a1d",
+        "textRange": {
+            "startLine": 149,
+            "endLine": 149,
+            "startOffset": 16,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOmmr36yrbKLMAcQ",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/rest/RestOperationalStatistics.java",
+        "project": "onap_aai-sparky-be",
+        "line": 130,
+        "hash": "d48ab6cc52b3b22d7a549c7c549e7d6d",
+        "textRange": {
+            "startLine": 130,
+            "endLine": 130,
+            "startOffset": 16,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOfjr36yrbKLMATZ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/sync/entity/IndexDocument.java",
+        "project": "onap_aai-sparky-be",
+        "line": 35,
+        "hash": "b5b6d576508b663784b461535d0bc803",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 35,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-12-11T21:43:42+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOm-r36yrbKLMAdD",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/ActiveInventoryAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 453,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 453,
+            "endLine": 453,
+            "startOffset": 15,
+            "endOffset": 16
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-12-11T21:43:42+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOm-r36yrbKLMAdC",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/ActiveInventoryAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 448,
+        "hash": "2199685cf2911a22f85f014f69a6f52f",
+        "textRange": {
+            "startLine": 448,
+            "endLine": 448,
+            "startOffset": 21,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-12-11T21:43:42+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOlwr36yrbKLMAa3",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewinspect/sync/ViewInspectEntitySynchronizer.java",
+        "project": "onap_aai-sparky-be",
+        "line": 121,
+        "hash": "cd2aa9019017aaa2d630dfc51128f709",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 9,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-12-11T21:43:42+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOm-r36yrbKLMAdK",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/ActiveInventoryAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 94,
+        "hash": "cc736b8c8fd48e474057e8018ac966d2",
+        "textRange": {
+            "startLine": 94,
+            "endLine": 94,
+            "startOffset": 46,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOm-r36yrbKLMAdJ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/ActiveInventoryAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 94,
+        "hash": "cc736b8c8fd48e474057e8018ac966d2",
+        "textRange": {
+            "startLine": 94,
+            "endLine": 94,
+            "startOffset": 13,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.sparky.dal.exception.ElasticSearchOperationException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOmfr36yrbKLMAcN",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/rest/RestClientFactory.java",
+        "project": "onap_aai-sparky-be",
+        "line": 28,
+        "hash": "063408672a1ef5838e7c2a6939beaf6c",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOmfr36yrbKLMAcM",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/rest/RestClientFactory.java",
+        "project": "onap_aai-sparky-be",
+        "line": 79,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 15,
+            "endOffset": 16
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOitr36yrbKLMAWj",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/services/VisualizationTransformer.java",
+        "project": "onap_aai-sparky-be",
+        "line": 126,
+        "hash": "87e7767b6516a93e60043723e641dc1b",
+        "textRange": {
+            "startLine": 126,
+            "endLine": 126,
+            "startOffset": 34,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonProcessingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOitr36yrbKLMAWg",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/services/VisualizationTransformer.java",
+        "project": "onap_aai-sparky-be",
+        "line": 83,
+        "hash": "0feed4aa7a59558c0a6003e575bb4953",
+        "textRange": {
+            "startLine": 83,
+            "endLine": 83,
+            "startOffset": 43,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-18T21:58:03+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOn1r36yrbKLMAei",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/crossentityreference/sync/CrossEntityReferenceSynchronizer.java",
+        "project": "onap_aai-sparky-be",
+        "line": 128,
+        "hash": "fed59a931f0db83e8497b7eb87535aaf",
+        "textRange": {
+            "startLine": 128,
+            "endLine": 128,
+            "startOffset": 9,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-12-11T21:43:42+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOg4r36yrbKLMAUU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/sync/SyncControllerImpl.java",
+        "project": "onap_aai-sparky-be",
+        "line": 106,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 106,
+            "endLine": 106,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-12-11T21:43:42+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOg4r36yrbKLMAUP",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/sync/SyncControllerImpl.java",
+        "project": "onap_aai-sparky-be",
+        "line": 652,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 652,
+            "endLine": 652,
+            "startOffset": 15,
+            "endOffset": 16
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOg4r36yrbKLMAUO",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/sync/SyncControllerImpl.java",
+        "project": "onap_aai-sparky-be",
+        "line": 648,
+        "hash": "feab67192269722602dbc4a103e756ec",
+        "textRange": {
+            "startLine": 648,
+            "endLine": 648,
+            "startOffset": 17,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOm1r36yrbKLMAcw",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/GizmoAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 129,
+        "hash": "70323d9aab899b48dbd802ae2fc3ddb0",
+        "textRange": {
+            "startLine": 129,
+            "endLine": 129,
+            "startOffset": 66,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYX",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 57,
+        "hash": "53960555a417d6e007f4b1764a91edf4",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 23,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make DR_CERT_NAME a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYW",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 56,
+        "hash": "7961daadd09dbd868fbc6e8746790c21",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 23,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make DR_URI_SUFFIX a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYV",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 53,
+        "hash": "d9ec06bbe963394d3e2be0c86f80fc1b",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 23,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make PORTAL_AUTHENTICATION_FILE_LOCATION a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYU",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 52,
+        "hash": "be6935c52e84cc9646b018829303b953",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 23,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make ROLES_FILE_LOCATION a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYT",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 51,
+        "hash": "b54afcd9a131353e26e20b6b259bd5d5",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 23,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make USERS_FILE_LOCATION a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYS",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 50,
+        "hash": "d094a6729dd0a0b54dfd17664432a199",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 23,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make AUTHORIZED_USERS_FILE_LOCATION a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYR",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 48,
+        "hash": "1bf52f127f17069d16d4a0b47eb89332",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 23,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make URI a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYQ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 47,
+        "hash": "c548becc9545dc08a717ed735238cdcf",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 23,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make RESOURCE_VERSION a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYP",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 46,
+        "hash": "952160b48f74f68dfd99a54856110cf8",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 23,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make RETRIES a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYO",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 45,
+        "hash": "1e8adf619e0fad63608ddcca9b5ef631",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 23,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make HTTP_PORT a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOnWr36yrbKLMAds",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/autosuggestion/sync/AutosuggestionSynchronizer.java",
+        "project": "onap_aai-sparky-be",
+        "line": 476,
+        "hash": "eca50f41506d185e34fea9f16f6d992e",
+        "textRange": {
+            "startLine": 476,
+            "endLine": 476,
+            "startOffset": 37,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonProcessingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOgxr36yrbKLMAUE",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/sync/SynchronizerConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 32,
+        "hash": "c39774936d9ffc296695b336e053e327",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 27,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOgtr36yrbKLMAUC",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/sync/AbstractEntitySynchronizer.java",
+        "project": "onap_aai-sparky-be",
+        "line": 261,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 261,
+            "endLine": 261,
+            "startOffset": 17,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOgtr36yrbKLMAUB",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/sync/AbstractEntitySynchronizer.java",
+        "project": "onap_aai-sparky-be",
+        "line": 258,
+        "hash": "9a01292fe1d096b8fd82b2755109503e",
+        "textRange": {
+            "startLine": 258,
+            "endLine": 258,
+            "startOffset": 12,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOmCr36yrbKLMAbW",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/security/portal/config/RolesConfig.java",
+        "project": "onap_aai-sparky-be",
+        "line": 79,
+        "hash": "f17a338e55b9d0c0e1f13e74ae9a7cf2",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 63,
+            "endOffset": 81
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.net.URISyntaxException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYN",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 44,
+        "hash": "8b29e4fdb01fab856a034d2f165bf25d",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 23,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make PORT a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOner36yrbKLMAd4",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/autosuggestion/sync/AutoSuggestionSyncController.java",
+        "project": "onap_aai-sparky-be",
+        "line": 43,
+        "hash": "b23ba7007e5e98401cdb957dcfa41cac",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 9,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-12-11T21:43:42+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYB",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 58,
+        "hash": "dafd94e370558b5855747fb9ed2f77c4",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 23,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static DR_KEYSTORE_PASSWORD\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYY",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 58,
+        "hash": "dafd94e370558b5855747fb9ed2f77c4",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 23,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make DR_KEYSTORE_PASSWORD a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYC",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 59,
+        "hash": "c992e96fcb8a1881acbd4c661961c0cb",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 23,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static DR_KEYSTORE\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYZ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 59,
+        "hash": "c992e96fcb8a1881acbd4c661961c0cb",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 23,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make DR_KEYSTORE a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYD",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 60,
+        "hash": "f7ca9a731db5ea108abb091482b315fb",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 23,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static DR_CONNECT_TIMEOUT\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYa",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 60,
+        "hash": "f7ca9a731db5ea108abb091482b315fb",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 23,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make DR_CONNECT_TIMEOUT a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOmfr36yrbKLMAcL",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/rest/RestClientFactory.java",
+        "project": "onap_aai-sparky-be",
+        "line": 66,
+        "hash": "eecd0d1220c553e9f16f8a20f6384106",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 22,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOmfr36yrbKLMAcK",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/rest/RestClientFactory.java",
+        "project": "onap_aai-sparky-be",
+        "line": 47,
+        "hash": "2199685cf2911a22f85f014f69a6f52f",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 21,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOi7r36yrbKLMAXE",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 839,
+        "hash": "982d47c0223a23ad5f446f2a95484fe2",
+        "textRange": {
+            "startLine": 839,
+            "endLine": 839,
+            "startOffset": 19,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYE",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 61,
+        "hash": "b418a2a88f64fb5cdc3f21adc8464ac1",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 23,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static DR_READ_TIMEOUT\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYb",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 61,
+        "hash": "b418a2a88f64fb5cdc3f21adc8464ac1",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 23,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make DR_READ_TIMEOUT a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYF",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 92,
+        "hash": "514200ebb09259216d89b5d09e69a2a5",
+        "textRange": {
+            "startLine": 92,
+            "endLine": 92,
+            "startOffset": 23,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static URI_ATTR_NAME\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYc",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 92,
+        "hash": "514200ebb09259216d89b5d09e69a2a5",
+        "textRange": {
+            "startLine": 92,
+            "endLine": 92,
+            "startOffset": 23,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make URI_ATTR_NAME a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYG",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 28,
+        "hash": "a55dea23959e4d3be86cf0516743c06a",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 23,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make APP_NAME a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOm-r36yrbKLMAdH",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/ActiveInventoryAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 217,
+        "hash": "5ae7bd12b12c0c531f58d158fbd2903a",
+        "textRange": {
+            "startLine": 217,
+            "endLine": 217,
+            "startOffset": 55,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-12-11T21:43:42+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOm-r36yrbKLMAdG",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/ActiveInventoryAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 192,
+        "hash": "4795d7748904c3ed0fcd882a1f654413",
+        "textRange": {
+            "startLine": 192,
+            "endLine": 192,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-27T12:45:04+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOm1r36yrbKLMAcv",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/GizmoAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 123,
+        "hash": "a93588fe98febcdee708b24284e03f16",
+        "textRange": {
+            "startLine": 123,
+            "endLine": 123,
+            "startOffset": 65,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOm1r36yrbKLMAcu",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/GizmoAdapter.java",
+        "project": "onap_aai-sparky-be",
+        "line": 116,
+        "hash": "113804dc6e675f128e4016c785a0d865",
+        "textRange": {
+            "startLine": 116,
+            "endLine": 116,
+            "startOffset": 63,
+            "endOffset": 72
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAX6",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 48,
+        "hash": "1bf52f127f17069d16d4a0b47eb89332",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 23,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static URI\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAX5",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 47,
+        "hash": "c548becc9545dc08a717ed735238cdcf",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 23,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static RESOURCE_VERSION\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAX4",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 46,
+        "hash": "952160b48f74f68dfd99a54856110cf8",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 23,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static RETRIES\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAXz",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 39,
+        "hash": "516ed57a7479fa7749e32bb6a680e169",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 23,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static CONFIG_FILTERS_BASE_LOCATION\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOipr36yrbKLMAWb",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/services/BaseVisualizationService.java",
+        "project": "onap_aai-sparky-be",
+        "line": 76,
+        "hash": "a9d92cfdf5aff248e2c4a14f3edca8d7",
+        "textRange": {
+            "startLine": 76,
+            "endLine": 76,
+            "startOffset": 52,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-25T08:19:12+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAX3",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 45,
+        "hash": "1e8adf619e0fad63608ddcca9b5ef631",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 23,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static HTTP_PORT\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOmxr36yrbKLMAch",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/aai/ActiveInventoryEntityStatistics.java",
+        "project": "onap_aai-sparky-be",
+        "line": 196,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 196,
+            "endLine": 196,
+            "startOffset": 15,
+            "endOffset": 16
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOmxr36yrbKLMAcg",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/aai/ActiveInventoryEntityStatistics.java",
+        "project": "onap_aai-sparky-be",
+        "line": 181,
+        "hash": "d48ab6cc52b3b22d7a549c7c549e7d6d",
+        "textRange": {
+            "startLine": 181,
+            "endLine": 181,
+            "startOffset": 16,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOjHr36yrbKLMAYA",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/config/SparkyConstants.java",
+        "project": "onap_aai-sparky-be",
+        "line": 57,
+        "hash": "53960555a417d6e007f4b1764a91edf4",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 23,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static DR_CERT_NAME\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-12-20T05:13:38+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOizr36yrbKLMAWw",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseGizmoVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 608,
+        "hash": "48d149531a12cfe2fecd249408207af5",
+        "textRange": {
+            "startLine": 608,
+            "endLine": 608,
+            "startOffset": 45,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOizr36yrbKLMAWv",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseGizmoVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 603,
+        "hash": "a8051c2b27d3f84ea7fb44a346295c44",
+        "textRange": {
+            "startLine": 603,
+            "endLine": 603,
+            "startOffset": 35,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOizr36yrbKLMAWu",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseGizmoVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 599,
+        "hash": "e58180a482c552d9cda3acd61b2a4c4b",
+        "textRange": {
+            "startLine": 599,
+            "endLine": 599,
+            "startOffset": 20,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOizr36yrbKLMAWt",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseGizmoVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 593,
+        "hash": "982d47c0223a23ad5f446f2a95484fe2",
+        "textRange": {
+            "startLine": 593,
+            "endLine": 593,
+            "startOffset": 19,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOizr36yrbKLMAWs",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseGizmoVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 549,
+        "hash": "48d149531a12cfe2fecd249408207af5",
+        "textRange": {
+            "startLine": 549,
+            "endLine": 549,
+            "startOffset": 47,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOizr36yrbKLMAWr",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseGizmoVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 544,
+        "hash": "a8051c2b27d3f84ea7fb44a346295c44",
+        "textRange": {
+            "startLine": 544,
+            "endLine": 544,
+            "startOffset": 37,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOizr36yrbKLMAWq",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseGizmoVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 539,
+        "hash": "e58180a482c552d9cda3acd61b2a4c4b",
+        "textRange": {
+            "startLine": 539,
+            "endLine": 539,
+            "startOffset": 22,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOizr36yrbKLMAWp",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseGizmoVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 535,
+        "hash": "656fb15db1ca8b8ac0879004bae5dee2",
+        "textRange": {
+            "startLine": 535,
+            "endLine": 535,
+            "startOffset": 22,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOizr36yrbKLMAWo",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/context/BaseGizmoVisualizationContext.java",
+        "project": "onap_aai-sparky-be",
+        "line": 530,
+        "hash": "982d47c0223a23ad5f446f2a95484fe2",
+        "textRange": {
+            "startLine": 530,
+            "endLine": 530,
+            "startOffset": 21,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-03-08T18:59:30+0100",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOkVr36yrbKLMAZj",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/search/entity/QuerySearchEntity.java",
+        "project": "onap_aai-sparky-be",
+        "line": 32,
+        "hash": "4a7498be14a45ab7bd84ffea68d5581e",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 16,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make queryStr a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOkVr36yrbKLMAZi",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/search/entity/QuerySearchEntity.java",
+        "project": "onap_aai-sparky-be",
+        "line": 31,
+        "hash": "733d9554346fb3fc928afc65670b5cbb",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 16,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make maxResults a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOhbr36yrbKLMAUo",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/util/SuggestionsPermutation.java",
+        "project": "onap_aai-sparky-be",
+        "line": 26,
+        "hash": "02fc21721c32654acc1136718afb3819",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOhfr36yrbKLMAUx",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/util/ConfigHelper.java",
+        "project": "onap_aai-sparky-be",
+        "line": 79,
+        "hash": "d8b304761054b57ff516359f7d3acd04",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 62,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOnMr36yrbKLMAdY",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/aggregatevnf/search/VnfSearchQueryBuilder.java",
+        "project": "onap_aai-sparky-be",
+        "line": 37,
+        "hash": "01ff0b55e4c1fc1ef0226e00eefbff31",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 13,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOnjr36yrbKLMAd_",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/logging/util/ServletUtils.java",
+        "project": "onap_aai-sparky-be",
+        "line": 46,
+        "hash": "7fe752f465508da4030629907a7fc05a",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 13,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOnjr36yrbKLMAd-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/logging/util/ServletUtils.java",
+        "project": "onap_aai-sparky-be",
+        "line": 85,
+        "hash": "35d0feefb3c52c5453a033c5be829702",
+        "textRange": {
+            "startLine": 85,
+            "endLine": 85,
+            "startOffset": 89,
+            "endOffset": 98
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOnjr36yrbKLMAd9",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/logging/util/ServletUtils.java",
+        "project": "onap_aai-sparky-be",
+        "line": 59,
+        "hash": "a570d1d1ade301cd6017645b60996bbe",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 62,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lPOngr36yrbKLMAd7",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-sparky-be:sparkybe-onap-service/src/main/java/org/onap/aai/sparky/logging/util/LoggingUtils.java",
+        "project": "onap_aai-sparky-be",
+        "line": 26,
+        "hash": "9fc05f2cfe9bd582751928f0e7a6721e",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-06-12T22:41:28+0200",
+        "updateDate": "2019-11-26T02:01:55+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

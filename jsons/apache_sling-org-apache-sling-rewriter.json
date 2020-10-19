@@ -1,0 +1,294 @@
+[
+    {
+        "key": "AWow8E_dK1LJlmpkN21b",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-rewriter:src/main/java/org/apache/sling/rewriter/impl/RewriterResponse.java",
+        "project": "apache_sling-org-apache-sling-rewriter",
+        "line": 148,
+        "hash": "a77938e22b137612a2d668121f6b8c86",
+        "textRange": {
+            "startLine": 148,
+            "endLine": 148,
+            "startOffset": 37,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T16:53:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWow8E_1K1LJlmpkN21v",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-rewriter:src/main/java/org/apache/sling/rewriter/impl/HashingServiceTrackerCustomizer.java",
+        "project": "apache_sling-org-apache-sling-rewriter",
+        "line": 49,
+        "hash": "4ed98c550fa3c64720bcbe79a6e87bbe",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 26,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make service a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2016-06-23T09:34:05+0200",
+        "updateDate": "2019-04-18T16:53:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWow8E-xK1LJlmpkN20x",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-rewriter:src/main/java/org/apache/sling/rewriter/impl/TransformerFactoryServiceTracker.java",
+        "project": "apache_sling-org-apache-sling-rewriter",
+        "line": 44,
+        "hash": "c877fe7aec41de8640843aaa84b48b02",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 47,
+            "endOffset": 73
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2016-06-23T09:34:05+0200",
+        "updateDate": "2019-04-18T16:53:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWow8E-xK1LJlmpkN20w",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-rewriter:src/main/java/org/apache/sling/rewriter/impl/TransformerFactoryServiceTracker.java",
+        "project": "apache_sling-org-apache-sling-rewriter",
+        "line": 41,
+        "hash": "14a3c3e8b6dfeb9456b040ebbe9fe037",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 52,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2016-06-23T09:34:05+0200",
+        "updateDate": "2019-04-18T16:53:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWow8E-4K1LJlmpkN203",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-rewriter:src/main/java/org/apache/sling/rewriter/impl/components/AbstractTraxSerializerFactory.java",
+        "project": "apache_sling-org-apache-sling-rewriter",
+        "line": 105,
+        "hash": "7adea5702358ae5bb0355f90e2523891",
+        "textRange": {
+            "startLine": 105,
+            "endLine": 105,
+            "startOffset": 59,
+            "endOffset": 68
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2009-10-14T08:54:42+0200",
+        "updateDate": "2019-04-18T16:53:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWow8E_ZK1LJlmpkN21U",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-rewriter:src/main/java/org/apache/sling/rewriter/impl/FactoryCache.java",
+        "project": "apache_sling-org-apache-sling-rewriter",
+        "line": 84,
+        "hash": "781df098a0506c2a1f4f36c9fd9f1604",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 11,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.osgi.framework.InvalidSyntaxException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T16:53:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWow8E_ZK1LJlmpkN21T",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-rewriter:src/main/java/org/apache/sling/rewriter/impl/FactoryCache.java",
+        "project": "apache_sling-org-apache-sling-rewriter",
+        "line": 221,
+        "hash": "5940f67aea096d17f9cf594d8b65863a",
+        "textRange": {
+            "startLine": 221,
+            "endLine": 221,
+            "startOffset": 49,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make INSTANCE a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T16:53:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWow8E_ZK1LJlmpkN21S",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-rewriter:src/main/java/org/apache/sling/rewriter/impl/FactoryCache.java",
+        "project": "apache_sling-org-apache-sling-rewriter",
+        "line": 221,
+        "hash": "5940f67aea096d17f9cf594d8b65863a",
+        "textRange": {
+            "startLine": 221,
+            "endLine": 221,
+            "startOffset": 49,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static INSTANCE\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T16:53:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWow8E_kK1LJlmpkN21i",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-rewriter:src/main/java/org/apache/sling/rewriter/impl/ProcessingComponentConfigurationImpl.java",
+        "project": "apache_sling-org-apache-sling-rewriter",
+        "line": 33,
+        "hash": "6c20e350c524bcc5595b307eaa1f65cc",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 33,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2009-08-18T16:30:34+0200",
+        "updateDate": "2019-04-18T16:53:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWow8E_oK1LJlmpkN21l",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-rewriter:src/main/java/org/apache/sling/rewriter/impl/ProcessorConfigurationImpl.java",
+        "project": "apache_sling-org-apache-sling-rewriter",
+        "line": 122,
+        "hash": "fdf23cd7cdda0176330e8325e4641627",
+        "textRange": {
+            "startLine": 122,
+            "endLine": 122,
+            "startOffset": 11,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-18T16:53:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

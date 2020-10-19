@@ -1,0 +1,1016 @@
+[
+    {
+        "key": "AW6lM3Dnk4KhMkVz5fxd",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/schema/RelationshipSchemaValidator.java",
+        "project": "onap_aai-gizmo",
+        "line": 42,
+        "hash": "aeb544e8868de4b40ba61139657b820b",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 13,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-01-30T16:48:22+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3Ddk4KhMkVz5fxJ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/schema/OxmModelLoader.java",
+        "project": "onap_aai-gizmo",
+        "line": 80,
+        "hash": "8592870eee2a06743fe459d5debfaa5e",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 56,
+            "endOffset": 69
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.crud.exception.CrudException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-11-29T10:47:16+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3Dxk4KhMkVz5fxv",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/schema/EdgeRulesLoader.java",
+        "project": "onap_aai-gizmo",
+        "line": 232,
+        "hash": "83c98fa66a46822f3139f9851c3c3220",
+        "textRange": {
+            "startLine": 232,
+            "endLine": 232,
+            "startOffset": 112,
+            "endOffset": 125
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.crud.exception.CrudException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-11-29T10:47:16+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3Aak4KhMkVz5fvW",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/util/CrudServiceConstants.java",
+        "project": "onap_aai-gizmo",
+        "line": 23,
+        "hash": "883ff56d4df5045cdbde840be26e1d57",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-03T17:28:39+0200",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM2-jk4KhMkVz5fuQ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/dao/champ/ChampBulkPayload.java",
+        "project": "onap_aai-gizmo",
+        "line": 52,
+        "hash": "100371c0008c1a58fc956342f9c06edb",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 23,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make DELETE_OP a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-02-13T16:30:26+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM2-jk4KhMkVz5fuM",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/dao/champ/ChampBulkPayload.java",
+        "project": "onap_aai-gizmo",
+        "line": 52,
+        "hash": "100371c0008c1a58fc956342f9c06edb",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 23,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static DELETE_OP\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-02-13T16:30:26+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM2-jk4KhMkVz5fuP",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/dao/champ/ChampBulkPayload.java",
+        "project": "onap_aai-gizmo",
+        "line": 51,
+        "hash": "dadb84739acea3b32df568f75145e033",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 23,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make UPDATE_OP a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-02-13T16:30:26+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM2-jk4KhMkVz5fuL",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/dao/champ/ChampBulkPayload.java",
+        "project": "onap_aai-gizmo",
+        "line": 51,
+        "hash": "dadb84739acea3b32df568f75145e033",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 23,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static UPDATE_OP\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-02-13T16:30:26+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM2-jk4KhMkVz5fuO",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/dao/champ/ChampBulkPayload.java",
+        "project": "onap_aai-gizmo",
+        "line": 50,
+        "hash": "6232d806beef477c5200f580fe88c19d",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 23,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make ADD_OP a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-02-13T16:30:26+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3EHk4KhMkVz5fyD",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/schema/RelationshipSchema.java",
+        "project": "onap_aai-gizmo",
+        "line": 52,
+        "hash": "5e8821500b80744de4514fdc29b8e3ec",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 83,
+            "endOffset": 96
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.crud.exception.CrudException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-06-13T14:54:06+0200",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM2-jk4KhMkVz5fuK",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/dao/champ/ChampBulkPayload.java",
+        "project": "onap_aai-gizmo",
+        "line": 50,
+        "hash": "6232d806beef477c5200f580fe88c19d",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 23,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static ADD_OP\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-02-13T16:30:26+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3AHk4KhMkVz5fvT",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/util/CrudProperties.java",
+        "project": "onap_aai-gizmo",
+        "line": 30,
+        "hash": "2571c67dac4023a5942bfa40d3cdffc0",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-03T17:28:39+0200",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM2_9k4KhMkVz5fvN",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/util/CrudServiceUtil.java",
+        "project": "onap_aai-gizmo",
+        "line": 41,
+        "hash": "079e7e34d5e86affefa93072a9f36a16",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-03T17:28:39+0200",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3CCk4KhMkVz5fwK",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/service/CrudRestService.java",
+        "project": "onap_aai-gizmo",
+        "line": 1040,
+        "hash": "f533da2381d36f5ca5a11b81b09cfaa3",
+        "textRange": {
+            "startLine": 1040,
+            "endLine": 1040,
+            "startOffset": 20,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-11-07T16:37:47+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3CCk4KhMkVz5fwJ",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/service/CrudRestService.java",
+        "project": "onap_aai-gizmo",
+        "line": 996,
+        "hash": "36111dfd4583d0628cb8112b4a7712c5",
+        "textRange": {
+            "startLine": 996,
+            "endLine": 996,
+            "startOffset": 20,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-11-07T16:37:47+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3C9k4KhMkVz5fwd",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/logging/LoggingUtil.java",
+        "project": "onap_aai-gizmo",
+        "line": 34,
+        "hash": "3d0fcdc9f69a8599c232b576ee986bdf",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-03T17:28:39+0200",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3CCk4KhMkVz5fwL",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/service/CrudRestService.java",
+        "project": "onap_aai-gizmo",
+        "line": 86,
+        "hash": "2d94364b32447a7553c12d212c169599",
+        "textRange": {
+            "startLine": 86,
+            "endLine": 86,
+            "startOffset": 77,
+            "endOffset": 86
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-12-20T16:21:46+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3CCk4KhMkVz5fwM",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/service/CrudRestService.java",
+        "project": "onap_aai-gizmo",
+        "line": 99,
+        "hash": "f2fd9bba1534a76eb1b930e213ceb36d",
+        "textRange": {
+            "startLine": 99,
+            "endLine": 99,
+            "startOffset": 88,
+            "endOffset": 97
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-15T18:53:15+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3B5k4KhMkVz5fv3",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/service/CrudAsyncGraphEventCache.java",
+        "project": "onap_aai-gizmo",
+        "line": 37,
+        "hash": "cd390c3e9483e57849678e1794cbbc52",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 13,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-12-06T22:36:28+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3CCk4KhMkVz5fwD",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/service/CrudRestService.java",
+        "project": "onap_aai-gizmo",
+        "line": 126,
+        "hash": "c9db9fedcf028f0a54d437acaf53ad4f",
+        "textRange": {
+            "startLine": 126,
+            "endLine": 126,
+            "startOffset": 20,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-11-07T16:37:47+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3CCk4KhMkVz5fwE",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/service/CrudRestService.java",
+        "project": "onap_aai-gizmo",
+        "line": 227,
+        "hash": "5e5ebe49a07b7d29068ac35af08452de",
+        "textRange": {
+            "startLine": 227,
+            "endLine": 227,
+            "startOffset": 20,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-11-07T16:37:47+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3CCk4KhMkVz5fwF",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/service/CrudRestService.java",
+        "project": "onap_aai-gizmo",
+        "line": 325,
+        "hash": "df5f0660abc6626c2ab86dc6f47bafd3",
+        "textRange": {
+            "startLine": 325,
+            "endLine": 325,
+            "startOffset": 20,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-11-07T16:37:47+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3CCk4KhMkVz5fwG",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/service/CrudRestService.java",
+        "project": "onap_aai-gizmo",
+        "line": 392,
+        "hash": "87be75d40271eaa0737ce679c61911c5",
+        "textRange": {
+            "startLine": 392,
+            "endLine": 392,
+            "startOffset": 20,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-11-07T16:37:47+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3CCk4KhMkVz5fwH",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/service/CrudRestService.java",
+        "project": "onap_aai-gizmo",
+        "line": 452,
+        "hash": "26473fbc254a474bd815bc2405115523",
+        "textRange": {
+            "startLine": 452,
+            "endLine": 452,
+            "startOffset": 20,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-11-07T16:37:47+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3CCk4KhMkVz5fwI",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/service/CrudRestService.java",
+        "project": "onap_aai-gizmo",
+        "line": 524,
+        "hash": "13ab9536b7da05f47f99d76696beb54d",
+        "textRange": {
+            "startLine": 524,
+            "endLine": 524,
+            "startOffset": 20,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-11-07T16:37:47+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3DRk4KhMkVz5fxD",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/parser/CrudResponseBuilder.java",
+        "project": "onap_aai-gizmo",
+        "line": 179,
+        "hash": "f1de65678d9013f8e59f30cb2fbdd10d",
+        "textRange": {
+            "startLine": 179,
+            "endLine": 179,
+            "startOffset": 86,
+            "endOffset": 99
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.crud.exception.CrudException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-11-16T21:21:11+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3DRk4KhMkVz5fxC",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/parser/CrudResponseBuilder.java",
+        "project": "onap_aai-gizmo",
+        "line": 162,
+        "hash": "3c28c6755036c1179efd7adf58967187",
+        "textRange": {
+            "startLine": 162,
+            "endLine": 162,
+            "startOffset": 78,
+            "endOffset": 91
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.crud.exception.CrudException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-03T17:28:39+0200",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3DRk4KhMkVz5fw-",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/parser/CrudResponseBuilder.java",
+        "project": "onap_aai-gizmo",
+        "line": 84,
+        "hash": "0d1dc58fa1f9717f77d1a62b4cccb508",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 87,
+            "endOffset": 100
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.crud.exception.CrudException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-11-16T21:21:11+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3DRk4KhMkVz5fxB",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/parser/CrudResponseBuilder.java",
+        "project": "onap_aai-gizmo",
+        "line": 140,
+        "hash": "98aad899435f3bd4d5ca76315780621c",
+        "textRange": {
+            "startLine": 140,
+            "endLine": 140,
+            "startOffset": 91,
+            "endOffset": 104
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.crud.exception.CrudException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-11-16T21:21:11+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM2-jk4KhMkVz5fuR",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/dao/champ/ChampBulkPayload.java",
+        "project": "onap_aai-gizmo",
+        "line": 53,
+        "hash": "a9ea81c1a08769ebf7758b9db5ea4c0a",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 23,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make PATCH_OP a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-02-13T16:30:26+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM2-jk4KhMkVz5fuN",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/dao/champ/ChampBulkPayload.java",
+        "project": "onap_aai-gizmo",
+        "line": 53,
+        "hash": "a9ea81c1a08769ebf7758b9db5ea4c0a",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 23,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static PATCH_OP\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-02-13T16:30:26+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3DRk4KhMkVz5fw7",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/parser/CrudResponseBuilder.java",
+        "project": "onap_aai-gizmo",
+        "line": 40,
+        "hash": "49e3e2bba0c80f93c983f85db52c43d1",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 13,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-03T17:28:39+0200",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM29Gk4KhMkVz5fuB",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/CrudApplication.java",
+        "project": "onap_aai-gizmo",
+        "line": 54,
+        "hash": "c1818c931e7a3a86ad317c521b846af3",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-01T13:59:23+0200",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3Czk4KhMkVz5fwb",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/exception/CrudException.java",
+        "project": "onap_aai-gizmo",
+        "line": 29,
+        "hash": "d72cd3d05561d31296dab4031f8cd19d",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 19,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"httpStatus\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-08-03T17:28:39+0200",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lM3CCk4KhMkVz5fwO",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-gizmo:src/main/java/org/onap/crud/service/CrudRestService.java",
+        "project": "onap_aai-gizmo",
+        "line": 99,
+        "hash": "f2fd9bba1534a76eb1b930e213ceb36d",
+        "textRange": {
+            "startLine": 99,
+            "endLine": 99,
+            "startOffset": 88,
+            "endOffset": 97
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-15T18:53:15+0100",
+        "updateDate": "2019-11-26T01:53:39+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

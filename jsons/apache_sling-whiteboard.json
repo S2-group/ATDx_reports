@@ -1,0 +1,1568 @@
+[
+    {
+        "key": "AXHqOTc0bmmyCS58sr-T",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/TokenStore.java",
+        "project": "apache_sling-whiteboard",
+        "line": 171,
+        "hash": "094b6c75f8401ae9cc610c71b5538809",
+        "textRange": {
+            "startLine": 171,
+            "endLine": 171,
+            "startOffset": 71,
+            "endOffset": 92
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-21T23:22:23+0100",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTc0bmmyCS58sr-S",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/TokenStore.java",
+        "project": "apache_sling-whiteboard",
+        "line": 163,
+        "hash": "b09560dce44732c2277562a1b24e68b8",
+        "textRange": {
+            "startLine": 163,
+            "endLine": 163,
+            "startOffset": 19,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-21T23:22:23+0100",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTc0bmmyCS58sr-Q",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/TokenStore.java",
+        "project": "apache_sling-whiteboard",
+        "line": 118,
+        "hash": "eca9ecbf6f8feba29ed9f1df5cc04dbd",
+        "textRange": {
+            "startLine": 118,
+            "endLine": 118,
+            "startOffset": 33,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-21T23:22:23+0100",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXFfOT5RaPDFCRVJUA8X",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:SlingModelPersist/src/main/java/org/apache/sling/models/persistor/impl/ModelPersistorImpl.java",
+        "project": "apache_sling-whiteboard",
+        "line": 176,
+        "hash": "01ba14eaa9b5b2eaaac78d941e465ad7",
+        "textRange": {
+            "startLine": 176,
+            "endLine": 176,
+            "startOffset": 172,
+            "endOffset": 196
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-08-29T16:52:24+0200",
+        "updateDate": "2020-04-09T15:55:02+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTcZbmmyCS58sr98",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/AuthenticationHandlerSAML2.java",
+        "project": "apache_sling-whiteboard",
+        "line": 131,
+        "hash": "5a1568f18faa2d6ede445e659818f23e",
+        "textRange": {
+            "startLine": 131,
+            "endLine": 131,
+            "startOffset": 66,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-04-01T00:27:14+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTcZbmmyCS58sr9y",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/AuthenticationHandlerSAML2.java",
+        "project": "apache_sling-whiteboard",
+        "line": 391,
+        "hash": "d9296fb4f9d8c04d45fddc01769abacf",
+        "textRange": {
+            "startLine": 391,
+            "endLine": 391,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-01T00:27:14+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTcZbmmyCS58sr9w",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/AuthenticationHandlerSAML2.java",
+        "project": "apache_sling-whiteboard",
+        "line": 375,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 375,
+            "endLine": 375,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-30T22:44:05+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTcZbmmyCS58sr9x",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/AuthenticationHandlerSAML2.java",
+        "project": "apache_sling-whiteboard",
+        "line": 382,
+        "hash": "3da468580830564d65b8b889dfb5bee4",
+        "textRange": {
+            "startLine": 382,
+            "endLine": 382,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-01T00:27:14+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTY3bmmyCS58sr8v",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/sp/KeyPairCredentials.java",
+        "project": "apache_sling-whiteboard",
+        "line": 60,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-03T23:16:57+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTY3bmmyCS58sr8w",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/sp/KeyPairCredentials.java",
+        "project": "apache_sling-whiteboard",
+        "line": 67,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-03T23:16:57+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTcCbmmyCS58sr9i",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/Activator.java",
+        "project": "apache_sling-whiteboard",
+        "line": 57,
+        "hash": "cca4fda0b0df40fbed409d9a01fe3da9",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 22,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-19T18:51:57+0100",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTbFbmmyCS58sr8_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/sp/VerifySignatureCredentials.java",
+        "project": "apache_sling-whiteboard",
+        "line": 57,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-03T23:16:57+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTbFbmmyCS58sr8-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/sp/VerifySignatureCredentials.java",
+        "project": "apache_sling-whiteboard",
+        "line": 55,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-03T23:16:57+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTbFbmmyCS58sr89",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/sp/VerifySignatureCredentials.java",
+        "project": "apache_sling-whiteboard",
+        "line": 53,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-03T23:16:57+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTbFbmmyCS58sr88",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/sp/VerifySignatureCredentials.java",
+        "project": "apache_sling-whiteboard",
+        "line": 51,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-03T23:16:57+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTbFbmmyCS58sr87",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/sp/VerifySignatureCredentials.java",
+        "project": "apache_sling-whiteboard",
+        "line": 49,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-03T23:16:57+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvk9MogKPT9GnU7xd14",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:SlingModelPersist/src/main/java/org/apache/sling/models/persistor/impl/ModelPersistorImpl.java",
+        "project": "apache_sling-whiteboard",
+        "line": 208,
+        "hash": "90439e9b3a509ff8018d6fcdd12f7e0c",
+        "textRange": {
+            "startLine": 208,
+            "endLine": 208,
+            "startOffset": 178,
+            "endOffset": 202
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-05-29T22:49:31+0200",
+        "updateDate": "2019-07-12T08:52:38+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvk9MogKPT9GnU7xd18",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:SlingModelPersist/src/main/java/org/apache/sling/models/persistor/impl/ModelPersistorImpl.java",
+        "project": "apache_sling-whiteboard",
+        "line": 244,
+        "hash": "c65bed583d0a072682100d39441aa87a",
+        "textRange": {
+            "startLine": 244,
+            "endLine": 244,
+            "startOffset": 171,
+            "endOffset": 195
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-05-29T22:49:31+0200",
+        "updateDate": "2019-07-12T08:52:38+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvk9MogKPT9GnU7xd19",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:SlingModelPersist/src/main/java/org/apache/sling/models/persistor/impl/ModelPersistorImpl.java",
+        "project": "apache_sling-whiteboard",
+        "line": 276,
+        "hash": "88f221d286ab9380dea8ad479611cced",
+        "textRange": {
+            "startLine": 276,
+            "endLine": 276,
+            "startOffset": 75,
+            "endOffset": 99
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-05-29T22:49:31+0200",
+        "updateDate": "2019-07-12T08:52:38+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTcZbmmyCS58sr9s",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/AuthenticationHandlerSAML2.java",
+        "project": "apache_sling-whiteboard",
+        "line": 294,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 294,
+            "endLine": 294,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-21T23:22:23+0100",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTcZbmmyCS58sr92",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/AuthenticationHandlerSAML2.java",
+        "project": "apache_sling-whiteboard",
+        "line": 656,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 656,
+            "endLine": 656,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-01T00:27:14+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTcZbmmyCS58sr9v",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/AuthenticationHandlerSAML2.java",
+        "project": "apache_sling-whiteboard",
+        "line": 362,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 362,
+            "endLine": 362,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-30T22:44:05+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTb1bmmyCS58sr9c",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/impl/Saml2UserMgtServiceImpl.java",
+        "project": "apache_sling-whiteboard",
+        "line": 56,
+        "hash": "a7acb3108a1fc5329b748ba035c74d00",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 25,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make SERVICE_USER a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-03-18T21:43:52+0100",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTb1bmmyCS58sr9Y",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/impl/Saml2UserMgtServiceImpl.java",
+        "project": "apache_sling-whiteboard",
+        "line": 56,
+        "hash": "a7acb3108a1fc5329b748ba035c74d00",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 25,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static SERVICE_USER\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-03-18T21:43:52+0100",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTb1bmmyCS58sr9b",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/impl/Saml2UserMgtServiceImpl.java",
+        "project": "apache_sling-whiteboard",
+        "line": 55,
+        "hash": "30542f487ac894755193ff04c21c73fe",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 25,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make SERVICE_NAME a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-03-18T21:43:52+0100",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTb1bmmyCS58sr9X",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/impl/Saml2UserMgtServiceImpl.java",
+        "project": "apache_sling-whiteboard",
+        "line": 55,
+        "hash": "30542f487ac894755193ff04c21c73fe",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 25,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static SERVICE_NAME\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2020-03-18T21:43:52+0100",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvk9M5NKPT9GnU7xd2F",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:SlingModelPersist/src/main/java/org/apache/sling/models/persistor/ModelPersistor.java",
+        "project": "apache_sling-whiteboard",
+        "line": 37,
+        "hash": "73d509bdec30690afc9279efec3989d3",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 173,
+            "endOffset": 197
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-05-29T22:49:31+0200",
+        "updateDate": "2019-07-12T08:52:38+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvk9M5NKPT9GnU7xd2E",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:SlingModelPersist/src/main/java/org/apache/sling/models/persistor/ModelPersistor.java",
+        "project": "apache_sling-whiteboard",
+        "line": 35,
+        "hash": "4859691e2646bf3b743b1e925491dceb",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 152,
+            "endOffset": 176
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-05-29T22:49:31+0200",
+        "updateDate": "2019-07-12T08:52:38+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTcZbmmyCS58sr9t",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/AuthenticationHandlerSAML2.java",
+        "project": "apache_sling-whiteboard",
+        "line": 304,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 304,
+            "endLine": 304,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-21T23:22:23+0100",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvk9MogKPT9GnU7xd10",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:SlingModelPersist/src/main/java/org/apache/sling/models/persistor/impl/ModelPersistorImpl.java",
+        "project": "apache_sling-whiteboard",
+        "line": 98,
+        "hash": "488129b2e9b04bcf2807b28afdaf90ed",
+        "textRange": {
+            "startLine": 98,
+            "endLine": 98,
+            "startOffset": 62,
+            "endOffset": 86
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-05-29T22:49:31+0200",
+        "updateDate": "2019-07-12T08:52:38+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvk9MogKPT9GnU7xd1z",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:SlingModelPersist/src/main/java/org/apache/sling/models/persistor/impl/ModelPersistorImpl.java",
+        "project": "apache_sling-whiteboard",
+        "line": 91,
+        "hash": "c70cf78519c63bb1d3594a72ff817c54",
+        "textRange": {
+            "startLine": 91,
+            "endLine": 91,
+            "startOffset": 85,
+            "endOffset": 109
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-05-29T22:49:31+0200",
+        "updateDate": "2019-07-12T08:52:38+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvk9MogKPT9GnU7xd1y",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:SlingModelPersist/src/main/java/org/apache/sling/models/persistor/impl/ModelPersistorImpl.java",
+        "project": "apache_sling-whiteboard",
+        "line": 84,
+        "hash": "d2678b5cc44bbb8eaf22e3e8b57770d9",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 171,
+            "endOffset": 195
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-05-29T22:49:31+0200",
+        "updateDate": "2019-07-12T08:52:38+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvk9MogKPT9GnU7xd1x",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:SlingModelPersist/src/main/java/org/apache/sling/models/persistor/impl/ModelPersistorImpl.java",
+        "project": "apache_sling-whiteboard",
+        "line": 79,
+        "hash": "facecb9eea3c01ba4b5c5f52cc00e703",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 129,
+            "endOffset": 153
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-05-29T22:49:31+0200",
+        "updateDate": "2019-07-12T08:52:38+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTcobmmyCS58sr-M",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/Helpers.java",
+        "project": "apache_sling-whiteboard",
+        "line": 47,
+        "hash": "7ac7432e6e99bb41e4e423b631c29bb0",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 13,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-14T23:48:29+0100",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvk9M5NKPT9GnU7xd2D",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:SlingModelPersist/src/main/java/org/apache/sling/models/persistor/ModelPersistor.java",
+        "project": "apache_sling-whiteboard",
+        "line": 33,
+        "hash": "64db313734cec0dd669f97e3faa75ed3",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 156,
+            "endOffset": 180
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-05-29T22:49:31+0200",
+        "updateDate": "2019-07-12T08:52:38+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvk9M5MKPT9GnU7xd2C",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:SlingModelPersist/src/main/java/org/apache/sling/models/persistor/ModelPersistor.java",
+        "project": "apache_sling-whiteboard",
+        "line": 31,
+        "hash": "ed006847d3aa0a47c070eb48ffc63314",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 135,
+            "endOffset": 159
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-05-29T22:49:31+0200",
+        "updateDate": "2019-07-12T08:52:38+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTY3bmmyCS58sr8z",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/sp/KeyPairCredentials.java",
+        "project": "apache_sling-whiteboard",
+        "line": 32,
+        "hash": "cdc25f22c0c9b50873e825f852af9421",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 13,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-04-03T23:24:05+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTY3bmmyCS58sr8u",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/sp/KeyPairCredentials.java",
+        "project": "apache_sling-whiteboard",
+        "line": 58,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-03T23:16:57+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTY3bmmyCS58sr8t",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/sp/KeyPairCredentials.java",
+        "project": "apache_sling-whiteboard",
+        "line": 56,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-03T23:16:57+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTY3bmmyCS58sr8s",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/sp/KeyPairCredentials.java",
+        "project": "apache_sling-whiteboard",
+        "line": 54,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-03T23:16:57+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTY3bmmyCS58sr8r",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/sp/KeyPairCredentials.java",
+        "project": "apache_sling-whiteboard",
+        "line": 52,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-03T23:16:57+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvk9MogKPT9GnU7xd1-",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:SlingModelPersist/src/main/java/org/apache/sling/models/persistor/impl/ModelPersistorImpl.java",
+        "project": "apache_sling-whiteboard",
+        "line": 276,
+        "hash": "88f221d286ab9380dea8ad479611cced",
+        "textRange": {
+            "startLine": 276,
+            "endLine": 276,
+            "startOffset": 101,
+            "endOffset": 123
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-05-29T22:49:31+0200",
+        "updateDate": "2019-07-12T08:52:38+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWvk9MogKPT9GnU7xd16",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-whiteboard:SlingModelPersist/src/main/java/org/apache/sling/models/persistor/impl/ModelPersistorImpl.java",
+        "project": "apache_sling-whiteboard",
+        "line": 230,
+        "hash": "722a882d3fea2461885f50b1d349d361",
+        "textRange": {
+            "startLine": 230,
+            "endLine": 230,
+            "startOffset": 177,
+            "endOffset": 201
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-05-29T22:49:31+0200",
+        "updateDate": "2019-07-12T08:52:38+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTbFbmmyCS58sr9E",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/sp/VerifySignatureCredentials.java",
+        "project": "apache_sling-whiteboard",
+        "line": 34,
+        "hash": "f22aeab467bd6c3ad3c777de5990c24e",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 13,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-04-03T23:24:05+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTcZbmmyCS58sr9u",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/AuthenticationHandlerSAML2.java",
+        "project": "apache_sling-whiteboard",
+        "line": 360,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 360,
+            "endLine": 360,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-30T22:44:05+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTcZbmmyCS58sr91",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/AuthenticationHandlerSAML2.java",
+        "project": "apache_sling-whiteboard",
+        "line": 654,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 654,
+            "endLine": 654,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-01T00:27:14+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTcZbmmyCS58sr90",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/AuthenticationHandlerSAML2.java",
+        "project": "apache_sling-whiteboard",
+        "line": 540,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 540,
+            "endLine": 540,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-30T22:44:05+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTY3bmmyCS58sr8q",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/sp/KeyPairCredentials.java",
+        "project": "apache_sling-whiteboard",
+        "line": 50,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-03T23:16:57+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTbFbmmyCS58sr9A",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/sp/VerifySignatureCredentials.java",
+        "project": "apache_sling-whiteboard",
+        "line": 64,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-03T23:16:57+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTcZbmmyCS58sr93",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/AuthenticationHandlerSAML2.java",
+        "project": "apache_sling-whiteboard",
+        "line": 658,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 658,
+            "endLine": 658,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-01T00:27:14+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTcZbmmyCS58sr94",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/AuthenticationHandlerSAML2.java",
+        "project": "apache_sling-whiteboard",
+        "line": 660,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 660,
+            "endLine": 660,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-01T00:27:14+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHqOTcZbmmyCS58sr9z",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-whiteboard:saml-handler/src/main/java/org/apache/sling/auth/saml2/AuthenticationHandlerSAML2.java",
+        "project": "apache_sling-whiteboard",
+        "line": 467,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 467,
+            "endLine": 467,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-30T22:44:05+0200",
+        "updateDate": "2020-05-06T15:41:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

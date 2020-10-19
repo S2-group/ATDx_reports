@@ -1,0 +1,1825 @@
+[
+    {
+        "key": "AWogfAXS1dBUQTlhKb5r",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/scripting/SlingScriptResolver.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 36,
+        "hash": "b934f194fc58a06336a1b5a102f18a32",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 17,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAXH1dBUQTlhKb5p",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/servlets/HttpConstants.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 25,
+        "hash": "063bcba1f74f65c1c0237eb95d3a262d",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 13,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAXD1dBUQTlhKb5j",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/servlets/HtmlResponse.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 40,
+        "hash": "60e627c6ad0000f0c3df13e77a29ef83",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 13,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAUr1dBUQTlhKb4D",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ResourceMetadata.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 402,
+        "hash": "85f26ebdf4ea5bef8adaf862b2348076",
+        "textRange": {
+            "startLine": 402,
+            "endLine": 402,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2014-01-03T16:22:50+0100",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVE1dBUQTlhKb4U",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/runtime/dto/ResourceProviderDTO.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 32,
+        "hash": "d29eb809cd7e712070b86a449a5f2e82",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 15,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make name a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2015-07-13T20:26:35+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVE1dBUQTlhKb4V",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/runtime/dto/ResourceProviderDTO.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 38,
+        "hash": "58104dc4d068dce57a6d46ab8f30ecad",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 18,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make path a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2015-07-13T20:26:35+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVE1dBUQTlhKb4W",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/runtime/dto/ResourceProviderDTO.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 43,
+        "hash": "8e7854971255e7330f49274e275671a2",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 19,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make useResourceAccessSecurity a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2015-07-13T20:26:35+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCkt-drxWs_jDySzgxA",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/wrappers/CompositeValueMap.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 47,
+        "hash": "7919b63c1e03f5d1fb24dd47d9dd9e33",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2020-03-02T10:36:41+0100",
+        "updateDate": "2020-03-02T10:36:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAYd1dBUQTlhKb6Q",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/SlingConstants.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 300,
+        "hash": "ded834565b541eceb580b171cd6a59b4",
+        "textRange": {
+            "startLine": 300,
+            "endLine": 300,
+            "startOffset": 31,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-30T11:23:49+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAYd1dBUQTlhKb6P",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/SlingConstants.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 285,
+        "hash": "845d3bead53d6409a4216a0a9489c470",
+        "textRange": {
+            "startLine": 285,
+            "endLine": 285,
+            "startOffset": 31,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-30T11:23:49+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAYd1dBUQTlhKb6O",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/SlingConstants.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 273,
+        "hash": "4d6f3636b9decb7a0f18bf13ceb21f4f",
+        "textRange": {
+            "startLine": 273,
+            "endLine": 273,
+            "startOffset": 31,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-30T11:23:49+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAWF1dBUQTlhKb5C",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ResourceUtil.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 484,
+        "hash": "4cd58978503669dbb459e06b59ca95bc",
+        "textRange": {
+            "startLine": 484,
+            "endLine": 484,
+            "startOffset": 26,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAWF1dBUQTlhKb5B",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ResourceUtil.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 456,
+        "hash": "c014d5973199581ad8ee4f31c5ffe41b",
+        "textRange": {
+            "startLine": 456,
+            "endLine": 456,
+            "startOffset": 35,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAWF1dBUQTlhKb5A",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ResourceUtil.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 435,
+        "hash": "d57cf410802b631f61b5388f216690db",
+        "textRange": {
+            "startLine": 435,
+            "endLine": 435,
+            "startOffset": 35,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAWF1dBUQTlhKb4_",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ResourceUtil.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 374,
+        "hash": "6f83e1c6b613140cc5c86d79a5966100",
+        "textRange": {
+            "startLine": 374,
+            "endLine": 374,
+            "startOffset": 46,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAWF1dBUQTlhKb4-",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ResourceUtil.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 249,
+        "hash": "53ffb23895e7b1da98866f4af1c75ca5",
+        "textRange": {
+            "startLine": 249,
+            "endLine": 249,
+            "startOffset": 34,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAWF1dBUQTlhKb49",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ResourceUtil.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 236,
+        "hash": "dca9c362a5bb67a4abcc27533731b5b5",
+        "textRange": {
+            "startLine": 236,
+            "endLine": 236,
+            "startOffset": 37,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAWF1dBUQTlhKb47",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ResourceUtil.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 39,
+        "hash": "425cc84d9d5adabbf13286e31e9ae33c",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 13,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAWK1dBUQTlhKb5F",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ValueMap.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 52,
+        "hash": "9742ca523d7ab11032395d0d9853712d",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 13,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Move \"EMPTY\" to a class and lower its visibility",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAWi1dBUQTlhKb5R",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ResourceProvider.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 119,
+        "hash": "4e1d9727146b890f9cb70abe06d05adc",
+        "textRange": {
+            "startLine": 119,
+            "endLine": 119,
+            "startOffset": 23,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAWi1dBUQTlhKb5Q",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ResourceProvider.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 47,
+        "hash": "32b02077c6c0c7a68915e4797ed9943e",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 17,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAWe1dBUQTlhKb5O",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/QueriableResourceProvider.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 38,
+        "hash": "dd8f063726f92b7c48cad394bf845698",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 17,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2012-07-31T10:47:31+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAWV1dBUQTlhKb5L",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ResourceResolverFactory.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 161,
+        "hash": "db5db997bd5d3c85917545fa0e06e8f7",
+        "textRange": {
+            "startLine": 161,
+            "endLine": 161,
+            "startOffset": 30,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAWP1dBUQTlhKb5H",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/AttributableResourceProvider.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 42,
+        "hash": "fc8f81f4a623d6363ef057ce6e51c332",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 17,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2012-07-31T10:47:31+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVE1dBUQTlhKb4d",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/runtime/dto/ResourceProviderDTO.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 79,
+        "hash": "e0cdcd341aca59da3021d07b699b00ae",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 16,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make serviceId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2015-07-13T22:59:21+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVV1dBUQTlhKb4m",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/runtime/dto/ResourceProviderFailureDTO.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 34,
+        "hash": "82d3eca77e36a61cc018f3fb5e1382c0",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 22,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make reason a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2015-07-13T20:26:35+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVR1dBUQTlhKb4l",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/runtime/dto/RuntimeDTO.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 38,
+        "hash": "0638876fbe651e143765a587ca36da49",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 40,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make failedProviders a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2015-07-13T20:26:35+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVR1dBUQTlhKb4k",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/runtime/dto/RuntimeDTO.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 32,
+        "hash": "ff0bebcb631d04ed77572b63d86ca12d",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 33,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make providers a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2015-07-13T20:26:35+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVw1dBUQTlhKb4y",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/observation/ResourceChange.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 208,
+        "hash": "73025c56120da80090cd80cb16736588",
+        "textRange": {
+            "startLine": 208,
+            "endLine": 208,
+            "startOffset": 33,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVw1dBUQTlhKb4x",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/observation/ResourceChange.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 190,
+        "hash": "6c062ebd93650563e4440f007fd4ca7a",
+        "textRange": {
+            "startLine": 190,
+            "endLine": 190,
+            "startOffset": 33,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVw1dBUQTlhKb4w",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/observation/ResourceChange.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 172,
+        "hash": "66ee6fe4c1847075ea7491c8625a1ffc",
+        "textRange": {
+            "startLine": 172,
+            "endLine": 172,
+            "startOffset": 33,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVw1dBUQTlhKb4v",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/observation/ResourceChange.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 112,
+        "hash": "9df57a2ce6da4bc8aad631343dc69a0a",
+        "textRange": {
+            "startLine": 112,
+            "endLine": 112,
+            "startOffset": 11,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAX-1dBUQTlhKb57",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/wrappers/CompositeValueMap.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 115,
+        "hash": "e1f79abad6f39ad052c755f63256f017",
+        "textRange": {
+            "startLine": 115,
+            "endLine": 115,
+            "startOffset": 17,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-12-06T21:30:57+0100",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAX-1dBUQTlhKb56",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/wrappers/CompositeValueMap.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 99,
+        "hash": "de3bf16e8c50fcbba7ca1d4e5b068853",
+        "textRange": {
+            "startLine": 99,
+            "endLine": 99,
+            "startOffset": 17,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-12-06T19:50:51+0100",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW5cTjsIK_YvINmuTvzF",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/wrappers/ValueMapDecorator.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 72,
+        "hash": "e1f79abad6f39ad052c755f63256f017",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 17,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-11-11T22:10:41+0100",
+        "updateDate": "2019-11-11T22:10:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW5cTjsIK_YvINmuTvzE",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/wrappers/ValueMapDecorator.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 52,
+        "hash": "de3bf16e8c50fcbba7ca1d4e5b068853",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 17,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-11-11T22:10:41+0100",
+        "updateDate": "2019-11-11T22:10:41+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAUr1dBUQTlhKb4B",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ResourceMetadata.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 133,
+        "hash": "3ecb1d47928d8c183b6c62e0afbdf98c",
+        "textRange": {
+            "startLine": 133,
+            "endLine": 133,
+            "startOffset": 31,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2012-10-25T11:17:34+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVE1dBUQTlhKb4c",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/runtime/dto/ResourceProviderDTO.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 74,
+        "hash": "39cd0e5d5b3140524ed39ad7b235f904",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 19,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make supportsQueryLanguage a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2015-12-30T08:18:27+0100",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVE1dBUQTlhKb4b",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/runtime/dto/ResourceProviderDTO.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 69,
+        "hash": "b12d2f3faa409e5f6152b82365662bf5",
+        "textRange": {
+            "startLine": 69,
+            "endLine": 69,
+            "startOffset": 19,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make attributable a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2015-10-29T10:50:41+0100",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVE1dBUQTlhKb4a",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/runtime/dto/ResourceProviderDTO.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 64,
+        "hash": "5d694fa481e7beb64325dbe788219c0d",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 19,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make refreshable a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2015-10-29T10:50:41+0100",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVE1dBUQTlhKb4Z",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/runtime/dto/ResourceProviderDTO.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 59,
+        "hash": "da36b14e99a99164511a75f12e4acf57",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make adaptable a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2015-10-29T10:50:41+0100",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVE1dBUQTlhKb4Y",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/runtime/dto/ResourceProviderDTO.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 54,
+        "hash": "a3d73f84c10f9f1bea3b28b522c002df",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 19,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make modifiable a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2015-07-13T20:26:35+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVE1dBUQTlhKb4X",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/runtime/dto/ResourceProviderDTO.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 49,
+        "hash": "9b609f6ce5dea3fcce2def31b844bd08",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 20,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make authType a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2015-07-13T20:26:35+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAYd1dBUQTlhKb6N",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/SlingConstants.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 30,
+        "hash": "0f3792acf70e70705d376f7e2c68c8f1",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVn1dBUQTlhKb4t",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ParametrizableResourceProvider.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 42,
+        "hash": "08d43527c4370fd77a22e2020ef55aeb",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 17,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-02-09T17:00:52+0100",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVk1dBUQTlhKb4s",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/RefreshableResourceProvider.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 42,
+        "hash": "42db4148b5b9f22a59989b2b18f6281e",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 17,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2013-03-24T19:59:52+0100",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVe1dBUQTlhKb4r",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/PersistableValueMap.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 36,
+        "hash": "fcc723ffe7d8932067a4da3b0a3b0976",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 17,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2012-07-13T14:28:55+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVb1dBUQTlhKb4q",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ResourceProviderFactory.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 138,
+        "hash": "70033f8d407a1c6762a68217fbdb2019",
+        "textRange": {
+            "startLine": 138,
+            "endLine": 138,
+            "startOffset": 30,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAXd1dBUQTlhKb5w",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/scripting/SlingScriptHelper.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 374,
+        "hash": "05ad4fcf8399eca695874e7f9126b120",
+        "textRange": {
+            "startLine": 374,
+            "endLine": 374,
+            "startOffset": 9,
+            "endOffset": 16
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAXV1dBUQTlhKb5t",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/scripting/SlingScriptConstants.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 29,
+        "hash": "aa05fa6870c1d9ad9497b926789a219d",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2013-08-23T17:12:08+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAWA1dBUQTlhKb42",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ResourceDecorator.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 64,
+        "hash": "2c63c847e789c57503501d4660f52bb7",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 23,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAV11dBUQTlhKb4z",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/NonExistingResource.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 48,
+        "hash": "f6b7dc6ece3717e0a67a15a677011c33",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 33,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAW91dBUQTlhKb5i",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/servlets/SlingAllMethodsServlet.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 176,
+        "hash": "2a408852e4e96b4bd35b32e3e29a1226",
+        "textRange": {
+            "startLine": 176,
+            "endLine": 176,
+            "startOffset": 36,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAW91dBUQTlhKb5h",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/servlets/SlingAllMethodsServlet.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 132,
+        "hash": "c8d0a1151adbb666350b8d059d896ed7",
+        "textRange": {
+            "startLine": 132,
+            "endLine": 132,
+            "startOffset": 22,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAV11dBUQTlhKb41",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/NonExistingResource.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 64,
+        "hash": "fbe67ed34eb433ff8ac93dde30943184",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 20,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-06-03T08:44:45+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAV11dBUQTlhKb40",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/NonExistingResource.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 55,
+        "hash": "5eb1048a65cef9f848fe69a1337d77e1",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVB1dBUQTlhKb4T",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ModifyingResourceProvider.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 49,
+        "hash": "41a631b298fd1a20063ef2de07f7a542",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 17,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2012-07-31T10:47:31+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAVb1dBUQTlhKb4o",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ResourceProviderFactory.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 41,
+        "hash": "8274334eef177795a63c9ce95e106bcf",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 17,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2012-06-14T11:18:04+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAWm1dBUQTlhKb5U",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ResourceResolver.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 262,
+        "hash": "5a476411a3fb1114471c0c25b05ab880",
+        "textRange": {
+            "startLine": 262,
+            "endLine": 262,
+            "startOffset": 22,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-09T15:16:23+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAW41dBUQTlhKb5f",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/servlets/ServletResolverConstants.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 27,
+        "hash": "0b50baad5fdfd121693e482125b819d6",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 19,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-11-26T10:27:34+0100",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAWp1dBUQTlhKb5V",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/DynamicResourceProvider.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 45,
+        "hash": "2e95a5520244d001bcf432192c063635",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 17,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2012-07-31T10:47:31+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAWm1dBUQTlhKb5T",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/resource/ResourceResolver.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 149,
+        "hash": "a8a9f8406c084d51c2d8119655a397e7",
+        "textRange": {
+            "startLine": 149,
+            "endLine": 149,
+            "startOffset": 11,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2010-08-11T16:04:05+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAX71dBUQTlhKb55",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/wrappers/SlingRequestPaths.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 34,
+        "hash": "d52b7d7d5a02ec879e04417b0c10072a",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAUc1dBUQTlhKb39",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/request/ResponseUtil.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 34,
+        "hash": "35e099ae2d1bb62af1c71e0b57456bb1",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 13,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2010-03-25T09:43:19+0100",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWogfAUW1dBUQTlhKb33",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-api:src/main/java/org/apache/sling/api/request/RequestUtil.java",
+        "project": "apache_sling-org-apache-sling-api",
+        "line": 42,
+        "hash": "cc5288a64f7cd88868001dfe43eace90",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2010-03-25T09:43:19+0100",
+        "updateDate": "2019-04-15T12:12:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

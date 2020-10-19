@@ -1,0 +1,117 @@
+[
+    {
+        "key": "AWokete-O9B58BDkehEu",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jobs:src/main/java/org/apache/sling/jobs/Types.java",
+        "project": "apache_sling-org-apache-sling-jobs",
+        "line": 79,
+        "hash": "49a99e6c06817bad228c8c0791938c17",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 27,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make ANY_JOB_QUEUE a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2016-10-03T18:05:02+0200",
+        "updateDate": "2019-04-16T06:49:17+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoketeXO9B58BDkehEO",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jobs:src/main/java/org/apache/sling/jobs/impl/Utils.java",
+        "project": "apache_sling-org-apache-sling-jobs",
+        "line": 108,
+        "hash": "71316978c507942cb877b844d41a6d2e",
+        "textRange": {
+            "startLine": 108,
+            "endLine": 108,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-10-03T18:05:02+0200",
+        "updateDate": "2019-04-16T06:49:17+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoketeXO9B58BDkehEP",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jobs:src/main/java/org/apache/sling/jobs/impl/Utils.java",
+        "project": "apache_sling-org-apache-sling-jobs",
+        "line": 39,
+        "hash": "e8aab3d9c621ed292086fa8386e1e213",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 13,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-10-03T18:05:02+0200",
+        "updateDate": "2019-04-16T06:49:17+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWokete-O9B58BDkehEt",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jobs:src/main/java/org/apache/sling/jobs/Types.java",
+        "project": "apache_sling-org-apache-sling-jobs",
+        "line": 79,
+        "hash": "49a99e6c06817bad228c8c0791938c17",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 27,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static ANY_JOB_QUEUE\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2016-10-03T18:05:02+0200",
+        "updateDate": "2019-04-16T06:49:17+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,811 @@
+[
+    {
+        "key": "AWo8dQgW-aLJxVkBH0EX",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/announcement/AnnouncementRegistryImpl.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 465,
+        "hash": "926a84dac00fd2c00624378447f9571a",
+        "textRange": {
+            "startLine": 465,
+            "endLine": 465,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgW-aLJxVkBH0EW",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/announcement/AnnouncementRegistryImpl.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 401,
+        "hash": "0410d9ca389e3d3d33072af2117e2f41",
+        "textRange": {
+            "startLine": 401,
+            "endLine": 401,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgW-aLJxVkBH0EV",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/announcement/AnnouncementRegistryImpl.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 397,
+        "hash": "0285e6eea6d36962c14bbd7979f5d86a",
+        "textRange": {
+            "startLine": 397,
+            "endLine": 397,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgW-aLJxVkBH0EU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/announcement/AnnouncementRegistryImpl.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 392,
+        "hash": "926a84dac00fd2c00624378447f9571a",
+        "textRange": {
+            "startLine": 392,
+            "endLine": 392,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgW-aLJxVkBH0ET",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/announcement/AnnouncementRegistryImpl.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 249,
+        "hash": "0410d9ca389e3d3d33072af2117e2f41",
+        "textRange": {
+            "startLine": 249,
+            "endLine": 249,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgW-aLJxVkBH0ES",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/announcement/AnnouncementRegistryImpl.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 245,
+        "hash": "0285e6eea6d36962c14bbd7979f5d86a",
+        "textRange": {
+            "startLine": 245,
+            "endLine": 245,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgW-aLJxVkBH0ER",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/announcement/AnnouncementRegistryImpl.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 241,
+        "hash": "926a84dac00fd2c00624378447f9571a",
+        "textRange": {
+            "startLine": 241,
+            "endLine": 241,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgW-aLJxVkBH0EQ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/announcement/AnnouncementRegistryImpl.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 130,
+        "hash": "0285e6eea6d36962c14bbd7979f5d86a",
+        "textRange": {
+            "startLine": 130,
+            "endLine": 130,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgW-aLJxVkBH0EP",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/announcement/AnnouncementRegistryImpl.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 125,
+        "hash": "926a84dac00fd2c00624378447f9571a",
+        "textRange": {
+            "startLine": 125,
+            "endLine": 125,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgW-aLJxVkBH0EY",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/announcement/AnnouncementRegistryImpl.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 469,
+        "hash": "0285e6eea6d36962c14bbd7979f5d86a",
+        "textRange": {
+            "startLine": 469,
+            "endLine": 469,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQg6-aLJxVkBH0FS",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/commons/ClusterViewHelper.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 29,
+        "hash": "ce126ca2a4e7837fd6e61fab7155bcf2",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQg6-aLJxVkBH0FT",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/commons/ClusterViewHelper.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 32,
+        "hash": "60ae8225010b68fe9ac7431418ec0398",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 83,
+            "endOffset": 112
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.discovery.base.commons.UndefinedClusterViewException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQfx-aLJxVkBH0DT",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/ping/wl/WildcardHelper.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 24,
+        "hash": "3f115efdf20c83d17adeadc7c20f7b9f",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgC-aLJxVkBH0Du",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/ping/TopologyRequestValidator.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 327,
+        "hash": "6df102b0e433a50c31ef2b3db75b9798",
+        "textRange": {
+            "startLine": 327,
+            "endLine": 327,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgC-aLJxVkBH0Dt",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/ping/TopologyRequestValidator.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 325,
+        "hash": "6df102b0e433a50c31ef2b3db75b9798",
+        "textRange": {
+            "startLine": 325,
+            "endLine": 325,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgC-aLJxVkBH0D8",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/ping/TopologyRequestValidator.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 413,
+        "hash": "6aa755f30c9fe3a78be90c0e635e02d6",
+        "textRange": {
+            "startLine": 413,
+            "endLine": 413,
+            "startOffset": 42,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgC-aLJxVkBH0EB",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/ping/TopologyRequestValidator.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 478,
+        "hash": "5ab50c27a0eea8284a040e408798f5b3",
+        "textRange": {
+            "startLine": 478,
+            "endLine": 478,
+            "startOffset": 48,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgC-aLJxVkBH0D1",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/ping/TopologyRequestValidator.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 377,
+        "hash": "6df102b0e433a50c31ef2b3db75b9798",
+        "textRange": {
+            "startLine": 377,
+            "endLine": 377,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgC-aLJxVkBH0D0",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/ping/TopologyRequestValidator.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 375,
+        "hash": "6df102b0e433a50c31ef2b3db75b9798",
+        "textRange": {
+            "startLine": 375,
+            "endLine": 375,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgC-aLJxVkBH0Dz",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/ping/TopologyRequestValidator.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 373,
+        "hash": "6df102b0e433a50c31ef2b3db75b9798",
+        "textRange": {
+            "startLine": 373,
+            "endLine": 373,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgC-aLJxVkBH0Dy",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/ping/TopologyRequestValidator.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 349,
+        "hash": "6df102b0e433a50c31ef2b3db75b9798",
+        "textRange": {
+            "startLine": 349,
+            "endLine": 349,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgC-aLJxVkBH0Dx",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/ping/TopologyRequestValidator.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 347,
+        "hash": "6df102b0e433a50c31ef2b3db75b9798",
+        "textRange": {
+            "startLine": 347,
+            "endLine": 347,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgC-aLJxVkBH0Dw",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/ping/TopologyRequestValidator.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 345,
+        "hash": "6df102b0e433a50c31ef2b3db75b9798",
+        "textRange": {
+            "startLine": 345,
+            "endLine": 345,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgC-aLJxVkBH0Dv",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/ping/TopologyRequestValidator.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 343,
+        "hash": "6df102b0e433a50c31ef2b3db75b9798",
+        "textRange": {
+            "startLine": 343,
+            "endLine": 343,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgC-aLJxVkBH0D3",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/ping/TopologyRequestValidator.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 381,
+        "hash": "6df102b0e433a50c31ef2b3db75b9798",
+        "textRange": {
+            "startLine": 381,
+            "endLine": 381,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgC-aLJxVkBH0D2",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/ping/TopologyRequestValidator.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 379,
+        "hash": "6df102b0e433a50c31ef2b3db75b9798",
+        "textRange": {
+            "startLine": 379,
+            "endLine": 379,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo8dQgW-aLJxVkBH0EZ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-discovery-base:src/main/java/org/apache/sling/discovery/base/connectors/announcement/AnnouncementRegistryImpl.java",
+        "project": "apache_sling-org-apache-sling-discovery-base",
+        "line": 473,
+        "hash": "0410d9ca389e3d3d33072af2117e2f41",
+        "textRange": {
+            "startLine": 473,
+            "endLine": 473,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-10-20T16:12:31+0200",
+        "updateDate": "2019-04-20T22:33:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

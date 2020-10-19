@@ -1,0 +1,30 @@
+[
+    {
+        "key": "AW0lx8zVp23NedE7HXCs",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "commons-numbers:commons-numbers-arrays/src/main/java/org/apache/commons/numbers/arrays/LinearCombination.java",
+        "project": "commons-numbers",
+        "line": 251,
+        "hash": "dd1c1660307f68ebf038f19c35bfb1a2",
+        "textRange": {
+            "startLine": 251,
+            "endLine": 251,
+            "startOffset": 25,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2017-05-24T17:39:47+0200",
+        "updateDate": "2019-09-12T16:01:04+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

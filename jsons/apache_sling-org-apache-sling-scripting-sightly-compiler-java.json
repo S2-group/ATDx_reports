@@ -1,0 +1,170 @@
+[
+    {
+        "key": "AXB8jIVIAB8yzY3rQEFO",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-scripting-sightly-compiler-java:src/main/java/org/apache/sling/scripting/sightly/java/compiler/JavaEscapeUtils.java",
+        "project": "apache_sling-org-apache-sling-scripting-sightly-compiler-java",
+        "line": 28,
+        "hash": "ceec618768476076e95ccffc87c0790c",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2020-02-25T14:32:09+0100",
+        "updateDate": "2020-02-25T14:32:09+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo7Gl5yyRjJygCrMGGm",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-sightly-compiler-java:src/main/java/org/apache/sling/scripting/sightly/java/compiler/JavaEscapeUtils.java",
+        "project": "apache_sling-org-apache-sling-scripting-sightly-compiler-java",
+        "line": 28,
+        "hash": "ceec618768476076e95ccffc87c0790c",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-10-06T18:44:00+0200",
+        "updateDate": "2019-04-20T16:15:32+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo7Gl5nyRjJygCrMGGd",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-sightly-compiler-java:src/main/java/org/apache/sling/scripting/sightly/java/compiler/impl/SourceGenConstants.java",
+        "project": "apache_sling-org-apache-sling-scripting-sightly-compiler-java",
+        "line": 22,
+        "hash": "c73aacdebeaac0b75519dc1501dd1573",
+        "textRange": {
+            "startLine": 22,
+            "endLine": 22,
+            "startOffset": 19,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-06-16T18:07:57+0200",
+        "updateDate": "2019-04-20T16:15:32+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo7Gl5DyRjJygCrMGGT",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-sightly-compiler-java:src/main/java/org/apache/sling/scripting/sightly/java/compiler/impl/operator/OpHelper.java",
+        "project": "apache_sling-org-apache-sling-scripting-sightly-compiler-java",
+        "line": 25,
+        "hash": "c437e87658967375c6e920048594f9a6",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-06-16T18:07:57+0200",
+        "updateDate": "2019-04-20T16:15:32+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo7Gl41yRjJygCrMGGQ",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-sightly-compiler-java:src/main/java/org/apache/sling/scripting/sightly/java/compiler/impl/operator/Operators.java",
+        "project": "apache_sling-org-apache-sling-scripting-sightly-compiler-java",
+        "line": 29,
+        "hash": "8db2454578ca1123f7687544a5cb79e5",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-06-16T18:07:57+0200",
+        "updateDate": "2019-04-20T16:15:32+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo7Gl4dyRjJygCrMGGP",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-sightly-compiler-java:src/main/java/org/apache/sling/scripting/sightly/java/compiler/impl/GenHelper.java",
+        "project": "apache_sling-org-apache-sling-scripting-sightly-compiler-java",
+        "line": 30,
+        "hash": "70635c750255fe7e61b2ac8672d38e6d",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-06-16T18:07:57+0200",
+        "updateDate": "2019-04-20T16:15:32+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

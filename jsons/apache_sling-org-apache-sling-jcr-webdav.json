@@ -1,0 +1,62 @@
+[
+    {
+        "key": "AWolF4gh2ZTYZ-vhF7CC",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-webdav:src/main/java/org/apache/sling/jcr/webdav/impl/servlets/SlingWebDavServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-webdav",
+        "line": 114,
+        "hash": "f04bc30ae692c47e3f03d9ae67af7709",
+        "textRange": {
+            "startLine": 114,
+            "endLine": 114,
+            "startOffset": 33,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2011-09-01T13:33:31+0200",
+        "updateDate": "2019-04-16T09:40:49+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWolF4gh2ZTYZ-vhF7CB",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-webdav:src/main/java/org/apache/sling/jcr/webdav/impl/servlets/SlingWebDavServlet.java",
+        "project": "apache_sling-org-apache-sling-jcr-webdav",
+        "line": 108,
+        "hash": "be6ffc982cefd327d4b8d00c6b9a56d3",
+        "textRange": {
+            "startLine": 108,
+            "endLine": 108,
+            "startOffset": 33,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-16T09:40:49+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

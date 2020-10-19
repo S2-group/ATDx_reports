@@ -1,0 +1,3115 @@
+[
+    {
+        "key": "AW6lmKC9ow4pPoqhkovF",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/components/CreateBrmsRawPolicy.java",
+        "project": "onap_policy-engine",
+        "line": 108,
+        "hash": "2ad9d811d5655de52026b18236416eb3",
+        "textRange": {
+            "startLine": 108,
+            "endLine": 108,
+            "startOffset": 19,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKCyow4pPoqhkou5",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/components/Policy.java",
+        "project": "onap_policy-engine",
+        "line": 128,
+        "hash": "fe02c511aeda116a58459fcc516fb91b",
+        "textRange": {
+            "startLine": 128,
+            "endLine": 128,
+            "startOffset": 29,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make policyAdapter a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKexow4pPoqhko88",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-XACML/src/main/java/org/onap/policy/xacml/std/pap/StdEngine.java",
+        "project": "onap_policy-engine",
+        "line": 85,
+        "hash": "4b307763dce84842b629229fe4fc8f2e",
+        "textRange": {
+            "startLine": 85,
+            "endLine": 85,
+            "startOffset": 19,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make wasDefaultGroupJustAdded a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKexow4pPoqhko84",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-XACML/src/main/java/org/onap/policy/xacml/std/pap/StdEngine.java",
+        "project": "onap_policy-engine",
+        "line": 238,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 238,
+            "endLine": 238,
+            "startOffset": 16,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKexow4pPoqhko83",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-XACML/src/main/java/org/onap/policy/xacml/std/pap/StdEngine.java",
+        "project": "onap_policy-engine",
+        "line": 225,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 225,
+            "endLine": 225,
+            "startOffset": 16,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKFUow4pPoqhkow-",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/handler/SavePolicyHandler.java",
+        "project": "onap_policy-engine",
+        "line": 95,
+        "hash": "352c220a780d7f9cfbb98f24512877d7",
+        "textRange": {
+            "startLine": 95,
+            "endLine": 95,
+            "startOffset": 19,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.xml.parsers.ParserConfigurationException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-23T19:33:56+0200",
+        "updateDate": "2020-02-04T16:00:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKaEow4pPoqhko7v",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PDP-REST/src/main/java/org/onap/policy/pdp/rest/notifications/ManualNotificationUpdateThread.java",
+        "project": "onap_policy-engine",
+        "line": 59,
+        "hash": "59d0f04c5fb7ede530ca66cb68126ba3",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 28,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make isRunning a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKAqow4pPoqhkost",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/ElkConnector.java",
+        "project": "onap_policy-engine",
+        "line": 48,
+        "hash": "aad32f2752eceea935c4e6ecfec4309c",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 71,
+            "endOffset": 92
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-23T19:33:56+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKAqow4pPoqhkoss",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/ElkConnector.java",
+        "project": "onap_policy-engine",
+        "line": 46,
+        "hash": "a015b4ba6c8754fcdae30d8f5239cc4f",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 63,
+            "endOffset": 84
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-25T22:47:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKAfow4pPoqhkosL",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/PolicyElasticData.java",
+        "project": "onap_policy-engine",
+        "line": 86,
+        "hash": "8357e6e823a9cb8363ea4185826beff8",
+        "textRange": {
+            "startLine": 86,
+            "endLine": 86,
+            "startOffset": 31,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make dynamicLayoutMap a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKAfow4pPoqhkosK",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/PolicyElasticData.java",
+        "project": "onap_policy-engine",
+        "line": 63,
+        "hash": "3ce7ed3d5ee56e23b3d08e23a918d4f6",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 18,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make gocServerScope a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmJ9Tow4pPoqhkonO",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/util/AbstractPolicyCreation.java",
+        "project": "onap_policy-engine",
+        "line": 32,
+        "hash": "3ec1e54afa223e9a16ec41da518c3bda",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 22,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"AbstractPolicyCreation\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2H",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 529,
+        "hash": "f6878b4bfc3fe874d53518f3082fa928",
+        "textRange": {
+            "startLine": 529,
+            "endLine": 529,
+            "startOffset": 18,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2G",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 504,
+        "hash": "60da0099d021903d0713aeaeaf9f6477",
+        "textRange": {
+            "startLine": 504,
+            "endLine": 504,
+            "startOffset": 18,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2F",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 478,
+        "hash": "c49f6325e8c95326672d6b588c5d56ed",
+        "textRange": {
+            "startLine": 478,
+            "endLine": 478,
+            "startOffset": 18,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 13 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2E",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 446,
+        "hash": "276e6e420c5360001e734a6b7a35481a",
+        "textRange": {
+            "startLine": 446,
+            "endLine": 446,
+            "startOffset": 18,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 13 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKPOow4pPoqhko2A",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/DecisionRequestParameters.java",
+        "project": "onap_policy-engine",
+        "line": 97,
+        "hash": "bb07853d3605cc31eee6571ab2e2e9d7",
+        "textRange": {
+            "startLine": 97,
+            "endLine": 97,
+            "startOffset": 16,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-08-11T18:37:25+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKPOow4pPoqhko1_",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/DecisionRequestParameters.java",
+        "project": "onap_policy-engine",
+        "line": 77,
+        "hash": "64c4a0e33bd9ba3db82222667022e628",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 18,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-08-11T18:37:25+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKShow4pPoqhko3V",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/std/ManualClientEnd.java",
+        "project": "onap_policy-engine",
+        "line": 64,
+        "hash": "c0d1d27b5091a9b2943b242645636eed",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 28,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-04-25T02:25:55+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKShow4pPoqhko3U",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/std/ManualClientEnd.java",
+        "project": "onap_policy-engine",
+        "line": 62,
+        "hash": "166380f82696efb345a495e45a0223f1",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 24,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-04-25T02:25:55+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKR5ow4pPoqhko2_",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/std/AutoClientEnd.java",
+        "project": "onap_policy-engine",
+        "line": 69,
+        "hash": "df823ce6c1e941d3ad88cccbc010137d",
+        "textRange": {
+            "startLine": 69,
+            "endLine": 69,
+            "startOffset": 26,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-04-25T02:25:55+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKmFow4pPoqhko-x",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-SDK-APP/src/main/java/org/onap/portalapp/conf/ExternalAppConfig.java",
+        "project": "onap_policy-engine",
+        "line": 77,
+        "hash": "873b00ae287a961371ebf56ceb226413",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 24,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQZow4pPoqhko2b",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/ConfigRequestParameters.java",
+        "project": "onap_policy-engine",
+        "line": 125,
+        "hash": "5665567ef14caf5c1e686c690eb0b7c4",
+        "textRange": {
+            "startLine": 125,
+            "endLine": 125,
+            "startOffset": 18,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-08-11T18:37:25+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQZow4pPoqhko2a",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/ConfigRequestParameters.java",
+        "project": "onap_policy-engine",
+        "line": 67,
+        "hash": "e9816d0b2270ff41b8fea7083fe4bcc2",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 16,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-08-11T18:37:25+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKPCow4pPoqhko19",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyParameters.java",
+        "project": "onap_policy-engine",
+        "line": 168,
+        "hash": "e9816d0b2270ff41b8fea7083fe4bcc2",
+        "textRange": {
+            "startLine": 168,
+            "endLine": 168,
+            "startOffset": 16,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-08-11T18:37:25+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKPCow4pPoqhko18",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyParameters.java",
+        "project": "onap_policy-engine",
+        "line": 148,
+        "hash": "5665567ef14caf5c1e686c690eb0b7c4",
+        "textRange": {
+            "startLine": 148,
+            "endLine": 148,
+            "startOffset": 18,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-08-11T18:37:25+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKa0ow4pPoqhko7_",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:ONAP-PDP-REST/src/main/java/org/onap/policy/pdp/rest/XACMLPdpLoader.java",
+        "project": "onap_policy-engine",
+        "line": 72,
+        "hash": "248b81ad361650ae4b198f2db16b6100",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmJ2now4pPoqhkomg",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:PolicyEngineUtils/src/main/java/org/onap/policy/utils/BusConsumer.java",
+        "project": "onap_policy-engine",
+        "line": 71,
+        "hash": "43a3ea42588797fa55d5a81979739388",
+        "textRange": {
+            "startLine": 71,
+            "endLine": 71,
+            "startOffset": 15,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-10-17T23:12:11+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKkDow4pPoqhko-N",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:ONAP-PDP/src/main/java/org/onap/policy/xacml/pdp/std/functions/PolicyList.java",
+        "project": "onap_policy-engine",
+        "line": 31,
+        "hash": "d39098b1eac595299a7d7240214943c7",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKZBow4pPoqhko7P",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PDP-REST/src/main/java/org/onap/policy/pdp/rest/api/utils/PolicyApiUtils.java",
+        "project": "onap_policy-engine",
+        "line": 80,
+        "hash": "1b369bcfe7a120eb44cff915cba3e218",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 19,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.json.JsonException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKZBow4pPoqhko7O",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:ONAP-PDP-REST/src/main/java/org/onap/policy/pdp/rest/api/utils/PolicyApiUtils.java",
+        "project": "onap_policy-engine",
+        "line": 38,
+        "hash": "0601c5dc57ab06795bc7c6cc5fe1b8a0",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKY4ow4pPoqhko7G",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:ONAP-PDP-REST/src/main/java/org/onap/policy/pdp/rest/api/models/ConfigPolicyAPIRequest.java",
+        "project": "onap_policy-engine",
+        "line": 127,
+        "hash": "e9816d0b2270ff41b8fea7083fe4bcc2",
+        "textRange": {
+            "startLine": 127,
+            "endLine": 127,
+            "startOffset": 16,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-08-11T18:37:25+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKA6ow4pPoqhkotE",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/ElkConnectorImpl.java",
+        "project": "onap_policy-engine",
+        "line": 111,
+        "hash": "2f26775bdd7409232d74520280f533dd",
+        "textRange": {
+            "startLine": 111,
+            "endLine": 111,
+            "startOffset": 94,
+            "endOffset": 118
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-23T19:33:56+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKA6ow4pPoqhkotD",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/ElkConnectorImpl.java",
+        "project": "onap_policy-engine",
+        "line": 111,
+        "hash": "2f26775bdd7409232d74520280f533dd",
+        "textRange": {
+            "startLine": 111,
+            "endLine": 111,
+            "startOffset": 71,
+            "endOffset": 92
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-23T19:33:56+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmJVHow4pPoqhkod-",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "onap_policy-engine:ONAP-REST/src/main/java/org/onap/policy/rest/jpa/ConstraintValue.java",
+        "project": "onap_policy-engine",
+        "line": 80,
+        "hash": "78d636fd4de5b0054beee22f1de6341a",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 27,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKgPow4pPoqhko9g",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-XACML/src/main/java/org/onap/policy/xacml/api/pap/ONAPPapEngineFactory.java",
+        "project": "onap_policy-engine",
+        "line": 29,
+        "hash": "3550171d2cd7c945998739b383eeef6c",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 22,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"ONAPPapEngineFactory\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKa_ow4pPoqhko8J",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PDP-REST/src/main/java/org/onap/policy/pdp/rest/XACMLPdpRegisterThread.java",
+        "project": "onap_policy-engine",
+        "line": 56,
+        "hash": "59d0f04c5fb7ede530ca66cb68126ba3",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 28,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make isRunning a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKecow4pPoqhko8s",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:ONAP-XACML/src/main/java/org/onap/policy/xacml/util/XACMLPolicyWriter.java",
+        "project": "onap_policy-engine",
+        "line": 63,
+        "hash": "bb21faf863eccbe8ab6b73cd7e157986",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2N",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 219,
+        "hash": "59e8d72be3dc3f2d8f87344973612ac0",
+        "textRange": {
+            "startLine": 219,
+            "endLine": 219,
+            "startOffset": 36,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2M",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 198,
+        "hash": "8c8125753aafce90a25120bfa651b10e",
+        "textRange": {
+            "startLine": 198,
+            "endLine": 198,
+            "startOffset": 36,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2L",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 179,
+        "hash": "5ce6dc69d18650455588940503eb5ec9",
+        "textRange": {
+            "startLine": 179,
+            "endLine": 179,
+            "startOffset": 36,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2K",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 162,
+        "hash": "5f64f97fe0abf2eb337faa9fff5ca022",
+        "textRange": {
+            "startLine": 162,
+            "endLine": 162,
+            "startOffset": 36,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-02-23T13:27:39+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2J",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 146,
+        "hash": "cd9de1c473adeec5762be557c29837a6",
+        "textRange": {
+            "startLine": 146,
+            "endLine": 146,
+            "startOffset": 36,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2I",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 128,
+        "hash": "6aeed9568f1d7185e7d55bddbb76ef0d",
+        "textRange": {
+            "startLine": 128,
+            "endLine": 128,
+            "startOffset": 36,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-02-23T13:27:39+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKR5ow4pPoqhko3C",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/std/AutoClientEnd.java",
+        "project": "onap_policy-engine",
+        "line": 89,
+        "hash": "0fd0043142946a78ea62aa3c5bb4aa70",
+        "textRange": {
+            "startLine": 89,
+            "endLine": 89,
+            "startOffset": 8,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-04-26T21:27:12+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKR5ow4pPoqhko3B",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/std/AutoClientEnd.java",
+        "project": "onap_policy-engine",
+        "line": 84,
+        "hash": "5ff945b3e19a28b1debec993dca4ddc6",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 22,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-04-26T21:27:12+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKR5ow4pPoqhko3A",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/std/AutoClientEnd.java",
+        "project": "onap_policy-engine",
+        "line": 77,
+        "hash": "5ff945b3e19a28b1debec993dca4ddc6",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 22,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-04-26T21:27:12+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmJwnow4pPoqhkojQ",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:POLICY-SDK-APP/src/main/java/org/onap/policy/admin/PolicyManagerServlet.java",
+        "project": "onap_policy-engine",
+        "line": 1074,
+        "hash": "d818fe4b2ebb196497dfafcc38db11b9",
+        "textRange": {
+            "startLine": 1074,
+            "endLine": 1074,
+            "startOffset": 17,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-03-28T15:47:08+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKYXow4pPoqhko6r",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:ONAP-PDP-REST/src/main/java/org/onap/policy/pdp/rest/api/controller/PolicyEngineServices.java",
+        "project": "onap_policy-engine",
+        "line": 144,
+        "hash": "945b114e9cd54d75bb27cbf9d4a5bfdc",
+        "textRange": {
+            "startLine": 144,
+            "endLine": 144,
+            "startOffset": 52,
+            "endOffset": 73
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKYXow4pPoqhko6v",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:ONAP-PDP-REST/src/main/java/org/onap/policy/pdp/rest/api/controller/PolicyEngineServices.java",
+        "project": "onap_policy-engine",
+        "line": 640,
+        "hash": "5fbcca0ad31fb51b9f6ee3b74092f6eb",
+        "textRange": {
+            "startLine": 640,
+            "endLine": 640,
+            "startOffset": 34,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKYXow4pPoqhko6t",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:ONAP-PDP-REST/src/main/java/org/onap/policy/pdp/rest/api/controller/PolicyEngineServices.java",
+        "project": "onap_policy-engine",
+        "line": 613,
+        "hash": "95ae0167da16930b3cf5aec36506f4c2",
+        "textRange": {
+            "startLine": 613,
+            "endLine": 613,
+            "startOffset": 34,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKFUow4pPoqhkoxA",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/handler/SavePolicyHandler.java",
+        "project": "onap_policy-engine",
+        "line": 95,
+        "hash": "352c220a780d7f9cfbb98f24512877d7",
+        "textRange": {
+            "startLine": 95,
+            "endLine": 95,
+            "startOffset": 67,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.xml.sax.SAXException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-23T19:33:56+0200",
+        "updateDate": "2020-02-04T16:00:12+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2V",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 478,
+        "hash": "c49f6325e8c95326672d6b588c5d56ed",
+        "textRange": {
+            "startLine": 478,
+            "endLine": 478,
+            "startOffset": 18,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2U",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 446,
+        "hash": "276e6e420c5360001e734a6b7a35481a",
+        "textRange": {
+            "startLine": 446,
+            "endLine": 446,
+            "startOffset": 18,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2T",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 390,
+        "hash": "8aef3467b3fe2ff4d0451c4f602ef82d",
+        "textRange": {
+            "startLine": 390,
+            "endLine": 390,
+            "startOffset": 28,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2S",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 372,
+        "hash": "f28958d3cc90fa6ec3bd2681f91c96aa",
+        "textRange": {
+            "startLine": 372,
+            "endLine": 372,
+            "startOffset": 28,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2R",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 342,
+        "hash": "d82597028df9661ba39c8b87ca9f52b7",
+        "textRange": {
+            "startLine": 342,
+            "endLine": 342,
+            "startOffset": 38,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2P",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 265,
+        "hash": "8594d4e478e8672a60940b9fec3f8481",
+        "textRange": {
+            "startLine": 265,
+            "endLine": 265,
+            "startOffset": 36,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2O",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 241,
+        "hash": "8594d4e478e8672a60940b9fec3f8481",
+        "textRange": {
+            "startLine": 241,
+            "endLine": 241,
+            "startOffset": 36,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKBHow4pPoqhkotu",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/PolicyElasticSearchController.java",
+        "project": "onap_policy-engine",
+        "line": 320,
+        "hash": "99679f87f256414370f6f745c76b47b8",
+        "textRange": {
+            "startLine": 320,
+            "endLine": 320,
+            "startOffset": 19,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-23T19:33:56+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKA6ow4pPoqhkotM",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/ElkConnectorImpl.java",
+        "project": "onap_policy-engine",
+        "line": 393,
+        "hash": "9658740e1ad746e1ccb1ab70032289d2",
+        "textRange": {
+            "startLine": 393,
+            "endLine": 393,
+            "startOffset": 63,
+            "endOffset": 84
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKAqow4pPoqhkosx",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/ElkConnector.java",
+        "project": "onap_policy-engine",
+        "line": 53,
+        "hash": "22fcf6dafce3703eb84887bc66c4bb91",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 63,
+            "endOffset": 84
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKAqow4pPoqhkosw",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/ElkConnector.java",
+        "project": "onap_policy-engine",
+        "line": 51,
+        "hash": "f03e26010d07dc39c5ace4cd47d78f33",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 42,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKAqow4pPoqhkosv",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/ElkConnector.java",
+        "project": "onap_policy-engine",
+        "line": 51,
+        "hash": "f03e26010d07dc39c5ace4cd47d78f33",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 19,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmJ-Fow4pPoqhkonm",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/controller/PushPolicyController.java",
+        "project": "onap_policy-engine",
+        "line": 74,
+        "hash": "53f02ac2593dbad54b2a12562c352519",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 29,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-02-13T04:49:05+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKA6ow4pPoqhkotL",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/ElkConnectorImpl.java",
+        "project": "onap_policy-engine",
+        "line": 348,
+        "hash": "2e6350cfa373528550a2ecaace0b32e4",
+        "textRange": {
+            "startLine": 348,
+            "endLine": 348,
+            "startOffset": 63,
+            "endOffset": 84
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKA6ow4pPoqhkotK",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/ElkConnectorImpl.java",
+        "project": "onap_policy-engine",
+        "line": 303,
+        "hash": "d03a10c2e9f7caaa5cb6209c89d56a25",
+        "textRange": {
+            "startLine": 303,
+            "endLine": 303,
+            "startOffset": 73,
+            "endOffset": 94
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-25T22:47:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKIJow4pPoqhkozt",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/restAuth/CheckPDP.java",
+        "project": "onap_policy-engine",
+        "line": 50,
+        "hash": "2342877d7a115fd71db67b398ed1a77a",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKDTow4pPoqhkovd",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/components/ConfigPolicy.java",
+        "project": "onap_policy-engine",
+        "line": 133,
+        "hash": "2ad9d811d5655de52026b18236416eb3",
+        "textRange": {
+            "startLine": 133,
+            "endLine": 133,
+            "startOffset": 19,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKA6ow4pPoqhkotH",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/ElkConnectorImpl.java",
+        "project": "onap_policy-engine",
+        "line": 192,
+        "hash": "24bd51234bf93d0aa5fde47115be6105",
+        "textRange": {
+            "startLine": 192,
+            "endLine": 192,
+            "startOffset": 42,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKA6ow4pPoqhkotG",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/ElkConnectorImpl.java",
+        "project": "onap_policy-engine",
+        "line": 192,
+        "hash": "24bd51234bf93d0aa5fde47115be6105",
+        "textRange": {
+            "startLine": 192,
+            "endLine": 192,
+            "startOffset": 19,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKAqow4pPoqhkosy",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/ElkConnector.java",
+        "project": "onap_policy-engine",
+        "line": 57,
+        "hash": "7d020f84501842c34a9728c62e19378e",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 78,
+            "endOffset": 102
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-23T19:33:56+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKAqow4pPoqhkosu",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/ElkConnector.java",
+        "project": "onap_policy-engine",
+        "line": 48,
+        "hash": "aad32f2752eceea935c4e6ecfec4309c",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 94,
+            "endOffset": 118
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-23T19:33:56+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmJVwow4pPoqhkoeG",
+        "rule": "java:S1182",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-REST/src/main/java/org/onap/policy/rest/jpa/ObadviceExpression.java",
+        "project": "onap_policy-engine",
+        "line": 81,
+        "hash": "6fd16ce0d04ad964df5ea7574605bc1a",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 30,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Use super.clone() to create and seed the cloned instance to be returned.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "convention",
+            "cwe"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmJVTow4pPoqhkoeB",
+        "rule": "java:S1182",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-REST/src/main/java/org/onap/policy/rest/jpa/Obadvice.java",
+        "project": "onap_policy-engine",
+        "line": 195,
+        "hash": "e7a27b90e01888361454fb91ae62c36a",
+        "textRange": {
+            "startLine": 195,
+            "endLine": 195,
+            "startOffset": 20,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Use super.clone() to create and seed the cloned instance to be returned.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "convention",
+            "cwe"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmJVHow4pPoqhkod_",
+        "rule": "java:S1182",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-REST/src/main/java/org/onap/policy/rest/jpa/ConstraintValue.java",
+        "project": "onap_policy-engine",
+        "line": 80,
+        "hash": "78d636fd4de5b0054beee22f1de6341a",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 27,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Use super.clone() to create and seed the cloned instance to be returned.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "convention",
+            "cwe"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKY3ow4pPoqhko7E",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:ONAP-PDP-REST/src/main/java/org/onap/policy/pdp/rest/api/models/ConfigPolicyAPIRequest.java",
+        "project": "onap_policy-engine",
+        "line": 72,
+        "hash": "5665567ef14caf5c1e686c690eb0b7c4",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 18,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-08-11T18:37:25+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKZBow4pPoqhko7R",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PDP-REST/src/main/java/org/onap/policy/pdp/rest/api/utils/PolicyApiUtils.java",
+        "project": "onap_policy-engine",
+        "line": 80,
+        "hash": "1b369bcfe7a120eb44cff915cba3e218",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 56,
+            "endOffset": 77
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKZBow4pPoqhko7Q",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PDP-REST/src/main/java/org/onap/policy/pdp/rest/api/utils/PolicyApiUtils.java",
+        "project": "onap_policy-engine",
+        "line": 80,
+        "hash": "1b369bcfe7a120eb44cff915cba3e218",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 34,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.json.stream.JsonParsingException' which is a subclass of 'javax.json.JsonException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmJVTow4pPoqhkoeA",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "onap_policy-engine:ONAP-REST/src/main/java/org/onap/policy/rest/jpa/Obadvice.java",
+        "project": "onap_policy-engine",
+        "line": 195,
+        "hash": "e7a27b90e01888361454fb91ae62c36a",
+        "textRange": {
+            "startLine": 195,
+            "endLine": 195,
+            "startOffset": 20,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmJVwow4pPoqhkoeF",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "onap_policy-engine:ONAP-REST/src/main/java/org/onap/policy/rest/jpa/ObadviceExpression.java",
+        "project": "onap_policy-engine",
+        "line": 81,
+        "hash": "6fd16ce0d04ad964df5ea7574605bc1a",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 30,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmJ97ow4pPoqhkona",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/controller/SafePolicyController.java",
+        "project": "onap_policy-engine",
+        "line": 61,
+        "hash": "ef4ea6daff6eaaffc3cd27f24f9d0798",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 29,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-02-13T04:49:05+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmJ_4ow4pPoqhkorB",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/controller/ClosedLoopDictionaryController.java",
+        "project": "onap_policy-engine",
+        "line": 80,
+        "hash": "3a69b95e75293eef96cc6ee7643b9851",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 39,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-02-09T22:27:02+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKTPow4pPoqhko3m",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/std/StdPolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 1282,
+        "hash": "ff5bbe12e8bc9c81f60451f6dfacacff",
+        "textRange": {
+            "startLine": 1282,
+            "endLine": 1282,
+            "startOffset": 19,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 14 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-07-26T13:42:30+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKTPow4pPoqhko3n",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/std/StdPolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 1321,
+        "hash": "e0845f4a9c9102244644dfc1fcb3734c",
+        "textRange": {
+            "startLine": 1321,
+            "endLine": 1321,
+            "startOffset": 18,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-02-23T13:27:39+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKTPow4pPoqhko3o",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/std/StdPolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 1331,
+        "hash": "8864ee9681ce5bd6282e1298bad817ba",
+        "textRange": {
+            "startLine": 1331,
+            "endLine": 1331,
+            "startOffset": 19,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-07-26T13:42:30+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKTOow4pPoqhko3l",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/std/StdPolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 1270,
+        "hash": "d43ded1c419934089a0fb9cdad92154f",
+        "textRange": {
+            "startLine": 1270,
+            "endLine": 1270,
+            "startOffset": 18,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 14 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-02-23T13:27:39+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKGJow4pPoqhkoyP",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/XACMLPapServlet.java",
+        "project": "onap_policy-engine",
+        "line": 1565,
+        "hash": "0e853578e76746673c586d4d04fdaa7b",
+        "textRange": {
+            "startLine": 1565,
+            "endLine": 1565,
+            "startOffset": 101,
+            "endOffset": 112
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-23T19:33:56+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKARow4pPoqhkor8",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/ElasticSearchPolicyUpdate.java",
+        "project": "onap_policy-engine",
+        "line": 350,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 350,
+            "endLine": 350,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-10-23T19:33:56+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKARow4pPoqhkor7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/ElasticSearchPolicyUpdate.java",
+        "project": "onap_policy-engine",
+        "line": 308,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 308,
+            "endLine": 308,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-10-23T19:33:56+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKFUow4pPoqhkoxB",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/handler/SavePolicyHandler.java",
+        "project": "onap_policy-engine",
+        "line": 95,
+        "hash": "352c220a780d7f9cfbb98f24512877d7",
+        "textRange": {
+            "startLine": 95,
+            "endLine": 95,
+            "startOffset": 81,
+            "endOffset": 92
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-23T19:33:56+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKFUow4pPoqhkow_",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/handler/SavePolicyHandler.java",
+        "project": "onap_policy-engine",
+        "line": 95,
+        "hash": "352c220a780d7f9cfbb98f24512877d7",
+        "textRange": {
+            "startLine": 95,
+            "endLine": 95,
+            "startOffset": 49,
+            "endOffset": 65
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-23T19:33:56+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKR5ow4pPoqhko2-",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/std/AutoClientEnd.java",
+        "project": "onap_policy-engine",
+        "line": 59,
+        "hash": "1b0d7a6d50958842fe8f5e8f3187dd32",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 26,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-04-25T02:25:55+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2Y",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 618,
+        "hash": "35fccffc6bd3ec28bae9b3fb5c903013",
+        "textRange": {
+            "startLine": 618,
+            "endLine": 618,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2X",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 529,
+        "hash": "f6878b4bfc3fe874d53518f3082fa928",
+        "textRange": {
+            "startLine": 529,
+            "endLine": 529,
+            "startOffset": 18,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2W",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 504,
+        "hash": "60da0099d021903d0713aeaeaf9f6477",
+        "textRange": {
+            "startLine": 504,
+            "endLine": 504,
+            "startOffset": 18,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-25T15:50:57+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKBHow4pPoqhkotp",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/elk/client/PolicyElasticSearchController.java",
+        "project": "onap_policy-engine",
+        "line": 107,
+        "hash": "12195fc4681ba5e8dd5da57b1114b170",
+        "textRange": {
+            "startLine": 107,
+            "endLine": 107,
+            "startOffset": 78,
+            "endOffset": 102
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKYXow4pPoqhko6z",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:ONAP-PDP-REST/src/main/java/org/onap/policy/pdp/rest/api/controller/PolicyEngineServices.java",
+        "project": "onap_policy-engine",
+        "line": 696,
+        "hash": "65bb91228f52dd31970b477514dcece4",
+        "textRange": {
+            "startLine": 696,
+            "endLine": 696,
+            "startOffset": 34,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKYXow4pPoqhko6x",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:ONAP-PDP-REST/src/main/java/org/onap/policy/pdp/rest/api/controller/PolicyEngineServices.java",
+        "project": "onap_policy-engine",
+        "line": 668,
+        "hash": "b9278e9df35b6a1c0f74286325c60a9f",
+        "textRange": {
+            "startLine": 668,
+            "endLine": 668,
+            "startOffset": 34,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmJ-kow4pPoqhkooB",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/controller/PolicyScopeDictionaryController.java",
+        "project": "onap_policy-engine",
+        "line": 83,
+        "hash": "c0ee109168e9f976c7a825ba7e1e7c27",
+        "textRange": {
+            "startLine": 83,
+            "endLine": 83,
+            "startOffset": 40,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-02-13T04:49:05+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKCOow4pPoqhkouk",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/components/FirewallConfigPolicy.java",
+        "project": "onap_policy-engine",
+        "line": 476,
+        "hash": "97c95fd41db97bae919f8a56902712e6",
+        "textRange": {
+            "startLine": 476,
+            "endLine": 476,
+            "startOffset": 72,
+            "endOffset": 84
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKQBow4pPoqhko2Q",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_policy-engine:PolicyEngineAPI/src/main/java/org/onap/policy/api/PolicyEngine.java",
+        "project": "onap_policy-engine",
+        "line": 325,
+        "hash": "659f91f385d9e9e8b1bd14c538c9c07f",
+        "textRange": {
+            "startLine": 325,
+            "endLine": 325,
+            "startOffset": 38,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-02-23T13:27:39+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmJ_kow4pPoqhkoqy",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/controller/DescriptiveDictionaryController.java",
+        "project": "onap_policy-engine",
+        "line": 60,
+        "hash": "6e25fa00979670bc8d495f1466aa0516",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 40,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-02-09T22:27:02+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmJ_tow4pPoqhkoq5",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_policy-engine:ONAP-PAP-REST/src/main/java/org/onap/policy/pap/xacml/rest/controller/ActionPolicyDictionaryController.java",
+        "project": "onap_policy-engine",
+        "line": 59,
+        "hash": "c23270d8fd509b0e60b52fb4d18288aa",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 41,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-02-09T22:27:02+0100",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKmOow4pPoqhko-2",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-SDK-APP/src/main/java/org/onap/portalapp/conf/ExternalAppInitializer.java",
+        "project": "onap_policy-engine",
+        "line": 43,
+        "hash": "ecf494f5ad3b021f4ad2504539f18bd9",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 20,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKmFow4pPoqhko-y",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-SDK-APP/src/main/java/org/onap/portalapp/conf/ExternalAppConfig.java",
+        "project": "onap_policy-engine",
+        "line": 87,
+        "hash": "639ae2fb6f79682a3995f883ae3cab68",
+        "textRange": {
+            "startLine": 87,
+            "endLine": 87,
+            "startOffset": 16,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmJxOow4pPoqhkoj9",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_policy-engine:POLICY-SDK-APP/src/main/java/org/onap/policy/controller/PolicyExportAndImportController.java",
+        "project": "onap_policy-engine",
+        "line": 758,
+        "hash": "d596cbc42ff1108d5ff2eec113cd5d2d",
+        "textRange": {
+            "startLine": 758,
+            "endLine": 758,
+            "startOffset": 17,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 15 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-09-17T23:04:58+0200",
+        "updateDate": "2020-05-11T17:04:46+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmKmOow4pPoqhko-0",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_policy-engine:ONAP-SDK-APP/src/main/java/org/onap/portalapp/conf/ExternalAppInitializer.java",
+        "project": "onap_policy-engine",
+        "line": 27,
+        "hash": "2225a88ca742d4a93818a9d21cd432a8",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 22,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2017-07-31T21:51:10+0200",
+        "updateDate": "2019-11-26T03:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

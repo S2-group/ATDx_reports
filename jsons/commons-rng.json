@@ -1,0 +1,283 @@
+[
+    {
+        "key": "AXA-irjJAnx-wbMbNRs3",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "commons-rng:commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/LargeMeanPoissonSampler.java",
+        "project": "commons-rng",
+        "line": 398,
+        "hash": "9e3220db8c73cd1575e9763bbcc7af9c",
+        "textRange": {
+            "startLine": 398,
+            "endLine": 398,
+            "startOffset": 8,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-05-22T16:59:06+0200",
+        "updateDate": "2020-02-13T13:33:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXA-irgkAnx-wbMbNRsi",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-rng:commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/PoissonSamplerCache.java",
+        "project": "commons-rng",
+        "line": 157,
+        "hash": "4e64176200922ac184910c3325ee90f8",
+        "textRange": {
+            "startLine": 157,
+            "endLine": 157,
+            "startOffset": 27,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "assignee": "aherbert@github",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-09-21T00:17:36+0200",
+        "updateDate": "2020-02-13T13:33:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXA-irYxAnx-wbMbNRsT",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-rng:commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+        "project": "commons-rng",
+        "line": 263,
+        "hash": "034df7c8978c48e30325b9afb6302ba8",
+        "textRange": {
+            "startLine": 263,
+            "endLine": 263,
+            "startOffset": 19,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-08-07T23:44:22+0200",
+        "updateDate": "2020-02-13T13:33:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXA-irYEAnx-wbMbNRsR",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-rng:commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java",
+        "project": "commons-rng",
+        "line": 142,
+        "hash": "f99c7a63e63b08ee6b970d2bf13e6674",
+        "textRange": {
+            "startLine": 142,
+            "endLine": 142,
+            "startOffset": 22,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-08-07T23:44:22+0200",
+        "updateDate": "2020-02-13T13:33:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXA-irYEAnx-wbMbNRsQ",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-rng:commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java",
+        "project": "commons-rng",
+        "line": 76,
+        "hash": "a7d3e48151926a17b269552c42e4a421",
+        "textRange": {
+            "startLine": 76,
+            "endLine": 76,
+            "startOffset": 26,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-08-07T23:44:22+0200",
+        "updateDate": "2020-02-13T13:33:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXA-irYEAnx-wbMbNRsP",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-rng:commons-rng-core/src/main/java/org/apache/commons/rng/core/util/NumberFactory.java",
+        "project": "commons-rng",
+        "line": 62,
+        "hash": "a9c19887f2a03cf16ce0bf9c02575920",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 26,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-08-07T23:44:22+0200",
+        "updateDate": "2020-02-13T13:33:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXA-irXBAnx-wbMbNRsM",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "commons-rng:commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/AbstractXoShiRo512.java",
+        "project": "commons-rng",
+        "line": 96,
+        "hash": "b9083202e057e79f58d3c64fa9eb8894",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 4,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-04-09T18:26:24+0200",
+        "updateDate": "2020-02-13T13:33:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXA-irhHAnx-wbMbNRsm",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-rng:commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/BoxMullerLogNormalSampler.java",
+        "project": "commons-rng",
+        "line": 33,
+        "hash": "4a4bd6a09a9002cabe1720d82ba77a01",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 13,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-11-12T19:49:34+0100",
+        "updateDate": "2020-02-13T13:33:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXA-irf2Anx-wbMbNRse",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-rng:commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/BoxMullerGaussianSampler.java",
+        "project": "commons-rng",
+        "line": 33,
+        "hash": "f306aafd81c4a9f90ab52024e8319217",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 13,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-11-12T19:49:34+0100",
+        "updateDate": "2020-02-13T13:33:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXA-irh2Anx-wbMbNRst",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "commons-rng:commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/SamplerBase.java",
+        "project": "commons-rng",
+        "line": 29,
+        "hash": "57da27d93459b9b66930016c920d3210",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-11-12T19:49:34+0100",
+        "updateDate": "2020-02-13T13:33:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

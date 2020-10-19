@@ -1,0 +1,362 @@
+[
+    {
+        "key": "AWpb1vnxnu96bB9fgX9Y",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-cpconverter:src/main/java/org/apache/sling/feature/cpconverter/handlers/AbstractConfigurationEntryHandler.java",
+        "project": "apache_sling-org-apache-sling-feature-cpconverter",
+        "line": 94,
+        "hash": "35f61b878fd61ca596758fe9fdc55b79",
+        "textRange": {
+            "startLine": 94,
+            "endLine": 94,
+            "startOffset": 108,
+            "endOffset": 117
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-27T23:56:54+0100",
+        "updateDate": "2019-04-27T00:49:22+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWqVBCI-MZxxFnEzsd9b",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-cpconverter:src/main/java/org/apache/sling/feature/cpconverter/features/DefaultFeaturesManager.java",
+        "project": "apache_sling-org-apache-sling-feature-cpconverter",
+        "line": 237,
+        "hash": "fa16c98446951f3b392c02151d6b398d",
+        "textRange": {
+            "startLine": 237,
+            "endLine": 237,
+            "startOffset": 96,
+            "endOffset": 105
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-05-08T03:14:57+0200",
+        "updateDate": "2019-05-08T03:16:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpb1voBnu96bB9fgX9d",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-cpconverter:src/main/java/org/apache/sling/feature/cpconverter/handlers/EntryHandler.java",
+        "project": "apache_sling-org-apache-sling-feature-cpconverter",
+        "line": 27,
+        "hash": "41d9d0724868d562d77669090939679b",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 114,
+            "endOffset": 123
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-27T23:56:54+0100",
+        "updateDate": "2019-05-08T15:02:51+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWqXbDaubVBTIP9I0kUn",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-cpconverter:src/main/java/org/apache/sling/feature/cpconverter/acl/DefaultAclManager.java",
+        "project": "apache_sling-org-apache-sling-feature-cpconverter",
+        "line": 234,
+        "hash": "f17c02be0a1774aade0e926594a02cdd",
+        "textRange": {
+            "startLine": 234,
+            "endLine": 234,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-05-08T14:26:44+0200",
+        "updateDate": "2019-05-08T14:29:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWqVBCIgMZxxFnEzsd9a",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-cpconverter:src/main/java/org/apache/sling/feature/cpconverter/features/FeaturesManager.java",
+        "project": "apache_sling-org-apache-sling-feature-cpconverter",
+        "line": 38,
+        "hash": "2c7c2bab4df44a8d216fce648cbd3bd4",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 28,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-05-08T03:14:57+0200",
+        "updateDate": "2019-05-08T03:16:57+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp9Y6J2p_J8pcGX-a3e",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-cpconverter:src/main/java/org/apache/sling/feature/cpconverter/shared/AbstractJcrNodeParser.java",
+        "project": "apache_sling-org-apache-sling-feature-cpconverter",
+        "line": 42,
+        "hash": "a0e973bb0791772af5e809a81fc7c680",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 45,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-05-03T13:08:07+0200",
+        "updateDate": "2019-05-03T13:10:21+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW06nHocj82bCJ_CPqev",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-cpconverter:src/main/java/org/apache/sling/feature/cpconverter/ContentPackage2FeatureModelConverter.java",
+        "project": "apache_sling-org-apache-sling-feature-cpconverter",
+        "line": 316,
+        "hash": "226860a2b15c18e631bf6ea27ae6651a",
+        "textRange": {
+            "startLine": 316,
+            "endLine": 316,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-09-16T17:06:08+0200",
+        "updateDate": "2019-09-16T17:06:08+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW0_TDiTgySfW6Rbh4dq",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-cpconverter:src/main/java/org/apache/sling/feature/cpconverter/handlers/AbstractContentPackageHandler.java",
+        "project": "apache_sling-org-apache-sling-feature-cpconverter",
+        "line": 95,
+        "hash": "d8749dc2f0056c0236add156fb17d8cb",
+        "textRange": {
+            "startLine": 95,
+            "endLine": 95,
+            "startOffset": 159,
+            "endOffset": 168
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-09-17T14:56:36+0200",
+        "updateDate": "2019-09-17T14:56:36+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWq9adiqOoGQfCcqy241",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-cpconverter:src/main/java/org/apache/sling/feature/cpconverter/vltpkg/BaseVaultPackageScanner.java",
+        "project": "apache_sling-org-apache-sling-feature-cpconverter",
+        "line": 121,
+        "hash": "1e7b18c4f90ec28fea0d0da3cf756841",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 81,
+            "endOffset": 90
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-05-15T23:27:11+0200",
+        "updateDate": "2019-05-15T23:32:51+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWq9adiqOoGQfCcqy242",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-cpconverter:src/main/java/org/apache/sling/feature/cpconverter/vltpkg/BaseVaultPackageScanner.java",
+        "project": "apache_sling-org-apache-sling-feature-cpconverter",
+        "line": 125,
+        "hash": "befbd7106da99b5677ceba5de026fe0d",
+        "textRange": {
+            "startLine": 125,
+            "endLine": 125,
+            "startOffset": 76,
+            "endOffset": 85
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-05-15T23:27:11+0200",
+        "updateDate": "2019-05-15T23:32:51+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWrp3wjl71LcWdHxWm2i",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-cpconverter:src/main/java/org/apache/sling/feature/cpconverter/vltpkg/BaseVaultPackageScanner.java",
+        "project": "apache_sling-org-apache-sling-feature-cpconverter",
+        "line": 52,
+        "hash": "6fc27c42af3c08b7caf727530e9be970",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 55,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-05-24T14:44:06+0200",
+        "updateDate": "2019-05-24T14:44:06+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWrrcvvLvwsQMbwCQ4sw",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-cpconverter:src/main/java/org/apache/sling/feature/cpconverter/vltpkg/VaultPackageAssembler.java",
+        "project": "apache_sling-org-apache-sling-feature-cpconverter",
+        "line": 78,
+        "hash": "ced467b535a3a439535df528f4280219",
+        "textRange": {
+            "startLine": 78,
+            "endLine": 78,
+            "startOffset": 73,
+            "endOffset": 82
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-05-24T22:05:24+0200",
+        "updateDate": "2019-05-24T22:05:24+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,569 @@
+[
+    {
+        "key": "AXBYzrpuaaP0Q6XYFTFc",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/run/StartMojo.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 308,
+        "hash": "812a68949575b219a204625ea2d71800",
+        "textRange": {
+            "startLine": 308,
+            "endLine": 308,
+            "startOffset": 35,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.maven.plugin.MojoFailureException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrpuaaP0Q6XYFTFb",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/run/StartMojo.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 308,
+        "hash": "812a68949575b219a204625ea2d71800",
+        "textRange": {
+            "startLine": 308,
+            "endLine": 308,
+            "startOffset": 11,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.maven.plugin.MojoExecutionException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrpkaaP0Q6XYFTFE",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/run/ProcessDescriptionProvider.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 92,
+        "hash": "9063f52178fb7898c146340ee40728ec",
+        "textRange": {
+            "startLine": 92,
+            "endLine": 92,
+            "startOffset": 104,
+            "endOffset": 113
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrpkaaP0Q6XYFTFD",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/run/ProcessDescriptionProvider.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 95,
+        "hash": "3c654617c8a3fb5698a8d12f1c0f2c0e",
+        "textRange": {
+            "startLine": 95,
+            "endLine": 95,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrpkaaP0Q6XYFTFC",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/run/ProcessDescriptionProvider.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 46,
+        "hash": "252b1883a0060e9f3d7808b3d48e84ce",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 70,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrpkaaP0Q6XYFTFB",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/run/ProcessDescriptionProvider.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 49,
+        "hash": "f096d44e8b39c676d7bc9edd87b6af58",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrqIaaP0Q6XYFTFy",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/BuildConstants.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 22,
+        "hash": "729355dc5ef32322c37fea799f3a2a0c",
+        "textRange": {
+            "startLine": 22,
+            "endLine": 22,
+            "startOffset": 22,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrqIaaP0Q6XYFTFx",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/BuildConstants.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 84,
+        "hash": "b8c5ebbaeb87dec670179c27f9e03759",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 37,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrm5aaP0Q6XYFTEV",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/run/PortHelper.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 29,
+        "hash": "facfbd656c6491ad15e393b5057a762d",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 13,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrozaaP0Q6XYFTEf",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/run/LauncherCallable.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 109,
+        "hash": "af57276a9efe1604a2d1ce8edcd6e7f8",
+        "textRange": {
+            "startLine": 109,
+            "endLine": 109,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrozaaP0Q6XYFTEg",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/run/LauncherCallable.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 112,
+        "hash": "f669ebd9d33e5c64bc75d69a1d116ade",
+        "textRange": {
+            "startLine": 112,
+            "endLine": 112,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrozaaP0Q6XYFTEh",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/run/LauncherCallable.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 122,
+        "hash": "d8a7e75ee6f2bf932965e30530e66b61",
+        "textRange": {
+            "startLine": 122,
+            "endLine": 122,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrozaaP0Q6XYFTEj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/run/LauncherCallable.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 178,
+        "hash": "ef712c51dcc6f9c16d45c26f6020cfc8",
+        "textRange": {
+            "startLine": 178,
+            "endLine": 178,
+            "startOffset": 60,
+            "endOffset": 69
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrozaaP0Q6XYFTEi",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/run/LauncherCallable.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 263,
+        "hash": "13f1684a50e66685674634299a1fb161",
+        "textRange": {
+            "startLine": 263,
+            "endLine": 263,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrozaaP0Q6XYFTEk",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/run/LauncherCallable.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 269,
+        "hash": "f500a597d2cc7fb1f890eb3c2bf9a771",
+        "textRange": {
+            "startLine": 269,
+            "endLine": 269,
+            "startOffset": 80,
+            "endOffset": 89
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrpuaaP0Q6XYFTFP",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/run/StartMojo.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 104,
+        "hash": "de80ae3d150d9c2d6ab6cbf994bb589d",
+        "textRange": {
+            "startLine": 104,
+            "endLine": 104,
+            "startOffset": 20,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrozaaP0Q6XYFTEe",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/run/LauncherCallable.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 67,
+        "hash": "6a3ade50ae32b7c8f706ab12c5d99ff8",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrooaaP0Q6XYFTEc",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/run/ProcessDescription.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 34,
+        "hash": "4acd1943ee0483fe7bbeab0e64c13733",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 109,
+            "endOffset": 131
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.maven.plugin.MojoExecutionException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBYzrp7aaP0Q6XYFTFi",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-kickstart-maven-plugin:src/main/java/org/apache/sling/maven/kickstart/launcher/Main.java",
+        "project": "apache_sling-kickstart-maven-plugin",
+        "line": 75,
+        "hash": "a8f03558d53815d228c9118db4fe9714",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 29,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-06T22:55:37+0100",
+        "updateDate": "2020-02-18T15:58:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,2434 @@
+[
+    {
+        "key": "AW6lly021IS1KOVSi-Oq",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/utils/SdcToscaUtility.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 25,
+        "hash": "5680b010458fc824b64bbe99f08be390",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lly0u1IS1KOVSi-Op",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/utils/GeneralUtility.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 25,
+        "hash": "1c208b7aa1914c641d3d1f37d2ce856e",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyr01IS1KOVSi-Cq",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/PortSpec.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 49,
+        "hash": "876fc5942023678147b0cfd74dbc81b2",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 11,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Hide this public constructor.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyrp1IS1KOVSi-Cl",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/CapabilityTypeDef.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 120,
+        "hash": "352d4cf4f47ad3b2e0bce9dadfef6e15",
+        "textRange": {
+            "startLine": 120,
+            "endLine": 120,
+            "startOffset": 29,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyrp1IS1KOVSi-Ck",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/CapabilityTypeDef.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 93,
+        "hash": "38cd6f4f5544238d4e0ae5840102212c",
+        "textRange": {
+            "startLine": 93,
+            "endLine": 93,
+            "startOffset": 23,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyrp1IS1KOVSi-Cj",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/CapabilityTypeDef.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 85,
+        "hash": "6255874547c13fb4197613d8c37a7c68",
+        "textRange": {
+            "startLine": 85,
+            "endLine": 85,
+            "startOffset": 46,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyrp1IS1KOVSi-Ci",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/CapabilityTypeDef.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 53,
+        "hash": "b86ce886b6b305a49af76c72a7af2206",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 34,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-ON",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 660,
+        "hash": "10fdb68eb78100c297bd85f9362112ec",
+        "textRange": {
+            "startLine": 660,
+            "endLine": 660,
+            "startOffset": 14,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-09-27T14:14:56+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-OL",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 608,
+        "hash": "927a3fae4f2dae2e63cda83db102749f",
+        "textRange": {
+            "startLine": 608,
+            "endLine": 608,
+            "startOffset": 23,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-09-27T14:14:56+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-OJ",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 599,
+        "hash": "8fe13a7b60d59f5ac8d4da6336ca3773",
+        "textRange": {
+            "startLine": 599,
+            "endLine": 599,
+            "startOffset": 23,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-09-27T14:14:56+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-OH",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 591,
+        "hash": "d283f7efed3b5cea59c959c722a51a69",
+        "textRange": {
+            "startLine": 591,
+            "endLine": 591,
+            "startOffset": 22,
+            "endOffset": 69
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-09-27T14:14:56+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-OF",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 582,
+        "hash": "309730fc67d3f08d498fbb37aa99d466",
+        "textRange": {
+            "startLine": 582,
+            "endLine": 582,
+            "startOffset": 21,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-09-27T14:14:56+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-OD",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 575,
+        "hash": "b40c57d92f005e81572896242bda345b",
+        "textRange": {
+            "startLine": 575,
+            "endLine": 575,
+            "startOffset": 21,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-09-27T14:14:56+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-OB",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 567,
+        "hash": "609501714bb13d3ef245b168c583c087",
+        "textRange": {
+            "startLine": 567,
+            "endLine": 567,
+            "startOffset": 21,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-09-27T14:14:56+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-ND",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 140,
+        "hash": "a4b6db85c03bd0bfd198137529b456d1",
+        "textRange": {
+            "startLine": 140,
+            "endLine": 140,
+            "startOffset": 15,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-NF",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 147,
+        "hash": "3ed5dbc083dfa9bc7093203f3b5f98d6",
+        "textRange": {
+            "startLine": 147,
+            "endLine": 147,
+            "startOffset": 27,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-NH",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 154,
+        "hash": "1c4f53bfa948254c6be142a89e816eef",
+        "textRange": {
+            "startLine": 154,
+            "endLine": 154,
+            "startOffset": 27,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-NJ",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 184,
+        "hash": "5f931c330ec4dd80cc09feedb3e56e51",
+        "textRange": {
+            "startLine": 184,
+            "endLine": 184,
+            "startOffset": 15,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-NL",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 236,
+        "hash": "efd33101cb72b0e8b8e321ba2d4c81b0",
+        "textRange": {
+            "startLine": 236,
+            "endLine": 236,
+            "startOffset": 28,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-NM",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 250,
+        "hash": "ce7f097b4df2d88d218e5423271932a0",
+        "textRange": {
+            "startLine": 250,
+            "endLine": 250,
+            "startOffset": 27,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llynX1IS1KOVSi9_Z",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/constraints/Schema.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 68,
+        "hash": "a31429743dec235c7669e21606ad9df7",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 33,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2019-07-25T12:11:05+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyqz1IS1KOVSi-Bo",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/NodeType.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 58,
+        "hash": "b88073fa615e48e8063c7063ec6156d5",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 18,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyqz1IS1KOVSi-Bm",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/NodeType.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 49,
+        "hash": "114f5d10fd4b661ea535b6c250649e89",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 41,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make customDef a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyra1IS1KOVSi-CW",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/InterfacesDef.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 46,
+        "hash": "bce492c65d6391bd16db04e2e6ef0338",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 33,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2019-07-25T12:11:05+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyra1IS1KOVSi-CV",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/InterfacesDef.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 38,
+        "hash": "c26d84e56539dcdd921e84c7ddfc6f83",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 33,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2019-07-25T12:11:05+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyqD1IS1KOVSi-A2",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/ArtifactTypeDef.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 79,
+        "hash": "86e2c88e8c0fc1e28ccf25aaa7beb043",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyqD1IS1KOVSi-A1",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/ArtifactTypeDef.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 59,
+        "hash": "734638ff13943eaa7c62bb37599231ba",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 27,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyqM1IS1KOVSi-A7",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/RelationshipType.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 52,
+        "hash": "9c493eedacd86b6a430a92a371c3a1d6",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 28,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llysz1IS1KOVSi-Db",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/common/JToscaException.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 26,
+        "hash": "c28185c2670009f2d391414e99139fae",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 19,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"code\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lly171IS1KOVSi-O2",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/exceptions/SdcToscaParserException.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 26,
+        "hash": "c28185c2670009f2d391414e99139fae",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 19,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"code\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-NB",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 130,
+        "hash": "9f6a127565797a5aa176f918c864edae",
+        "textRange": {
+            "startLine": 130,
+            "endLine": 130,
+            "startOffset": 15,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-M_",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 120,
+        "hash": "c505a24e24a335e9eb381f4c7499b10f",
+        "textRange": {
+            "startLine": 120,
+            "endLine": 120,
+            "startOffset": 15,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-09-27T14:14:56+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-M9",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 93,
+        "hash": "5e32de44c497d3281fc0a97f4befa39f",
+        "textRange": {
+            "startLine": 93,
+            "endLine": 93,
+            "startOffset": 15,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-M7",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 65,
+        "hash": "6dd6fc35dd05e1fb45145e916938d935",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 20,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-M5",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 56,
+        "hash": "55fb76b1639e16e76eaa08a5b10b0b5e",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 27,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-M3",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 48,
+        "hash": "8e7f84b7d5dadb33148ec4ce1ccd0e63",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 27,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llytI1IS1KOVSi-Dh",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/common/TOSCAException.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 28,
+        "hash": "92e57d5230501e1f64db8d0c4b100d85",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 19,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"msgFmt\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llytI1IS1KOVSi-Dg",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/common/TOSCAException.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 27,
+        "hash": "2775a43638fea6cabb19ece84891f008",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 27,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"FATAL_EXCEPTION_FORMAT_ERRORS\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llytI1IS1KOVSi-Df",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/common/TOSCAException.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 26,
+        "hash": "85053c8ad860b8a46105df2171d6ae54",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 19,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"message\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyzY1IS1KOVSi-OW",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/impl/SdcPropertyNames.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 23,
+        "hash": "e3c043f1f61ffc3e76fe2e7204f212e4",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyp01IS1KOVSi-AX",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/EntityType.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 88,
+        "hash": "3b4ae8de6a141413b87f368751dbafdf",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 48,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static TOSCA_DEF\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llynX1IS1KOVSi9_Y",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/constraints/Schema.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 63,
+        "hash": "c0a8c7907134cec2a0a10ed78696192c",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 33,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2019-07-25T12:11:05+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyu91IS1KOVSi-Gl",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/SubstitutionMappings.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 322,
+        "hash": "b29bd8aa7a3f08a84206beb4b231ce8f",
+        "textRange": {
+            "startLine": 322,
+            "endLine": 322,
+            "startOffset": 18,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-Nb",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 403,
+        "hash": "94fce22bed32efa8f26fafddc537eace",
+        "textRange": {
+            "startLine": 403,
+            "endLine": 403,
+            "startOffset": 27,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-26T16:32:41+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-NZ",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 384,
+        "hash": "91574d1ceb27bbf587b0cfbfe6f9086e",
+        "textRange": {
+            "startLine": 384,
+            "endLine": 384,
+            "startOffset": 15,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-NX",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 376,
+        "hash": "156f1b3aeb01c59f24e5b9dbb0959a5d",
+        "textRange": {
+            "startLine": 376,
+            "endLine": 376,
+            "startOffset": 44,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-07-17T15:45:41+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-NW",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 365,
+        "hash": "7181236f66f8acd3f673ad443afbbe47",
+        "textRange": {
+            "startLine": 365,
+            "endLine": 365,
+            "startOffset": 41,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-NU",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 333,
+        "hash": "88c5b01212e47502dc1edb62f2af08e5",
+        "textRange": {
+            "startLine": 333,
+            "endLine": 333,
+            "startOffset": 15,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-NS",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 316,
+        "hash": "82cc0d6eda52155cf0e1fe2276a9b1f7",
+        "textRange": {
+            "startLine": 316,
+            "endLine": 316,
+            "startOffset": 27,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-N3",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 525,
+        "hash": "242b14d8d9789e4275deb0291ee6eb9a",
+        "textRange": {
+            "startLine": 525,
+            "endLine": 525,
+            "startOffset": 20,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-09-27T14:14:56+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-N1",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 517,
+        "hash": "82050dd7db7f9a83c36adf52b44f3396",
+        "textRange": {
+            "startLine": 517,
+            "endLine": 517,
+            "startOffset": 14,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-09-27T14:14:56+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-Nz",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 508,
+        "hash": "1224213685a5172d1b7e907529ca2cfc",
+        "textRange": {
+            "startLine": 508,
+            "endLine": 508,
+            "startOffset": 21,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-04-09T15:53:45+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-Nr",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 475,
+        "hash": "283c5570788f975916b9b18e0729c0bd",
+        "textRange": {
+            "startLine": 475,
+            "endLine": 475,
+            "startOffset": 31,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-08-21T20:37:17+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-Nt",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 485,
+        "hash": "9e11433447a2f5bd33e028ff5de2019c",
+        "textRange": {
+            "startLine": 485,
+            "endLine": 485,
+            "startOffset": 15,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-08-21T20:37:17+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-Nv",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 492,
+        "hash": "5156d0194c8160a8f1785fd323567791",
+        "textRange": {
+            "startLine": 492,
+            "endLine": 492,
+            "startOffset": 21,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-04-09T15:53:45+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-Nx",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 500,
+        "hash": "b9fbfdf31f4c46d6b1e33c5b33829d97",
+        "textRange": {
+            "startLine": 500,
+            "endLine": 500,
+            "startOffset": 21,
+            "endOffset": 67
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-04-09T15:53:45+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyvM1IS1KOVSi-HU",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/ToscaTemplate.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 157,
+        "hash": "4c5de92ca5284974eb280bdddeaac9c2",
+        "textRange": {
+            "startLine": 157,
+            "endLine": 157,
+            "startOffset": 8,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyvM1IS1KOVSi-H4",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/ToscaTemplate.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 765,
+        "hash": "f69753e58a171a82bddc65103987fa6f",
+        "textRange": {
+            "startLine": 765,
+            "endLine": 765,
+            "startOffset": 41,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.sdc.toscaparser.api.common.JToscaException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llypn1IS1KOVSi-AJ",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/GroupType.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 76,
+        "hash": "816a1fe0a105c3b49bd0dc708386d5b8",
+        "textRange": {
+            "startLine": 76,
+            "endLine": 76,
+            "startOffset": 21,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyqg1IS1KOVSi-BQ",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/StatefulEntityType.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 35,
+        "hash": "eaf34cdedc05a758dbbf53913ea51239",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 33,
+            "endOffset": 68
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2019-07-25T12:11:05+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-N7",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 542,
+        "hash": "3bbb54c7de1de0c95cebdd6ea5376360",
+        "textRange": {
+            "startLine": 542,
+            "endLine": 542,
+            "startOffset": 14,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-09-27T14:14:56+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-N5",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 534,
+        "hash": "ad0942c43fde781d607445f3df20e624",
+        "textRange": {
+            "startLine": 534,
+            "endLine": 534,
+            "startOffset": 20,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-09-27T14:14:56+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-Np",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 464,
+        "hash": "4b889146020d4819508511a9a101b309",
+        "textRange": {
+            "startLine": 464,
+            "endLine": 464,
+            "startOffset": 30,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-08-21T20:37:17+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-Nn",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 453,
+        "hash": "2f18d19705772a4b0272585ffcbe6d91",
+        "textRange": {
+            "startLine": 453,
+            "endLine": 453,
+            "startOffset": 17,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-08-21T20:37:17+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-Nl",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 444,
+        "hash": "c6c3a7961874c6870ee582e380e7b845",
+        "textRange": {
+            "startLine": 444,
+            "endLine": 444,
+            "startOffset": 21,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-08-21T20:37:17+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-Nj",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 436,
+        "hash": "70ef65f08f6202af7b0928e8ecc742d7",
+        "textRange": {
+            "startLine": 436,
+            "endLine": 436,
+            "startOffset": 27,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-07-20T08:15:29+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-Nh",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 428,
+        "hash": "59e093183a2317127202eb69fe29973e",
+        "textRange": {
+            "startLine": 428,
+            "endLine": 428,
+            "startOffset": 16,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-07-17T15:27:08+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-Nf",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 420,
+        "hash": "d8e8acc4497543e51478e17950eaf4a0",
+        "textRange": {
+            "startLine": 420,
+            "endLine": 420,
+            "startOffset": 21,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-29T18:24:16+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-Nd",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 412,
+        "hash": "aca9f537dfd69525d1aa346973fbde2f",
+        "textRange": {
+            "startLine": 412,
+            "endLine": 412,
+            "startOffset": 27,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-26T16:32:41+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llypn1IS1KOVSi-AM",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/GroupType.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 145,
+        "hash": "86e2c88e8c0fc1e28ccf25aaa7beb043",
+        "textRange": {
+            "startLine": 145,
+            "endLine": 145,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-N_",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 559,
+        "hash": "4e508ea62550286789d730a198ae28b2",
+        "textRange": {
+            "startLine": 559,
+            "endLine": 559,
+            "startOffset": 17,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-09-27T14:14:56+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llypB1IS1KOVSi9_1",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/PolicyType.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 114,
+        "hash": "5df7a353748070eb9c581b2bdd3bb713",
+        "textRange": {
+            "startLine": 114,
+            "endLine": 114,
+            "startOffset": 22,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llypB1IS1KOVSi9_0",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/PolicyType.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 110,
+        "hash": "86e2c88e8c0fc1e28ccf25aaa7beb043",
+        "textRange": {
+            "startLine": 110,
+            "endLine": 110,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyw51IS1KOVSi-LR",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/RelationshipTemplate.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 69,
+        "hash": "66a46c6bb7f7447ad5282fd133f97b88",
+        "textRange": {
+            "startLine": 69,
+            "endLine": 69,
+            "startOffset": 31,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-NO",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 258,
+        "hash": "e3e288d8a14f7221a96df1593057ce23",
+        "textRange": {
+            "startLine": 258,
+            "endLine": 258,
+            "startOffset": 27,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llypL1IS1KOVSi9_7",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/ScalarUnit.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 41,
+        "hash": "c38c9a1d60ec81465b54ac1908b57eab",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 33,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2019-07-25T12:11:05+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llypX1IS1KOVSi-AB",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/enums/FileSize.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 22,
+        "hash": "6d124ea1d6b8ff12eec25782c9446240",
+        "textRange": {
+            "startLine": 22,
+            "endLine": 22,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-07-25T12:11:05+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llysT1IS1KOVSi-C5",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/utils/DumpUtils.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 27,
+        "hash": "7e7aabbc6cfaefc2705a52463564aaf8",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-N9",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 550,
+        "hash": "674b044d6dfe8b150e5d85cc1d625dbf",
+        "textRange": {
+            "startLine": 550,
+            "endLine": 550,
+            "startOffset": 14,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-09-27T14:14:56+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyrP1IS1KOVSi-CF",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/DataType.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 36,
+        "hash": "ff8b0887a6662e614c1056e460e4181d",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 20,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyyz1IS1KOVSi-NQ",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_sdc-sdc-tosca:sdc-tosca/src/main/java/org/onap/sdc/tosca/parser/api/ISdcCsarHelper.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 279,
+        "hash": "da9a8f4624a6d1603052c211c253606e",
+        "textRange": {
+            "startLine": 279,
+            "endLine": 279,
+            "startOffset": 27,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-06-08T11:26:00+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyp01IS1KOVSi-Ac",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/EntityType.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 88,
+        "hash": "3b4ae8de6a141413b87f368751dbafdf",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 48,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make TOSCA_DEF a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyp01IS1KOVSi-Ao",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/EntityType.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 91,
+        "hash": "aa52b4b13c0406e98c98045195825d70",
+        "textRange": {
+            "startLine": 91,
+            "endLine": 91,
+            "startOffset": 8,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make member \"TOSCA_DEF\" \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyp01IS1KOVSi-Al",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/EntityType.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 110,
+        "hash": "71e37320dad10c95e52f11c92ab11234",
+        "textRange": {
+            "startLine": 110,
+            "endLine": 110,
+            "startOffset": 31,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyp01IS1KOVSi-Ak",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/EntityType.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 57,
+        "hash": "139377f82aceaf3de4d7a914131657cb",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 31,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2017-06-07T16:24:33+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llyqg1IS1KOVSi-BR",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_sdc-sdc-tosca:jtosca/src/main/java/org/onap/sdc/toscaparser/api/elements/StatefulEntityType.java",
+        "project": "onap_sdc-sdc-tosca",
+        "line": 38,
+        "hash": "bfc42a70b1b536e7e98b9fd8ccc62ba5",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 33,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2019-07-25T12:11:05+0200",
+        "updateDate": "2019-11-26T03:42:13+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

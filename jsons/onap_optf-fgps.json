@@ -1,0 +1,666 @@
+[
+    {
+        "key": "AW6qnPT2cNwhAVmlJUd9",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/proxy/AAFProxy.java",
+        "project": "onap_optf-fgps",
+        "line": 77,
+        "hash": "326462cbddc0fcde2eec7ee93b9a4ffd",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 20,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make user a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-15T17:40:25+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPT2cNwhAVmlJUd8",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/proxy/AAFProxy.java",
+        "project": "onap_optf-fgps",
+        "line": 73,
+        "hash": "68fe6a1014ec3f3aaf7ed3f64cb76fbd",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 16,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make expires a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-15T17:40:25+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPT2cNwhAVmlJUd7",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/proxy/AAFProxy.java",
+        "project": "onap_optf-fgps",
+        "line": 72,
+        "hash": "8b7cec29663cde44174bd9618fc65ebc",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 16,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make id a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-15T17:40:25+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPT2cNwhAVmlJUd6",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/proxy/AAFProxy.java",
+        "project": "onap_optf-fgps",
+        "line": 68,
+        "hash": "0446fa69f560c33bcb5f21bc6dcfb254",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 16,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make password a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-15T17:40:25+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPT2cNwhAVmlJUd5",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/proxy/AAFProxy.java",
+        "project": "onap_optf-fgps",
+        "line": 67,
+        "hash": "8b7cec29663cde44174bd9618fc65ebc",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 16,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make id a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-03-15T17:40:25+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPR0cNwhAVmlJUcy",
+        "rule": "java:S2885",
+        "severity": "MAJOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/logging/aspect/EELFLoggerAdvice.java",
+        "project": "onap_optf-fgps",
+        "line": 60,
+        "hash": "2d49a7ef3ae5842567ba7bbf250e3060",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 39,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make \"logDateFormat\" an instance variable.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-03-15T17:36:26+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "BUG",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPVAcNwhAVmlJUei",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/service/ValetUtilityService.java",
+        "project": "onap_optf-fgps",
+        "line": 40,
+        "hash": "feaeab2f3e9c42542e70951ad36e71f2",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 13,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-15T17:41:44+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPT2cNwhAVmlJUeD",
+        "rule": "java:S2885",
+        "severity": "MAJOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/proxy/AAFProxy.java",
+        "project": "onap_optf-fgps",
+        "line": 81,
+        "hash": "9c2d81955c0b0bf1319fbd8aa6457342",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 39,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make \"sdf\" an instance variable.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-03-15T17:40:25+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "BUG",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPTccNwhAVmlJUde",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/utils/SystemProperties.java",
+        "project": "onap_optf-fgps",
+        "line": 126,
+        "hash": "37567066065044213ebd58583f17d89a",
+        "textRange": {
+            "startLine": 126,
+            "endLine": 126,
+            "startOffset": 19,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-03-15T17:42:15+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPTUcNwhAVmlJUdb",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/utils/UserUtils.java",
+        "project": "onap_optf-fgps",
+        "line": 46,
+        "hash": "f03ecc589bfe784050891397022524d4",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-15T17:42:15+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPUhcNwhAVmlJUeU",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/interceptor/AuthorizationInterceptor.java",
+        "project": "onap_optf-fgps",
+        "line": 108,
+        "hash": "b75c11b0e76adee747baffb3d37ac46f",
+        "textRange": {
+            "startLine": 108,
+            "endLine": 108,
+            "startOffset": 74,
+            "endOffset": 83
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-15T17:40:25+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPUhcNwhAVmlJUeP",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/interceptor/AuthorizationInterceptor.java",
+        "project": "onap_optf-fgps",
+        "line": 108,
+        "hash": "b75c11b0e76adee747baffb3d37ac46f",
+        "textRange": {
+            "startLine": 108,
+            "endLine": 108,
+            "startOffset": 74,
+            "endOffset": 83
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-03-15T17:40:25+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPTKcNwhAVmlJUdL",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/utils/CipherUtil.java",
+        "project": "onap_optf-fgps",
+        "line": 102,
+        "hash": "4958daa4dae19ff98f29015d144564ea",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 67,
+            "endOffset": 86
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.fgps.api.exception.CipherUtilException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-15T17:42:15+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPTKcNwhAVmlJUdK",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/utils/CipherUtil.java",
+        "project": "onap_optf-fgps",
+        "line": 79,
+        "hash": "c17a423628af0c8822353ddd26b77937",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 58,
+            "endOffset": 77
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.fgps.api.exception.CipherUtilException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-15T17:42:15+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPTCcNwhAVmlJUdI",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/utils/YamlToJsonConverter.java",
+        "project": "onap_optf-fgps",
+        "line": 45,
+        "hash": "a674a14ce9c29105ba7e22d2f61471e6",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 13,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-15T17:42:15+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPS6cNwhAVmlJUdG",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/utils/Helper.java",
+        "project": "onap_optf-fgps",
+        "line": 42,
+        "hash": "7cc9bf13dfc49c5c1f5f43ac8a78b889",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 13,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-15T17:42:15+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPSycNwhAVmlJUdE",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/utils/Constants.java",
+        "project": "onap_optf-fgps",
+        "line": 40,
+        "hash": "4b77d437a8e60026e015f438636aa6a5",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-15T17:42:15+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPWCcNwhAVmlJUhn",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/helpers/Helper.java",
+        "project": "onap_optf-fgps",
+        "line": 42,
+        "hash": "7cc9bf13dfc49c5c1f5f43ac8a78b889",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 13,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-15T17:40:25+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPSicNwhAVmlJUdC",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/utils/DBInitializationRequests.java",
+        "project": "onap_optf-fgps",
+        "line": 40,
+        "hash": "a77ff745aff10dd3566c7db45e1a2f86",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 13,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-15T17:42:15+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPSbcNwhAVmlJUdB",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/utils/MusicDBConstants.java",
+        "project": "onap_optf-fgps",
+        "line": 40,
+        "hash": "71938968c1e0a7f6dbac12496076ac1b",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-15T17:42:15+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPTKcNwhAVmlJUdR",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/utils/CipherUtil.java",
+        "project": "onap_optf-fgps",
+        "line": 166,
+        "hash": "87b0a6413a085a9e085d9b99fcbed7e7",
+        "textRange": {
+            "startLine": 166,
+            "endLine": 166,
+            "startOffset": 48,
+            "endOffset": 67
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.fgps.api.exception.CipherUtilException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-15T17:42:15+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPTKcNwhAVmlJUdQ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/utils/CipherUtil.java",
+        "project": "onap_optf-fgps",
+        "line": 162,
+        "hash": "38ed159308992fb8e93c1e34dbf5f4e3",
+        "textRange": {
+            "startLine": 162,
+            "endLine": 162,
+            "startOffset": 62,
+            "endOffset": 81
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.fgps.api.exception.CipherUtilException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-15T17:42:15+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6qnPTKcNwhAVmlJUdO",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_optf-fgps:valetapi/src/main/java/org/onap/fgps/api/utils/CipherUtil.java",
+        "project": "onap_optf-fgps",
+        "line": 133,
+        "hash": "19dc53de46040313ed245ef6cce072c7",
+        "textRange": {
+            "startLine": 133,
+            "endLine": 133,
+            "startOffset": 69,
+            "endOffset": 88
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.fgps.api.exception.CipherUtilException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-15T17:42:15+0100",
+        "updateDate": "2019-11-27T03:06:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

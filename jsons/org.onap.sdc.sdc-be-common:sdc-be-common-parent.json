@@ -1,0 +1,984 @@
+[
+    {
+        "key": "AXGErQ3QWt8SJmKKHdQI",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:versioning-lib/src/main/java/org/onap/sdc/common/versioning/services/types/SynchronizationState.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 30,
+        "hash": "5eb1048a65cef9f848fe69a1337d77e1",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 16,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-08-05T15:53:44+0200",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOU",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 408,
+        "hash": "ed7b7eda737e2e04bd55ba73d3f73d13",
+        "textRange": {
+            "startLine": 408,
+            "endLine": 408,
+            "startOffset": 16,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOS",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 395,
+        "hash": "705b7a2ad0724b422931b9807dcd79f1",
+        "textRange": {
+            "startLine": 395,
+            "endLine": 395,
+            "startOffset": 16,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOQ",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 387,
+        "hash": "4245c66689d6493c7dd4c1d1e57ce6ba",
+        "textRange": {
+            "startLine": 387,
+            "endLine": 387,
+            "startOffset": 16,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOO",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 379,
+        "hash": "bf84aa118739c7326ace650dcc6a9a46",
+        "textRange": {
+            "startLine": 379,
+            "endLine": 379,
+            "startOffset": 16,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOM",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 94,
+        "hash": "b46af2ae6ea47dcf5673f5f4073e6f90",
+        "textRange": {
+            "startLine": 94,
+            "endLine": 94,
+            "startOffset": 16,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOy",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 556,
+        "hash": "b64878b42dcf8bc29c7a013f22b4de18",
+        "textRange": {
+            "startLine": 556,
+            "endLine": 556,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOw",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 523,
+        "hash": "0335e5d6e4f74f7f8801ed9bb8f000f1",
+        "textRange": {
+            "startLine": 523,
+            "endLine": 523,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOu",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 515,
+        "hash": "cdcbad515ecbb435c36e99e3080e49c1",
+        "textRange": {
+            "startLine": 515,
+            "endLine": 515,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOs",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 507,
+        "hash": "9f35633524d78e25bf428b93f8ffb15e",
+        "textRange": {
+            "startLine": 507,
+            "endLine": 507,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ1fWt8SJmKKHdPJ",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/filters/RestrictionAccessFilter.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 74,
+        "hash": "bfca0ec98cda8728024874c9a596cfb6",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 16,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ18Wt8SJmKKHdPb",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/CipherUtil.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 35,
+        "hash": "7c15ee779e4a4b215cf09406a3353d9d",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 13,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ1xWt8SJmKKHdPW",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/utils/SecurityLogsUtils.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 25,
+        "hash": "e01147d833470ba447dafafaaa25d366",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 25,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make PORTAL_TARGET_ENTITY a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ1xWt8SJmKKHdPV",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/utils/SecurityLogsUtils.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 25,
+        "hash": "e01147d833470ba447dafafaaa25d366",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 25,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static PORTAL_TARGET_ENTITY\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ1VWt8SJmKKHdPD",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/RepresentationUtils.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 34,
+        "hash": "a470a73e58890053cf089f24bd1c7cf9",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 13,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ2UWt8SJmKKHdPt",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/AuthenticationCookieUtils.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 28,
+        "hash": "9d250c883e76b4f30cb35e6b15073786",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 13,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOK",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 86,
+        "hash": "e417c330b5d8e558ed39ac456fc0b018",
+        "textRange": {
+            "startLine": 86,
+            "endLine": 86,
+            "startOffset": 16,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOq",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 500,
+        "hash": "5008b801d66cfa044be79aa966295edb",
+        "textRange": {
+            "startLine": 500,
+            "endLine": 500,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOo",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 492,
+        "hash": "c88874b0ab749546945015c71bd7a308",
+        "textRange": {
+            "startLine": 492,
+            "endLine": 492,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOm",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 484,
+        "hash": "5918bf80661320795ff36f179b836d37",
+        "textRange": {
+            "startLine": 484,
+            "endLine": 484,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOk",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 476,
+        "hash": "beb6c61322ed54ed5e60144a78ef5f53",
+        "textRange": {
+            "startLine": 476,
+            "endLine": 476,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOi",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 468,
+        "hash": "af888b9c98ec9f57731f76e60fecce90",
+        "textRange": {
+            "startLine": 468,
+            "endLine": 468,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ4EWt8SJmKKHdQS",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:zusammen-lib/src/main/java/org/onap/sdc/common/zusammen/services/ZusammenElementUtil.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 24,
+        "hash": "73222ec5456e7c39d5b5188617e220e9",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 13,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-08-05T15:53:44+0200",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ1aWt8SJmKKHdPG",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/filters/FilterServletOutputStream.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 45,
+        "hash": "105f3486fc09539c5f4b29ced00d3c07",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ1aWt8SJmKKHdPF",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/filters/FilterServletOutputStream.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 41,
+        "hash": "b33c92bcdf81b3ce40d31eec2ee98654",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ0LWt8SJmKKHdN9",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/elements/LoggerError.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 137,
+        "hash": "cc750bb203e431dd74c36a3bf7feb72e",
+        "textRange": {
+            "startLine": 137,
+            "endLine": 137,
+            "startOffset": 16,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ0LWt8SJmKKHdN-",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/elements/LoggerError.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 141,
+        "hash": "b1f4f1140a38862862245bec263238bb",
+        "textRange": {
+            "startLine": 141,
+            "endLine": 141,
+            "startOffset": 16,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ12Wt8SJmKKHdPZ",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/utils/RestUtils.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 33,
+        "hash": "78308adf0102acf2af8ecfee3f4671dc",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ1xWt8SJmKKHdPY",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/utils/SecurityLogsUtils.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 24,
+        "hash": "657c55d70373db01ad36c71f5e03b180",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOe",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 447,
+        "hash": "413a63c0fe5b6eb7ecb2c8506d9e86fb",
+        "textRange": {
+            "startLine": 447,
+            "endLine": 447,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOc",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 440,
+        "hash": "786bbd150347e839d14b0cdf1ff2a014",
+        "textRange": {
+            "startLine": 440,
+            "endLine": 440,
+            "startOffset": 16,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOa",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 432,
+        "hash": "b53ac6345534e97b95681974f468f720",
+        "textRange": {
+            "startLine": 432,
+            "endLine": 432,
+            "startOffset": 16,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOY",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 424,
+        "hash": "397d998332b038d12b4500345923689c",
+        "textRange": {
+            "startLine": 424,
+            "endLine": 424,
+            "startOffset": 16,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOW",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 416,
+        "hash": "73fc13bb7a8e8de04a9ea9a0d0e6de7b",
+        "textRange": {
+            "startLine": 416,
+            "endLine": 416,
+            "startOffset": 16,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGErQ08Wt8SJmKKHdOg",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "org.onap.sdc.sdc-be-common:sdc-be-common-parent:security-util-lib/src/main/java/org/onap/sdc/security/logging/wrappers/Logger.java",
+        "project": "org.onap.sdc.sdc-be-common:sdc-be-common-parent",
+        "line": 455,
+        "hash": "42aee50f8ca2157ed52c0fc9620bd7a0",
+        "textRange": {
+            "startLine": 455,
+            "endLine": 455,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-11-21T09:20:23+0100",
+        "updateDate": "2020-04-16T22:27:26+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

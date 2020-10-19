@@ -1,0 +1,1195 @@
+[
+    {
+        "key": "AW6lL-4Eow4pPoqhgXuw",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/query/ChameleonErrorProcessor.java",
+        "project": "onap_aai-data-router",
+        "line": 36,
+        "hash": "ee3bc590653bbd62faa475de55698b17",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 48,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-02-27T19:55:56+0100",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-4Eow4pPoqhgXuu",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/query/ChameleonErrorProcessor.java",
+        "project": "onap_aai-data-router",
+        "line": 36,
+        "hash": "ee3bc590653bbd62faa475de55698b17",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 48,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-02-27T19:55:56+0100",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-xDow4pPoqhgXrl",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/exception/POAAuditException.java",
+        "project": "onap_aai-data-router",
+        "line": 34,
+        "hash": "d72cd3d05561d31296dab4031f8cd19d",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 19,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"httpStatus\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-08-14T18:10:32+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-zGow4pPoqhgXsI",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/entity/AaiEventEntity.java",
+        "project": "onap_aai-data-router",
+        "line": 110,
+        "hash": "da0c2aeec5c5f857f04fc70c46ad122d",
+        "textRange": {
+            "startLine": 110,
+            "endLine": 110,
+            "startOffset": 36,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.security.NoSuchAlgorithmException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-05-12T20:20:46+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-4row4pPoqhgXvF",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/query/ChameleonResponseBuiler.java",
+        "project": "onap_aai-data-router",
+        "line": 33,
+        "hash": "cf70c5c6dd4258a2060182bad7f4b48c",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 13,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-02-27T19:55:56+0100",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-2jow4pPoqhgXuU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/util/SearchServiceAgent.java",
+        "project": "onap_aai-data-router",
+        "line": 347,
+        "hash": "bfa0bea1be8b30e0aab5c2a76bae7fd5",
+        "textRange": {
+            "startLine": 347,
+            "endLine": 347,
+            "startOffset": 16,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-02-15T17:25:58+0100",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-3Zow4pPoqhgXuo",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/util/RouterServiceUtil.java",
+        "project": "onap_aai-data-router",
+        "line": 42,
+        "hash": "87956f6e0b4d8d6df4e311d9363c39de",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-05-12T20:20:46+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-2jow4pPoqhgXuW",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/util/SearchServiceAgent.java",
+        "project": "onap_aai-data-router",
+        "line": 344,
+        "hash": "5874c42cd2fe0c10bb06de96142f2c34",
+        "textRange": {
+            "startLine": 344,
+            "endLine": 344,
+            "startOffset": 56,
+            "endOffset": 65
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-20T20:17:28+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-1Cow4pPoqhgXtJ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/policy/GapEventTransformer.java",
+        "project": "onap_aai-data-router",
+        "line": 48,
+        "hash": "ee3bc590653bbd62faa475de55698b17",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 48,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-06-19T17:40:30+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-1Cow4pPoqhgXtH",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/policy/GapEventTransformer.java",
+        "project": "onap_aai-data-router",
+        "line": 48,
+        "hash": "ee3bc590653bbd62faa475de55698b17",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 48,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-19T17:40:30+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-2jow4pPoqhgXuV",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/util/SearchServiceAgent.java",
+        "project": "onap_aai-data-router",
+        "line": 361,
+        "hash": "dd5c42e7038c62d6653124901b0d4be2",
+        "textRange": {
+            "startLine": 361,
+            "endLine": 361,
+            "startOffset": 16,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-20T20:17:28+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-yKow4pPoqhgXry",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/entity/SpikeEventEntity.java",
+        "project": "onap_aai-data-router",
+        "line": 103,
+        "hash": "da0c2aeec5c5f857f04fc70c46ad122d",
+        "textRange": {
+            "startLine": 103,
+            "endLine": 103,
+            "startOffset": 36,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.security.NoSuchAlgorithmException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-08T18:34:36+0100",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-0tow4pPoqhgXs-",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/policy/EntityEventPolicy.java",
+        "project": "onap_aai-data-router",
+        "line": 734,
+        "hash": "6e62e79318abd7ec8a0958f653e3d08e",
+        "textRange": {
+            "startLine": 734,
+            "endLine": 734,
+            "startOffset": 72,
+            "endOffset": 85
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-05-12T20:20:46+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-0tow4pPoqhgXs3",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/policy/EntityEventPolicy.java",
+        "project": "onap_aai-data-router",
+        "line": 122,
+        "hash": "f6c3241bbf1404798718e4a4e73d4049",
+        "textRange": {
+            "startLine": 122,
+            "endLine": 122,
+            "startOffset": 66,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.FileNotFoundException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-02T20:19:52+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-1Xow4pPoqhgXtc",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/policy/AbstractSpikeEntityEventProcessor.java",
+        "project": "onap_aai-data-router",
+        "line": 285,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 285,
+            "endLine": 285,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-20T16:03:34+0100",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-1Xow4pPoqhgXta",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/policy/AbstractSpikeEntityEventProcessor.java",
+        "project": "onap_aai-data-router",
+        "line": 117,
+        "hash": "7f61d2fcf78df42c56b19945400ce22b",
+        "textRange": {
+            "startLine": 117,
+            "endLine": 117,
+            "startOffset": 13,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.FileNotFoundException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-20T16:03:34+0100",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-xDow4pPoqhgXrn",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/exception/POAAuditException.java",
+        "project": "onap_aai-data-router",
+        "line": 36,
+        "hash": "4440eadef7748b45ce952a796ca28c4d",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 21,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"logArguments\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-08-14T18:10:32+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-4Now4pPoqhgXu9",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/query/ChameleonRouter.java",
+        "project": "onap_aai-data-router",
+        "line": 204,
+        "hash": "b4e82c2429266887b5c32c08b63496b1",
+        "textRange": {
+            "startLine": 204,
+            "endLine": 204,
+            "startOffset": 55,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.ws.rs.BadRequestException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-04-04T16:35:44+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-3jow4pPoqhgXur",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/util/LoggingUtil.java",
+        "project": "onap_aai-data-router",
+        "line": 34,
+        "hash": "3d0fcdc9f69a8599c232b576ee986bdf",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-14T18:10:32+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-xDow4pPoqhgXrm",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/exception/POAAuditException.java",
+        "project": "onap_aai-data-router",
+        "line": 35,
+        "hash": "d3b60e912c09a1aad60fd0bee4d24337",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 27,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"logCode\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-08-14T18:10:32+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-1Xow4pPoqhgXtT",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/policy/AbstractSpikeEntityEventProcessor.java",
+        "project": "onap_aai-data-router",
+        "line": 352,
+        "hash": "ca76bde302c03948b4f758e078ba0a95",
+        "textRange": {
+            "startLine": 352,
+            "endLine": 352,
+            "startOffset": 29,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-03-20T16:03:34+0100",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-1Xow4pPoqhgXth",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/policy/AbstractSpikeEntityEventProcessor.java",
+        "project": "onap_aai-data-router",
+        "line": 484,
+        "hash": "6e62e79318abd7ec8a0958f653e3d08e",
+        "textRange": {
+            "startLine": 484,
+            "endLine": 484,
+            "startOffset": 72,
+            "endOffset": 85
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-20T16:03:34+0100",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-28ow4pPoqhgXud",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/util/DataRouterConstants.java",
+        "project": "onap_aai-data-router",
+        "line": 23,
+        "hash": "9dc8a445cdfa18d04872ab9591734704",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-05-12T20:20:46+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-2yow4pPoqhgXua",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/util/NodeUtils.java",
+        "project": "onap_aai-data-router",
+        "line": 35,
+        "hash": "208ecfc95cb3a3f8d5d027b04fa7f9a8",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-05-12T20:20:46+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-3Fow4pPoqhgXue",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/util/DataRouterProperties.java",
+        "project": "onap_aai-data-router",
+        "line": 32,
+        "hash": "5b88b1a9a6832982af61711bfdd8e02d",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-05-12T20:20:46+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-3Oow4pPoqhgXuj",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/util/AaiUiSvcPolicyUtil.java",
+        "project": "onap_aai-data-router",
+        "line": 49,
+        "hash": "6f63ff71824f613de1b7596276b4688c",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 64,
+            "endOffset": 73
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-01T15:55:11+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-3Oow4pPoqhgXug",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/util/AaiUiSvcPolicyUtil.java",
+        "project": "onap_aai-data-router",
+        "line": 49,
+        "hash": "6f63ff71824f613de1b7596276b4688c",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 64,
+            "endOffset": 73
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-01T15:55:11+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-1vow4pPoqhgXt1",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/policy/SpikeEntityEventPolicy.java",
+        "project": "onap_aai-data-router",
+        "line": 121,
+        "hash": "a87c0f3ba2bcf767142a2ea66033d3de",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 76,
+            "endOffset": 97
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.FileNotFoundException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-08T18:34:36+0100",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-2Sow4pPoqhgXuP",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/util/SearchSuggestionPermutation.java",
+        "project": "onap_aai-data-router",
+        "line": 26,
+        "hash": "a6ce96ea9164e49bd76f13e0ff1fcb28",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-05-12T20:20:46+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-2Jow4pPoqhgXuK",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/service/AuditService.java",
+        "project": "onap_aai-data-router",
+        "line": 64,
+        "hash": "7fdfdaa6ce3baec00bf63cabf6331b6f",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 57,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-14T18:10:32+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-2Jow4pPoqhgXuJ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/service/AuditService.java",
+        "project": "onap_aai-data-router",
+        "line": 64,
+        "hash": "7fdfdaa6ce3baec00bf63cabf6331b6f",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 57,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-14T18:10:32+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-1Xow4pPoqhgXtq",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/policy/AbstractSpikeEntityEventProcessor.java",
+        "project": "onap_aai-data-router",
+        "line": 877,
+        "hash": "515af85749ecbfaaf3b2d513ada7ae61",
+        "textRange": {
+            "startLine": 877,
+            "endLine": 877,
+            "startOffset": 88,
+            "endOffset": 101
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-06-13T05:54:25+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-3Oow4pPoqhgXuh",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/util/AaiUiSvcPolicyUtil.java",
+        "project": "onap_aai-data-router",
+        "line": 30,
+        "hash": "2b231a4d6fcbbf05041b5723423550b5",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 13,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-01T15:55:11+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-3Oow4pPoqhgXuf",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/util/AaiUiSvcPolicyUtil.java",
+        "project": "onap_aai-data-router",
+        "line": 34,
+        "hash": "1ff53712638bba2ae4dc889c3bc2f0f0",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 67,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-01T15:55:11+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-0fow4pPoqhgXsp",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/policy/ServiceIntegrityValidationPolicy.java",
+        "project": "onap_aai-data-router",
+        "line": 88,
+        "hash": "ee3bc590653bbd62faa475de55698b17",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 50,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-14T18:10:32+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-ziow4pPoqhgXsP",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/entity/SuggestionSearchEntity.java",
+        "project": "onap_aai-data-router",
+        "line": 77,
+        "hash": "75542675307f7d3568cd1001763b867e",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 66,
+            "endOffset": 90
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.security.NoSuchAlgorithmException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-01T15:55:11+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-1Xow4pPoqhgXtU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/policy/AbstractSpikeEntityEventProcessor.java",
+        "project": "onap_aai-data-router",
+        "line": 285,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 285,
+            "endLine": 285,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-20T16:03:34+0100",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-1vow4pPoqhgXt6",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/policy/SpikeEntityEventPolicy.java",
+        "project": "onap_aai-data-router",
+        "line": 432,
+        "hash": "6f9360d51e849a5cba5078bcd55d1353",
+        "textRange": {
+            "startLine": 432,
+            "endLine": 432,
+            "startOffset": 86,
+            "endOffset": 99
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-06-13T05:54:25+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-3Oow4pPoqhgXui",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/util/AaiUiSvcPolicyUtil.java",
+        "project": "onap_aai-data-router",
+        "line": 34,
+        "hash": "1ff53712638bba2ae4dc889c3bc2f0f0",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 67,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-01T15:55:11+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lL-17ow4pPoqhgXuD",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-data-router:src/main/java/org/onap/aai/datarouter/Application.java",
+        "project": "onap_aai-data-router",
+        "line": 57,
+        "hash": "c1818c931e7a3a86ad317c521b846af3",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-03T19:00:34+0200",
+        "updateDate": "2019-11-26T01:49:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,1927 @@
+[
+    {
+        "key": "AXD2rHfOYLFyXCsBtZ7M",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/InfoMojo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 122,
+        "hash": "23e43d12a6b4495a2a5640c5357ec7af",
+        "textRange": {
+            "startLine": 122,
+            "endLine": 122,
+            "startOffset": 19,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2020-03-20T07:39:15+0100",
+        "updateDate": "2020-03-20T07:39:15+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXD0Ki_f9s1EJwOY52N6",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/InfoMojo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 118,
+        "hash": "9c9b02d8c08a35b295be62841e73d522",
+        "textRange": {
+            "startLine": 118,
+            "endLine": 118,
+            "startOffset": 17,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2020-03-19T19:58:26+0100",
+        "updateDate": "2020-03-19T19:58:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWyJ-XR9dg2jiL0ywhW-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/AbstractFeatureMojo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 322,
+        "hash": "a7b10f9597aaf657bd736550b82934e1",
+        "textRange": {
+            "startLine": 322,
+            "endLine": 322,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [],
+        "creationDate": "2019-07-30T13:47:10+0200",
+        "updateDate": "2019-07-30T16:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWuJzXlPtUB48Z09HLAa",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/Aggregate.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 39,
+        "hash": "5e4d7d1ab3e3bc93ada3b5973ab59d48",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 19,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make attach a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-06-24T16:04:08+0200",
+        "updateDate": "2019-06-24T16:04:08+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5CYsUHy63n3wmO",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 1062,
+        "hash": "60bb4e262fb72d65cfe41874eae07c45",
+        "textRange": {
+            "startLine": 1062,
+            "endLine": 1062,
+            "startOffset": 19,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.maven.plugin.MojoExecutionException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [],
+        "creationDate": "2019-03-20T15:22:25+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5gYsUHy63n3wm1",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/Environment.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 34,
+        "hash": "f071b46373ddc6819400fca09d17ed6a",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 28,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make resolver a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-11-03T15:06:50+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5gYsUHy63n3wm0",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/Environment.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 33,
+        "hash": "ce778c0deec5727a6fb388a03f91826f",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 34,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make artifactHandlerManager a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-11-03T15:06:50+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5HYsUHy63n3wmZ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/Repository.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 32,
+        "hash": "548b76e8401bd4eedb4dad8fb6e6a77b",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 18,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make repositoryDir a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-07T10:38:35+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5uYsUHy63n3wnX",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/FeatureConstants.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 19,
+        "hash": "a7057b622dc085bf5234334fa5700f48",
+        "textRange": {
+            "startLine": 19,
+            "endLine": 19,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-11-03T15:06:50+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5kYsUHy63n3wm7",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/FeatureProjectInfo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 32,
+        "hash": "72c1955c30e7b48364588176375925f6",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 19,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make testFeatureDone a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-11-03T15:06:50+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5kYsUHy63n3wm6",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/FeatureProjectInfo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 31,
+        "hash": "8577219a346b2c409684c9c9c65eacc7",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 19,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make featureDone a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-11-03T15:06:50+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5kYsUHy63n3wm5",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/FeatureProjectInfo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 29,
+        "hash": "15f10d8211d0d0330a08c8fab15edcdc",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 24,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make plugin a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-09-28T13:52:25+0200",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5kYsUHy63n3wm4",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/FeatureProjectInfo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 28,
+        "hash": "b0e1483759ea421e59c824b7e29aa6a7",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make project a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-09-28T13:52:25+0200",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5gYsUHy63n3wm3",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/Environment.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 36,
+        "hash": "8cb7d6b613bd71ec6287f474292d316c",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 18,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make logger a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-11-03T15:06:50+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5gYsUHy63n3wm2",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/Environment.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 35,
+        "hash": "800a550cfa453797276ae9c28f269186",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 24,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make session a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-11-03T15:06:50+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXD4PTVJjHm6RcwEuQeT",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/Archive.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 34,
+        "hash": "5e4d7d1ab3e3bc93ada3b5973ab59d48",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 19,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make attach a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2020-03-20T14:56:52+0100",
+        "updateDate": "2020-03-20T14:56:52+0100",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGrgCPpdpv0qZZ2Yoat",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/JSONFeatures.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 42,
+        "hash": "7f33a9be7555a3bfb4849edc46378a48",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 13,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-04-22T09:08:23+0200",
+        "updateDate": "2020-04-24T11:22:54+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5xYsUHy63n3wnd",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 115,
+        "hash": "159d853bf265034571f1da1551335472",
+        "textRange": {
+            "startLine": 115,
+            "endLine": 115,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-09-28T14:56:45+0200",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5xYsUHy63n3wnl",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 487,
+        "hash": "bc204b336a4c61b06bf201669b6dfaaf",
+        "textRange": {
+            "startLine": 487,
+            "endLine": 487,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-21T22:10:59+0200",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5xYsUHy63n3wni",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 328,
+        "hash": "dc1d532f194142d887d3622c0e3a54bf",
+        "textRange": {
+            "startLine": 328,
+            "endLine": 328,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-07T09:20:08+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWyJ-XWcdg2jiL0ywhXH",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 550,
+        "hash": "83ed7587ad987705f46fd6021d9396b9",
+        "textRange": {
+            "startLine": 550,
+            "endLine": 550,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [],
+        "creationDate": "2019-07-30T13:47:10+0200",
+        "updateDate": "2019-07-30T16:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWyJ-XWcdg2jiL0ywhXJ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 561,
+        "hash": "4d16661922621793f47fbc8a5f820a08",
+        "textRange": {
+            "startLine": 561,
+            "endLine": 561,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [],
+        "creationDate": "2019-07-30T13:47:10+0200",
+        "updateDate": "2019-07-30T16:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5oYsUHy63n3wnL",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/Preprocessor.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 320,
+        "hash": "bafb92d0f700198f6edf1ddce7132c58",
+        "textRange": {
+            "startLine": 320,
+            "endLine": 320,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [],
+        "creationDate": "2018-10-21T22:10:59+0200",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW1KLzH6f1VKzxU-fOgn",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/JarDecompressor.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 136,
+        "hash": "105f3486fc09539c5f4b29ced00d3c07",
+        "textRange": {
+            "startLine": 136,
+            "endLine": 136,
+            "startOffset": 20,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-09-17T20:01:34+0200",
+        "updateDate": "2019-09-17T20:12:47+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5xYsUHy63n3wnj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 474,
+        "hash": "8c9228cc604ce2375c4d9b4b6aa7aa02",
+        "textRange": {
+            "startLine": 474,
+            "endLine": 474,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-21T22:10:59+0200",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXHtnckuGByw7D6GMo6Z",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/apis/ApisUtil.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 37,
+        "hash": "4bdb3d9b8e2542e55d405d24cd21bc8a",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-05-07T07:05:48+0200",
+        "updateDate": "2020-05-07T07:30:36+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW3yWPyiKHmJ1NXxTq_l",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 1488,
+        "hash": "60bb4e262fb72d65cfe41874eae07c45",
+        "textRange": {
+            "startLine": 1488,
+            "endLine": 1488,
+            "startOffset": 19,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.maven.plugin.MojoExecutionException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [],
+        "creationDate": "2019-10-22T09:22:23+0200",
+        "updateDate": "2019-10-22T09:22:23+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXE_F2NlRF5d_enToiaX",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/ApisJarMojo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 1464,
+        "hash": "60bb4e262fb72d65cfe41874eae07c45",
+        "textRange": {
+            "startLine": 1464,
+            "endLine": 1464,
+            "startOffset": 19,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.maven.plugin.MojoExecutionException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [],
+        "creationDate": "2020-04-03T10:08:25+0200",
+        "updateDate": "2020-04-03T10:08:25+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO44YsUHy63n3wl8",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/AbstractRepositoryMojo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 53,
+        "hash": "812a68949575b219a204625ea2d71800",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 43,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.maven.plugin.MojoFailureException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-10-29T17:10:22+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5xYsUHy63n3wnr",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 62,
+        "hash": "1612506261d1513c91a832a515f2ae8e",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 22,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-11-03T15:06:50+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5xYsUHy63n3wnb",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 84,
+        "hash": "34f9a51da1c384dbd295feceb9789969",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-03T15:06:50+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXD4PTaWjHm6RcwEuQeU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 262,
+        "hash": "f07aabc792d6316d48c46b7bf9a27f2a",
+        "textRange": {
+            "startLine": 262,
+            "endLine": 262,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-20T14:56:52+0100",
+        "updateDate": "2020-03-20T14:56:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5xYsUHy63n3wnh",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 312,
+        "hash": "40a2d79eb56f02e888465b9e9530fe99",
+        "textRange": {
+            "startLine": 312,
+            "endLine": 312,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-03T15:06:50+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5xYsUHy63n3wnk",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 485,
+        "hash": "1bc360e08dfadd7a959b9edb5f4101f8",
+        "textRange": {
+            "startLine": 485,
+            "endLine": 485,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-21T22:10:59+0200",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5xYsUHy63n3wne",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 121,
+        "hash": "34f9a51da1c384dbd295feceb9789969",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-03T15:06:50+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO4sYsUHy63n3wlk",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 455,
+        "hash": "725bc0cd0205d8236c127d42591ad52b",
+        "textRange": {
+            "startLine": 455,
+            "endLine": 455,
+            "startOffset": 30,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make includes a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-10-31T13:35:35+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO4sYsUHy63n3wlp",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 470,
+        "hash": "3794705013aa6a7f8d5e59c2a4e4c335",
+        "textRange": {
+            "startLine": 470,
+            "endLine": 470,
+            "startOffset": 36,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make updates a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-10-31T13:35:35+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO4sYsUHy63n3wlq",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 471,
+        "hash": "c304bef4768c794656609d04b57e988d",
+        "textRange": {
+            "startLine": 471,
+            "endLine": 471,
+            "startOffset": 35,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make propertyUpdates a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-10-31T13:35:35+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO4sYsUHy63n3wll",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 456,
+        "hash": "3d2a456fbb7861e6f4d420b08fbb0d4c",
+        "textRange": {
+            "startLine": 456,
+            "endLine": 456,
+            "startOffset": 30,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make excludes a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-10-31T13:35:35+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5aYsUHy63n3wmx",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/Substitution.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 36,
+        "hash": "9a58d256110386ae775b8bcaccc781b4",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 13,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [],
+        "creationDate": "2018-09-28T13:52:25+0200",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5aYsUHy63n3wmw",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/Substitution.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 82,
+        "hash": "107f2c6a39bea1c005539c683ffd013f",
+        "textRange": {
+            "startLine": 82,
+            "endLine": 82,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [],
+        "creationDate": "2018-11-10T00:33:11+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO4sYsUHy63n3wlm",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 464,
+        "hash": "c15d007d8860029eb802a59877d5b9b4",
+        "textRange": {
+            "startLine": 464,
+            "endLine": 464,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make extension a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-10-28T16:51:35+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO4sYsUHy63n3wln",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 465,
+        "hash": "251e4d441350700901f3cb54dfb32aed",
+        "textRange": {
+            "startLine": 465,
+            "endLine": 465,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make artifact a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-10-28T16:51:35+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO4sYsUHy63n3wlz",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 422,
+        "hash": "60bb4e262fb72d65cfe41874eae07c45",
+        "textRange": {
+            "startLine": 422,
+            "endLine": 422,
+            "startOffset": 19,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.maven.plugin.MojoExecutionException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-10-31T10:11:18+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO4sYsUHy63n3wlo",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 466,
+        "hash": "d10af8d7ab4d44574e3492aa6a20634d",
+        "textRange": {
+            "startLine": 466,
+            "endLine": 466,
+            "startOffset": 16,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make newVersion a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-10-28T16:51:35+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5oYsUHy63n3wnD",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/Preprocessor.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 71,
+        "hash": "46eb455327689e69fe92548fd57ccb7b",
+        "textRange": {
+            "startLine": 71,
+            "endLine": 71,
+            "startOffset": 21,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-08T17:15:13+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5oYsUHy63n3wnF",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/Preprocessor.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 95,
+        "hash": "0e8f0f35b4ed0b8ac295cebcfc206279",
+        "textRange": {
+            "startLine": 95,
+            "endLine": 95,
+            "startOffset": 21,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-08T17:15:13+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5RYsUHy63n3wmj",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/Aggregate.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 49,
+        "hash": "c7e073cf950be372a11d07bca05585ca",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 19,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make markAsComplete a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-13T10:00:22+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5RYsUHy63n3wmm",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/Aggregate.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 64,
+        "hash": "63b76e1e5cb178e01136235961d7c5b5",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 18,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make vendor a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-13T10:43:38+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5xYsUHy63n3wnc",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 111,
+        "hash": "159d853bf265034571f1da1551335472",
+        "textRange": {
+            "startLine": 111,
+            "endLine": 111,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-03T15:06:50+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5xYsUHy63n3wng",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 226,
+        "hash": "0a132d2876fcdaa5862f6f778f933b4b",
+        "textRange": {
+            "startLine": 226,
+            "endLine": 226,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-03T15:06:50+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXD4PTRKjHm6RcwEuQeS",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/AttachFeaturesMojo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 73,
+        "hash": "60bb4e262fb72d65cfe41874eae07c45",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 11,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.maven.plugin.MojoExecutionException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-03-20T14:56:52+0100",
+        "updateDate": "2020-03-20T14:56:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5RYsUHy63n3wmp",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/Aggregate.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 72,
+        "hash": "bf2717a9aef4a5e18b113e653add731d",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 31,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make frameworkPropertiesOverrides a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-21T15:38:03+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5RYsUHy63n3wmo",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/Aggregate.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 70,
+        "hash": "7e2f844e74920bd4c395d9d7d2e8d241",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 31,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make variablesOverrides a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-21T15:38:03+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5RYsUHy63n3wmn",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/Aggregate.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 66,
+        "hash": "126deedece0f53a0583ab18e92bd6c92",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 24,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make artifactsOverrides a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-21T15:38:03+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWyJ-XWcdg2jiL0ywhXK",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 565,
+        "hash": "b9155dfac31280046bfc3acb4b47a1ff",
+        "textRange": {
+            "startLine": 565,
+            "endLine": 565,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [],
+        "creationDate": "2019-07-30T13:47:10+0200",
+        "updateDate": "2019-07-30T16:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWyJ-XWcdg2jiL0ywhXI",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/ProjectHelper.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 557,
+        "hash": "0a1fb9918ce8e87d11b08e2be85d1c86",
+        "textRange": {
+            "startLine": 557,
+            "endLine": 557,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [],
+        "creationDate": "2019-07-30T13:47:10+0200",
+        "updateDate": "2019-07-30T16:08:59+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5oYsUHy63n3wnJ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/Preprocessor.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 228,
+        "hash": "ecdebf60fdd85df1721959924aac89c8",
+        "textRange": {
+            "startLine": 228,
+            "endLine": 228,
+            "startOffset": 20,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-21T22:10:59+0200",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5RYsUHy63n3wml",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/Aggregate.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 59,
+        "hash": "ce2ea66b1d2db3520c7c27026c72f1a8",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 18,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make description a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-07T09:20:08+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5RYsUHy63n3wmk",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/Aggregate.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 54,
+        "hash": "8a90568c6e332919f11e323ba0057155",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make title a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-07T09:20:08+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5RYsUHy63n3wmi",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/Aggregate.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 44,
+        "hash": "d0bc2b8a38f7319de3fae4141acb868c",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 19,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make markAsFinal a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-07T09:20:08+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5RYsUHy63n3wmh",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/Aggregate.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 33,
+        "hash": "1afca23d2472e5099a4048e386fba364",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make classifier a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-11-07T09:20:08+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW0U6UkRnLmK9uqOgjq3",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/UpdateVersionsMojo.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 458,
+        "hash": "b49f734b7163442527f261f70eae6030",
+        "textRange": {
+            "startLine": 458,
+            "endLine": 458,
+            "startOffset": 28,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make includeVersionInfo a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-09-09T09:24:34+0200",
+        "updateDate": "2019-09-09T09:24:34+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5oYsUHy63n3wnI",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/Preprocessor.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 155,
+        "hash": "805ec7542cb9b6356e8209516cbb2b90",
+        "textRange": {
+            "startLine": 155,
+            "endLine": 155,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-09-28T13:52:25+0200",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW1KLzH6f1VKzxU-fOgk",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/JarDecompressor.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 38,
+        "hash": "c9551febb7b2b7a19f7e6b7aaaba2f51",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 6,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-09-17T20:01:34+0200",
+        "updateDate": "2019-09-17T20:12:47+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5oYsUHy63n3wnE",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/Preprocessor.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 92,
+        "hash": "0f75d2f1de6dffb3d0634c3082530cb1",
+        "textRange": {
+            "startLine": 92,
+            "endLine": 92,
+            "startOffset": 25,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-08T17:15:13+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo3WO5oYsUHy63n3wnG",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/Preprocessor.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 97,
+        "hash": "525c6446e27bd57be5ff4addaa39b304",
+        "textRange": {
+            "startLine": 97,
+            "endLine": 97,
+            "startOffset": 21,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-08T17:15:13+0100",
+        "updateDate": "2019-04-19T22:45:10+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy4CI0K4FjrqwOw6Y5l",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-slingfeature-maven-plugin:src/main/java/org/apache/sling/feature/maven/mojos/Aggregate.java",
+        "project": "apache_sling-slingfeature-maven-plugin",
+        "line": 68,
+        "hash": "97fbc6a3e6c8458b9d9ffe1b9511f9c5",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 24,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make configurationOverrides a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-08-22T08:33:56+0200",
+        "updateDate": "2019-08-22T08:33:56+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

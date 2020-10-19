@@ -1,0 +1,656 @@
+[
+    {
+        "key": "AWp-kURQUbljVfNVVHzn",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 483,
+        "hash": "f290fab1167f260144ea691154f7b77b",
+        "textRange": {
+            "startLine": 483,
+            "endLine": 483,
+            "startOffset": 23,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make isMultiValue a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kURQUbljVfNVVHzk",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 480,
+        "hash": "d29eb809cd7e712070b86a449a5f2e82",
+        "textRange": {
+            "startLine": 480,
+            "endLine": 480,
+            "startOffset": 22,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make name a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kURQUbljVfNVVHzg",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 425,
+        "hash": "d29eb809cd7e712070b86a449a5f2e82",
+        "textRange": {
+            "startLine": 425,
+            "endLine": 425,
+            "startOffset": 22,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make name a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kURQUbljVfNVVHzb",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 423,
+        "hash": "fe7de5306a13fb86090494d7d213d8b3",
+        "textRange": {
+            "startLine": 423,
+            "endLine": 423,
+            "startOffset": 38,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static SHARED\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kURQUbljVfNVVHzd",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 570,
+        "hash": "968cd1ef41486bf6895c0fd5c0734769",
+        "textRange": {
+            "startLine": 570,
+            "endLine": 570,
+            "startOffset": 38,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static SHARED\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2009-10-27T10:43:56+0100",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kURQUbljVfNVVHzc",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 462,
+        "hash": "a4733125201d727bc6872066008f816e",
+        "textRange": {
+            "startLine": 462,
+            "endLine": 462,
+            "startOffset": 42,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static SHARED\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kURQUbljVfNVVHzi",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 427,
+        "hash": "3af0bb20bdfe42bd8364eeb98073e427",
+        "textRange": {
+            "startLine": 427,
+            "endLine": 427,
+            "startOffset": 28,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make mixinTypes a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kURQUbljVfNVVHzf",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 423,
+        "hash": "fe7de5306a13fb86090494d7d213d8b3",
+        "textRange": {
+            "startLine": 423,
+            "endLine": 423,
+            "startOffset": 38,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make SHARED a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kURQUbljVfNVVHzh",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 426,
+        "hash": "320644e1dffd3f1985e9a528622cf04f",
+        "textRange": {
+            "startLine": 426,
+            "endLine": 426,
+            "startOffset": 22,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make primaryNodeType a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kURQUbljVfNVVHzl",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 481,
+        "hash": "7ba709b14e744ad5c81755e81eb9d05d",
+        "textRange": {
+            "startLine": 481,
+            "endLine": 481,
+            "startOffset": 22,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make type a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kURQUbljVfNVVHzm",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 482,
+        "hash": "f3c28968992f83cf5a09f3e0ad6d6d15",
+        "textRange": {
+            "startLine": 482,
+            "endLine": 482,
+            "startOffset": 28,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make values a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kURQUbljVfNVVHzs",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 393,
+        "hash": "f062ec36036884811d7c190db2e70411",
+        "textRange": {
+            "startLine": 393,
+            "endLine": 393,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kUSIUbljVfNVVH04",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/ContentTypeUtil.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 21,
+        "hash": "b5944725e7eedba55ddf6b569a5d39d6",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-03-07T17:42:23+0100",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kUSLUbljVfNVVH05",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/ImportOptions.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 27,
+        "hash": "1f3669271a657b34015e6d2714cd5bc9",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 22,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"ImportOptions\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2010-06-27T21:36:49+0200",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWuUXeLgdgEyLZvltxnH",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/PathEntry.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 310,
+        "hash": "7e6fb233187260591cf6ef57b5a5c3d4",
+        "textRange": {
+            "startLine": 310,
+            "endLine": 310,
+            "startOffset": 19,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "assignee": "JEBailey@github",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-06-26T15:26:40+0200",
+        "updateDate": "2019-06-26T15:34:19+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWuUXeLgdgEyLZvltxnG",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/PathEntry.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 305,
+        "hash": "d960b1e5694da7a210dc6314dc2e5892",
+        "textRange": {
+            "startLine": 305,
+            "endLine": 305,
+            "startOffset": 19,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-02-18T22:04:45+0100",
+        "updateDate": "2019-06-26T15:34:19+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWuUXeLgdgEyLZvltxnF",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/PathEntry.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 282,
+        "hash": "ad3b153e95f98bc0d7c777aebcbbf52a",
+        "textRange": {
+            "startLine": 282,
+            "endLine": 282,
+            "startOffset": 19,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-11-26T22:40:18+0100",
+        "updateDate": "2019-06-26T15:34:19+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kURQUbljVfNVVHzj",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 462,
+        "hash": "a4733125201d727bc6872066008f816e",
+        "textRange": {
+            "startLine": 462,
+            "endLine": 462,
+            "startOffset": 42,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make SHARED a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kURQUbljVfNVVHzr",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 149,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 149,
+            "endLine": 149,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2009-10-27T10:43:56+0100",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kURQUbljVfNVVHz9",
+        "rule": "java:S2885",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 574,
+        "hash": "6a882cb75f160dd3f8077cfafd63da00",
+        "textRange": {
+            "startLine": 574,
+            "endLine": 574,
+            "startOffset": 39,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make \"DATE_FORMAT\" an instance variable.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2009-10-27T10:43:56+0100",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "BUG",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kUR1UbljVfNVVH0Y",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/BundleContentLoader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 676,
+        "hash": "99008d1e4fe51a8c1c3a3b2484e2a7c1",
+        "textRange": {
+            "startLine": 676,
+            "endLine": 676,
+            "startOffset": 19,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make url a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-10-03T10:43:09+0200",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kURQUbljVfNVVHzt",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 395,
+        "hash": "50907b4d318e032df17af595d2502e35",
+        "textRange": {
+            "startLine": 395,
+            "endLine": 395,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWp-kURQUbljVfNVVHzo",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-jcr-contentloader:src/main/java/org/apache/sling/jcr/contentloader/internal/readers/XmlReader.java",
+        "project": "apache_sling-org-apache-sling-jcr-contentloader",
+        "line": 570,
+        "hash": "968cd1ef41486bf6895c0fd5c0734769",
+        "textRange": {
+            "startLine": 570,
+            "endLine": 570,
+            "startOffset": 38,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make SHARED a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2009-10-27T10:43:56+0100",
+        "updateDate": "2019-05-03T18:39:49+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

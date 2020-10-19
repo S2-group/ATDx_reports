@@ -1,0 +1,316 @@
+[
+    {
+        "key": "AWpBrlybnu96bB9fmxbp",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-hapi:src/main/java/org/apache/sling/hapi/HApiUtil.java",
+        "project": "apache_sling-org-apache-sling-hapi",
+        "line": 65,
+        "hash": "73c3ee41d52d5619e7306c9812eb8746",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 9,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-02-01T14:26:59+0100",
+        "updateDate": "2019-04-21T22:54:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBrlybnu96bB9fmxbr",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-hapi:src/main/java/org/apache/sling/hapi/HApiUtil.java",
+        "project": "apache_sling-org-apache-sling-hapi",
+        "line": 143,
+        "hash": "a5bdb024ccdcfe4cc578718ed7765146",
+        "textRange": {
+            "startLine": 143,
+            "endLine": 143,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-02-01T14:26:59+0100",
+        "updateDate": "2019-04-21T22:54:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBrlxwnu96bB9fmxa0",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-hapi:src/main/java/org/apache/sling/hapi/impl/HApiTypeImpl.java",
+        "project": "apache_sling-org-apache-sling-hapi",
+        "line": 62,
+        "hash": "4962227fd9b85bfb3a2d71ee77742eb7",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 11,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2015-09-25T15:30:05+0200",
+        "updateDate": "2019-04-21T22:54:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBrlx-nu96bB9fmxbM",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-hapi:src/main/java/org/apache/sling/hapi/impl/HApiUtilImpl.java",
+        "project": "apache_sling-org-apache-sling-hapi",
+        "line": 123,
+        "hash": "37dfacc4439a35cf5de86100e2be9c73",
+        "textRange": {
+            "startLine": 123,
+            "endLine": 123,
+            "startOffset": 16,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-08-24T16:53:16+0200",
+        "updateDate": "2019-04-21T22:54:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBrlx-nu96bB9fmxbL",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "apache_sling-org-apache-sling-hapi:src/main/java/org/apache/sling/hapi/impl/HApiUtilImpl.java",
+        "project": "apache_sling-org-apache-sling-hapi",
+        "line": 115,
+        "hash": "cf29c08ef0e7ad7fffbfd4312dec46ec",
+        "textRange": {
+            "startLine": 115,
+            "endLine": 115,
+            "startOffset": 8,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2017-06-29T14:51:24+0200",
+        "updateDate": "2019-04-21T22:54:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBrlx-nu96bB9fmxbK",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "apache_sling-org-apache-sling-hapi:src/main/java/org/apache/sling/hapi/impl/HApiUtilImpl.java",
+        "project": "apache_sling-org-apache-sling-hapi",
+        "line": 114,
+        "hash": "632c72a6ca65e95aeac391646e44cff3",
+        "textRange": {
+            "startLine": 114,
+            "endLine": 114,
+            "startOffset": 8,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2017-06-29T14:51:24+0200",
+        "updateDate": "2019-04-21T22:54:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBrlx-nu96bB9fmxbJ",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "apache_sling-org-apache-sling-hapi:src/main/java/org/apache/sling/hapi/impl/HApiUtilImpl.java",
+        "project": "apache_sling-org-apache-sling-hapi",
+        "line": 112,
+        "hash": "5467f511b3edf054dab06889f47e624b",
+        "textRange": {
+            "startLine": 112,
+            "endLine": 112,
+            "startOffset": 8,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2017-06-29T14:51:24+0200",
+        "updateDate": "2019-04-21T22:54:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBrlyTnu96bB9fmxbj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-hapi:src/main/java/org/apache/sling/hapi/sightly/TypesCollectionView.java",
+        "project": "apache_sling-org-apache-sling-hapi",
+        "line": 63,
+        "hash": "31b9c4d245a1e2494ee3479fae0aa5a5",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 34,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-06-24T15:41:20+0200",
+        "updateDate": "2019-04-21T22:54:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBrlyPnu96bB9fmxbc",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-hapi:src/main/java/org/apache/sling/hapi/sightly/TypeView.java",
+        "project": "apache_sling-org-apache-sling-hapi",
+        "line": 64,
+        "hash": "31b9c4d245a1e2494ee3479fae0aa5a5",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 34,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-08-24T16:53:16+0200",
+        "updateDate": "2019-04-21T22:54:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBrlyKnu96bB9fmxbW",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-hapi:src/main/java/org/apache/sling/hapi/sightly/HApiUse.java",
+        "project": "apache_sling-org-apache-sling-hapi",
+        "line": 80,
+        "hash": "31b9c4d245a1e2494ee3479fae0aa5a5",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 34,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-08-24T16:53:16+0200",
+        "updateDate": "2019-04-21T22:54:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpBrlx-nu96bB9fmxbR",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-hapi:src/main/java/org/apache/sling/hapi/impl/HApiUtilImpl.java",
+        "project": "apache_sling-org-apache-sling-hapi",
+        "line": 213,
+        "hash": "66363eecba5c311e4821da818681b1b4",
+        "textRange": {
+            "startLine": 213,
+            "endLine": 213,
+            "startOffset": 20,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-08-24T16:53:16+0200",
+        "updateDate": "2019-04-21T22:54:53+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

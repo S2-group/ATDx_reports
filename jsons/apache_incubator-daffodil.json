@@ -1,0 +1,92 @@
+[
+    {
+        "key": "AXCHs27-C7WBi1jYd0_e",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "apache_incubator-daffodil:daffodil-udf/src/main/java/org/apache/daffodil/udf/UserDefinedFunctionProvider.java",
+        "project": "apache_incubator-daffodil",
+        "line": 39,
+        "hash": "ed688351d483b79226a045b9facfb3b2",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 22,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"UserDefinedFunctionProvider\" into an interface. (sonar.java.source not set. Assuming 8 or greater.)",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2019-11-01T19:52:34+0100",
+        "updateDate": "2020-02-27T18:29:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCHs27-C7WBi1jYd0_g",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-daffodil:daffodil-udf/src/main/java/org/apache/daffodil/udf/UserDefinedFunctionProvider.java",
+        "project": "apache_incubator-daffodil",
+        "line": 75,
+        "hash": "49773f64341ae5f60a83871bbf20acd1",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 13,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-11-08T13:10:44+0100",
+        "updateDate": "2020-02-27T18:29:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCHs27-C7WBi1jYd0_h",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_incubator-daffodil:daffodil-udf/src/main/java/org/apache/daffodil/udf/UserDefinedFunctionProvider.java",
+        "project": "apache_incubator-daffodil",
+        "line": 75,
+        "hash": "49773f64341ae5f60a83871bbf20acd1",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 39,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.SecurityException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-11-08T13:10:44+0100",
+        "updateDate": "2020-02-27T18:29:14+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

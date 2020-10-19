@@ -1,0 +1,30 @@
+[
+    {
+        "key": "AW6lOuLYCXGNidVbyaYd",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-validation:src/main/java/org/onap/aai/validation/factory/DMaaPEventConsumerFactory.java",
+        "project": "onap_aai-validation",
+        "line": 29,
+        "hash": "94b66c895badaee32d641145ac2530fe",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 30,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-02-13T16:47:22+0100",
+        "updateDate": "2019-11-26T02:01:47+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

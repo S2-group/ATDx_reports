@@ -1,0 +1,2031 @@
+[
+    {
+        "key": "AW6lNDDDyOMKZVYhOyM_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/swagger/GenerateSwagger.java",
+        "project": "onap_aai-schema-service",
+        "line": 405,
+        "hash": "618819c7ba6665f2993660fa2bb811b2",
+        "textRange": {
+            "startLine": 405,
+            "endLine": 405,
+            "startOffset": 54,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDDyOMKZVYhOyM9",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/swagger/GenerateSwagger.java",
+        "project": "onap_aai-schema-service",
+        "line": 44,
+        "hash": "1ec419681eecacf663b0fba890fdc5d9",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 34,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make schemaVersions a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDDyOMKZVYhOyM8",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/swagger/GenerateSwagger.java",
+        "project": "onap_aai-schema-service",
+        "line": 44,
+        "hash": "1ec419681eecacf663b0fba890fdc5d9",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 34,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static schemaVersions\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDGhyOMKZVYhOyWw",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-service/src/main/java/org/onap/aai/schemaservice/SchemaServiceApp.java",
+        "project": "onap_aai-schema-service",
+        "line": 70,
+        "hash": "0f028b42326ecbbe0c396688dcb51ccc",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 50,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.exceptions.AAIException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-11-27T13:04:01+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDGhyOMKZVYhOyWy",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-service/src/main/java/org/onap/aai/schemaservice/SchemaServiceApp.java",
+        "project": "onap_aai-schema-service",
+        "line": 118,
+        "hash": "53858ebf0ed0cf2797390172a7fb0d37",
+        "textRange": {
+            "startLine": 118,
+            "endLine": 118,
+            "startOffset": 31,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.exceptions.AAIException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-11-27T13:04:01+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDEpyOMKZVYhOyVJ",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/SpringContextAware.java",
+        "project": "onap_aai-schema-service",
+        "line": 39,
+        "hash": "e8952c643ef93ffd980b90a75d61564c",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 5,
+            "endOffset": 12
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDGayOMKZVYhOyWo",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-service/src/main/java/org/onap/aai/schemaservice/web/JerseyConfiguration.java",
+        "project": "onap_aai-schema-service",
+        "line": 80,
+        "hash": "419ccaa88a968c7577c91cff6d2f0502",
+        "textRange": {
+            "startLine": 80,
+            "endLine": 80,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-27T13:04:01+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDEKyOMKZVYhOyTX",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/NodesYAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 105,
+        "hash": "0e3ed7f82c1c2e8fbebd1f3df2cc1227",
+        "textRange": {
+            "startLine": 105,
+            "endLine": 105,
+            "startOffset": 19,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-03-14T20:05:19+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQ1",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 726,
+        "hash": "6ff8fa3a5906f35415fdf763f0e135ac",
+        "textRange": {
+            "startLine": 726,
+            "endLine": 726,
+            "startOffset": 86,
+            "endOffset": 98
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQv",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 700,
+        "hash": "20a0cb88778482367c9c07223a82d90f",
+        "textRange": {
+            "startLine": 700,
+            "endLine": 700,
+            "startOffset": 76,
+            "endOffset": 88
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQ4",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 752,
+        "hash": "a9590192474aae75cea635d2d84e0ac5",
+        "textRange": {
+            "startLine": 752,
+            "endLine": 752,
+            "startOffset": 90,
+            "endOffset": 102
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDkyOMKZVYhOyPx",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/DeleteOperation.java",
+        "project": "onap_aai-schema-service",
+        "line": 35,
+        "hash": "90ec1666b259bf48373964899e47894f",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 39,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDkyOMKZVYhOyPw",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/DeleteOperation.java",
+        "project": "onap_aai-schema-service",
+        "line": 35,
+        "hash": "90ec1666b259bf48373964899e47894f",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 39,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make deletePaths a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDkyOMKZVYhOyPu",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/DeleteOperation.java",
+        "project": "onap_aai-schema-service",
+        "line": 35,
+        "hash": "90ec1666b259bf48373964899e47894f",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 39,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static deletePaths\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDVyOMKZVYhOyOx",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/YAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 77,
+        "hash": "b60b088aab685216fde8caf5116310d8",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 16,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDVyOMKZVYhOyOv",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/YAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 73,
+        "hash": "63aa0ddde832f7e71f405d1300c1dee4",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 16,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDVyOMKZVYhOyOt",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/YAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 69,
+        "hash": "ed7b33b85a5fef44cde42a9906441a23",
+        "textRange": {
+            "startLine": 69,
+            "endLine": 69,
+            "startOffset": 16,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDEKyOMKZVYhOyTB",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/NodesYAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 215,
+        "hash": "04f6738ea5da8f993abba73df0f54e64",
+        "textRange": {
+            "startLine": 215,
+            "endLine": 215,
+            "startOffset": 19,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQh",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 479,
+        "hash": "cb89a894efc769d579a092a044084116",
+        "textRange": {
+            "startLine": 479,
+            "endLine": 479,
+            "startOffset": 37,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQs",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 675,
+        "hash": "6318a89d0814b169715a372293c7caaa",
+        "textRange": {
+            "startLine": 675,
+            "endLine": 675,
+            "startOffset": 49,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQq",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 615,
+        "hash": "d05d558500566ee16ebc66dbf6dfe9d6",
+        "textRange": {
+            "startLine": 615,
+            "endLine": 615,
+            "startOffset": 55,
+            "endOffset": 67
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQ5",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 757,
+        "hash": "dfb0763d138d9d850603c9f53be51ab3",
+        "textRange": {
+            "startLine": 757,
+            "endLine": 757,
+            "startOffset": 66,
+            "endOffset": 78
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQr",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 670,
+        "hash": "cf75863c4498c50b61e25e0e17bd0144",
+        "textRange": {
+            "startLine": 670,
+            "endLine": 670,
+            "startOffset": 60,
+            "endOffset": 72
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQ0",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 721,
+        "hash": "fe03adf8a4fa0315e0fc7b84fbe801fd",
+        "textRange": {
+            "startLine": 721,
+            "endLine": 721,
+            "startOffset": 53,
+            "endOffset": 65
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQp",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 610,
+        "hash": "df149ac19cbf972196a6f242cad57ca8",
+        "textRange": {
+            "startLine": 610,
+            "endLine": 610,
+            "startOffset": 39,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQ3",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 746,
+        "hash": "169d168f4576a69f2e8a832053f7c3fc",
+        "textRange": {
+            "startLine": 746,
+            "endLine": 746,
+            "startOffset": 62,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQm",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 549,
+        "hash": "97415674f042f1645ec7ac47b5efb2cc",
+        "textRange": {
+            "startLine": 549,
+            "endLine": 549,
+            "startOffset": 47,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQj",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 534,
+        "hash": "8835d64ca5ab22683b18474fc9679951",
+        "textRange": {
+            "startLine": 534,
+            "endLine": 534,
+            "startOffset": 63,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQy",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 711,
+        "hash": "5d48f3ebce6f1883d2d069459d6d7244",
+        "textRange": {
+            "startLine": 711,
+            "endLine": 711,
+            "startOffset": 77,
+            "endOffset": 89
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQi",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 484,
+        "hash": "a1f9c9f5dfe536d41f6d5056e5c57c2b",
+        "textRange": {
+            "startLine": 484,
+            "endLine": 484,
+            "startOffset": 51,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQu",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 690,
+        "hash": "f682cd6bf7a6996e6ca7e6af7235257c",
+        "textRange": {
+            "startLine": 690,
+            "endLine": 690,
+            "startOffset": 54,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQz",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 716,
+        "hash": "41fb2f8ec17887ff206097c74035a12f",
+        "textRange": {
+            "startLine": 716,
+            "endLine": 716,
+            "startOffset": 78,
+            "endOffset": 90
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQt",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 685,
+        "hash": "110813f175034a8af37622dc924af0cc",
+        "textRange": {
+            "startLine": 685,
+            "endLine": 685,
+            "startOffset": 51,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDVyOMKZVYhOyOy",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/YAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 77,
+        "hash": "b60b088aab685216fde8caf5116310d8",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 16,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDGXyOMKZVYhOyWm",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-service/src/main/java/org/onap/aai/schemaservice/service/AuthorizationService.java",
+        "project": "onap_aai-schema-service",
+        "line": 75,
+        "hash": "099cfe3ffe3de6cd90e40ab50b395088",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-27T13:04:01+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDGXyOMKZVYhOyWl",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-service/src/main/java/org/onap/aai/schemaservice/service/AuthorizationService.java",
+        "project": "onap_aai-schema-service",
+        "line": 66,
+        "hash": "df8c08d065aee5925d44c099a64d2d8e",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 34,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-11-27T13:04:01+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDVyOMKZVYhOyOz",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/YAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 107,
+        "hash": "0ed3f4329177ed60a70d69eb2140c445",
+        "textRange": {
+            "startLine": 107,
+            "endLine": 107,
+            "startOffset": 8,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-14T20:05:19+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDExyOMKZVYhOyVR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/GenerateXsd.java",
+        "project": "onap_aai-schema-service",
+        "line": 234,
+        "hash": "ed099f420874881ce9352e6208f2fc82",
+        "textRange": {
+            "startLine": 234,
+            "endLine": 234,
+            "startOffset": 16,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDExyOMKZVYhOyVQ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/GenerateXsd.java",
+        "project": "onap_aai-schema-service",
+        "line": 46,
+        "hash": "43b407d5494d11299192bb781d6107b1",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 50,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make ctx a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDExyOMKZVYhOyVP",
+        "rule": "java:S1444",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/GenerateXsd.java",
+        "project": "onap_aai-schema-service",
+        "line": 46,
+        "hash": "43b407d5494d11299192bb781d6107b1",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 50,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"public static ctx\" field final",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQo",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 605,
+        "hash": "bdb52a8d8ceaf5b43f094bd5af6543a7",
+        "textRange": {
+            "startLine": 605,
+            "endLine": 605,
+            "startOffset": 57,
+            "endOffset": 69
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQw",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 705,
+        "hash": "0e309a2b293db08a96a9e0c59fbca92b",
+        "textRange": {
+            "startLine": 705,
+            "endLine": 705,
+            "startOffset": 92,
+            "endOffset": 104
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDVyOMKZVYhOyO2",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/YAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 113,
+        "hash": "0ed3f4329177ed60a70d69eb2140c445",
+        "textRange": {
+            "startLine": 113,
+            "endLine": 113,
+            "startOffset": 8,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-14T20:05:19+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDEKyOMKZVYhOyTW",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/NodesYAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 105,
+        "hash": "0e3ed7f82c1c2e8fbebd1f3df2cc1227",
+        "textRange": {
+            "startLine": 105,
+            "endLine": 105,
+            "startOffset": 19,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2019-03-14T20:05:19+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDEKyOMKZVYhOyTV",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/NodesYAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 106,
+        "hash": "0ed3f4329177ed60a70d69eb2140c445",
+        "textRange": {
+            "startLine": 106,
+            "endLine": 106,
+            "startOffset": 8,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-14T20:05:19+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQn",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 584,
+        "hash": "3114b744a8034174d631277b83130ddc",
+        "textRange": {
+            "startLine": 584,
+            "endLine": 584,
+            "startOffset": 45,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQk",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 539,
+        "hash": "088c611cf2a35097bdc5110ecfc08684",
+        "textRange": {
+            "startLine": 539,
+            "endLine": 539,
+            "startOffset": 63,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDVyOMKZVYhOyO1",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/YAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 106,
+        "hash": "0e3ed7f82c1c2e8fbebd1f3df2cc1227",
+        "textRange": {
+            "startLine": 106,
+            "endLine": 106,
+            "startOffset": 19,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-03-14T20:05:19+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDVyOMKZVYhOyO0",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/YAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 106,
+        "hash": "0e3ed7f82c1c2e8fbebd1f3df2cc1227",
+        "textRange": {
+            "startLine": 106,
+            "endLine": 106,
+            "startOffset": 19,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2019-03-14T20:05:19+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDEKyOMKZVYhOyTY",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/NodesYAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 112,
+        "hash": "0ed3f4329177ed60a70d69eb2140c445",
+        "textRange": {
+            "startLine": 112,
+            "endLine": 112,
+            "startOffset": 8,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-14T20:05:19+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDD0yOMKZVYhOyRT",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/OxmFileProcessor.java",
+        "project": "onap_aai-schema-service",
+        "line": 186,
+        "hash": "f33c2847ba00d354a84c80d5b1b675e1",
+        "textRange": {
+            "startLine": 186,
+            "endLine": 186,
+            "startOffset": 72,
+            "endOffset": 97
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.edges.exceptions.EdgeRuleNotFoundException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-14T20:05:19+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDEbyOMKZVYhOyUl",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/HTMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 92,
+        "hash": "662f299b64df71f055d7a2dea18bb256",
+        "textRange": {
+            "startLine": 92,
+            "endLine": 92,
+            "startOffset": 89,
+            "endOffset": 110
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDEbyOMKZVYhOyUk",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/HTMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 61,
+        "hash": "b60b088aab685216fde8caf5116310d8",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 13,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDEbyOMKZVYhOyUj",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/HTMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 57,
+        "hash": "63aa0ddde832f7e71f405d1300c1dee4",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 13,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDEbyOMKZVYhOyUi",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/HTMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 53,
+        "hash": "ed7b33b85a5fef44cde42a9906441a23",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 13,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDEKyOMKZVYhOyTU",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/NodesYAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 76,
+        "hash": "b60b088aab685216fde8caf5116310d8",
+        "textRange": {
+            "startLine": 76,
+            "endLine": 76,
+            "startOffset": 16,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDEKyOMKZVYhOyTS",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/NodesYAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 72,
+        "hash": "63aa0ddde832f7e71f405d1300c1dee4",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 16,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDEKyOMKZVYhOyTQ",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/NodesYAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 68,
+        "hash": "ed7b33b85a5fef44cde42a9906441a23",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 16,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDEKyOMKZVYhOyTT",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/NodesYAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 76,
+        "hash": "b60b088aab685216fde8caf5116310d8",
+        "textRange": {
+            "startLine": 76,
+            "endLine": 76,
+            "startOffset": 16,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDEKyOMKZVYhOyTR",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/NodesYAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 72,
+        "hash": "63aa0ddde832f7e71f405d1300c1dee4",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 16,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDEKyOMKZVYhOyTP",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/NodesYAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 68,
+        "hash": "ed7b33b85a5fef44cde42a9906441a23",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 16,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDVyOMKZVYhOyOe",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/YAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 219,
+        "hash": "04f6738ea5da8f993abba73df0f54e64",
+        "textRange": {
+            "startLine": 219,
+            "endLine": 219,
+            "startOffset": 19,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDVyOMKZVYhOyOw",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/YAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 73,
+        "hash": "63aa0ddde832f7e71f405d1300c1dee4",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 16,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDD0yOMKZVYhOyRX",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/OxmFileProcessor.java",
+        "project": "onap_aai-schema-service",
+        "line": 246,
+        "hash": "815fe885879354b33c625d15eb1cacd1",
+        "textRange": {
+            "startLine": 246,
+            "endLine": 246,
+            "startOffset": 8,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-14T20:05:19+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQ2",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 736,
+        "hash": "ac581891481c795835c5cf2a2c02195e",
+        "textRange": {
+            "startLine": 736,
+            "endLine": 736,
+            "startOffset": 77,
+            "endOffset": 89
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDpyOMKZVYhOyQl",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/XSDElement.java",
+        "project": "onap_aai-schema-service",
+        "line": 544,
+        "hash": "e770546dd4412f3b98010e9675e3060e",
+        "textRange": {
+            "startLine": 544,
+            "endLine": 544,
+            "startOffset": 47,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.w3c.dom.DOMException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDDVyOMKZVYhOyOu",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/genxsd/YAMLfromOXM.java",
+        "project": "onap_aai-schema-service",
+        "line": 69,
+        "hash": "ed7b33b85a5fef44cde42a9906441a23",
+        "textRange": {
+            "startLine": 69,
+            "endLine": 69,
+            "startOffset": 16,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNDEpyOMKZVYhOyVI",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-schema-service:aai-schema-gen/src/main/java/org/onap/aai/schemagen/SpringContextAware.java",
+        "project": "onap_aai-schema-service",
+        "line": 38,
+        "hash": "40a1c96d0fcdf5a3c04b589f85b55e73",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 84,
+            "endOffset": 98
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-01-11T22:05:35+0100",
+        "updateDate": "2019-11-26T01:54:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,89 @@
+[
+    {
+        "key": "AW6llx4qCXGNidVb4Zzr",
+        "rule": "java:S2885",
+        "severity": "MAJOR",
+        "component": "onap_sdnc-northbound:vnfapi/provider/src/main/java/org/onap/sdnc/vnfapi/VnfApiProvider.java",
+        "project": "onap_sdnc-northbound",
+        "line": 286,
+        "hash": "fcdc05c149a044b83b817ff1f232957e",
+        "textRange": {
+            "startLine": 286,
+            "endLine": 286,
+            "startOffset": 34,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make \"df\" an instance variable.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2017-08-31T04:32:41+0200",
+        "updateDate": "2019-11-26T03:42:30+0100",
+        "type": "BUG",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llx3UCXGNidVb4ZtU",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdnc-northbound:generic-resource-api/provider/src/main/java/org/onap/sdnc/northbound/GenericResourceApiProvider.java",
+        "project": "onap_sdnc-northbound",
+        "line": 522,
+        "hash": "261d2a0d81a244602aee6454115b8811",
+        "textRange": {
+            "startLine": 522,
+            "endLine": 522,
+            "startOffset": 15,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-07-26T16:14:35+0200",
+        "updateDate": "2019-11-26T03:42:30+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llx3UCXGNidVb4ZtG",
+        "rule": "java:S2885",
+        "severity": "MAJOR",
+        "component": "onap_sdnc-northbound:generic-resource-api/provider/src/main/java/org/onap/sdnc/northbound/GenericResourceApiProvider.java",
+        "project": "onap_sdnc-northbound",
+        "line": 260,
+        "hash": "cbd5eb8e385f66e683a568ce6beaf61e",
+        "textRange": {
+            "startLine": 260,
+            "endLine": 260,
+            "startOffset": 34,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make \"dateFormat\" an instance variable.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-02-07T15:24:51+0100",
+        "updateDate": "2019-11-26T03:42:30+0100",
+        "type": "BUG",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

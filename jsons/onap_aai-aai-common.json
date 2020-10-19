@@ -1,0 +1,4660 @@
+[
+    {
+        "key": "AXCDtq2YVkyFFvoj7BJk",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 909,
+        "hash": "05e067f54ee1ffc5454c1d0eb2a36ace",
+        "textRange": {
+            "startLine": 909,
+            "endLine": 909,
+            "startOffset": 33,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdAlyOMKZVYhOzu6",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/parsers/query/UniqueStrategy.java",
+        "project": "onap_aai-aai-common",
+        "line": 53,
+        "hash": "e36f5ea53133fc1b19567734730a1ba3",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 49,
+            "endOffset": 73
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdAayOMKZVYhOzu0",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/parsers/query/UniqueRelationshipQueryParser.java",
+        "project": "onap_aai-aai-common",
+        "line": 47,
+        "hash": "e36f5ea53133fc1b19567734730a1ba3",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 49,
+            "endOffset": 73
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdA1yOMKZVYhOzvR",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/dbgen/GraphSONPartialIO.java",
+        "project": "onap_aai-aai-common",
+        "line": 137,
+        "hash": "24e461ead80c4d8ed6ef22cacc4e55b0",
+        "textRange": {
+            "startLine": 137,
+            "endLine": 137,
+            "startOffset": 45,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-01-14T02:30:47+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc-1yOMKZVYhOzs1",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/logging/LogFormatTools.java",
+        "project": "onap_aai-aai-common",
+        "line": 33,
+        "hash": "77886d20080b67df9c3946037d395e4a",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc71yOMKZVYhOzmd",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/restcore/util/URITools.java",
+        "project": "onap_aai-aai-common",
+        "line": 42,
+        "hash": "6dc2e9e3473598b856f6a9a1e07cf23f",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdBDyOMKZVYhOzvl",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/config/SpringContextAware.java",
+        "project": "onap_aai-aai-common",
+        "line": 38,
+        "hash": "e8952c643ef93ffd980b90a75d61564c",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 8,
+            "endOffset": 15
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-02-28T01:35:30+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtq0SVkyFFvoj7BJU",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/prevalidation/ValidationServiceRestClient.java",
+        "project": "onap_aai-aai-common",
+        "line": 81,
+        "hash": "18e9844cfda0efcdc4540c7ef28cda66",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 53,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtq0IVkyFFvoj7BJS",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/prevalidation/ValidationService.java",
+        "project": "onap_aai-aai-common",
+        "line": 218,
+        "hash": "8a26c82c6ff22f27721e3caa8482049e",
+        "textRange": {
+            "startLine": 218,
+            "endLine": 218,
+            "startOffset": 49,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.exceptions.AAIException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc-iyOMKZVYhOzsR",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/logging/ErrorLogHelper.java",
+        "project": "onap_aai-aai-common",
+        "line": 51,
+        "hash": "2451487107b45eb73828a9808b20ef70",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdGPyOMKZVYhOz1K",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-schema-abstraction/src/main/java/org/onap/aai/schemaif/oxm/OxmEdgeRulesLoader.java",
+        "project": "onap_aai-aai-common",
+        "line": 232,
+        "hash": "4a943459dcaf8b2db889924da3c55864",
+        "textRange": {
+            "startLine": 232,
+            "endLine": 232,
+            "startOffset": 19,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.schemaif.SchemaProviderException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-29T22:36:53+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdJWyOMKZVYhOz21",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-auth/src/main/java/org/onap/aaiauth/auth/Auth.java",
+        "project": "onap_aai-aai-common",
+        "line": 30,
+        "hash": "4d1cb9531070be6d8a24f1be9f2a52ee",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 40,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-24T22:47:22+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdJSyOMKZVYhOz20",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-auth/src/main/java/org/onap/aaiauth/util/AuthConstants.java",
+        "project": "onap_aai-aai-common",
+        "line": 24,
+        "hash": "a4696a321a93682aa23fafec1be5ec19",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 13,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-24T22:47:22+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdI5yOMKZVYhOz2o",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-rest/src/main/java/org/onap/aai/restclient/ClientType.java",
+        "project": "onap_aai-aai-common",
+        "line": 23,
+        "hash": "6060b62e7fcd060dc4ccd0f57868a3e5",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-04-08T19:25:06+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXIxKpBzoGGFeVILYKH4",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/serialization/db/DBSerializer.java",
+        "project": "onap_aai-aai-common",
+        "line": 174,
+        "hash": "8c74f893a14c577eb884d8dda5294a9d",
+        "textRange": {
+            "startLine": 174,
+            "endLine": 174,
+            "startOffset": 50,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.exceptions.AAIException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-05-20T10:17:31+0200",
+        "updateDate": "2020-05-20T10:17:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtqyEVkyFFvoj7BI7",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/query/builder/QueryBuilder.java",
+        "project": "onap_aai-aai-common",
+        "line": 516,
+        "hash": "09ea95e316844bf802440ea2bd5eb993",
+        "textRange": {
+            "startLine": 516,
+            "endLine": 516,
+            "startOffset": 45,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.exceptions.AAIException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdI2yOMKZVYhOz2m",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-rest/src/main/java/org/onap/aai/restclient/RestClient.java",
+        "project": "onap_aai-aai-common",
+        "line": 126,
+        "hash": "927dba17745ab36a18fdef3b792ea7a0",
+        "textRange": {
+            "startLine": 126,
+            "endLine": 126,
+            "startOffset": 97,
+            "endOffset": 116
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.springframework.web.client.RestClientException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-08T19:25:06+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc9PyOMKZVYhOzo1",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/exceptions/AAIExceptionWithInfo.java",
+        "project": "onap_aai-aai-common",
+        "line": 27,
+        "hash": "29e009290d809ce664aeedf25cdeefdd",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 24,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"infoHash\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdI2yOMKZVYhOz2k",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-rest/src/main/java/org/onap/aai/restclient/RestClient.java",
+        "project": "onap_aai-aai-common",
+        "line": 99,
+        "hash": "b4d543c05ea7d4e264d90d21699a786a",
+        "textRange": {
+            "startLine": 99,
+            "endLine": 99,
+            "startOffset": 19,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.springframework.web.client.RestClientException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdI2yOMKZVYhOz2n",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-rest/src/main/java/org/onap/aai/restclient/RestClient.java",
+        "project": "onap_aai-aai-common",
+        "line": 131,
+        "hash": "b4d543c05ea7d4e264d90d21699a786a",
+        "textRange": {
+            "startLine": 131,
+            "endLine": 131,
+            "startOffset": 19,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.springframework.web.client.RestClientException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdI2yOMKZVYhOz2l",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-rest/src/main/java/org/onap/aai/restclient/RestClient.java",
+        "project": "onap_aai-aai-common",
+        "line": 113,
+        "hash": "b4d543c05ea7d4e264d90d21699a786a",
+        "textRange": {
+            "startLine": 113,
+            "endLine": 113,
+            "startOffset": 19,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.springframework.web.client.RestClientException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc-iyOMKZVYhOzsO",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/logging/ErrorLogHelper.java",
+        "project": "onap_aai-aai-common",
+        "line": 59,
+        "hash": "7ac2c215779b544eb4d913a7104f05fe",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdGPyOMKZVYhOz1B",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-schema-abstraction/src/main/java/org/onap/aai/schemaif/oxm/OxmEdgeRulesLoader.java",
+        "project": "onap_aai-aai-common",
+        "line": 77,
+        "hash": "4c63f7aa9fe518e37883342af9342756",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 11,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Hide this public constructor.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-10-29T22:36:53+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc-LyOMKZVYhOzrR",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/RestURLEncoder.java",
+        "project": "onap_aai-aai-common",
+        "line": 27,
+        "hash": "755713a363d3d8d5bace4463ad3c26ff",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdFYyOMKZVYhOz0P",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-schema-abstraction/src/main/java/org/onap/aai/schemaif/json/FromJsonEdgeSchema.java",
+        "project": "onap_aai-aai-common",
+        "line": 47,
+        "hash": "6e470a3206ff9f201459491715a0ee94",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 57,
+            "endOffset": 80
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.schemaif.SchemaProviderException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-29T22:36:53+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdATyOMKZVYhOzul",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/parsers/uri/URIToRelationshipObject.java",
+        "project": "onap_aai-aai-common",
+        "line": 158,
+        "hash": "8b40a496d946785fc98409dbb0eb7f7a",
+        "textRange": {
+            "startLine": 158,
+            "endLine": 158,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-05-24T19:46:59+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrAOVkyFFvoj7BKd",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-aaf-auth/src/main/java/org/onap/aai/aaf/auth/CertUtil.java",
+        "project": "onap_aai-aai-common",
+        "line": 37,
+        "hash": "e77e6e0539dfce2e916023973af02811",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdCZyOMKZVYhOzyU",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/RestHandlerService.java",
+        "project": "onap_aai-aai-common",
+        "line": 28,
+        "hash": "f35fd31550e9730da585d29207f818c9",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 30,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make executor a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-18T23:42:01+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc8-yOMKZVYhOzoE",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/introspection/IntrospectorFactory.java",
+        "project": "onap_aai-aai-common",
+        "line": 23,
+        "hash": "99c2b185de224db98581d2f0beddd067",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrTpVkyFFvoj7BLn",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/util/AAIConfig.java",
+        "project": "onap_aai-aai-common",
+        "line": 54,
+        "hash": "00c85db9093dbeaece137e0cfb52955a",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 50,
+            "endOffset": 62
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.exceptions.AAIException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrXGVkyFFvoj7BNT",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-rest/src/main/java/org/onap/aai/restclient/NoAuthRestClient.java",
+        "project": "onap_aai-aai-common",
+        "line": 55,
+        "hash": "780891795ec71770f5b649a0736c762d",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 44,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrXGVkyFFvoj7BNR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-rest/src/main/java/org/onap/aai/restclient/NoAuthRestClient.java",
+        "project": "onap_aai-aai-common",
+        "line": 55,
+        "hash": "780891795ec71770f5b649a0736c762d",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 44,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdCgyOMKZVYhOzyd",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/concurrent/AaiCallable.java",
+        "project": "onap_aai-aai-common",
+        "line": 56,
+        "hash": "fda77985cfb50340f38fe62a01b32d78",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 39,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-12T22:48:34+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdCcyOMKZVYhOzyX",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/ueb/UEBNotification.java",
+        "project": "onap_aai-aai-common",
+        "line": 182,
+        "hash": "dac02257a84d850abc14518b9cee1ab0",
+        "textRange": {
+            "startLine": 182,
+            "endLine": 182,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-15T17:35:18+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrA7VkyFFvoj7BK_",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-aaf-auth/src/main/java/org/onap/aai/aaf/filters/AafCertFilter.java",
+        "project": "onap_aai-aai-common",
+        "line": 61,
+        "hash": "1ea7f4180c02deab665f819d3f5083f6",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 54,
+            "endOffset": 65
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc94yOMKZVYhOzqu",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/PojoUtils.java",
+        "project": "onap_aai-aai-common",
+        "line": 148,
+        "hash": "2a942df2e9bed3f6420721c0d25f224b",
+        "textRange": {
+            "startLine": 148,
+            "endLine": 148,
+            "startOffset": 65,
+            "endOffset": 85
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.databind.JsonMappingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc94yOMKZVYhOzqy",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/PojoUtils.java",
+        "project": "onap_aai-aai-common",
+        "line": 246,
+        "hash": "d239be72b5d0b3189be1241e0caeaca9",
+        "textRange": {
+            "startLine": 246,
+            "endLine": 246,
+            "startOffset": 43,
+            "endOffset": 67
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc94yOMKZVYhOzqt",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/PojoUtils.java",
+        "project": "onap_aai-aai-common",
+        "line": 148,
+        "hash": "2a942df2e9bed3f6420721c0d25f224b",
+        "textRange": {
+            "startLine": 148,
+            "endLine": 148,
+            "startOffset": 40,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonGenerationException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc94yOMKZVYhOzqz",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/PojoUtils.java",
+        "project": "onap_aai-aai-common",
+        "line": 247,
+        "hash": "d0c45a40cacd84ad641edcce266b1365",
+        "textRange": {
+            "startLine": 247,
+            "endLine": 247,
+            "startOffset": 12,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.SecurityException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc9-yOMKZVYhOzq5",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/AAISystemExitUtil.java",
+        "project": "onap_aai-aai-common",
+        "line": 25,
+        "hash": "a6ea817d47e8f794d67bd178883398a8",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-01-18T23:42:01+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdJbyOMKZVYhOz29",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-auth/src/main/java/org/onap/aaiauth/auth/AuthCore.java",
+        "project": "onap_aai-aai-common",
+        "line": 62,
+        "hash": "01f92eccb4248eab0dad4a16cf79df5c",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 67,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-24T22:47:22+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdJbyOMKZVYhOz28",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-auth/src/main/java/org/onap/aaiauth/auth/AuthCore.java",
+        "project": "onap_aai-aai-common",
+        "line": 38,
+        "hash": "592ee5d8384cf15a4e2379dfbfda1882",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 24,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make mapper a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-07-24T22:47:22+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdJWyOMKZVYhOz27",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-auth/src/main/java/org/onap/aaiauth/auth/Auth.java",
+        "project": "onap_aai-aai-common",
+        "line": 50,
+        "hash": "f64a158322af6e0442447cb62d75fb48",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 78,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-24T22:47:22+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdJWyOMKZVYhOz24",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-auth/src/main/java/org/onap/aaiauth/auth/Auth.java",
+        "project": "onap_aai-aai-common",
+        "line": 50,
+        "hash": "f64a158322af6e0442447cb62d75fb48",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 78,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-07-24T22:47:22+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc-iyOMKZVYhOzsP",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/logging/ErrorLogHelper.java",
+        "project": "onap_aai-aai-common",
+        "line": 61,
+        "hash": "10bb6f4309fae50e7a326e0a2420db6a",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdBpyOMKZVYhOzwQ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/dbmap/AAIGraph.java",
+        "project": "onap_aai-aai-common",
+        "line": 75,
+        "hash": "9e9a1e7ce30712416644e3285a2059e5",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtqzaVkyFFvoj7BJE",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/dbmap/AAIGraph.java",
+        "project": "onap_aai-aai-common",
+        "line": 101,
+        "hash": "da3afb7ebb80e9f11c5f6e5844ee5010",
+        "textRange": {
+            "startLine": 101,
+            "endLine": 101,
+            "startOffset": 73,
+            "endOffset": 82
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc9wyOMKZVYhOzqE",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/RestController.java",
+        "project": "onap_aai-aai-common",
+        "line": 435,
+        "hash": "6079b9a7ef7b1d1bb715258ffa59abb5",
+        "textRange": {
+            "startLine": 435,
+            "endLine": 435,
+            "startOffset": 104,
+            "endOffset": 113
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-12T22:48:34+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc9KyOMKZVYhOzoe",
+        "rule": "java:S1182",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/introspection/JSONStrategy.java",
+        "project": "onap_aai-aai-common",
+        "line": 268,
+        "hash": "85f26ebdf4ea5bef8adaf862b2348076",
+        "textRange": {
+            "startLine": 268,
+            "endLine": 268,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Use super.clone() to create and seed the cloned instance to be returned.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "convention",
+            "cwe"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc9KyOMKZVYhOzob",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/introspection/JSONStrategy.java",
+        "project": "onap_aai-aai-common",
+        "line": 268,
+        "hash": "85f26ebdf4ea5bef8adaf862b2348076",
+        "textRange": {
+            "startLine": 268,
+            "endLine": 268,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc9PyOMKZVYhOzo2",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/exceptions/AAIExceptionWithInfo.java",
+        "project": "onap_aai-aai-common",
+        "line": 28,
+        "hash": "51a3ed67e300f80a591b74c6fca4a0d2",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 11,
+            "endOffset": 15
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"info\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdJWyOMKZVYhOz22",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-auth/src/main/java/org/onap/aaiauth/auth/Auth.java",
+        "project": "onap_aai-aai-common",
+        "line": 34,
+        "hash": "4673ceb1999690e32c4ef14ed450e9cb",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 74,
+            "endOffset": 83
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-09-21T17:36:55+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc-iyOMKZVYhOzsT",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/logging/ErrorLogHelper.java",
+        "project": "onap_aai-aai-common",
+        "line": 119,
+        "hash": "abeb63fc89cd8d31bd18c495601039d8",
+        "textRange": {
+            "startLine": 119,
+            "endLine": 119,
+            "startOffset": 65,
+            "endOffset": 93
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.logging.ErrorObjectNotFoundException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtqa1VkyFFvoj7BGk",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/serialization/queryformats/Aggregate.java",
+        "project": "onap_aai-aai-common",
+        "hash": "ab58bb79a5b82272b826778f473b7d3e",
+        "textRange": {
+            "startLine": 82,
+            "endLine": 82,
+            "startOffset": 72,
+            "endOffset": 96
+        },
+        "flows": [],
+        "resolution": "FIXED",
+        "status": "CLOSED",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.serialization.queryformats.exceptions.AAIFormatVertexException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-05-20T10:17:31+0200",
+        "closeDate": "2020-05-20T10:17:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc6SyOMKZVYhOzj6",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/serialization/db/DBSerializer.java",
+        "project": "onap_aai-aai-common",
+        "line": 2009,
+        "hash": "fef32c0dbdeea682f4c485d0f47bd59a",
+        "textRange": {
+            "startLine": 2009,
+            "endLine": 2009,
+            "startOffset": 19,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc9wyOMKZVYhOzqD",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/RestController.java",
+        "project": "onap_aai-aai-common",
+        "line": 251,
+        "hash": "32c615730c43e4a8178c67c09f3dd3ac",
+        "textRange": {
+            "startLine": 251,
+            "endLine": 251,
+            "startOffset": 88,
+            "endOffset": 97
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdCQyOMKZVYhOzxv",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 1088,
+        "hash": "7571f5470b72beb5904451b5713d6d82",
+        "textRange": {
+            "startLine": 1088,
+            "endLine": 1088,
+            "startOffset": 17,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-01-18T23:42:01+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdGAyOMKZVYhOz03",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-schema-abstraction/src/main/java/org/onap/aai/schemaif/definitions/types/ComplexDataType.java",
+        "project": "onap_aai-aai-common",
+        "line": 46,
+        "hash": "5eb1048a65cef9f848fe69a1337d77e1",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-10-29T22:36:53+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdF8yOMKZVYhOz00",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-schema-abstraction/src/main/java/org/onap/aai/schemaif/definitions/types/ListDataType.java",
+        "project": "onap_aai-aai-common",
+        "line": 42,
+        "hash": "5eb1048a65cef9f848fe69a1337d77e1",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-10-29T22:36:53+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc9SyOMKZVYhOzo8",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/exceptions/AAIException.java",
+        "project": "onap_aai-aai-common",
+        "line": 137,
+        "hash": "2c6ad1f7c50e01b7e7694adcd95a3a98",
+        "textRange": {
+            "startLine": 137,
+            "endLine": 137,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-09-06T10:19:06+0200",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc9SyOMKZVYhOzo5",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/exceptions/AAIException.java",
+        "project": "onap_aai-aai-common",
+        "line": 75,
+        "hash": "2c6ad1f7c50e01b7e7694adcd95a3a98",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-09-06T10:19:06+0200",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc9SyOMKZVYhOzo6",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/exceptions/AAIException.java",
+        "project": "onap_aai-aai-common",
+        "line": 96,
+        "hash": "2c6ad1f7c50e01b7e7694adcd95a3a98",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-09-06T10:19:06+0200",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc9SyOMKZVYhOzo4",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/exceptions/AAIException.java",
+        "project": "onap_aai-aai-common",
+        "line": 56,
+        "hash": "2c6ad1f7c50e01b7e7694adcd95a3a98",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-09-06T10:19:06+0200",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc9SyOMKZVYhOzo7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/exceptions/AAIException.java",
+        "project": "onap_aai-aai-common",
+        "line": 116,
+        "hash": "2c6ad1f7c50e01b7e7694adcd95a3a98",
+        "textRange": {
+            "startLine": 116,
+            "endLine": 116,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-09-06T10:19:06+0200",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc_SyOMKZVYhOztH",
+        "rule": "java:S2166",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/domain/restPolicyException/Fault.java",
+        "project": "onap_aai-aai-common",
+        "line": 227,
+        "hash": "d8d76fa3856085d564521c71f779a66c",
+        "textRange": {
+            "startLine": 227,
+            "endLine": 227,
+            "startOffset": 28,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this class to remove \"Exception\" or correct its inheritance.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "convention",
+            "error-handling",
+            "pitfall"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtq2YVkyFFvoj7BJt",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 943,
+        "hash": "231e6b825c8300278988be9ea0f61ac1",
+        "textRange": {
+            "startLine": 943,
+            "endLine": 943,
+            "startOffset": 93,
+            "endOffset": 110
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.SecurityException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtq2YVkyFFvoj7BJh",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 907,
+        "hash": "4b544aef8880d7ffaaa1a820d356f4a6",
+        "textRange": {
+            "startLine": 907,
+            "endLine": 907,
+            "startOffset": 25,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtq2YVkyFFvoj7BJq",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 911,
+        "hash": "09ed494685cae51ed9d66e605195cbc3",
+        "textRange": {
+            "startLine": 911,
+            "endLine": 911,
+            "startOffset": 12,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.introspection.exceptions.AAIUnknownObjectException' which is a subclass of 'org.onap.aai.exceptions.AAIException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtq2YVkyFFvoj7BJn",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 910,
+        "hash": "371a09be15523c46df90f8ea6f5dfff4",
+        "textRange": {
+            "startLine": 910,
+            "endLine": 910,
+            "startOffset": 12,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.SecurityException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtq2YVkyFFvoj7BJm",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 909,
+        "hash": "05e067f54ee1ffc5454c1d0eb2a36ace",
+        "textRange": {
+            "startLine": 909,
+            "endLine": 909,
+            "startOffset": 83,
+            "endOffset": 108
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.reflect.InvocationTargetException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtq2YVkyFFvoj7BJp",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 910,
+        "hash": "371a09be15523c46df90f8ea6f5dfff4",
+        "textRange": {
+            "startLine": 910,
+            "endLine": 910,
+            "startOffset": 55,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.NoSuchMethodException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdF0yOMKZVYhOz0w",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-schema-abstraction/src/main/java/org/onap/aai/schemaif/definitions/types/MapDataType.java",
+        "project": "onap_aai-aai-common",
+        "line": 42,
+        "hash": "5eb1048a65cef9f848fe69a1337d77e1",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2019-10-29T22:36:53+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrAlVkyFFvoj7BKy",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-aaf-auth/src/main/java/org/onap/aai/aaf/filters/AafFilter.java",
+        "project": "onap_aai-aai-common",
+        "line": 53,
+        "hash": "2d1d630982468677acab8f17df6e3670",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 49,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtq_pVkyFFvoj7BKP",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-aaf-auth/src/main/java/org/onap/aai/aaf/auth/ResponseFormatter.java",
+        "project": "onap_aai-aai-common",
+        "line": 33,
+        "hash": "e2a3a61f805ff702a188084a5dade098",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdCQyOMKZVYhOzyE",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 944,
+        "hash": "11e239c2da0df3c8da84900595e0e1ae",
+        "textRange": {
+            "startLine": 944,
+            "endLine": 944,
+            "startOffset": 12,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.introspection.exceptions.AAIUnknownObjectException' which is a subclass of 'org.onap.aai.exceptions.AAIException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdCQyOMKZVYhOzx6",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 871,
+        "hash": "05e067f54ee1ffc5454c1d0eb2a36ace",
+        "textRange": {
+            "startLine": 871,
+            "endLine": 871,
+            "startOffset": 83,
+            "endOffset": 108
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.reflect.InvocationTargetException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2020-05-20T10:17:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdCQyOMKZVYhOzxt",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 869,
+        "hash": "4b544aef8880d7ffaaa1a820d356f4a6",
+        "textRange": {
+            "startLine": 869,
+            "endLine": 869,
+            "startOffset": 25,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdCQyOMKZVYhOzx7",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 871,
+        "hash": "05e067f54ee1ffc5454c1d0eb2a36ace",
+        "textRange": {
+            "startLine": 871,
+            "endLine": 871,
+            "startOffset": 33,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2020-05-20T10:17:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc60yOMKZVYhOzkx",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/serialization/queryformats/PathedURL.java",
+        "project": "onap_aai-aai-common",
+        "line": 52,
+        "hash": "65e97fb4fac1f20b0091c299061097fd",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 66,
+            "endOffset": 78
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.exceptions.AAIException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc6qyOMKZVYhOzkm",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/serialization/queryformats/RawFormat.java",
+        "project": "onap_aai-aai-common",
+        "line": 84,
+        "hash": "ab58bb79a5b82272b826778f473b7d3e",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 72,
+            "endOffset": 96
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.serialization.queryformats.exceptions.AAIFormatVertexException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-12T22:48:34+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrV6VkyFFvoj7BNC",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-rest/src/main/java/org/onap/aai/restclient/OneWaySSLRestClient.java",
+        "project": "onap_aai-aai-common",
+        "line": 58,
+        "hash": "780891795ec71770f5b649a0736c762d",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 44,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc-iyOMKZVYhOzsU",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/logging/ErrorLogHelper.java",
+        "project": "onap_aai-aai-common",
+        "line": 147,
+        "hash": "f23a404b773437b11c94acd5a7a5c261",
+        "textRange": {
+            "startLine": 147,
+            "endLine": 147,
+            "startOffset": 25,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc5ZyOMKZVYhOzjG",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/serialization/db/EdgeProperties.java",
+        "project": "onap_aai-aai-common",
+        "line": 25,
+        "hash": "4aef1c272d6fcab6f945e02f7773a5ef",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-06-27T19:50:15+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc7LyOMKZVYhOzlJ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/serialization/queryformats/IdURL.java",
+        "project": "onap_aai-aai-common",
+        "line": 83,
+        "hash": "3bbd5ae98f2d4d97d73f42baa4ade326",
+        "textRange": {
+            "startLine": 83,
+            "endLine": 83,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtquhVkyFFvoj7BIW",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/delta/PropertyDeltaFactory.java",
+        "project": "onap_aai-aai-common",
+        "line": 23,
+        "hash": "dd650c5d54cd89568de390fc71306d5b",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdJgyOMKZVYhOz3B",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-utils/src/main/java/org/onap/aaiutils/oxm/OxmModelLoader.java",
+        "project": "onap_aai-aai-common",
+        "line": 76,
+        "hash": "1acf041cde4dccddfd05611e9dddb1c6",
+        "textRange": {
+            "startLine": 76,
+            "endLine": 76,
+            "startOffset": 78,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-22T12:28:07+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdJgyOMKZVYhOz3A",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-utils/src/main/java/org/onap/aaiutils/oxm/OxmModelLoader.java",
+        "project": "onap_aai-aai-common",
+        "line": 83,
+        "hash": "c75705298d3f08a4a04f3d65f01cb254",
+        "textRange": {
+            "startLine": 83,
+            "endLine": 83,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-22T12:28:07+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtqZbVkyFFvoj7BGP",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/serialization/queryformats/PathedURL.java",
+        "project": "onap_aai-aai-common",
+        "line": 185,
+        "hash": "abe755ea38cf65c8f1124d9ec1ce9b1a",
+        "textRange": {
+            "startLine": 185,
+            "endLine": 185,
+            "startOffset": 40,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.exceptions.AAIException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc-WyOMKZVYhOzry",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/HttpsAuthExternalClient.java",
+        "project": "onap_aai-aai-common",
+        "line": 39,
+        "hash": "834f21fba72a8effa4f508adfa317530",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 13,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc-WyOMKZVYhOzrt",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/HttpsAuthExternalClient.java",
+        "project": "onap_aai-aai-common",
+        "line": 49,
+        "hash": "ba3a78e1165feecda2ea9b0be9f9a58d",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 92,
+            "endOffset": 101
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-18T23:42:01+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtqowVkyFFvoj7BHY",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/dbgen/SchemaGenerator4Hist.java",
+        "project": "onap_aai-aai-common",
+        "line": 47,
+        "hash": "edd17db2bb80eaec3ba08cd78de9054b",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdI2yOMKZVYhOz2j",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-rest/src/main/java/org/onap/aai/restclient/RestClient.java",
+        "project": "onap_aai-aai-common",
+        "line": 58,
+        "hash": "b4d543c05ea7d4e264d90d21699a786a",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 19,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.springframework.web.client.RestClientException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdJgyOMKZVYhOz3I",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-utils/src/main/java/org/onap/aaiutils/oxm/OxmModelLoader.java",
+        "project": "onap_aai-aai-common",
+        "line": 123,
+        "hash": "46ef40813c355e475b130025a3143114",
+        "textRange": {
+            "startLine": 123,
+            "endLine": 123,
+            "startOffset": 34,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-30T18:13:53+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdJlyOMKZVYhOz3K",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-utils/src/main/java/org/onap/aaiutils/oxm/OxmModelLoaderConstants.java",
+        "project": "onap_aai-aai-common",
+        "line": 25,
+        "hash": "42dd87aaff0e18c42a8bfc41a77ca156",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 13,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-30T18:13:53+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtqXDVkyFFvoj7BF0",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/serialization/db/DBSerializer.java",
+        "project": "onap_aai-aai-common",
+        "line": 614,
+        "hash": "2327a541fb45c07058794267106bfe4f",
+        "textRange": {
+            "startLine": 614,
+            "endLine": 614,
+            "startOffset": 100,
+            "endOffset": 124
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtqXDVkyFFvoj7BFs",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/serialization/db/DBSerializer.java",
+        "project": "onap_aai-aai-common",
+        "line": 2275,
+        "hash": "ee640c84ec98eecc31351c127fb7a9c5",
+        "textRange": {
+            "startLine": 2275,
+            "endLine": 2275,
+            "startOffset": 24,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdGdyOMKZVYhOz1i",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-schema-abstraction/src/main/java/org/onap/aai/schemaif/oxm/OxmSchemaLoader.java",
+        "project": "onap_aai-aai-common",
+        "line": 86,
+        "hash": "a6c52755fac08727b97eab2509c34a4f",
+        "textRange": {
+            "startLine": 86,
+            "endLine": 86,
+            "startOffset": 56,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.schemaif.SchemaProviderException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-29T22:36:53+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdGdyOMKZVYhOz1e",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-schema-abstraction/src/main/java/org/onap/aai/schemaif/oxm/OxmSchemaLoader.java",
+        "project": "onap_aai-aai-common",
+        "line": 74,
+        "hash": "1c484d888c0bedadd859551bb3b364c1",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 11,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Hide this public constructor.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-10-29T22:36:53+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdGayOMKZVYhOz1a",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-schema-abstraction/src/main/java/org/onap/aai/schemaif/oxm/RelationshipSchema.java",
+        "project": "onap_aai-aai-common",
+        "line": 117,
+        "hash": "2a6a949db4aade5d0e4c3e946264f355",
+        "textRange": {
+            "startLine": 117,
+            "endLine": 117,
+            "startOffset": 63,
+            "endOffset": 86
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.schemaif.SchemaProviderException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-29T22:36:53+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc9dyOMKZVYhOzpe",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/StoreNotificationEvent.java",
+        "project": "onap_aai-aai-common",
+        "line": 392,
+        "hash": "ada23b1b80d70a896303128b880623c3",
+        "textRange": {
+            "startLine": 392,
+            "endLine": 392,
+            "startOffset": 65,
+            "endOffset": 78
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.json.JSONException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-08-15T17:35:18+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc94yOMKZVYhOzqr",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/PojoUtils.java",
+        "project": "onap_aai-aai-common",
+        "line": 118,
+        "hash": "f724c3c7be289097520eefeba7367acd",
+        "textRange": {
+            "startLine": 118,
+            "endLine": 118,
+            "startOffset": 44,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.databind.JsonMappingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc94yOMKZVYhOzqq",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/PojoUtils.java",
+        "project": "onap_aai-aai-common",
+        "line": 118,
+        "hash": "f724c3c7be289097520eefeba7367acd",
+        "textRange": {
+            "startLine": 118,
+            "endLine": 118,
+            "startOffset": 19,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonGenerationException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc94yOMKZVYhOzqp",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/PojoUtils.java",
+        "project": "onap_aai-aai-common",
+        "line": 101,
+        "hash": "a178f82265002571270bd3092e520c91",
+        "textRange": {
+            "startLine": 101,
+            "endLine": 101,
+            "startOffset": 81,
+            "endOffset": 101
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.databind.JsonMappingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc94yOMKZVYhOzqo",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/PojoUtils.java",
+        "project": "onap_aai-aai-common",
+        "line": 101,
+        "hash": "a178f82265002571270bd3092e520c91",
+        "textRange": {
+            "startLine": 101,
+            "endLine": 101,
+            "startOffset": 56,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonGenerationException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc94yOMKZVYhOzqn",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/PojoUtils.java",
+        "project": "onap_aai-aai-common",
+        "line": 65,
+        "hash": "525803279347ad811e3aef7f3173b09a",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 43,
+            "endOffset": 67
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc60yOMKZVYhOzkw",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/serialization/queryformats/PathedURL.java",
+        "project": "onap_aai-aai-common",
+        "line": 88,
+        "hash": "6548c95e8460e41ca300c21718118e79",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtqXDVkyFFvoj7BF1",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/serialization/db/DBSerializer.java",
+        "project": "onap_aai-aai-common",
+        "line": 614,
+        "hash": "2327a541fb45c07058794267106bfe4f",
+        "textRange": {
+            "startLine": 614,
+            "endLine": 614,
+            "startOffset": 126,
+            "endOffset": 143
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.SecurityException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrVNVkyFFvoj7BM6",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/logging/filter/base/PayloadLoggingClientFilter.java",
+        "project": "onap_aai-aai-common",
+        "line": 115,
+        "hash": "a30ee8932fcc45788fb9d94184c0c002",
+        "textRange": {
+            "startLine": 115,
+            "endLine": 115,
+            "startOffset": 84,
+            "endOffset": 107
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.ws.rs.WebApplicationException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtq2YVkyFFvoj7BJl",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 909,
+        "hash": "05e067f54ee1ffc5454c1d0eb2a36ace",
+        "textRange": {
+            "startLine": 909,
+            "endLine": 909,
+            "startOffset": 57,
+            "endOffset": 81
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtq2YVkyFFvoj7BJs",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 943,
+        "hash": "231e6b825c8300278988be9ea0f61ac1",
+        "textRange": {
+            "startLine": 943,
+            "endLine": 943,
+            "startOffset": 67,
+            "endOffset": 91
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtq2YVkyFFvoj7BJr",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 911,
+        "hash": "09ed494685cae51ed9d66e605195cbc3",
+        "textRange": {
+            "startLine": 911,
+            "endLine": 911,
+            "startOffset": 39,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.net.URISyntaxException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXGmHrKtkXliXA1vm3xP",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/audit/ListEndpoints.java",
+        "project": "onap_aai-aai-common",
+        "line": 102,
+        "hash": "440bb1c3591aba2e3600dc79c544bbab",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-23T10:17:41+0200",
+        "updateDate": "2020-04-23T10:17:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrUJVkyFFvoj7BMG",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/aailog/filter/RestControllerClientLoggingInterceptor.java",
+        "project": "onap_aai-aai-common",
+        "line": 51,
+        "hash": "c69d105e44624d59ce8aaed5c9dd0918",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 69,
+            "endOffset": 91
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.sun.jersey.api.client.ClientHandlerException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdCjyOMKZVYhOzyi",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/web/DmaapConfig.java",
+        "project": "onap_aai-aai-common",
+        "line": 110,
+        "hash": "35c4d9ee853770b95df71f41947699df",
+        "textRange": {
+            "startLine": 110,
+            "endLine": 110,
+            "startOffset": 57,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-05-03T02:35:06+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdCjyOMKZVYhOzye",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/web/DmaapConfig.java",
+        "project": "onap_aai-aai-common",
+        "line": 110,
+        "hash": "35c4d9ee853770b95df71f41947699df",
+        "textRange": {
+            "startLine": 110,
+            "endLine": 110,
+            "startOffset": 57,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-03T02:35:06+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdCQyOMKZVYhOzx8",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 871,
+        "hash": "05e067f54ee1ffc5454c1d0eb2a36ace",
+        "textRange": {
+            "startLine": 871,
+            "endLine": 871,
+            "startOffset": 57,
+            "endOffset": 81
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2020-05-20T10:17:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdJWyOMKZVYhOz26",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-auth/src/main/java/org/onap/aaiauth/auth/Auth.java",
+        "project": "onap_aai-aai-common",
+        "line": 38,
+        "hash": "85f6ef58f5b13e53a40ef8515de0cb64",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 97,
+            "endOffset": 106
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-09-21T17:36:55+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdJWyOMKZVYhOz25",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-auth/src/main/java/org/onap/aaiauth/auth/Auth.java",
+        "project": "onap_aai-aai-common",
+        "line": 34,
+        "hash": "4673ceb1999690e32c4ef14ed450e9cb",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 74,
+            "endOffset": 83
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-09-21T17:36:55+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdJWyOMKZVYhOz23",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-auth/src/main/java/org/onap/aaiauth/auth/Auth.java",
+        "project": "onap_aai-aai-common",
+        "line": 38,
+        "hash": "85f6ef58f5b13e53a40ef8515de0cb64",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 97,
+            "endOffset": 106
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-09-21T17:36:55+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdCQyOMKZVYhOzx-",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 872,
+        "hash": "371a09be15523c46df90f8ea6f5dfff4",
+        "textRange": {
+            "startLine": 872,
+            "endLine": 872,
+            "startOffset": 12,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.SecurityException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2020-05-20T10:17:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdCQyOMKZVYhOzyB",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 873,
+        "hash": "09ed494685cae51ed9d66e605195cbc3",
+        "textRange": {
+            "startLine": 873,
+            "endLine": 873,
+            "startOffset": 12,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.introspection.exceptions.AAIUnknownObjectException' which is a subclass of 'org.onap.aai.exceptions.AAIException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2020-05-20T10:17:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdCQyOMKZVYhOzyA",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 873,
+        "hash": "09ed494685cae51ed9d66e605195cbc3",
+        "textRange": {
+            "startLine": 873,
+            "endLine": 873,
+            "startOffset": 39,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.net.URISyntaxException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2020-05-20T10:17:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtq2YVkyFFvoj7BJo",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 910,
+        "hash": "371a09be15523c46df90f8ea6f5dfff4",
+        "textRange": {
+            "startLine": 910,
+            "endLine": 910,
+            "startOffset": 31,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.InstantiationException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdGayOMKZVYhOz1Y",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-schema-abstraction/src/main/java/org/onap/aai/schemaif/oxm/RelationshipSchema.java",
+        "project": "onap_aai-aai-common",
+        "line": 106,
+        "hash": "78bcb1be74db80691df63bd311883092",
+        "textRange": {
+            "startLine": 106,
+            "endLine": 106,
+            "startOffset": 68,
+            "endOffset": 91
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.schemaif.SchemaProviderException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-29T22:36:53+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdGayOMKZVYhOz1X",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-schema-abstraction/src/main/java/org/onap/aai/schemaif/oxm/RelationshipSchema.java",
+        "project": "onap_aai-aai-common",
+        "line": 102,
+        "hash": "1484834974d85c801e63bec49d8e3873",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 54,
+            "endOffset": 77
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.schemaif.SchemaProviderException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-29T22:36:53+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtq0IVkyFFvoj7BJN",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/prevalidation/ValidationService.java",
+        "project": "onap_aai-aai-common",
+        "line": 170,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 170,
+            "endLine": 170,
+            "startOffset": 8,
+            "endOffset": 9
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdJCyOMKZVYhOz2t",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-rest/src/main/java/org/onap/aai/restclient/TwoWaySSLRestClient.java",
+        "project": "onap_aai-aai-common",
+        "line": 81,
+        "hash": "d1c42c95f8d86a6d1604a95b34309285",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 66,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-12-06T03:45:16+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc7LyOMKZVYhOzlK",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/serialization/queryformats/IdURL.java",
+        "project": "onap_aai-aai-common",
+        "line": 51,
+        "hash": "7d69df08dee4608928d3d1b770f37fe9",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 62,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.exceptions.AAIException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdJgyOMKZVYhOz2_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-utils/src/main/java/org/onap/aaiutils/oxm/OxmModelLoader.java",
+        "project": "onap_aai-aai-common",
+        "line": 70,
+        "hash": "c75705298d3f08a4a04f3d65f01cb254",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 30,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-08-30T18:13:53+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdJgyOMKZVYhOz3D",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-utils/src/main/java/org/onap/aaiutils/oxm/OxmModelLoader.java",
+        "project": "onap_aai-aai-common",
+        "line": 48,
+        "hash": "5243e22e604ea83988adba5a4187d9fa",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-30T18:13:53+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrSrVkyFFvoj7BLc",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/logging/LoggingContext.java",
+        "project": "onap_aai-aai-common",
+        "line": 31,
+        "hash": "752be3f306e8a4b706a693dc6b848d64",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrSrVkyFFvoj7BLb",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/logging/LoggingContext.java",
+        "project": "onap_aai-aai-common",
+        "line": 44,
+        "hash": "5c6eaa8b97780b28da7694f6babc8d5a",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 44,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXBcgfvylG1iYV3Z37Vg",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/RestURLEncoder.java",
+        "project": "onap_aai-aai-common",
+        "line": 36,
+        "hash": "03741a55785ae8ad4c516113970e69b7",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 64,
+            "endOffset": 92
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2020-03-04T09:15:16+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtq_bVkyFFvoj7BKE",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-aaf-auth/src/main/java/org/onap/aai/aaf/auth/AafRequestFilter.java",
+        "project": "onap_aai-aai-common",
+        "line": 41,
+        "hash": "121483bf41931d50afb1483dbd4263dc",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc_gyOMKZVYhOztU",
+        "rule": "java:S2166",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/domain/restServiceException/Fault.java",
+        "project": "onap_aai-aai-common",
+        "line": 227,
+        "hash": "7b4905e188f307415d61f22ca4e9a684",
+        "textRange": {
+            "startLine": 227,
+            "endLine": 227,
+            "startOffset": 28,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this class to remove \"Exception\" or correct its inheritance.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "convention",
+            "error-handling",
+            "pitfall"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtqbdVkyFFvoj7BGv",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/serialization/queryformats/IdURL.java",
+        "project": "onap_aai-aai-common",
+        "line": 57,
+        "hash": "9622647982c27430eb7dc0b49628b610",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 41,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.exceptions.AAIException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrUPVkyFFvoj7BMO",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/aailog/filter/RestClientLoggingInterceptor.java",
+        "project": "onap_aai-aai-common",
+        "line": 60,
+        "hash": "cccd347d379acb0e50d984ba11c637cf",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 19,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrUPVkyFFvoj7BMN",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/aailog/filter/RestClientLoggingInterceptor.java",
+        "project": "onap_aai-aai-common",
+        "line": 51,
+        "hash": "c3f0624e22e2203e5138e507e499fc3c",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 19,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrVHVkyFFvoj7BM0",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/logging/filter/base/Constants.java",
+        "project": "onap_aai-aai-common",
+        "line": 43,
+        "hash": "c24458e1a3bc58c2beba3ab7fc403b8a",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 30,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrVHVkyFFvoj7BMz",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/logging/filter/base/Constants.java",
+        "project": "onap_aai-aai-common",
+        "line": 31,
+        "hash": "ce4f54d50d6644cf5060bd74895550b7",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 30,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrVHVkyFFvoj7BMy",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/logging/filter/base/Constants.java",
+        "project": "onap_aai-aai-common",
+        "line": 26,
+        "hash": "9a200ac58c1907d29997863fda9cb2f1",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 30,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrVHVkyFFvoj7BMx",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/logging/filter/base/Constants.java",
+        "project": "onap_aai-aai-common",
+        "line": 23,
+        "hash": "4b77d437a8e60026e015f438636aa6a5",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc9wyOMKZVYhOzqG",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/RestController.java",
+        "project": "onap_aai-aai-common",
+        "hash": "14dd0a70aaad5be0057ac005035cbc0c",
+        "textRange": {
+            "startLine": 103,
+            "endLine": 103,
+            "startOffset": 16,
+            "endOffset": 22
+        },
+        "flows": [],
+        "resolution": "FIXED",
+        "status": "CLOSED",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-08-12T22:48:34+0200",
+        "updateDate": "2020-05-20T10:17:31+0200",
+        "closeDate": "2020-05-20T10:17:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdAoyOMKZVYhOzu9",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/parsers/query/UniqueURIQueryParser.java",
+        "project": "onap_aai-aai-common",
+        "line": 64,
+        "hash": "e36f5ea53133fc1b19567734730a1ba3",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 49,
+            "endOffset": 73
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrSxVkyFFvoj7BLh",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/logging/AaiElsErrorCode.java",
+        "project": "onap_aai-aai-common",
+        "line": 23,
+        "hash": "fd8691f16b19b8d0cd3021010e484881",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdCQyOMKZVYhOzx9",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 872,
+        "hash": "371a09be15523c46df90f8ea6f5dfff4",
+        "textRange": {
+            "startLine": 872,
+            "endLine": 872,
+            "startOffset": 55,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.NoSuchMethodException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2020-05-20T10:17:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdCQyOMKZVYhOzx_",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/rest/db/HttpEntry.java",
+        "project": "onap_aai-aai-common",
+        "line": 872,
+        "hash": "371a09be15523c46df90f8ea6f5dfff4",
+        "textRange": {
+            "startLine": 872,
+            "endLine": 872,
+            "startOffset": 31,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.InstantiationException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2020-05-20T10:17:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc6SyOMKZVYhOzj5",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/serialization/db/DBSerializer.java",
+        "project": "onap_aai-aai-common",
+        "line": 1977,
+        "hash": "fef32c0dbdeea682f4c485d0f47bd59a",
+        "textRange": {
+            "startLine": 1977,
+            "endLine": 1977,
+            "startOffset": 19,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdATyOMKZVYhOzuk",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/parsers/uri/URIToRelationshipObject.java",
+        "project": "onap_aai-aai-common",
+        "line": 82,
+        "hash": "7e180496c3af8d67e33438c7b38c58ce",
+        "textRange": {
+            "startLine": 82,
+            "endLine": 82,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-05-10T00:19:11+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdAPyOMKZVYhOzuh",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/parsers/uri/URIToDBKey.java",
+        "project": "onap_aai-aai-common",
+        "line": 56,
+        "hash": "0a4d34e0f40233126c22b06477662675",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 19,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdGayOMKZVYhOz1U",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-schema-abstraction/src/main/java/org/onap/aai/schemaif/oxm/RelationshipSchema.java",
+        "project": "onap_aai-aai-common",
+        "line": 66,
+        "hash": "f9a03f10d6e474bd8a00b522007ebe45",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 85,
+            "endOffset": 108
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.aai.schemaif.SchemaProviderException', as it cannot be thrown from constructor's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-10-29T22:36:53+0100",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdANyOMKZVYhOzuc",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/parsers/uri/URIToExtensionInformation.java",
+        "project": "onap_aai-aai-common",
+        "line": 62,
+        "hash": "0a4d34e0f40233126c22b06477662675",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 19,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-11T05:43:41+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNc8DyOMKZVYhOznA",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/introspection/LoaderUtil.java",
+        "project": "onap_aai-aai-common",
+        "line": 26,
+        "hash": "506010ca8b0af9929f1faa3147d8037c",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-04-08T19:25:06+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lNdBpyOMKZVYhOzwR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/dbmap/AAIGraph.java",
+        "project": "onap_aai-aai-common",
+        "line": 143,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 143,
+            "endLine": 143,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-12T22:48:34+0200",
+        "updateDate": "2019-11-26T01:54:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtquLVkyFFvoj7BH8",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "onap_aai-aai-common:aai-core/src/main/java/org/onap/aai/util/RestController.java",
+        "project": "onap_aai-aai-common",
+        "line": 99,
+        "hash": "2e0d54eb22ceb3b37489b5ca32937b70",
+        "textRange": {
+            "startLine": 99,
+            "endLine": 99,
+            "startOffset": 16,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2020-02-26T23:52:52+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCDtrSrVkyFFvoj7BLe",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_aai-aai-common:aai-els-onap-logging/src/main/java/org/onap/aai/logging/LoggingContext.java",
+        "project": "onap_aai-aai-common",
+        "line": 73,
+        "hash": "5eb1048a65cef9f848fe69a1337d77e1",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2020-02-26T05:59:33+0100",
+        "updateDate": "2020-02-26T23:52:52+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,328 @@
+[
+    {
+        "key": "AWo40yFl-aLJxVkB-Y7C",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-validation-core:src/main/java/org/apache/sling/validation/impl/util/ValidatorTypeUtil.java",
+        "project": "apache_sling-org-apache-sling-validation-core",
+        "line": 31,
+        "hash": "3880ab1959e91d4985ad181ffd1dac81",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2015-04-10T15:22:08+0200",
+        "updateDate": "2019-04-20T05:38:19+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo40yFD-aLJxVkB-Y6g",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-validation-core:src/main/java/org/apache/sling/validation/impl/postprocessor/InvalidResourcePostProcessorException.java",
+        "project": "apache_sling-org-apache-sling-validation-core",
+        "line": 46,
+        "hash": "8828e03595273609ac6ecaeaa8044115",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2017-03-29T11:12:37+0200",
+        "updateDate": "2019-04-20T05:38:19+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo40yEl-aLJxVkB-Y6A",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-validation-core:src/main/java/org/apache/sling/validation/impl/model/ChildResourceBuilder.java",
+        "project": "apache_sling-org-apache-sling-validation-core",
+        "line": 31,
+        "hash": "8fa4598cb0d5480c6d966b77b81c1539",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 19,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make multiple a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2015-07-29T09:22:46+0200",
+        "updateDate": "2019-04-20T05:38:19+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo40yEl-aLJxVkB-Y5_",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-validation-core:src/main/java/org/apache/sling/validation/impl/model/ChildResourceBuilder.java",
+        "project": "apache_sling-org-apache-sling-validation-core",
+        "line": 30,
+        "hash": "80a1d3e5ffdc9e030785614bc6d950cf",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 19,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make optional a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2015-07-29T09:22:46+0200",
+        "updateDate": "2019-04-20T05:38:19+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo40yFb-aLJxVkB-Y60",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-validation-core:src/main/java/org/apache/sling/validation/impl/ValidationServiceImpl.java",
+        "project": "apache_sling-org-apache-sling-validation-core",
+        "line": 163,
+        "hash": "bf04f6b003243affaf580fdc327c5f6d",
+        "textRange": {
+            "startLine": 163,
+            "endLine": 163,
+            "startOffset": 91,
+            "endOffset": 115
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-13T11:56:10+0200",
+        "updateDate": "2019-04-20T05:38:19+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo40yFb-aLJxVkB-Y65",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-validation-core:src/main/java/org/apache/sling/validation/impl/ValidationServiceImpl.java",
+        "project": "apache_sling-org-apache-sling-validation-core",
+        "line": 299,
+        "hash": "248959e82e1dcd8ee7928eac3858d142",
+        "textRange": {
+            "startLine": 299,
+            "endLine": 299,
+            "startOffset": 68,
+            "endOffset": 92
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.validation.SlingValidationException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-04-10T15:22:08+0200",
+        "updateDate": "2019-04-20T05:38:19+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo40yFb-aLJxVkB-Y64",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-validation-core:src/main/java/org/apache/sling/validation/impl/ValidationServiceImpl.java",
+        "project": "apache_sling-org-apache-sling-validation-core",
+        "line": 299,
+        "hash": "248959e82e1dcd8ee7928eac3858d142",
+        "textRange": {
+            "startLine": 299,
+            "endLine": 299,
+            "startOffset": 42,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-04-10T15:22:08+0200",
+        "updateDate": "2019-04-20T05:38:19+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo40yFb-aLJxVkB-Y63",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-validation-core:src/main/java/org/apache/sling/validation/impl/ValidationServiceImpl.java",
+        "project": "apache_sling-org-apache-sling-validation-core",
+        "line": 299,
+        "hash": "248959e82e1dcd8ee7928eac3858d142",
+        "textRange": {
+            "startLine": 299,
+            "endLine": 299,
+            "startOffset": 19,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-04-10T15:22:08+0200",
+        "updateDate": "2019-04-20T05:38:19+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo40yFb-aLJxVkB-Y6y",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-validation-core:src/main/java/org/apache/sling/validation/impl/ValidationServiceImpl.java",
+        "project": "apache_sling-org-apache-sling-validation-core",
+        "line": 392,
+        "hash": "9ad52820311efe147afb64fe870fc632",
+        "textRange": {
+            "startLine": 392,
+            "endLine": 392,
+            "startOffset": 17,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-08-13T11:56:10+0200",
+        "updateDate": "2019-04-20T05:38:19+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo40yE4-aLJxVkB-Y6M",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-validation-core:src/main/java/org/apache/sling/validation/impl/model/ResourcePropertyImpl.java",
+        "project": "apache_sling-org-apache-sling-validation-core",
+        "line": 47,
+        "hash": "ec6f75952b515a7d7879042387c98191",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 66,
+            "endOffset": 90
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-13T11:56:10+0200",
+        "updateDate": "2019-04-20T05:38:19+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo40yFO-aLJxVkB-Y6i",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-validation-core:src/main/java/org/apache/sling/validation/impl/validators/RegexValidator.java",
+        "project": "apache_sling-org-apache-sling-validation-core",
+        "line": 46,
+        "hash": "72fcad1cb64e191043108bd5cb14a9a8",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 19,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.validation.SlingValidationException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-04-10T15:22:08+0200",
+        "updateDate": "2019-04-20T05:38:19+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "key": "AW6lMRAvwQN7qqDOqlL8",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_aai-search-data-service:search-data-service-app/src/main/java/org/onap/aai/sa/Application.java",
+        "project": "onap_aai-search-data-service",
+        "line": 35,
+        "hash": "c1818c931e7a3a86ad317c521b846af3",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-04-03T23:49:28+0200",
+        "updateDate": "2019-11-26T01:50:59+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

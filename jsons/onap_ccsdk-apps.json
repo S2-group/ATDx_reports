@@ -1,0 +1,1229 @@
+[
+    {
+        "key": "AW6lVtwjk4KhMkVz6ZUr",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/service/extinf/impl/AaiServiceImpl.java",
+        "project": "onap_ccsdk-apps",
+        "line": 85,
+        "hash": "1e4dae6aabc9dcb1bddc4f1e918a2c7d",
+        "textRange": {
+            "startLine": 85,
+            "endLine": 85,
+            "startOffset": 65,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-23T16:17:51+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVttfk4KhMkVz6ZTX",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/policy/PolicyReader.java",
+        "project": "onap_ccsdk-apps",
+        "line": 300,
+        "hash": "b32734d6b515190533cb1631f24ef6d6",
+        "textRange": {
+            "startLine": 300,
+            "endLine": 300,
+            "startOffset": 60,
+            "endOffset": 69
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-22T22:08:34+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVttXk4KhMkVz6ZTU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/policy/PolicyFinder.java",
+        "project": "onap_ccsdk-apps",
+        "line": 37,
+        "hash": "a826a2a8dbe937c54ac2dfb801be0beb",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 68,
+            "endOffset": 77
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-22T22:08:34+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVttPk4KhMkVz6ZTT",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/policy/PolicyParameters.java",
+        "project": "onap_ccsdk-apps",
+        "line": 43,
+        "hash": "b0c9c8c44c086df3856db77f3241f464",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 41,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-22T22:08:34+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVttPk4KhMkVz6ZTS",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/policy/PolicyParameters.java",
+        "project": "onap_ccsdk-apps",
+        "line": 37,
+        "hash": "65ecf903fb2e40ea7b75ea7b46001a7b",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 50,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-22T22:08:34+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVttPk4KhMkVz6ZTR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/policy/PolicyParameters.java",
+        "project": "onap_ccsdk-apps",
+        "line": 32,
+        "hash": "58c9c8824b1854d43cfe5a9509c82fc6",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 46,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-22T22:08:34+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVttHk4KhMkVz6ZTN",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/policy/PolicyPropertyMethodUtils.java",
+        "project": "onap_ccsdk-apps",
+        "line": 31,
+        "hash": "1337f73d2c87d71e24304274b8bbbf26",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-07-22T22:08:34+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtuUk4KhMkVz6ZUL",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/service/SpringService.java",
+        "project": "onap_ccsdk-apps",
+        "line": 49,
+        "hash": "75e0dd0ac7488baa8f12afa79be0080c",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 79,
+            "endOffset": 88
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-08T06:39:46+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtuUk4KhMkVz6ZUK",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/service/SpringService.java",
+        "project": "onap_ccsdk-apps",
+        "line": 44,
+        "hash": "2224e1ba9b4ea2b0f90b2d82512e3e4b",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 80,
+            "endOffset": 89
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-23T19:46:31+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtuUk4KhMkVz6ZUJ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/service/SpringService.java",
+        "project": "onap_ccsdk-apps",
+        "line": 39,
+        "hash": "6a572ca5c93cdf4db12607a3817839bf",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 49,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-08T06:39:46+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtt6k4KhMkVz6ZT6",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/service/rs/RestService.java",
+        "project": "onap_ccsdk-apps",
+        "line": 89,
+        "hash": "ce2e6a10c1990888f77766656e1e5f64",
+        "textRange": {
+            "startLine": 89,
+            "endLine": 89,
+            "startOffset": 57,
+            "endOffset": 66
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-08T06:39:46+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtyFk4KhMkVz6ZU1",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/vlantag-api/src/main/java/org/onap/ccsdk/apps/ms/vlantagapi/core/service/VlantagApiService.java",
+        "project": "onap_ccsdk-apps",
+        "line": 55,
+        "hash": "a36fb88b9dc18e9f1ddf6e039ae03d2b",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 102,
+            "endOffset": 111
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-22T17:13:47+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtyFk4KhMkVz6ZU3",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-apps:ms/vlantag-api/src/main/java/org/onap/ccsdk/apps/ms/vlantagapi/core/service/VlantagApiService.java",
+        "project": "onap_ccsdk-apps",
+        "line": 55,
+        "hash": "a36fb88b9dc18e9f1ddf6e039ae03d2b",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 81,
+            "endOffset": 100
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.ccsdk.apps.ms.vlantagapi.core.exception.VlantagApiException' which is a subclass of 'java.lang.Exception'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-22T17:13:47+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtyFk4KhMkVz6ZU2",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/vlantag-api/src/main/java/org/onap/ccsdk/apps/ms/vlantagapi/core/service/VlantagApiService.java",
+        "project": "onap_ccsdk-apps",
+        "line": 68,
+        "hash": "1fbe8a7f634dfc3202903a985948f481",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 108,
+            "endOffset": 117
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-22T17:13:47+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCu2R3etL8E0lt2jvc1",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/service/extinf/impl/PolicyFinderServiceImpl.java",
+        "project": "onap_ccsdk-apps",
+        "line": 190,
+        "hash": "e610a2a651fd31bc6a92ad5159367162",
+        "textRange": {
+            "startLine": 190,
+            "endLine": 190,
+            "startOffset": 117,
+            "endOffset": 126
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-03-06T08:56:38+0100",
+        "updateDate": "2020-03-06T08:56:38+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXCu2R3etL8E0lt2jvcy",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/service/extinf/impl/PolicyFinderServiceImpl.java",
+        "project": "onap_ccsdk-apps",
+        "line": 190,
+        "hash": "e610a2a651fd31bc6a92ad5159367162",
+        "textRange": {
+            "startLine": 190,
+            "endLine": 190,
+            "startOffset": 117,
+            "endOffset": 126
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-06T08:56:38+0100",
+        "updateDate": "2020-03-06T08:56:38+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtwCk4KhMkVz6ZUd",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/persistence/repository/ExternalInterfaceRespository.java",
+        "project": "onap_ccsdk-apps",
+        "line": 37,
+        "hash": "fdae4427e2fc53b30003c0a1278664ee",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 72,
+            "endOffset": 81
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-23T01:41:07+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVttrk4KhMkVz6ZTv",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/policy/PropertyOperator.java",
+        "project": "onap_ccsdk-apps",
+        "line": 153,
+        "hash": "950a1fa867d374c40d8dfb0edea78a15",
+        "textRange": {
+            "startLine": 153,
+            "endLine": 153,
+            "startOffset": 51,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-22T22:08:34+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVttrk4KhMkVz6ZTu",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/policy/PropertyOperator.java",
+        "project": "onap_ccsdk-apps",
+        "line": 137,
+        "hash": "0222fb4e1c2b50994dc6eedb19fbd097",
+        "textRange": {
+            "startLine": 137,
+            "endLine": 137,
+            "startOffset": 61,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-22T22:08:34+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVttrk4KhMkVz6ZTt",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/policy/PropertyOperator.java",
+        "project": "onap_ccsdk-apps",
+        "line": 99,
+        "hash": "e66c3b2d09a0e5a1b76e383f44fe743b",
+        "textRange": {
+            "startLine": 99,
+            "endLine": 99,
+            "startOffset": 95,
+            "endOffset": 104
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-22T22:08:34+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtt6k4KhMkVz6ZT5",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/service/rs/RestService.java",
+        "project": "onap_ccsdk-apps",
+        "line": 79,
+        "hash": "a1f6e5a851cfa47130ee8d5b34b2bc82",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 90,
+            "endOffset": 99
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-17T05:48:07+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVttrk4KhMkVz6ZT4",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/policy/PropertyOperator.java",
+        "project": "onap_ccsdk-apps",
+        "line": 153,
+        "hash": "950a1fa867d374c40d8dfb0edea78a15",
+        "textRange": {
+            "startLine": 153,
+            "endLine": 153,
+            "startOffset": 51,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-07-22T22:08:34+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVttrk4KhMkVz6ZT3",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/policy/PropertyOperator.java",
+        "project": "onap_ccsdk-apps",
+        "line": 137,
+        "hash": "0222fb4e1c2b50994dc6eedb19fbd097",
+        "textRange": {
+            "startLine": 137,
+            "endLine": 137,
+            "startOffset": 61,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-07-22T22:08:34+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtyFk4KhMkVz6ZU4",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-apps:ms/vlantag-api/src/main/java/org/onap/ccsdk/apps/ms/vlantagapi/core/service/VlantagApiService.java",
+        "project": "onap_ccsdk-apps",
+        "line": 68,
+        "hash": "1fbe8a7f634dfc3202903a985948f481",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 87,
+            "endOffset": 106
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.ccsdk.apps.ms.vlantagapi.core.exception.VlantagApiException' which is a subclass of 'java.lang.Exception'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-22T17:13:47+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXKdPMUqkGKMRjdukH0S",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-apps:ms/sliboot/src/main/java/org/onap/ccsdk/apps/ms/sliboot/App.java",
+        "project": "onap_ccsdk-apps",
+        "line": 44,
+        "hash": "bc1821a6ff81cc22a20823dd9b8408eb",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 48,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [],
+        "creationDate": "2020-06-09T16:24:12+0200",
+        "updateDate": "2020-06-10T09:57:56+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtvVk4KhMkVz6ZUX",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/seq/SequenceGenerator.java",
+        "project": "onap_ccsdk-apps",
+        "line": 53,
+        "hash": "6aede2f30bfa8fd6e60533e25c7248c2",
+        "textRange": {
+            "startLine": 53,
+            "endLine": 53,
+            "startOffset": 70,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-23T16:17:51+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtvVk4KhMkVz6ZUW",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/seq/SequenceGenerator.java",
+        "project": "onap_ccsdk-apps",
+        "line": 59,
+        "hash": "dd99174e5c8e85eda44606c49dbe01cb",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-23T16:17:51+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtunk4KhMkVz6ZUQ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/validator/DbNameValidator.java",
+        "project": "onap_ccsdk-apps",
+        "line": 39,
+        "hash": "7703024eaebced5bd21157f794f0fe27",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 67,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-07-23T16:17:51+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtuLk4KhMkVz6ZUH",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/service/SpringServiceImpl.java",
+        "project": "onap_ccsdk-apps",
+        "line": 246,
+        "hash": "2c431d04522d9bcec43e12da77f089c6",
+        "textRange": {
+            "startLine": 246,
+            "endLine": 246,
+            "startOffset": 67,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-10-08T06:39:46+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtuLk4KhMkVz6ZUE",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/service/SpringServiceImpl.java",
+        "project": "onap_ccsdk-apps",
+        "line": 246,
+        "hash": "2c431d04522d9bcec43e12da77f089c6",
+        "textRange": {
+            "startLine": 246,
+            "endLine": 246,
+            "startOffset": 67,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-08T06:39:46+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXKdPMWOkGKMRjdukH0T",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:services/src/main/java/org/onap/ccsdk/apps/services/SvcLogicFactory.java",
+        "project": "onap_ccsdk-apps",
+        "line": 61,
+        "hash": "286f3a67a287816c387120a93fde2912",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 41,
+            "endOffset": 50
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [],
+        "creationDate": "2020-06-09T16:24:12+0200",
+        "updateDate": "2020-06-11T09:58:11+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtunk4KhMkVz6ZUP",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/validator/DbNameValidator.java",
+        "project": "onap_ccsdk-apps",
+        "line": 39,
+        "hash": "7703024eaebced5bd21157f794f0fe27",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 67,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-23T16:17:51+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtuLk4KhMkVz6ZUC",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/service/SpringServiceImpl.java",
+        "project": "onap_ccsdk-apps",
+        "line": 196,
+        "hash": "90e6d3634bbc2bae599ba89325907973",
+        "textRange": {
+            "startLine": 196,
+            "endLine": 196,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-23T19:46:31+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtuLk4KhMkVz6ZUD",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/service/SpringServiceImpl.java",
+        "project": "onap_ccsdk-apps",
+        "line": 230,
+        "hash": "8538029b02fa581904eb09e2feae9f2d",
+        "textRange": {
+            "startLine": 230,
+            "endLine": 230,
+            "startOffset": 56,
+            "endOffset": 65
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-23T19:46:31+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtuLk4KhMkVz6ZUB",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/service/SpringServiceImpl.java",
+        "project": "onap_ccsdk-apps",
+        "line": 140,
+        "hash": "90e6d3634bbc2bae599ba89325907973",
+        "textRange": {
+            "startLine": 140,
+            "endLine": 140,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-23T19:46:31+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtuUk4KhMkVz6ZUN",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/service/SpringService.java",
+        "project": "onap_ccsdk-apps",
+        "line": 73,
+        "hash": "4b7e6c77cf74d00e0ecaa1737c0d7d51",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 93,
+            "endOffset": 102
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-08T06:39:46+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtuUk4KhMkVz6ZUM",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/core/service/SpringService.java",
+        "project": "onap_ccsdk-apps",
+        "line": 68,
+        "hash": "5b1bd4266b1e4c76192e4cceed859496",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 84,
+            "endOffset": 93
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-10-08T06:39:46+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtwbk4KhMkVz6ZUm",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/service/extinf/impl/PolicyFinderServiceDbImpl.java",
+        "project": "onap_ccsdk-apps",
+        "line": 52,
+        "hash": "d59ea4d133803340f5f891c4f896f612",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-17T05:48:07+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtwSk4KhMkVz6ZUh",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/service/extinf/impl/PolicyFinderServiceImpl.java",
+        "project": "onap_ccsdk-apps",
+        "line": 220,
+        "hash": "21eaf504066c6dddcb06863d0a3c876e",
+        "textRange": {
+            "startLine": 220,
+            "endLine": 220,
+            "startOffset": 100,
+            "endOffset": 109
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-23T19:46:31+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtwSk4KhMkVz6ZUg",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/service/extinf/impl/PolicyFinderServiceImpl.java",
+        "project": "onap_ccsdk-apps",
+        "line": 172,
+        "hash": "722922a7b520d24b81ebac84a7826c47",
+        "textRange": {
+            "startLine": 172,
+            "endLine": 172,
+            "startOffset": 55,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-23T19:46:31+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lVtwSk4KhMkVz6ZUi",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_ccsdk-apps:ms/neng/src/main/java/org/onap/ccsdk/apps/ms/neng/service/extinf/impl/PolicyFinderServiceImpl.java",
+        "project": "onap_ccsdk-apps",
+        "line": 229,
+        "hash": "8b4cfd44c38ccac3ecdb011319a39dd7",
+        "textRange": {
+            "startLine": 229,
+            "endLine": 229,
+            "startOffset": 42,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-07-23T19:46:31+0200",
+        "updateDate": "2019-11-26T02:32:23+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

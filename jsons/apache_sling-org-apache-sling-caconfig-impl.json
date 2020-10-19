@@ -1,0 +1,510 @@
+[
+    {
+        "key": "AWovXGd7SX35U3sT88GB",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/management/ConfigurationManager.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 109,
+        "hash": "e3a14ba514cc163d12ea0a1d13b38e58",
+        "textRange": {
+            "startLine": 109,
+            "endLine": 109,
+            "startOffset": 21,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-13T11:12:31+0200",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWovXGeGSX35U3sT88GD",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/management/ContextPathStrategyMultiplexer.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 29,
+        "hash": "c05b28a3dae6e5213e7809bc79fc43ea",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 17,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-12-22T10:52:16+0100",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWovXGdmSX35U3sT88Fz",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationDataImpl.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 68,
+        "hash": "9ba01175ac44ab46b9f040ced9d6bd38",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 11,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 12 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2016-12-22T10:52:16+0100",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWovXGdmSX35U3sT88F0",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/management/impl/ConfigurationDataImpl.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 93,
+        "hash": "9ba01175ac44ab46b9f040ced9d6bd38",
+        "textRange": {
+            "startLine": 93,
+            "endLine": 93,
+            "startOffset": 11,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2016-12-22T10:52:16+0100",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWovXGctSX35U3sT88FP",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/impl/ConfigurationBuilderImpl.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 70,
+        "hash": "a792aeea8292ca8b469242c46566d7f6",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 11,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2016-12-22T10:52:16+0100",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWovXGceSX35U3sT88FM",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/impl/ConfigurationResourceWrapper.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 103,
+        "hash": "0766dd44a3251e62a0a98002e071cc14",
+        "textRange": {
+            "startLine": 103,
+            "endLine": 103,
+            "startOffset": 19,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-12-22T10:52:16+0100",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWovXGceSX35U3sT88FL",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/impl/ConfigurationResourceWrapper.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 99,
+        "hash": "03f7c4e7724c1ce9faf6e9b04bf06f20",
+        "textRange": {
+            "startLine": 99,
+            "endLine": 99,
+            "startOffset": 19,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-12-22T10:52:16+0100",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWovXGceSX35U3sT88FK",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/impl/ConfigurationResourceWrapper.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 87,
+        "hash": "52b52f0fad04830cfc995244a50cd3c1",
+        "textRange": {
+            "startLine": 87,
+            "endLine": 87,
+            "startOffset": 20,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-12-22T10:52:16+0100",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWovXGceSX35U3sT88FJ",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/impl/ConfigurationResourceWrapper.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 83,
+        "hash": "978a37a4c16fff81640f713a675718ce",
+        "textRange": {
+            "startLine": 83,
+            "endLine": 83,
+            "startOffset": 30,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-12-22T10:52:16+0100",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWovXGceSX35U3sT88FI",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/impl/ConfigurationResourceWrapper.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 79,
+        "hash": "c2d59ea07e955b6bb3cb27ec906b213d",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 30,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-12-22T10:52:16+0100",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWovXGcDSX35U3sT88Eq",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/impl/override/OverrideStringParser.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 215,
+        "hash": "531bcb78d20c6270b96e9f46cd8686f4",
+        "textRange": {
+            "startLine": 215,
+            "endLine": 215,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-03-30T22:43:05+0200",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWovXGdXSX35U3sT88Fl",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/management/impl/console/CAConfigInventoryPrinter.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 133,
+        "hash": "994ac230fb0dc17586983c847ce9a1b0",
+        "textRange": {
+            "startLine": 133,
+            "endLine": 133,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-12-22T10:52:16+0100",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWovXGdLSX35U3sT88Fk",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/management/multiplexer/ConfigurationOverrideMultiplexer.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 62,
+        "hash": "83c97d7340d113b72cabc9363f45dbb4",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 23,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-13T11:12:31+0200",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWovXGctSX35U3sT88FQ",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/impl/ConfigurationBuilderImpl.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 82,
+        "hash": "5ae306c5b477cc34bff15e081f9b31ba",
+        "textRange": {
+            "startLine": 82,
+            "endLine": 82,
+            "startOffset": 12,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-04-27T23:47:50+0200",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWovXGceSX35U3sT88FH",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/impl/ConfigurationResourceWrapper.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 75,
+        "hash": "fbe67ed34eb433ff8ac93dde30943184",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 20,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-12-22T10:52:16+0100",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWovXGdqSX35U3sT88F4",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/management/impl/ValueInfoImpl.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 48,
+        "hash": "cbd1b17a05bac1174aa650119fcdee17",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 11,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2016-12-22T10:52:16+0100",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWovXGceSX35U3sT88FG",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/impl/ConfigurationResourceWrapper.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 71,
+        "hash": "f0ddb0d0acb078304cbf16d15e00351b",
+        "textRange": {
+            "startLine": 71,
+            "endLine": 71,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-12-22T10:52:16+0100",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWovXGceSX35U3sT88FF",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-caconfig-impl:src/main/java/org/apache/sling/caconfig/impl/ConfigurationResourceWrapper.java",
+        "project": "apache_sling-org-apache-sling-caconfig-impl",
+        "line": 63,
+        "hash": "de17e8296d260d7972bc0cf2e953519c",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 20,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-12-22T10:52:16+0100",
+        "updateDate": "2019-04-18T09:32:05+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

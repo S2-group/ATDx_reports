@@ -1,0 +1,601 @@
+[
+    {
+        "key": "AW8WGWGftsS0rVJwJlt0",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/service/rest/VnfRoa.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 117,
+        "hash": "ad299b8f4351402388859fa0c6ccc7fc",
+        "textRange": {
+            "startLine": 117,
+            "endLine": 117,
+            "startOffset": 55,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vfc.nfvo.vnfm.gvnfm.jujuvnfmadapter.common.restclient.ServiceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T11:30:27+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWGftsS0rVJwJlty",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/service/rest/VnfRoa.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 93,
+        "hash": "ed182756e566bc63ff50878baae0c700",
+        "textRange": {
+            "startLine": 93,
+            "endLine": 93,
+            "startOffset": 19,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vfc.nfvo.vnfm.gvnfm.jujuvnfmadapter.common.restclient.ServiceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T11:30:27+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWGVtsS0rVJwJltq",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/service/rest/ConfigRoa.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 77,
+        "hash": "f181ec29eb8be95b73782ce936aa2f97",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 54,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vfc.nfvo.vnfm.gvnfm.jujuvnfmadapter.common.restclient.ServiceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T11:30:27+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWF9tsS0rVJwJltm",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/service/rest/JujuClientRoa.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 214,
+        "hash": "ed182756e566bc63ff50878baae0c700",
+        "textRange": {
+            "startLine": 214,
+            "endLine": 214,
+            "startOffset": 19,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vfc.nfvo.vnfm.gvnfm.jujuvnfmadapter.common.restclient.ServiceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T11:30:27+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWF9tsS0rVJwJltj",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/service/rest/JujuClientRoa.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 157,
+        "hash": "ed182756e566bc63ff50878baae0c700",
+        "textRange": {
+            "startLine": 157,
+            "endLine": 157,
+            "startOffset": 19,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vfc.nfvo.vnfm.gvnfm.jujuvnfmadapter.common.restclient.ServiceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T11:30:27+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWF9tsS0rVJwJlth",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/service/rest/JujuClientRoa.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 131,
+        "hash": "f181ec29eb8be95b73782ce936aa2f97",
+        "textRange": {
+            "startLine": 131,
+            "endLine": 131,
+            "startOffset": 54,
+            "endOffset": 70
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vfc.nfvo.vnfm.gvnfm.jujuvnfmadapter.common.restclient.ServiceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T11:30:27+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWHNtsS0rVJwJluD",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/service/juju/JujuHelper.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 29,
+        "hash": "56e55db393330ca2f7d9e2b619ed44cd",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 13,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-04T11:30:27+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGV-3tsS0rVJwJlp4",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/common/YamlUtil.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 41,
+        "hash": "6aacc4237f9ce4a24e48853ccdfbc07c",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-04T11:30:27+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWAftsS0rVJwJlqC",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/common/restclient/ServiceException.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 50,
+        "hash": "dac9898009d835a258dc83ab1650af7b",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 26,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"exceptionArgs\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-09-12T15:29:50+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWAftsS0rVJwJlqB",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/common/restclient/ServiceException.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 48,
+        "hash": "5b6591ffa54529ac3231c182c6bf76c2",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 16,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"httpCode\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-09-12T15:29:50+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWAftsS0rVJwJlqA",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/common/restclient/ServiceException.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 46,
+        "hash": "b5d914839fc3daf97114ebf026acb066",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 21,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"args\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-09-12T15:29:50+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWAftsS0rVJwJlp_",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/common/restclient/ServiceException.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 44,
+        "hash": "e8cddbe5ed7027bea358de2e414a8898",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 19,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"id\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-09-12T15:29:50+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWFNtsS0rVJwJltU",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/service/activator/ROAJujuServicePostProcessor.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 56,
+        "hash": "3462cb5140477a0c1202cd811d928acc",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 78,
+            "endOffset": 92
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T11:30:27+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWFNtsS0rVJwJltS",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/service/activator/ROAJujuServicePostProcessor.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 50,
+        "hash": "3fc544f995f9af50002fb4094dddbca7",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 83,
+            "endOffset": 97
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T11:30:27+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWChtsS0rVJwJlrF",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/common/UnCompressUtil.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 49,
+        "hash": "6afd11c5484de9dace13aedc32eb5ed5",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-07-04T11:30:27+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWF9tsS0rVJwJltf",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/service/rest/JujuClientRoa.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 107,
+        "hash": "ed182756e566bc63ff50878baae0c700",
+        "textRange": {
+            "startLine": 107,
+            "endLine": 107,
+            "startOffset": 19,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vfc.nfvo.vnfm.gvnfm.jujuvnfmadapter.common.restclient.ServiceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T11:30:27+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWFNtsS0rVJwJltQ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/service/activator/ROAJujuServicePostProcessor.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 39,
+        "hash": "7d8ec569587075bced512c9f2e53820d",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 82,
+            "endOffset": 96
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T11:30:27+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWGftsS0rVJwJlt5",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/service/rest/VnfRoa.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 249,
+        "hash": "6cc6413f75599d07df9b288994189ed9",
+        "textRange": {
+            "startLine": 249,
+            "endLine": 249,
+            "startOffset": 100,
+            "endOffset": 116
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vfc.nfvo.vnfm.gvnfm.jujuvnfmadapter.common.restclient.ServiceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T11:30:27+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWGftsS0rVJwJlt4",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/service/rest/VnfRoa.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 214,
+        "hash": "ed182756e566bc63ff50878baae0c700",
+        "textRange": {
+            "startLine": 214,
+            "endLine": 214,
+            "startOffset": 19,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vfc.nfvo.vnfm.gvnfm.jujuvnfmadapter.common.restclient.ServiceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T11:30:27+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WGWGftsS0rVJwJlt2",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju:Juju-vnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/gvnfm/jujuvnfmadapter/service/rest/VnfRoa.java",
+        "project": "onap_vfc-nfvo-driver-vnfm-gvnfm-juju",
+        "line": 177,
+        "hash": "ed182756e566bc63ff50878baae0c700",
+        "textRange": {
+            "startLine": 177,
+            "endLine": 177,
+            "startOffset": 19,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vfc.nfvo.vnfm.gvnfm.jujuvnfmadapter.common.restclient.ServiceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-04T11:30:27+0200",
+        "updateDate": "2019-12-18T00:02:10+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,358 @@
+[
+    {
+        "key": "AWrgY1nzVDQP4Uuft5gM",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-repoinit:src/main/java/org/apache/sling/jcr/repoinit/impl/UserVisitor.java",
+        "project": "apache_sling-org-apache-sling-jcr-repoinit",
+        "line": 59,
+        "hash": "450b1fad8caa545fb0b2639f009fc7d3",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-03-09T18:54:20+0100",
+        "updateDate": "2019-05-22T18:32:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWrgY1npVDQP4Uuft5f9",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-repoinit:src/main/java/org/apache/sling/jcr/repoinit/impl/DoNothingVisitor.java",
+        "project": "apache_sling-org-apache-sling-jcr-repoinit",
+        "line": 60,
+        "hash": "df3797b64ce4e9a510cf35d72770cd5f",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-07-19T17:54:38+0200",
+        "updateDate": "2019-05-22T18:32:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXDi7QRS7zhxgIavBJSU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-repoinit:src/main/java/org/apache/sling/jcr/repoinit/impl/GroupMembershipVisitor.java",
+        "project": "apache_sling-org-apache-sling-jcr-repoinit",
+        "line": 69,
+        "hash": "7c8e7be1f1aef6e794773a3cda889b5b",
+        "textRange": {
+            "startLine": 69,
+            "endLine": 69,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-09T15:06:59+0100",
+        "updateDate": "2020-03-10T14:01:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXDi7QRS7zhxgIavBJST",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-repoinit:src/main/java/org/apache/sling/jcr/repoinit/impl/GroupMembershipVisitor.java",
+        "project": "apache_sling-org-apache-sling-jcr-repoinit",
+        "line": 52,
+        "hash": "7c8e7be1f1aef6e794773a3cda889b5b",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-09T15:06:59+0100",
+        "updateDate": "2020-03-10T14:01:56+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWrgY1oEVDQP4Uuft5gc",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-repoinit:src/main/java/org/apache/sling/jcr/repoinit/impl/AclUtil.java",
+        "project": "apache_sling-org-apache-sling-jcr-repoinit",
+        "line": 61,
+        "hash": "0945193eeb3ffe71dabff60e35d431e7",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 13,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-07-11T16:34:14+0200",
+        "updateDate": "2019-05-22T18:32:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXEWf7PKKZ25iU2uSdQj",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-repoinit:src/main/java/org/apache/sling/jcr/repoinit/impl/NodePropertiesVisitor.java",
+        "project": "apache_sling-org-apache-sling-jcr-repoinit",
+        "line": 126,
+        "hash": "5a575ce942177610f40f4ed91d9b12b4",
+        "textRange": {
+            "startLine": 126,
+            "endLine": 126,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-03-24T19:24:47+0100",
+        "updateDate": "2020-03-26T11:59:19+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW2NlND9CIuUQ9o0JYCl",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-repoinit:src/main/java/org/apache/sling/jcr/repoinit/impl/AclVisitor.java",
+        "project": "apache_sling-org-apache-sling-jcr-repoinit",
+        "line": 109,
+        "hash": "45489237908676920936f6eda6e2bc79",
+        "textRange": {
+            "startLine": 109,
+            "endLine": 109,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-10-02T19:46:29+0200",
+        "updateDate": "2019-10-02T19:46:29+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWrgY1n4VDQP4Uuft5gT",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-repoinit:src/main/java/org/apache/sling/jcr/repoinit/impl/AclVisitor.java",
+        "project": "apache_sling-org-apache-sling-jcr-repoinit",
+        "line": 142,
+        "hash": "d8282cdcb1ec5ec63c0728fab246b620",
+        "textRange": {
+            "startLine": 142,
+            "endLine": 142,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-11-07T16:28:33+0100",
+        "updateDate": "2019-05-22T18:32:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWrgY1n4VDQP4Uuft5gQ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-repoinit:src/main/java/org/apache/sling/jcr/repoinit/impl/AclVisitor.java",
+        "project": "apache_sling-org-apache-sling-jcr-repoinit",
+        "line": 64,
+        "hash": "8a911ac66cb013b565864362bee9bda7",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-11-07T16:28:33+0100",
+        "updateDate": "2019-05-22T18:32:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWrgY1n4VDQP4Uuft5gR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-repoinit:src/main/java/org/apache/sling/jcr/repoinit/impl/AclVisitor.java",
+        "project": "apache_sling-org-apache-sling-jcr-repoinit",
+        "line": 74,
+        "hash": "d24fd8b9882c0acd2a902a2ca407a03e",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-09-19T11:01:32+0200",
+        "updateDate": "2019-05-22T18:32:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWrgY1oBVDQP4Uuft5ga",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-repoinit:src/main/java/org/apache/sling/jcr/repoinit/impl/UserUtil.java",
+        "project": "apache_sling-org-apache-sling-jcr-repoinit",
+        "line": 31,
+        "hash": "832d56cf5c28423fa085f4f66583c3d3",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-11-07T16:28:33+0100",
+        "updateDate": "2019-05-22T18:32:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWrgY1n4VDQP4Uuft5gS",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-jcr-repoinit:src/main/java/org/apache/sling/jcr/repoinit/impl/AclVisitor.java",
+        "project": "apache_sling-org-apache-sling-jcr-repoinit",
+        "line": 135,
+        "hash": "e7f6521105ce282f8c5d7cb538178434",
+        "textRange": {
+            "startLine": 135,
+            "endLine": 135,
+            "startOffset": 30,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-11-07T16:28:33+0100",
+        "updateDate": "2019-05-22T18:32:31+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,512 @@
+[
+    {
+        "key": "AWoz6IZUK1LJlmpk9fTu",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/internal/RhinoJavaScriptEngineFactory.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 168,
+        "hash": "2515c8a5362f326251746b4ec3bbfac4",
+        "textRange": {
+            "startLine": 168,
+            "endLine": 168,
+            "startOffset": 18,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-02-09T17:26:57+0100",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz6IZfK1LJlmpk9fUC",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/helper/SlingGlobal.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 125,
+        "hash": "be626d111a6a3633da7a0afb6b21f50c",
+        "textRange": {
+            "startLine": 125,
+            "endLine": 125,
+            "startOffset": 20,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2010-09-09T08:53:35+0200",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz6IZfK1LJlmpk9fUB",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/helper/SlingGlobal.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 120,
+        "hash": "45dcaac4e1ed68fef1d3cdb8df88cf83",
+        "textRange": {
+            "startLine": 120,
+            "endLine": 120,
+            "startOffset": 18,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz6IZfK1LJlmpk9fUA",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/helper/SlingGlobal.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 115,
+        "hash": "9889613ca72f50c41e16771913fc468d",
+        "textRange": {
+            "startLine": 115,
+            "endLine": 115,
+            "startOffset": 17,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz6IZ_K1LJlmpk9fVS",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/wrapper/ScriptableNode.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 362,
+        "hash": "3ab5c99452102f8d3d169b9cdef1a036",
+        "textRange": {
+            "startLine": 362,
+            "endLine": 362,
+            "startOffset": 12,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz6IZ_K1LJlmpk9fVR",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/wrapper/ScriptableNode.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 361,
+        "hash": "c53dce97e296a82677e2760b797f0cef",
+        "textRange": {
+            "startLine": 361,
+            "endLine": 361,
+            "startOffset": 48,
+            "endOffset": 68
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.ValueFormatException' which is a subclass of 'javax.jcr.RepositoryException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz6IaWK1LJlmpk9fWO",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/wrapper/ScriptableResource.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 205,
+        "hash": "6a23998e2bc96904c95b509b40e59f74",
+        "textRange": {
+            "startLine": 205,
+            "endLine": 205,
+            "startOffset": 18,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz6IaWK1LJlmpk9fWL",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/wrapper/ScriptableResource.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 185,
+        "hash": "e3538db3c34e76107a5a70a2ec6ec766",
+        "textRange": {
+            "startLine": 185,
+            "endLine": 185,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz6IalK1LJlmpk9fWm",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/io/EspReader.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 369,
+        "hash": "b9f6f34c588d7c9f72cb4a76d1da1a65",
+        "textRange": {
+            "startLine": 369,
+            "endLine": 369,
+            "startOffset": 19,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz6IalK1LJlmpk9fWn",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/io/EspReader.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 379,
+        "hash": "f6dfa79f472ce2f50e4a71756342fa43",
+        "textRange": {
+            "startLine": 379,
+            "endLine": 379,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz6IaWK1LJlmpk9fWA",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/wrapper/ScriptableResource.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 118,
+        "hash": "74798ab83f92bba1ce1d5df3dd81916b",
+        "textRange": {
+            "startLine": 118,
+            "endLine": 118,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz6IalK1LJlmpk9fWi",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/io/EspReader.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 289,
+        "hash": "ca463d9dccf84d0ebad73ea9df902c40",
+        "textRange": {
+            "startLine": 289,
+            "endLine": 289,
+            "startOffset": 15,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz6IalK1LJlmpk9fWh",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/io/EspReader.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 268,
+        "hash": "7640013f3227f1d91a8a3f0307093b58",
+        "textRange": {
+            "startLine": 268,
+            "endLine": 268,
+            "startOffset": 15,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz6IalK1LJlmpk9fWg",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/io/EspReader.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 250,
+        "hash": "db19218a5dda147dd03f813947a9649e",
+        "textRange": {
+            "startLine": 250,
+            "endLine": 250,
+            "startOffset": 15,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz6IalK1LJlmpk9fWf",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/io/EspReader.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 235,
+        "hash": "918298408410179c3531edff6cbd721a",
+        "textRange": {
+            "startLine": 235,
+            "endLine": 235,
+            "startOffset": 19,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz6IalK1LJlmpk9fWj",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/io/EspReader.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 325,
+        "hash": "ec7a83415ff2952c2cd32c11aecfde52",
+        "textRange": {
+            "startLine": 325,
+            "endLine": 325,
+            "startOffset": 16,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz6IalK1LJlmpk9fWl",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/io/EspReader.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 359,
+        "hash": "719b4569be46bd22e242e14f1a2a8dc6",
+        "textRange": {
+            "startLine": 359,
+            "endLine": 359,
+            "startOffset": 16,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoz6IalK1LJlmpk9fWk",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-javascript:src/main/java/org/apache/sling/scripting/javascript/io/EspReader.java",
+        "project": "apache_sling-org-apache-sling-scripting-javascript",
+        "line": 342,
+        "hash": "be6879362b07e0343259f90fc27a2619",
+        "textRange": {
+            "startLine": 342,
+            "endLine": 342,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-19T06:43:41+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

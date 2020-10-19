@@ -1,0 +1,142 @@
+[
+    {
+        "key": "AXAmu1RN9rnyh4ku79V6",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-platform-mod-runtimeapi:runtime-core/src/main/java/org/onap/dcae/runtime/core/FlowGraphParser.java",
+        "project": "onap_dcaegen2-platform-mod-runtimeapi",
+        "line": 44,
+        "hash": "56822f2fb5aee44af8adf818f2e8afde",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 19,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make version a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-12-11T20:28:38+0100",
+        "updateDate": "2020-02-08T22:36:00+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAmu1RN9rnyh4ku79V5",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-platform-mod-runtimeapi:runtime-core/src/main/java/org/onap/dcae/runtime/core/FlowGraphParser.java",
+        "project": "onap_dcaegen2-platform-mod-runtimeapi",
+        "line": 43,
+        "hash": "d29eb809cd7e712070b86a449a5f2e82",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 22,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make name a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-12-11T20:28:38+0100",
+        "updateDate": "2020-02-08T22:36:00+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAmu1RN9rnyh4ku79V4",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-platform-mod-runtimeapi:runtime-core/src/main/java/org/onap/dcae/runtime/core/FlowGraphParser.java",
+        "project": "onap_dcaegen2-platform-mod-runtimeapi",
+        "line": 42,
+        "hash": "5f25d76f2e9b75b8a16361ba7b962ddd",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make blueprint a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-12-11T20:28:38+0100",
+        "updateDate": "2020-02-08T22:36:00+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAmu1Q49rnyh4ku79Vq",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-platform-mod-runtimeapi:runtime-core/src/main/java/org/onap/dcae/runtime/core/BlueprintData.java",
+        "project": "onap_dcaegen2-platform-mod-runtimeapi",
+        "line": 23,
+        "hash": "2bcb85295bf53f7f3ac29239304b32a9",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 18,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make blueprint_content a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-12-11T20:28:38+0100",
+        "updateDate": "2020-02-08T22:36:00+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAmu1Q49rnyh4ku79Vp",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-platform-mod-runtimeapi:runtime-core/src/main/java/org/onap/dcae/runtime/core/BlueprintData.java",
+        "project": "onap_dcaegen2-platform-mod-runtimeapi",
+        "line": 22,
+        "hash": "541c5f053dd8c944d595e47b62a0349b",
+        "textRange": {
+            "startLine": 22,
+            "endLine": 22,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make version a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-12-11T20:28:38+0100",
+        "updateDate": "2020-02-08T22:36:00+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

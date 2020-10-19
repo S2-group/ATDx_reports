@@ -1,0 +1,272 @@
+[
+    {
+        "key": "AW6lYNGmcNwhAVmlOUpl",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-resmanagement:ResmanagementService/service/src/main/java/org/onap/vfc/nfvo/resmanagement/service/business/impl/LocationBusinessImpl.java",
+        "project": "onap_vfc-nfvo-resmanagement",
+        "line": 79,
+        "hash": "642e3f5b62d0ff00d118340f47cd0dbf",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 71,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vfc.nfvo.resmanagement.common.util.restclient.ServiceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-03T04:19:19+0200",
+        "updateDate": "2019-11-26T02:42:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYNLScNwhAVmlOUrF",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-resmanagement:ResmanagementService/service/src/main/java/org/onap/vfc/nfvo/resmanagement/service/rest/NsRoa.java",
+        "project": "onap_vfc-nfvo-resmanagement",
+        "line": 70,
+        "hash": "ed182756e566bc63ff50878baae0c700",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 19,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vfc.nfvo.resmanagement.common.util.restclient.ServiceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-09-04T11:09:56+0200",
+        "updateDate": "2019-11-26T02:42:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYNLJcNwhAVmlOUq9",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-resmanagement:ResmanagementService/service/src/main/java/org/onap/vfc/nfvo/resmanagement/service/rest/SitesRoa.java",
+        "project": "onap_vfc-nfvo-resmanagement",
+        "line": 216,
+        "hash": "ed182756e566bc63ff50878baae0c700",
+        "textRange": {
+            "startLine": 216,
+            "endLine": 216,
+            "startOffset": 19,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vfc.nfvo.resmanagement.common.util.restclient.ServiceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-03T04:19:19+0200",
+        "updateDate": "2019-11-26T02:42:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYNLJcNwhAVmlOUq8",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-resmanagement:ResmanagementService/service/src/main/java/org/onap/vfc/nfvo/resmanagement/service/rest/SitesRoa.java",
+        "project": "onap_vfc-nfvo-resmanagement",
+        "line": 205,
+        "hash": "14a2716066b6f7a8883c0555dd0b7f24",
+        "textRange": {
+            "startLine": 205,
+            "endLine": 205,
+            "startOffset": 70,
+            "endOffset": 86
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vfc.nfvo.resmanagement.common.util.restclient.ServiceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-03T04:19:19+0200",
+        "updateDate": "2019-11-26T02:42:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYNO8cNwhAVmlOUst",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-resmanagement:ResmanagementService/service/src/main/java/org/onap/vfc/nfvo/resmanagement/common/util/restclient/ServiceException.java",
+        "project": "onap_vfc-nfvo-resmanagement",
+        "line": 50,
+        "hash": "dac9898009d835a258dc83ab1650af7b",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 26,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"exceptionArgs\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-09-06T12:28:56+0200",
+        "updateDate": "2019-11-26T02:42:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYNO8cNwhAVmlOUss",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-resmanagement:ResmanagementService/service/src/main/java/org/onap/vfc/nfvo/resmanagement/common/util/restclient/ServiceException.java",
+        "project": "onap_vfc-nfvo-resmanagement",
+        "line": 48,
+        "hash": "5b6591ffa54529ac3231c182c6bf76c2",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 16,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"httpCode\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-09-06T12:28:56+0200",
+        "updateDate": "2019-11-26T02:42:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYNO8cNwhAVmlOUsr",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-resmanagement:ResmanagementService/service/src/main/java/org/onap/vfc/nfvo/resmanagement/common/util/restclient/ServiceException.java",
+        "project": "onap_vfc-nfvo-resmanagement",
+        "line": 44,
+        "hash": "e8cddbe5ed7027bea358de2e414a8898",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 19,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"id\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-09-06T12:28:56+0200",
+        "updateDate": "2019-11-26T02:42:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYNMUcNwhAVmlOUr6",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-resmanagement:ResmanagementService/service/src/main/java/org/onap/vfc/nfvo/resmanagement/service/rest/VnfRoa.java",
+        "project": "onap_vfc-nfvo-resmanagement",
+        "line": 89,
+        "hash": "ed182756e566bc63ff50878baae0c700",
+        "textRange": {
+            "startLine": 89,
+            "endLine": 89,
+            "startOffset": 19,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vfc.nfvo.resmanagement.common.util.restclient.ServiceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-10-26T09:46:53+0200",
+        "updateDate": "2019-11-26T02:42:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lYNJccNwhAVmlOUp-",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-resmanagement:ResmanagementService/service/src/main/java/org/onap/vfc/nfvo/resmanagement/service/group/impl/VmServiceImpl.java",
+        "project": "onap_vfc-nfvo-resmanagement",
+        "line": 100,
+        "hash": "a18f07a974de891891760168a3d5f663",
+        "textRange": {
+            "startLine": 100,
+            "endLine": 100,
+            "startOffset": 77,
+            "endOffset": 93
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vfc.nfvo.resmanagement.common.util.restclient.ServiceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-03T04:19:19+0200",
+        "updateDate": "2019-11-26T02:42:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

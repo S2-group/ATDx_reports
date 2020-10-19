@@ -1,0 +1,652 @@
+[
+    {
+        "key": "AW6ptpDeBmP1bM4ix2XV",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_so-libs:quantum-client/src/main/java/com/woorea/openstack/quantum/api/query/AbsOpenStackCmd.java",
+        "project": "onap_so-libs",
+        "line": 55,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ptovIBmP1bM4ix2Ty",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:nova-model/src/main/java/com/woorea/openstack/nova/model/SecurityGroupRuleForCreate.java",
+        "project": "onap_so-libs",
+        "line": 202,
+        "hash": "227fe9758ba3a8dd87d547cb6f7c03cb",
+        "textRange": {
+            "startLine": 202,
+            "endLine": 202,
+            "startOffset": 16,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ptovIBmP1bM4ix2Tx",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:nova-model/src/main/java/com/woorea/openstack/nova/model/SecurityGroupRuleForCreate.java",
+        "project": "onap_so-libs",
+        "line": 122,
+        "hash": "b0ebaf4bdb845a56c94b3ab0828b1bb0",
+        "textRange": {
+            "startLine": 122,
+            "endLine": 122,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ptovIBmP1bM4ix2Tw",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:nova-model/src/main/java/com/woorea/openstack/nova/model/SecurityGroupRuleForCreate.java",
+        "project": "onap_so-libs",
+        "line": 81,
+        "hash": "f68ad38a80d1217fbf489dd3c06d1102",
+        "textRange": {
+            "startLine": 81,
+            "endLine": 81,
+            "startOffset": 11,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-05-07T16:02:17+0200",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ptovIBmP1bM4ix2Tv",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:nova-model/src/main/java/com/woorea/openstack/nova/model/SecurityGroupRuleForCreate.java",
+        "project": "onap_so-libs",
+        "line": 61,
+        "hash": "c2f6e47af0b4c7b559e93e512e7d31cf",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 11,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-05-07T16:02:17+0200",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6pto4FBmP1bM4ix2Ud",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:nova-client/src/main/java/com/woorea/openstack/nova/api/extensions/SecurityGroupsExtension.java",
+        "project": "onap_so-libs",
+        "line": 185,
+        "hash": "980ab534a52b833d34866fcd6af9fe85",
+        "textRange": {
+            "startLine": 185,
+            "endLine": 185,
+            "startOffset": 22,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-05-07T16:02:17+0200",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6pto4FBmP1bM4ix2Uc",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:nova-client/src/main/java/com/woorea/openstack/nova/api/extensions/SecurityGroupsExtension.java",
+        "project": "onap_so-libs",
+        "line": 167,
+        "hash": "980ab534a52b833d34866fcd6af9fe85",
+        "textRange": {
+            "startLine": 167,
+            "endLine": 167,
+            "startOffset": 22,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-05-07T16:02:17+0200",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6pto4FBmP1bM4ix2Ub",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:nova-client/src/main/java/com/woorea/openstack/nova/api/extensions/SecurityGroupsExtension.java",
+        "project": "onap_so-libs",
+        "line": 115,
+        "hash": "4accd35eaf2c388fd83a104bdee17b96",
+        "textRange": {
+            "startLine": 115,
+            "endLine": 115,
+            "startOffset": 15,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6pto4FBmP1bM4ix2Ua",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:nova-client/src/main/java/com/woorea/openstack/nova/api/extensions/SecurityGroupsExtension.java",
+        "project": "onap_so-libs",
+        "line": 84,
+        "hash": "d45aebf8b3f3d2aab25d4f8cef244021",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 15,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ptokdBmP1bM4ix2R1",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:quantum-model/src/main/java/com/woorea/openstack/quantum/model/Network.java",
+        "project": "onap_so-libs",
+        "line": 297,
+        "hash": "27e614c3397107986089f8244654840a",
+        "textRange": {
+            "startLine": 297,
+            "endLine": 297,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ptokdBmP1bM4ix2R0",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:quantum-model/src/main/java/com/woorea/openstack/quantum/model/Network.java",
+        "project": "onap_so-libs",
+        "line": 287,
+        "hash": "18523d8d4075c88d996a931c5df39f94",
+        "textRange": {
+            "startLine": 287,
+            "endLine": 287,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ptokdBmP1bM4ix2Rz",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:quantum-model/src/main/java/com/woorea/openstack/quantum/model/Network.java",
+        "project": "onap_so-libs",
+        "line": 233,
+        "hash": "0fd5aebdce4f218a2677185987583d59",
+        "textRange": {
+            "startLine": 233,
+            "endLine": 233,
+            "startOffset": 16,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ptod9BmP1bM4ix2Qa",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_so-libs:keystone-client/src/main/java/com/woorea/openstack/keystone/utils/KeystoneUtils.java",
+        "project": "onap_so-libs",
+        "line": 37,
+        "hash": "d05b29fa8af6c8bd8f46c78806d5cb33",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6pto4FBmP1bM4ix2UZ",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:nova-client/src/main/java/com/woorea/openstack/nova/api/extensions/SecurityGroupsExtension.java",
+        "project": "onap_so-libs",
+        "line": 64,
+        "hash": "d4d0c31495bedd106bc967aa7fec1984",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 15,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ptpEjBmP1bM4ix2Xn",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_so-libs:openstack-client-connectors/http-connector/src/main/java/com/woorea/openstack/connector/HttpClientConnector.java",
+        "project": "onap_so-libs",
+        "line": 173,
+        "hash": "8cf018536f19058e828a02070bba2238",
+        "textRange": {
+            "startLine": 173,
+            "endLine": 173,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ptolyBmP1bM4ix2R9",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:quantum-model/src/main/java/com/woorea/openstack/quantum/model/SubnetForCreate.java",
+        "project": "onap_so-libs",
+        "line": 30,
+        "hash": "619ef6a9c33c01f0beb3330e65c235b6",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ptolyBmP1bM4ix2SB",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:quantum-model/src/main/java/com/woorea/openstack/quantum/model/SubnetForCreate.java",
+        "project": "onap_so-libs",
+        "line": 38,
+        "hash": "86838df127b9c248690c37d1707dd6ec",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 15,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ptolyBmP1bM4ix2SC",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:quantum-model/src/main/java/com/woorea/openstack/quantum/model/SubnetForCreate.java",
+        "project": "onap_so-libs",
+        "line": 48,
+        "hash": "acb37b37162e19deaf8c4ea77df4b59d",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 16,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ptokdBmP1bM4ix2Ry",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:quantum-model/src/main/java/com/woorea/openstack/quantum/model/Network.java",
+        "project": "onap_so-libs",
+        "line": 223,
+        "hash": "72eb9284b44631809d7ae5deedbacec1",
+        "textRange": {
+            "startLine": 223,
+            "endLine": 223,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ptokdBmP1bM4ix2Rx",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:quantum-model/src/main/java/com/woorea/openstack/quantum/model/Network.java",
+        "project": "onap_so-libs",
+        "line": 180,
+        "hash": "be2884f216b9304078a4fe640cd0721c",
+        "textRange": {
+            "startLine": 180,
+            "endLine": 180,
+            "startOffset": 16,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ptokdBmP1bM4ix2Rw",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:quantum-model/src/main/java/com/woorea/openstack/quantum/model/Network.java",
+        "project": "onap_so-libs",
+        "line": 170,
+        "hash": "5a85a89686c562a703172bd81e148af7",
+        "textRange": {
+            "startLine": 170,
+            "endLine": 170,
+            "startOffset": 18,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ptomEBmP1bM4ix2SE",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:quantum-model/src/main/java/com/woorea/openstack/quantum/model/PortForCreate.java",
+        "project": "onap_so-libs",
+        "line": 27,
+        "hash": "3fe8a324c8650092b92f23e3be152040",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 13,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6ptol7BmP1bM4ix2SD",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "onap_so-libs:quantum-model/src/main/java/com/woorea/openstack/quantum/model/NetworkForCreate.java",
+        "project": "onap_so-libs",
+        "line": 27,
+        "hash": "20e8d4499984eff4825ef703f149691c",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-01-31T14:55:11+0100",
+        "updateDate": "2019-11-26T22:55:03+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

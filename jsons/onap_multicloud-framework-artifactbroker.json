@@ -1,0 +1,30 @@
+[
+    {
+        "key": "AW8Tlge9jqq-MgMKaoLW",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_multicloud-framework-artifactbroker:model/src/main/java/org/onap/policy/distribution/model/GsonUtil.java",
+        "project": "onap_multicloud-framework-artifactbroker",
+        "line": 30,
+        "hash": "76977c7658ff34b2563bf4b8cb80c2a5",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-29T01:47:20+0100",
+        "updateDate": "2019-12-17T12:19:37+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

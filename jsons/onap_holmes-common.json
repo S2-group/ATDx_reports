@@ -1,0 +1,601 @@
+[
+    {
+        "key": "AW8WIy0b1zbPcHHqcgwZ",
+        "rule": "java:S1182",
+        "severity": "MINOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/api/stat/VesAlarm.java",
+        "project": "onap_holmes-common",
+        "line": 75,
+        "hash": "0638059409510b68e415badd59f0746d",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Use super.clone() to create and seed the cloned instance to be returned.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "convention",
+            "cwe"
+        ],
+        "creationDate": "2017-09-12T09:33:28+0200",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy2b1zbPcHHqcgx-",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/config/MicroServiceConfig.java",
+        "project": "onap_holmes-common",
+        "line": 31,
+        "hash": "43915a4e0504a005a7140e1925f94627",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-03-09T02:24:37+0100",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy031zbPcHHqcgwn",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/api/entity/CorrelationRule.java",
+        "project": "onap_holmes-common",
+        "line": 55,
+        "hash": "85f26ebdf4ea5bef8adaf862b2348076",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2018-08-17T10:24:55+0200",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy1E1zbPcHHqcgww",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/aai/AaiQuery4Ccvpn.java",
+        "project": "onap_holmes-common",
+        "line": 147,
+        "hash": "6df102b0e433a50c31ef2b3db75b9798",
+        "textRange": {
+            "startLine": 147,
+            "endLine": 147,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-21T12:49:35+0200",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy1P1zbPcHHqcgw9",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/aai/config/AaiConfig.java",
+        "project": "onap_holmes-common",
+        "line": 34,
+        "hash": "04f353080f7d8cc5e965d5add9d3431d",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 24,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-21T12:49:35+0200",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy1P1zbPcHHqcgw7",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/aai/config/AaiConfig.java",
+        "project": "onap_holmes-common",
+        "line": 16,
+        "hash": "c292416dbd861cb66a0fdad49a40a4d3",
+        "textRange": {
+            "startLine": 16,
+            "endLine": 16,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-09-25T04:38:08+0200",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy1t1zbPcHHqcgxe",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/dropwizard/ioc/utils/ServiceLocatorHolder.java",
+        "project": "onap_holmes-common",
+        "line": 24,
+        "hash": "6cb15b65fd735d872a4c093fbd7056a4",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-02T02:58:06+0200",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy2D1zbPcHHqcgxt",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/utils/DroolsLog.java",
+        "project": "onap_holmes-common",
+        "line": 18,
+        "hash": "ac0e41e781f553ceac66be353d99577b",
+        "textRange": {
+            "startLine": 18,
+            "endLine": 18,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-10-20T03:20:53+0200",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy1_1zbPcHHqcgxn",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/utils/GsonUtil.java",
+        "project": "onap_holmes-common",
+        "line": 36,
+        "hash": "5d59ebaa24952787caab8719f4b9f4e6",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 126,
+            "endOffset": 144
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'com.google.gson.JsonParseException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-02-09T03:37:19+0100",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy0O1zbPcHHqcgwQ",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/dmaap/DmaapService.java",
+        "project": "onap_holmes-common",
+        "line": 43,
+        "hash": "2bdbe08c72418de352324dbe039d4681",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 58,
+            "endOffset": 78
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2018-03-08T10:22:12+0100",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy0O1zbPcHHqcgwP",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/dmaap/DmaapService.java",
+        "project": "onap_holmes-common",
+        "line": 42,
+        "hash": "079299544feed9182b7855d836ecb0e4",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 58,
+            "endOffset": 74
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2018-03-08T10:22:12+0100",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy0g1zbPcHHqcgwe",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/api/stat/Alarm.java",
+        "project": "onap_holmes-common",
+        "line": 132,
+        "hash": "0638059409510b68e415badd59f0746d",
+        "textRange": {
+            "startLine": 132,
+            "endLine": 132,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-02-14T09:10:28+0100",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy2M1zbPcHHqcgxy",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/utils/HttpsUtils.java",
+        "project": "onap_holmes-common",
+        "line": 49,
+        "hash": "5c05d58383675e1faaf2e6968f24713d",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 13,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-09-26T09:41:56+0200",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy1z1zbPcHHqcgxg",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/utils/transactionid/TransactionIdUtils.java",
+        "project": "onap_holmes-common",
+        "line": 21,
+        "hash": "42fb49dddceec8692a6ca74a2ae9ee49",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 13,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-03-16T02:19:10+0100",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy0Z1zbPcHHqcgwU",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/dmaap/PolicyMassgeConstant.java",
+        "project": "onap_holmes-common",
+        "line": 18,
+        "hash": "68caca05a26f3b86c18b9a0be9e7d353",
+        "textRange": {
+            "startLine": 18,
+            "endLine": 18,
+            "startOffset": 13,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-10-26T15:42:08+0200",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy2X1zbPcHHqcgx9",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/dcae/DcaeConfigurationQuery.java",
+        "project": "onap_holmes-common",
+        "line": 23,
+        "hash": "cd0e6fd226c40f25248d3e09dc07834b",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-10-13T14:54:25+0200",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy2U1zbPcHHqcgx5",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/dcae/DcaeConfigurationsCache.java",
+        "project": "onap_holmes-common",
+        "line": 23,
+        "hash": "3e21d2a45e41e331ea494647b13e19b2",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-10-13T14:54:25+0200",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy0b1zbPcHHqcgwY",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/api/stat/VesAlarm.java",
+        "project": "onap_holmes-common",
+        "line": 75,
+        "hash": "0638059409510b68e415badd59f0746d",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 18,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2017-09-12T09:33:28+0200",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy2R1zbPcHHqcgx1",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/dcae/utils/DcaeConfigurationParser.java",
+        "project": "onap_holmes-common",
+        "line": 31,
+        "hash": "dc24cbc26240e7e086a2c5eac852a73f",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-08-07T05:41:43+0200",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy1S1zbPcHHqcgxA",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/aai/AaiJsonParserUtil.java",
+        "project": "onap_holmes-common",
+        "line": 44,
+        "hash": "ece978d5e27315a250e5bb2c07fe3576",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-28T06:15:30+0100",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIy1P1zbPcHHqcgw-",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_holmes-common:holmes-actions/src/main/java/org/onap/holmes/common/aai/config/AaiConfig.java",
+        "project": "onap_holmes-common",
+        "line": 60,
+        "hash": "cbd5c543ae1f0af9eb15c36d294b8ecb",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 24,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-21T12:49:35+0200",
+        "updateDate": "2019-12-18T00:13:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

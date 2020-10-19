@@ -1,0 +1,117 @@
+[
+    {
+        "key": "AW6llkUHow4pPoqhkgmZ",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_sdnc-apps:pomba/network-discovery/src/main/java/org/onap/sdnc/apps/pomba/networkdiscovery/service/rs/RestService.java",
+        "project": "onap_sdnc-apps",
+        "line": 66,
+        "hash": "45289c47936ce03b422e7c9c2b814632",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 20,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-07-23T21:02:36+0200",
+        "updateDate": "2019-11-26T03:41:45+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llkXEow4pPoqhkgms",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_sdnc-apps:pomba/service-decomposition/src/main/java/org/onap/sdnc/apps/pomba/servicedecomposition/Application.java",
+        "project": "onap_sdnc-apps",
+        "line": 41,
+        "hash": "bc1821a6ff81cc22a20823dd9b8408eb",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 50,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-07-23T21:02:36+0200",
+        "updateDate": "2019-11-26T03:41:45+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llkW4ow4pPoqhkgmp",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_sdnc-apps:pomba/service-decomposition/src/main/java/org/onap/sdnc/apps/pomba/servicedecomposition/util/RestUtil.java",
+        "project": "onap_sdnc-apps",
+        "line": 175,
+        "hash": "8b0fb2982881db6619f053dd97ee2e0a",
+        "textRange": {
+            "startLine": 175,
+            "endLine": 175,
+            "startOffset": 30,
+            "endOffset": 51
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-02-19T20:48:58+0100",
+        "updateDate": "2019-11-26T03:41:45+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6llkW4ow4pPoqhkgmo",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_sdnc-apps:pomba/service-decomposition/src/main/java/org/onap/sdnc/apps/pomba/servicedecomposition/util/RestUtil.java",
+        "project": "onap_sdnc-apps",
+        "line": 126,
+        "hash": "a5767e15ce51454adca3bc9c66a96bb5",
+        "textRange": {
+            "startLine": 126,
+            "endLine": 126,
+            "startOffset": 29,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-02-19T20:48:58+0100",
+        "updateDate": "2019-11-26T03:41:45+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

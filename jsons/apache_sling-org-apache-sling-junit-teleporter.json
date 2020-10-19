@@ -1,0 +1,308 @@
+[
+    {
+        "key": "AWo2efacnu96bB9f9ACP",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-teleporter:src/main/java/org/apache/sling/testing/teleporter/client/TeleporterHttpClient.java",
+        "project": "apache_sling-org-apache-sling-junit-teleporter",
+        "line": 235,
+        "hash": "ee0c2df6b99c4d8e98014717fcca105a",
+        "textRange": {
+            "startLine": 235,
+            "endLine": 235,
+            "startOffset": 94,
+            "endOffset": 115
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.net.MalformedURLException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-05-11T16:21:49+0200",
+        "updateDate": "2019-04-19T18:41:46+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo2efacnu96bB9f9ACM",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-teleporter:src/main/java/org/apache/sling/testing/teleporter/client/TeleporterHttpClient.java",
+        "project": "apache_sling-org-apache-sling-junit-teleporter",
+        "line": 152,
+        "hash": "aff1e130e47aa9f69a73a780e46f3045",
+        "textRange": {
+            "startLine": 152,
+            "endLine": 152,
+            "startOffset": 112,
+            "endOffset": 133
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.net.MalformedURLException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-02-03T16:31:52+0100",
+        "updateDate": "2019-04-19T18:41:46+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXE6jlbccH7BznMe2RMm",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-junit-teleporter:src/main/java/org/apache/sling/testing/teleporter/client/TeleporterHttpClient.java",
+        "project": "apache_sling-org-apache-sling-junit-teleporter",
+        "line": 112,
+        "hash": "500137974f8b22ae5ca7e75559da865e",
+        "textRange": {
+            "startLine": 112,
+            "endLine": 112,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2020-04-02T13:02:01+0200",
+        "updateDate": "2020-04-02T13:02:01+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo2efacnu96bB9f9ACU",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-teleporter:src/main/java/org/apache/sling/testing/teleporter/client/TeleporterHttpClient.java",
+        "project": "apache_sling-org-apache-sling-junit-teleporter",
+        "line": 288,
+        "hash": "cd70182ba8fb89317aa3718bb990f718",
+        "textRange": {
+            "startLine": 288,
+            "endLine": 288,
+            "startOffset": 80,
+            "endOffset": 101
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.net.MalformedURLException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-09-22T09:52:50+0200",
+        "updateDate": "2019-04-19T18:41:46+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo2efaqnu96bB9f9ACm",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-teleporter:src/main/java/org/apache/sling/testing/teleporter/client/ClientSideTeleporter.java",
+        "project": "apache_sling-org-apache-sling-junit-teleporter",
+        "line": 229,
+        "hash": "7670e1e2343652a9466fa106e6a472f6",
+        "textRange": {
+            "startLine": 229,
+            "endLine": 229,
+            "startOffset": 81,
+            "endOffset": 103
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-02-23T11:11:18+0100",
+        "updateDate": "2019-04-19T18:41:46+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo2efaqnu96bB9f9ACo",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-teleporter:src/main/java/org/apache/sling/testing/teleporter/client/ClientSideTeleporter.java",
+        "project": "apache_sling-org-apache-sling-junit-teleporter",
+        "line": 251,
+        "hash": "a2f1a911f876bc4a3a156a609c4daa49",
+        "textRange": {
+            "startLine": 251,
+            "endLine": 251,
+            "startOffset": 77,
+            "endOffset": 98
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.net.MalformedURLException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-09-22T09:52:50+0200",
+        "updateDate": "2019-04-19T18:41:46+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo2efacnu96bB9f9ACR",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-teleporter:src/main/java/org/apache/sling/testing/teleporter/client/TeleporterHttpClient.java",
+        "project": "apache_sling-org-apache-sling-junit-teleporter",
+        "line": 260,
+        "hash": "f9c48a53cf16d97e2dba5046fd4e7e3b",
+        "textRange": {
+            "startLine": 260,
+            "endLine": 260,
+            "startOffset": 66,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.net.MalformedURLException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-02-23T08:08:02+0100",
+        "updateDate": "2019-04-19T18:41:46+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo2efaYnu96bB9f9AB8",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-junit-teleporter:src/main/java/org/apache/sling/testing/teleporter/client/DependencyAnalyzer.java",
+        "project": "apache_sling-org-apache-sling-junit-teleporter",
+        "line": 151,
+        "hash": "7a42c2da478c0323126d99fe80ac5995",
+        "textRange": {
+            "startLine": 151,
+            "endLine": 151,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-09-22T09:52:50+0200",
+        "updateDate": "2019-04-19T18:41:46+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo2efaYnu96bB9f9AB7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-junit-teleporter:src/main/java/org/apache/sling/testing/teleporter/client/DependencyAnalyzer.java",
+        "project": "apache_sling-org-apache-sling-junit-teleporter",
+        "line": 102,
+        "hash": "1e1a3af96ae7c7f7ad56f1ce2814fe51",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-09-22T09:52:50+0200",
+        "updateDate": "2019-04-19T18:41:46+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo2efaYnu96bB9f9AB6",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-junit-teleporter:src/main/java/org/apache/sling/testing/teleporter/client/DependencyAnalyzer.java",
+        "project": "apache_sling-org-apache-sling-junit-teleporter",
+        "line": 90,
+        "hash": "c3bee9898c29453c9c09f297acd6c985",
+        "textRange": {
+            "startLine": 90,
+            "endLine": 90,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-09-22T09:52:50+0200",
+        "updateDate": "2019-04-19T18:41:46+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

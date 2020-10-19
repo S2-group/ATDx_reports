@@ -1,0 +1,122 @@
+[
+    {
+        "key": "AW8WIueo526xZ2nKnBO4",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_holmes-engine-management:engine-d/src/main/java/org/onap/holmes/dsa/dmaappolling/Subscriber.java",
+        "project": "onap_holmes-engine-management",
+        "line": 85,
+        "hash": "67f17c2dc60782b69fbc86f6fbae4feb",
+        "textRange": {
+            "startLine": 85,
+            "endLine": 85,
+            "startOffset": 47,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-02-20T01:44:40+0100",
+        "updateDate": "2019-12-18T00:12:51+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIuem526xZ2nKnBO1",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_holmes-engine-management:engine-d/src/main/java/org/onap/holmes/dsa/dmaappolling/DMaaPResponseUtil.java",
+        "project": "onap_holmes-engine-management",
+        "line": 32,
+        "hash": "8a9965a4bb64c309ec778b5572f8adb0",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 70,
+            "endOffset": 81
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-02-20T01:44:40+0100",
+        "updateDate": "2019-12-18T00:12:51+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIueZ526xZ2nKnBOw",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_holmes-engine-management:engine-d/src/main/java/org/onap/holmes/engine/wrapper/RuleMgtWrapper.java",
+        "project": "onap_holmes-engine-management",
+        "line": 37,
+        "hash": "e3f91f3d637ea995a4125908c5c87831",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 70,
+            "endOffset": 90
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.holmes.common.exception.CorrelationException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-02-24T08:46:32+0100",
+        "updateDate": "2019-12-18T00:12:51+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WIued526xZ2nKnBOx",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_holmes-engine-management:engine-d/src/main/java/org/onap/holmes/engine/db/CorrelationRuleDao.java",
+        "project": "onap_holmes-engine-management",
+        "line": 27,
+        "hash": "c7b4ab0740ec65a056a1849fbe6639e0",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 22,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"CorrelationRuleDao\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2017-02-17T04:06:41+0100",
+        "updateDate": "2019-12-18T00:12:51+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

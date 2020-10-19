@@ -1,0 +1,315 @@
+[
+    {
+        "key": "AW3abITs8bZ-xmD07F6O",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-extension-apiregions:src/main/java/org/apache/sling/feature/extension/apiregions/APIRegionMergeHandler.java",
+        "project": "apache_sling-org-apache-sling-feature-extension-apiregions",
+        "line": 100,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 100,
+            "endLine": 100,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-10-17T17:53:02+0200",
+        "updateDate": "2019-10-17T17:53:02+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-8n14SpTjOJdXV-xig",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-extension-apiregions:src/main/java/org/apache/sling/feature/extension/apiregions/launcher/LauncherProperties.java",
+        "project": "apache_sling-org-apache-sling-feature-extension-apiregions",
+        "line": 44,
+        "hash": "6aa475e6defca30813dcc29974071af0",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 13,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-01-17T21:31:29+0100",
+        "updateDate": "2020-01-19T08:05:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-8n14LpTjOJdXV-xif",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-feature-extension-apiregions:src/main/java/org/apache/sling/feature/extension/apiregions/launcher/RegionLauncher.java",
+        "project": "apache_sling-org-apache-sling-feature-extension-apiregions",
+        "line": 67,
+        "hash": "df1b3d1c6e69d48b7b290540e6633e17",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 15,
+            "endOffset": 18
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2020-01-17T21:31:29+0100",
+        "updateDate": "2020-01-19T08:05:26+0100",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW3Z5uyUQoM4uy85d7bE",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-feature-extension-apiregions:src/main/java/org/apache/sling/feature/extension/apiregions/analyser/CheckApiRegionsBundleExportsImports.java",
+        "project": "apache_sling-org-apache-sling-feature-extension-apiregions",
+        "line": 73,
+        "hash": "bb4657af242c5368fdf0a6b40e58edef",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 33,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make missingExports a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-10-17T15:25:39+0200",
+        "updateDate": "2019-10-17T15:27:14+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW3Z5uyHQoM4uy85d7a8",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-feature-extension-apiregions:src/main/java/org/apache/sling/feature/extension/apiregions/analyser/AbstractApiRegionsAnalyserTask.java",
+        "project": "apache_sling-org-apache-sling-feature-extension-apiregions",
+        "line": 71,
+        "hash": "20b16318c5a721c4e63b6d1f2567774c",
+        "textRange": {
+            "startLine": 71,
+            "endLine": 71,
+            "startOffset": 91,
+            "endOffset": 100
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-10-17T15:25:39+0200",
+        "updateDate": "2019-10-17T15:27:14+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW3Z5uyUQoM4uy85d7bB",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-feature-extension-apiregions:src/main/java/org/apache/sling/feature/extension/apiregions/analyser/CheckApiRegionsBundleExportsImports.java",
+        "project": "apache_sling-org-apache-sling-feature-extension-apiregions",
+        "line": 67,
+        "hash": "c30c704a9b0c20ac1da5bed550d6cf93",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 33,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make exportWithoutVersion a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-10-17T15:25:39+0200",
+        "updateDate": "2019-10-17T15:27:14+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW3Z5uyUQoM4uy85d7bC",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-feature-extension-apiregions:src/main/java/org/apache/sling/feature/extension/apiregions/analyser/CheckApiRegionsBundleExportsImports.java",
+        "project": "apache_sling-org-apache-sling-feature-extension-apiregions",
+        "line": 69,
+        "hash": "a62d1d4d459d4d27402d186c5820221c",
+        "textRange": {
+            "startLine": 69,
+            "endLine": 69,
+            "startOffset": 33,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make exportMatchingSeveral a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-10-17T15:25:39+0200",
+        "updateDate": "2019-10-17T15:27:14+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW3Z5uyUQoM4uy85d7bD",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-feature-extension-apiregions:src/main/java/org/apache/sling/feature/extension/apiregions/analyser/CheckApiRegionsBundleExportsImports.java",
+        "project": "apache_sling-org-apache-sling-feature-extension-apiregions",
+        "line": 71,
+        "hash": "db766aa512023112af31128f208c3b90",
+        "textRange": {
+            "startLine": 71,
+            "endLine": 71,
+            "startOffset": 33,
+            "endOffset": 53
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make importWithoutVersion a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-10-17T15:25:39+0200",
+        "updateDate": "2019-10-17T15:27:14+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW3Z5uyUQoM4uy85d7bF",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-feature-extension-apiregions:src/main/java/org/apache/sling/feature/extension/apiregions/analyser/CheckApiRegionsBundleExportsImports.java",
+        "project": "apache_sling-org-apache-sling-feature-extension-apiregions",
+        "line": 75,
+        "hash": "b056b64b0ec2a60c86f9c3de5274a6e3",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 33,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make missingExportsWithVersion a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-10-17T15:25:39+0200",
+        "updateDate": "2019-10-17T15:27:14+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW3Z5uyUQoM4uy85d7bG",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-feature-extension-apiregions:src/main/java/org/apache/sling/feature/extension/apiregions/analyser/CheckApiRegionsBundleExportsImports.java",
+        "project": "apache_sling-org-apache-sling-feature-extension-apiregions",
+        "line": 77,
+        "hash": "048552d6bbbb769ea97f9f98c3d5ec91",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 33,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make missingExportsForOptional a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-10-17T15:25:39+0200",
+        "updateDate": "2019-10-17T15:27:14+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW3Z5uyUQoM4uy85d7bH",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-feature-extension-apiregions:src/main/java/org/apache/sling/feature/extension/apiregions/analyser/CheckApiRegionsBundleExportsImports.java",
+        "project": "apache_sling-org-apache-sling-feature-extension-apiregions",
+        "line": 79,
+        "hash": "a46284c4b5d72bc65e86f16232deeaf3",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 69,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make regionInfo a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-10-17T15:25:39+0200",
+        "updateDate": "2019-10-17T15:27:14+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

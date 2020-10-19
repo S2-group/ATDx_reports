@@ -1,0 +1,110 @@
+[
+    {
+        "key": "AW-0msInGCSVsagVJaVB",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_policy-drools-applications:controlloop/m2/base/src/main/java/org/onap/policy/m2/base/Util.java",
+        "project": "onap_policy-drools-applications",
+        "line": 36,
+        "hash": "a7ae4d6a19bbdfd2bcd1ef8d94580e51",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 13,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-01-10T10:20:23+0100",
+        "updateDate": "2020-01-17T18:43:11+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-0msKbGCSVsagVJaVT",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_policy-drools-applications:controlloop/m2/guard/src/main/java/org/onap/policy/guard/GuardContext.java",
+        "project": "onap_policy-drools-applications",
+        "line": 361,
+        "hash": "1dc6761357bde8f722f9e4f074462191",
+        "textRange": {
+            "startLine": 361,
+            "endLine": 361,
+            "startOffset": 16,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [],
+        "creationDate": "2020-01-10T10:20:23+0100",
+        "updateDate": "2020-01-17T18:43:11+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-0msKbGCSVsagVJaVS",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_policy-drools-applications:controlloop/m2/guard/src/main/java/org/onap/policy/guard/GuardContext.java",
+        "project": "onap_policy-drools-applications",
+        "line": 297,
+        "hash": "07e66e05f42f86d7483d4ed883a03af6",
+        "textRange": {
+            "startLine": 297,
+            "endLine": 297,
+            "startOffset": 19,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [],
+        "creationDate": "2020-01-10T10:20:23+0100",
+        "updateDate": "2020-01-17T18:43:11+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW-0msLTGCSVsagVJaWH",
+        "rule": "java:S2062",
+        "severity": "CRITICAL",
+        "component": "onap_policy-drools-applications:controlloop/m2/util/src/main/java/org/onap/policy/util/DroolsSessionCommonSerializable.java",
+        "project": "onap_policy-drools-applications",
+        "line": 83,
+        "hash": "0ffb3649e7ecb214b258c3ccbf4966d4",
+        "textRange": {
+            "startLine": 83,
+            "endLine": 83,
+            "startOffset": 19,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this class \"private\" or elevate the visibility of \"readResolve\".",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "pitfall"
+        ],
+        "creationDate": "2020-01-10T10:20:23+0100",
+        "updateDate": "2020-01-17T18:43:11+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,204 @@
+[
+    {
+        "key": "AW6lX9KUow4pPoqhh8Tk",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-svnfm-huawei:vnfmadapter/VnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/svnfm/vnfmadapter/common/restclient/ServiceException.java",
+        "project": "onap_vfc-nfvo-driver-svnfm-huawei",
+        "line": 50,
+        "hash": "dac9898009d835a258dc83ab1650af7b",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 26,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"exceptionArgs\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-09-07T04:10:41+0200",
+        "updateDate": "2019-11-26T02:41:58+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX9NKow4pPoqhh8WF",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-svnfm-huawei:vnfmadapter/VnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/svnfm/vnfmadapter/service/csm/connect/HttpRequests.java",
+        "project": "onap_vfc-nfvo-driver-svnfm-huawei",
+        "line": 346,
+        "hash": "835d2c811fdc9637b02d03333a57a829",
+        "textRange": {
+            "startLine": 346,
+            "endLine": 346,
+            "startOffset": 50,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vfc.nfvo.vnfm.svnfm.vnfmadapter.common.VnfmException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-07-03T05:44:26+0200",
+        "updateDate": "2019-11-26T02:41:58+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXC_w8oP02jwgD-IQkMq",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-svnfm-huawei:vnfmadapter/VnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/svnfm/vnfmadapter/common/restclient/HttpBaseRest.java",
+        "project": "onap_vfc-nfvo-driver-svnfm-huawei",
+        "line": 117,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 117,
+            "endLine": 117,
+            "startOffset": 12,
+            "endOffset": 13
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2020-03-09T15:46:33+0100",
+        "updateDate": "2020-03-09T15:46:33+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXC_w8lO02jwgD-IQkMO",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-svnfm-huawei:vnfmadapter/VnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/svnfm/vnfmadapter/common/restclient/RestHttpContentExchange.java",
+        "project": "onap_vfc-nfvo-driver-svnfm-huawei",
+        "line": 111,
+        "hash": "77034b69a9403752eb5b5749a2bdc6a5",
+        "textRange": {
+            "startLine": 111,
+            "endLine": 111,
+            "startOffset": 65,
+            "endOffset": 93
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-03-09T15:46:33+0100",
+        "updateDate": "2020-03-09T15:46:33+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX9KUow4pPoqhh8Ti",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-svnfm-huawei:vnfmadapter/VnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/svnfm/vnfmadapter/common/restclient/ServiceException.java",
+        "project": "onap_vfc-nfvo-driver-svnfm-huawei",
+        "line": 44,
+        "hash": "e8cddbe5ed7027bea358de2e414a8898",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 19,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"id\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-09-07T04:10:41+0200",
+        "updateDate": "2019-11-26T02:41:58+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX9KUow4pPoqhh8Tj",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-driver-svnfm-huawei:vnfmadapter/VnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/svnfm/vnfmadapter/common/restclient/ServiceException.java",
+        "project": "onap_vfc-nfvo-driver-svnfm-huawei",
+        "line": 48,
+        "hash": "5b6591ffa54529ac3231c182c6bf76c2",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 16,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"httpCode\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2017-09-07T04:10:41+0200",
+        "updateDate": "2019-11-26T02:41:58+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX9OGow4pPoqhh8W5",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vfc-nfvo-driver-svnfm-huawei:vnfmadapter/VnfmadapterService/service/src/main/java/org/onap/vfc/nfvo/vnfm/svnfm/vnfmadapter/service/csm/vnf/ScaleManager.java",
+        "project": "onap_vfc-nfvo-driver-svnfm-huawei",
+        "line": 45,
+        "hash": "7fa4bdf04db0ca66ef7775a83cbc0445",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 22,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-05-23T10:18:09+0200",
+        "updateDate": "2019-11-26T02:41:58+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

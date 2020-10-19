@@ -1,0 +1,114 @@
+[
+    {
+        "key": "AW6lX1K9yOMKZVYhRYMn",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-multivimproxy:service/src/main/java/org/onap/vfc/nfvo/multivimproxy/common/util/restclient/ServiceException.java",
+        "project": "onap_vfc-nfvo-multivimproxy",
+        "line": 50,
+        "hash": "dac9898009d835a258dc83ab1650af7b",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 26,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"exceptionArgs\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-03-28T08:09:30+0200",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX1K9yOMKZVYhRYMm",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-multivimproxy:service/src/main/java/org/onap/vfc/nfvo/multivimproxy/common/util/restclient/ServiceException.java",
+        "project": "onap_vfc-nfvo-multivimproxy",
+        "line": 48,
+        "hash": "5b6591ffa54529ac3231c182c6bf76c2",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 16,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"httpCode\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-03-28T08:09:30+0200",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX1K9yOMKZVYhRYMl",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-multivimproxy:service/src/main/java/org/onap/vfc/nfvo/multivimproxy/common/util/restclient/ServiceException.java",
+        "project": "onap_vfc-nfvo-multivimproxy",
+        "line": 46,
+        "hash": "b5d914839fc3daf97114ebf026acb066",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 21,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"args\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-03-28T08:09:30+0200",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lX1K9yOMKZVYhRYMk",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "onap_vfc-nfvo-multivimproxy:service/src/main/java/org/onap/vfc/nfvo/multivimproxy/common/util/restclient/ServiceException.java",
+        "project": "onap_vfc-nfvo-multivimproxy",
+        "line": 44,
+        "hash": "e8cddbe5ed7027bea358de2e414a8898",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 19,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"id\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2018-03-28T08:09:30+0200",
+        "updateDate": "2019-11-26T02:41:40+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

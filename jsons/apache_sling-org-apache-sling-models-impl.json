@@ -1,0 +1,244 @@
+[
+    {
+        "key": "AWo5WyQdyRjJygCrF7Ba",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-models-impl:src/main/java/org/apache/sling/models/impl/ExportServlet.java",
+        "project": "apache_sling-org-apache-sling-models-impl",
+        "line": 70,
+        "hash": "68d6cbdde5aee63537a3016347ba17db",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 11,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2016-12-01T21:59:38+0100",
+        "updateDate": "2019-04-20T08:06:54+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5WyQmyRjJygCrF7B-",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-models-impl:src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
+        "project": "apache_sling-org-apache-sling-models-impl",
+        "line": 310,
+        "hash": "dafafd319d5b49e7d5238303cf31462c",
+        "textRange": {
+            "startLine": 310,
+            "endLine": 310,
+            "startOffset": 19,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2018-08-13T11:39:09+0200",
+        "updateDate": "2019-04-20T08:06:54+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5WyQmyRjJygCrF7B8",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-models-impl:src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
+        "project": "apache_sling-org-apache-sling-models-impl",
+        "line": 288,
+        "hash": "2cb9de9e1986f8270910cb4f0d4c8ab6",
+        "textRange": {
+            "startLine": 288,
+            "endLine": 288,
+            "startOffset": 106,
+            "endOffset": 125
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.models.factory.ModelClassException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-13T11:39:09+0200",
+        "updateDate": "2019-04-20T08:06:54+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5WyQmyRjJygCrF7B6",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-models-impl:src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
+        "project": "apache_sling-org-apache-sling-models-impl",
+        "line": 279,
+        "hash": "e446a9b8e667a41ce6a525d4aeebec69",
+        "textRange": {
+            "startLine": 279,
+            "endLine": 279,
+            "startOffset": 60,
+            "endOffset": 81
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.models.factory.InvalidModelException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-06-01T18:24:13+0200",
+        "updateDate": "2019-04-20T08:06:54+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5WyQmyRjJygCrF7B5",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-models-impl:src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
+        "project": "apache_sling-org-apache-sling-models-impl",
+        "line": 279,
+        "hash": "e446a9b8e667a41ce6a525d4aeebec69",
+        "textRange": {
+            "startLine": 279,
+            "endLine": 279,
+            "startOffset": 39,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.models.factory.ValidationException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-06-01T18:24:13+0200",
+        "updateDate": "2019-04-20T08:06:54+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5WyQmyRjJygCrF7B4",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-models-impl:src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
+        "project": "apache_sling-org-apache-sling-models-impl",
+        "line": 279,
+        "hash": "e446a9b8e667a41ce6a525d4aeebec69",
+        "textRange": {
+            "startLine": 279,
+            "endLine": 279,
+            "startOffset": 12,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.models.factory.InvalidAdaptableException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-06-01T18:24:13+0200",
+        "updateDate": "2019-04-20T08:06:54+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5WyQmyRjJygCrF7B3",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-models-impl:src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
+        "project": "apache_sling-org-apache-sling-models-impl",
+        "line": 278,
+        "hash": "a64a7fbdfc7344490e300156236ddbf2",
+        "textRange": {
+            "startLine": 278,
+            "endLine": 278,
+            "startOffset": 120,
+            "endOffset": 144
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.models.factory.MissingElementsException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-13T11:39:09+0200",
+        "updateDate": "2019-04-20T08:06:54+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5WyQmyRjJygCrF7B9",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-models-impl:src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java",
+        "project": "apache_sling-org-apache-sling-models-impl",
+        "line": 292,
+        "hash": "712f52ab958bf9d3f80aa19eff9656d3",
+        "textRange": {
+            "startLine": 292,
+            "endLine": 292,
+            "startOffset": 100,
+            "endOffset": 119
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.models.factory.ModelClassException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-05-20T16:39:19+0200",
+        "updateDate": "2019-04-20T08:06:54+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

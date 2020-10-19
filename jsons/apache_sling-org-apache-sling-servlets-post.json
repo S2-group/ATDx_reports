@@ -1,0 +1,1436 @@
+[
+    {
+        "key": "AWorYtSaMflNeiYSR4cr",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 115,
+        "hash": "91468742dcabdc5e640d3ae698267af8",
+        "textRange": {
+            "startLine": 115,
+            "endLine": 115,
+            "startOffset": 16,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4cq",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 111,
+        "hash": "3fb33f3bb874b83380e4d4c91cc9a819",
+        "textRange": {
+            "startLine": 111,
+            "endLine": 111,
+            "startOffset": 16,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4cp",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 107,
+        "hash": "5be2fa17b5b271171fcbc4f7564f1405",
+        "textRange": {
+            "startLine": 107,
+            "endLine": 107,
+            "startOffset": 16,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4co",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 103,
+        "hash": "a4fd8a5455380737157c928524a4cd39",
+        "textRange": {
+            "startLine": 103,
+            "endLine": 103,
+            "startOffset": 19,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4cn",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 99,
+        "hash": "b11f9781efc74182e80a7f644f7d9856",
+        "textRange": {
+            "startLine": 99,
+            "endLine": 99,
+            "startOffset": 19,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4cm",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 95,
+        "hash": "edef71e54a25af25e8ade7f77138adfe",
+        "textRange": {
+            "startLine": 95,
+            "endLine": 95,
+            "startOffset": 18,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4cl",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 91,
+        "hash": "72518befcf8059477c640f1f1c3c1108",
+        "textRange": {
+            "startLine": 91,
+            "endLine": 91,
+            "startOffset": 15,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4ck",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 87,
+        "hash": "5b0037d31bd750856bac7fda982d7dff",
+        "textRange": {
+            "startLine": 87,
+            "endLine": 87,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4cj",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 83,
+        "hash": "e32b1bb1ce97c0e312233da44acf5865",
+        "textRange": {
+            "startLine": 83,
+            "endLine": 83,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4ci",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 79,
+        "hash": "e75b9b0df7212df8a66cf1db2ba2b97e",
+        "textRange": {
+            "startLine": 79,
+            "endLine": 79,
+            "startOffset": 18,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtUgMflNeiYSR4fA",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/SlingPostProcessor.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 48,
+        "hash": "ade88b84548ec15c2f8b184babd0c149",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 11,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSKMflNeiYSR4b-",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/SlingPropertyValueHandler.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 452,
+        "hash": "b4f9f6cd0095caec753b007f47a139ee",
+        "textRange": {
+            "startLine": 452,
+            "endLine": 452,
+            "startOffset": 11,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.api.resource.PersistenceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-04-13T16:30:40+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtULMflNeiYSR4eN",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/SlingPostServlet.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 784,
+        "hash": "2f6b7ba8a255484d45bc8742721eb31e",
+        "textRange": {
+            "startLine": 784,
+            "endLine": 784,
+            "startOffset": 33,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make generator a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-05T11:21:07+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtULMflNeiYSR4eM",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/SlingPostServlet.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 790,
+        "hash": "a4c1f4b675e63259e5c643d284febadf",
+        "textRange": {
+            "startLine": 790,
+            "endLine": 790,
+            "startOffset": 19,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make ranking a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-05T11:21:07+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtUbMflNeiYSR4e5",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/AbstractPostOperation.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 58,
+        "hash": "7afb8b8ad18e7094d0f43472d9a9de26",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 22,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSKMflNeiYSR4b0",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/SlingPropertyValueHandler.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 553,
+        "hash": "a627a31e5b501369335aff3c46c0efad",
+        "textRange": {
+            "startLine": 553,
+            "endLine": 553,
+            "startOffset": 24,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make resource a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2012-09-27T15:52:04+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSKMflNeiYSR4b1",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/SlingPropertyValueHandler.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 554,
+        "hash": "116ca7936f8b120a48e23f6577f435fe",
+        "textRange": {
+            "startLine": 554,
+            "endLine": 554,
+            "startOffset": 34,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make valueMap a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2012-09-27T15:52:04+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtUbMflNeiYSR4e9",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/AbstractPostOperation.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 257,
+        "hash": "41f7ac9844c9caf6ad35d1aae1df5afe",
+        "textRange": {
+            "startLine": 257,
+            "endLine": 257,
+            "startOffset": 19,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.jcr.RepositoryException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [],
+        "creationDate": "2011-10-05T22:29:13+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtUvMflNeiYSR4fJ",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/AbstractSlingPostOperation.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 39,
+        "hash": "34d6d55a1234780a1b099fdea35d9397",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 22,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtRcMflNeiYSR4bZ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/StreamedChunk.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 388,
+        "hash": "8db9b5dcf322dedac728479fb7c96a44",
+        "textRange": {
+            "startLine": 388,
+            "endLine": 388,
+            "startOffset": 20,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make range a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2016-09-08T14:01:06+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtRcMflNeiYSR4bY",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/StreamedChunk.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 387,
+        "hash": "e323aaf6b913fb10a6a18f37467c1aef",
+        "textRange": {
+            "startLine": 387,
+            "endLine": 387,
+            "startOffset": 20,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make offset a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2016-09-08T14:01:06+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtRcMflNeiYSR4bX",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/StreamedChunk.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 386,
+        "hash": "a451d8c98ef0826491f6f5fee253a114",
+        "textRange": {
+            "startLine": 386,
+            "endLine": 386,
+            "startOffset": 20,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make length a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2016-09-08T14:01:06+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtUsMflNeiYSR4fI",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/SlingPostOperation.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 44,
+        "hash": "966a4dc72b9fde40394e6a65c7b15a1f",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 17,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2009-06-18T11:21:02+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4c0",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 157,
+        "hash": "103689e16b5d758dd0eae86f96afee39",
+        "textRange": {
+            "startLine": 157,
+            "endLine": 157,
+            "startOffset": 16,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4cz",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 153,
+        "hash": "811ed5d9cc1b0df433d60a75aec62841",
+        "textRange": {
+            "startLine": 153,
+            "endLine": 153,
+            "startOffset": 16,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4cy",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 149,
+        "hash": "ed943ab9df887edd3919a0d5c7250629",
+        "textRange": {
+            "startLine": 149,
+            "endLine": 149,
+            "startOffset": 16,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4cx",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 145,
+        "hash": "551a7cee749068e5a5df0e1240a69442",
+        "textRange": {
+            "startLine": 145,
+            "endLine": 145,
+            "startOffset": 16,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4cw",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 136,
+        "hash": "bcf301cd989212639b80ebd4226b5d9f",
+        "textRange": {
+            "startLine": 136,
+            "endLine": 136,
+            "startOffset": 16,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4cv",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 131,
+        "hash": "4cdd7cf65e805c7e574e8fa4ad280962",
+        "textRange": {
+            "startLine": 131,
+            "endLine": 131,
+            "startOffset": 16,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4cu",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 127,
+        "hash": "d142a7294946e198b0cf2a6ab119870b",
+        "textRange": {
+            "startLine": 127,
+            "endLine": 127,
+            "startOffset": 16,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4ct",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 123,
+        "hash": "2cfd754dd0b0137e10f664d56f70b5c0",
+        "textRange": {
+            "startLine": 123,
+            "endLine": 123,
+            "startOffset": 16,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4cs",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 119,
+        "hash": "502639dfdb6cfa7428dcd27abf2e271b",
+        "textRange": {
+            "startLine": 119,
+            "endLine": 119,
+            "startOffset": 16,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4ch",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 75,
+        "hash": "95254357e49b01d9513c5c4d0612ff27",
+        "textRange": {
+            "startLine": 75,
+            "endLine": 75,
+            "startOffset": 18,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4cg",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 71,
+        "hash": "1edcaa2c3594b42ab2fb029f1f5edee6",
+        "textRange": {
+            "startLine": 71,
+            "endLine": 71,
+            "startOffset": 21,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4cf",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 67,
+        "hash": "b48ed9d55b548352553c794ac93db996",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 16,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4ce",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 62,
+        "hash": "a723e3f08b87aad62a0367ef4c45c306",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 18,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSKMflNeiYSR4b2",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/SlingPropertyValueHandler.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 555,
+        "hash": "09dda9cb0efab62f98946b04f55bed46",
+        "textRange": {
+            "startLine": 555,
+            "endLine": 555,
+            "startOffset": 22,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make node a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2017-04-13T16:30:40+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtULMflNeiYSR4eO",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/SlingPostServlet.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 780,
+        "hash": "a4c1f4b675e63259e5c643d284febadf",
+        "textRange": {
+            "startLine": 780,
+            "endLine": 780,
+            "startOffset": 19,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make ranking a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-05T11:21:07+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtULMflNeiYSR4eL",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/SlingPostServlet.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 779,
+        "hash": "135a3e7b4aef19b2533536e43df75aa2",
+        "textRange": {
+            "startLine": 779,
+            "endLine": 779,
+            "startOffset": 34,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make processor a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-05T11:21:07+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtU9MflNeiYSR4fV",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/VersioningConfiguration.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 33,
+        "hash": "3532caebe3d6aba07d5bf3f9a40709ec",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 35,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2010-07-01T16:28:45+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtUVMflNeiYSR4ey",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/PostResponseWithErrorHandling.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 31,
+        "hash": "f2f758db4a5d1c75393d148ef7d78014",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2013-02-11T13:31:52+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtShMflNeiYSR4c7",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlPostResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 39,
+        "hash": "ada275f9d4fd61a891507ef29096d271",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 13,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4c3",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 169,
+        "hash": "bd07f921dead94efb2ef11d77828f76c",
+        "textRange": {
+            "startLine": 169,
+            "endLine": 169,
+            "startOffset": 16,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4c2",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 165,
+        "hash": "d2f6d7c7c51324a6f70b79d7f571eb54",
+        "textRange": {
+            "startLine": 165,
+            "endLine": 165,
+            "startOffset": 16,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4c1",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 161,
+        "hash": "9d3e8e356f4d9f0550c0e5ce2904bd77",
+        "textRange": {
+            "startLine": 161,
+            "endLine": 161,
+            "startOffset": 16,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtU9MflNeiYSR4fW",
+        "rule": "java:S1182",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/VersioningConfiguration.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 33,
+        "hash": "3532caebe3d6aba07d5bf3f9a40709ec",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 35,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Use super.clone() to create and seed the cloned instance to be returned.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "convention",
+            "cwe"
+        ],
+        "creationDate": "2010-07-01T16:28:45+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtQuMflNeiYSR4bB",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/ReferenceParser.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 29,
+        "hash": "9c585b5b1023182792822d8c46d17adc",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 13,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2010-01-28T22:56:19+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtRcMflNeiYSR4bg",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/StreamedChunk.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 174,
+        "hash": "f678d96435090591632092cc063f89d6",
+        "textRange": {
+            "startLine": 174,
+            "endLine": 174,
+            "startOffset": 90,
+            "endOffset": 111
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-09-08T14:01:06+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtULMflNeiYSR4eP",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/SlingPostServlet.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 789,
+        "hash": "90472c75b50f66319e264962c0ecdd6c",
+        "textRange": {
+            "startLine": 789,
+            "endLine": 789,
+            "startOffset": 35,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make creator a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-05T11:21:07+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtULMflNeiYSR4eQ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/SlingPostServlet.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 785,
+        "hash": "a4c1f4b675e63259e5c643d284febadf",
+        "textRange": {
+            "startLine": 785,
+            "endLine": 785,
+            "startOffset": 19,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make ranking a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2013-06-05T11:21:07+0200",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWorYtSaMflNeiYSR4cc",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-servlets-post:src/main/java/org/apache/sling/servlets/post/impl/helper/HtmlResponseProxy.java",
+        "project": "apache_sling-org-apache-sling-servlets-post",
+        "line": 57,
+        "hash": "54b8a24936649f2e6173641ae6b1b382",
+        "textRange": {
+            "startLine": 57,
+            "endLine": 57,
+            "startOffset": 23,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T15:25:56+0100",
+        "updateDate": "2019-04-17T15:00:33+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

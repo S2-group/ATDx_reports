@@ -1,0 +1,1335 @@
+[
+    {
+        "key": "AWo5pvN-o4hEA1R-en7y",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/util/ResourceUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 26,
+        "hash": "425cc84d9d5adabbf13286e31e9ae33c",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvQIo4hEA1R-en97",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/AbstractSlingClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 724,
+        "hash": "3c720ace9ba178c29a918ac748a7e986",
+        "textRange": {
+            "startLine": 724,
+            "endLine": 724,
+            "startOffset": 32,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvQIo4hEA1R-en96",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/AbstractSlingClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 718,
+        "hash": "3c720ace9ba178c29a918ac748a7e986",
+        "textRange": {
+            "startLine": 718,
+            "endLine": 718,
+            "startOffset": 32,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvQIo4hEA1R-en95",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/AbstractSlingClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 712,
+        "hash": "3c720ace9ba178c29a918ac748a7e986",
+        "textRange": {
+            "startLine": 712,
+            "endLine": 712,
+            "startOffset": 32,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvQIo4hEA1R-en94",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/AbstractSlingClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 706,
+        "hash": "3c720ace9ba178c29a918ac748a7e986",
+        "textRange": {
+            "startLine": 706,
+            "endLine": 706,
+            "startOffset": 32,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvQIo4hEA1R-en93",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/AbstractSlingClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 700,
+        "hash": "3c720ace9ba178c29a918ac748a7e986",
+        "textRange": {
+            "startLine": 700,
+            "endLine": 700,
+            "startOffset": 32,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvQIo4hEA1R-en92",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/AbstractSlingClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 694,
+        "hash": "3c720ace9ba178c29a918ac748a7e986",
+        "textRange": {
+            "startLine": 694,
+            "endLine": 694,
+            "startOffset": 32,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvQIo4hEA1R-en91",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/AbstractSlingClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 688,
+        "hash": "3c720ace9ba178c29a918ac748a7e986",
+        "textRange": {
+            "startLine": 688,
+            "endLine": 688,
+            "startOffset": 32,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvQIo4hEA1R-en90",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/AbstractSlingClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 681,
+        "hash": "d004250aa5a4509001884a6f58d94ca9",
+        "textRange": {
+            "startLine": 681,
+            "endLine": 681,
+            "startOffset": 76,
+            "endOffset": 99
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvQIo4hEA1R-en9y",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/AbstractSlingClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 676,
+        "hash": "eb7d98c70f8c56382d6a51d45a1bfa6e",
+        "textRange": {
+            "startLine": 676,
+            "endLine": 676,
+            "startOffset": 56,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvPVo4hEA1R-en9I",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/osgi/BundlesInstaller.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 152,
+        "hash": "1eda50a7d1350e2a84eb5c57b8940385",
+        "textRange": {
+            "startLine": 152,
+            "endLine": 152,
+            "startOffset": 19,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-05-13T16:02:03+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvPCo4hEA1R-en88",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/osgi/OsgiConsoleClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 739,
+        "hash": "fe2b3f013b3ba970620817b8b08b5b21",
+        "textRange": {
+            "startLine": 739,
+            "endLine": 739,
+            "startOffset": 16,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-05-13T16:02:03+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvPCo4hEA1R-en87",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/osgi/OsgiConsoleClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 560,
+        "hash": "933aceea38a5b38f885dbe10a6a50adc",
+        "textRange": {
+            "startLine": 560,
+            "endLine": 560,
+            "startOffset": 19,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-05-13T16:02:03+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXFPhqb3tIjK72HYvRYM",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/Constants.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 19,
+        "hash": "4b77d437a8e60026e015f438636aa6a5",
+        "textRange": {
+            "startLine": 19,
+            "endLine": 19,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-04-06T14:42:44+0200",
+        "updateDate": "2020-04-06T14:45:29+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXFPhqZItIjK72HYvRYL",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/SystemPropertiesConfig.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 25,
+        "hash": "c93cbcf93ad5b78e74ed2cafb79cc43b",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 13,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2020-04-06T14:42:44+0200",
+        "updateDate": "2020-04-06T14:45:29+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvPNo4hEA1R-en8_",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/osgi/Bundle.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 50,
+        "hash": "5eb1048a65cef9f848fe69a1337d77e1",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvO8o4hEA1R-en8j",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/osgi/Component.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 52,
+        "hash": "5eb1048a65cef9f848fe69a1337d77e1",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 22,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvOqo4hEA1R-en8a",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/interceptors/TestDescriptionHolder.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 21,
+        "hash": "c839584516a6612f2b9798b73f19b1cc",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 13,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvPZo4hEA1R-en9S",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/SlingHttpResponse.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 283,
+        "hash": "d7f7dc33564247cbdc07962b605a457e",
+        "textRange": {
+            "startLine": 283,
+            "endLine": 283,
+            "startOffset": 54,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvPZo4hEA1R-en9R",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/SlingHttpResponse.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 278,
+        "hash": "ce51340e538befe51ee6c3c029a6a09f",
+        "textRange": {
+            "startLine": 278,
+            "endLine": 278,
+            "startOffset": 47,
+            "endOffset": 68
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvPCo4hEA1R-en85",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/osgi/OsgiConsoleClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 427,
+        "hash": "18064a0feaff79ceee89be8a954374c8",
+        "textRange": {
+            "startLine": 427,
+            "endLine": 427,
+            "startOffset": 18,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvPCo4hEA1R-en83",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/osgi/OsgiConsoleClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 330,
+        "hash": "379dfda3467f0d792dae196abf760e09",
+        "textRange": {
+            "startLine": 330,
+            "endLine": 330,
+            "startOffset": 31,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvNqo4hEA1R-en7q",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/util/TimeoutsProvider.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 31,
+        "hash": "c246bdaa7f3358f95985cff26ea1ad48",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 13,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-06-15T17:01:58+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvNmo4hEA1R-en7k",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/util/poller/PathPoller.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 30,
+        "hash": "2270d107abe8f5e367033f2192477da8",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 13,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-05-13T16:02:03+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvNjo4hEA1R-en7j",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/util/poller/AbstractPoller.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 24,
+        "hash": "3381fea752821a4bb4bfa30276163b8a",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 22,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvNKo4hEA1R-en7i",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/util/poller/Poller.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 27,
+        "hash": "b6d08509f07acc1fc104e59417804a14",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 17,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvP-o4hEA1R-en9n",
+        "rule": "java:S1165",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/ClientException.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 25,
+        "hash": "f3a72755d14ef0c130fdb8abbeb8ba80",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 16,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this \"httpStatusCode\" field final.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "error-handling"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvOFo4hEA1R-en74",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/util/FormEntityBuilder.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 78,
+        "hash": "6416e83d8c7fdbf15444240dfbf8f30d",
+        "textRange": {
+            "startLine": 78,
+            "endLine": 78,
+            "startOffset": 22,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvN7o4hEA1R-en7v",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/util/PortAllocator.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 50,
+        "hash": "06933246d45f8c4d637a7a914db2923d",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvO5o4hEA1R-en8h",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/osgi/OsgiInstanceConfig.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 46,
+        "hash": "b76544d3f25cf5ddf97ea340a73cb65e",
+        "textRange": {
+            "startLine": 46,
+            "endLine": 46,
+            "startOffset": 18,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-05-16T14:34:17+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvOto4hEA1R-en8e",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/interceptors/StickyCookieSpec.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 44,
+        "hash": "df0d0b218444e2544f0c2702e4d7c683",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 24,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvQIo4hEA1R-en9w",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/AbstractSlingClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 670,
+        "hash": "7884227cb4ba86a3b4cefe5d3c83b21c",
+        "textRange": {
+            "startLine": 670,
+            "endLine": 670,
+            "startOffset": 45,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW1Dz1zo0lkD_JGhCRZz",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/indexing/IndexingClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 316,
+        "hash": "67379f2931585cffd7851475c0e67232",
+        "textRange": {
+            "startLine": 316,
+            "endLine": 316,
+            "startOffset": 16,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2019-09-18T11:58:24+0200",
+        "updateDate": "2019-09-18T11:58:24+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvPZo4hEA1R-en9O",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/SlingHttpResponse.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 157,
+        "hash": "19ef23880ea5cc5b78408b0c9f35f720",
+        "textRange": {
+            "startLine": 157,
+            "endLine": 157,
+            "startOffset": 44,
+            "endOffset": 65
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.NumberFormatException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvPZo4hEA1R-en9M",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/SlingHttpResponse.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 58,
+        "hash": "a7382594b5f3a4b0fd8bece187d14ee9",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvOjo4hEA1R-en8V",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/interceptors/StickyCookieHolder.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 24,
+        "hash": "86911e2a1169ab4454e1ab98721903b7",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 13,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvOOo4hEA1R-en8B",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/util/JsonUtils.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 26,
+        "hash": "9db815ede6067ba919605d1102030440",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvORo4hEA1R-en8E",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/util/HttpUtils.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 136,
+        "hash": "8b6483d5b287ec85632f5aabd5e744cf",
+        "textRange": {
+            "startLine": 136,
+            "endLine": 136,
+            "startOffset": 66,
+            "endOffset": 81
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.testing.clients.ClientException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvPCo4hEA1R-en86",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/osgi/OsgiConsoleClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 542,
+        "hash": "b4f731eba513306460df57204806ad97",
+        "textRange": {
+            "startLine": 542,
+            "endLine": 542,
+            "startOffset": 19,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2017-05-16T14:34:17+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvOZo4hEA1R-en8I",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/util/XSSUtils.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 30,
+        "hash": "2d058a78a90cb4e3929addda664e1d16",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvOZo4hEA1R-en8H",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/util/XSSUtils.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 43,
+        "hash": "3a553e336ade3aef62854b9e753100de",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvORo4hEA1R-en8D",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/util/HttpUtils.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 28,
+        "hash": "f75df48d06ec5151fabbe9a3a908c2fd",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 13,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvOLo4hEA1R-en7-",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/util/UniquePaths.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 23,
+        "hash": "c8ee7a0eec78607958edbfbe3b0758a1",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvOdo4hEA1R-en8Q",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/SlingClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 345,
+        "hash": "f161b048bce1231a5965680e0b19e2a1",
+        "textRange": {
+            "startLine": 345,
+            "endLine": 345,
+            "startOffset": 20,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvOdo4hEA1R-en8P",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/SlingClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 224,
+        "hash": "dba52d8bdeb469d51077ebd992741695",
+        "textRange": {
+            "startLine": 224,
+            "endLine": 224,
+            "startOffset": 16,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo5pvOdo4hEA1R-en8R",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-clients:src/main/java/org/apache/sling/testing/clients/SlingClient.java",
+        "project": "apache_sling-org-apache-sling-testing-clients",
+        "line": 364,
+        "hash": "8dad779f9e37cf88e8838c84f6bca196",
+        "textRange": {
+            "startLine": 364,
+            "endLine": 364,
+            "startOffset": 20,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2016-04-29T16:03:32+0200",
+        "updateDate": "2019-04-20T09:29:40+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

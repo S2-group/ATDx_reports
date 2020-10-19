@@ -1,0 +1,3729 @@
+[
+    {
+        "key": "AW6BjP_ybvuChWxQ8FZF",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/category/AddCategoryOptionsRequest.java",
+        "project": "onap_vid",
+        "line": 30,
+        "hash": "b1d3f74379426bade02a1f5b0216b397",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 21,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make options a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP_AbvuChWxQ8FZD",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/logging/LoggingFilterHelper.java",
+        "project": "onap_vid",
+        "line": 30,
+        "hash": "9741fbded89a61cbd65d47bff7b59fdd",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 13,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-10-30T06:47:32+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP62bvuChWxQ8FXL",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/MsoRequestDetails.java",
+        "project": "onap_vid",
+        "line": 40,
+        "hash": "b0173d4a22c499a2b67f036cd0e8eb95",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 18,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make requestParameters a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP62bvuChWxQ8FXK",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/MsoRequestDetails.java",
+        "project": "onap_vid",
+        "line": 38,
+        "hash": "41ee0f14f2ef76601a63897b7807ede1",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 37,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make relatedInstanceList a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP62bvuChWxQ8FXJ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/MsoRequestDetails.java",
+        "project": "onap_vid",
+        "line": 36,
+        "hash": "7795e37c4608cfb8c9bc7df02565b455",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 29,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make requestInfo a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP62bvuChWxQ8FXI",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/MsoRequestDetails.java",
+        "project": "onap_vid",
+        "line": 34,
+        "hash": "289f1e6a1f320c994235769de2f69b1d",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 34,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make cloudConfiguration a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP62bvuChWxQ8FXH",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/MsoRequestDetails.java",
+        "project": "onap_vid",
+        "line": 32,
+        "hash": "2b166529bdc1f1e6b4cee1dfa325b093",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 21,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make modelInfo a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPh2bvuChWxQ8FSG",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/AaiGetServicesRequestModel/GetServicesAAIRespone.java",
+        "project": "onap_vid",
+        "line": 29,
+        "hash": "9dc0c19308c33e464a4dce5832e2add3",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 25,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make service a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPhObvuChWxQ8FSB",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/Relationship.java",
+        "project": "onap_vid",
+        "line": 37,
+        "hash": "5fae85c5d4adea9c705b75f60152a150",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 15,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make relationshipLabel a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPhObvuChWxQ8FSC",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/Relationship.java",
+        "project": "onap_vid",
+        "line": 39,
+        "hash": "999afcf9066190df11c875f2b6ba7e6a",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 31,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make relationshipData a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPhObvuChWxQ8FSD",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/Relationship.java",
+        "project": "onap_vid",
+        "line": 41,
+        "hash": "b6aa8b1f58316a7d992dbbcfa48da15c",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 32,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make relatedToProperty a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPhObvuChWxQ8FR_",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/Relationship.java",
+        "project": "onap_vid",
+        "line": 33,
+        "hash": "f1a7f198d8d27f84841dfe744fd763de",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make relatedTo a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPhObvuChWxQ8FSA",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/Relationship.java",
+        "project": "onap_vid",
+        "line": 35,
+        "hash": "c4edb20365250ffe5215e1a6e50fddb4",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 15,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make relatedLink a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPg-bvuChWxQ8FR-",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/RelationshipList.java",
+        "project": "onap_vid",
+        "line": 31,
+        "hash": "3179554a646e0f7faaea4db740078b15",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 27,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make relationship a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-04-04T10:22:43+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPgvbvuChWxQ8FR6",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/ServiceRelationships.java",
+        "project": "onap_vid",
+        "line": 43,
+        "hash": "fb8386f22f000721a7687efc082d394c",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 15,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make modelVersionId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPgvbvuChWxQ8FR0",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/ServiceRelationships.java",
+        "project": "onap_vid",
+        "line": 31,
+        "hash": "82d73af6d7f6531a8907e6f612b3023d",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 15,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make serviceInstanceName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPgvbvuChWxQ8FR5",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/ServiceRelationships.java",
+        "project": "onap_vid",
+        "line": 41,
+        "hash": "85825b9ad17ae483f2bd245662441c4d",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 15,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make modelInvariantId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP98bvuChWxQ8FYT",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/asdc/parser/ToscaParserImpl2.java",
+        "project": "onap_vid",
+        "line": 50,
+        "hash": "4b77d437a8e60026e015f438636aa6a5",
+        "textRange": {
+            "startLine": 50,
+            "endLine": 50,
+            "startOffset": 17,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPsXbvuChWxQ8FUM",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/model/MsoExceptionResponse.java",
+        "project": "onap_vid",
+        "line": 36,
+        "hash": "67bf1ef40348032263b5c952f69b65d0",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 22,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make text a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPsXbvuChWxQ8FUL",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/model/MsoExceptionResponse.java",
+        "project": "onap_vid",
+        "line": 35,
+        "hash": "64e2724e10ad265fdb7dbf135299aa50",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make messageId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPsXbvuChWxQ8FUN",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/model/MsoExceptionResponse.java",
+        "project": "onap_vid",
+        "line": 39,
+        "hash": "eb3e9ccc39490e98f7c6182854b1bf40",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 28,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make serviceException a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPz2bvuChWxQ8FVm",
+        "rule": "java:S2885",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/rest/MsoRestClientNew.java",
+        "project": "onap_vid",
+        "line": 64,
+        "hash": "faa31691a8929d02677c2913da7a6397",
+        "textRange": {
+            "startLine": 64,
+            "endLine": 64,
+            "startOffset": 28,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make \"dateFormat\" an instance variable.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "BUG",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPr9bvuChWxQ8FUG",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/model/serviceInstantiation/Vnf.java",
+        "project": "onap_vid",
+        "line": 49,
+        "hash": "4ad2cd3aca3cee064b597e8c0c94fd95",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 8,
+            "endOffset": 11
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 18 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2020-01-20T12:42:49+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPr1bvuChWxQ8FUE",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/model/serviceInstantiation/InstanceGroup.java",
+        "project": "onap_vid",
+        "line": 35,
+        "hash": "c47b88451b6745586708058ca3a7bc60",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 11,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 11 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-01-09T19:19:55+0100",
+        "updateDate": "2020-01-20T12:42:49+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPrtbvuChWxQ8FUC",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/model/serviceInstantiation/ServiceInstantiation.java",
+        "project": "onap_vid",
+        "line": 77,
+        "hash": "d8d89909769c3941da4411a336ae99e5",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 11,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 32 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2020-01-20T12:42:49+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPrmbvuChWxQ8FUA",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/model/serviceInstantiation/Network.java",
+        "project": "onap_vid",
+        "line": 40,
+        "hash": "c5758e2478254de7ec4d516f151d5e47",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 8,
+            "endOffset": 15
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 17 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-01-09T19:19:55+0100",
+        "updateDate": "2020-01-20T12:42:49+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPzPbvuChWxQ8FVS",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/model/BaseResourceInstantiationRequestDetails.java",
+        "project": "onap_vid",
+        "line": 135,
+        "hash": "2b166529bdc1f1e6b4cee1dfa325b093",
+        "textRange": {
+            "startLine": 135,
+            "endLine": 135,
+            "startOffset": 25,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make modelInfo a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-01-09T19:19:55+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP8ybvuChWxQ8FYA",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/asdc/beans/tosca/Schema.java",
+        "project": "onap_vid",
+        "line": 29,
+        "hash": "7ba709b14e744ad5c81755e81eb9d05d",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 15,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make type a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPi7bvuChWxQ8FSZ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/LogicalLinkResponse.java",
+        "project": "onap_vid",
+        "line": 35,
+        "hash": "7218312eef651f6c51f373aebd63ae76",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make purpose a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPi7bvuChWxQ8FSW",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/LogicalLinkResponse.java",
+        "project": "onap_vid",
+        "line": 29,
+        "hash": "bbf9ee46ad7e0897c34f8985a23a1b71",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 19,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make inMaint a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPi7bvuChWxQ8FSX",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/LogicalLinkResponse.java",
+        "project": "onap_vid",
+        "line": 31,
+        "hash": "9dba5671909a4cba20c2942c940fcaf4",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make linkType a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPi7bvuChWxQ8FSY",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/LogicalLinkResponse.java",
+        "project": "onap_vid",
+        "line": 33,
+        "hash": "e0e20e370889719ed8d6fcf6550771e3",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 18,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make resourceVersion a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPi7bvuChWxQ8FSV",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/LogicalLinkResponse.java",
+        "project": "onap_vid",
+        "line": 27,
+        "hash": "c6f1e89ccdb450ac914186f3c8b676b1",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make linkName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPiwbvuChWxQ8FST",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/RelatedToProperty.java",
+        "project": "onap_vid",
+        "line": 52,
+        "hash": "61a77a4a443c0c2220d5f7a279c4fe00",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 15,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make propertyKey a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPiwbvuChWxQ8FSU",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/RelatedToProperty.java",
+        "project": "onap_vid",
+        "line": 55,
+        "hash": "99c7a31439866e77656e703e69b877d6",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 15,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make propertyValue a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPiobvuChWxQ8FSS",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/RelationshipData.java",
+        "project": "onap_vid",
+        "line": 29,
+        "hash": "042167748cc3e5f8a9f6722e6b777229",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 18,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make relationshipValue a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-01-09T19:19:55+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPiobvuChWxQ8FSR",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/RelationshipData.java",
+        "project": "onap_vid",
+        "line": 28,
+        "hash": "4a31ce52a46a2b0f1f412cf7f35c43b3",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 18,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make relationshipKey a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-01-09T19:19:55+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPmUbvuChWxQ8FTT",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/AaiOverTLSClientInterface.java",
+        "project": "onap_vid",
+        "line": 37,
+        "hash": "d06d46f2c777fc859d72c748b2acc8d9",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 10,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-09-26T09:32:01+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPmUbvuChWxQ8FTS",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/AaiOverTLSClientInterface.java",
+        "project": "onap_vid",
+        "line": 31,
+        "hash": "77ee2ccfdfbbbc3971e83d2b01e5a22b",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 10,
+            "endOffset": 14
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-09-26T09:32:01+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPo3bvuChWxQ8FTi",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/model/JobAuditStatus.java",
+        "project": "onap_vid",
+        "line": 65,
+        "hash": "3de34de9c7b339cf044c86f1addd51b3",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 12,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-07-30T05:01:44+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPt7bvuChWxQ8FUd",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/model/ModelConstants.java",
+        "project": "onap_vid",
+        "line": 25,
+        "hash": "bb3b67e43390af3ff269cd374ededecd",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPsXbvuChWxQ8FUO",
+        "rule": "java:S2166",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/model/MsoExceptionResponse.java",
+        "project": "onap_vid",
+        "line": 25,
+        "hash": "7b4905e188f307415d61f22ca4e9a684",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 24,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Rename this class to remove \"Exception\" or correct its inheritance.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "convention",
+            "error-handling",
+            "pitfall"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP3PbvuChWxQ8FWE",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/services/AsyncInstantiationBusinessLogicImpl.java",
+        "project": "onap_vid",
+        "line": 128,
+        "hash": "24412136eedb5727be6ac9de114c96a6",
+        "textRange": {
+            "startLine": 128,
+            "endLine": 128,
+            "startOffset": 11,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-07-30T05:01:44+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP3dbvuChWxQ8FWM",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/services/AsyncInstantiationBusinessLogic.java",
+        "project": "onap_vid",
+        "line": 37,
+        "hash": "e16fda78e768a41e49b41f26250f17e1",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 17,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Move \"PARAMS_TO_IGNORE\" to a class and lower its visibility",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP4HbvuChWxQ8FWV",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/services/CsvServiceImpl.java",
+        "project": "onap_vid",
+        "line": 251,
+        "hash": "ae5f485f7047b05b3e535d995cc6825e",
+        "textRange": {
+            "startLine": 251,
+            "endLine": 251,
+            "startOffset": 18,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP1SbvuChWxQ8FVs",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/rest/RelatedInstanceWrapper.java",
+        "project": "onap_vid",
+        "line": 24,
+        "hash": "1fcdede4fb50df2c134c38ee962adb13",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 27,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make relatedInstance a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPzibvuChWxQ8FVe",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/rest/AsyncRequestStatus.java",
+        "project": "onap_vid",
+        "line": 84,
+        "hash": "5810c6e0ac029fbb950089cb6d15f22b",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 22,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make serviceInstanceId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW883U3uQ5lzbozo_EJ1",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/services/AsyncInstantiationBusinessLogicImpl.java",
+        "project": "onap_vid",
+        "line": 263,
+        "hash": "c00631c8dae2ecb2f5ee9036a322ba2d",
+        "textRange": {
+            "startLine": 263,
+            "endLine": 263,
+            "startOffset": 26,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-12-25T12:41:09+0100",
+        "updateDate": "2019-12-25T12:41:09+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP7WbvuChWxQ8FXS",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/UpdateRequestInfo.java",
+        "project": "onap_vid",
+        "line": 31,
+        "hash": "c0eda8e67713e98d5c7e3ddb3ab49221",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 18,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make source a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-08-22T08:55:36+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP7WbvuChWxQ8FXU",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/UpdateRequestInfo.java",
+        "project": "onap_vid",
+        "line": 35,
+        "hash": "9420d77e8ac11da7f9b444111dd7752c",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 18,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make requestorId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-08-22T08:55:36+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPeLbvuChWxQ8FRU",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/AaiGetNetworkCollectionDetails/InstanceGroup.java",
+        "project": "onap_vid",
+        "line": 48,
+        "hash": "be8cc2ce9b1108a831a4efd8d3d4c90e",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 11,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 10 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP4sbvuChWxQ8FWf",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/services/ChangeManagementServiceImpl.java",
+        "project": "onap_vid",
+        "line": 133,
+        "hash": "80f645ab53d9dc90e59f5c895082c38d",
+        "textRange": {
+            "startLine": 133,
+            "endLine": 133,
+            "startOffset": 64,
+            "endOffset": 65
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP4sbvuChWxQ8FWc",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/services/ChangeManagementServiceImpl.java",
+        "project": "onap_vid",
+        "line": 118,
+        "hash": "0d7385cade1295150138920312c91113",
+        "textRange": {
+            "startLine": 118,
+            "endLine": 118,
+            "startOffset": 57,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP4sbvuChWxQ8FWe",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/services/ChangeManagementServiceImpl.java",
+        "project": "onap_vid",
+        "line": 128,
+        "hash": "3a1be7e0ccf6ff67d4203087309495c0",
+        "textRange": {
+            "startLine": 128,
+            "endLine": 128,
+            "startOffset": 79,
+            "endOffset": 80
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPgNbvuChWxQ8FRu",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/PnfProperties.java",
+        "project": "onap_vid",
+        "line": 43,
+        "hash": "93aca3feb881617140e721fb0343e201",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make equipModel a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPgNbvuChWxQ8FRw",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/PnfProperties.java",
+        "project": "onap_vid",
+        "line": 45,
+        "hash": "e0e20e370889719ed8d6fcf6550771e3",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 18,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make resourceVersion a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPgNbvuChWxQ8FRt",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/PnfProperties.java",
+        "project": "onap_vid",
+        "line": 42,
+        "hash": "b165cb42abc5b38cfb81e9c0e2142d53",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 18,
+            "endOffset": 29
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make equipVendor a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPgNbvuChWxQ8FRv",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/PnfProperties.java",
+        "project": "onap_vid",
+        "line": 44,
+        "hash": "bbf9ee46ad7e0897c34f8985a23a1b71",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 19,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make inMaint a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPgNbvuChWxQ8FRr",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/PnfProperties.java",
+        "project": "onap_vid",
+        "line": 40,
+        "hash": "2a4344b3f1e4f69f5609e0367d7ecfdd",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 18,
+            "endOffset": 25
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make pnfName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP5YbvuChWxQ8FWx",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/CmResponse.java",
+        "project": "onap_vid",
+        "line": 26,
+        "hash": "5810c6e0ac029fbb950089cb6d15f22b",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 15,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make serviceInstanceId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP5YbvuChWxQ8FWw",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/CmResponse.java",
+        "project": "onap_vid",
+        "line": 25,
+        "hash": "e89da8387bcf4d35af74c0615004ff6d",
+        "textRange": {
+            "startLine": 25,
+            "endLine": 25,
+            "startOffset": 15,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make orchestratorRequestId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP5YbvuChWxQ8FWy",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/CmResponse.java",
+        "project": "onap_vid",
+        "line": 27,
+        "hash": "d8b551b23ad07eb17dfe94b505d0967a",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 15,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make vnfInstanceId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP5YbvuChWxQ8FWz",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/CmResponse.java",
+        "project": "onap_vid",
+        "line": 28,
+        "hash": "e966daa433c63ee8e752a1ce8df8cdab",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 15,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make vnfName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPzibvuChWxQ8FVc",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/rest/AsyncRequestStatus.java",
+        "project": "onap_vid",
+        "line": 72,
+        "hash": "4e2421cad4ea1b952cabe997ee013771",
+        "textRange": {
+            "startLine": 72,
+            "endLine": 72,
+            "startOffset": 29,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make requestStatus a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPzibvuChWxQ8FVX",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/rest/AsyncRequestStatus.java",
+        "project": "onap_vid",
+        "line": 54,
+        "hash": "0fd2d90a13bf69bbdce03abaf743c536",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make requestId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPzibvuChWxQ8FVW",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/rest/AsyncRequestStatus.java",
+        "project": "onap_vid",
+        "line": 34,
+        "hash": "21fd1fb9d434149e4ef8256d6b6e20d8",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 19,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make request a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP7WbvuChWxQ8FXT",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/UpdateRequestInfo.java",
+        "project": "onap_vid",
+        "line": 33,
+        "hash": "4f19756404a848d77fffdce91aa5de7e",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 20,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make suppressRollback a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-08-22T08:55:36+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPiYbvuChWxQ8FSL",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/AaiGetTenatns/GetTenantsResponse.java",
+        "project": "onap_vid",
+        "line": 34,
+        "hash": "af0a6c8d56eb8619858b61a7f1971bab",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make cloudOwner a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-05-06T12:31:32+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP4sbvuChWxQ8FWg",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/services/ChangeManagementServiceImpl.java",
+        "project": "onap_vid",
+        "line": 137,
+        "hash": "266129d7c244514c33e41cf3dee17f71",
+        "textRange": {
+            "startLine": 137,
+            "endLine": 137,
+            "startOffset": 59,
+            "endOffset": 60
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-04-22T16:51:39+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP-wbvuChWxQ8FZA",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/dao/JobRequest.java",
+        "project": "onap_vid",
+        "line": 93,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 93,
+            "endLine": 93,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-07-30T05:01:44+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP-wbvuChWxQ8FY_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/dao/JobRequest.java",
+        "project": "onap_vid",
+        "line": 85,
+        "hash": "fdda924e16c6c8cb6afc035461946766",
+        "textRange": {
+            "startLine": 85,
+            "endLine": 85,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-07-30T05:01:44+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP-QbvuChWxQ8FY4",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/asdc/parser/ToscaNamingPolicy.java",
+        "project": "onap_vid",
+        "line": 30,
+        "hash": "cc5657fc85a6831f4d6b02e3632a354c",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 13,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-01-09T19:19:55+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPeabvuChWxQ8FRX",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/AaiGetNetworkCollectionDetails/RelationshipList.java",
+        "project": "onap_vid",
+        "line": 31,
+        "hash": "3179554a646e0f7faaea4db740078b15",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 27,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make relationship a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-08-21T11:57:49+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP6fbvuChWxQ8FXB",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/ChangeManagementResponse.java",
+        "project": "onap_vid",
+        "line": 27,
+        "hash": "84b9ce9c93314d1d328ac74a91a22335",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 25,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make cmResponses a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW83tp-CYn78RzKQowSq",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/model/ServiceInfo.java",
+        "project": "onap_vid",
+        "line": 104,
+        "hash": "d24f8c0589b33395558000a26ea39b65",
+        "textRange": {
+            "startLine": 104,
+            "endLine": 104,
+            "startOffset": 11,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 27 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-12-24T12:40:54+0100",
+        "updateDate": "2019-12-24T12:40:54+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPx9bvuChWxQ8FVH",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/model/ServiceInstantiationRequestDetails.java",
+        "project": "onap_vid",
+        "line": 191,
+        "hash": "5ef366acd1e4b5edbd913f13656f5527",
+        "textRange": {
+            "startLine": 191,
+            "endLine": 191,
+            "startOffset": 45,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make instanceParams a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPx9bvuChWxQ8FVG",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/model/ServiceInstantiationRequestDetails.java",
+        "project": "onap_vid",
+        "line": 188,
+        "hash": "1a720db5ea8e5b58cc402868922b86cb",
+        "textRange": {
+            "startLine": 188,
+            "endLine": 188,
+            "startOffset": 29,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make modelInfo a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPx9bvuChWxQ8FVI",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/model/ServiceInstantiationRequestDetails.java",
+        "project": "onap_vid",
+        "line": 192,
+        "hash": "0cfde8f079523bd4be888e3de48b9e60",
+        "textRange": {
+            "startLine": 192,
+            "endLine": 192,
+            "startOffset": 47,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make resources a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPx9bvuChWxQ8FVJ",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/model/ServiceInstantiationRequestDetails.java",
+        "project": "onap_vid",
+        "line": 223,
+        "hash": "0475a565cf20bd4f0e857a79d40544f0",
+        "textRange": {
+            "startLine": 223,
+            "endLine": 223,
+            "startOffset": 15,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-01-09T19:19:55+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW_r_dJFBz5_QLvp7E8Z",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/model/ServiceInstanceSearchResult.java",
+        "project": "onap_vid",
+        "line": 54,
+        "hash": "8d53abe857b7b30bbff13097b15ccb2e",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 8,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 9 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-01-28T12:48:40+0100",
+        "updateDate": "2020-02-04T12:39:05+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPsPbvuChWxQ8FUJ",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/model/serviceInstantiation/VfModule.java",
+        "project": "onap_vid",
+        "line": 54,
+        "hash": "ad4601eac4c11b4c1d7fc81968ae78ca",
+        "textRange": {
+            "startLine": 54,
+            "endLine": 54,
+            "startOffset": 8,
+            "endOffset": 16
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 20 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2020-05-06T13:48:49+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjQDfbvuChWxQ8Fbg",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/client/SyncRestClientInterface.java",
+        "project": "onap_vid",
+        "line": 30,
+        "hash": "d06d46f2c777fc859d72c748b2acc8d9",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 10,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-24T12:26:03+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjQDKbvuChWxQ8FbF",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/controller/ChangeManagementController.java",
+        "project": "onap_vid",
+        "line": 96,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPmobvuChWxQ8FTU",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/SubscriberListWithFilterData.java",
+        "project": "onap_vid",
+        "line": 36,
+        "hash": "72df99bb5bb43f136a96d6f9416bd5c0",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 38,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make customer a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-08-12T10:07:04+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjQBWbvuChWxQ8FZg",
+        "rule": "java:S2885",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/controller/open/HealthCheckController.java",
+        "project": "onap_vid",
+        "line": 55,
+        "hash": "b538043a15d8d5ac03fef494f589c3b1",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 36,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make \"dateFormat\" an instance variable.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2018-09-28T07:39:18+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "BUG",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPgNbvuChWxQ8FRs",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/PnfProperties.java",
+        "project": "onap_vid",
+        "line": 41,
+        "hash": "906af4e7199d79b33aaca14577c45c36",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 18,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make equipType a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPi7bvuChWxQ8FSa",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/LogicalLinkResponse.java",
+        "project": "onap_vid",
+        "line": 37,
+        "hash": "562cf7d6b27cb3a7ac25c1a9d11d5b63",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 28,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make relationshipList a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPiYbvuChWxQ8FSK",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/AaiGetTenatns/GetTenantsResponse.java",
+        "project": "onap_vid",
+        "line": 32,
+        "hash": "3758a6256a5a7ab09768351d5648795e",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 18,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make cloudRegionID a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-01-09T19:19:55+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPiYbvuChWxQ8FSM",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/AaiGetTenatns/GetTenantsResponse.java",
+        "project": "onap_vid",
+        "line": 36,
+        "hash": "2499edc4cd9b8b7550502ec46edbf3b1",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make tenantName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPiYbvuChWxQ8FSN",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/AaiGetTenatns/GetTenantsResponse.java",
+        "project": "onap_vid",
+        "line": 38,
+        "hash": "1a0c4fb26573bc0807f45693f9d71a21",
+        "textRange": {
+            "startLine": 38,
+            "endLine": 38,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make tenantID a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPiYbvuChWxQ8FSO",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/AaiGetTenatns/GetTenantsResponse.java",
+        "project": "onap_vid",
+        "line": 40,
+        "hash": "537c9f8d4d3d81ff6678a64f8a40277d",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 19,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make isPermitted a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP9qbvuChWxQ8FYQ",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/asdc/AsdcClient.java",
+        "project": "onap_vid",
+        "line": 35,
+        "hash": "77ee2ccfdfbbbc3971e83d2b01e5a22b",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 7,
+            "endOffset": 11
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-24T12:26:03+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjQDKbvuChWxQ8FbJ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/controller/ChangeManagementController.java",
+        "project": "onap_vid",
+        "line": 96,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjQDKbvuChWxQ8FbG",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/controller/ChangeManagementController.java",
+        "project": "onap_vid",
+        "line": 102,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjQDKbvuChWxQ8FbL",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/controller/ChangeManagementController.java",
+        "project": "onap_vid",
+        "line": 102,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPjMbvuChWxQ8FSe",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/PnfResult.java",
+        "project": "onap_vid",
+        "line": 42,
+        "hash": "51c843584af7feeec1bc36266893d9e3",
+        "textRange": {
+            "startLine": 42,
+            "endLine": 42,
+            "startOffset": 18,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make url a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPjMbvuChWxQ8FSc",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/PnfResult.java",
+        "project": "onap_vid",
+        "line": 40,
+        "hash": "8b7cec29663cde44174bd9618fc65ebc",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 18,
+            "endOffset": 20
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make id a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP53bvuChWxQ8FW5",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/LeanCloudConfiguration.java",
+        "project": "onap_vid",
+        "line": 34,
+        "hash": "7f6b53be5181bce143bbab7a613c9229",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make tenantId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-08-16T08:50:31+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP53bvuChWxQ8FW4",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/LeanCloudConfiguration.java",
+        "project": "onap_vid",
+        "line": 32,
+        "hash": "0d31dcfc2223ccf759d97878620658da",
+        "textRange": {
+            "startLine": 32,
+            "endLine": 32,
+            "startOffset": 15,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make lcpCloudRegionId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-08-16T08:50:31+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP53bvuChWxQ8FW6",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/LeanCloudConfiguration.java",
+        "project": "onap_vid",
+        "line": 36,
+        "hash": "af0a6c8d56eb8619858b61a7f1971bab",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 18,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make cloudOwner a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-08-16T08:50:31+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPqvbvuChWxQ8FTy",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/model/SubscriberList.java",
+        "project": "onap_vid",
+        "line": 35,
+        "hash": "1f1e9badfe420ee3e19a8781b11c9132",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 28,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make customer a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPzibvuChWxQ8FVf",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/rest/AsyncRequestStatus.java",
+        "project": "onap_vid",
+        "line": 90,
+        "hash": "08c058b204850918374ea9c9dd528bc4",
+        "textRange": {
+            "startLine": 90,
+            "endLine": 90,
+            "startOffset": 27,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make requestInfo a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-01-09T19:19:55+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPzibvuChWxQ8FVd",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/rest/AsyncRequestStatus.java",
+        "project": "onap_vid",
+        "line": 77,
+        "hash": "2cd114eedd40c85ad624961f0722ed52",
+        "textRange": {
+            "startLine": 77,
+            "endLine": 77,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make startTime a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-01-09T19:19:55+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPzibvuChWxQ8FVY",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/rest/AsyncRequestStatus.java",
+        "project": "onap_vid",
+        "line": 55,
+        "hash": "804c990abe3f112c4ccfb0f7c3c83ab0",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 22,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make requestScope a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-01-09T19:19:55+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPzibvuChWxQ8FVa",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/rest/AsyncRequestStatus.java",
+        "project": "onap_vid",
+        "line": 61,
+        "hash": "f79c9f7dc68df6c68dbfc9047233c4c1",
+        "textRange": {
+            "startLine": 61,
+            "endLine": 61,
+            "startOffset": 34,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make instanceReferences a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPzibvuChWxQ8FVb",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/rest/AsyncRequestStatus.java",
+        "project": "onap_vid",
+        "line": 67,
+        "hash": "42ffd423a6cc49572df3c3e284c511ba",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 30,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make requestDetails a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-01-09T19:19:55+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPjMbvuChWxQ8FSg",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/PnfResult.java",
+        "project": "onap_vid",
+        "line": 44,
+        "hash": "48792575e18aa8fdba3ba96585db5243",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 27,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make relatedTo a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPjMbvuChWxQ8FSf",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/PnfResult.java",
+        "project": "onap_vid",
+        "line": 43,
+        "hash": "916819b247d0155df97bfa9e13ebd4e9",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 25,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make properties a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPjMbvuChWxQ8FSd",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/PnfResult.java",
+        "project": "onap_vid",
+        "line": 41,
+        "hash": "23914fdd90617266ae12826ebe4854be",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 18,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make nodeType a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjQEcbvuChWxQ8Fbo",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/utils/Unchecked.java",
+        "project": "onap_vid",
+        "line": 55,
+        "hash": "ff6b6898634a72f63e4e9b8ef7d272c3",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 29,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-11-07T15:19:47+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP7ebvuChWxQ8FXX",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/ChangeManagementRequest.java",
+        "project": "onap_vid",
+        "line": 36,
+        "hash": "50e0d845aa9c8b2d060b17af7ac6c6f7",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 21,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPgvbvuChWxQ8FR9",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/ServiceRelationships.java",
+        "project": "onap_vid",
+        "line": 49,
+        "hash": "562cf7d6b27cb3a7ac25c1a9d11d5b63",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 25,
+            "endOffset": 41
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make relationshipList a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPgvbvuChWxQ8FR8",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/ServiceRelationships.java",
+        "project": "onap_vid",
+        "line": 47,
+        "hash": "6ef178627008314e878fb5466555abaf",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 15,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make orchestrationStatus a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPgvbvuChWxQ8FR7",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/ServiceRelationships.java",
+        "project": "onap_vid",
+        "line": 45,
+        "hash": "e0e20e370889719ed8d6fcf6550771e3",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 15,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make resourceVersion a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPgvbvuChWxQ8FR4",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/ServiceRelationships.java",
+        "project": "onap_vid",
+        "line": 39,
+        "hash": "85ac8c5508880de7759bdda57ace079b",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 15,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make workloadContext a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPgvbvuChWxQ8FR3",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/ServiceRelationships.java",
+        "project": "onap_vid",
+        "line": 37,
+        "hash": "c5880e10d033afe3b503f34e3c60010f",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 15,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make environmentContext a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPgvbvuChWxQ8FR2",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/ServiceRelationships.java",
+        "project": "onap_vid",
+        "line": 35,
+        "hash": "490e8619c41eb9991cc3fa68b9e468ac",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 15,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make serviceRole a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP6ubvuChWxQ8FXF",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/changeManagement/RequestDetailsWrapper.java",
+        "project": "onap_vid",
+        "line": 35,
+        "hash": "1ef957f8eca0527c567baced273bb442",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 13,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make requestDetails a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjQE1bvuChWxQ8Fbq",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/utils/DaoUtils.java",
+        "project": "onap_vid",
+        "line": 39,
+        "hash": "84b8c85b868f412a72fc9c6599c43edb",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPgvbvuChWxQ8FRz",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/ServiceRelationships.java",
+        "project": "onap_vid",
+        "line": 29,
+        "hash": "5810c6e0ac029fbb950089cb6d15f22b",
+        "textRange": {
+            "startLine": 29,
+            "endLine": 29,
+            "startOffset": 15,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make serviceInstanceId a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPzibvuChWxQ8FVZ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/rest/AsyncRequestStatus.java",
+        "project": "onap_vid",
+        "line": 56,
+        "hash": "da24a783bb0052de23dbd5e1dc9c05f3",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 22,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make requestType a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-07-30T05:01:44+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPzibvuChWxQ8FVg",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/rest/AsyncRequestStatus.java",
+        "project": "onap_vid",
+        "line": 96,
+        "hash": "36a023421dfb962a9a78ed0479f5e28e",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 22,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make instanceName a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2019-01-09T19:19:55+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPrObvuChWxQ8FT6",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/model/VersionByInvariantIdsRequest.java",
+        "project": "onap_vid",
+        "line": 30,
+        "hash": "baec9a84b46bcb56f59c7945c76f8d6f",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 24,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make versions a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPl4bvuChWxQ8FTP",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/AaiResponseTranslator.java",
+        "project": "onap_vid",
+        "line": 91,
+        "hash": "d97d48ed7c6abcbae961fd7301b8fa30",
+        "textRange": {
+            "startLine": 91,
+            "endLine": 91,
+            "startOffset": 33,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"PortMirroringConfigData\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPgvbvuChWxQ8FR1",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/model/ServiceRelationships.java",
+        "project": "onap_vid",
+        "line": 33,
+        "hash": "59561621b44adc991fa05705b14295e4",
+        "textRange": {
+            "startLine": 33,
+            "endLine": 33,
+            "startOffset": 15,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make serviceType a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPrdbvuChWxQ8FT8",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/model/serviceInstantiation/BaseResource.java",
+        "project": "onap_vid",
+        "line": 88,
+        "hash": "4fb31ed6ab6c2d6e99bf7237b82ac7b5",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 11,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 15 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-01-09T19:19:55+0100",
+        "updateDate": "2020-05-18T13:49:42+0200",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPxubvuChWxQ8FVE",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/mso/model/ServiceInstantiationPre1806RequestDetails.java",
+        "project": "onap_vid",
+        "line": 39,
+        "hash": "3424cba69a1841b7eefd1660c858c7f2",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 11,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2019-07-30T05:01:44+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPxUbvuChWxQ8FVB",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/job/Job.java",
+        "project": "onap_vid",
+        "line": 91,
+        "hash": "7426a7cb9237539400c3492513830ec1",
+        "textRange": {
+            "startLine": 91,
+            "endLine": 91,
+            "startOffset": 44,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2019-07-30T05:01:44+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjP4sbvuChWxQ8FWd",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/services/ChangeManagementServiceImpl.java",
+        "project": "onap_vid",
+        "line": 123,
+        "hash": "47162c3321b83b2389e469f574bde003",
+        "textRange": {
+            "startLine": 123,
+            "endLine": 123,
+            "startOffset": 58,
+            "endOffset": 59
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-01-31T16:19:00+0100",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPjtbvuChWxQ8FSw",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/util/HttpsAuthClient.java",
+        "project": "onap_vid",
+        "line": 74,
+        "hash": "26885542e6ff51e21d8fadf7c8bcf73e",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 56,
+            "endOffset": 80
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.security.GeneralSecurityException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPjtbvuChWxQ8FSx",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/util/HttpsAuthClient.java",
+        "project": "onap_vid",
+        "line": 74,
+        "hash": "26885542e6ff51e21d8fadf7c8bcf73e",
+        "textRange": {
+            "startLine": 74,
+            "endLine": 74,
+            "startOffset": 82,
+            "endOffset": 93
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-07-10T13:20:54+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6BjPjtbvuChWxQ8FSy",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_vid:vid-app-common/src/main/java/org/onap/vid/aai/util/HttpsAuthClient.java",
+        "project": "onap_vid",
+        "line": 101,
+        "hash": "4c88bf33bd49874d6aa3dcebd38aaa8b",
+        "textRange": {
+            "startLine": 101,
+            "endLine": 101,
+            "startOffset": 141,
+            "endOffset": 167
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.vid.aai.exceptions.HttpClientBuilderException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-08-06T13:40:06+0200",
+        "updateDate": "2019-11-22T12:41:50+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

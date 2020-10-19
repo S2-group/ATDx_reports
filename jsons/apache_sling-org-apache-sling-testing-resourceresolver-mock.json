@@ -1,0 +1,175 @@
+[
+    {
+        "key": "AWoh5DC9O9B58BDkzagQ",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-resourceresolver-mock:src/main/java/org/apache/sling/testing/resourceresolver/MockHelper.java",
+        "project": "apache_sling-org-apache-sling-testing-resourceresolver-mock",
+        "line": 129,
+        "hash": "58104dc4d068dce57a6d46ab8f30ecad",
+        "textRange": {
+            "startLine": 129,
+            "endLine": 129,
+            "startOffset": 22,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make path a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-04-15T18:45:45+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoh5DC9O9B58BDkzagR",
+        "rule": "java:S1104",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-resourceresolver-mock:src/main/java/org/apache/sling/testing/resourceresolver/MockHelper.java",
+        "project": "apache_sling-org-apache-sling-testing-resourceresolver-mock",
+        "line": 130,
+        "hash": "6b116369425b5e7013f89037cbca4541",
+        "textRange": {
+            "startLine": 130,
+            "endLine": 130,
+            "startOffset": 35,
+            "endOffset": 45
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make properties a static final constant or non-public and provide accessors if needed.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "cwe"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-04-15T18:45:45+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoh5DCmO9B58BDkzagF",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-resourceresolver-mock:src/main/java/org/apache/sling/testing/resourceresolver/ResourceTypeUtil.java",
+        "project": "apache_sling-org-apache-sling-testing-resourceresolver-mock",
+        "line": 26,
+        "hash": "cd3bb00660bf21249919b352e3578597",
+        "textRange": {
+            "startLine": 26,
+            "endLine": 26,
+            "startOffset": 6,
+            "endOffset": 22
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-06-28T14:32:07+0200",
+        "updateDate": "2019-04-15T18:45:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoh5DB_O9B58BDkzaf0",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-testing-resourceresolver-mock:src/main/java/org/apache/sling/testing/resourceresolver/MockResourceResolver.java",
+        "project": "apache_sling-org-apache-sling-testing-resourceresolver-mock",
+        "line": 450,
+        "hash": "9e7f72ec907f7c43f894a93128c8c46a",
+        "textRange": {
+            "startLine": 450,
+            "endLine": 450,
+            "startOffset": 20,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2015-02-03T10:52:03+0100",
+        "updateDate": "2019-04-15T18:45:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoh5DChO9B58BDkzagC",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-testing-resourceresolver-mock:src/main/java/org/apache/sling/testing/resourceresolver/MockValueMap.java",
+        "project": "apache_sling-org-apache-sling-testing-resourceresolver-mock",
+        "line": 94,
+        "hash": "4494a5343f87fea3c75ec4cb47a7f463",
+        "textRange": {
+            "startLine": 94,
+            "endLine": 94,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-04-15T18:45:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWoh5DCYO9B58BDkzaf9",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-testing-resourceresolver-mock:src/main/java/org/apache/sling/testing/resourceresolver/MockResourceResolverFactory.java",
+        "project": "apache_sling-org-apache-sling-testing-resourceresolver-mock",
+        "line": 100,
+        "hash": "7e96a7c179ed9e72814a0ec6fa21aeea",
+        "textRange": {
+            "startLine": 100,
+            "endLine": 100,
+            "startOffset": 59,
+            "endOffset": 73
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.apache.sling.api.resource.LoginException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2014-10-13T16:32:45+0200",
+        "updateDate": "2019-04-15T18:45:45+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "key": "AXFfxqRV-w3IdlBFuN2v",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-scripting-bundle-tracker:src/main/java/org/apache/sling/scripting/bundle/tracker/internal/BundledRenderUnitCapabilityImpl.java",
+        "project": "apache_sling-org-apache-sling-scripting-bundle-tracker",
+        "line": 49,
+        "hash": "a7aaed6cca279b740478f7a55728cbc8",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 12,
+            "endOffset": 43
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2020-04-09T18:07:51+0200",
+        "updateDate": "2020-04-09T18:29:17+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

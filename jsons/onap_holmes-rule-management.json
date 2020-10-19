@@ -1,0 +1,337 @@
+[
+    {
+        "key": "AW8WJNaH6Zd_Lvs82hhh",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_holmes-rule-management:rulemgt/src/main/java/org/onap/holmes/rulemgt/msb/MsbQuery.java",
+        "project": "onap_holmes-rule-management",
+        "line": 67,
+        "hash": "4d458ce0c13cbe68f2f6b1415b3eaf35",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 31,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-28T05:07:12+0200",
+        "updateDate": "2019-12-18T00:14:54+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WJNZ_6Zd_Lvs82hhf",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_holmes-rule-management:rulemgt/src/main/java/org/onap/holmes/rulemgt/msb/EngineInsQueryTool.java",
+        "project": "onap_holmes-rule-management",
+        "line": 48,
+        "hash": "bb03ee6f63d8cb98482072fcb60761c9",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 49,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-17T10:48:04+0200",
+        "updateDate": "2019-12-18T00:14:54+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WJNZh6Zd_Lvs82hhb",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_holmes-rule-management:rulemgt/src/main/java/org/onap/holmes/rulemgt/bolt/enginebolt/EngineService.java",
+        "project": "onap_holmes-rule-management",
+        "line": 43,
+        "hash": "f16bf301a09fc5f4d97754c62c77fe91",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 72,
+            "endOffset": 81
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-28T05:07:12+0200",
+        "updateDate": "2019-12-18T00:14:54+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WJNZh6Zd_Lvs82hhc",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_holmes-rule-management:rulemgt/src/main/java/org/onap/holmes/rulemgt/bolt/enginebolt/EngineService.java",
+        "project": "onap_holmes-rule-management",
+        "line": 58,
+        "hash": "61bed3e2a9c5b05f65c5bd8cbdb07be1",
+        "textRange": {
+            "startLine": 58,
+            "endLine": 58,
+            "startOffset": 19,
+            "endOffset": 28
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-06T02:47:56+0100",
+        "updateDate": "2019-12-18T00:14:54+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WJNZh6Zd_Lvs82hhd",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_holmes-rule-management:rulemgt/src/main/java/org/onap/holmes/rulemgt/bolt/enginebolt/EngineService.java",
+        "project": "onap_holmes-rule-management",
+        "line": 73,
+        "hash": "e47706039b83378a5b968bd2ccca1667",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 111,
+            "endOffset": 120
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-03-28T05:07:12+0200",
+        "updateDate": "2019-12-18T00:14:54+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WJNaH6Zd_Lvs82hhi",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_holmes-rule-management:rulemgt/src/main/java/org/onap/holmes/rulemgt/msb/MsbQuery.java",
+        "project": "onap_holmes-rule-management",
+        "line": 67,
+        "hash": "4d458ce0c13cbe68f2f6b1415b3eaf35",
+        "textRange": {
+            "startLine": 67,
+            "endLine": 67,
+            "startOffset": 31,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-28T05:07:12+0200",
+        "updateDate": "2019-12-18T00:14:54+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WJNav6Zd_Lvs82hh0",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_holmes-rule-management:rulemgt/src/main/java/org/onap/holmes/rulemgt/wrapper/RuleMgtWrapper.java",
+        "project": "onap_holmes-rule-management",
+        "line": 208,
+        "hash": "75d07d1eace62d65e77bc622241219ef",
+        "textRange": {
+            "startLine": 208,
+            "endLine": 208,
+            "startOffset": 73,
+            "endOffset": 93
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.holmes.common.exception.CorrelationException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-02-27T03:15:46+0100",
+        "updateDate": "2019-12-18T00:14:54+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WJNav6Zd_Lvs82hhz",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_holmes-rule-management:rulemgt/src/main/java/org/onap/holmes/rulemgt/wrapper/RuleMgtWrapper.java",
+        "project": "onap_holmes-rule-management",
+        "line": 183,
+        "hash": "48290774160d63b548bca694d7ae7dc8",
+        "textRange": {
+            "startLine": 183,
+            "endLine": 183,
+            "startOffset": 56,
+            "endOffset": 76
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.holmes.common.exception.CorrelationException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-02-18T08:52:31+0100",
+        "updateDate": "2019-12-18T00:14:54+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WJNal6Zd_Lvs82hhv",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_holmes-rule-management:rulemgt/src/main/java/org/onap/holmes/rulemgt/wrapper/RuleQueryWrapper.java",
+        "project": "onap_holmes-rule-management",
+        "line": 47,
+        "hash": "345d263070cf64a9e7bcbaa18bf1f78e",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 83,
+            "endOffset": 103
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.holmes.common.exception.CorrelationException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-28T05:07:12+0200",
+        "updateDate": "2019-12-18T00:14:54+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WJNal6Zd_Lvs82hhu",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_holmes-rule-management:rulemgt/src/main/java/org/onap/holmes/rulemgt/wrapper/RuleQueryWrapper.java",
+        "project": "onap_holmes-rule-management",
+        "line": 41,
+        "hash": "e3f91f3d637ea995a4125908c5c87831",
+        "textRange": {
+            "startLine": 41,
+            "endLine": 41,
+            "startOffset": 70,
+            "endOffset": 90
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.onap.holmes.common.exception.CorrelationException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-03-28T05:07:12+0200",
+        "updateDate": "2019-12-18T00:14:54+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WJNYo6Zd_Lvs82hhH",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_holmes-rule-management:rulemgt/src/main/java/org/onap/holmes/rulemgt/send/RuleAllocator.java",
+        "project": "onap_holmes-rule-management",
+        "line": 68,
+        "hash": "41ed7765b9afec41ea0d64031eebbc8b",
+        "textRange": {
+            "startLine": 68,
+            "endLine": 68,
+            "startOffset": 80,
+            "endOffset": 89
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-17T10:48:04+0200",
+        "updateDate": "2019-12-18T00:14:54+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

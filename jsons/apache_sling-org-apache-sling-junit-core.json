@@ -1,0 +1,1351 @@
+[
+    {
+        "key": "AWpDy9ijnu96bB9fy2hk",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/JacocoServlet.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 108,
+        "hash": "6d61ec6ca306270965e8559788ca1cc2",
+        "textRange": {
+            "startLine": 108,
+            "endLine": 108,
+            "startOffset": 77,
+            "endOffset": 95
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.osgi.service.http.NamespaceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-04-05T16:39:25+0200",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9ijnu96bB9fy2hj",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/JacocoServlet.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 108,
+        "hash": "6d61ec6ca306270965e8559788ca1cc2",
+        "textRange": {
+            "startLine": 108,
+            "endLine": 108,
+            "startOffset": 59,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2013-04-05T16:39:25+0200",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9ienu96bB9fy2hY",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/SlingJUnitServlet.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 101,
+        "hash": "6d61ec6ca306270965e8559788ca1cc2",
+        "textRange": {
+            "startLine": 101,
+            "endLine": 101,
+            "startOffset": 77,
+            "endOffset": 95
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.osgi.service.http.NamespaceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-04-27T22:58:25+0200",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9ienu96bB9fy2hX",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/SlingJUnitServlet.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 101,
+        "hash": "6d61ec6ca306270965e8559788ca1cc2",
+        "textRange": {
+            "startLine": 101,
+            "endLine": 101,
+            "startOffset": 59,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-04-27T22:58:25+0200",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9irnu96bB9fy2h3",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/TestLogServlet.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 116,
+        "hash": "9baaf4d209995b6048efcf1b28c6fb24",
+        "textRange": {
+            "startLine": 116,
+            "endLine": 116,
+            "startOffset": 39,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-01-14T18:54:31+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9irnu96bB9fy2h0",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/TestLogServlet.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 116,
+        "hash": "9baaf4d209995b6048efcf1b28c6fb24",
+        "textRange": {
+            "startLine": 116,
+            "endLine": 116,
+            "startOffset": 39,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-14T18:54:31+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9irnu96bB9fy2hz",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/TestLogServlet.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 108,
+        "hash": "b44fc7b7d3a64d459e1eb816df5eeb12",
+        "textRange": {
+            "startLine": 108,
+            "endLine": 108,
+            "startOffset": 77,
+            "endOffset": 86
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-01-14T18:54:31+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9janu96bB9fy2io",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/TestsManager.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 49,
+        "hash": "74169b728189d78495f3e3142e42ab73",
+        "textRange": {
+            "startLine": 49,
+            "endLine": 49,
+            "startOffset": 108,
+            "endOffset": 117
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2011-02-28T14:39:24+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9jenu96bB9fy2iq",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/RequestParser.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 63,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 12,
+            "endOffset": 13
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-03-03T16:11:07+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9jXnu96bB9fy2il",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/Activator.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 35,
+        "hash": "b110671a04580e8ded0f68333b5fc34d",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 8,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2011-02-10T15:36:17+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9jRnu96bB9fy2ij",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/TestObjectProcessor.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 21,
+        "hash": "07639863aa7833395501b42c68836415",
+        "textRange": {
+            "startLine": 21,
+            "endLine": 21,
+            "startOffset": 52,
+            "endOffset": 61
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2011-02-10T15:36:17+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9jLnu96bB9fy2ih",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/annotations/SlingAnnotationsTestRunner.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 37,
+        "hash": "16f3bf73797c0f609b37d881d19cfc6d",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 13,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2011-02-10T15:36:17+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9jHnu96bB9fy2ig",
+        "rule": "java:S1133",
+        "severity": "INFO",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/annotations/TestReference.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 35,
+        "hash": "07bfbb8382a27c5cf156359c639f9f22",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 18,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Do not forget to remove this deprecated code someday.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "obsolete"
+        ],
+        "creationDate": "2011-02-10T15:36:17+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9jCnu96bB9fy2ia",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/AnnotationsProcessor.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 63,
+        "hash": "923bfa8eaa35b4c67b12cd2591f47743",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 73,
+            "endOffset": 82
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2011-02-10T15:36:17+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9ixnu96bB9fy2iI",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/HtmlRenderer.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 193,
+        "hash": "3b78ddac9ba41fdb6adac67f22bdb0a2",
+        "textRange": {
+            "startLine": 193,
+            "endLine": 193,
+            "startOffset": 16,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2011-02-10T15:36:17+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9iwnu96bB9fy2iE",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/HtmlRenderer.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 102,
+        "hash": "9a69286df877cbbe90f7db52c90f7600",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 90,
+            "endOffset": 118
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2011-02-10T15:36:17+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9iUnu96bB9fy2g5",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/XmlRenderer.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 206,
+        "hash": "a97d87fd06af3639b79d46aa3f9bc548",
+        "textRange": {
+            "startLine": 206,
+            "endLine": 206,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2011-02-10T15:36:17+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9iUnu96bB9fy2g3",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/XmlRenderer.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 126,
+        "hash": "9a69286df877cbbe90f7db52c90f7600",
+        "textRange": {
+            "startLine": 126,
+            "endLine": 126,
+            "startOffset": 87,
+            "endOffset": 115
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2011-02-10T15:36:17+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9i7nu96bB9fy2iS",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/RendererSelectorImpl.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 88,
+        "hash": "6d61ec6ca306270965e8559788ca1cc2",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 77,
+            "endOffset": 95
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.osgi.service.http.NamespaceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2011-02-23T13:25:56+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9i7nu96bB9fy2iR",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/RendererSelectorImpl.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 88,
+        "hash": "6d61ec6ca306270965e8559788ca1cc2",
+        "textRange": {
+            "startLine": 88,
+            "endLine": 88,
+            "startOffset": 59,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2011-02-23T13:25:56+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9i7nu96bB9fy2iQ",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/RendererSelectorImpl.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 82,
+        "hash": "c7c15f39835e7e905be8d1c915169f0c",
+        "textRange": {
+            "startLine": 82,
+            "endLine": 82,
+            "startOffset": 75,
+            "endOffset": 93
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.osgi.service.http.NamespaceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2011-02-23T13:25:56+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9i7nu96bB9fy2iP",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/RendererSelectorImpl.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 82,
+        "hash": "c7c15f39835e7e905be8d1c915169f0c",
+        "textRange": {
+            "startLine": 82,
+            "endLine": 82,
+            "startOffset": 57,
+            "endOffset": 73
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2011-02-23T13:25:56+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9iOnu96bB9fy2gs",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/HtmlFilter.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 22,
+        "hash": "a03a62e9b30153bd794468d55dd8b4c5",
+        "textRange": {
+            "startLine": 22,
+            "endLine": 22,
+            "startOffset": 13,
+            "endOffset": 23
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2011-02-10T15:36:17+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9iHnu96bB9fy2go",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/JsonRenderer.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 175,
+        "hash": "3ca87435bdf85036b18a4dcb5c33f48a",
+        "textRange": {
+            "startLine": 175,
+            "endLine": 175,
+            "startOffset": 59,
+            "endOffset": 72
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.json.JsonException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-03-30T22:41:33+0200",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9iHnu96bB9fy2gn",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/JsonRenderer.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 171,
+        "hash": "a99bf5212da2875fe5cdf5fe2701f1d6",
+        "textRange": {
+            "startLine": 171,
+            "endLine": 171,
+            "startOffset": 26,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.json.JsonException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-03-30T22:41:33+0200",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9iHnu96bB9fy2gm",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/JsonRenderer.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 166,
+        "hash": "62767dc41f852e45a680381b9f1171e5",
+        "textRange": {
+            "startLine": 166,
+            "endLine": 166,
+            "startOffset": 39,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.json.JsonException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-03-30T22:41:33+0200",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9ienu96bB9fy2hV",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/SlingJUnitServlet.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 70,
+        "hash": "9cc93ef27d7934063e0746a7954aabcc",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 81,
+            "endOffset": 99
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.osgi.service.http.NamespaceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-04-27T22:58:25+0200",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9ienu96bB9fy2hU",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/SlingJUnitServlet.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 70,
+        "hash": "9cc93ef27d7934063e0746a7954aabcc",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 63,
+            "endOffset": 79
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-04-27T22:58:25+0200",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9ianu96bB9fy2hI",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/JUnitServlet.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 85,
+        "hash": "6d61ec6ca306270965e8559788ca1cc2",
+        "textRange": {
+            "startLine": 85,
+            "endLine": 85,
+            "startOffset": 77,
+            "endOffset": 95
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.osgi.service.http.NamespaceException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2011-02-23T11:30:50+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9iRnu96bB9fy2gv",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/PlainTextRenderer.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 133,
+        "hash": "e192100e748759aed0b0b8dca9286c11",
+        "textRange": {
+            "startLine": 133,
+            "endLine": 133,
+            "startOffset": 16,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2011-02-10T15:36:17+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9iRnu96bB9fy2gu",
+        "rule": "java:S1185",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/PlainTextRenderer.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 127,
+        "hash": "3b78ddac9ba41fdb6adac67f22bdb0a2",
+        "textRange": {
+            "startLine": 127,
+            "endLine": 127,
+            "startOffset": 16,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this method to simply inherit it.",
+        "effort": "2min",
+        "debt": "2min",
+        "tags": [
+            "clumsy",
+            "redundant"
+        ],
+        "creationDate": "2011-02-10T15:36:17+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9iHnu96bB9fy2gl",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/JsonRenderer.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 66,
+        "hash": "9a69286df877cbbe90f7db52c90f7600",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 90,
+            "endOffset": 118
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2011-02-23T13:00:41+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9hmnu96bB9fy2ge",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/rules/ServerSideTeleporter.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 87,
+        "hash": "8388bc26d590bde75119f6d384830ab0",
+        "textRange": {
+            "startLine": 87,
+            "endLine": 87,
+            "startOffset": 41,
+            "endOffset": 63
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'org.osgi.framework.InvalidSyntaxException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2016-11-28T18:30:09+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9h-nu96bB9fy2gg",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/rules/TeleporterRule.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 130,
+        "hash": "72e429446846a8ad19552ae0c0885504",
+        "textRange": {
+            "startLine": 130,
+            "endLine": 130,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-09-21T13:19:51+0200",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9h9nu96bB9fy2gf",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/rules/TeleporterRule.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 89,
+        "hash": "a40c27c059fee95d4620bc42e4926c3e",
+        "textRange": {
+            "startLine": 89,
+            "endLine": 89,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-09-21T13:19:51+0200",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9hlnu96bB9fy2gb",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/rules/ServerSideTeleporter.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 65,
+        "hash": "0ac63d297559418522d2dfa91c3e32be",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 17,
+            "endOffset": 27
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-09-18T17:56:19+0200",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9jXnu96bB9fy2im",
+        "rule": "java:S2696",
+        "severity": "CRITICAL",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/Activator.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 39,
+        "hash": "15674c8d0ef67dfe9abdf51dd8605e81",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 8,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make the enclosing method \"static\" or remove this set.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "multi-threading"
+        ],
+        "creationDate": "2011-02-10T15:36:17+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9jenu96bB9fy2ip",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/RequestParser.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 51,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 12,
+            "endOffset": 13
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2011-02-24T17:54:59+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9janu96bB9fy2in",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/TestsManager.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 43,
+        "hash": "0f235d77d6df449a8a38c61b9dad15d1",
+        "textRange": {
+            "startLine": 43,
+            "endLine": 43,
+            "startOffset": 82,
+            "endOffset": 91
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2011-02-23T13:25:56+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9iRnu96bB9fy2gt",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/PlainTextRenderer.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 55,
+        "hash": "9a69286df877cbbe90f7db52c90f7600",
+        "textRange": {
+            "startLine": 55,
+            "endLine": 55,
+            "startOffset": 90,
+            "endOffset": 118
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2011-02-10T15:36:17+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9iKnu96bB9fy2gp",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/ServletProcessor.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 96,
+        "hash": "f95b70fdc3088560732a5ac135644506",
+        "textRange": {
+            "startLine": 96,
+            "endLine": 96,
+            "startOffset": 8,
+            "endOffset": 9
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-04-27T22:58:25+0200",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9ianu96bB9fy2hH",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/JUnitServlet.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 85,
+        "hash": "6d61ec6ca306270965e8559788ca1cc2",
+        "textRange": {
+            "startLine": 85,
+            "endLine": 85,
+            "startOffset": 59,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2011-02-23T11:30:50+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9jUnu96bB9fy2ik",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/SlingTestContextProvider.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 23,
+        "hash": "cf6762b7731ff80c9fbdb57d6b270f3e",
+        "textRange": {
+            "startLine": 23,
+            "endLine": 23,
+            "startOffset": 13,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2014-06-27T17:38:22+0200",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9jOnu96bB9fy2ii",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/Renderer.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 36,
+        "hash": "a8e0241abfc96058059d39eabeba219d",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 83,
+            "endOffset": 111
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2011-02-23T13:00:41+0100",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWpDy9innu96bB9fy2hy",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-junit-core:src/main/java/org/apache/sling/junit/impl/servlet/JUnitResultRenderer.java",
+        "project": "apache_sling-org-apache-sling-junit-core",
+        "line": 60,
+        "hash": "a110b9ef28b3765b9b7983f7a09242f5",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 24,
+            "endOffset": 52
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2015-09-17T14:32:35+0200",
+        "updateDate": "2019-04-22T08:46:18+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]

@@ -1,0 +1,626 @@
+[
+    {
+        "key": "AXAXk8nRe9SUkepGkj7y",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-model/src/main/java/org/onap/dcae/analytics/model/util/json/mixin/cef/CriticalityMixin.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 27,
+        "hash": "bead195195a558ec55089eb77c40c7de",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"CriticalityMixin\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8nKe9SUkepGkj7x",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-model/src/main/java/org/onap/dcae/analytics/model/util/json/mixin/cef/AlertActionMixin.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 27,
+        "hash": "d9d732dcc382fa42aaf98d83301d62a7",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"AlertActionMixin\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8nCe9SUkepGkj7w",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-model/src/main/java/org/onap/dcae/analytics/model/util/json/mixin/cef/EventSeverityMixin.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 27,
+        "hash": "a317d0aa839c0013c29ef6826853d120",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 22,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"EventSeverityMixin\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8mve9SUkepGkj7v",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-model/src/main/java/org/onap/dcae/analytics/model/util/json/mixin/cef/DomainMixin.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 27,
+        "hash": "a319b22260fbc78cb923cb1cc5a064b1",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 22,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"DomainMixin\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8mle9SUkepGkj7u",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-model/src/main/java/org/onap/dcae/analytics/model/util/json/mixin/cef/PriorityMixin.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 27,
+        "hash": "4a42e9e9a6207d807776294980d9b2e2",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 22,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"PriorityMixin\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8yke9SUkepGkj82",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:eelf-logger/eelf-logger-logback-impl/src/main/java/org/onap/dcae/utils/eelf/logger/logback/utils/LogUtils.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 97,
+        "hash": "6e60c652579d75712ee3bcd6b2f2390b",
+        "textRange": {
+            "startLine": 97,
+            "endLine": 97,
+            "startOffset": 44,
+            "endOffset": 58
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "VULNERABILITY",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8wWe9SUkepGkj8e",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-test/src/main/java/org/onap/dcae/analytics/test/BaseAnalyticsTest.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 63,
+        "hash": "0f74e31570ed0c736505cd6eadb73ff6",
+        "textRange": {
+            "startLine": 63,
+            "endLine": 63,
+            "startOffset": 15,
+            "endOffset": 32
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8wWe9SUkepGkj8d",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-test/src/main/java/org/onap/dcae/analytics/test/BaseAnalyticsTest.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 320,
+        "hash": "994ac230fb0dc17586983c847ce9a1b0",
+        "textRange": {
+            "startLine": 320,
+            "endLine": 320,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8wWe9SUkepGkj8c",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-test/src/main/java/org/onap/dcae/analytics/test/BaseAnalyticsTest.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 281,
+        "hash": "994ac230fb0dc17586983c847ce9a1b0",
+        "textRange": {
+            "startLine": 281,
+            "endLine": 281,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8wWe9SUkepGkj8b",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-test/src/main/java/org/onap/dcae/analytics/test/BaseAnalyticsTest.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 102,
+        "hash": "eec4105a8b6ad38514613d5611079302",
+        "textRange": {
+            "startLine": 102,
+            "endLine": 102,
+            "startOffset": 22,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8rNe9SUkepGkj8H",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-web/src/main/java/org/onap/dcae/analytics/web/dmaap/MrSubscriberPreferences.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 62,
+        "hash": "b97c5139174301c89087d7d3a5dc43ee",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 11,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 13 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8qze9SUkepGkj8F",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-web/src/main/java/org/onap/dcae/analytics/web/util/AnalyticsHttpUtils.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 47,
+        "hash": "9e1e8b30ec8ccc38f48475cbb4c43bd5",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 22,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8p_e9SUkepGkj8A",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-web/src/main/java/org/onap/dcae/analytics/web/http/BaseHttpClientPreferences.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 59,
+        "hash": "2e2c8131a749aced6a91fff8b9e73e82",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 11,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Constructor has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8qze9SUkepGkj8E",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-web/src/main/java/org/onap/dcae/analytics/web/util/AnalyticsHttpUtils.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 47,
+        "hash": "9e1e8b30ec8ccc38f48475cbb4c43bd5",
+        "textRange": {
+            "startLine": 47,
+            "endLine": 47,
+            "startOffset": 22,
+            "endOffset": 40
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"AnalyticsHttpUtils\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8pge9SUkepGkj7_",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-model/src/main/java/org/onap/dcae/analytics/model/TcaModelConstants.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 27,
+        "hash": "ccaed1ffc4e1c82a85b135e7a4686f94",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 22,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8zye9SUkepGkj9B",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:eelf-logger/eelf-logger-logback-impl/src/main/java/org/onap/dcae/utils/eelf/logger/logback/EELFLoggerDefaults.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 45,
+        "hash": "d036fa57f677dd807c7dc30b6f6d2f61",
+        "textRange": {
+            "startLine": 45,
+            "endLine": 45,
+            "startOffset": 13,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8zhe9SUkepGkj87",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:eelf-logger/eelf-logger-logback-impl/src/main/java/org/onap/dcae/utils/eelf/logger/logback/filter/MarkerFilter.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 60,
+        "hash": "1df1f711adee5523fcde5081dda579cb",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 16,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8wWe9SUkepGkj8u",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-test/src/main/java/org/onap/dcae/analytics/test/BaseAnalyticsTest.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 433,
+        "hash": "a5aa3ea4b3ff4273539c5e7a41139506",
+        "textRange": {
+            "startLine": 433,
+            "endLine": 433,
+            "startOffset": 33,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8uye9SUkepGkj8Y",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-tca-model/src/main/java/org/onap/dcae/analytics/tca/model/util/json/mixin/policy/ClosedLoopEventStatusMixin.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 28,
+        "hash": "15305ff0525f2540dd656768e1f8545b",
+        "textRange": {
+            "startLine": 28,
+            "endLine": 28,
+            "startOffset": 22,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"ClosedLoopEventStatusMixin\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8ule9SUkepGkj8X",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-tca-model/src/main/java/org/onap/dcae/analytics/tca/model/util/json/mixin/policy/ControlLoopSchemaTypeMixin.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 27,
+        "hash": "d29f72499ae58be05c0b9f40ebbf665a",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 22,
+            "endOffset": 48
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"ControlLoopSchemaTypeMixin\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8u9e9SUkepGkj8Z",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-tca-model/src/main/java/org/onap/dcae/analytics/tca/model/util/json/mixin/policy/DirectionMixin.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 27,
+        "hash": "f79c98e8b4e66db4b292ad2e4974ff3f",
+        "textRange": {
+            "startLine": 27,
+            "endLine": 27,
+            "startOffset": 22,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"DirectionMixin\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAXk8nte9SUkepGkj7z",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-analytics-tca-gen2:dcae-analytics/dcae-analytics-model/src/main/java/org/onap/dcae/analytics/model/util/json/mixin/common/BaseDynamicPropertiesProviderMixin.java",
+        "project": "onap_dcaegen2-analytics-tca-gen2",
+        "line": 36,
+        "hash": "b773cc65dc787474e559782807c9b639",
+        "textRange": {
+            "startLine": 36,
+            "endLine": 36,
+            "startOffset": 22,
+            "endOffset": 56
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"BaseDynamicPropertiesProviderMixin\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2018-08-16T17:09:15+0200",
+        "updateDate": "2020-02-05T23:58:00+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

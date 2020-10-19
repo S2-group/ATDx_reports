@@ -1,0 +1,254 @@
+[
+    {
+        "key": "AW_U-i_dxqcnyLmQbf6C",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_policy-apex-pdp:model/utilities/src/main/java/org/onap/policy/apex/model/utilities/CollectionUtils.java",
+        "project": "onap_policy-apex-pdp",
+        "line": 31,
+        "hash": "91d8dc53323266c374d2a794e3997742",
+        "textRange": {
+            "startLine": 31,
+            "endLine": 31,
+            "startOffset": 22,
+            "endOffset": 37
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"CollectionUtils\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2020-01-24T01:29:02+0100",
+        "updateDate": "2020-01-24T01:29:02+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmmbO2OOXxfpkJZam",
+        "rule": "java:S1610",
+        "severity": "MINOR",
+        "component": "onap_policy-apex-pdp:model/utilities/src/main/java/org/onap/policy/apex/model/utilities/TreeMapUtils.java",
+        "project": "onap_policy-apex-pdp",
+        "line": 35,
+        "hash": "9163b27436c7e55a286a08387b1efa37",
+        "textRange": {
+            "startLine": 35,
+            "endLine": 35,
+            "startOffset": 22,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Convert the abstract class \"TreeMapUtils\" into an interface.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "java8"
+        ],
+        "creationDate": "2018-05-24T13:30:24+0200",
+        "updateDate": "2019-11-26T03:44:15+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmmZv2OOXxfpkJZaj",
+        "rule": "java:S1210",
+        "severity": "MINOR",
+        "component": "onap_policy-apex-pdp:model/policy-model/src/main/java/org/onap/policy/apex/model/policymodel/concepts/AxStateTree.java",
+        "project": "onap_policy-apex-pdp",
+        "line": 140,
+        "hash": "67bff1be87723fbf8e67308550990701",
+        "textRange": {
+            "startLine": 140,
+            "endLine": 140,
+            "startOffset": 15,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Override \"equals(Object obj)\" to comply with the contract of the \"compareTo(T o)\" method.",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [],
+        "creationDate": "2018-05-28T15:35:30+0200",
+        "updateDate": "2019-11-26T03:44:15+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmmdx2OOXxfpkJZat",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "onap_policy-apex-pdp:model/model-api/src/main/java/org/onap/policy/apex/model/modelapi/impl/ApexModelImpl.java",
+        "project": "onap_policy-apex-pdp",
+        "line": 91,
+        "hash": "f667bc6e7b345b28343c3194fa9ea782",
+        "textRange": {
+            "startLine": 91,
+            "endLine": 91,
+            "startOffset": 21,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2018-05-28T15:35:30+0200",
+        "updateDate": "2019-11-26T03:44:15+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmmev2OOXxfpkJZaz",
+        "rule": "java:S2975",
+        "severity": "BLOCKER",
+        "component": "onap_policy-apex-pdp:model/model-api/src/main/java/org/onap/policy/apex/model/modelapi/ApexModel.java",
+        "project": "onap_policy-apex-pdp",
+        "line": 37,
+        "hash": "9aeb2d9a75c355fd6b5a5b6e8f7f6046",
+        "textRange": {
+            "startLine": 37,
+            "endLine": 37,
+            "startOffset": 14,
+            "endOffset": 19
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove this \"clone\" implementation; use a copy constructor or copy factory instead.",
+        "effort": "30min",
+        "debt": "30min",
+        "tags": [
+            "suspicious"
+        ],
+        "creationDate": "2018-05-28T15:35:30+0200",
+        "updateDate": "2019-11-26T03:44:15+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmmem2OOXxfpkJZay",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_policy-apex-pdp:model/model-api/src/main/java/org/onap/policy/apex/model/modelapi/ApexEditorApi.java",
+        "project": "onap_policy-apex-pdp",
+        "line": 874,
+        "hash": "d2340149288efc92899deed243c5fc8f",
+        "textRange": {
+            "startLine": 874,
+            "endLine": 874,
+            "startOffset": 18,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-09-10T18:07:47+0200",
+        "updateDate": "2019-11-26T03:44:15+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmmem2OOXxfpkJZax",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_policy-apex-pdp:model/model-api/src/main/java/org/onap/policy/apex/model/modelapi/ApexEditorApi.java",
+        "project": "onap_policy-apex-pdp",
+        "line": 330,
+        "hash": "a3b21b15748c6d6df49f9a5a53a4f1ec",
+        "textRange": {
+            "startLine": 330,
+            "endLine": 330,
+            "startOffset": 18,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-09-10T18:07:47+0200",
+        "updateDate": "2019-11-26T03:44:15+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmmem2OOXxfpkJZaw",
+        "rule": "java:S107",
+        "severity": "MAJOR",
+        "component": "onap_policy-apex-pdp:model/model-api/src/main/java/org/onap/policy/apex/model/modelapi/ApexEditorApi.java",
+        "project": "onap_policy-apex-pdp",
+        "line": 309,
+        "hash": "340b709e2fcb4cfabd459ff4b5e1bc59",
+        "textRange": {
+            "startLine": 309,
+            "endLine": 309,
+            "startOffset": 18,
+            "endOffset": 36
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Method has 8 parameters, which is greater than 7 authorized.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "brain-overload"
+        ],
+        "creationDate": "2018-09-10T18:07:47+0200",
+        "updateDate": "2019-11-26T03:44:15+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lmmdx2OOXxfpkJZau",
+        "rule": "java:S1182",
+        "severity": "MINOR",
+        "component": "onap_policy-apex-pdp:model/model-api/src/main/java/org/onap/policy/apex/model/modelapi/impl/ApexModelImpl.java",
+        "project": "onap_policy-apex-pdp",
+        "line": 91,
+        "hash": "f667bc6e7b345b28343c3194fa9ea782",
+        "textRange": {
+            "startLine": 91,
+            "endLine": 91,
+            "startOffset": 21,
+            "endOffset": 26
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Use super.clone() to create and seed the cloned instance to be returned.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "convention",
+            "cwe"
+        ],
+        "creationDate": "2018-05-28T15:35:30+0200",
+        "updateDate": "2019-11-26T03:44:15+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

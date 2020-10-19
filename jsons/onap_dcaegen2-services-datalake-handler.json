@@ -1,0 +1,216 @@
+[
+    {
+        "key": "AW6lUn2FwQN7qqDOsv5i",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-datalake-handler:feeder/src/main/java/org/onap/datalake/feeder/service/DesignService.java",
+        "project": "onap_dcaegen2-services-datalake-handler",
+        "line": 86,
+        "hash": "273cda54dd96d40f966b85cae266149e",
+        "textRange": {
+            "startLine": 86,
+            "endLine": 86,
+            "startOffset": 74,
+            "endOffset": 98
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-07-11T10:01:54+0200",
+        "updateDate": "2019-11-26T02:27:33+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW8WPu_p77yBFjGO8JJx",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-datalake-handler:feeder/src/main/java/org/onap/datalake/feeder/controller/DbController.java",
+        "project": "onap_dcaegen2-services-datalake-handler",
+        "line": 170,
+        "hash": "75526cec63eaf0525d80e73601a2566c",
+        "textRange": {
+            "startLine": 170,
+            "endLine": 170,
+            "startOffset": 92,
+            "endOffset": 103
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-12-18T00:43:21+0100",
+        "updateDate": "2019-12-18T00:43:21+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lUn0awQN7qqDOsv4o",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-datalake-handler:feeder/src/main/java/org/onap/datalake/feeder/controller/FeederController.java",
+        "project": "onap_dcaegen2-services-datalake-handler",
+        "line": 60,
+        "hash": "f24658ce85cee262cce958d80d52ba5c",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 33,
+            "endOffset": 44
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-26T23:06:46+0100",
+        "updateDate": "2019-11-26T02:27:33+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lUnzWwQN7qqDOsv4Q",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "onap_dcaegen2-services-datalake-handler:feeder/src/main/java/org/onap/datalake/feeder/util/Util.java",
+        "project": "onap_dcaegen2-services-datalake-handler",
+        "line": 34,
+        "hash": "a7ae4d6a19bbdfd2bcd1ef8d94580e51",
+        "textRange": {
+            "startLine": 34,
+            "endLine": 34,
+            "startOffset": 13,
+            "endOffset": 17
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2019-03-26T23:06:46+0100",
+        "updateDate": "2019-11-26T02:27:33+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AXAlRiupI_OpUhvM_Dz2",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-datalake-handler:feeder/src/main/java/org/onap/datalake/feeder/controller/DbController.java",
+        "project": "onap_dcaegen2-services-datalake-handler",
+        "line": 265,
+        "hash": "4e1f6c44fb779d48a9c32709d1a8e1cb",
+        "textRange": {
+            "startLine": 265,
+            "endLine": 265,
+            "startOffset": 73,
+            "endOffset": 84
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2020-01-22T02:26:30+0100",
+        "updateDate": "2020-02-08T15:48:01+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lUnzAwQN7qqDOsv4M",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-datalake-handler:feeder/src/main/java/org/onap/datalake/feeder/util/DruidSupervisorGenerator.java",
+        "project": "onap_dcaegen2-services-datalake-handler",
+        "line": 154,
+        "hash": "b1b1e6a66a6684ebb8b29daaed186598",
+        "textRange": {
+            "startLine": 154,
+            "endLine": 154,
+            "startOffset": 50,
+            "endOffset": 71
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.net.MalformedURLException' which is a subclass of 'java.io.IOException'.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-03-26T23:06:46+0100",
+        "updateDate": "2019-11-26T02:27:33+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    },
+    {
+        "key": "AW6lUn0JwQN7qqDOsv4h",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "onap_dcaegen2-services-datalake-handler:feeder/src/main/java/org/onap/datalake/feeder/controller/DbController.java",
+        "project": "onap_dcaegen2-services-datalake-handler",
+        "line": 274,
+        "hash": "7ca2bd75581a3918368924869455844d",
+        "textRange": {
+            "startLine": 274,
+            "endLine": 274,
+            "startOffset": 121,
+            "endOffset": 132
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2019-04-23T04:16:42+0200",
+        "updateDate": "2019-11-26T02:27:33+0100",
+        "type": "CODE_SMELL",
+        "organization": "onap",
+        "fromHotspot": false
+    }
+]

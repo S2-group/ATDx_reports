@@ -1,0 +1,1335 @@
+[
+    {
+        "key": "AWo99TqsK1LJlmpkg8fU",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/CommandUtil.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 30,
+        "hash": "578a8527881062860f29ba87581ce0b3",
+        "textRange": {
+            "startLine": 30,
+            "endLine": 30,
+            "startOffset": 63,
+            "endOffset": 87
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2018-09-04T17:27:27+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99Tq-K1LJlmpkg8fl",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/ACLPipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 229,
+        "hash": "e8c7fa2919757a1485931c389389206f",
+        "textRange": {
+            "startLine": 229,
+            "endLine": 229,
+            "startOffset": 86,
+            "endOffset": 95
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-09-10T19:52:21+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsnK1LJlmpkg8h_",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/SuperPipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 66,
+        "hash": "98fc760c263e4f831bd1bf117b7c2004",
+        "textRange": {
+            "startLine": 66,
+            "endLine": 66,
+            "startOffset": 73,
+            "endOffset": 82
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-12T11:18:22+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsnK1LJlmpkg8h-",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/SuperPipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 60,
+        "hash": "5e1ef29d541bc42d8bfeaf1803035142",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 48,
+            "endOffset": 57
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-12T11:18:22+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsxK1LJlmpkg8iP",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/Plumber.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 104,
+        "hash": "c84f7e7ecc07d9691468551477714fc5",
+        "textRange": {
+            "startLine": 104,
+            "endLine": 104,
+            "startOffset": 122,
+            "endOffset": 131
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-11T23:19:34+0100",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsxK1LJlmpkg8iO",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/Plumber.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 89,
+        "hash": "c550972a8f84ee675ef19ecc6af55600",
+        "textRange": {
+            "startLine": 89,
+            "endLine": 89,
+            "startOffset": 124,
+            "endOffset": 133
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-11T23:19:34+0100",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsTK1LJlmpkg8hs",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/Pipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 127,
+        "hash": "9619fdb4dcb7b6f0006b74f5fd8e4fd4",
+        "textRange": {
+            "startLine": 127,
+            "endLine": 127,
+            "startOffset": 24,
+            "endOffset": 33
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-12T11:51:39+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsTK1LJlmpkg8hr",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/Pipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 121,
+        "hash": "c8561b9b943eadd3dbf574c63b407443",
+        "textRange": {
+            "startLine": 121,
+            "endLine": 121,
+            "startOffset": 25,
+            "endOffset": 34
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-12T11:51:39+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsPK1LJlmpkg8hm",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/JsonUtil.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 39,
+        "hash": "1b0ceee96edf8f440fee09c5b1e82524",
+        "textRange": {
+            "startLine": 39,
+            "endLine": 39,
+            "startOffset": 13,
+            "endOffset": 21
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2017-05-31T22:51:17+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsJK1LJlmpkg8hb",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/PlumberImpl.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 326,
+        "hash": "a1ef87bd4e7b1791f092468f823f3965",
+        "textRange": {
+            "startLine": 326,
+            "endLine": 326,
+            "startOffset": 122,
+            "endOffset": 131
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-11T23:19:34+0100",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsJK1LJlmpkg8ha",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/PlumberImpl.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 263,
+        "hash": "463dc4ab0531d0ce546687c8211ef22b",
+        "textRange": {
+            "startLine": 263,
+            "endLine": 263,
+            "startOffset": 26,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-05-24T09:22:22+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsJK1LJlmpkg8hZ",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/PlumberImpl.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 254,
+        "hash": "6e6aaf4d55edaa0da5da1b0c26185282",
+        "textRange": {
+            "startLine": 254,
+            "endLine": 254,
+            "startOffset": 30,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-05T13:20:59+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsJK1LJlmpkg8hY",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/PlumberImpl.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 237,
+        "hash": "a8df4a0d23dd45dc8389c2f101a2bae4",
+        "textRange": {
+            "startLine": 237,
+            "endLine": 237,
+            "startOffset": 22,
+            "endOffset": 31
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-12-07T15:19:52+0100",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TrlK1LJlmpkg8gn",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/MultiPropertyPipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 84,
+        "hash": "9514dcac08862b018fb5c02ab8ff8a2d",
+        "textRange": {
+            "startLine": 84,
+            "endLine": 84,
+            "startOffset": 30,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-12-07T15:19:52+0100",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TrlK1LJlmpkg8go",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/MultiPropertyPipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 87,
+        "hash": "bd884bb23c5bf5dae78a83daf3ca66e1",
+        "textRange": {
+            "startLine": 87,
+            "endLine": 87,
+            "startOffset": 30,
+            "endOffset": 39
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-12-07T15:19:52+0100",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99Tr7K1LJlmpkg8hE",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/ReferencePipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 60,
+        "hash": "72f772ccc6eb89ec28e1165cd546fa3d",
+        "textRange": {
+            "startLine": 60,
+            "endLine": 60,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-12T11:18:22+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99Tr7K1LJlmpkg8hD",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/ReferencePipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 56,
+        "hash": "ae39bf87fa8f73e1bbda25d3a0805f58",
+        "textRange": {
+            "startLine": 56,
+            "endLine": 56,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-12T11:18:22+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TqsK1LJlmpkg8fT",
+        "rule": "java:S1118",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/CommandUtil.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 24,
+        "hash": "132a8bf382a54686257cd36aed2a9372",
+        "textRange": {
+            "startLine": 24,
+            "endLine": 24,
+            "startOffset": 13,
+            "endOffset": 24
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add a private constructor to hide the implicit public one.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "design"
+        ],
+        "creationDate": "2018-09-04T17:27:27+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TqoK1LJlmpkg8fS",
+        "rule": "java:S1161",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/slingquery/AbstractSlingQueryPipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 51,
+        "hash": "7b7df825f09115913c809bfa326d2b58",
+        "textRange": {
+            "startLine": 51,
+            "endLine": 51,
+            "startOffset": 33,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Add the \"@Override\" annotation above this method signature",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-05-14T09:27:46+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsrK1LJlmpkg8iG",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/BasePipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 103,
+        "hash": "c0beb5a32e0764156c1a499e87e3bd31",
+        "textRange": {
+            "startLine": 103,
+            "endLine": 103,
+            "startOffset": 91,
+            "endOffset": 100
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-06-08T15:43:53+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsPK1LJlmpkg8hq",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/JsonUtil.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 52,
+        "hash": "8cdc4b6c6327c8e6d6a7df03de45a07d",
+        "textRange": {
+            "startLine": 52,
+            "endLine": 52,
+            "startOffset": 96,
+            "endOffset": 109
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.json.JsonException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-05-31T22:51:17+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsPK1LJlmpkg8hp",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/JsonUtil.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 48,
+        "hash": "d420b8f66812852c9b13bf088bc3d075",
+        "textRange": {
+            "startLine": 48,
+            "endLine": 48,
+            "startOffset": 60,
+            "endOffset": 73
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.json.JsonException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-05-31T22:51:17+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsPK1LJlmpkg8ho",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/JsonUtil.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 44,
+        "hash": "d4a1fdd77ec8a9c1ca67e9a912a11e8b",
+        "textRange": {
+            "startLine": 44,
+            "endLine": 44,
+            "startOffset": 62,
+            "endOffset": 75
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.json.JsonException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-05-31T22:51:17+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsPK1LJlmpkg8hn",
+        "rule": "java:S1130",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/JsonUtil.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 40,
+        "hash": "7499e5dafc3f9a93ff3cd0302afe4cd4",
+        "textRange": {
+            "startLine": 40,
+            "endLine": 40,
+            "startOffset": 59,
+            "endOffset": 72
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Remove the declaration of thrown exception 'javax.json.JsonException' which is a runtime exception.",
+        "effort": "5min",
+        "debt": "5min",
+        "tags": [
+            "clumsy",
+            "error-handling",
+            "redundant",
+            "unused"
+        ],
+        "creationDate": "2017-05-31T22:51:17+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsdK1LJlmpkg8h6",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/PipeBuilder.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 369,
+        "hash": "068c9f9fff0f20ff9dae46f525316da8",
+        "textRange": {
+            "startLine": 369,
+            "endLine": 369,
+            "startOffset": 55,
+            "endOffset": 64
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-11T23:19:34+0100",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsdK1LJlmpkg8h7",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/PipeBuilder.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 386,
+        "hash": "4a3e38fbd3c07a63fec72b7c64f335b1",
+        "textRange": {
+            "startLine": 386,
+            "endLine": 386,
+            "startOffset": 69,
+            "endOffset": 78
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-09-11T17:24:54+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsrK1LJlmpkg8iJ",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/BasePipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 73,
+        "hash": "c8bbab09a20f14aba7e99f71f551b98b",
+        "textRange": {
+            "startLine": 73,
+            "endLine": 73,
+            "startOffset": 37,
+            "endOffset": 55
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2018-04-24T15:17:13+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TrfK1LJlmpkg8gT",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/GogoCommands.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 419,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 419,
+            "endLine": 419,
+            "startOffset": 29,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-04T17:27:27+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TrfK1LJlmpkg8gS",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/GogoCommands.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 411,
+        "hash": "6ff42ab1646162f2484d88c3153f1997",
+        "textRange": {
+            "startLine": 411,
+            "endLine": 411,
+            "startOffset": 37,
+            "endOffset": 38
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-04T17:27:27+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TrfK1LJlmpkg8gR",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/GogoCommands.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 407,
+        "hash": "65d33d9272e6a0089f7b8873a46170af",
+        "textRange": {
+            "startLine": 407,
+            "endLine": 407,
+            "startOffset": 34,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-04T17:27:27+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TrfK1LJlmpkg8gQ",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/GogoCommands.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 403,
+        "hash": "7cf7978f68f2662447c34a5fc6b8e2fb",
+        "textRange": {
+            "startLine": 403,
+            "endLine": 403,
+            "startOffset": 34,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-04T17:27:27+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TrfK1LJlmpkg8gP",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/GogoCommands.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 399,
+        "hash": "032cb7ee3453a496ae6a7050ffde9fb7",
+        "textRange": {
+            "startLine": 399,
+            "endLine": 399,
+            "startOffset": 34,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-04T17:27:27+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsWK1LJlmpkg8hx",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/AbstractInputStreamPipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 106,
+        "hash": "bc93bc6656e5d30ce3d9c75dc43d3c27",
+        "textRange": {
+            "startLine": 106,
+            "endLine": 106,
+            "startOffset": 81,
+            "endOffset": 90
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-14T09:27:46+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsWK1LJlmpkg8hw",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/AbstractInputStreamPipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 76,
+        "hash": "015af41b65f8e183c5461686363d4723",
+        "textRange": {
+            "startLine": 76,
+            "endLine": 76,
+            "startOffset": 40,
+            "endOffset": 49
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-14T09:27:46+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TrfK1LJlmpkg8gO",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/GogoCommands.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 395,
+        "hash": "5b338e60dea53c93ac21b9090d590a09",
+        "textRange": {
+            "startLine": 395,
+            "endLine": 395,
+            "startOffset": 34,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2018-09-04T17:27:27+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TrVK1LJlmpkg8gF",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/WritePipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 70,
+        "hash": "b50ab012d41a32c027976f42e3df5a94",
+        "textRange": {
+            "startLine": 70,
+            "endLine": 70,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-01-29T10:08:54+0100",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TrfK1LJlmpkg8gU",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/GogoCommands.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 93,
+        "hash": "6e3f037728c8bafcf47d882b20d79bfb",
+        "textRange": {
+            "startLine": 93,
+            "endLine": 93,
+            "startOffset": 45,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-09-04T17:27:27+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsFK1LJlmpkg8hR",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/PlumberServlet.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 99,
+        "hash": "fbe061a45eacb2a927d8adad44aea22c",
+        "textRange": {
+            "startLine": 99,
+            "endLine": 99,
+            "startOffset": 26,
+            "endOffset": 35
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2015-12-07T15:19:52+0100",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TrQK1LJlmpkg8f7",
+        "rule": "java:S2386",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/PipeBuilderImpl.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 65,
+        "hash": "54233d03dcbd24b0ac3c876ac13589f2",
+        "textRange": {
+            "startLine": 65,
+            "endLine": 65,
+            "startOffset": 33,
+            "endOffset": 46
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Make this member \"protected\".",
+        "effort": "15min",
+        "debt": "15min",
+        "tags": [
+            "cert",
+            "cwe",
+            "unpredictable"
+        ],
+        "creationDate": "2017-07-06T12:04:52+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "VULNERABILITY",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TrlK1LJlmpkg8gl",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/MultiPropertyPipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 62,
+        "hash": "6e77d8245bb1f298bcbc11cf9e7e5ca6",
+        "textRange": {
+            "startLine": 62,
+            "endLine": 62,
+            "startOffset": 29,
+            "endOffset": 30
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-12-07T15:19:52+0100",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TrlK1LJlmpkg8gk",
+        "rule": "java:S1199",
+        "severity": "MINOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/MultiPropertyPipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 59,
+        "hash": "c1a9e967c8784f32e7b22347b73c8f98",
+        "textRange": {
+            "startLine": 59,
+            "endLine": 59,
+            "startOffset": 46,
+            "endOffset": 47
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Extract this nested code block into a method.",
+        "effort": "10min",
+        "debt": "10min",
+        "tags": [
+            "bad-practice"
+        ],
+        "creationDate": "2015-12-07T15:19:52+0100",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWy-fmEqkGOgyklak1sC",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/internal/MovePipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 132,
+        "hash": "0756df52324bcece68c2f987bc5d6d0b",
+        "textRange": {
+            "startLine": 132,
+            "endLine": 132,
+            "startOffset": 101,
+            "endOffset": 110
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2019-08-23T12:03:39+0200",
+        "updateDate": "2019-08-23T14:37:16+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsrK1LJlmpkg8iH",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/BasePipe.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 368,
+        "hash": "7b7df825f09115913c809bfa326d2b58",
+        "textRange": {
+            "startLine": 368,
+            "endLine": 368,
+            "startOffset": 56,
+            "endOffset": 65
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2018-05-14T09:27:46+0200",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsdK1LJlmpkg8h5",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/PipeBuilder.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 361,
+        "hash": "c96ade9375511413296c7561787ab372",
+        "textRange": {
+            "startLine": 361,
+            "endLine": 361,
+            "startOffset": 45,
+            "endOffset": 54
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-11T23:19:34+0100",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    },
+    {
+        "key": "AWo99TsdK1LJlmpkg8h4",
+        "rule": "java:S112",
+        "severity": "MAJOR",
+        "component": "apache_sling-org-apache-sling-pipes:src/main/java/org/apache/sling/pipes/PipeBuilder.java",
+        "project": "apache_sling-org-apache-sling-pipes",
+        "line": 353,
+        "hash": "2e3e843805f897cb9f51e4ed46d86b6b",
+        "textRange": {
+            "startLine": 353,
+            "endLine": 353,
+            "startOffset": 33,
+            "endOffset": 42
+        },
+        "flows": [],
+        "status": "OPEN",
+        "message": "Define and throw a dedicated exception instead of using a generic one.",
+        "effort": "20min",
+        "debt": "20min",
+        "tags": [
+            "cert",
+            "cwe",
+            "error-handling"
+        ],
+        "creationDate": "2017-11-11T23:19:34+0100",
+        "updateDate": "2019-04-21T05:33:34+0200",
+        "type": "CODE_SMELL",
+        "organization": "apache",
+        "fromHotspot": false
+    }
+]
