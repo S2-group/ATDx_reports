@@ -1,7 +1,7 @@
 # ATDx Report Summary
 Our ATDx analysis targets a portfolio of software projects and identifies the pain points of each project in terms of Architectural Technical Debt (ATD). This evaluation is based on a statistical analysis of the violations of SonarCloud rules.
 
-ATDx provides an overview of the architectural technical debt in a project  in 6 distinct dimensions:
+[ATDx](https://robertoverdecchia.github.io/papers/ENASE_2020.pdf) provides an overview of the architectural technical debt in a project  in 6 distinct dimensions:
 * **Inheritance**: flaws concerning inheritance mechanisms between classes, such as overrides and inheritance of methods or fields
 * **Exception**: flaws regarding the management of Java exceptions and the subclassing of the “Exception” Java class.
 * **JVMS**: potential misuses of the Java Virtual Machine, e.g., the incorrect usage of the specific Java class “Serializable”
