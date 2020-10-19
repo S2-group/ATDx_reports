@@ -20,10 +20,10 @@ Note that if numerous classes with 1 violation are reported, this might point to
 ## Radar charts
 |||
 |-|-|
-|<p align="center">Project 1</p><img src="https://github.com/robertoverdecchia/ATDx_report_sandbox/blob/master/plots/ant-master.jpg"/> <p style="text-align:left">[Project on Github](https://github.com/apache/ant) <br> [Project on SonarCloud ](https://sonarcloud.io/dashboard?id=ant-master) <br> [Complete issue report (JSON)](https://github.com/robertoverdecchia/ATDx_report_sandbox/blob/master/jsons/ant-master.json)</p>|<p align="center">Project 2</p><img src="https://github.com/robertoverdecchia/ATDx_report_sandbox/blob/master/plots/commons-compress.jpg"/> <p style="text-align:left">[Project on Github](https://github.com/apache/commons-compress) <br> [Project on SonarCloud ](https://sonarcloud.io/dashboard?id=commons-compress) <br> [Complete issue report (JSON)](https://github.com/robertoverdecchia/ATDx_report_sandbox/blob/master/jsons/commons-compress.json)</p>
+|<p align="center">Project 1</p><img src="https://github.com/S2-group/ATDx_reports/blob/master/plots/ant-master.jpg"/> <p style="text-align:left">[Project on Github](https://github.com/apache/ant) <br> [Project on SonarCloud ](https://sonarcloud.io/dashboard?id=ant-master) <br> [Complete issue report (JSON)](https://github.com/S2-group/ATDx_reports/blob/master/jsons/ant-master.json)</p>|<p align="center">Project 2</p><img src="https://github.com/S2-group/ATDx_reports/blob/master/plots/commons-compress.jpg"/> <p style="text-align:left">[Project on Github](https://github.com/apache/commons-compress) <br> [Project on SonarCloud ](https://sonarcloud.io/dashboard?id=commons-compress) <br> [Complete issue report (JSON)](https://github.com/S2-group/ATDx_reports/blob/master/jsons/commons-compress.json)</p>
 # Project report summaries
 ## Project 1: _apache/ant_
-|<img src="https://github.com/robertoverdecchia/ATDx_report_sandbox/blob/master/plots/ant-master.jpg"/>|<p style="text-align:left">[Project on Github](https://github.com/apache/ant) <br> [Project on SonarCloud ](https://sonarcloud.io/dashboard?id=ant-master) <br> [Complete issue report (JSON)](https://github.com/robertoverdecchia/ATDx_report_sandbox/blob/master/jsons/ant-master.json)</p>
+|<img src="https://github.com/S2-group/ATDx_reports/blob/master/plots/ant-master.jpg"/>|<p style="text-align:left">[Project on Github](https://github.com/apache/ant) <br> [Project on SonarCloud ](https://sonarcloud.io/dashboard?id=ant-master) <br> [Complete issue report (JSON)](https://github.com/S2-group/ATDx_reports/blob/master/jsons/ant-master.json)</p>
 |-|-|
 ### Top classes with architectural debt violations
 | Class name               |   Total issues |   Inheritance |   Exception |   JVMS |   Interface |   Threading |   Complexity | Fully qualified class name                                                 |
@@ -40,7 +40,7 @@ Note that if numerous classes with 1 violation are reported, this might point to
 | ProjectHelper.java       |             14 |             0 |           9 |      0 |           5 |           0 |            0 | src/main/org/apache/tools/ant/ProjectHelper.java                           |
 
 ## Project 2: _apache/commons-compress_
-|<img src="https://github.com/robertoverdecchia/ATDx_report_sandbox/blob/master/plots/commons-compress.jpg"/>|<p style="text-align:left">[Project on Github](https://github.com/apache/commons-compress) <br> [Project on SonarCloud ](https://sonarcloud.io/dashboard?id=commons-compress) <br> [Complete issue report (JSON)](https://github.com/robertoverdecchia/ATDx_report_sandbox/blob/master/jsons/commons-compress.json)</p>
+|<img src="https://github.com/S2-group/ATDx_reports/blob/master/plots/commons-compress.jpg"/>|<p style="text-align:left">[Project on Github](https://github.com/apache/commons-compress) <br> [Project on SonarCloud ](https://sonarcloud.io/dashboard?id=commons-compress) <br> [Complete issue report (JSON)](https://github.com/S2-group/ATDx_reports/blob/master/jsons/commons-compress.json)</p>
 |-|-|
 ### Top classes with architectural debt violations
 | Class name                       |   Total issues |   Inheritance |   Exception |   JVMS |   Interface |   Threading |   Complexity | Fully qualified class name                                                                   |
