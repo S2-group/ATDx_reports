@@ -40,13 +40,13 @@ If you are curious about more theoretical background on ATDx, you can have a loo
 ### Top classes with architectural debt violations
 | Class name                   | Total issues   | Inheritance   | Exception   | JVMS   | Interface   | Threading   | Complexity   | Fully qualified class name                                                     |
 |:-----------------------------|:---------------|:--------------|:------------|:-------|:------------|:------------|:-------------|:-------------------------------------------------------------------------------|
-| ConfiguratorUtil.java        | 3              | 0             | 2           | 0      | 1           | 0           | 0            | src/main/java/org/apache/sling/feature/io/ConfiguratorUtil.java                |
+| ConfiguratorUtil.java        | 4              | 0             | 2           | 0      | 1           | 0           | 1            | src/main/java/org/apache/sling/feature/io/ConfiguratorUtil.java                |
+| CloseShieldWriter.java       | 2              | 0             | 0           | 0      | 1           | 0           | 1            | src/main/java/org/apache/sling/feature/io/CloseShieldWriter.java               |
 | ConfigurationJSONWriter.java | 1              | 0             | 1           | 0      | 0           | 0           | 0            | src/main/java/org/apache/sling/feature/io/json/ConfigurationJSONWriter.java    |
 | ArtifactManagerConfig.java   | 1              | 0             | 1           | 0      | 0           | 0           | 0            | src/main/java/org/apache/sling/feature/io/artifacts/ArtifactManagerConfig.java |
 | ArchiveWriter.java           | 1              | 0             | 0           | 0      | 1           | 0           | 0            | src/main/java/org/apache/sling/feature/io/archive/ArchiveWriter.java           |
 | IOUtils.java                 | 1              | 0             | 0           | 0      | 1           | 0           | 0            | src/main/java/org/apache/sling/feature/io/IOUtils.java                         |
 | JSONConstants.java           | 1              | 0             | 0           | 0      | 1           | 0           | 0            | src/main/java/org/apache/sling/feature/io/json/JSONConstants.java              |
-| CloseShieldWriter.java       | 1              | 0             | 0           | 0      | 1           | 0           | 0            | src/main/java/org/apache/sling/feature/io/CloseShieldWriter.java               |
 | ManifestUtils.java           | 1              | 0             | 0           | 0      | 1           | 0           | 0            | src/main/java/org/apache/sling/feature/io/json/ManifestUtils.java              |
 | -                            | -              | -             | -           | -      | -           | -           | -            | -                                                                              |
 | -                            | -              | -             | -           | -      | -           | -           | -            | -                                                                              |
@@ -59,8 +59,8 @@ If you are curious about more theoretical background on ATDx, you can have a loo
 |:----------------------------|:---------------|:--------------|:------------|:-------|:------------|:------------|:-------------|:-------------------------------------------------------------------------------|
 | OsgiInstallerImpl.java      | 5              | 0             | 0           | 0      | 5           | 0           | 0            | src/main/java/org/apache/sling/installer/core/impl/OsgiInstallerImpl.java      |
 | Util.java                   | 4              | 0             | 0           | 0      | 4           | 0           | 0            | src/main/java/org/apache/sling/installer/core/impl/Util.java                   |
+| InstallationContext.java    | 4              | 0             | 0           | 0      | 2           | 0           | 2            | src/main/java/org/apache/sling/installer/api/tasks/InstallationContext.java    |
 | RegisteredResourceImpl.java | 2              | 0             | 1           | 0      | 1           | 0           | 0            | src/main/java/org/apache/sling/installer/core/impl/RegisteredResourceImpl.java |
-| InstallationContext.java    | 2              | 0             | 0           | 0      | 2           | 0           | 0            | src/main/java/org/apache/sling/installer/api/tasks/InstallationContext.java    |
 | Activator.java              | 1              | 0             | 1           | 0      | 0           | 0           | 0            | src/main/java/org/apache/sling/installer/core/impl/Activator.java              |
 | InternalResource.java       | 1              | 0             | 0           | 0      | 1           | 0           | 0            | src/main/java/org/apache/sling/installer/core/impl/InternalResource.java       |
 | FileDataStore.java          | 1              | 0             | 0           | 0      | 1           | 0           | 0            | src/main/java/org/apache/sling/installer/core/impl/FileDataStore.java          |
@@ -74,11 +74,11 @@ If you are curious about more theoretical background on ATDx, you can have a loo
 ### Top classes with architectural debt violations
 | Class name             | Total issues   | Inheritance   | Exception   | JVMS   | Interface   | Threading   | Complexity   | Fully qualified class name                                                        |
 |:-----------------------|:---------------|:--------------|:------------|:-------|:------------|:------------|:-------------|:----------------------------------------------------------------------------------|
+| FolderNameFilter.java  | 2              | 1             | 0           | 1      | 0           | 0           | 0            | src/main/java/org/apache/sling/installer/provider/jcr/impl/FolderNameFilter.java  |
 | JcrInstaller.java      | 1              | 0             | 1           | 0      | 0           | 0           | 0            | src/main/java/org/apache/sling/installer/provider/jcr/impl/JcrInstaller.java      |
 | FileNodeConverter.java | 1              | 0             | 1           | 0      | 0           | 0           | 0            | src/main/java/org/apache/sling/installer/provider/jcr/impl/FileNodeConverter.java |
 | JcrUtil.java           | 1              | 0             | 0           | 0      | 1           | 0           | 0            | src/main/java/org/apache/sling/installer/provider/jcr/impl/JcrUtil.java           |
 | WatchedFolder.java     | 1              | 0             | 1           | 0      | 0           | 0           | 0            | src/main/java/org/apache/sling/installer/provider/jcr/impl/WatchedFolder.java     |
-| FolderNameFilter.java  | 1              | 1             | 0           | 0      | 0           | 0           | 0            | src/main/java/org/apache/sling/installer/provider/jcr/impl/FolderNameFilter.java  |
 | -                      | -              | -             | -           | -      | -           | -           | -            | -                                                                                 |
 | -                      | -              | -             | -           | -      | -           | -           | -            | -                                                                                 |
 | -                      | -              | -             | -           | -      | -           | -           | -            | -                                                                                 |

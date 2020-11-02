@@ -74,8 +74,8 @@ If you are curious about more theoretical background on ATDx, you can have a loo
 ### Top classes with architectural debt violations
 | Class name                | Total issues   | Inheritance   | Exception   | JVMS   | Interface   | Threading   | Complexity   | Fully qualified class name                                                        |
 |:--------------------------|:---------------|:--------------|:------------|:-------|:------------|:------------|:-------------|:----------------------------------------------------------------------------------|
+| ScriptHelper.java         | 3              | 0             | 1           | 0      | 1           | 0           | 1            | src/main/java/org/apache/sling/scripting/core/ScriptHelper.java                   |
 | ServiceCache.java         | 2              | 0             | 0           | 0      | 2           | 0           | 0            | src/main/java/org/apache/sling/scripting/core/impl/ServiceCache.java              |
-| ScriptHelper.java         | 2              | 0             | 1           | 0      | 1           | 0           | 0            | src/main/java/org/apache/sling/scripting/core/ScriptHelper.java                   |
 | Script.java               | 1              | 0             | 0           | 0      | 1           | 0           | 0            | src/main/java/org/apache/sling/scripting/core/impl/bundled/Script.java            |
 | PrecompiledScript.java    | 1              | 0             | 0           | 0      | 1           | 0           | 0            | src/main/java/org/apache/sling/scripting/core/impl/bundled/PrecompiledScript.java |
 | InternalScriptHelper.java | 1              | 1             | 0           | 0      | 0           | 0           | 0            | src/main/java/org/apache/sling/scripting/core/impl/InternalScriptHelper.java      |
@@ -91,7 +91,7 @@ If you are curious about more theoretical background on ATDx, you can have a loo
 ### Top classes with architectural debt violations
 | Class name                           | Total issues   | Inheritance   | Exception   | JVMS   | Interface   | Threading   | Complexity   | Fully qualified class name                                                                                    |
 |:-------------------------------------|:---------------|:--------------|:------------|:-------|:------------|:------------|:-------------|:--------------------------------------------------------------------------------------------------------------|
-| SlingScriptResolverImpl.java         | 2              | 0             | 1           | 0      | 1           | 0           | 0            | src/main/java/org/apache/sling/servlets/resolver/internal/SlingScriptResolverImpl.java                        |
+| SlingScriptResolverImpl.java         | 3              | 0             | 1           | 0      | 1           | 0           | 1            | src/main/java/org/apache/sling/servlets/resolver/internal/SlingScriptResolverImpl.java                        |
 | ScriptResourceResolver.java          | 2              | 2             | 0           | 0      | 0           | 0           | 0            | src/main/java/org/apache/sling/servlets/resolver/internal/ScriptResourceResolver.java                         |
 | LocationIterator.java                | 1              | 1             | 0           | 0      | 0           | 0           | 0            | src/main/java/org/apache/sling/servlets/resolver/internal/helper/LocationIterator.java                        |
 | ResolutionCache.java                 | 1              | 0             | 1           | 0      | 0           | 0           | 0            | src/main/java/org/apache/sling/servlets/resolver/internal/resolution/ResolutionCache.java                     |

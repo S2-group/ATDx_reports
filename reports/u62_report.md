@@ -43,12 +43,12 @@ If you are curious about more theoretical background on ATDx, you can have a loo
 | MRBaseClient.java            |             18 |             0 |          17 |      0 |           1 |           0 |            0 | src/main/java/org/onap/dmaap/mr/client/impl/MRBaseClient.java            |
 | MRClientFactory.java         |             18 |             0 |           7 |      0 |          11 |           0 |            0 | src/main/java/org/onap/dmaap/mr/client/MRClientFactory.java              |
 | MRSimplerBatchPublisher.java |              6 |             0 |           1 |      0 |           3 |           2 |            0 | src/main/java/org/onap/dmaap/mr/client/impl/MRSimplerBatchPublisher.java |
+| MRTopicManager.java          |              4 |             0 |           2 |      0 |           1 |           0 |            1 | src/main/java/org/onap/dmaap/mr/client/MRTopicManager.java               |
 | MRConsumer.java              |              4 |             0 |           4 |      0 |           0 |           0 |            0 | src/main/java/org/onap/dmaap/mr/client/MRConsumer.java                   |
 | SimpleExamplePublisher.java  |              4 |             0 |           4 |      0 |           0 |           0 |            0 | src/main/java/org/onap/dmaap/mr/test/clients/SimpleExamplePublisher.java |
 | MRMetaClient.java            |              4 |             0 |           4 |      0 |           0 |           0 |            0 | src/main/java/org/onap/dmaap/mr/client/impl/MRMetaClient.java            |
-| MRTopicManager.java          |              3 |             0 |           2 |      0 |           1 |           0 |            0 | src/main/java/org/onap/dmaap/mr/client/MRTopicManager.java               |
+| MRBatchPublisher.java        |              3 |             0 |           1 |      0 |           1 |           0 |            1 | src/main/java/org/onap/dmaap/mr/client/impl/MRBatchPublisher.java        |
 | MRConsumerImpl.java          |              3 |             0 |           1 |      0 |           2 |           0 |            0 | src/main/java/org/onap/dmaap/mr/client/impl/MRConsumerImpl.java          |
-| MRBatchPublisher.java        |              2 |             0 |           1 |      0 |           1 |           0 |            0 | src/main/java/org/onap/dmaap/mr/client/impl/MRBatchPublisher.java        |
 | SimpleExamplePublisher.java  |              2 |             0 |           2 |      0 |           0 |           0 |            0 | src/main/java/org/onap/dmaap/mr/dme/client/SimpleExamplePublisher.java   |
 
 ## Project 2: _onap/dmaap-messagerouter-messageservice_

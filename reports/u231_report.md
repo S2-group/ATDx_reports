@@ -53,16 +53,16 @@ If you are curious about more theoretical background on ATDx, you can have a loo
 |<img src="https://github.com/S2-group/ATDx_reports/blob/master/plots/apache_sling-org-apache-sling-testing-clients.jpg"/>|<p style="text-align:left">[Project on Github](https://github.com/apache/sling-org-apache-sling-testing-clients) <br> [Project on SonarCloud ](https://sonarcloud.io/dashboard?id=apache_sling-org-apache-sling-testing-clients) <br> [Complete issue report (JSON)](https://github.com/S2-group/ATDx_reports/blob/master/jsons/apache_sling-org-apache-sling-testing-clients.json)</p>
 |-|-|
 ### Top classes with architectural debt violations
-| Class name                  |   Total issues |   Inheritance |   Exception |   JVMS |   Interface |   Threading |   Complexity | Fully qualified class name                                                 |
-|:----------------------------|---------------:|--------------:|------------:|-------:|------------:|------------:|-------------:|:---------------------------------------------------------------------------|
-| AbstractSlingClient.java    |             10 |             0 |           8 |      0 |           2 |           0 |            0 | src/main/java/org/apache/sling/testing/clients/AbstractSlingClient.java    |
-| OsgiConsoleClient.java      |              5 |             0 |           0 |      0 |           5 |           0 |            0 | src/main/java/org/apache/sling/testing/clients/osgi/OsgiConsoleClient.java |
-| SlingHttpResponse.java      |              4 |             0 |           4 |      0 |           0 |           0 |            0 | src/main/java/org/apache/sling/testing/clients/SlingHttpResponse.java      |
-| SlingClient.java            |              3 |             0 |           0 |      0 |           3 |           0 |            0 | src/main/java/org/apache/sling/testing/clients/SlingClient.java            |
-| HttpUtils.java              |              2 |             0 |           1 |      0 |           1 |           0 |            0 | src/main/java/org/apache/sling/testing/clients/util/HttpUtils.java         |
-| XSSUtils.java               |              2 |             0 |           1 |      0 |           1 |           0 |            0 | src/main/java/org/apache/sling/testing/clients/util/XSSUtils.java          |
-| ResourceUtil.java           |              1 |             0 |           0 |      0 |           1 |           0 |            0 | src/main/java/org/apache/sling/testing/clients/util/ResourceUtil.java      |
-| BundlesInstaller.java       |              1 |             0 |           0 |      0 |           1 |           0 |            0 | src/main/java/org/apache/sling/testing/clients/osgi/BundlesInstaller.java  |
-| Constants.java              |              1 |             0 |           0 |      0 |           1 |           0 |            0 | src/main/java/org/apache/sling/testing/Constants.java                      |
-| SystemPropertiesConfig.java |              1 |             0 |           0 |      0 |           1 |           0 |            0 | src/main/java/org/apache/sling/testing/clients/SystemPropertiesConfig.java |
+| Class name               |   Total issues |   Inheritance |   Exception |   JVMS |   Interface |   Threading |   Complexity | Fully qualified class name                                                     |
+|:-------------------------|---------------:|--------------:|------------:|-------:|------------:|------------:|-------------:|:-------------------------------------------------------------------------------|
+| AbstractSlingClient.java |             12 |             0 |           8 |      0 |           2 |           0 |            2 | src/main/java/org/apache/sling/testing/clients/AbstractSlingClient.java        |
+| OsgiConsoleClient.java   |             10 |             0 |           0 |      0 |           5 |           0 |            5 | src/main/java/org/apache/sling/testing/clients/osgi/OsgiConsoleClient.java     |
+| SlingClient.java         |              6 |             0 |           0 |      0 |           3 |           0 |            3 | src/main/java/org/apache/sling/testing/clients/SlingClient.java                |
+| SlingHttpResponse.java   |              4 |             0 |           4 |      0 |           0 |           0 |            0 | src/main/java/org/apache/sling/testing/clients/SlingHttpResponse.java          |
+| BundlesInstaller.java    |              2 |             0 |           0 |      0 |           1 |           0 |            1 | src/main/java/org/apache/sling/testing/clients/osgi/BundlesInstaller.java      |
+| TimeoutsProvider.java    |              2 |             0 |           0 |      0 |           1 |           0 |            1 | src/main/java/org/apache/sling/testing/clients/util/TimeoutsProvider.java      |
+| PathPoller.java          |              2 |             0 |           0 |      0 |           1 |           0 |            1 | src/main/java/org/apache/sling/testing/clients/util/poller/PathPoller.java     |
+| AbstractPoller.java      |              2 |             0 |           0 |      0 |           1 |           0 |            1 | src/main/java/org/apache/sling/testing/clients/util/poller/AbstractPoller.java |
+| Poller.java              |              2 |             0 |           0 |      0 |           1 |           0 |            1 | src/main/java/org/apache/sling/testing/clients/util/poller/Poller.java         |
+| OsgiInstanceConfig.java  |              2 |             0 |           0 |      0 |           1 |           0 |            1 | src/main/java/org/apache/sling/testing/clients/osgi/OsgiInstanceConfig.java    |
 

@@ -38,7 +38,7 @@ If you are curious about more theoretical background on ATDx, you can have a loo
 ### Top classes with architectural debt violations
 | Class name               | Total issues   | Inheritance   | Exception   | JVMS   | Interface   | Threading   | Complexity   | Fully qualified class name                                          |
 |:-------------------------|:---------------|:--------------|:------------|:-------|:------------|:------------|:-------------|:--------------------------------------------------------------------|
-| ModelAdapterFactory.java | 7              | 0             | 6           | 0      | 1           | 0           | 0            | src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java |
+| ModelAdapterFactory.java | 8              | 0             | 6           | 0      | 1           | 0           | 1            | src/main/java/org/apache/sling/models/impl/ModelAdapterFactory.java |
 | ExportServlet.java       | 1              | 0             | 0           | 0      | 1           | 0           | 0            | src/main/java/org/apache/sling/models/impl/ExportServlet.java       |
 | -                        | -              | -             | -           | -      | -           | -           | -            | -                                                                   |
 | -                        | -              | -             | -           | -      | -           | -           | -            | -                                                                   |

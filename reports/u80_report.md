@@ -83,7 +83,7 @@ If you are curious about more theoretical background on ATDx, you can have a loo
 | EncryptConvertor.java              |              4 |             0 |           3 |      0 |           1 |           0 |            0 | sparkybe-onap-service/src/main/java/org/onap/aai/sparky/util/EncryptConvertor.java                                |
 | SyncControllerImpl.java            |              4 |             0 |           2 |      0 |           0 |           0 |            2 | sparkybe-onap-service/src/main/java/org/onap/aai/sparky/sync/SyncControllerImpl.java                              |
 | RestClientFactory.java             |              4 |             0 |           0 |      0 |           1 |           0 |            3 | sparkybe-onap-service/src/main/java/org/onap/aai/sparky/dal/rest/RestClientFactory.java                           |
-| D3VisualizationOutput.java         |              3 |             0 |           0 |      0 |           3 |           0 |            0 | sparkybe-onap-service/src/main/java/org/onap/aai/sparky/viewandinspect/entity/D3VisualizationOutput.java          |
+| PortalRestAPIServiceImpl.java      |              3 |             0 |           1 |      0 |           1 |           0 |            1 | sparkybe-onap-service/src/main/java/org/onap/aai/sparky/security/portal/PortalRestAPIServiceImpl.java             |
 
 ## Project 4: _onap/aai-spike_
 |<img src="https://github.com/S2-group/ATDx_reports/blob/master/plots/onap_aai-spike.jpg"/>|<p style="text-align:left">[Project on Github](https://github.com/onap/aai-spike) <br> [Project on SonarCloud ](https://sonarcloud.io/dashboard?id=onap_aai-spike) <br> [Complete issue report (JSON)](https://github.com/S2-group/ATDx_reports/blob/master/jsons/onap_aai-spike.json)</p>

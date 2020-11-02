@@ -38,7 +38,7 @@ If you are curious about more theoretical background on ATDx, you can have a loo
 ### Top classes with architectural debt violations
 | Class name                   |   Total issues |   Inheritance |   Exception |   JVMS |   Interface |   Threading |   Complexity | Fully qualified class name                                                             |
 |:-----------------------------|---------------:|--------------:|------------:|-------:|------------:|------------:|-------------:|:---------------------------------------------------------------------------------------|
-| PDPageContentStream.java     |             34 |             0 |           0 |      0 |          34 |           0 |            0 | pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageContentStream.java                |
+| PDPageContentStream.java     |             68 |             0 |           0 |      0 |          34 |           0 |           34 | pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDPageContentStream.java                |
 | CMapParser.java              |             17 |             0 |           0 |      0 |           0 |           0 |           17 | fontbox/src/main/java/org/apache/fontbox/cmap/CMapParser.java                          |
 | PDFDebugger.java             |             13 |             0 |          12 |      0 |           1 |           0 |            0 | debugger/src/main/java/org/apache/pdfbox/debugger/PDFDebugger.java                     |
 | CCITTFactory.java            |             12 |             0 |           0 |      0 |           0 |           0 |           12 | pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/image/CCITTFactory.java        |
@@ -55,14 +55,14 @@ If you are curious about more theoretical background on ATDx, you can have a loo
 ### Top classes with architectural debt violations
 | Class name                |   Total issues |   Inheritance |   Exception |   JVMS |   Interface |   Threading |   Complexity | Fully qualified class name                                                   |
 |:--------------------------|---------------:|--------------:|------------:|-------:|------------:|------------:|-------------:|:-----------------------------------------------------------------------------|
-| FileInformationBlock.java |             34 |             0 |           0 |      0 |          34 |           0 |            0 | scratchpad/src/main/java/org/apache/poi/hwpf/model/FileInformationBlock.java |
-| ClassID.java              |             28 |             0 |           1 |      0 |          27 |           0 |            0 | main/src/main/java/org/apache/poi/hpsf/ClassID.java                          |
-| SXSSFCell.java            |             20 |             0 |           2 |      0 |           1 |           0 |           17 | ooxml/src/main/java/org/apache/poi/xssf/streaming/SXSSFCell.java             |
-| XSSFChart.java            |             15 |             0 |           0 |      0 |          15 |           0 |            0 | ooxml/src/main/java/org/apache/poi/xssf/usermodel/XSSFChart.java             |
-| HSLFShape.java            |             14 |             0 |           0 |      0 |           4 |           0 |           10 | scratchpad/src/main/java/org/apache/poi/hslf/usermodel/HSLFShape.java        |
-| TableStyleType.java       |             13 |            13 |           0 |      0 |           0 |           0 |            0 | main/src/main/java/org/apache/poi/ss/usermodel/TableStyleType.java           |
-| Range.java                |             13 |             0 |           0 |      0 |          13 |           0 |            0 | scratchpad/src/main/java/org/apache/poi/hwpf/usermodel/Range.java            |
-| HeaderStories.java        |             13 |             0 |           0 |      0 |          13 |           0 |            0 | scratchpad/src/main/java/org/apache/poi/hwpf/usermodel/HeaderStories.java    |
-| XSSFWorkbook.java         |             11 |             0 |           6 |      0 |           5 |           0 |            0 | ooxml/src/main/java/org/apache/poi/xssf/usermodel/XSSFWorkbook.java          |
-| SXSSFWorkbook.java        |             11 |             0 |           5 |      0 |           6 |           0 |            0 | ooxml/src/main/java/org/apache/poi/xssf/streaming/SXSSFWorkbook.java         |
+| FileInformationBlock.java |             68 |             0 |           0 |      0 |          34 |           0 |           34 | scratchpad/src/main/java/org/apache/poi/hwpf/model/FileInformationBlock.java |
+| ClassID.java              |             55 |             0 |           1 |      0 |          27 |           0 |           27 | main/src/main/java/org/apache/poi/hpsf/ClassID.java                          |
+| XSSFChart.java            |             30 |             0 |           0 |      0 |          15 |           0 |           15 | ooxml/src/main/java/org/apache/poi/xssf/usermodel/XSSFChart.java             |
+| Range.java                |             26 |             0 |           0 |      0 |          13 |           0 |           13 | scratchpad/src/main/java/org/apache/poi/hwpf/usermodel/Range.java            |
+| HeaderStories.java        |             26 |             0 |           0 |      0 |          13 |           0 |           13 | scratchpad/src/main/java/org/apache/poi/hwpf/usermodel/HeaderStories.java    |
+| SXSSFCell.java            |             21 |             0 |           2 |      0 |           1 |           0 |           18 | ooxml/src/main/java/org/apache/poi/xssf/streaming/SXSSFCell.java             |
+| SignatureConfig.java      |             20 |             0 |           0 |      0 |          10 |           0 |           10 | ooxml/src/main/java/org/apache/poi/poifs/crypt/dsig/SignatureConfig.java     |
+| FontFormatting.java       |             19 |             1 |           0 |      0 |           9 |           0 |            9 | main/src/main/java/org/apache/poi/hssf/record/cf/FontFormatting.java         |
+| HSLFShape.java            |             18 |             0 |           0 |      0 |           4 |           0 |           14 | scratchpad/src/main/java/org/apache/poi/hslf/usermodel/HSLFShape.java        |
+| SXSSFWorkbook.java        |             17 |             0 |           5 |      0 |           6 |           0 |            6 | ooxml/src/main/java/org/apache/poi/xssf/streaming/SXSSFWorkbook.java         |
 
